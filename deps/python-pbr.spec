@@ -1,11 +1,11 @@
 Name:           python-pbr
-Version:        5.11.0
+Version:        5.6.0
 Release:        1%{?dist}
 Summary:        Python Build Reasonableness
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://docs.openstack.org/pbr/latest/
 Source:         %{pypi_source pbr}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 5.11.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 5.6.0-1
 - Initial package

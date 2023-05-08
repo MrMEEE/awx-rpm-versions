@@ -1,11 +1,11 @@
 Name:           python-pytz
-Version:        2022.6
+Version:        2021.3
 Release:        1%{?dist}
 Summary:        World timezone definitions, modern and historical
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            http://pythonhosted.org/pytz
 Source:         %{pypi_source pytz}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2022.6-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2021.3-1
 - Initial package

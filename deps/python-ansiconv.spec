@@ -5,7 +5,7 @@ Summary:        Converts ANSI coded text and converts it to either plain text or
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://bitbucket.org/dhrrgn/ansiconv
 Source:         %{pypi_source ansiconv %{version} zip}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.0.0-1
 - Initial package

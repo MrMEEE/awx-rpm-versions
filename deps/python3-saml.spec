@@ -1,5 +1,5 @@
 Name:           python3-saml
-Version:        1.15.0
+Version:        1.13.0
 Release:        1%{?dist}
 Summary:        Saml Python Toolkit. Add SAML support to your Python software using this library
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Feb 24 2023 Martin Juhl <m@rtinjuhl.dk> - 1.15.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.13.0-1
 - Initial package

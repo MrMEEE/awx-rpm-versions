@@ -1,5 +1,3 @@
-%debug_package %{nil}
-
 Name:           python-uwsgitop
 Version:        0.11
 Release:        1%{?dist}
@@ -7,7 +5,7 @@ Summary:        uWSGI top-like interface
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://pypi.org/project/uwsgitop/
 Source:         %{pypi_source uwsgitop}
 
@@ -55,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.11-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.11-1
 - Initial package

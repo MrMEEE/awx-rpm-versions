@@ -1,11 +1,11 @@
 Name:           python-setuptools
-Version:        65.6.3
+Version:        58.2.0
 Release:        1%{?dist}
 Summary:        Easily download, build, install, upgrade, and uninstall Python packages
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/pypa/setuptools
 Source:         %{pypi_source setuptools}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 65.6.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 58.2.0-1
 - Initial package

@@ -1,11 +1,11 @@
 Name:           python-distro
-Version:        1.8.0
+Version:        1.5.0
 Release:        1%{?dist}
 Summary:        Distro - an OS platform information API
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://github.com/python-distro/distro
 Source:         %{pypi_source distro}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.8.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.5.0-1
 - Initial package

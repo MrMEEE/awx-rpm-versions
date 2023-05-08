@@ -1,11 +1,11 @@
 Name:           python-dsv-sdk
-Version:        1.0.1
+Version:        0.0.1
 Release:        1%{?dist}
 Summary:        The Thycotic DevOps Secret Vault Python SDK
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://pypi.org/project/python-dsv-sdk/
 Source:         %{pypi_source python-dsv-sdk}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.0.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.0.1-1
 - Initial package

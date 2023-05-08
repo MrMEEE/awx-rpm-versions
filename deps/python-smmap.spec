@@ -1,11 +1,11 @@
 Name:           python-smmap
-Version:        5.0.0
+Version:        3.0.1
 Release:        1%{?dist}
 Summary:        A pure Python implementation of a sliding window memory map manager
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/gitpython-developers/smmap
 Source:         %{pypi_source smmap}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 5.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.0.1-1
 - Initial package

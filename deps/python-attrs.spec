@@ -1,12 +1,12 @@
 Name:           python-attrs
-Version:        22.1.0
+Version:        19.3.0
 Release:        1%{?dist}
 Summary:        Classes Without Boilerplate
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
-URL:            https://www.attrs.org/
+License:        gpl
+URL:            https://pypi.org/project/attrs/
 Source:         %{pypi_source attrs}
 
 BuildArch:      noarch
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 22.1.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 19.3.0-1
 - Initial package

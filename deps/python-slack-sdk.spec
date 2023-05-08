@@ -1,11 +1,11 @@
 Name:           python-slack-sdk
-Version:        3.19.4
+Version:        3.11.2
 Release:        1%{?dist}
 Summary:        The Slack API Platform SDK for Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/slackapi/python-slack-sdk
 Source:         %{pypi_source slack_sdk}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.19.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.11.2-1
 - Initial package

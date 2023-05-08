@@ -1,11 +1,11 @@
 Name:           python-charset-normalizer
-Version:        2.1.1
+Version:        2.0.7
 Release:        1%{?dist}
 Summary:        The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/Ousret/charset_normalizer
 Source:         %{pypi_source charset-normalizer}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.1.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.0.7-1
 - Initial package

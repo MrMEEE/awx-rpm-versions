@@ -1,16 +1,16 @@
 Name:           python-psutil
-Version:        5.9.4
+Version:        5.8.0
 Release:        1%{?dist}
 Summary:        Cross-platform lib for process and system monitoring in Python.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/giampaolo/psutil
 Source:         %{pypi_source psutil}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 5.9.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 5.8.0-1
 - Initial package

@@ -5,7 +5,7 @@ Summary:        An ISO 8601 date/time/duration parser and formatter
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/gweis/isodate/
 Source:         %{pypi_source isodate}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.6.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.6.1-1
 - Initial package

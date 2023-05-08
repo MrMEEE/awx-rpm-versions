@@ -1,11 +1,11 @@
 Name:           python-msgpack
-Version:        1.0.4
+Version:        1.0.0
 Release:        1%{?dist}
 Summary:        MessagePack serializer
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://msgpack.org/
 Source:         %{pypi_source msgpack}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.0.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.0.0-1
 - Initial package

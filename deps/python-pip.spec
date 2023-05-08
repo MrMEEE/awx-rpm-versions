@@ -5,7 +5,7 @@ Summary:        The PyPA recommended tool for installing Python packages.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://pip.pypa.io/
 Source:         %{pypi_source pip}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 21.2.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 21.2.4-1
 - Initial package

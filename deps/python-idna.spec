@@ -1,11 +1,11 @@
 Name:           python-idna
-Version:        3.4
+Version:        2.9
 Release:        1%{?dist}
 Summary:        Internationalized Domain Names in Applications (IDNA)
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://pypi.org/project/idna/
 Source:         %{pypi_source idna}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.9-1
 - Initial package

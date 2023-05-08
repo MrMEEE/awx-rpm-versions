@@ -5,7 +5,7 @@ Summary:        Organize Django settings into multiple files and directories. Ea
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://django-split-settings.readthedocs.io
 Source:         %{pypi_source django-split-settings}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.0.0-1
 - Initial package

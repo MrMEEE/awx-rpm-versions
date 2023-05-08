@@ -1,11 +1,11 @@
 Name:           python-pyopenssl
-Version:        22.1.0
+Version:        19.1.0
 Release:        1%{?dist}
 Summary:        Python wrapper module around the OpenSSL library
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://pyopenssl.org/
 Source:         %{pypi_source pyOpenSSL}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 22.1.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 19.1.0-1
 - Initial package

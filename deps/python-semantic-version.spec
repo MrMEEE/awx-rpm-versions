@@ -1,11 +1,11 @@
 Name:           python-semantic-version
-Version:        2.10.0
+Version:        2.9.0
 Release:        1%{?dist}
 Summary:        A library implementing the 'SemVer' scheme.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/rbarrois/python-semanticversion
 Source:         %{pypi_source semantic_version}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.10.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.9.0-1
 - Initial package

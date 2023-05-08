@@ -1,16 +1,16 @@
 Name:           python-yarl
-Version:        1.8.1
+Version:        1.4.2
 Release:        1%{?dist}
 Summary:        Yet another URL library
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://github.com/aio-libs/yarl/
 Source:         %{pypi_source yarl}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.8.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.4.2-1
 - Initial package

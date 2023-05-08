@@ -1,11 +1,11 @@
 Name:           python-jinja2
-Version:        3.1.2
+Version:        3.0.3
 Release:        1%{?dist}
 Summary:        A very fast and expressive template engine.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://palletsprojects.com/p/jinja/
 Source:         %{pypi_source Jinja2}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.1.2-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.0.3-1
 - Initial package

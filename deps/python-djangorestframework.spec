@@ -5,7 +5,7 @@ Summary:        Web APIs for Django, made easy.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://www.django-rest-framework.org/
 Source:         %{pypi_source djangorestframework}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.13.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.13.1-1
 - Initial package

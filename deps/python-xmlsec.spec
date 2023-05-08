@@ -1,16 +1,16 @@
 Name:           python-xmlsec
-Version:        1.3.13
+Version:        1.3.12
 Release:        1%{?dist}
 Summary:        Python bindings for the XML Security Library
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/mehcode/python-xmlsec
 Source:         %{pypi_source xmlsec}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel xmlsec1-openssl xmlsec1-nss xmlsec1 xmlsec1-devel gcc libtool-ltdl-devel
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.3.13-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.3.12-1
 - Initial package

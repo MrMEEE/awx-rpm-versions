@@ -1,11 +1,11 @@
 Name:           python-asgiref
-Version:        3.5.2
+Version:        3.5.0
 Release:        1%{?dist}
 Summary:        ASGI specs, helper code, and adapters
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/django/asgiref/
 Source:         %{pypi_source asgiref}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.5.2-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.5.0-1
 - Initial package

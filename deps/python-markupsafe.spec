@@ -1,11 +1,11 @@
 Name:           python-markupsafe
-Version:        2.1.1
+Version:        2.0.1
 Release:        1%{?dist}
 Summary:        Safely add untrusted strings to HTML/XML markup.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://palletsprojects.com/p/markupsafe/
 Source:         %{pypi_source MarkupSafe}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.1.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.0.1-1
 - Initial package

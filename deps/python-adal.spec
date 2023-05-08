@@ -1,11 +1,11 @@
 Name:           python-adal
-Version:        1.2.7
+Version:        1.2.2
 Release:        1%{?dist}
 Summary:        Note: This library is already replaced by MSAL Python, available here: https://pypi.org/project/msal/ .ADAL Python remains available here as a legacy. The ADAL for Python library makes it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/AzureAD/azure-activedirectory-library-for-python
 Source:         %{pypi_source adal}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.2.7-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.2.2-1
 - Initial package

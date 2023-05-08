@@ -1,11 +1,11 @@
 Name:           python-azure-common
-Version:        1.1.28
+Version:        1.1.25
 Release:        1%{?dist}
 Summary:        Microsoft Azure Client Library for Python (Common)
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/Azure/azure-sdk-for-python
 Source:         %{pypi_source azure-common %{version} zip}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.1.28-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.1.25-1
 - Initial package

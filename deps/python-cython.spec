@@ -1,16 +1,16 @@
 Name:           python-cython
-Version:        0.29.32
+Version:        0.29.22
 Release:        1%{?dist}
 Summary:        The Cython compiler for writing C extensions for the Python language.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            http://cython.org/
 Source:         %{pypi_source Cython}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.29.32-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.29.22-1
 - Initial package

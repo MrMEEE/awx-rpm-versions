@@ -1,11 +1,11 @@
 Name:           python-twilio
-Version:        7.15.3
+Version:        7.9.1
 Release:        1%{?dist}
 Summary:        Twilio API client and TwiML generator
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/twilio/twilio-python/
 Source:         %{pypi_source twilio}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 7.15.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 7.9.1-1
 - Initial package

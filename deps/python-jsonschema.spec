@@ -1,11 +1,11 @@
 Name:           python-jsonschema
-Version:        4.17.3
+Version:        3.2.0
 Release:        1%{?dist}
 Summary:        An implementation of JSON Schema validation for Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/python-jsonschema/jsonschema
 Source:         %{pypi_source jsonschema}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.17.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.2.0-1
 - Initial package

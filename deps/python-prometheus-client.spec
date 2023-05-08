@@ -1,5 +1,5 @@
 Name:           python-prometheus-client
-Version:        0.16.0
+Version:        0.7.1
 Release:        1%{?dist}
 Summary:        Python client for the Prometheus monitoring system.
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Mon Apr 03 2023 Martin Juhl <m@rtinjuhl.dk> - 0.16.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.7.1-1
 - Initial package

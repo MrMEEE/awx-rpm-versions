@@ -1,18 +1,16 @@
-%define _unpackaged_files_terminate_build 0
-%define python3_sitelib /usr/lib64/python3.9/site-packages
 Name:           python-uwsgi
-Version:        2.0.21
+Version:        2.0.18
 Release:        1%{?dist}
 Summary:        The uWSGI server
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        GPL2
+License:        gpl
 URL:            https://uwsgi-docs.readthedocs.io/en/latest/
 Source:         %{pypi_source uwsgi}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -37,7 +35,6 @@ Summary:        %{summary}
 
 
 %build
-touch INSTALLER
 %pyproject_wheel
 
 
@@ -48,10 +45,13 @@ touch INSTALLER
 %pyproject_save_files '*' +auto
 
 
+%check
+%pyproject_check_import
+
 
 %files -n python3-uwsgi -f %{pyproject_files}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.0.21-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.0.18-1
 - Initial package

@@ -1,11 +1,11 @@
 Name:           python-setuptools-scm
-Version:        7.0.5
+Version:        6.4.2
 Release:        1%{?dist}
 Summary:        the blessed package to manage your versions by scm tags
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/pypa/setuptools_scm/
 Source:         %{pypi_source setuptools_scm}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 7.0.5-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 6.4.2-1
 - Initial package

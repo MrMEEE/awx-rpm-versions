@@ -5,7 +5,7 @@ Summary:        Python-ASN1 is a simple ASN.1 encoder and decoder for Python 2.7
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/andrivet/python-asn1
 Source:         %{pypi_source asn1}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.6.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.6.0-1
 - Initial package

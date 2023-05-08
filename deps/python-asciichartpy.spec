@@ -5,7 +5,7 @@ Summary:        Nice-looking lightweight console ASCII line charts ╭┈╯ wit
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/kroitor/asciichart
 Source:         %{pypi_source asciichartpy}
 
@@ -28,7 +28,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n asciichartpy-%{version}
-touch README.md
+
 
 %generate_buildrequires
 %pyproject_buildrequires
@@ -53,5 +53,5 @@ touch README.md
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.5.25-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.5.25-1
 - Initial package

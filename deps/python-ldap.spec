@@ -1,16 +1,16 @@
 Name:           python-ldap
-Version:        3.4.3
+Version:        3.4.0
 Release:        1%{?dist}
 Summary:        Python modules for implementing LDAP clients
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        Python
+License:        gpl
 URL:            https://www.python-ldap.org/
 Source:         %{pypi_source python-ldap}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc openldap-devel
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.4.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.4.0-1
 - Initial package

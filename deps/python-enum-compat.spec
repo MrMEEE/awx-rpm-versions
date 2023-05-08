@@ -5,7 +5,7 @@ Summary:        enum/enum34 compatibility package
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/jstasiak/enum-compat
 Source:         %{pypi_source enum-compat}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.0.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.0.3-1
 - Initial package

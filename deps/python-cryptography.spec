@@ -1,16 +1,16 @@
 Name:           python-cryptography
-Version:        38.0.4
+Version:        36.0.2
 Release:        1%{?dist}
 Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL and BSD
+License:        gpl
 URL:            https://github.com/pyca/cryptography
 Source:         %{pypi_source cryptography}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel rust cargo openssl-devel
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 38.0.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 36.0.2-1
 - Initial package

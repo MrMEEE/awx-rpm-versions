@@ -1,16 +1,16 @@
 Name:           python-lxml
-Version:        4.9.1
+Version:        4.7.0
 Release:        1%{?dist}
 Summary:        Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://lxml.de/
 Source:         %{pypi_source lxml}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel python3-wheel gcc libxml2-devel python3-pip libxslt-devel
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,6 +30,8 @@ Summary:        %{summary}
 %autosetup -p1 -n lxml-%{version}
 
 
+%generate_buildrequires
+%pyproject_buildrequires
 
 
 %build
@@ -51,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.9.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 4.7.0-1
 - Initial package

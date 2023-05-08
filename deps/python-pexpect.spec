@@ -5,7 +5,7 @@ Summary:        Pexpect allows easy control of interactive console applications.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ISC
+License:        gpl
 URL:            https://pexpect.readthedocs.io/
 Source:         %{pypi_source pexpect}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.7.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 4.7.0-1
 - Initial package

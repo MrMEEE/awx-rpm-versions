@@ -1,13 +1,13 @@
 Name:           python-websocket-client
-Version:        1.4.2
+Version:        0.57.0
 Release:        1%{?dist}
 Summary:        WebSocket client for Python with low level API options
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://github.com/websocket-client/websocket-client.git
-Source:         %{pypi_source websocket-client}
+Source:         %{pypi_source websocket_client}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -27,7 +27,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n websocket-client-%{version}
+%autosetup -p1 -n websocket_client-%{version}
 
 
 %generate_buildrequires
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.4.2-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.57.0-1
 - Initial package

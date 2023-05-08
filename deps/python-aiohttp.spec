@@ -1,16 +1,16 @@
 Name:           python-aiohttp
-Version:        3.8.3
+Version:        3.7.4
 Release:        1%{?dist}
 Summary:        Async http client/server framework (asyncio)
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://github.com/aio-libs/aiohttp
 Source:         %{pypi_source aiohttp}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.8.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.7.4-1
 - Initial package

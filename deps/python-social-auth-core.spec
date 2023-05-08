@@ -5,7 +5,7 @@ Summary:        Python social authentication made simple.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/python-social-auth/social-core
 Source:         %{pypi_source social-auth-core}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.3.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 4.3.0-1
 - Initial package

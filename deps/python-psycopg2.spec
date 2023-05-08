@@ -1,16 +1,16 @@
 Name:           python-psycopg2
-Version:        2.9.5
+Version:        2.8.4
 Release:        1%{?dist}
 Summary:        psycopg2 - Python-PostgreSQL Database Adapter
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        LGPLv2+
+License:        gpl
 URL:            https://psycopg.org/
 Source:         %{pypi_source psycopg2}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel libpq-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.9.5-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.8.4-1
 - Initial package

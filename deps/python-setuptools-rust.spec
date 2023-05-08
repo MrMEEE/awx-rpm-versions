@@ -1,11 +1,11 @@
 Name:           python-setuptools-rust
-Version:        1.5.2
+Version:        1.2.0
 Release:        1%{?dist}
 Summary:        Setuptools Rust extension plugin
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/PyO3/setuptools-rust
 Source:         %{pypi_source setuptools-rust}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.5.2-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.2.0-1
 - Initial package

@@ -5,7 +5,7 @@ Summary:        OAuthlib authentication support for Requests.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/requests/requests-oauthlib
 Source:         %{pypi_source requests-oauthlib}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.3.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.3.1-1
 - Initial package

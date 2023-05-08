@@ -1,11 +1,11 @@
 Name:           python-typing-extensions
-Version:        4.4.0
+Version:        3.10.0.2
 Release:        1%{?dist}
 Summary:        Backported and Experimental Type Hints for Python 3.7+
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        Python
+License:        gpl
 URL:            https://pypi.org/project/typing-extensions/
 Source:         %{pypi_source typing_extensions}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.4.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.10.0.2-1
 - Initial package

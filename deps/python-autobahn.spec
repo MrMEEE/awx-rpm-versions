@@ -1,11 +1,11 @@
 Name:           python-autobahn
-Version:        22.7.1
+Version:        20.12.3
 Release:        1%{?dist}
 Summary:        WebSocket client & server library, WAMP real-time framework
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/crossbario/autobahn-python
 Source:         %{pypi_source autobahn}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 22.7.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 20.12.3-1
 - Initial package

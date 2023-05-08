@@ -1,12 +1,12 @@
 Name:           python-pyasn1-modules
 Version:        0.2.8
 Release:        1%{?dist}
-Summary:        A collection of ASN.1-based protocols modules.
+Summary:        A collection of ASN.1-based protocols modules
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
-URL:            https://github.com/etingof/pyasn1-modules
+License:        gpl
+URL:            https://github.com/pyasn1/pyasn1-modules
 Source:         %{pypi_source pyasn1-modules}
 
 BuildArch:      noarch
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.2.8-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.2.8-1
 - Initial package

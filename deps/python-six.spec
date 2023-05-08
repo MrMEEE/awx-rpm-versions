@@ -1,11 +1,11 @@
 Name:           python-six
-Version:        1.16.0
+Version:        1.14.0
 Release:        1%{?dist}
 Summary:        Python 2 and 3 compatibility utilities
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/benjaminp/six
 Source:         %{pypi_source six}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 1.16.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 1.14.0-1
 - Initial package

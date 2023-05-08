@@ -1,11 +1,11 @@
 Name:           python-django-cors-headers
-Version:        3.13.0
+Version:        3.7.0
 Release:        1%{?dist}
 Summary:        django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS).
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/adamchainz/django-cors-headers
 Source:         %{pypi_source django-cors-headers}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.13.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.7.0-1
 - Initial package

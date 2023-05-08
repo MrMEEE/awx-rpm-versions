@@ -1,11 +1,11 @@
 Name:           python-more-itertools
-Version:        9.0.0
+Version:        8.2.0
 Release:        1%{?dist}
 Summary:        More routines for operating on iterables, beyond itertools
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/more-itertools/more-itertools
 Source:         %{pypi_source more-itertools}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 9.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 8.2.0-1
 - Initial package

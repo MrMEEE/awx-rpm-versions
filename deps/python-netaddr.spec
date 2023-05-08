@@ -5,7 +5,7 @@ Summary:        A network address manipulation library for Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD and MIT
+License:        gpl
 URL:            https://github.com/drkjam/netaddr/
 Source:         %{pypi_source netaddr}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.8.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.8.0-1
 - Initial package

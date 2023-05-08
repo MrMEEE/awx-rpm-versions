@@ -5,12 +5,12 @@ Summary:        RADIUS tools
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
+License:        gpl
 URL:            https://github.com/pyradius/pyrad
 Source:         %{pypi_source pyrad}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel python3-poetry
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.4-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.4-1
 - Initial package

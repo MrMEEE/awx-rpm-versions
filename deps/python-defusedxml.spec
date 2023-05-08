@@ -1,11 +1,11 @@
 Name:           python-defusedxml
-Version:        0.7.1
+Version:        0.6.0
 Release:        1%{?dist}
 Summary:        XML bomb protection for Python stdlib modules
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        Python
+License:        gpl
 URL:            https://github.com/tiran/defusedxml
 Source:         %{pypi_source defusedxml}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.7.1-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.6.0-1
 - Initial package

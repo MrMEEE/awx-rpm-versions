@@ -1,13 +1,13 @@
 Name:           python-service-identity
-Version:        21.1.0
+Version:        18.1.0
 Release:        1%{?dist}
 Summary:        Service identity verification for pyOpenSSL & cryptography.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://service-identity.readthedocs.io/
-Source:         %{pypi_source service-identity}
+Source:         %{pypi_source service_identity}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -27,7 +27,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n service-identity-%{version}
+%autosetup -p1 -n service_identity-%{version}
 
 
 %generate_buildrequires
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 21.1.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 18.1.0-1
 - Initial package

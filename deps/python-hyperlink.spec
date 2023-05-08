@@ -1,11 +1,11 @@
 Name:           python-hyperlink
-Version:        21.0.0
+Version:        20.0.1
 Release:        1%{?dist}
 Summary:        A featureful, immutable, and correct URL for Python.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/python-hyper/hyperlink
 Source:         %{pypi_source hyperlink}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 21.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 20.0.1-1
 - Initial package

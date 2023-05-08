@@ -5,7 +5,7 @@ Summary:        Django Solo helps working with singletons
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        Creative Commons Attribution 3.0 Unported
+License:        gpl
 URL:            https://github.com/lazybird/django-solo/
 Source:         %{pypi_source django-solo}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.0.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 2.0.0-1
 - Initial package

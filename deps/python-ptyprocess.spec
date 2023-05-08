@@ -1,11 +1,11 @@
 Name:           python-ptyprocess
-Version:        0.7.0
+Version:        0.6.0
 Release:        1%{?dist}
 Summary:        Run a subprocess in a pseudo terminal
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ISC
+License:        gpl
 URL:            https://github.com/pexpect/ptyprocess
 Source:         %{pypi_source ptyprocess}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.7.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.6.0-1
 - Initial package

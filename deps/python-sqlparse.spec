@@ -1,12 +1,12 @@
 Name:           python-sqlparse
-Version:        0.4.3
+Version:        0.4.2
 Release:        1%{?dist}
 Summary:        A non-validating SQL parser.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        BSD
-URL:            https://github.com/andialbrecht/sqlparse
+License:        gpl
+URL:            https://pypi.org/project/sqlparse/
 Source:         %{pypi_source sqlparse}
 
 BuildArch:      noarch
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.4.3-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.4.2-1
 - Initial package

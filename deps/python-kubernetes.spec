@@ -1,11 +1,11 @@
 Name:           python-kubernetes
-Version:        25.3.0
+Version:        23.3.0
 Release:        1%{?dist}
 Summary:        Kubernetes python client
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        ASL
+License:        gpl
 URL:            https://github.com/kubernetes-client/python
 Source:         %{pypi_source kubernetes}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 25.3.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 23.3.0-1
 - Initial package

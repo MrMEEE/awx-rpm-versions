@@ -1,11 +1,11 @@
 Name:           python-pyrsistent
-Version:        0.19.2
+Version:        0.15.7
 Release:        1%{?dist}
 Summary:        Persistent/Functional/Immutable data structures
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/tobgu/pyrsistent/
 Source:         %{pypi_source pyrsistent}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 0.19.2-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 0.15.7-1
 - Initial package

@@ -1,11 +1,11 @@
 Name:           python-automat
-Version:        22.10.0
+Version:        20.2.0
 Release:        1%{?dist}
 Summary:        Self-service finite-state machines for the programmer on the go.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/glyph/Automat
 Source:         %{pypi_source Automat}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 22.10.0-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 20.2.0-1
 - Initial package

@@ -1,11 +1,11 @@
 Name:           python-redis
-Version:        4.3.5
+Version:        3.4.1
 Release:        1%{?dist}
 Summary:        Python client for Redis database and key-value store
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
-License:        MIT
+License:        gpl
 URL:            https://github.com/redis/redis-py
 Source:         %{pypi_source redis}
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 4.3.5-1
+* Tue May 09 2023 Martin Juhl <m@rtinjuhl.dk> - 3.4.1-1
 - Initial package
