@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 2.21-1
+* Sun Jan 29 2023 Martin Juhl <m@rtinjuhl.dk> - 2.21-1
 - Initial package

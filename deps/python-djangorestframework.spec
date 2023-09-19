@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Fri Jan 27 2023 root - 3.13.1-1
+* Sun Jan 29 2023 Martin Juhl <m@rtinjuhl.dk> - 3.13.1-1
 - Initial package
