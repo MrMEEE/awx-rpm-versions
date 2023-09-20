@@ -1,5 +1,5 @@
 Name:           python-rapidfuzz
-Version:        3.3.0
+Version:        2.15.1
 Release:        1%{?dist}
 Summary:        rapid fuzzy string matching
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 3.3.0-1
+* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 2.15.1-1
 - Initial package
