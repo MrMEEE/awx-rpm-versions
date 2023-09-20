@@ -1,0 +1,13 @@
+--- python-aiohttp.spec	2023-09-20 19:23:45.312160596 +0200
++++ python-aiohttp.spec	2023-09-20 19:23:45.211157689 +0200
+@@ -9,8 +9,8 @@
+ URL:            https://github.com/aio-libs/aiohttp
+ Source:         %{pypi_source aiohttp}
+ 
+-BuildArch:      noarch
+-BuildRequires:  python3-devel
++BuildArch:      x86_64
++BuildRequires:  python3-devel gcc
+ 
+ 
+ # Fill in the actual package description to submit package to Fedora
