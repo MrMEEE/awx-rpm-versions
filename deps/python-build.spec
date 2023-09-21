@@ -1,5 +1,5 @@
 Name:           python-build
-Version:        1.0.3
+Version:        0.10.0
 Release:        1%{?dist}
 Summary:        A simple, correct Python build frontend
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 1.0.3-1
+* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 0.10.0-1
 - Initial package

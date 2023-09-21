@@ -10,7 +10,7 @@ URL:            https://cmake.org/
 Source:         %{pypi_source cmake}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel cmake ninja-build gcc
 
 
 # Fill in the actual package description to submit package to Fedora

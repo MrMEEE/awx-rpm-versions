@@ -1,5 +1,5 @@
 Name:           python-poetry-core
-Version:        1.4.0
+Version:        1.6.1
 Release:        1%{?dist}
 Summary:        Poetry PEP 517 Build Backend
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 1.4.0-1
+* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 1.6.1-1
 - Initial package
