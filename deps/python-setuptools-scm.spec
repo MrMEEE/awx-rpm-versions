@@ -1,5 +1,5 @@
 Name:           python-setuptools-scm
-Version:        7.0.5
+Version:        7.1.0
 Release:        1%{?dist}
 Summary:        the blessed package to manage your versions by scm tags
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 7.0.5-1
+* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 7.1.0-1
 - Initial package

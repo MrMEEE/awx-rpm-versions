@@ -10,7 +10,7 @@ URL:            https://github.com/maxbachmann/RapidFuzz
 Source:         %{pypi_source rapidfuzz}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel cmake
 
 
 # Fill in the actual package description to submit package to Fedora
