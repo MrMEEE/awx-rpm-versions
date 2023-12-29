@@ -10,8 +10,7 @@ URL:            https://ansible-builder.readthedocs.io
 Source:         %{pypi_source ansible-builder}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
-
+BuildRequires:  python3-devel 
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

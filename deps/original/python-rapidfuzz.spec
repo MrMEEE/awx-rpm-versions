@@ -1,12 +1,12 @@
 Name:           python-rapidfuzz
-Version:        2.15.1
+Version:        3.6.1
 Release:        1%{?dist}
 Summary:        rapid fuzzy string matching
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/maxbachmann/RapidFuzz
+URL:            https://github.com/rapidfuzz/RapidFuzz
 Source:         %{pypi_source rapidfuzz}
 
 BuildArch:      noarch
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Thu Sep 21 2023 Martin Juhl <m@rtinjuhl.dk> - 2.15.1-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 3.6.1-1
 - Initial package

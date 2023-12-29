@@ -1,5 +1,5 @@
 Name:           python-cleo
-Version:        2.0.1
+Version:        2.1.0
 Release:        1%{?dist}
 Summary:        Cleo allows you to create beautiful and testable command-line interfaces.
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 2.0.1-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 2.1.0-1
 - Initial package
