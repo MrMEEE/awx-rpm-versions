@@ -9,8 +9,8 @@ License:        gpl
 URL:            https://cython.org/
 Source:         %{pypi_source Cython}
 
-BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildArch:      x86_64
+BuildRequires:  python3-devel gcc
 
 
 # Fill in the actual package description to submit package to Fedora

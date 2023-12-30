@@ -10,13 +10,12 @@ URL:            https://pypi.org/project/setuptools-scm/
 Source:         %{pypi_source setuptools_scm}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel python3-toml
 
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
 This is package 'setuptools-scm' generated automatically by pyp2spec.}
-
 
 %description %_description
 
@@ -25,13 +24,14 @@ Summary:        %{summary}
 
 %description -n python3-setuptools-scm %_description
 
+%pyproject_extras_subpkg -n python3-setuptools-scm toml
 
 %prep
 %autosetup -p1 -n setuptools_scm-%{version}
 
 
 %generate_buildrequires
-%pyproject_buildrequires
+%pyproject_buildrequires -x toml
 
 
 %build

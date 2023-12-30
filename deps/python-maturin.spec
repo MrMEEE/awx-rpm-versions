@@ -9,8 +9,8 @@ License:        gpl
 URL:            https://github.com/pyo3/maturin
 Source:         %{pypi_source maturin}
 
-BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildArch:      x86_64
+BuildRequires:  python3-devel rust cargo
 
 
 # Fill in the actual package description to submit package to Fedora

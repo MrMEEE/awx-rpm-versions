@@ -9,8 +9,8 @@ License:        gpl
 URL:            https://github.com/aio-libs/yarl
 Source:         %{pypi_source yarl}
 
-BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildArch:      x86_64
+BuildRequires:  python3-devel gcc
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -55,3 +55,4 @@ Summary:        %{summary}
 %changelog
 * Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 1.8.1-1
 - Initial package
+

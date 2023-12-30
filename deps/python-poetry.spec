@@ -11,7 +11,7 @@ Source:         %{pypi_source poetry}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
-
+Patch: poetry-circular-dep-fix.patch
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
