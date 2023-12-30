@@ -1,4 +1,9 @@
 # Package build status for version: 21.12.0
+* awx-rpm-21.12.0-13.el9 - awx-rpm-21.12.0-13.el9.src.rpm - Missing
+* awx-rpm-21.12.0-14.el9 - awx-rpm-21.12.0-14.el9.src.rpm - Missing
+* awx-rpm-21.12.0-15.el9 - awx-rpm-21.12.0-15.el9.src.rpm - Missing
+* awx-rpm-21.12.0-16.el9 - awx-rpm-21.12.0-16.el9.src.rpm - Missing
+* awx-rpm-21.12.0-1.el9 - awx-rpm-21.12.0-1.el9.src.rpm - Missing
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built
@@ -20,7 +25,6 @@
 * python3-azure-core-1.26.1-1.el9 - python-azure-core-1.26.1-1.el9.src.rpm - Built
 * python3-azure-keyvault-1.1.0-1.el9 - python-azure-keyvault-1.1.0-1.el9.src.rpm - Built
 * python3-azure-nspkg-3.0.2-1.el9 - python-azure-nspkg-3.0.2-1.el9.src.rpm - Built
-* python3-build-0.10.0-1.el9 - python-build-0.10.0-1.el9.src.rpm - Built
 * python3-build-1.0.3-1.el9 - python-build-1.0.3-1.el9.src.rpm - Built
 * python3-cachecontrol-0.13.1-1.el9 - python-cachecontrol-0.13.1-1.el9.src.rpm - Built
 * python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - Built
@@ -63,7 +67,6 @@
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - Built
 * python3-dsv-sdk-1.0.1-1.el9 - python-dsv-sdk-1.0.1-1.el9.src.rpm - Built
 * python3-dulwich-0.20.50-1.el9 - python-dulwich-0.20.50-1.el9.src.rpm - Built
-* python3-dulwich-0.21.6-1.el9 - python-dulwich-0.21.6-1.el9.src.rpm - Built
 * python3-ecdsa-0.18.0-1.el9 - python-ecdsa-0.18.0-1.el9.src.rpm - Built
 * python3-enum-compat-0.0.3-1.el9 - python-enum-compat-0.0.3-1.el9.src.rpm - Built
 * python3-filelock-3.8.0-1.el9 - python-filelock-3.8.0-1.el9.src.rpm - Built
@@ -97,7 +100,6 @@
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built
 * python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - Built
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built
-* python3-lxml-4.9.1-1.el9 - python-lxml-4.9.1-1.el9.src.rpm - Built
 * python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - Built
 * python3-markupsafe-2.1.1-1.el9 - python-markupsafe-2.1.1-1.el9.src.rpm - Built
 * python3-maturin-1.2.3-1.el9 - python-maturin-1.2.3-1.el9.src.rpm - Built
@@ -151,9 +153,7 @@
 * python3-service-identity-21.1.0-1.el9 - python-service-identity-21.1.0-1.el9.src.rpm - Built
 * python3-setuptools-65.6.3-1.el9 - python-setuptools-65.6.3-1.el9.src.rpm - Built
 * python3-setuptools-rust-1.5.2-1.el9 - python-setuptools-rust-1.5.2-1.el9.src.rpm - Built
-* python3-setuptools-scm-7.0.5-1.el9 - python-setuptools-scm-7.0.5-1.el9.src.rpm - Built
 * python3-setuptools-scm-7.1.0-1.el9 - python-setuptools-scm-7.1.0-1.el9.src.rpm - Built
-* python3-setuptools-scm-8.0.2-1.el9 - python-setuptools-scm-8.0.2-1.el9.src.rpm - Built
 * python3-setuptools-twine-0.1.3-1.el9 - python-setuptools-twine-0.1.3-1.el9.src.rpm - Built
 * python3-shellingham-1.5.3-1.el9 - python-shellingham-1.5.3-1.el9.src.rpm - Built
 * python3-six-1.16.0-1.el9 - python-six-1.16.0-1.el9.src.rpm - Built
@@ -181,5 +181,6 @@
 * python3-yarl-1.8.1-1.el9 - python-yarl-1.8.1-1.el9.src.rpm - Built
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built
+* receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-182 total packages, 182 packages built successfully, 0 packages left to fix
+183 total packages, 178 packages built successfully, 5 packages left to fix
