@@ -1,5 +1,5 @@
 Name:           python-dulwich
-Version:        0.20.50
+Version:        0.21.7
 Release:        1%{?dist}
 Summary:        Python Git Library
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.20.50-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.21.7-1
 - Initial package
