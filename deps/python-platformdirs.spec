@@ -1,5 +1,5 @@
 Name:           python-platformdirs
-Version:        3.10.0
+Version:        4.1.0
 Release:        1%{?dist}
 Summary:        A small Python package for determining appropriate platform-specific dirs, e.g. a "user data dir".
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 3.10.0-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 4.1.0-1
 - Initial package

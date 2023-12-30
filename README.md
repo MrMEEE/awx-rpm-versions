@@ -63,6 +63,7 @@
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - Built
 * python3-dsv-sdk-1.0.1-1.el9 - python-dsv-sdk-1.0.1-1.el9.src.rpm - Built
 * python3-dulwich-0.20.50-1.el9 - python-dulwich-0.20.50-1.el9.src.rpm - Built
+* python3-dulwich-0.21.7-1.el9 - python-dulwich-0.21.7-1.el9.src.rpm - Missing
 * python3-ecdsa-0.18.0-1.el9 - python-ecdsa-0.18.0-1.el9.src.rpm - Built
 * python3-enum-compat-0.0.3-1.el9 - python-enum-compat-0.0.3-1.el9.src.rpm - Built
 * python3-filelock-3.8.0-1.el9 - python-filelock-3.8.0-1.el9.src.rpm - Built
@@ -72,7 +73,9 @@
 * python3-google-auth-2.14.1-1.el9 - python-google-auth-2.14.1-1.el9.src.rpm - Built
 * python3-hatch-fancy-pypi-readme-23.1.0-1.el9 - python-hatch-fancy-pypi-readme-23.1.0-1.el9.src.rpm - Built
 * python3-hatchling-1.18.0-1.el9 - python-hatchling-1.18.0-1.el9.src.rpm - Built
+* python3-hatchling-1.21.0-1.el9 - python-hatchling-1.21.0-1.el9.src.rpm - Missing
 * python3-hatch-vcs-0.3.0-1.el9 - python-hatch-vcs-0.3.0-1.el9.src.rpm - Built
+* python3-hatch-vcs-0.4.0-1.el9 - python-hatch-vcs-0.4.0-1.el9.src.rpm - Missing
 * python3-hiredis-2.0.0-1.el9 - python-hiredis-2.0.0-1.el9.src.rpm - Built
 * python3-hyperlink-21.0.0-1.el9 - python-hyperlink-21.0.0-1.el9.src.rpm - Built
 * python3-idna-3.4-1.el9 - python-idna-3.4-1.el9.src.rpm - Built
@@ -93,6 +96,7 @@
 * python3-json-log-formatter-0.5.1-1.el9 - python-json-log-formatter-0.5.1-1.el9.src.rpm - Built
 * python3-jsonschema-4.17.3-1.el9 - python-jsonschema-4.17.3-1.el9.src.rpm - Built
 * python3-keyring-24.2.0-1.el9 - python-keyring-24.2.0-1.el9.src.rpm - Built
+* python3-keyring-24.3.0-1.el9 - python-keyring-24.3.0-1.el9.src.rpm - Missing
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built
 * python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - Built
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built
@@ -116,6 +120,7 @@
 * python3-pip-21.2.4-1.el9 - python-pip-21.2.4-1.el9.src.rpm - Built
 * python3-pkgconfig-1.5.5-1.el9 - python-pkgconfig-1.5.5-1.el9.src.rpm - Built
 * python3-platformdirs-3.10.0-1.el9 - python-platformdirs-3.10.0-1.el9.src.rpm - Built
+* python3-platformdirs-4.1.0-1.el9 - python-platformdirs-4.1.0-1.el9.src.rpm - Missing
 * python3-poetry-1.7.1-1.el9 - python-poetry-1.7.1-1.el9.src.rpm - Built
 * python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - Built
 * python3-priority-1.3.0-1.el9 - python-priority-1.3.0-1.el9.src.rpm - Built
@@ -152,6 +157,7 @@
 * python3-setuptools-scm-7.1.0-1.el9 - python-setuptools-scm-7.1.0-1.el9.src.rpm - Built
 * python3-setuptools-twine-0.1.3-1.el9 - python-setuptools-twine-0.1.3-1.el9.src.rpm - Built
 * python3-shellingham-1.5.3-1.el9 - python-shellingham-1.5.3-1.el9.src.rpm - Built
+* python3-shellingham-1.5.4-1.el9 - python-shellingham-1.5.4-1.el9.src.rpm - Missing
 * python3-six-1.16.0-1.el9 - python-six-1.16.0-1.el9.src.rpm - Built
 * python3-slack-sdk-3.19.4-1.el9 - python-slack-sdk-3.19.4-1.el9.src.rpm - Built
 * python3-smmap-5.0.0-1.el9 - python-smmap-5.0.0-1.el9.src.rpm - Built
@@ -162,6 +168,7 @@
 * python3-tacacs-plus-1.0-1.el9 - python-tacacs-plus-1.0-1.el9.src.rpm - Built
 * python3-tempora-5.1.0-1.el9 - python-tempora-5.1.0-1.el9.src.rpm - Built
 * python3-tomli-2.0.1-1.el9 - python-tomli-2.0.1-1.el9.src.rpm - Built
+* python3-trove-classifiers-2023.11.29-1.el9 - python-trove-classifiers-2023.11.29-1.el9.src.rpm - Missing
 * python3-trove-classifiers-2023.9.19-1.el9 - python-trove-classifiers-2023.9.19-1.el9.src.rpm - Built
 * python3-tss-sdk-1.2.2-1.el9 - python-tss-sdk-1.2.2-1.el9.src.rpm - Built
 * python3-twilio-7.15.3-1.el9 - python-twilio-7.15.3-1.el9.src.rpm - Built
@@ -179,4 +186,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-179 total packages, 179 packages built successfully, 0 packages left to fix
+186 total packages, 179 packages built successfully, 7 packages left to fix

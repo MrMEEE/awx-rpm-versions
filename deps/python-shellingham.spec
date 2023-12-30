@@ -1,5 +1,5 @@
 Name:           python-shellingham
-Version:        1.5.3
+Version:        1.5.4
 Release:        1%{?dist}
 Summary:        Tool to Detect Surrounding Shell
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 1.5.3-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 1.5.4-1
 - Initial package

@@ -31,7 +31,7 @@ Summary:        %{summary}
 
 
 %generate_buildrequires
-%pyproject_buildrequires -R
+%pyproject_buildrequires
 
 
 %build
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 23.1.0-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 23.1.0-1
 - Initial package

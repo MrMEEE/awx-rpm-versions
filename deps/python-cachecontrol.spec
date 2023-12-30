@@ -22,7 +22,6 @@ This is package 'cachecontrol' generated automatically by pyp2spec.}
 
 %package -n     python3-cachecontrol
 Summary:        %{summary}
-Provides: python3.9dist(cachecontrol[filecache]) python3dist(cachecontrol[filecache])
 
 %description -n python3-cachecontrol %_description
 
@@ -32,7 +31,7 @@ Provides: python3.9dist(cachecontrol[filecache]) python3dist(cachecontrol[fileca
 
 
 %generate_buildrequires
-%pyproject_buildrequires -x filecache
+%pyproject_buildrequires
 
 
 %build
@@ -54,5 +53,5 @@ Provides: python3.9dist(cachecontrol[filecache]) python3dist(cachecontrol[fileca
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 0.13.1-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.13.1-1
 - Initial package
