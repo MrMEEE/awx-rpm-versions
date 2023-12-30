@@ -403,11 +403,11 @@ Requires: python-ntlm = 1.1.0
 
 %prep
 %setup -q -n awx
+git checkout -f devel
+git checkout -f %{version}
 %patch0 -p0
 
 %build
-git checkout -f devel
-git checkout -f %{version}
 
 %install
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc

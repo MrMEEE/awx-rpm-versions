@@ -1,8 +1,4 @@
 # Package build status for version: 21.12.0
-* awx-rpm-21.12.0-13.el9 - awx-rpm-21.12.0-13.el9.src.rpm - Missing
-* awx-rpm-21.12.0-14.el9 - awx-rpm-21.12.0-14.el9.src.rpm - Missing
-* awx-rpm-21.12.0-15.el9 - awx-rpm-21.12.0-15.el9.src.rpm - Missing
-* awx-rpm-21.12.0-16.el9 - awx-rpm-21.12.0-16.el9.src.rpm - Missing
 * awx-rpm-21.12.0-1.el9 - awx-rpm-21.12.0-1.el9.src.rpm - Missing
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built
@@ -183,4 +179,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-183 total packages, 178 packages built successfully, 5 packages left to fix
+179 total packages, 178 packages built successfully, 1 packages left to fix
