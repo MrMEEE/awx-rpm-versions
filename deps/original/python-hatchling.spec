@@ -1,5 +1,5 @@
 Name:           python-hatchling
-Version:        1.18.0
+Version:        1.21.0
 Release:        1%{?dist}
 Summary:        Modern, extensible Python build backend
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 1.18.0-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 1.21.0-1
 - Initial package

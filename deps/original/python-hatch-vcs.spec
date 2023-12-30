@@ -1,5 +1,5 @@
 Name:           python-hatch-vcs
-Version:        0.3.0
+Version:        0.4.0
 Release:        1%{?dist}
 Summary:        Hatch plugin for versioning with your preferred VCS
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 0.3.0-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.4.0-1
 - Initial package
