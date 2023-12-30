@@ -1,4 +1,4 @@
-%debug_package %{nil}
+%global debug_package %{nil}
 
 Name:           python-uwsgitop
 Version:        0.11
@@ -55,5 +55,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.11-1
+* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 0.11-1
 - Initial package
