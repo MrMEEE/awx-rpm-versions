@@ -1,5 +1,5 @@
 Name:           python-keyring
-Version:        24.2.0
+Version:        24.3.0
 Release:        1%{?dist}
 Summary:        Store and access your passwords safely.
 
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 24.2.0-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 24.3.0-1
 - Initial package

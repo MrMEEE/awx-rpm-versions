@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Wed Sep 20 2023 Martin Juhl <m@rtinjuhl.dk> - 0.4.1-1
+* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 0.4.1-1
 - Initial package
