@@ -140,7 +140,7 @@
 * python3-pyrsistent-0.19.2-1.el9 - python-pyrsistent-0.19.2-1.el9.src.rpm - Built [Log file](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
 * python3-pytz-2022.6-1.el9 - python-pytz-2022.6-1.el9.src.rpm - Built [Log file](logs/python-pytz-2022.6-1.el9.src.rpm.log)
 * python3-pyyaml-6.0.1-1.el9 - python-pyyaml-6.0.1-1.el9.src.rpm - Built [Log file](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
-* python3-rapidfuzz-3.6.1-1.el9 - python-rapidfuzz-3.6.1-1.el9.src.rpm - **Missing**
+* python3-rapidfuzz-3.6.1-1.el9 - python-rapidfuzz-3.6.1-1.el9.src.rpm - **Missing** [Log file](logs/python-rapidfuzz-3.6.1-1.el9.src.rpm.log)
 * python3-readme-renderer-42.0-1.el9 - python-readme-renderer-42.0-1.el9.src.rpm - **Missing**
 * python3-receptorctl-1.4.2-1.el9 - python-receptorctl-1.4.2-1.el9.src.rpm - **Missing**
 * python3-redis-4.3.5-1.el9 - python-redis-4.3.5-1.el9.src.rpm - **Missing**
