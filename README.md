@@ -154,7 +154,6 @@
 * python3-service-identity-21.1.0-1.el9 - python-service-identity-21.1.0-1.el9.src.rpm - Built [Log file](logs/python-service-identity-21.1.0-1.el9.src.rpm.log)
 * python3-setuptools-65.6.3-1.el9 - python-setuptools-65.6.3-1.el9.src.rpm - Built [Log file](logs/python-setuptools-65.6.3-1.el9.src.rpm.log)
 * python3-setuptools-rust-1.5.2-1.el9 - python-setuptools-rust-1.5.2-1.el9.src.rpm - Built [Log file](logs/python-setuptools-rust-1.5.2-1.el9.src.rpm.log)
-* python3-setuptools-scm-7.1.0-1.el9 - python-setuptools-scm-7.1.0-1.el9.src.rpm - Built [Log file](logs/python-setuptools-scm-7.1.0-1.el9.src.rpm.log)
 * python3-setuptools-scm-8.0.4-1.el9 - python-setuptools-scm-8.0.4-1.el9.src.rpm - Built [Log file](logs/python-setuptools-scm-8.0.4-1.el9.src.rpm.log)
 * python3-setuptools-twine-0.1.3-1.el9 - python-setuptools-twine-0.1.3-1.el9.src.rpm - **Missing** [Log file](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
 * python3-shellingham-1.5.4-1.el9 - python-shellingham-1.5.4-1.el9.src.rpm - Built [Log file](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
@@ -183,7 +182,7 @@
 * python3-wrapt-1.15.0-1.el9 - python-wrapt-1.15.0-1.el9.src.rpm - Built [Log file](logs/python-wrapt-1.15.0-1.el9.src.rpm.log)
 * python3-xmlsec-1.3.13-1.el9 - python-xmlsec-1.3.13-1.el9.src.rpm - **Missing** [Log file](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 * python3-yarl-1.8.1-1.el9 - python-yarl-1.8.1-1.el9.src.rpm - Built [Log file](logs/python-yarl-1.8.1-1.el9.src.rpm.log)
-* python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing** [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
+* python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-186 total packages, 175 packages built successfully, 11 packages left to fix
+185 total packages, 175 packages built successfully, 10 packages left to fix
