@@ -169,7 +169,7 @@
 * python3-tomli-2.0.1-1.el9 - python-tomli-2.0.1-1.el9.src.rpm - Built [Log file](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 * python3-trove-classifiers-2023.11.29-1.el9 - python-trove-classifiers-2023.11.29-1.el9.src.rpm - Built [Log file](logs/python-trove-classifiers-2023.11.29-1.el9.src.rpm.log)
 * python3-tss-sdk-1.2.2-1.el9 - python-tss-sdk-1.2.2-1.el9.src.rpm - Built [Log file](logs/python-tss-sdk-1.2.2-1.el9.src.rpm.log)
-* python3-twilio-7.15.3-1.el9 - python-twilio-7.15.3-1.el9.src.rpm - **Missing**
+* python3-twilio-7.15.3-1.el9 - python-twilio-7.15.3-1.el9.src.rpm - Built [Log file](logs/python-twilio-7.15.3-1.el9.src.rpm.log)
 * python3-twine-4.0.2-1.el9 - python-twine-4.0.2-1.el9.src.rpm - **Missing**
 * python3-twisted-22.10.0-1.el9 - python-twisted-22.10.0-1.el9.src.rpm - **Missing**
 * python3-txaio-22.2.1-1.el9 - python-txaio-22.2.1-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 148 packages built successfully, 37 packages left to fix
+185 total packages, 149 packages built successfully, 36 packages left to fix
