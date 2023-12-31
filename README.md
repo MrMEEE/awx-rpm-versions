@@ -75,7 +75,7 @@
 * python3-hatchling-1.21.0-1.el9 - python-hatchling-1.21.0-1.el9.src.rpm - Built [Log file](logs/python-hatchling-1.21.0-1.el9.src.rpm.log)
 * python3-hatch-vcs-0.4.0-1.el9 - python-hatch-vcs-0.4.0-1.el9.src.rpm - Built [Log file](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 * python3-hiredis-2.0.0-1.el9 - python-hiredis-2.0.0-1.el9.src.rpm - Built [Log file](logs/python-hiredis-2.0.0-1.el9.src.rpm.log)
-* python3-hyperlink-21.0.0-1.el9 - python-hyperlink-21.0.0-1.el9.src.rpm - **Missing**
+* python3-hyperlink-21.0.0-1.el9 - python-hyperlink-21.0.0-1.el9.src.rpm - Built [Log file](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 * python3-idna-3.4-1.el9 - python-idna-3.4-1.el9.src.rpm - **Missing**
 * python3-importlib-metadata-4.6.4-1.el9 - python-importlib-metadata-4.6.4-1.el9.src.rpm - **Missing**
 * python3-incremental-22.10.0-1.el9 - python-incremental-22.10.0-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 65 packages built successfully, 120 packages left to fix
+185 total packages, 66 packages built successfully, 119 packages left to fix
