@@ -136,7 +136,7 @@
 * python3-pyopenssl-23.2.0-1.el9 - python-pyopenssl-23.2.0-1.el9.src.rpm - Built [Log file](logs/python-pyopenssl-23.2.0-1.el9.src.rpm.log)
 * python3-pyparsing-2.4.6-1.el9 - python-pyparsing-2.4.6-1.el9.src.rpm - Built [Log file](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 * python3-pyproject-hooks-1.0.0-1.el9 - python-pyproject-hooks-1.0.0-1.el9.src.rpm - Built [Log file](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
-* python3-pyrad-2.4-1.el9 - python-pyrad-2.4-1.el9.src.rpm - **Missing** [Log file](logs/python-pyrad-2.4-1.el9.src.rpm.log)
+* python3-pyrad-2.4-1.el9 - python-pyrad-2.4-1.el9.src.rpm - Built [Log file](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 * python3-pyrsistent-0.19.2-1.el9 - python-pyrsistent-0.19.2-1.el9.src.rpm - Built [Log file](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
 * python3-pytz-2022.6-1.el9 - python-pytz-2022.6-1.el9.src.rpm - Built [Log file](logs/python-pytz-2022.6-1.el9.src.rpm.log)
 * python3-pyyaml-6.0.1-1.el9 - python-pyyaml-6.0.1-1.el9.src.rpm - Built [Log file](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing** [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-185 total packages, 171 packages built successfully, 14 packages left to fix
+185 total packages, 172 packages built successfully, 13 packages left to fix
