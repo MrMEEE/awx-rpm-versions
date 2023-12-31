@@ -10,7 +10,7 @@ URL:            https://github.com/rapidfuzz/RapidFuzz
 Source:         %{pypi_source rapidfuzz}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel cmake ninja-build
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 3.6.1-1
+* Sun Dec 31 2023 Martin Juhl <m@rtinjuhl.dk> - 3.6.1-1
 - Initial package
