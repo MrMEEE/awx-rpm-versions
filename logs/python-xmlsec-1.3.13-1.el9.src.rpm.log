@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/           19 MB/s | 233 kB     00:00    
-https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.cop     [      ===           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/resu 3.2 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [               ===  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  20 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [===                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [===                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [   ===              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   21 kB/s |  16 kB     00:00    
+/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/           24 MB/s | 233 kB     00:00    
+https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  22 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64  104 kB/s |  16 kB     00:00    
 Dependencies resolved.
 ================================================================================
  Package                  Arch   Version                Repository         Size
@@ -374,7 +374,7 @@ Start: rpmbuild python-xmlsec-1.3.13-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.P2NfVG
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.OcMLvo
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -388,7 +388,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.P2NfVG
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.cfzI3l
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yDCC7B
 + umask 022
 + cd /builddir/build/BUILD
 + cd xmlsec-1.3.13
@@ -423,11 +423,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.3 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  24 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64  130 kB/s |  16 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/resu 8.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  21 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   85 kB/s |  16 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libtool-ltdl-devel-2.4.6-45.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -476,7 +476,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fkcGAk
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.lhbUg7
 + umask 022
 + cd /builddir/build/BUILD
 + cd xmlsec-1.3.13
@@ -527,11 +527,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 2.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 2.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  20 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64  103 kB/s |  16 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  22 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   33 kB/s |  16 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libtool-ltdl-devel-2.4.6-45.el9.x86_64 is already installed.
@@ -621,10 +621,10 @@ Error: Transaction test error:
 
 Finish: rpmbuild python-xmlsec-1.3.13-1.el9.src.rpm
 Finish: build phase for python-xmlsec-1.3.13-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-xmlsec-1.3.13-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-xmlsec-1.3.13-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 7da94b6a60f24e1ab55babcbbf4bb574 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.7db_k4xt:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-xmlsec-1.3.13-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M e2107d30f0c84154992abf7f6c8b26d6 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.4ak4duhj:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-xmlsec-1.3.13-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -632,11 +632,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/resu 2.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Buil  20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64  103 kB/s |  16 kB     00:00    
+https://download.copr.fedorainfracloud.org/resu 3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Buil  22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64   33 kB/s |  16 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libtool-ltdl-devel-2.4.6-45.el9.x86_64 is already installed.
