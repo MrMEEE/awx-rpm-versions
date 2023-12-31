@@ -111,7 +111,7 @@
 * python3-netaddr-0.8.0-1.el9 - python-netaddr-0.8.0-1.el9.src.rpm - Built [Log file](logs/python-netaddr-0.8.0-1.el9.src.rpm.log)
 * python3-nh3-0.2.15-1.el9 - python-nh3-0.2.15-1.el9.src.rpm - Built [Log file](logs/python-nh3-0.2.15-1.el9.src.rpm.log)
 * python3-ntlm-1.1.0-1.el9 - python-ntlm-1.1.0-1.el9.src.rpm - Built [Log file](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
-* python3-oauthlib-3.2.2-1.el9 - python-oauthlib-3.2.2-1.el9.src.rpm - **Missing**
+* python3-oauthlib-3.2.2-1.el9 - python-oauthlib-3.2.2-1.el9.src.rpm - Built [Log file](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 * python3-openapi-codec-1.3.2-1.el9 - python-openapi-codec-1.3.2-1.el9.src.rpm - **Missing**
 * python3-openshift-0.13.1-1.el9 - python-openshift-0.13.1-1.el9.src.rpm - **Missing**
 * python3-packaging-21.3-1.el9 - python-packaging-21.3-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 99 packages built successfully, 86 packages left to fix
+185 total packages, 100 packages built successfully, 85 packages left to fix
