@@ -10,7 +10,7 @@ URL:            https://github.com/jaraco/zipp
 Source:         %{pypi_source zipp}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel python3-setuptools-scm
 
 
 # Fill in the actual package description to submit package to Fedora
