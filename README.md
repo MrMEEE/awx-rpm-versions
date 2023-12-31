@@ -99,7 +99,7 @@
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built [Log file](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
 * python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - **Missing** [Log file](logs/python-ldap-3.4.3-1.el9.src.rpm.log)
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built [Log file](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
-* python3-lxml-4.9.1-1.el9 - python-lxml-4.9.1-1.el9.src.rpm - **Missing**
+* python3-lxml-4.9.1-1.el9 - python-lxml-4.9.1-1.el9.src.rpm - **Missing** [Log file](logs/python-lxml-4.9.1-1.el9.src.rpm.log)
 * python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - **Missing**
 * python3-markupsafe-2.1.1-1.el9 - python-markupsafe-2.1.1-1.el9.src.rpm - **Missing**
 * python3-maturin-1.4.0-1.el9 - python-maturin-1.4.0-1.el9.src.rpm - **Missing**
