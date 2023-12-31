@@ -1,4 +1,4 @@
-INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 /opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-django-rest-swagger-2.2.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 /opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-dulwich-0.20.50-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-django-rest-swagger-2.2.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-dulwich-0.20.50-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.3
 INFO: Mock Version: 5.3
 Start(bootstrap): chroot init
@@ -33,12 +33,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-4.12.0-4.el9.noarch
   python3-dnf-plugins-core-4.1.0-3.el9.noarch
 Finish: chroot init
-Start: build phase for python-django-rest-swagger-2.2.0-1.el9.src.rpm
-Start: build setup for python-django-rest-swagger-2.2.0-1.el9.src.rpm
+Start: build phase for python-dulwich-0.20.50-1.el9.src.rpm
+Start: build setup for python-dulwich-0.20.50-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Wrote: /builddir/build/SRPMS/python-django-rest-swagger-2.2.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-dulwich-0.20.50-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                      19 MB/s |  95 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              54 kB/s |  36 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                      12 MB/s | 100 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              65 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                       Architecture                                                Version                                                                Repository                                                                                                          Size
@@ -128,31 +128,31 @@ Installed:
   python3-rpm-generators-12-8.el9.noarch   python3-rpm-macros-3.9-52.el9.noarch      python3-setuptools-69.0.2-1.el9.noarch   python3-setuptools-wheel-53.0.0-12.el9.noarch  
 
 Complete!
-Finish: build setup for python-django-rest-swagger-2.2.0-1.el9.src.rpm
+Finish: build setup for python-dulwich-0.20.50-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-django-rest-swagger-2.2.0-1.el9.src.rpm
+Start: rpmbuild python-dulwich-0.20.50-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.vNvT6h
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.dZLtQm
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf django-rest-swagger-2.2.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/django-rest-swagger-2.2.0.tar.gz
++ rm -rf dulwich-0.20.50
++ /usr/bin/gzip -dc /builddir/build/SOURCES/dulwich-0.20.50.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd django-rest-swagger-2.2.0
++ cd dulwich-0.20.50
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1JRv42
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.B69om1
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-rest-swagger-2.2.0
++ cd dulwich-0.20.50
 + echo pyproject-rpm-macros
 + echo python3-devel
 + echo 'python3dist(pip) >= 19'
@@ -163,26 +163,26 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1JRv42
 + echo 'python3dist(wheel)'
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3 ']'
-+ mkdir -p /builddir/build/BUILD/django-rest-swagger-2.2.0/.pyproject-builddir
++ mkdir -p /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-rest-swagger-2.2.0/.pyproject-builddir
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-rest-swagger-2.2.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-rest-swagger-2.2.0-1.el9.x86_64-pyproject-buildrequires
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir --output /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
 Handling setuptools >= 40.8 from default build backend
 Requirement satisfied: setuptools >= 40.8
    (installed: setuptools 69.0.2)
 Handling wheel from default build backend
 Requirement not satisfied: wheel
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-django-rest-swagger-2.2.0-1.el9.x86_64-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-django-rest-swagger-2.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-dulwich-0.20.50-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -191,11 +191,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.5 kB/s | 1.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                              100% [=================================================================================================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                    100% [=================================================================================================================================================] 118 kB/s |  36 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              46 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             275 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -238,10 +238,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.G4rgYZ
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gm0sEd
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-rest-swagger-2.2.0
++ cd dulwich-0.20.50
 + echo pyproject-rpm-macros
 + echo python3-devel
 + echo 'python3dist(pip) >= 19'
@@ -252,14 +252,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.G4rgYZ
 + echo 'python3dist(wheel)'
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3 ']'
-+ mkdir -p /builddir/build/BUILD/django-rest-swagger-2.2.0/.pyproject-builddir
++ mkdir -p /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-rest-swagger-2.2.0/.pyproject-builddir
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-rest-swagger-2.2.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-rest-swagger-2.2.0-1.el9.x86_64-pyproject-buildrequires
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir --output /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
 Handling setuptools >= 40.8 from default build backend
 Requirement satisfied: setuptools >= 40.8
    (installed: setuptools 69.0.2)
@@ -267,53 +267,53 @@ Handling wheel from default build backend
 Requirement satisfied: wheel
    (installed: wheel 0.36.2)
 running egg_info
-writing django_rest_swagger.egg-info/PKG-INFO
-writing dependency_links to django_rest_swagger.egg-info/dependency_links.txt
-writing requirements to django_rest_swagger.egg-info/requires.txt
-writing top-level names to django_rest_swagger.egg-info/top_level.txt
-reading manifest file 'django_rest_swagger.egg-info/SOURCES.txt'
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '*.pyo' found anywhere in distribution
-adding license file 'LICENSE'
-writing manifest file 'django_rest_swagger.egg-info/SOURCES.txt'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
 Handling wheel from get_requires_for_build_wheel
 Requirement satisfied: wheel
    (installed: wheel 0.36.2)
 running dist_info
-writing django_rest_swagger.egg-info/PKG-INFO
-writing dependency_links to django_rest_swagger.egg-info/dependency_links.txt
-writing requirements to django_rest_swagger.egg-info/requires.txt
-writing top-level names to django_rest_swagger.egg-info/top_level.txt
-reading manifest file 'django_rest_swagger.egg-info/SOURCES.txt'
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '*.pyo' found anywhere in distribution
-adding license file 'LICENSE'
-writing manifest file 'django_rest_swagger.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/django-rest-swagger-2.2.0/django_rest_swagger-2.2.0.dist-info'
-The [wheel] section is deprecated. Use [bdist_wheel] instead.
-adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
-Handling coreapi (>=2.3.0) from hook generated metadata: Requires-Dist (django-rest-swagger)
-Requirement not satisfied: coreapi (>=2.3.0)
-Handling openapi-codec (>=1.3.1) from hook generated metadata: Requires-Dist (django-rest-swagger)
-Requirement not satisfied: openapi-codec (>=1.3.1)
-Handling djangorestframework (>=3.5.4) from hook generated metadata: Requires-Dist (django-rest-swagger)
-Requirement not satisfied: djangorestframework (>=3.5.4)
-Handling simplejson from hook generated metadata: Requires-Dist (django-rest-swagger)
-Requirement not satisfied: simplejson
-+ cat /builddir/build/BUILD/python-django-rest-swagger-2.2.0-1.el9.x86_64-pyproject-buildrequires
-+ rm -rfv django_rest_swagger-2.2.0.dist-info/
-removed 'django_rest_swagger-2.2.0.dist-info/top_level.txt'
-removed 'django_rest_swagger-2.2.0.dist-info/METADATA'
-removed 'django_rest_swagger-2.2.0.dist-info/LICENSE'
-removed directory 'django_rest_swagger-2.2.0.dist-info/'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/dulwich-0.20.50/dulwich-0.20.50.dist-info'
+adding license file "COPYING" (matched pattern "COPYING")
+Handling urllib3 (>=1.25) from hook generated metadata: Requires-Dist (dulwich)
+Requirement not satisfied: urllib3 (>=1.25)
+Handling fastimport ; extra == 'fastimport' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: fastimport ; extra == 'fastimport'
+Handling urllib3 (>=1.24.1) ; extra == 'https' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: urllib3 (>=1.24.1) ; extra == 'https'
+Handling paramiko ; extra == 'paramiko' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: paramiko ; extra == 'paramiko'
+Handling gpg ; extra == 'pgp' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: gpg ; extra == 'pgp'
++ cat /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv dulwich-0.20.50.dist-info/
+removed 'dulwich-0.20.50.dist-info/entry_points.txt'
+removed 'dulwich-0.20.50.dist-info/top_level.txt'
+removed 'dulwich-0.20.50.dist-info/METADATA'
+removed 'dulwich-0.20.50.dist-info/COPYING'
+removed directory 'dulwich-0.20.50.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-django-rest-swagger-2.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-dulwich-0.20.50-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -322,65 +322,753 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.4 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================] 8.5 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                          8.5 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             279 kB/s |  36 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             231 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3dist(openapi-codec) >= 1.3.1'
 Package python3-packaging-23.1-1.el9.noarch is already installed.
 Package python3-pip-22.0.4-1.el9.noarch is already installed.
 Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-django-rest-swagger-2.2.0-1.el9.src.rpm
-Finish: build phase for python-django-rest-swagger-2.2.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-django-rest-swagger-2.2.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M b763761dd6f8439aa4a1ea523cae5221 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv._shmif4n:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-rest-swagger-2.2.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+===========================================================================================================================================================================================================================================================================================================================================
+ Package                                                                 Architecture                                                   Version                                                                Repository                                                                                                             Size
+===========================================================================================================================================================================================================================================================================================================================================
+Installing:
+ [1mpython3-urllib3                                                        [m noarch                                                         2.1.0-1.el9                                                            downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64                                                         157 k
+
+Transaction Summary
+===========================================================================================================================================================================================================================================================================================================================================
+Install  1 Package
+
+Total size: 157 k
+Installed size: 631 k
+Downloading Packages:
+[SKIPPED] python3-urllib3-2.1.0-1.el9.noarch.rpm: Already downloaded                                                                                                                                                                                                                                                                      
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                                                                                                                                                   1/1 
+  Installing       : python3-urllib3-2.1.0-1.el9.noarch [                                                                                                                                                                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==                                                                                                                                                                                                                                                                          ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=====                                                                                                                                                                                                                                                                       ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==========                                                                                                                                                                                                                                                                  ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [================                                                                                                                                                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=============================                                                                                                                                                                                                                                               ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==========================================                                                                                                                                                                                                                                  ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==================================================                                                                                                                                                                                                                          ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=====================================================                                                                                                                                                                                                                       ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================                                                                                                                                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [================================================================================                                                                                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=====================================================================================                                                                                                                                                                                       ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=============================================================================================                                                                                                                                                                               ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [================================================================================================                                                                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=====================================================================================================                                                                                                                                                                       ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [========================================================================================================                                                                                                                                                                    ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================                                                                                                                                                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================                                                                                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [================================================================================================================================                                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================                                                                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [========================================================================================================================================                                                                                                                                    ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================================================                                                                                                                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==============================================================================================================================================                                                                                                                              ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [================================================================================================================================================                                                                                                                            ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================                                                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================================================================                                                                                                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================================                                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [======================================================================================================================================================================                                                                                                      ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [========================================================================================================================================================================                                                                                                    ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==============================================================================================================================================================================                                                                                              ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================================================                                                                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [======================================================================================================================================================================================                                                                                      ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [========================================================================================================================================================================================                                                                                    ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================================================================================================                                                                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [======================================================================================================================================================================================================                                                                      ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=================================================================================================================================================================================================================                                                           ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [======================================================================================================================================================================================================================                                                      ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================================================================================================================================                                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================================================================================================                                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=========================================================================================================================================================================================================================================                                   ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===========================================================================================================================================================================================================================================                                 ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==============================================================================================================================================================================================================================================                              ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=================================================================================================================================================================================================================================================                           ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================================================================================================================                         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=========================================================================================================================================================================================================================================================                   ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [==============================================================================================================================================================================================================================================================              ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=================================================================================================================================================================================================================================================================           ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [===================================================================================================================================================================================================================================================================         ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch [=========================================================================================================================================================================================================================================================================   ] 1/1  Installing       : python3-urllib3-2.1.0-1.el9.noarch                                                                                                                                                                                                                                                                                1/1 
+  Running scriptlet: python3-urllib3-2.1.0-1.el9.noarch                                                                                                                                                                                                                                                                                1/1 
+  Verifying        : python3-urllib3-2.1.0-1.el9.noarch                                                                                                                                                                                                                                                                                1/1 
+Installed products updated.
+
+Installed:
+  python3-urllib3-2.1.0-1.el9.noarch                                                                                                                                                                                                                                                                                                       
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1703894400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.h9wEks
++ umask 022
++ cd /builddir/build/BUILD
++ cd dulwich-0.20.50
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3dist(setuptools) >= 40.8'
++ echo 'python3dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir --output /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running egg_info
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/dulwich-0.20.50/dulwich-0.20.50.dist-info'
+adding license file "COPYING" (matched pattern "COPYING")
+Handling urllib3 (>=1.25) from hook generated metadata: Requires-Dist (dulwich)
+Requirement satisfied: urllib3 (>=1.25)
+   (installed: urllib3 2.1.0)
+Handling fastimport ; extra == 'fastimport' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: fastimport ; extra == 'fastimport'
+Handling urllib3 (>=1.24.1) ; extra == 'https' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: urllib3 (>=1.24.1) ; extra == 'https'
+Handling paramiko ; extra == 'paramiko' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: paramiko ; extra == 'paramiko'
+Handling gpg ; extra == 'pgp' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: gpg ; extra == 'pgp'
++ cat /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv dulwich-0.20.50.dist-info/
+removed 'dulwich-0.20.50.dist-info/entry_points.txt'
+removed 'dulwich-0.20.50.dist-info/top_level.txt'
+removed 'dulwich-0.20.50.dist-info/METADATA'
+removed 'dulwich-0.20.50.dist-info/COPYING'
+removed directory 'dulwich-0.20.50.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-dulwich-0.20.50-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.4 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                          8.5 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             279 kB/s |  36 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             219 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3dist(openapi-codec) >= 1.3.1'
 Package python3-packaging-23.1-1.el9.noarch is already installed.
 Package python3-pip-22.0.4-1.el9.noarch is already installed.
 Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-urllib3-2.1.0-1.el9.noarch is already installed.
 Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1703894400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OcVjlY
++ umask 022
++ cd /builddir/build/BUILD
++ cd dulwich-0.20.50
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3dist(setuptools) >= 40.8'
++ echo 'python3dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir --output /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running egg_info
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing dulwich.egg-info/PKG-INFO
+writing dependency_links to dulwich.egg-info/dependency_links.txt
+writing entry points to dulwich.egg-info/entry_points.txt
+writing requirements to dulwich.egg-info/requires.txt
+writing top-level names to dulwich.egg-info/top_level.txt
+reading manifest file 'dulwich.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'dulwich/tests/data'
+adding license file 'COPYING'
+writing manifest file 'dulwich.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/dulwich-0.20.50/dulwich-0.20.50.dist-info'
+adding license file "COPYING" (matched pattern "COPYING")
+Handling urllib3 (>=1.25) from hook generated metadata: Requires-Dist (dulwich)
+Requirement satisfied: urllib3 (>=1.25)
+   (installed: urllib3 2.1.0)
+Handling fastimport ; extra == 'fastimport' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: fastimport ; extra == 'fastimport'
+Handling urllib3 (>=1.24.1) ; extra == 'https' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: urllib3 (>=1.24.1) ; extra == 'https'
+Handling paramiko ; extra == 'paramiko' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: paramiko ; extra == 'paramiko'
+Handling gpg ; extra == 'pgp' from hook generated metadata: Requires-Dist (dulwich)
+Ignoring alien requirement: gpg ; extra == 'pgp'
++ cat /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv dulwich-0.20.50.dist-info/
+removed 'dulwich-0.20.50.dist-info/entry_points.txt'
+removed 'dulwich-0.20.50.dist-info/top_level.txt'
+removed 'dulwich-0.20.50.dist-info/METADATA'
+removed 'dulwich-0.20.50.dist-info/COPYING'
+removed directory 'dulwich-0.20.50.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.365oAK
++ umask 022
++ cd /builddir/build/BUILD
++ cd dulwich-0.20.50
++ mkdir -p /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir
+Processing /builddir/build/BUILD/dulwich-0.20.50
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info
+  writing /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no directories found matching 'dulwich/tests/data'
+  adding license file 'COPYING'
+  writing manifest file '/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-modern-metadata-3hekh80d/dulwich-0.20.50.dist-info'
+  adding license file "COPYING" (matched pattern "COPYING")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: dulwich
+  Building wheel for dulwich (pyproject.toml): started
+  Running command Building wheel for dulwich (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-cpython-39
+  creating build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/__init__.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/__main__.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/archive.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/bundle.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/cli.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/client.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/config.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/credentials.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/diff_tree.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/errors.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/fastexport.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/file.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/graph.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/greenthreads.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/hooks.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/ignore.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/index.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/lfs.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/line_ending.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/log_utils.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/lru_cache.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/mailmap.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/object_store.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/objects.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/objectspec.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/pack.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/patch.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/porcelain.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/protocol.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/reflog.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/refs.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/repo.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/server.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/stash.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/submodule.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/walk.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/web.py -> build/lib.linux-x86_64-cpython-39/dulwich
+  creating build/lib.linux-x86_64-cpython-39/dulwich/cloud
+  copying dulwich/cloud/__init__.py -> build/lib.linux-x86_64-cpython-39/dulwich/cloud
+  copying dulwich/cloud/gcs.py -> build/lib.linux-x86_64-cpython-39/dulwich/cloud
+  creating build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/__init__.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_archive.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_blackbox.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_bundle.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_client.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_config.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_credentials.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_diff_tree.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_fastexport.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_file.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_grafts.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_graph.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_greenthreads.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_hooks.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_ignore.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_index.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_lfs.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_line_ending.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_lru_cache.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_mailmap.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_missing_obj_finder.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_object_store.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_objects.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_objectspec.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_pack.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_patch.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_porcelain.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_protocol.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_reflog.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_refs.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_repository.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_server.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_stash.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_utils.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_walk.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/test_web.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  copying dulwich/tests/utils.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests
+  creating build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/__init__.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/server_utils.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_client.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_pack.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_patch.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_porcelain.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_repository.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_server.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_utils.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/test_web.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  copying dulwich/tests/compat/utils.py -> build/lib.linux-x86_64-cpython-39/dulwich/tests/compat
+  creating build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/__init__.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/diffstat.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/paramiko_vendor.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/release_robot.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/requests_vendor.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/swift.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/test_paramiko_vendor.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/test_release_robot.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/test_swift.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  copying dulwich/contrib/test_swift_smoke.py -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  running egg_info
+  writing dulwich.egg-info/PKG-INFO
+  writing dependency_links to dulwich.egg-info/dependency_links.txt
+  writing entry points to dulwich.egg-info/entry_points.txt
+  writing requirements to dulwich.egg-info/requires.txt
+  writing top-level names to dulwich.egg-info/top_level.txt
+  reading manifest file 'dulwich.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no directories found matching 'dulwich/tests/data'
+  adding license file 'COPYING'
+  writing manifest file 'dulwich.egg-info/SOURCES.txt'
+  copying dulwich/_diff_tree.c -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/_objects.c -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/_pack.c -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/py.typed -> build/lib.linux-x86_64-cpython-39/dulwich
+  copying dulwich/stdint.h -> build/lib.linux-x86_64-cpython-39/dulwich
+  creating build/lib.linux-x86_64-cpython-39/docs
+  creating build/lib.linux-x86_64-cpython-39/docs/tutorial
+  copying dulwich/../docs/tutorial/conclusion.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/encoding.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/file-format.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/index.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/introduction.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/object-store.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/porcelain.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/remote.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/repo.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/../docs/tutorial/tag.txt -> build/lib.linux-x86_64-cpython-39/dulwich/../docs/tutorial
+  copying dulwich/contrib/README.md -> build/lib.linux-x86_64-cpython-39/dulwich/contrib
+  running build_ext
+  building 'dulwich._objects' extension
+  creating build/temp.linux-x86_64-cpython-39
+  creating build/temp.linux-x86_64-cpython-39/dulwich
+  gcc -Wno-unused-result -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -I/usr/include/python3.9 -c dulwich/_objects.c -o build/temp.linux-x86_64-cpython-39/dulwich/_objects.o
+  warning: build_ext: building extension "dulwich._objects" failed: command 'gcc' failed: No such file or directory
 
-Directory walk started
-Directory walk done - 55 packages
-Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/.repodata/
-Preparing sqlite DBs
-Pool started (with 5 workers)
-Pool finished
-INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
-Start(bootstrap): init plugins
-INFO: selinux enabled
-Finish(bootstrap): init plugins
-Start: init plugins
-INFO: selinux enabled
-Finish: init plugins
-INFO: Signal handler active
-Start: run
-Start: clean chroot
-Finish: clean chroot
-Finish: run
+  building 'dulwich._pack' extension
+  gcc -Wno-unused-result -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -I/usr/include/python3.9 -c dulwich/_pack.c -o build/temp.linux-x86_64-cpython-39/dulwich/_pack.o
+  warning: build_ext: building extension "dulwich._pack" failed: command 'gcc' failed: No such file or directory
+
+  building 'dulwich._diff_tree' extension
+  gcc -Wno-unused-result -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -I/usr/include/python3.9 -c dulwich/_diff_tree.c -o build/temp.linux-x86_64-cpython-39/dulwich/_diff_tree.o
+  warning: build_ext: building extension "dulwich._diff_tree" failed: command 'gcc' failed: No such file or directory
+
+  running build_scripts
+  creating build/scripts-3.9
+  copying and adjusting bin/dul-receive-pack -> build/scripts-3.9
+  copying and adjusting bin/dul-upload-pack -> build/scripts-3.9
+  changing mode of build/scripts-3.9/dul-receive-pack from 644 to 755
+  changing mode of build/scripts-3.9/dul-upload-pack from 644 to 755
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/__init__.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/__main__.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/archive.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/bundle.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/cli.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/client.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/config.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/credentials.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/diff_tree.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/errors.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/fastexport.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/file.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/graph.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/greenthreads.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/hooks.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/ignore.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/index.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/lfs.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/line_ending.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/log_utils.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/lru_cache.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/mailmap.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/object_store.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/objects.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/objectspec.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/pack.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/patch.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/porcelain.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/protocol.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/reflog.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/refs.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/repo.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/server.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/stash.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/submodule.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/walk.py -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/web.py -> build/bdist.linux-x86_64/wheel/dulwich
+  creating build/bdist.linux-x86_64/wheel/dulwich/cloud
+  copying build/lib.linux-x86_64-cpython-39/dulwich/cloud/__init__.py -> build/bdist.linux-x86_64/wheel/dulwich/cloud
+  copying build/lib.linux-x86_64-cpython-39/dulwich/cloud/gcs.py -> build/bdist.linux-x86_64/wheel/dulwich/cloud
+  creating build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/__init__.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_archive.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_blackbox.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_bundle.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_client.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_config.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_credentials.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_diff_tree.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_fastexport.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_file.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_grafts.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_graph.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_greenthreads.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_hooks.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_ignore.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_index.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_lfs.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_line_ending.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_lru_cache.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_mailmap.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_missing_obj_finder.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_object_store.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_objects.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_objectspec.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_pack.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_patch.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_porcelain.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_protocol.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_reflog.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_refs.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_repository.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_server.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_stash.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_utils.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_walk.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/test_web.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/utils.py -> build/bdist.linux-x86_64/wheel/dulwich/tests
+  creating build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/__init__.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/server_utils.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_client.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_pack.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_patch.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_porcelain.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_repository.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_server.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_utils.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/test_web.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  copying build/lib.linux-x86_64-cpython-39/dulwich/tests/compat/utils.py -> build/bdist.linux-x86_64/wheel/dulwich/tests/compat
+  creating build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/__init__.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/diffstat.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/paramiko_vendor.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/release_robot.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/requests_vendor.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/swift.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/test_paramiko_vendor.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/test_release_robot.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/test_swift.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/test_swift_smoke.py -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/contrib/README.md -> build/bdist.linux-x86_64/wheel/dulwich/contrib
+  copying build/lib.linux-x86_64-cpython-39/dulwich/_diff_tree.c -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/_objects.c -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/_pack.c -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/py.typed -> build/bdist.linux-x86_64/wheel/dulwich
+  copying build/lib.linux-x86_64-cpython-39/dulwich/stdint.h -> build/bdist.linux-x86_64/wheel/dulwich
+  creating build/bdist.linux-x86_64/wheel/docs
+  creating build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/conclusion.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/encoding.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/file-format.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/index.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/introduction.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/object-store.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/porcelain.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/remote.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/repo.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  copying build/lib.linux-x86_64-cpython-39/docs/tutorial/tag.txt -> build/bdist.linux-x86_64/wheel/docs/tutorial
+  running install_egg_info
+  Copying dulwich.egg-info to build/bdist.linux-x86_64/wheel/dulwich-0.20.50-py3.9.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data
+  creating build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data/scripts
+  copying build/scripts-3.9/dul-receive-pack -> build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data/scripts
+  copying build/scripts-3.9/dul-upload-pack -> build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data/scripts
+  changing mode of build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data/scripts/dul-receive-pack to 755
+  changing mode of build/bdist.linux-x86_64/wheel/dulwich-0.20.50.data/scripts/dul-upload-pack to 755
+  adding license file "COPYING" (matched pattern "COPYING")
+  creating build/bdist.linux-x86_64/wheel/dulwich-0.20.50.dist-info/WHEEL
+  creating '/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir/pip-wheel-jz52ki8s/.tmp-mk7o_1jc/dulwich-0.20.50-cp39-cp39-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'docs/tutorial/conclusion.txt'
+  adding 'docs/tutorial/encoding.txt'
+  adding 'docs/tutorial/file-format.txt'
+  adding 'docs/tutorial/index.txt'
+  adding 'docs/tutorial/introduction.txt'
+  adding 'docs/tutorial/object-store.txt'
+  adding 'docs/tutorial/porcelain.txt'
+  adding 'docs/tutorial/remote.txt'
+  adding 'docs/tutorial/repo.txt'
+  adding 'docs/tutorial/tag.txt'
+  adding 'dulwich/__init__.py'
+  adding 'dulwich/__main__.py'
+  adding 'dulwich/_diff_tree.c'
+  adding 'dulwich/_objects.c'
+  adding 'dulwich/_pack.c'
+  adding 'dulwich/archive.py'
+  adding 'dulwich/bundle.py'
+  adding 'dulwich/cli.py'
+  adding 'dulwich/client.py'
+  adding 'dulwich/config.py'
+  adding 'dulwich/credentials.py'
+  adding 'dulwich/diff_tree.py'
+  adding 'dulwich/errors.py'
+  adding 'dulwich/fastexport.py'
+  adding 'dulwich/file.py'
+  adding 'dulwich/graph.py'
+  adding 'dulwich/greenthreads.py'
+  adding 'dulwich/hooks.py'
+  adding 'dulwich/ignore.py'
+  adding 'dulwich/index.py'
+  adding 'dulwich/lfs.py'
+  adding 'dulwich/line_ending.py'
+  adding 'dulwich/log_utils.py'
+  adding 'dulwich/lru_cache.py'
+  adding 'dulwich/mailmap.py'
+  adding 'dulwich/object_store.py'
+  adding 'dulwich/objects.py'
+  adding 'dulwich/objectspec.py'
+  adding 'dulwich/pack.py'
+  adding 'dulwich/patch.py'
+  adding 'dulwich/porcelain.py'
+  adding 'dulwich/protocol.py'
+  adding 'dulwich/py.typed'
+  adding 'dulwich/reflog.py'
+  adding 'dulwich/refs.py'
+  adding 'dulwich/repo.py'
+  adding 'dulwich/server.py'
+  adding 'dulwich/stash.py'
+  adding 'dulwich/stdint.h'
+  adding 'dulwich/submodule.py'
+  adding 'dulwich/walk.py'
+  adding 'dulwich/web.py'
+  adding 'dulwich/cloud/__init__.py'
+  adding 'dulwich/cloud/gcs.py'
+  adding 'dulwich/contrib/README.md'
+  adding 'dulwich/contrib/__init__.py'
+  adding 'dulwich/contrib/diffstat.py'
+  adding 'dulwich/contrib/paramiko_vendor.py'
+  adding 'dulwich/contrib/release_robot.py'
+  adding 'dulwich/contrib/requests_vendor.py'
+  adding 'dulwich/contrib/swift.py'
+  adding 'dulwich/contrib/test_paramiko_vendor.py'
+  adding 'dulwich/contrib/test_release_robot.py'
+  adding 'dulwich/contrib/test_swift.py'
+  adding 'dulwich/contrib/test_swift_smoke.py'
+  adding 'dulwich/tests/__init__.py'
+  adding 'dulwich/tests/test_archive.py'
+  adding 'dulwich/tests/test_blackbox.py'
+  adding 'dulwich/tests/test_bundle.py'
+  adding 'dulwich/tests/test_client.py'
+  adding 'dulwich/tests/test_config.py'
+  adding 'dulwich/tests/test_credentials.py'
+  adding 'dulwich/tests/test_diff_tree.py'
+  adding 'dulwich/tests/test_fastexport.py'
+  adding 'dulwich/tests/test_file.py'
+  adding 'dulwich/tests/test_grafts.py'
+  adding 'dulwich/tests/test_graph.py'
+  adding 'dulwich/tests/test_greenthreads.py'
+  adding 'dulwich/tests/test_hooks.py'
+  adding 'dulwich/tests/test_ignore.py'
+  adding 'dulwich/tests/test_index.py'
+  adding 'dulwich/tests/test_lfs.py'
+  adding 'dulwich/tests/test_line_ending.py'
+  adding 'dulwich/tests/test_lru_cache.py'
+  adding 'dulwich/tests/test_mailmap.py'
+  adding 'dulwich/tests/test_missing_obj_finder.py'
+  adding 'dulwich/tests/test_object_store.py'
+  adding 'dulwich/tests/test_objects.py'
+  adding 'dulwich/tests/test_objectspec.py'
+  adding 'dulwich/tests/test_pack.py'
+  adding 'dulwich/tests/test_patch.py'
+  adding 'dulwich/tests/test_porcelain.py'
+  adding 'dulwich/tests/test_protocol.py'
+  adding 'dulwich/tests/test_reflog.py'
+  adding 'dulwich/tests/test_refs.py'
+  adding 'dulwich/tests/test_repository.py'
+  adding 'dulwich/tests/test_server.py'
+  adding 'dulwich/tests/test_stash.py'
+  adding 'dulwich/tests/test_utils.py'
+  adding 'dulwich/tests/test_walk.py'
+  adding 'dulwich/tests/test_web.py'
+  adding 'dulwich/tests/utils.py'
+  adding 'dulwich/tests/compat/__init__.py'
+  adding 'dulwich/tests/compat/server_utils.py'
+  adding 'dulwich/tests/compat/test_client.py'
+  adding 'dulwich/tests/compat/test_pack.py'
+  adding 'dulwich/tests/compat/test_patch.py'
+  adding 'dulwich/tests/compat/test_porcelain.py'
+  adding 'dulwich/tests/compat/test_repository.py'
+  adding 'dulwich/tests/compat/test_server.py'
+  adding 'dulwich/tests/compat/test_utils.py'
+  adding 'dulwich/tests/compat/test_web.py'
+  adding 'dulwich/tests/compat/utils.py'
+  adding 'dulwich-0.20.50.data/scripts/dul-receive-pack'
+  adding 'dulwich-0.20.50.data/scripts/dul-upload-pack'
+  adding 'dulwich-0.20.50.dist-info/COPYING'
+  adding 'dulwich-0.20.50.dist-info/METADATA'
+  adding 'dulwich-0.20.50.dist-info/WHEEL'
+  adding 'dulwich-0.20.50.dist-info/entry_points.txt'
+  adding 'dulwich-0.20.50.dist-info/top_level.txt'
+  adding 'dulwich-0.20.50.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for dulwich (pyproject.toml): finished with status 'done'
+  Created wheel for dulwich: filename=dulwich-0.20.50-cp39-cp39-linux_x86_64.whl size=448275 sha256=18d7ab71f8557f555bc92453135bfc948a44cb5219420244389582d015d71597
+  Stored in directory: /builddir/.cache/pip/wheels/0d/00/1c/2a5f67fb709016a7f3fc1096315070995e0f739f26666be173
+Successfully built dulwich
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.GDo31M
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64
++ cd dulwich-0.20.50
+++ xargs basename --multiple
+++ ls /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir/dulwich-0.20.50-cp39-cp39-linux_x86_64.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=dulwich==0.20.50
++ TMPDIR=/builddir/build/BUILD/dulwich-0.20.50/.pyproject-builddir
++ /usr/bin/python3 -m pip install --root /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir dulwich==0.20.50
+Using pip 22.0.4 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+Looking in links: /builddir/build/BUILD/dulwich-0.20.50/pyproject-wheeldir
+Processing ./pyproject-wheeldir/dulwich-0.20.50-cp39-cp39-linux_x86_64.whl
+Installing collected packages: dulwich
+  changing mode of /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dulwich to 755
+Successfully installed dulwich-0.20.50
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin ']'
++ '[' -f /usr/bin/pathfix3.9.py ']'
++ pathfix=/usr/bin/pathfix3.9.py
++ '[' -z s ']'
++ shebang_flags=-kas
++ /usr/bin/pathfix3.9.py -pni /usr/bin/python3 -kas /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dul-receive-pack /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dul-upload-pack /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dulwich
+/builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dul-receive-pack: updating
+/builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dul-upload-pack: updating
+/builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/dulwich: updating
++ rm -rfv /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages '!=' /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages ']'
++ site_dirs+=("/usr/lib64/python3.9/site-packages")
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/RECORD --output /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9/site-packages/dulwich-0.20.50.dist-info/REQUESTED'
+++ cut -f1 '-d '
+++ wc -l /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-ghost-distinfo
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64 --sitelib /usr/lib/python3.9/site-packages --sitearch /usr/lib64/python3.9/site-packages --python-version 3.9 --pyproject-record /builddir/build/BUILD/python-dulwich-0.20.50-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.20.50-1.el9 --unique-debug-suffix -0.20.50-1.el9.x86_64 --unique-debug-src-base python-dulwich-0.20.50-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/dulwich-0.20.50
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64/usr/lib64/python3.9 using python3.9
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3-dulwich-0.20.50-1.el9.noarch
+Provides: python-dulwich = 0.20.50-1.el9 python3-dulwich = 0.20.50-1.el9 python3.9-dulwich = 0.20.50-1.el9 python3.9dist(dulwich) = 0.20.50 python3dist(dulwich) = 0.20.50
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3 python(abi) = 3.9 python3.9dist(urllib3) >= 1.25
+Obsoletes: python39-dulwich < 0.20.50-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-dulwich-0.20.50-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-dulwich-0.20.50-1.el9.src.rpm
