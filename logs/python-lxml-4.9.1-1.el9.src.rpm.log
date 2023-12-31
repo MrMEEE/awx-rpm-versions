@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/           30 MB/s | 233 kB     00:00    
-https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 4.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 4.7 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  18 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [===                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   20 kB/s |  12 kB     00:00    
+/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          4.3 MB/s | 233 kB     00:00    
+https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise L100% [====================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream             15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  17 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   71 kB/s |  12 kB     00:00    
 Dependencies resolved.
 ================================================================================
  Package                  Arch   Version        Repository                 Size
@@ -147,7 +147,7 @@ Start: rpmbuild python-lxml-4.9.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7iWW69
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IjUasG
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -161,7 +161,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7iWW69
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FFjLwp
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.B40EKZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd lxml-4.9.1
@@ -203,11 +203,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.4 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  15 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   85 kB/s |  12 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  16 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   72 kB/s |  12 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -251,7 +251,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.p4hnOS
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tGK9Wn
 + umask 022
 + cd /builddir/build/BUILD
 + cd lxml-4.9.1
@@ -283,8 +283,8 @@ Requirement satisfied: wheel
 Building lxml version 4.9.1.
 Building without Cython.
 Error: Please make sure the libxml2 and libxslt development packages are installed.
-error: Bad exit status from /var/tmp/rpm-tmp.p4hnOS (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.p4hnOS (%generate_buildrequires)
+error: Bad exit status from /var/tmp/rpm-tmp.tGK9Wn (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.tGK9Wn (%generate_buildrequires)
 
 
 RPM build errors:
