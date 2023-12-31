@@ -155,7 +155,7 @@
 * python3-setuptools-65.6.3-1.el9 - python-setuptools-65.6.3-1.el9.src.rpm - Built [Log file](logs/python-setuptools-65.6.3-1.el9.src.rpm.log)
 * python3-setuptools-rust-1.5.2-1.el9 - python-setuptools-rust-1.5.2-1.el9.src.rpm - Built [Log file](logs/python-setuptools-rust-1.5.2-1.el9.src.rpm.log)
 * python3-setuptools-scm-8.0.4-1.el9 - python-setuptools-scm-8.0.4-1.el9.src.rpm - Built [Log file](logs/python-setuptools-scm-8.0.4-1.el9.src.rpm.log)
-* python3-setuptools-twine-0.1.3-1.el9 - python-setuptools-twine-0.1.3-1.el9.src.rpm - **Missing** [Log file](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
+* python3-setuptools-twine-0.1.3-1.el9 - python-setuptools-twine-0.1.3-1.el9.src.rpm - Built [Log file](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
 * python3-shellingham-1.5.4-1.el9 - python-shellingham-1.5.4-1.el9.src.rpm - Built [Log file](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 * python3-six-1.16.0-1.el9 - python-six-1.16.0-1.el9.src.rpm - Built [Log file](logs/python-six-1.16.0-1.el9.src.rpm.log)
 * python3-slack-sdk-3.19.4-1.el9 - python-slack-sdk-3.19.4-1.el9.src.rpm - Built [Log file](logs/python-slack-sdk-3.19.4-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-185 total packages, 179 packages built successfully, 6 packages left to fix
+185 total packages, 180 packages built successfully, 5 packages left to fix
