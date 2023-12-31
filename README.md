@@ -180,9 +180,9 @@
 * python3-uwsgitop-0.11-1.el9 - python-uwsgitop-0.11-1.el9.src.rpm - Built [Log file](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
 * python3-websocket-client-1.4.2-1.el9 - python-websocket-client-1.4.2-1.el9.src.rpm - Built [Log file](logs/python-websocket-client-1.4.2-1.el9.src.rpm.log)
 * python3-wrapt-1.15.0-1.el9 - python-wrapt-1.15.0-1.el9.src.rpm - Built [Log file](logs/python-wrapt-1.15.0-1.el9.src.rpm.log)
-* python3-xmlsec-1.3.13-1.el9 - python-xmlsec-1.3.13-1.el9.src.rpm - **Missing** [Log file](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+* python3-xmlsec-1.3.13-1.el9 - python-xmlsec-1.3.13-1.el9.src.rpm - Built [Log file](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 * python3-yarl-1.8.1-1.el9 - python-yarl-1.8.1-1.el9.src.rpm - Built [Log file](logs/python-yarl-1.8.1-1.el9.src.rpm.log)
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-185 total packages, 177 packages built successfully, 8 packages left to fix
+185 total packages, 178 packages built successfully, 7 packages left to fix
