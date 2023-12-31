@@ -121,7 +121,7 @@
 * python3-pkgconfig-1.5.5-1.el9 - python-pkgconfig-1.5.5-1.el9.src.rpm - Built [Log file](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 * python3-platformdirs-4.1.0-1.el9 - python-platformdirs-4.1.0-1.el9.src.rpm - Built [Log file](logs/python-platformdirs-4.1.0-1.el9.src.rpm.log)
 * python3-poetry-1.7.1-1.el9 - python-poetry-1.7.1-1.el9.src.rpm - **Missing** [Log file](logs/python-poetry-1.7.1-1.el9.src.rpm.log)
-* python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - **Missing**
+* python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - **Missing** [Log file](logs/python-poetry-plugin-export-1.6.0-1.el9.src.rpm.log)
 * python3-priority-1.3.0-1.el9 - python-priority-1.3.0-1.el9.src.rpm - **Missing**
 * python3-prometheus-client-0.19.0-1.el9 - python-prometheus-client-0.19.0-1.el9.src.rpm - **Missing**
 * python3-psutil-5.9.4-1.el9 - python-psutil-5.9.4-1.el9.src.rpm - **Missing**
