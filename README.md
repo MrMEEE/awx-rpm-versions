@@ -97,7 +97,7 @@
 * python3-jwcrypto-1.4.2-1.el9 - python-jwcrypto-1.4.2-1.el9.src.rpm - Built [Log file](logs/python-jwcrypto-1.4.2-1.el9.src.rpm.log)
 * python3-keyring-24.3.0-1.el9 - python-keyring-24.3.0-1.el9.src.rpm - Built [Log file](logs/python-keyring-24.3.0-1.el9.src.rpm.log)
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built [Log file](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
-* python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - **Missing**
+* python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - **Missing** [Log file](logs/python-ldap-3.4.3-1.el9.src.rpm.log)
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - **Missing**
 * python3-lxml-4.9.1-1.el9 - python-lxml-4.9.1-1.el9.src.rpm - **Missing**
 * python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - **Missing**
