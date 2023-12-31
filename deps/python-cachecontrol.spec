@@ -25,6 +25,7 @@ Summary:        %{summary}
 
 %description -n python3-cachecontrol %_description
 
+%pyproject_extras_subpkg -n python3-cachecontrol filecache
 
 %prep
 %autosetup -p1 -n cachecontrol-%{version}

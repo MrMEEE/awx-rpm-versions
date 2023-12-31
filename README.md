@@ -24,7 +24,7 @@
 * python3-boto3-1.26.102-1.el9 - python-boto3-1.26.102-1.el9.src.rpm - Built
 * python3-botocore-1.29.102-1.el9 - python-botocore-1.29.102-1.el9.src.rpm - Built
 * python3-build-1.0.3-1.el9 - python-build-1.0.3-1.el9.src.rpm - Built
-* python3-cachecontrol-0.13.1-1.el9 - python-cachecontrol-0.13.1-1.el9.src.rpm - Built
+* python3-cachecontrol-0.13.1-1.el9 - python-cachecontrol-0.13.1-1.el9.src.rpm - Built [Log file](logs/python-cachecontrol-0.13.1-1.el9.src.rpm.log)
 * python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - Built
 * python3-calver-2022.6.26-1.el9 - python-calver-2022.6.26-1.el9.src.rpm - Built [Log file](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 * python3-cffi-1.15.1-1.el9 - python-cffi-1.15.1-1.el9.src.rpm - Built [Log file](logs/python-cffi-1.15.1-1.el9.src.rpm.log)
@@ -120,7 +120,6 @@
 * python3-pip-21.2.4-1.el9 - python-pip-21.2.4-1.el9.src.rpm - Built [Log file](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 * python3-pkgconfig-1.5.5-1.el9 - python-pkgconfig-1.5.5-1.el9.src.rpm - Built [Log file](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 * python3-platformdirs-3.11.0-1.el9 - python-platformdirs-3.11.0-1.el9.src.rpm - **Missing**
-* python3-platformdirs-4.1.0-1.el9 - python-platformdirs-4.1.0-1.el9.src.rpm - **Missing** [Log file](logs/python-platformdirs-4.1.0-1.el9.src.rpm.log)
 * python3-poetry-1.7.1-1.el9 - python-poetry-1.7.1-1.el9.src.rpm - **Missing** [Log file](logs/python-poetry-1.7.1-1.el9.src.rpm.log)
 * python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - **Missing** [Log file](logs/python-poetry-plugin-export-1.6.0-1.el9.src.rpm.log)
 * python3-priority-1.3.0-1.el9 - python-priority-1.3.0-1.el9.src.rpm - Built [Log file](logs/python-priority-1.3.0-1.el9.src.rpm.log)
@@ -186,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing** [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-186 total packages, 168 packages built successfully, 18 packages left to fix
+185 total packages, 168 packages built successfully, 17 packages left to fix
