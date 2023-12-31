@@ -28,7 +28,7 @@
 * python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - Built
 * python3-calver-2022.6.26-1.el9 - python-calver-2022.6.26-1.el9.src.rpm - Built [Log file](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 * python3-cffi-1.15.1-1.el9 - python-cffi-1.15.1-1.el9.src.rpm - Built [Log file](logs/python-cffi-1.15.1-1.el9.src.rpm.log)
-* python3-channels-3.0.5-1.el9 - python-channels-3.0.5-1.el9.src.rpm - **Missing** [Log file](logs/python-channels-3.0.5-1.el9.src.rpm.log)
+* python3-channels-3.0.5-1.el9 - python-channels-3.0.5-1.el9.src.rpm - Built [Log file](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 * python3-channels-redis-3.4.1-1.el9 - python-channels-redis-3.4.1-1.el9.src.rpm - **Missing** [Log file](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
 * python3-charset-normalizer-2.1.1-1.el9 - python-charset-normalizer-2.1.1-1.el9.src.rpm - Built [Log file](logs/python-charset-normalizer-2.1.1-1.el9.src.rpm.log)
 * python3-cleo-2.1.0-1.el9 - python-cleo-2.1.0-1.el9.src.rpm - **Missing** [Log file](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 53 packages built successfully, 132 packages left to fix
+185 total packages, 54 packages built successfully, 131 packages left to fix
