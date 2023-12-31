@@ -125,7 +125,7 @@
 * python3-priority-1.3.0-1.el9 - python-priority-1.3.0-1.el9.src.rpm - Built [Log file](logs/python-priority-1.3.0-1.el9.src.rpm.log)
 * python3-prometheus-client-0.19.0-1.el9 - python-prometheus-client-0.19.0-1.el9.src.rpm - Built [Log file](logs/python-prometheus-client-0.19.0-1.el9.src.rpm.log)
 * python3-psutil-5.9.4-1.el9 - python-psutil-5.9.4-1.el9.src.rpm - Built [Log file](logs/python-psutil-5.9.4-1.el9.src.rpm.log)
-* python3-psycopg-3.1.9-1.el9 - python-psycopg-3.1.9-1.el9.src.rpm - **Missing**
+* python3-psycopg-3.1.9-1.el9 - python-psycopg-3.1.9-1.el9.src.rpm - **Missing** [Log file](logs/python-psycopg-3.1.9-1.el9.src.rpm.log)
 * python3-ptyprocess-0.7.0-1.el9 - python-ptyprocess-0.7.0-1.el9.src.rpm - **Missing**
 * python3-pyasn1-0.4.8-1.el9 - python-pyasn1-0.4.8-1.el9.src.rpm - **Missing**
 * python3-pyasn1-modules-0.5.1-1.el9 - python-pyasn1-modules-0.5.1-1.el9.src.rpm - **Missing**
