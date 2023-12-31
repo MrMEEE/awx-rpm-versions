@@ -121,7 +121,7 @@
 * python3-pkgconfig-1.5.5-1.el9 - python-pkgconfig-1.5.5-1.el9.src.rpm - Built [Log file](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 * python3-platformdirs-3.11.0-1.el9 - python-platformdirs-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 * python3-poetry-1.7.1-1.el9 - python-poetry-1.7.1-1.el9.src.rpm - Built [Log file](logs/python-poetry-1.7.1-1.el9.src.rpm.log)
-* python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - **Missing** [Log file](logs/python-poetry-plugin-export-1.6.0-1.el9.src.rpm.log)
+* python3-poetry-plugin-export-1.6.0-1.el9 - python-poetry-plugin-export-1.6.0-1.el9.src.rpm - Built [Log file](logs/python-poetry-plugin-export-1.6.0-1.el9.src.rpm.log)
 * python3-priority-1.3.0-1.el9 - python-priority-1.3.0-1.el9.src.rpm - Built [Log file](logs/python-priority-1.3.0-1.el9.src.rpm.log)
 * python3-prometheus-client-0.19.0-1.el9 - python-prometheus-client-0.19.0-1.el9.src.rpm - Built [Log file](logs/python-prometheus-client-0.19.0-1.el9.src.rpm.log)
 * python3-psutil-5.9.4-1.el9 - python-psutil-5.9.4-1.el9.src.rpm - Built [Log file](logs/python-psutil-5.9.4-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing** [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-185 total packages, 170 packages built successfully, 15 packages left to fix
+185 total packages, 171 packages built successfully, 14 packages left to fix
