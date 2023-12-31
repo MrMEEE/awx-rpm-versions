@@ -1,33 +1,33 @@
-Name:           python-lxml
-Version:        4.9.1
+Name:           python-wheel
+Version:        0.42.0
 Release:        1%{?dist}
-Summary:        Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
+Summary:        A built-package format for Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://lxml.de/
-Source:         %{pypi_source lxml}
+URL:            https://pypi.org/project/wheel/
+Source:         %{pypi_source wheel}
 
-BuildArch:      x86_64
-BuildRequires:  python3-devel libxml2-devel libxslt-devel gcc
+BuildArch:      noarch
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'lxml' generated automatically by pyp2spec.}
+This is package 'wheel' generated automatically by pyp2spec.}
 
 
 %description %_description
 
-%package -n     python3-lxml
+%package -n     python3-wheel
 Summary:        %{summary}
 
-%description -n python3-lxml %_description
+%description -n python3-wheel %_description
 
 
 %prep
-%autosetup -p1 -n lxml-%{version}
+%autosetup -p1 -n wheel-%{version}
 
 
 %generate_buildrequires
@@ -49,9 +49,9 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-lxml -f %{pyproject_files}
+%files -n python3-wheel -f %{pyproject_files}
 
 
 %changelog
-* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 4.9.1-1
+* Sun Dec 31 2023 Martin Juhl <m@rtinjuhl.dk> - 0.42.0-1
 - Initial package
