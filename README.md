@@ -149,7 +149,7 @@
 * python3-requirements-parser-0.5.0-1.el9 - python-requirements-parser-0.5.0-1.el9.src.rpm - **Missing** [Log file](logs/python-requirements-parser-0.5.0-1.el9.src.rpm.log)
 * python3-rsa-4.9-1.el9 - python-rsa-4.9-1.el9.src.rpm - Built [Log file](logs/python-rsa-4.9-1.el9.src.rpm.log)
 * python3-s3transfer-0.6.0-1.el9 - python-s3transfer-0.6.0-1.el9.src.rpm - Built [Log file](logs/python-s3transfer-0.6.0-1.el9.src.rpm.log)
-* python3-scikit-build-0.17.6-1.el9 - python-scikit-build-0.17.6-1.el9.src.rpm - **Missing**
+* python3-scikit-build-0.17.6-1.el9 - python-scikit-build-0.17.6-1.el9.src.rpm - Built [Log file](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 * python3-semantic-version-2.10.0-1.el9 - python-semantic-version-2.10.0-1.el9.src.rpm - **Missing**
 * python3-service-identity-21.1.0-1.el9 - python-service-identity-21.1.0-1.el9.src.rpm - **Missing**
 * python3-setuptools-65.6.3-1.el9 - python-setuptools-65.6.3-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 131 packages built successfully, 54 packages left to fix
+185 total packages, 132 packages built successfully, 53 packages left to fix
