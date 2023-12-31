@@ -1,5 +1,5 @@
 Name:           python-setuptools-scm
-Version:        7.1.0
+Version:        8.0.4
 Release:        1%{?dist}
 Summary:        the blessed package to manage your versions by scm tags
 
@@ -7,7 +7,7 @@ Summary:        the blessed package to manage your versions by scm tags
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/setuptools-scm/
-Source:         %{pypi_source setuptools_scm}
+Source:         %{pypi_source setuptools-scm}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -27,7 +27,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n setuptools_scm-%{version}
+%autosetup -p1 -n setuptools-scm-%{version}
 
 
 %generate_buildrequires
@@ -53,5 +53,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Sat Dec 30 2023 Martin Juhl <m@rtinjuhl.dk> - 7.1.0-1
+* Sun Dec 31 2023 Martin Juhl <m@rtinjuhl.dk> - 8.0.4-1
 - Initial package
