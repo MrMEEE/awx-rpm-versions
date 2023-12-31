@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/           35 MB/s | 233 kB     00:00    
-https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/resu 9.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  21 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   86 kB/s |  12 kB     00:00    
+/opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          5.3 MB/s | 233 kB     00:00    
+https://download.cop     [   ===              ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.9 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [            ===     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  19 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [===                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   28 kB/s |  12 kB     00:00    
 Dependencies resolved.
 ================================================================================
  Package                  Arch   Version        Repository                 Size
@@ -147,13 +147,13 @@ Start: rpmbuild python-sqlparse-0.4.4-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aE0tzd
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.GgdQvl
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf sqlparse-0.4.4
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/sqlparse-0.4.4.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd sqlparse-0.4.4
@@ -161,7 +161,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aE0tzd
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.AUvWRp
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zNkyVS
 + umask 022
 + cd /builddir/build/BUILD
 + cd sqlparse-0.4.4
@@ -196,11 +196,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.5 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  17 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   20 kB/s |  12 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/resu 7.2 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  16 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   67 kB/s |  12 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -243,7 +243,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jGIMrJ
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GpQqas
 + umask 022
 + cd /builddir/build/BUILD
 + cd sqlparse-0.4.4
@@ -280,11 +280,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise L100% [====================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  24 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   30 kB/s |  12 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  17 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for E     [               ===  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   23 kB/s |  12 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -324,7 +324,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DOU1eu
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GEwFno
 + umask 022
 + cd /builddir/build/BUILD
 + cd sqlparse-0.4.4
@@ -375,11 +375,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmb     [===                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/          2.9 MB/s | 3.0 kB     00:00    
-https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/resu 8.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  17 kB/s | 4.5 kB     00:00    
-Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   85 kB/s |  12 kB     00:00    
+https://download.cop     [===                 ] ---  B/s |   0  B     --:-- ETAhttps://download.cop100% [====================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/resu 3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise L     [   ===              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise L     [      ===           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream             21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise L     [         ===        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Buil  23 kB/s | 4.5 kB     00:00    
+Extra Packages for E     [            ===     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64   67 kB/s |  12 kB     00:00    
 Package python3-flit-core-3.9.0-4.el9.noarch is already installed.
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -393,7 +393,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.u1Jtw7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dRMw0Q
 + umask 022
 + cd /builddir/build/BUILD
 + cd sqlparse-0.4.4
@@ -435,7 +435,7 @@ removed directory 'sqlparse-0.4.4.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.PZxxhq
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.QEmtUl
 + umask 022
 + cd /builddir/build/BUILD
 + cd sqlparse-0.4.4
@@ -458,7 +458,7 @@ Successfully built sqlparse
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.EfqvuF
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.EvORzO
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-sqlparse-0.4.4-1.el9.x86_64 '!=' / ']'
@@ -468,8 +468,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.EfqvuF
 + mkdir /builddir/build/BUILDROOT/python-sqlparse-0.4.4-1.el9.x86_64
 + cd sqlparse-0.4.4
 ++ ls /builddir/build/BUILD/sqlparse-0.4.4/pyproject-wheeldir/sqlparse-0.4.4-py3-none-any.whl
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 ++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=sqlparse==0.4.4
 + TMPDIR=/builddir/build/BUILD/sqlparse-0.4.4/.pyproject-builddir
 + /usr/bin/python3 -m pip install --root /builddir/build/BUILDROOT/python-sqlparse-0.4.4-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/sqlparse-0.4.4/pyproject-wheeldir sqlparse==0.4.4
@@ -523,17 +523,17 @@ Bytecompiling .py files below /builddir/build/BUILDROOT/python-sqlparse-0.4.4-1.
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
 *** ERROR: ambiguous python shebang in /usr/lib/python3.9/site-packages/sqlparse/cli.py: #!/usr/bin/env python. Change it to python3 (or python2) explicitly.
-error: Bad exit status from /var/tmp/rpm-tmp.EfqvuF (%install)
-    Bad exit status from /var/tmp/rpm-tmp.EfqvuF (%install)
+error: Bad exit status from /var/tmp/rpm-tmp.EvORzO (%install)
+    Bad exit status from /var/tmp/rpm-tmp.EvORzO (%install)
 
 
 RPM build errors:
 Finish: rpmbuild python-sqlparse-0.4.4-1.el9.src.rpm
 Finish: build phase for python-sqlparse-0.4.4-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-sqlparse-0.4.4-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-sqlparse-0.4.4-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 2b2e266cc6f24bb4ba17c32fda1f1eac -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.19cdl7ms:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-sqlparse.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 9b84b34c3d8b42fc89a93b146236c892 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.onsagrdq:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-sqlparse.spec --nocheck'
 
 Directory walk started
 Directory walk done - 202 packages
