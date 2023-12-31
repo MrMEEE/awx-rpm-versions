@@ -129,7 +129,7 @@
 * python3-ptyprocess-0.7.0-1.el9 - python-ptyprocess-0.7.0-1.el9.src.rpm - Built [Log file](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 * python3-pyasn1-0.4.8-1.el9 - python-pyasn1-0.4.8-1.el9.src.rpm - Built [Log file](logs/python-pyasn1-0.4.8-1.el9.src.rpm.log)
 * python3-pyasn1-modules-0.5.1-1.el9 - python-pyasn1-modules-0.5.1-1.el9.src.rpm - Built [Log file](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
-* python3-pycparser-2.21-1.el9 - python-pycparser-2.21-1.el9.src.rpm - **Missing**
+* python3-pycparser-2.21-1.el9 - python-pycparser-2.21-1.el9.src.rpm - Built [Log file](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 * python3-pydantic-1.10.2-1.el9 - python-pydantic-1.10.2-1.el9.src.rpm - **Missing**
 * python3-pygerduty-0.38.3-1.el9 - python-pygerduty-0.38.3-1.el9.src.rpm - **Missing**
 * python3-pyjwt-2.6.0-1.el9 - python-pyjwt-2.6.0-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 114 packages built successfully, 71 packages left to fix
+185 total packages, 115 packages built successfully, 70 packages left to fix
