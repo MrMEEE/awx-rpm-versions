@@ -173,7 +173,7 @@
 * python3-twine-4.0.2-1.el9 - python-twine-4.0.2-1.el9.src.rpm - **Missing** [Log file](logs/python-twine-4.0.2-1.el9.src.rpm.log)
 * python3-twisted-22.10.0-1.el9 - python-twisted-22.10.0-1.el9.src.rpm - Built [Log file](logs/python-twisted-22.10.0-1.el9.src.rpm.log)
 * python3-txaio-22.2.1-1.el9 - python-txaio-22.2.1-1.el9.src.rpm - Built [Log file](logs/python-txaio-22.2.1-1.el9.src.rpm.log)
-* python3-types-setuptools-69.0.0.0-1.el9 - python-types-setuptools-69.0.0.0-1.el9.src.rpm - **Missing**
+* python3-types-setuptools-69.0.0.0-1.el9 - python-types-setuptools-69.0.0.0-1.el9.src.rpm - Built [Log file](logs/python-types-setuptools-69.0.0.0-1.el9.src.rpm.log)
 * python3-typing-extensions-4.4.0-1.el9 - python-typing-extensions-4.4.0-1.el9.src.rpm - **Missing**
 * python3-urllib3-1.26.13-1.el9 - python-urllib3-1.26.13-1.el9.src.rpm - **Missing**
 * python3-uwsgi-2.0.21-1.el9 - python-uwsgi-2.0.21-1.el9.src.rpm - **Missing**
@@ -185,4 +185,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-185 total packages, 151 packages built successfully, 34 packages left to fix
+185 total packages, 152 packages built successfully, 33 packages left to fix
