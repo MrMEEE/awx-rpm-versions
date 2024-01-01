@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           python-psycopg
 Version:        3.1.9
 Release:        1%{?dist}
