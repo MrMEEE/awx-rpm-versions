@@ -10,7 +10,7 @@ URL:            https://lxml.de/
 Source:         %{pypi_source lxml}
 
 BuildArch:      x86_64
-BuildRequires:  python3-devel libxml2-devel libxslt-devel gcc
+BuildRequires:  python3-devel libxml2 libxslt libxml2-devel libxslt-devel gcc
 
 
 # Fill in the actual package description to submit package to Fedora
