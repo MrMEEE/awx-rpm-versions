@@ -185,5 +185,6 @@
 * python3-yarl-1.8.1-1.el9 - python-yarl-1.8.1-1.el9.src.rpm - Built [Log file](logs/python-yarl-1.8.1-1.el9.src.rpm.log)
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
+* receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-186 total packages, 186 packages built successfully, 0 packages left to fix
+187 total packages, 187 packages built successfully, 0 packages left to fix
