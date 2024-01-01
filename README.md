@@ -64,8 +64,6 @@
 * python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - Built [Log file](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - Built [Log file](logs/python-docutils-0.19-1.el9.src.rpm.log)
 * python3-dsv-sdk-1.0.4-1.el9 - python-dsv-sdk-1.0.4-1.el9.src.rpm - Built [Log file](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
-* python3-dulwich-0.20.50-1.el9 - python-dulwich-0.20.50-1.el9.src.rpm - Built [Log file](logs/python-dulwich-0.20.50-1.el9.src.rpm.log)
-* python3-dulwich-0.21.7-1.el9 - python-dulwich-0.21.7-1.el9.src.rpm - Built [Log file](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 * python3-ecdsa-0.18.0-1.el9 - python-ecdsa-0.18.0-1.el9.src.rpm - Built [Log file](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 * python3-enum-compat-0.0.3-1.el9 - python-enum-compat-0.0.3-1.el9.src.rpm - Built [Log file](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 * python3-filelock-3.8.0-1.el9 - python-filelock-3.8.0-1.el9.src.rpm - Built [Log file](logs/python-filelock-3.8.0-1.el9.src.rpm.log)
@@ -101,7 +99,6 @@
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built [Log file](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
 * python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - Built [Log file](logs/python-ldap-3.4.3-1.el9.src.rpm.log)
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built [Log file](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
-* python3-lxml-4.9.1-1.el9 - python-lxml-4.9.1-1.el9.src.rpm - Built [Log file](logs/python-lxml-4.9.1-1.el9.src.rpm.log)
 * python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - Built [Log file](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
 * python3-markupsafe-2.1.1-1.el9 - python-markupsafe-2.1.1-1.el9.src.rpm - Built [Log file](logs/python-markupsafe-2.1.1-1.el9.src.rpm.log)
 * python3-maturin-1.4.0-1.el9 - python-maturin-1.4.0-1.el9.src.rpm - Built [Log file](logs/python-maturin-1.4.0-1.el9.src.rpm.log)
@@ -189,4 +186,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-189 total packages, 187 packages built successfully, 2 packages left to fix
+186 total packages, 184 packages built successfully, 2 packages left to fix
