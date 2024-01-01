@@ -35,6 +35,7 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
 Finish: chroot init
 Start: build phase for python-autocommand-2.2.2-1.el9.src.rpm
 Start: build setup for python-autocommand-2.2.2-1.el9.src.rpm
+error: File /builddir/build/SOURCES/autocommand-undefined-license.patch is smaller than 13 bytes
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
@@ -46,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                      25 MB/s | 243 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.1 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                     ===                                                                                                                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                        ===                                                                                                                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              40 kB/s |  36 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                      30 MB/s | 243 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              91 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                       Architecture                                                Version                                                                Repository                                                                                                          Size
@@ -132,10 +133,11 @@ Finish: build setup for python-autocommand-2.2.2-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
 Start: rpmbuild python-autocommand-2.2.2-1.el9.src.rpm
+error: File /builddir/build/SOURCES/autocommand-undefined-license.patch is smaller than 13 bytes
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aUpjVY
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.DfIlf4
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -151,7 +153,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aUpjVY
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.IbMgVa
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yf814T
 + umask 022
 + cd /builddir/build/BUILD
 + cd autocommand-2.2.2
@@ -186,11 +188,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           15 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             220 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             184 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -229,10 +231,11 @@ Installed:
   python3-pip-22.0.4-1.el9.noarch                                                                                                                                     python3-tomli-2.0.1-5.el9.noarch                                                                                                                                    
 
 Complete!
+error: File /builddir/build/SOURCES/autocommand-undefined-license.patch is smaller than 13 bytes
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GxPp3M
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XZ0xEY
 + umask 022
 + cd /builddir/build/BUILD
 + cd autocommand-2.2.2
@@ -272,11 +275,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.2 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.1 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             267 kB/s |  36 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.3 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              65 kB/s |  36 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -314,10 +317,11 @@ Installed:
   python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                                                                                                                                                                                      
 
 Complete!
+error: File /builddir/build/SOURCES/autocommand-undefined-license.patch is smaller than 13 bytes
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.suSGtC
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5MAsc7
 + umask 022
 + cd /builddir/build/BUILD
 + cd autocommand-2.2.2
@@ -343,57 +347,26 @@ Requirement satisfied: setuptools >= 40.8
 Handling wheel from default build backend
 Requirement satisfied: wheel
    (installed: wheel 0.36.2)
-configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+/usr/lib/python3.9/site-packages/setuptools/config/_apply_pyprojecttoml.py:75: _MissingDynamic: `license` defined outside of `pyproject.toml` is ignored.
+!!
 
-    - keys:
-        'file': {type: string}
-      required: ['file']
-    - keys:
-        'text': {type: string}
-      required: ['text']
+        ********************************************************************************
+        The following seems to be defined outside of `pyproject.toml`:
 
-DESCRIPTION:
-    `Project license <https://peps.python.org/pep-0621/#license>`_.
+        `license = 'LGPLv3'`
 
-GIVEN VALUE:
-    "dynamic"
+        According to the spec (see the link below), however, setuptools CANNOT
+        consider this value unless `license` is listed as `dynamic`.
 
-OFFENDING RULE: 'oneOf'
+        https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
 
-DEFINITION:
-    {
-        "oneOf": [
-            {
-                "properties": {
-                    "file": {
-                        "type": "string",
-                        "$$description": [
-                            "Relative path to the file (UTF-8) which contains the license for the",
-                            "project."
-                        ]
-                    }
-                },
-                "required": [
-                    "file"
-                ]
-            },
-            {
-                "properties": {
-                    "text": {
-                        "type": "string",
-                        "$$description": [
-                            "The license of the project whose meaning is that of the",
-                            "`License field from the core metadata",
-                            "<https://packaging.python.org/specifications/core-metadata/#license>`_."
-                        ]
-                    }
-                },
-                "required": [
-                    "text"
-                ]
-            }
-        ]
-    }
+        To prevent this problem, you can list `license` under `dynamic` or alternatively
+        remove the `[project]` table from your file and rely entirely on other means of
+        configuration.
+        ********************************************************************************
+
+!!
+  _handle_missing_dynamic(dist, project_table)
 Traceback (most recent call last):
   File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 555, in main
     generate_requires(
@@ -416,30 +389,24 @@ Traceback (most recent call last):
     dist.parse_config_files()
   File "/usr/lib/python3.9/site-packages/setuptools/dist.py", line 627, in parse_config_files
     pyprojecttoml.apply_configuration(self, filename, ignore_option_errors)
-  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 66, in apply_configuration
-    config = read_configuration(filepath, True, ignore_option_errors, dist)
-  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 127, in read_configuration
-    validate(subset, filepath)
-  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 55, in validate
-    raise ValueError(f"{error}\n{summary}") from None
-ValueError: invalid pyproject.toml config: `project.license`.
-configuration error: `project.license` must be valid exactly by one definition (2 matches found):
-
-    - keys:
-        'file': {type: string}
-      required: ['file']
-    - keys:
-        'text': {type: string}
-      required: ['text']
-
-error: Bad exit status from /var/tmp/rpm-tmp.suSGtC (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.suSGtC (%generate_buildrequires)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 67, in apply_configuration
+    return _apply(dist, config, filepath)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/_apply_pyprojecttoml.py", line 56, in apply
+    _apply_project_table(dist, config, root_dir)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/_apply_pyprojecttoml.py", line 82, in _apply_project_table
+    corresp(dist, value, root_dir)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/_apply_pyprojecttoml.py", line 183, in _license
+    _set_config(dist, "license", val["text"])
+KeyError: 'text'
 
 
 RPM build errors:
+error: Bad exit status from /var/tmp/rpm-tmp.5MAsc7 (%generate_buildrequires)
+    File /builddir/build/SOURCES/autocommand-undefined-license.patch is smaller than 13 bytes
+    Bad exit status from /var/tmp/rpm-tmp.5MAsc7 (%generate_buildrequires)
 Finish: rpmbuild python-autocommand-2.2.2-1.el9.src.rpm
 Finish: build phase for python-autocommand-2.2.2-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-autocommand-2.2.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-autocommand-2.2.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 22 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-autocommand.spec --nocheck']
