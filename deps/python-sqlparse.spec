@@ -8,6 +8,7 @@ Summary:        A non-validating SQL parser.
 License:        gpl
 URL:            https://pypi.org/project/sqlparse/
 Source:         %{pypi_source sqlparse}
+Patch:		sqlparse-python-explicit.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
