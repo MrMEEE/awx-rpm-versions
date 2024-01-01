@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     4.9 MB/s | 243 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                     44% [===============================================================-                                                                                 ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              45 kB/s |  36 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                      25 MB/s | 243 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.1 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                     ===                                                                                                                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                        ===                                                                                                                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              40 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                       Architecture                                                Version                                                                Repository                                                                                                          Size
@@ -135,7 +135,7 @@ Start: rpmbuild python-autocommand-2.2.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.A3yR1B
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aUpjVY
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -151,7 +151,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.A3yR1B
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SLUX0r
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.IbMgVa
 + umask 022
 + cd /builddir/build/BUILD
 + cd autocommand-2.2.2
@@ -186,11 +186,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.3 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           16 kB/s | 4.1 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           17 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             256 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             220 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
@@ -232,7 +232,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1703894400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.r6ELsF
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GxPp3M
 + umask 022
 + cd /builddir/build/BUILD
 + cd autocommand-2.2.2
@@ -252,34 +252,194 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.r6ELsF
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
 + /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/autocommand-2.2.2/pyproject-wheeldir --output /builddir/build/BUILD/python-autocommand-2.2.2-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement not satisfied: wheel
+Exiting dependency generation pass: build backend
++ cat /builddir/build/BUILD/python-autocommand-2.2.2-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-autocommand-2.2.2-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.2 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.1 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             267 kB/s |  36 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Dependencies resolved.
+===========================================================================================================================================================================================================================================================================================================================================
+ Package                                                                          Architecture                                                              Version                                                                             Repository                                                                            Size
+===========================================================================================================================================================================================================================================================================================================================================
+Installing:
+ [1mpython3-wheel                                                                   [m noarch                                                                    1:0.36.2-8.el9                                                                      codeready-builder                                                                     87 k
+
+Transaction Summary
+===========================================================================================================================================================================================================================================================================================================================================
+Install  1 Package
+
+Total size: 87 k
+Installed size: 209 k
+Downloading Packages:
+[SKIPPED] python3-wheel-0.36.2-8.el9.noarch.rpm: Already downloaded                                                                                                                                                                                                                                                                       
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                                                                                                                                                   1/1 
+  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [                                                                                                                                                                                                                                                                           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==                                                                                                                                                                                                                                                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====                                                                                                                                                                                                                                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========                                                                                                                                                                                                                                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================                                                                                                                                                                                                                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================                                                                                                                                                                                                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================                                                                                                                                                                                                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================                                                                                                                                                                                                           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================                                                                                                                                                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================================================                                                                                                                                                                                 ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================                                                                                                                                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================================                                                                                                                                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================================================================                                                                                                                                                                 ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================================================================================================                                                                                                                                              ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================================================================================                                                                                                                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================================                                                                                                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================================================================================================================================                                                                                                              ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================================================================================================================================                                                                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================================================================================                                                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================================================================================================================================================                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================================================================================================================================================================================                                           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================================================================================================================================================================================                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================================================================================================================================                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================================================================================================================================================================                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================================================================================================================================================================================================                                 ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================================================================================================================================================================================================================                              ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================================================================================================================================================                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================================================================================================================================================================================                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================================================================================================================================================================================================================           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================================================================================================================================================================      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================================================================================================================================================================================================   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                                                                                                                                                               1/1 
+  Running scriptlet: python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                                                                                                                                                               1/1 
+  Verifying        : python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                                                                                                                                                               1/1 
+Installed products updated.
+
+Installed:
+  python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                                                                                                                                                                                      
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1703894400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.suSGtC
++ umask 022
++ cd /builddir/build/BUILD
++ cd autocommand-2.2.2
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/autocommand-2.2.2/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/autocommand-2.2.2/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/autocommand-2.2.2/pyproject-wheeldir --output /builddir/build/BUILD/python-autocommand-2.2.2-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+
+    - keys:
+        'file': {type: string}
+      required: ['file']
+    - keys:
+        'text': {type: string}
+      required: ['text']
+
+DESCRIPTION:
+    `Project license <https://peps.python.org/pep-0621/#license>`_.
+
+GIVEN VALUE:
+    "dynamic"
+
+OFFENDING RULE: 'oneOf'
+
+DEFINITION:
+    {
+        "oneOf": [
+            {
+                "properties": {
+                    "file": {
+                        "type": "string",
+                        "$$description": [
+                            "Relative path to the file (UTF-8) which contains the license for the",
+                            "project."
+                        ]
+                    }
+                },
+                "required": [
+                    "file"
+                ]
+            },
+            {
+                "properties": {
+                    "text": {
+                        "type": "string",
+                        "$$description": [
+                            "The license of the project whose meaning is that of the",
+                            "`License field from the core metadata",
+                            "<https://packaging.python.org/specifications/core-metadata/#license>`_."
+                        ]
+                    }
+                },
+                "required": [
+                    "text"
+                ]
+            }
+        ]
+    }
 Traceback (most recent call last):
   File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 555, in main
     generate_requires(
-  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 450, in generate_requires
-    backend = get_backend(requirements)
-  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 225, in get_backend
-    pyproject_data = toml_load(f)
-  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 215, in toml_load
-    return tomllib.load(opened_binary_file)
-  File "/usr/lib/python3.9/site-packages/tomli/_parser.py", line 66, in load
-    return loads(s, parse_float=parse_float)
-  File "/usr/lib/python3.9/site-packages/tomli/_parser.py", line 102, in loads
-    pos = key_value_rule(src, pos, out, header, parse_float)
-  File "/usr/lib/python3.9/site-packages/tomli/_parser.py", line 326, in key_value_rule
-    pos, key, value = parse_key_value_pair(src, pos, parse_float)
-  File "/usr/lib/python3.9/site-packages/tomli/_parser.py", line 369, in parse_key_value_pair
-    pos, value = parse_value(src, pos, parse_float)
-  File "/usr/lib/python3.9/site-packages/tomli/_parser.py", line 649, in parse_value
-    raise suffixed_err(src, pos, "Invalid value")
-tomli.TOMLDecodeError: Invalid value (at line 4, column 11)
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 451, in generate_requires
+    generate_build_requirements(backend, requirements)
+  File "/usr/lib/rpm/redhat/pyproject_buildrequires.py", line 274, in generate_build_requirements
+    new_reqs = get_requires(config_settings=requirements.config_settings)
+  File "/usr/lib/python3.9/site-packages/setuptools/build_meta.py", line 325, in get_requires_for_build_wheel
+    return self._get_build_requires(config_settings, requirements=['wheel'])
+  File "/usr/lib/python3.9/site-packages/setuptools/build_meta.py", line 295, in _get_build_requires
+    self.run_setup()
+  File "/usr/lib/python3.9/site-packages/setuptools/build_meta.py", line 480, in run_setup
+    super(_BuildMetaLegacyBackend, self).run_setup(setup_script=setup_script)
+  File "/usr/lib/python3.9/site-packages/setuptools/build_meta.py", line 311, in run_setup
+    exec(code, locals())
+  File "<string>", line 8, in <module>
+  File "/usr/lib/python3.9/site-packages/setuptools/__init__.py", line 103, in setup
+    return distutils.core.setup(**attrs)
+  File "/usr/lib/python3.9/site-packages/setuptools/_distutils/core.py", line 159, in setup
+    dist.parse_config_files()
+  File "/usr/lib/python3.9/site-packages/setuptools/dist.py", line 627, in parse_config_files
+    pyprojecttoml.apply_configuration(self, filename, ignore_option_errors)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 66, in apply_configuration
+    config = read_configuration(filepath, True, ignore_option_errors, dist)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 127, in read_configuration
+    validate(subset, filepath)
+  File "/usr/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py", line 55, in validate
+    raise ValueError(f"{error}\n{summary}") from None
+ValueError: invalid pyproject.toml config: `project.license`.
+configuration error: `project.license` must be valid exactly by one definition (2 matches found):
+
+    - keys:
+        'file': {type: string}
+      required: ['file']
+    - keys:
+        'text': {type: string}
+      required: ['text']
+
+error: Bad exit status from /var/tmp/rpm-tmp.suSGtC (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.suSGtC (%generate_buildrequires)
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.r6ELsF (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.r6ELsF (%generate_buildrequires)
 Finish: rpmbuild python-autocommand-2.2.2-1.el9.src.rpm
 Finish: build phase for python-autocommand-2.2.2-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-autocommand-2.2.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 16 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.5.1/SRPMS/python-autocommand-2.2.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 21 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.5.1/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-autocommand.spec --nocheck']
