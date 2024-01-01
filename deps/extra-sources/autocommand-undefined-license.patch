@@ -1,15 +1,19 @@
 diff -uNr autocommand-2.2.2/pyproject.toml autocommand-2.2.2-fix/pyproject.toml
 --- autocommand-2.2.2/pyproject.toml	2022-11-18 20:13:23.000000000 +0100
-+++ autocommand-2.2.2-fix/pyproject.toml	2024-01-02 00:25:27.772381993 +0100
-@@ -1,8 +1,10 @@
++++ autocommand-2.2.2-fix/pyproject.toml	2024-01-02 00:29:06.095186274 +0100
+@@ -1,6 +1,7 @@
  [project]
  name = "autocommand"
  version = "2.2.2"
 +license = dynamic
-+
  authors = [
--  { name="Nathan West" },
-+    name="Nathan Westi <me@lucretiel.me>",
+   { name="Nathan West" },
  ]
- description = "A library to create a command-line program from a function"
- readme = "README.md"
+@@ -22,3 +23,7 @@
+ [project.urls]
+ "Homepage" = "https://github.com/Lucretiel/autocommand"
+ "Bug Tracker" = "https://github.com/Lucretiel/autocommand/issues"
++
++[build-system]
++requires = ["setuptools>=49.2.0"]
++build-backend = "setuptools.build_meta"
