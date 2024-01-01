@@ -162,7 +162,7 @@
 * python3-smmap-5.0.0-1.el9 - python-smmap-5.0.0-1.el9.src.rpm - Built [Log file](logs/python-smmap-5.0.0-1.el9.src.rpm.log)
 * python3-social-auth-app-django-5.0.0-1.el9 - python-social-auth-app-django-5.0.0-1.el9.src.rpm - Built [Log file](logs/python-social-auth-app-django-5.0.0-1.el9.src.rpm.log)
 * python3-social-auth-core-4.3.0-1.el9 - python-social-auth-core-4.3.0-1.el9.src.rpm - Built [Log file](logs/python-social-auth-core-4.3.0-1.el9.src.rpm.log)
-* python3-sqlparse-0.4.4-1.el9 - python-sqlparse-0.4.4-1.el9.src.rpm - **Missing** [Log file](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
+* python3-sqlparse-0.4.4-1.el9 - python-sqlparse-0.4.4-1.el9.src.rpm - Built [Log file](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 * python3-string-utils-1.0.0-1.el9 - python-string-utils-1.0.0-1.el9.src.rpm - Built [Log file](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 * python3-tacacs-plus-1.0-1.el9 - python-tacacs-plus-1.0-1.el9.src.rpm - Built [Log file](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 * python3-tempora-5.1.0-1.el9 - python-tempora-5.1.0-1.el9.src.rpm - Built [Log file](logs/python-tempora-5.1.0-1.el9.src.rpm.log)
@@ -186,4 +186,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-186 total packages, 184 packages built successfully, 2 packages left to fix
+186 total packages, 185 packages built successfully, 1 packages left to fix
