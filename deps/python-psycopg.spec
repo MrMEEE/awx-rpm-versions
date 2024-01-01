@@ -8,6 +8,7 @@ Summary:        PostgreSQL database adapter for Python
 License:        gpl
 URL:            https://psycopg.org/
 Source:         %{pypi_source psycopg}
+Patch:		psycopg-deps.patch
 
 BuildArch:      x86_64
 BuildRequires:  python3-devel libpq-devel gcc
