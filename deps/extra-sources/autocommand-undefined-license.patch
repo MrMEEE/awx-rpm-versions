@@ -1,0 +1,11 @@
+diff -uNr autocommand-2.2.2/pyproject.toml autocommand-2.2.2-fix/pyproject.toml
+--- autocommand-2.2.2/pyproject.toml	2022-11-18 20:13:23.000000000 +0100
++++ autocommand-2.2.2-fix/pyproject.toml	2024-01-02 00:36:05.029837235 +0100
+@@ -1,6 +1,7 @@
+ [project]
+ name = "autocommand"
+ version = "2.2.2"
++dynamic = ["license"]
+ authors = [
+   { name="Nathan West" },
+ ]
