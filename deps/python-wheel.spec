@@ -25,8 +25,6 @@ Summary:        %{summary}
 
 %description -n python3-wheel %_description
 
-%pyproject_extras_subpkg -n python3-wheel dev
-
 %prep
 %autosetup -p1 -n wheel-%{version}
 

@@ -20,8 +20,12 @@ This is package 'psycopg' generated automatically by pyp2spec.}
 
 %description %_description
 
+%pyproject_extras_subpkg -n python3-wheel binary
+%pyproject_extras_subpkg -n python3-wheel pool
+
 %package -n     python3-psycopg
 Summary:        %{summary}
+
 
 %description -n python3-psycopg %_description
 
