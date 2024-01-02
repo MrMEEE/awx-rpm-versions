@@ -23,9 +23,6 @@ This is package 'psycopg' generated automatically by pyp2spec.}
 
 %description %_description
 
-%pyproject_extras_subpkg -n python3-psycopg binary
-%pyproject_extras_subpkg -n python3-psycopg pool
-
 %package -n     python3-psycopg
 Summary:        %{summary}
 
