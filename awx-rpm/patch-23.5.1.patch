@@ -1,4 +1,18 @@
 --- awx/AWX-RPM 1970-01-01 01:00:00.000000000 +0100
-+++ awx/AWX-RPM     2024-01-02 01:26:49.941241741 +0100
++++ awx-fix/AWX-RPM     2024-01-02 01:26:49.941241741 +0100
 @@ -0,0 +1 @@
 +This is the AWX source code, modified for AWX-RPM builds
+diff -uNr awx/settings/development.py awx-fix/settings/development.py
+--- awx/settings/development.py 2024-01-02 02:00:18.394633443 +0100
++++ awx-fix/settings/development.py     2024-01-02 02:00:05.347929697 +0100
+@@ -28,8 +28,8 @@
+ 
+ # show colored logs in the dev environment
+ # to disable this, set `COLOR_LOGS = False` in awx/settings/local_settings.py
+-#COLOR_LOGS = True
+-#LOGGING['handlers']['console']['()'] = 'awx.main.utils.handlers.ColorHandler'  # noqa
++COLOR_LOGS = True
++LOGGING['handlers']['console']['()'] = 'awx.main.utils.handlers.ColorHandler'  # noqa
+ 
+ ALLOWED_HOSTS = ['*']
+ 
