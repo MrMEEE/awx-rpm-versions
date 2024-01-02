@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.5.1
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-23.5.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -98,8 +98,6 @@ BuildRequires: python3-django-solo = 2.0.0
 BuildRequires: python3-django-split-settings = 1.0.0
 BuildRequires: python3-dm-xmlsec-binding = 2.2
 BuildRequires: python3-docutils = 0.19
-BuildRequires: python3-dulwich = 0.20.50
-BuildRequires: python3-dulwich = 0.21.7
 BuildRequires: python3-ecdsa = 0.18.0
 BuildRequires: python3-enum-compat = 0.0.3
 BuildRequires: python3-filelock = 3.8.0
@@ -113,7 +111,6 @@ BuildRequires: python3-hatch-vcs = 0.4.0
 BuildRequires: python3-hiredis = 2.0.0
 BuildRequires: python3-hyperlink = 21.0.0
 BuildRequires: python3-idna = 3.4
-BuildRequires: python3-importlib-metadata = 4.6.4
 BuildRequires: python3-incremental = 22.10.0
 BuildRequires: python3-inflect = 6.0.2
 BuildRequires: python3-irc = 20.1.0
@@ -133,7 +130,6 @@ BuildRequires: python3-jwcrypto = 1.4.2
 BuildRequires: python3-keyring = 24.3.0
 BuildRequires: python3-kubernetes = 25.3.0
 BuildRequires: python3-lockfile = 0.12.2
-BuildRequires: python3-lxml = 4.9.1
 BuildRequires: python3-markdown = 3.4.1
 BuildRequires: python3-markupsafe = 2.1.1
 BuildRequires: python3-maturin = 1.4.0
@@ -157,6 +153,8 @@ BuildRequires: python3-priority = 1.3.0
 BuildRequires: python3-prometheus-client = 0.19.0
 BuildRequires: python3-psutil = 5.9.4
 BuildRequires: python3-psycopg = 3.1.9
+BuildRequires: python3-psycopg+binary = 3.1.9
+BuildRequires: python3-psycopg+pool = 3.1.9
 BuildRequires: python3-ptyprocess = 0.7.0
 BuildRequires: python3-pyasn1 = 0.4.8
 BuildRequires: python3-pyasn1-modules = 0.5.1
@@ -289,8 +287,6 @@ Requires: python3-django-solo = 2.0.0
 Requires: python3-django-split-settings = 1.0.0
 Requires: python3-dm-xmlsec-binding = 2.2
 Requires: python3-docutils = 0.19
-Requires: python3-dulwich = 0.20.50
-Requires: python3-dulwich = 0.21.7
 Requires: python3-ecdsa = 0.18.0
 Requires: python3-enum-compat = 0.0.3
 Requires: python3-filelock = 3.8.0
@@ -304,7 +300,6 @@ Requires: python3-hatch-vcs = 0.4.0
 Requires: python3-hiredis = 2.0.0
 Requires: python3-hyperlink = 21.0.0
 Requires: python3-idna = 3.4
-Requires: python3-importlib-metadata = 4.6.4
 Requires: python3-incremental = 22.10.0
 Requires: python3-inflect = 6.0.2
 Requires: python3-irc = 20.1.0
@@ -324,7 +319,6 @@ Requires: python3-jwcrypto = 1.4.2
 Requires: python3-keyring = 24.3.0
 Requires: python3-kubernetes = 25.3.0
 Requires: python3-lockfile = 0.12.2
-Requires: python3-lxml = 4.9.1
 Requires: python3-markdown = 3.4.1
 Requires: python3-markupsafe = 2.1.1
 Requires: python3-maturin = 1.4.0
@@ -348,6 +342,8 @@ Requires: python3-priority = 1.3.0
 Requires: python3-prometheus-client = 0.19.0
 Requires: python3-psutil = 5.9.4
 Requires: python3-psycopg = 3.1.9
+Requires: python3-psycopg+binary = 3.1.9
+Requires: python3-psycopg+pool = 3.1.9
 Requires: python3-ptyprocess = 0.7.0
 Requires: python3-pyasn1 = 0.4.8
 Requires: python3-pyasn1-modules = 0.5.1
