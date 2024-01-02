@@ -70,6 +70,7 @@
 * python3-django-split-settings-1.0.0-1.el9 - python-django-split-settings-1.0.0-1.el9.src.rpm - Built [Log file](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 * python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - Built [Log file](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - Built [Log file](logs/python-docutils-0.19-1.el9.src.rpm.log)
+* python3-drf-yasg-1.21.7-1.el9 - python-drf-yasg-1.21.7-1.el9.src.rpm - Built [Log file](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 * python3-dsv-sdk-1.0.4-1.el9 - python-dsv-sdk-1.0.4-1.el9.src.rpm - Built [Log file](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 * python3-ecdsa-0.18.0-1.el9 - python-ecdsa-0.18.0-1.el9.src.rpm - Built [Log file](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 * python3-enum-compat-0.0.3-1.el9 - python-enum-compat-0.0.3-1.el9.src.rpm - Built [Log file](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
@@ -191,4 +192,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-191 total packages, 182 packages built successfully, 9 packages left to fix
+192 total packages, 183 packages built successfully, 9 packages left to fix
