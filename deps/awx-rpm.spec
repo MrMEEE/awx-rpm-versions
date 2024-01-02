@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.5.1
-Release: 10%{dist}
+Release: 11%{dist}
 Source0: awx-23.5.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -426,7 +426,8 @@ echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
 GIT_BRANCH=%{version} VERSION=%{version} python3 -m build -s
 make ui-release
 mkdir -p /var/log/tower
-python3 manage.py collectstatic --clear --noinput
+#python3 manage.py collectstatic --clear --noinput
+AWX_SETTINGS_FILE=/dev/null SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python3 awx-manage collectstatic --noinput --clear
 mkdir -p %{buildroot}%{_prefix}
 for i in `find -type f |grep mappings.wasm`; do
 	echo "Removing $i"
