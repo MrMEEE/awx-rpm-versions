@@ -7,6 +7,7 @@
 * awx-rpm-23.5.1-6.el9 - awx-rpm-23.5.1-6.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-6.el9.src.rpm.log)
 * awx-rpm-23.5.1-7.el9 - awx-rpm-23.5.1-7.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-7.el9.src.rpm.log)
 * awx-rpm-23.5.1-8.el9 - awx-rpm-23.5.1-8.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-8.el9.src.rpm.log)
+* awx-rpm-23.5.1-9.el9 - awx-rpm-23.5.1-9.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-9.el9.src.rpm.log)
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built
@@ -190,4 +191,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-190 total packages, 182 packages built successfully, 8 packages left to fix
+191 total packages, 182 packages built successfully, 9 packages left to fix
