@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.5.1
-Release: 9%{dist}
+Release: 10%{dist}
 Source0: awx-23.5.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -98,6 +98,7 @@ BuildRequires: python3-django-solo = 2.0.0
 BuildRequires: python3-django-split-settings = 1.0.0
 BuildRequires: python3-dm-xmlsec-binding = 2.2
 BuildRequires: python3-docutils = 0.19
+BuildRequires: python3-drf-yasg = 1.21.7
 BuildRequires: python3-ecdsa = 0.18.0
 BuildRequires: python3-enum-compat = 0.0.3
 BuildRequires: python3-filelock = 3.8.0
@@ -282,6 +283,7 @@ Requires: python3-django-solo = 2.0.0
 Requires: python3-django-split-settings = 1.0.0
 Requires: python3-dm-xmlsec-binding = 2.2
 Requires: python3-docutils = 0.19
+Requires: python3-drf-yasg = 1.21.7
 Requires: python3-ecdsa = 0.18.0
 Requires: python3-enum-compat = 0.0.3
 Requires: python3-filelock = 3.8.0
