@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.5.1
-Release: 23%{dist}
+Release: 24%{dist}
 Source0: awx-23.5.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -38,7 +38,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel
+BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML
 BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.8.3
 BuildRequires: python3-aioredis = 1.3.1
@@ -169,13 +169,11 @@ BuildRequires: python3-pyrsistent = 0.19.2
 BuildRequires: python3-python3-openid = 3.2.0
 BuildRequires: python3-python3-saml = 1.14.0
 BuildRequires: python3-python-daemon = 3.0.1
-BuildRequires: python3-python-dateutil = 2.8.2
 BuildRequires: python3-python-dsv-sdk = 1.0.4
 BuildRequires: python3-python-jose = 3.3.0
 BuildRequires: python3-python-ldap = 3.4.3
 BuildRequires: python3-python-string-utils = 1.0.0
 BuildRequires: python3-pytz = 2022.6
-BuildRequires: python3-pyyaml = 6.0.1
 BuildRequires: python3-rapidfuzz = 3.6.1
 BuildRequires: python3-readme-renderer = 42.0
 BuildRequires: python3-receptorctl = 1.4.2
@@ -223,7 +221,7 @@ BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
 
 
-Requires: python3 nodejs npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq
+Requires: python3 nodejs npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.8.3
 Requires: python3-aioredis = 1.3.1
@@ -354,13 +352,11 @@ Requires: python3-pyrsistent = 0.19.2
 Requires: python3-python3-openid = 3.2.0
 Requires: python3-python3-saml = 1.14.0
 Requires: python3-python-daemon = 3.0.1
-Requires: python3-python-dateutil = 2.8.2
 Requires: python3-python-dsv-sdk = 1.0.4
 Requires: python3-python-jose = 3.3.0
 Requires: python3-python-ldap = 3.4.3
 Requires: python3-python-string-utils = 1.0.0
 Requires: python3-pytz = 2022.6
-Requires: python3-pyyaml = 6.0.1
 Requires: python3-rapidfuzz = 3.6.1
 Requires: python3-readme-renderer = 42.0
 Requires: python3-receptorctl = 1.4.2

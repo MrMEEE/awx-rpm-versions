@@ -1,6 +1,7 @@
 # Package build status for version: 23.5.1
 * awx-rpm-23.5.1-22.el9 - awx-rpm-23.5.1-22.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-22.el9.src.rpm.log)
 * awx-rpm-23.5.1-23.el9 - awx-rpm-23.5.1-23.el9.src.rpm - Built [Log file](logs/awx-rpm-23.5.1-23.el9.src.rpm.log)
+* awx-rpm-23.5.1-24.el9 - awx-rpm-23.5.1-24.el9.src.rpm - Built [Log file](logs/awx-rpm-23.5.1-24.el9.src.rpm.log)
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built
@@ -41,7 +42,6 @@
 * python3-cython-0.29.32-1.el9 - python-cython-0.29.32-1.el9.src.rpm - Built [Log file](logs/python-cython-0.29.32-1.el9.src.rpm.log)
 * python3-daemon-3.0.1-1.el9 - python-daemon-3.0.1-1.el9.src.rpm - Built [Log file](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
 * python3-daphne-3.0.2-1.el9 - python-daphne-3.0.2-1.el9.src.rpm - Built [Log file](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
-* python3-dateutil-2.8.2-1.el9 - python-dateutil-2.8.2-1.el9.src.rpm - Built [Log file](logs/python-dateutil-2.8.2-1.el9.src.rpm.log)
 * python3-defusedxml-0.7.1-1.el9 - python-defusedxml-0.7.1-1.el9.src.rpm - Built [Log file](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
 * python3-deprecated-1.2.13-1.el9 - python-deprecated-1.2.13-1.el9.src.rpm - Built [Log file](logs/python-deprecated-1.2.13-1.el9.src.rpm.log)
 * python3-distro-1.8.0-1.el9 - python-distro-1.8.0-1.el9.src.rpm - Built [Log file](logs/python-distro-1.8.0-1.el9.src.rpm.log)
@@ -138,7 +138,6 @@
 * python3-pyrad-2.4-1.el9 - python-pyrad-2.4-1.el9.src.rpm - Built [Log file](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 * python3-pyrsistent-0.19.2-1.el9 - python-pyrsistent-0.19.2-1.el9.src.rpm - Built [Log file](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
 * python3-pytz-2022.6-1.el9 - python-pytz-2022.6-1.el9.src.rpm - Built [Log file](logs/python-pytz-2022.6-1.el9.src.rpm.log)
-* python3-pyyaml-6.0.1-1.el9 - python-pyyaml-6.0.1-1.el9.src.rpm - Built [Log file](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
 * python3-rapidfuzz-3.6.1-1.el9 - python-rapidfuzz-3.6.1-1.el9.src.rpm - Built [Log file](logs/python-rapidfuzz-3.6.1-1.el9.src.rpm.log)
 * python3-readme-renderer-42.0-1.el9 - python-readme-renderer-42.0-1.el9.src.rpm - Built [Log file](logs/python-readme-renderer-42.0-1.el9.src.rpm.log)
 * python3-receptorctl-1.4.2-1.el9 - python-receptorctl-1.4.2-1.el9.src.rpm - Built [Log file](logs/python-receptorctl-1.4.2-1.el9.src.rpm.log)
@@ -185,4 +184,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-185 total packages, 184 packages built successfully, 1 packages left to fix
+184 total packages, 183 packages built successfully, 1 packages left to fix
