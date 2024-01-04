@@ -8,8 +8,8 @@
 @@ -0,0 +1 @@
 +COLOR_LOGS = False
 
---- awx-orig/awx/main/credential_plugins/tss.py 2024-01-04 01:45:29.425063793 +0100
-+++ awx/awx/main/credential_plugins/tss.py      2024-01-04 01:41:55.246647691 +0100
+--- awx/main/credential_plugins/tss.py 2024-01-04 01:45:29.425063793 +0100
++++ awx-fix/main/credential_plugins/tss.py      2024-01-04 01:41:55.246647691 +0100
 @@ -2,7 +2,7 @@
  from django.utils.translation import gettext_lazy as _
  
@@ -19,8 +19,8 @@
  except ImportError:
      from thycotic.secrets.server import DomainPasswordGrantAuthorizer, PasswordGrantAuthorizer, SecretServer, ServerSecret
  
---- awx-orig/awx/main/tests/functional/test_credential_plugins.py       2024-01-04 01:45:57.087538255 +0100
-+++ awx/awx/main/tests/functional/test_credential_plugins.py    2024-01-04 01:44:10.275844993 +0100
+--- awx/main/tests/functional/test_credential_plugins.py       2024-01-04 01:45:57.087538255 +0100
++++ awx-fix/main/tests/functional/test_credential_plugins.py    2024-01-04 01:44:10.275844993 +0100
 @@ -96,4 +96,4 @@
  
          for cls in (DomainPasswordGrantAuthorizer, PasswordGrantAuthorizer, SecretServer, ServerSecret):
