@@ -9,21 +9,31 @@
 +COLOR_LOGS = False
 
 --- awx/main/credential_plugins/tss.py 2024-01-04 01:45:29.425063793 +0100
-+++ awx-fix/main/credential_plugins/tss.py      2024-01-04 01:41:55.246647691 +0100
++++ awx-fix/main/credential_plugins/tss.py      2024-01-04 17:31:41.942400358 +0100
 @@ -2,7 +2,7 @@
  from django.utils.translation import gettext_lazy as _
  
  try:
 -    from delinea.secrets.server import DomainPasswordGrantAuthorizer, PasswordGrantAuthorizer, SecretServer, ServerSecret
-+    from delinea.secrets.vault import PasswordGrantAuthorizer, SecretServer, ServerSecret
++    from delinea.secrets.vault import PasswordGrantAuthorizer, SecretsVault, VaultSecret
  except ImportError:
      from thycotic.secrets.server import DomainPasswordGrantAuthorizer, PasswordGrantAuthorizer, SecretServer, ServerSecret
  
 --- awx/main/tests/functional/test_credential_plugins.py       2024-01-04 01:45:57.087538255 +0100
-+++ awx-fix/main/tests/functional/test_credential_plugins.py    2024-01-04 01:44:10.275844993 +0100
++++ awx-fix/main/tests/functional/test_credential_plugins.py    2024-01-04 17:30:56.061961026 +0100
+@@ -86,7 +86,7 @@
+     """
+ 
+     def test_dsv_import(self):
+-        from awx.main.credential_plugins.dsv import SecretsVault  # noqa
++        from awx.main.credential_plugins.dsv import PasswordGrantAuthorizer, SecretsVault, VaultSecret  # noqa
+ 
+         # assert this module as opposed to older thycotic.secrets.vault
+         assert SecretsVault.__module__ == 'delinea.secrets.vault'
 @@ -96,4 +96,4 @@
  
          for cls in (DomainPasswordGrantAuthorizer, PasswordGrantAuthorizer, SecretServer, ServerSecret):
              # assert this module as opposed to older thycotic.secrets.server
 -            assert cls.__module__ == 'delinea.secrets.server'
 +            assert cls.__module__ == 'delinea.secrets.vault'
+

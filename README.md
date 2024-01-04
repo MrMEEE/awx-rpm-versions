@@ -13,6 +13,7 @@
 * awx-rpm-23.5.1-20.el9 - awx-rpm-23.5.1-20.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-20.el9.src.rpm.log)
 * awx-rpm-23.5.1-21.el9 - awx-rpm-23.5.1-21.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-21.el9.src.rpm.log)
 * awx-rpm-23.5.1-22.el9 - awx-rpm-23.5.1-22.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-22.el9.src.rpm.log)
+* awx-rpm-23.5.1-23.el9 - awx-rpm-23.5.1-23.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-23.el9.src.rpm.log)
 * awx-rpm-23.5.1-2.el9 - awx-rpm-23.5.1-2.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-2.el9.src.rpm.log)
 * awx-rpm-23.5.1-3.el9 - awx-rpm-23.5.1-3.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-3.el9.src.rpm.log)
 * awx-rpm-23.5.1-4.el9 - awx-rpm-23.5.1-4.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-4.el9.src.rpm.log)
@@ -205,4 +206,4 @@
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - Built [Log file](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 * receptor-1.4.3-1.el9 - receptor-1.4.3-1.el9.src.rpm - Built
 
-205 total packages, 183 packages built successfully, 22 packages left to fix
+206 total packages, 183 packages built successfully, 23 packages left to fix
