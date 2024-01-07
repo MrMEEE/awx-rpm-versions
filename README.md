@@ -2,6 +2,7 @@
 * awx-rpm-23.5.1-22.el9 - awx-rpm-23.5.1-22.el9.src.rpm - **Missing** [Log file](logs/awx-rpm-23.5.1-22.el9.src.rpm.log)
 * awx-rpm-23.5.1-23.el9 - awx-rpm-23.5.1-23.el9.src.rpm - Built [Log file](logs/awx-rpm-23.5.1-23.el9.src.rpm.log)
 * awx-rpm-23.5.1-24.el9 - awx-rpm-23.5.1-24.el9.src.rpm - Built [Log file](logs/awx-rpm-23.5.1-24.el9.src.rpm.log)
+* awx-rpm-23.5.1-25.el9 - awx-rpm-23.5.1-25.el9.src.rpm - Built [Log file](logs/awx-rpm-23.5.1-25.el9.src.rpm.log)
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built
@@ -97,7 +98,6 @@
 * python3-jwcrypto-1.4.2-1.el9 - python-jwcrypto-1.4.2-1.el9.src.rpm - Built [Log file](logs/python-jwcrypto-1.4.2-1.el9.src.rpm.log)
 * python3-keyring-24.3.0-1.el9 - python-keyring-24.3.0-1.el9.src.rpm - Built [Log file](logs/python-keyring-24.3.0-1.el9.src.rpm.log)
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built [Log file](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
-* python3-ldap-3.4.3-1.el9 - python-ldap-3.4.3-1.el9.src.rpm - Built [Log file](logs/python-ldap-3.4.3-1.el9.src.rpm.log)
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built [Log file](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 * python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - Built [Log file](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
 * python3-markupsafe-2.1.1-1.el9 - python-markupsafe-2.1.1-1.el9.src.rpm - Built [Log file](logs/python-markupsafe-2.1.1-1.el9.src.rpm.log)
