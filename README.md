@@ -15,7 +15,7 @@
 * python3-async-timeout-4.0.2-1.el9 - python-async-timeout-4.0.2-1.el9.src.rpm - Built [Log file](logs/python-async-timeout-4.0.2-1.el9.src.rpm.log)
 * python3-attrs-22.1.0-1.el9 - python-attrs-22.1.0-1.el9.src.rpm - Built [Log file](logs/python-attrs-22.1.0-1.el9.src.rpm.log)
 * python3-autobahn-22.7.1-1.el9 - python-autobahn-22.7.1-1.el9.src.rpm - Built [Log file](logs/python-autobahn-22.7.1-1.el9.src.rpm.log)
-* python3-autocommand-2.2.2-1.el9 - python-autocommand-2.2.2-1.el9.src.rpm - **Missing**
+* python3-autocommand-2.2.2-1.el9 - python-autocommand-2.2.2-1.el9.src.rpm - Built [Log file](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 * python3-automat-22.10.0-1.el9 - python-automat-22.10.0-1.el9.src.rpm - **Missing**
 * python3-azure-common-1.1.28-1.el9 - python-azure-common-1.1.28-1.el9.src.rpm - **Missing**
 * python3-azure-core-1.26.1-1.el9 - python-azure-core-1.26.1-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 13 packages built successfully, 175 packages left to fix
+188 total packages, 14 packages built successfully, 174 packages left to fix
