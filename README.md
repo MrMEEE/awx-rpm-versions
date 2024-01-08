@@ -1,11 +1,11 @@
 # Package build status for version: 23.6.0
-* python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - **Missing** [Log file](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
+* python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - Built [Log file](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built [Log file](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built [Log file](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 * python3-aiohttp-3.8.3-1.el9 - python-aiohttp-3.8.3-1.el9.src.rpm - Built [Log file](logs/python-aiohttp-3.8.3-1.el9.src.rpm.log)
 * python3-aioredis-1.3.1-1.el9 - python-aioredis-1.3.1-1.el9.src.rpm - **Missing** [Log file](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
 * python3-aiosignal-1.3.1-1.el9 - python-aiosignal-1.3.1-1.el9.src.rpm - Built [Log file](logs/python-aiosignal-1.3.1-1.el9.src.rpm.log)
-* python3-ansible-builder-3.0.0-1.el9 - python-ansible-builder-3.0.0-1.el9.src.rpm - **Missing**
+* python3-ansible-builder-3.0.0-1.el9 - python-ansible-builder-3.0.0-1.el9.src.rpm - **Missing** [Log file](logs/python-ansible-builder-3.0.0-1.el9.src.rpm.log)
 * python3-ansible-runner-2.3.4-1.el9 - python-ansible-runner-2.3.4-1.el9.src.rpm - **Missing**
 * python3-ansiconv-1.0.0-1.el9 - python-ansiconv-1.0.0-1.el9.src.rpm - **Missing**
 * python3-asciichartpy-1.5.25-1.el9 - python-asciichartpy-1.5.25-1.el9.src.rpm - **Missing**
@@ -128,7 +128,6 @@
 * python3-psycopg-3.1.9-1.el9 - python-psycopg-3.1.9-1.el9.src.rpm - **Missing**
 * python3-ptyprocess-0.7.0-1.el9 - python-ptyprocess-0.7.0-1.el9.src.rpm - **Missing**
 * python3-pyasn1-0.4.8-1.el9 - python-pyasn1-0.4.8-1.el9.src.rpm - **Missing**
-* python3-pyasn1-modules-0.3.0-1.el9 - python-pyasn1-modules-0.3.0-1.el9.src.rpm - **Missing**
 * python3-pyasn1-modules-0.5.1-1.el9 - python-pyasn1-modules-0.5.1-1.el9.src.rpm - **Missing**
 * python3-pycparser-2.21-1.el9 - python-pycparser-2.21-1.el9.src.rpm - **Missing**
 * python3-pydantic-1.10.2-1.el9 - python-pydantic-1.10.2-1.el9.src.rpm - **Missing**
@@ -189,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-189 total packages, 4 packages built successfully, 185 packages left to fix
+188 total packages, 5 packages built successfully, 183 packages left to fix
