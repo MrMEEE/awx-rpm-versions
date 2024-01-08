@@ -95,7 +95,7 @@
 * python3-jose-3.3.0-1.el9 - python-jose-3.3.0-1.el9.src.rpm - Built [Log file](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 * python3-json-log-formatter-0.5.1-1.el9 - python-json-log-formatter-0.5.1-1.el9.src.rpm - Built [Log file](logs/python-json-log-formatter-0.5.1-1.el9.src.rpm.log)
 * python3-jsonschema-4.17.3-1.el9 - python-jsonschema-4.17.3-1.el9.src.rpm - Built [Log file](logs/python-jsonschema-4.17.3-1.el9.src.rpm.log)
-* python3-jwcrypto-1.4.2-1.el9 - python-jwcrypto-1.4.2-1.el9.src.rpm - **Missing**
+* python3-jwcrypto-1.4.2-1.el9 - python-jwcrypto-1.4.2-1.el9.src.rpm - Built [Log file](logs/python-jwcrypto-1.4.2-1.el9.src.rpm.log)
 * python3-keyring-24.3.0-1.el9 - python-keyring-24.3.0-1.el9.src.rpm - **Missing**
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - **Missing**
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 86 packages built successfully, 102 packages left to fix
+188 total packages, 87 packages built successfully, 101 packages left to fix
