@@ -46,7 +46,7 @@
 * python3-django-cors-headers-3.13.0-1.el9 - python-django-cors-headers-3.13.0-1.el9.src.rpm - Built [Log file](logs/python-django-cors-headers-3.13.0-1.el9.src.rpm.log)
 * python3-django-crum-0.7.9-1.el9 - python-django-crum-0.7.9-1.el9.src.rpm - **Missing** [Log file](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 * python3-django-debug-toolbar-4.2.0-1.el9 - python-django-debug-toolbar-4.2.0-1.el9.src.rpm - Built [Log file](logs/python-django-debug-toolbar-4.2.0-1.el9.src.rpm.log)
-* python3-django-extensions-3.2.1-1.el9 - python-django-extensions-3.2.1-1.el9.src.rpm - **Missing**
+* python3-django-extensions-3.2.1-1.el9 - python-django-extensions-3.2.1-1.el9.src.rpm - Built [Log file](logs/python-django-extensions-3.2.1-1.el9.src.rpm.log)
 * python3-django-filter-23.5-1.el9 - python-django-filter-23.5-1.el9.src.rpm - **Missing**
 * python3-django-guid-3.2.1-1.el9 - python-django-guid-3.2.1-1.el9.src.rpm - **Missing**
 * python3-django-oauth-toolkit-1.7.1-1.el9 - python-django-oauth-toolkit-1.7.1-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 40 packages built successfully, 148 packages left to fix
+188 total packages, 41 packages built successfully, 147 packages left to fix
