@@ -61,7 +61,7 @@
 * python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - Built [Log file](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - Built [Log file](logs/python-docutils-0.19-1.el9.src.rpm.log)
 * python3-drf-spectacular-0.26.5-1.el9 - python-drf-spectacular-0.26.5-1.el9.src.rpm - Built [Log file](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
-* python3-drf-yasg-1.21.7-1.el9 - python-drf-yasg-1.21.7-1.el9.src.rpm - **Missing**
+* python3-drf-yasg-1.21.7-1.el9 - python-drf-yasg-1.21.7-1.el9.src.rpm - Built [Log file](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 * python3-dsv-sdk-1.0.4-1.el9 - python-dsv-sdk-1.0.4-1.el9.src.rpm - **Missing**
 * python3-dulwich-0.20.50-1.el9 - python-dulwich-0.20.50-1.el9.src.rpm - **Missing**
 * python3-dulwich-0.21.7-1.el9 - python-dulwich-0.21.7-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 52 packages built successfully, 136 packages left to fix
+188 total packages, 53 packages built successfully, 135 packages left to fix
