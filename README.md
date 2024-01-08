@@ -58,7 +58,7 @@
 * python3-django-rest-swagger-2.2.0-1.el9 - python-django-rest-swagger-2.2.0-1.el9.src.rpm - **Missing** [Log file](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 * python3-django-solo-2.0.0-1.el9 - python-django-solo-2.0.0-1.el9.src.rpm - Built [Log file](logs/python-django-solo-2.0.0-1.el9.src.rpm.log)
 * python3-django-split-settings-1.0.0-1.el9 - python-django-split-settings-1.0.0-1.el9.src.rpm - **Missing** [Log file](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
-* python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - **Missing**
+* python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - Built [Log file](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - **Missing**
 * python3-drf-spectacular-0.26.5-1.el9 - python-drf-spectacular-0.26.5-1.el9.src.rpm - **Missing**
 * python3-drf-yasg-1.21.7-1.el9 - python-drf-yasg-1.21.7-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 49 packages built successfully, 139 packages left to fix
+188 total packages, 50 packages built successfully, 138 packages left to fix
