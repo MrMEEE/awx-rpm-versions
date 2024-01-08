@@ -89,7 +89,7 @@
 * python3-jaraco-functools-3.5.2-1.el9 - python-jaraco-functools-3.5.2-1.el9.src.rpm - Built [Log file](logs/python-jaraco-functools-3.5.2-1.el9.src.rpm.log)
 * python3-jaraco-logging-3.1.2-1.el9 - python-jaraco-logging-3.1.2-1.el9.src.rpm - Built [Log file](logs/python-jaraco-logging-3.1.2-1.el9.src.rpm.log)
 * python3-jaraco-stream-3.0.3-1.el9 - python-jaraco-stream-3.0.3-1.el9.src.rpm - Built [Log file](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
-* python3-jaraco-text-3.11.0-1.el9 - python-jaraco-text-3.11.0-1.el9.src.rpm - **Missing**
+* python3-jaraco-text-3.11.0-1.el9 - python-jaraco-text-3.11.0-1.el9.src.rpm - Built [Log file](logs/python-jaraco-text-3.11.0-1.el9.src.rpm.log)
 * python3-jinja2-3.1.2-1.el9 - python-jinja2-3.1.2-1.el9.src.rpm - **Missing**
 * python3-jmespath-1.0.1-1.el9 - python-jmespath-1.0.1-1.el9.src.rpm - **Missing**
 * python3-jose-3.3.0-1.el9 - python-jose-3.3.0-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 80 packages built successfully, 108 packages left to fix
+188 total packages, 81 packages built successfully, 107 packages left to fix
