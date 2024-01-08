@@ -8,7 +8,7 @@
 * python3-ansible-builder-3.0.0-1.el9 - python-ansible-builder-3.0.0-1.el9.src.rpm - **Missing** [Log file](logs/python-ansible-builder-3.0.0-1.el9.src.rpm.log)
 * python3-ansible-runner-2.3.4-1.el9 - python-ansible-runner-2.3.4-1.el9.src.rpm - Built [Log file](logs/python-ansible-runner-2.3.4-1.el9.src.rpm.log)
 * python3-ansiconv-1.0.0-1.el9 - python-ansiconv-1.0.0-1.el9.src.rpm - Built [Log file](logs/python-ansiconv-1.0.0-1.el9.src.rpm.log)
-* python3-asciichartpy-1.5.25-1.el9 - python-asciichartpy-1.5.25-1.el9.src.rpm - **Missing**
+* python3-asciichartpy-1.5.25-1.el9 - python-asciichartpy-1.5.25-1.el9.src.rpm - Built [Log file](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 * python3-asgiref-3.6.0-1.el9 - python-asgiref-3.6.0-1.el9.src.rpm - **Missing**
 * python3-asn1-2.6.0-1.el9 - python-asn1-2.6.0-1.el9.src.rpm - **Missing**
 * python3-asyncpg-0.27.0-1.el9 - python-asyncpg-0.27.0-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 7 packages built successfully, 181 packages left to fix
+188 total packages, 8 packages built successfully, 180 packages left to fix
