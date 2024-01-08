@@ -57,7 +57,7 @@
 * python3-djangorestframework-yaml-2.0.0-1.el9 - python-djangorestframework-yaml-2.0.0-1.el9.src.rpm - Built [Log file](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 * python3-django-rest-swagger-2.2.0-1.el9 - python-django-rest-swagger-2.2.0-1.el9.src.rpm - **Missing** [Log file](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 * python3-django-solo-2.0.0-1.el9 - python-django-solo-2.0.0-1.el9.src.rpm - Built [Log file](logs/python-django-solo-2.0.0-1.el9.src.rpm.log)
-* python3-django-split-settings-1.0.0-1.el9 - python-django-split-settings-1.0.0-1.el9.src.rpm - **Missing**
+* python3-django-split-settings-1.0.0-1.el9 - python-django-split-settings-1.0.0-1.el9.src.rpm - **Missing** [Log file](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 * python3-dm-xmlsec-binding-2.2-1.el9 - python-dm-xmlsec-binding-2.2-1.el9.src.rpm - **Missing**
 * python3-docutils-0.19-1.el9 - python-docutils-0.19-1.el9.src.rpm - **Missing**
 * python3-drf-spectacular-0.26.5-1.el9 - python-drf-spectacular-0.26.5-1.el9.src.rpm - **Missing**
