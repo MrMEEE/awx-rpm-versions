@@ -64,7 +64,7 @@
 * python3-drf-yasg-1.21.7-1.el9 - python-drf-yasg-1.21.7-1.el9.src.rpm - Built [Log file](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 * python3-dsv-sdk-1.0.4-1.el9 - python-dsv-sdk-1.0.4-1.el9.src.rpm - Built [Log file](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 * python3-dulwich-0.20.50-1.el9 - python-dulwich-0.20.50-1.el9.src.rpm - Built [Log file](logs/python-dulwich-0.20.50-1.el9.src.rpm.log)
-* python3-dulwich-0.21.7-1.el9 - python-dulwich-0.21.7-1.el9.src.rpm - **Missing**
+* python3-dulwich-0.21.7-1.el9 - python-dulwich-0.21.7-1.el9.src.rpm - Built [Log file](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 * python3-ecdsa-0.18.0-1.el9 - python-ecdsa-0.18.0-1.el9.src.rpm - **Missing**
 * python3-enum-compat-0.0.3-1.el9 - python-enum-compat-0.0.3-1.el9.src.rpm - **Missing**
 * python3-filelock-3.8.0-1.el9 - python-filelock-3.8.0-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 55 packages built successfully, 133 packages left to fix
+188 total packages, 56 packages built successfully, 132 packages left to fix
