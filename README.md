@@ -2,7 +2,7 @@
 * python3-openid-3.2.0-1.el9 - python3-openid-3.2.0-1.el9.src.rpm - **Missing** [Log file](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 * python3-saml-1.14.0-1.el9 - python3-saml-1.14.0-1.el9.src.rpm - Built [Log file](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 * python3-adal-1.2.7-1.el9 - python-adal-1.2.7-1.el9.src.rpm - Built [Log file](logs/python-adal-1.2.7-1.el9.src.rpm.log)
-* python3-aiohttp-3.8.3-1.el9 - python-aiohttp-3.8.3-1.el9.src.rpm - **Missing**
+* python3-aiohttp-3.8.3-1.el9 - python-aiohttp-3.8.3-1.el9.src.rpm - Built [Log file](logs/python-aiohttp-3.8.3-1.el9.src.rpm.log)
 * python3-aioredis-1.3.1-1.el9 - python-aioredis-1.3.1-1.el9.src.rpm - **Missing**
 * python3-aiosignal-1.3.1-1.el9 - python-aiosignal-1.3.1-1.el9.src.rpm - **Missing**
 * python3-ansible-builder-3.0.0-1.el9 - python-ansible-builder-3.0.0-1.el9.src.rpm - **Missing**
@@ -189,4 +189,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-189 total packages, 2 packages built successfully, 187 packages left to fix
+189 total packages, 3 packages built successfully, 186 packages left to fix
