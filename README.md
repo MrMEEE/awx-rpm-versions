@@ -81,7 +81,7 @@
 * python3-incremental-22.10.0-1.el9 - python-incremental-22.10.0-1.el9.src.rpm - Built [Log file](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 * python3-inflect-6.0.2-1.el9 - python-inflect-6.0.2-1.el9.src.rpm - Built [Log file](logs/python-inflect-6.0.2-1.el9.src.rpm.log)
 * python3-inflection-0.5.1-1.el9 - python-inflection-0.5.1-1.el9.src.rpm - Built [Log file](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
-* python3-irc-20.1.0-1.el9 - python-irc-20.1.0-1.el9.src.rpm - **Missing**
+* python3-irc-20.1.0-1.el9 - python-irc-20.1.0-1.el9.src.rpm - Built [Log file](logs/python-irc-20.1.0-1.el9.src.rpm.log)
 * python3-isodate-0.6.1-1.el9 - python-isodate-0.6.1-1.el9.src.rpm - **Missing**
 * python3-jaraco-classes-3.2.3-1.el9 - python-jaraco-classes-3.2.3-1.el9.src.rpm - **Missing**
 * python3-jaraco-collections-3.8.0-1.el9 - python-jaraco-collections-3.8.0-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 72 packages built successfully, 116 packages left to fix
+188 total packages, 73 packages built successfully, 115 packages left to fix
