@@ -17,7 +17,7 @@
 * python3-autobahn-22.7.1-1.el9 - python-autobahn-22.7.1-1.el9.src.rpm - Built [Log file](logs/python-autobahn-22.7.1-1.el9.src.rpm.log)
 * python3-autocommand-2.2.2-1.el9 - python-autocommand-2.2.2-1.el9.src.rpm - Built [Log file](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 * python3-automat-22.10.0-1.el9 - python-automat-22.10.0-1.el9.src.rpm - Built [Log file](logs/python-automat-22.10.0-1.el9.src.rpm.log)
-* python3-azure-common-1.1.28-1.el9 - python-azure-common-1.1.28-1.el9.src.rpm - **Missing**
+* python3-azure-common-1.1.28-1.el9 - python-azure-common-1.1.28-1.el9.src.rpm - Built [Log file](logs/python-azure-common-1.1.28-1.el9.src.rpm.log)
 * python3-azure-core-1.26.1-1.el9 - python-azure-core-1.26.1-1.el9.src.rpm - **Missing**
 * python3-azure-keyvault-1.1.0-1.el9 - python-azure-keyvault-1.1.0-1.el9.src.rpm - **Missing**
 * python3-azure-nspkg-3.0.2-1.el9 - python-azure-nspkg-3.0.2-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 15 packages built successfully, 173 packages left to fix
+188 total packages, 16 packages built successfully, 172 packages left to fix
