@@ -25,7 +25,7 @@
 * python3-botocore-1.29.102-1.el9 - python-botocore-1.29.102-1.el9.src.rpm - Built [Log file](logs/python-botocore-1.29.102-1.el9.src.rpm.log)
 * python3-build-1.0.3-1.el9 - python-build-1.0.3-1.el9.src.rpm - Built [Log file](logs/python-build-1.0.3-1.el9.src.rpm.log)
 * python3-cachecontrol-0.13.1-1.el9 - python-cachecontrol-0.13.1-1.el9.src.rpm - Built [Log file](logs/python-cachecontrol-0.13.1-1.el9.src.rpm.log)
-* python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - **Missing**
+* python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - Built [Log file](logs/python-cachetools-5.2.0-1.el9.src.rpm.log)
 * python3-calver-2022.6.26-1.el9 - python-calver-2022.6.26-1.el9.src.rpm - **Missing**
 * python3-cffi-1.15.1-1.el9 - python-cffi-1.15.1-1.el9.src.rpm - **Missing**
 * python3-channels-3.0.5-1.el9 - python-channels-3.0.5-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 23 packages built successfully, 165 packages left to fix
+188 total packages, 24 packages built successfully, 164 packages left to fix
