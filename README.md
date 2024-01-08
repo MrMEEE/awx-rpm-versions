@@ -27,7 +27,7 @@
 * python3-cachecontrol-0.13.1-1.el9 - python-cachecontrol-0.13.1-1.el9.src.rpm - Built [Log file](logs/python-cachecontrol-0.13.1-1.el9.src.rpm.log)
 * python3-cachetools-5.2.0-1.el9 - python-cachetools-5.2.0-1.el9.src.rpm - Built [Log file](logs/python-cachetools-5.2.0-1.el9.src.rpm.log)
 * python3-calver-2022.6.26-1.el9 - python-calver-2022.6.26-1.el9.src.rpm - Built [Log file](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
-* python3-cffi-1.15.1-1.el9 - python-cffi-1.15.1-1.el9.src.rpm - **Missing**
+* python3-cffi-1.15.1-1.el9 - python-cffi-1.15.1-1.el9.src.rpm - Built [Log file](logs/python-cffi-1.15.1-1.el9.src.rpm.log)
 * python3-channels-3.0.5-1.el9 - python-channels-3.0.5-1.el9.src.rpm - **Missing**
 * python3-channels-redis-3.4.1-1.el9 - python-channels-redis-3.4.1-1.el9.src.rpm - **Missing**
 * python3-charset-normalizer-2.1.1-1.el9 - python-charset-normalizer-2.1.1-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 25 packages built successfully, 163 packages left to fix
+188 total packages, 26 packages built successfully, 162 packages left to fix
