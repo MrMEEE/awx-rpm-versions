@@ -79,7 +79,7 @@
 * python3-hyperlink-21.0.0-1.el9 - python-hyperlink-21.0.0-1.el9.src.rpm - Built [Log file](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 * python3-idna-3.4-1.el9 - python-idna-3.4-1.el9.src.rpm - Built [Log file](logs/python-idna-3.4-1.el9.src.rpm.log)
 * python3-incremental-22.10.0-1.el9 - python-incremental-22.10.0-1.el9.src.rpm - Built [Log file](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
-* python3-inflect-6.0.2-1.el9 - python-inflect-6.0.2-1.el9.src.rpm - **Missing**
+* python3-inflect-6.0.2-1.el9 - python-inflect-6.0.2-1.el9.src.rpm - Built [Log file](logs/python-inflect-6.0.2-1.el9.src.rpm.log)
 * python3-inflection-0.5.1-1.el9 - python-inflection-0.5.1-1.el9.src.rpm - **Missing**
 * python3-irc-20.1.0-1.el9 - python-irc-20.1.0-1.el9.src.rpm - **Missing**
 * python3-isodate-0.6.1-1.el9 - python-isodate-0.6.1-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 70 packages built successfully, 118 packages left to fix
+188 total packages, 71 packages built successfully, 117 packages left to fix
