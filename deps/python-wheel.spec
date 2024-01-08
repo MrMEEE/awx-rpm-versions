@@ -25,7 +25,6 @@ Summary:        %{summary}
 
 %description -n python3-wheel %_description
 
-
 %prep
 %autosetup -p1 -n wheel-%{version}
 

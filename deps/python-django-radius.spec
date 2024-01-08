@@ -10,7 +10,7 @@ URL:            http://robgolding63.github.com/django-radius/
 Source:         %{pypi_source django-radius}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel python3-future python3-pip python3-wheel python3-setuptools
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -22,16 +22,13 @@ This is package 'django-radius' generated automatically by pyp2spec.}
 
 %package -n     python3-django-radius
 Summary:        %{summary}
-
+AutoReq: 0
+Requires: python3-future
 %description -n python3-django-radius %_description
 
 
 %prep
 %autosetup -p1 -n django-radius-%{version}
-
-
-%generate_buildrequires
-%pyproject_buildrequires
 
 
 %build

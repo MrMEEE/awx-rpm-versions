@@ -25,6 +25,7 @@ Summary:        %{summary}
 
 %description -n python3-setuptools-scm %_description
 
+%pyproject_extras_subpkg -n python3-setuptools-scm toml
 
 %prep
 %autosetup -p1 -n setuptools-scm-%{version}
