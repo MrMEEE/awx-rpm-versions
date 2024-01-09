@@ -105,7 +105,7 @@
 * python3-more-itertools-9.0.0-1.el9 - python-more-itertools-9.0.0-1.el9.src.rpm - Built [Log file](logs/python-more-itertools-9.0.0-1.el9.src.rpm.log)
 * python3-msgpack-1.0.4-1.el9 - python-msgpack-1.0.4-1.el9.src.rpm - Built [Log file](logs/python-msgpack-1.0.4-1.el9.src.rpm.log)
 * python3-msrest-0.7.1-1.el9 - python-msrest-0.7.1-1.el9.src.rpm - Built [Log file](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
-* python3-msrestazure-0.6.4-1.el9 - python-msrestazure-0.6.4-1.el9.src.rpm - **Missing**
+* python3-msrestazure-0.6.4-1.el9 - python-msrestazure-0.6.4-1.el9.src.rpm - Built [Log file](logs/python-msrestazure-0.6.4-1.el9.src.rpm.log)
 * python3-multidict-6.0.2-1.el9 - python-multidict-6.0.2-1.el9.src.rpm - **Missing**
 * python3-netaddr-0.8.0-1.el9 - python-netaddr-0.8.0-1.el9.src.rpm - **Missing**
 * python3-nh3-0.2.15-1.el9 - python-nh3-0.2.15-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 96 packages built successfully, 92 packages left to fix
+188 total packages, 97 packages built successfully, 91 packages left to fix
