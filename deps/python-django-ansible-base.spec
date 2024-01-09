@@ -1,6 +1,6 @@
 Name:           python-django-ansible-base
 Version:        0~a1
-Release:        %autorelease
+Release:        1
 Summary:        Reserved package
 
 # Check if the automatically generated License and its spelling is correct for Fedora
@@ -52,4 +52,5 @@ Summary:        %{summary}
 
 
 %changelog
-%autochangelog
+* Mon Jan 08 2024 Martin Juhl <m@rtinjuhl.dk> - 22.10.0-1
+- Initial package
