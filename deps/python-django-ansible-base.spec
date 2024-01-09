@@ -7,7 +7,7 @@ Summary:        Django-ansible-base is exactly what it says it is. A base for an
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         django-ansible-base-0.1.0.tar.gz
+Source:         django-ansible-base-20240109.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel python3-django-auth-ldap
