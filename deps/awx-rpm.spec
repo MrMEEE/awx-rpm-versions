@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -153,7 +153,6 @@ BuildRequires: python3-pexpect = 4.7.0
 BuildRequires: python3-pip = 21.2.4
 BuildRequires: python3-pkgconfig = 1.5.5
 BuildRequires: python3-platformdirs = 3.11.0
-BuildRequires: python3-platformdirs = 4.1.0
 BuildRequires: python3-priority = 1.3.0
 BuildRequires: python3-prometheus-client = 0.19.0
 BuildRequires: python3-psutil = 5.9.4
@@ -340,7 +339,6 @@ Requires: python3-pexpect = 4.7.0
 Requires: python3-pip = 21.2.4
 Requires: python3-pkgconfig = 1.5.5
 Requires: python3-platformdirs = 3.11.0
-Requires: python3-platformdirs = 4.1.0
 Requires: python3-priority = 1.3.0
 Requires: python3-prometheus-client = 0.19.0
 Requires: python3-psutil = 5.9.4
