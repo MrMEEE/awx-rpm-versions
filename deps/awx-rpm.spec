@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -82,7 +82,7 @@ BuildRequires: python3-defusedxml = 0.7.1
 BuildRequires: python3-deprecated = 1.2.13
 BuildRequires: python3-distro = 1.8.0
 BuildRequires: python3-django = 4.2.6
-BuildRequires: python3-django-ansible-base = 0.1.0
+BuildRequires: python3-django-ansible-base = 20240109
 BuildRequires: python3-django-auth-ldap = 4.6.0
 BuildRequires: python3-django-cors-headers = 3.13.0
 BuildRequires: python3-django-crum = 0.7.9
@@ -269,7 +269,7 @@ Requires: python3-defusedxml = 0.7.1
 Requires: python3-deprecated = 1.2.13
 Requires: python3-distro = 1.8.0
 Requires: python3-django = 4.2.6
-Requires: python3-django-ansible-base = 0.1.0
+Requires: python3-django-ansible-base = 20240109
 Requires: python3-django-auth-ldap = 4.6.0
 Requires: python3-django-cors-headers = 3.13.0
 Requires: python3-django-crum = 0.7.9
