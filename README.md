@@ -1,6 +1,7 @@
 ## Package build status for version: 23.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
+awx-rpm-23.6.0-10.el9 | awx-rpm-23.6.0-10.el9.src.rpm | Built | [Log](logs/awx-rpm-23.6.0-10.el9.src.rpm.log)
 awx-rpm-23.6.0-2.el9 | awx-rpm-23.6.0-2.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-2.el9.src.rpm.log)
 awx-rpm-23.6.0-3.el9 | awx-rpm-23.6.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-3.el9.src.rpm.log)
 awx-rpm-23.6.0-4.el9 | awx-rpm-23.6.0-4.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-4.el9.src.rpm.log)
@@ -195,4 +196,4 @@ python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](log
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 receptor-1.4.3-1.el9 | receptor-1.4.3-1.el9.src.rpm | Built |
 
-193 total packages, 185 packages built successfully, 8 packages left to fix
+194 total packages, 186 packages built successfully, 8 packages left to fix

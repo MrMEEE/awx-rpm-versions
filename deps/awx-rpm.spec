@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 9%{dist}
+Release: 10%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -542,6 +542,7 @@ fi
 %dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
 %config %{service_configdir}/settings.py
 %config /etc/nginx/conf.d/awx-rpm.conf
+/usr/lib/systemd/system/awx.target
 /etc/receptor/receptor-hop.conf
 /etc/receptor/receptor-worker.conf
 /etc/receptor/receptor.conf
