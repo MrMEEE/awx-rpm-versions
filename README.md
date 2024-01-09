@@ -99,7 +99,7 @@
 * python3-keyring-24.3.0-1.el9 - python-keyring-24.3.0-1.el9.src.rpm - Built [Log file](logs/python-keyring-24.3.0-1.el9.src.rpm.log)
 * python3-kubernetes-25.3.0-1.el9 - python-kubernetes-25.3.0-1.el9.src.rpm - Built [Log file](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
 * python3-lockfile-0.12.2-1.el9 - python-lockfile-0.12.2-1.el9.src.rpm - Built [Log file](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
-* python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - **Missing**
+* python3-markdown-3.4.1-1.el9 - python-markdown-3.4.1-1.el9.src.rpm - Built [Log file](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
 * python3-markupsafe-2.1.1-1.el9 - python-markupsafe-2.1.1-1.el9.src.rpm - **Missing**
 * python3-maturin-1.4.0-1.el9 - python-maturin-1.4.0-1.el9.src.rpm - **Missing**
 * python3-more-itertools-9.0.0-1.el9 - python-more-itertools-9.0.0-1.el9.src.rpm - **Missing**
@@ -188,4 +188,4 @@
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 90 packages built successfully, 98 packages left to fix
+188 total packages, 91 packages built successfully, 97 packages left to fix
