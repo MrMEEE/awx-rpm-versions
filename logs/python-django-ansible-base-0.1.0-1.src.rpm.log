@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                        20 MB/s | 237 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/     [   ===                                            ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                       [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                  100% [==================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                             11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                    [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream               100% [==================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                          15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder      [            ===                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64          [               ===                                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [                  ===                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                56 kB/s |  35 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                        21 MB/s | 237 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/     [   ===                                            ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 3.2 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  3.2 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                       [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                             18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                    [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream               100% [==================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                          13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder      [            ===                                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64          [               ===                                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [                  ===                             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [                     ===                          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                48 kB/s |  35 kB     00:00    
 Dependencies resolved.
 =============================================================================================================================================
  Package                        Architecture Version               Repository                                                           Size
@@ -137,28 +137,426 @@ Start: rpmbuild python-django-ansible-base-0.1.0-1.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1704672000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ocJvMy
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.tjErSn
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf python-django-ansible-base-0.1.0
++ rm -rf django-ansible-base-0.1.0
 + /usr/bin/gzip -dc /builddir/build/SOURCES/django-ansible-base-0.1.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd python-django-ansible-base-0.1.0
-/var/tmp/rpm-tmp.ocJvMy: line 39: cd: python-django-ansible-base-0.1.0: No such file or directory
++ cd django-ansible-base-0.1.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.L426zi
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-ansible-base-0.1.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-ansible-base-0.1.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
+Import error: No module named 'tomli'
++ cat /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-ansible-base-0.1.0-1.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
 
+This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.ocJvMy (%prep)
-    Bad exit status from /var/tmp/rpm-tmp.ocJvMy (%prep)
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/     [===                                               ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 3.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  3.3 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                       [   ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                             16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                    [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                          21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder      [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64          [            ===                                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [               ===                                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                59 kB/s |  35 kB     00:00    
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Dependencies resolved.
+=============================================================================================================================================
+ Package                Architecture    Version                 Repository                                                              Size
+=============================================================================================================================================
+Installing:
+ [1mpython3-pip           [m noarch          22.0.4-1.el9            downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64          2.7 M
+ [1mpython3-tomli         [m noarch          2.0.1-5.el9             appstream                                                               37 k
+
+Transaction Summary
+=============================================================================================================================================
+Install  2 Packages
+
+Total size: 2.7 M
+Installed size: 13 M
+Downloading Packages:
+[SKIPPED] python3-pip-22.0.4-1.el9.noarch.rpm: Already downloaded                                                                           
+[SKIPPED] python3-tomli-2.0.1-5.el9.noarch.rpm: Already downloaded                                                                          
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [========================================================                                                        ] 1/1  Preparing        :                                                                                                                     1/1 
+  Installing       : python3-tomli-2.0.1-5.el9.noarch [                                                                                ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [=                                                                               ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [============                                                                    ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [======================================                                          ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [=========================================                                       ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [==========================================                                      ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [===============================================                                 ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [========================================================                        ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [===========================================================================     ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [==============================================================================  ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch [=============================================================================== ] 1/2  Installing       : python3-tomli-2.0.1-5.el9.noarch                                                                                    1/2 
+  Installing       : python3-pip-22.0.4-1.el9.noarch [                                                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=                                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==                                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===                                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====                                                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====                                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======                                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======                                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========                                                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========                                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========                                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========                                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============                                                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============                                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============                                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============                                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================                                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================                                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================                                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================                                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================================                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================================                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================================                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================================                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================================               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================================              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================================             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================================            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================================           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================================          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================================================         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================================        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================================       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================================      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================================================     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================================    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================================   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================================  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================================================ ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch                                                                                     2/2 
+  Running scriptlet: python3-pip-22.0.4-1.el9.noarch                                                                                     2/2 
+  Verifying        : python3-pip-22.0.4-1.el9.noarch                                                                                     1/2 
+  Verifying        : python3-tomli-2.0.1-5.el9.noarch                                                                                    2/2 
+Installed products updated.
+
+Installed:
+  python3-pip-22.0.4-1.el9.noarch                                      python3-tomli-2.0.1-5.el9.noarch                                     
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1704672000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QFRObC
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-ansible-base-0.1.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-ansible-base-0.1.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
+Handling setuptools>=64 from build-system.requires
+Requirement satisfied: setuptools>=64
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm>=8 from build-system.requires
+Requirement not satisfied: setuptools_scm>=8
+Exiting dependency generation pass: build backend
++ cat /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-ansible-base-0.1.0-1.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/     [===                                               ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 4.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  4.3 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                       [   ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                             19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                    [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                          17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder      [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64          [            ===                                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                               197 kB/s |  35 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Dependencies resolved.
+=============================================================================================================================================
+ Package                         Architecture Version              Repository                                                           Size
+=============================================================================================================================================
+Installing:
+ [1mpython3-setuptools-scm         [m noarch       8.0.4-1.el9          _opt_awxrpmv2_rpmbuilds_2360_RPMS_                                   78 k
+Installing dependencies:
+ [1mpython3-typing-extensions      [m noarch       4.8.0-1.el9          downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64        58 k
+
+Transaction Summary
+=============================================================================================================================================
+Install  2 Packages
+
+Total size: 136 k
+Installed size: 520 k
+Downloading Packages:
+[SKIPPED] python3-typing-extensions-4.8.0-1.el9.noarch.rpm: Already downloaded                                                              
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [========================================================                                                        ] 1/1  Preparing        :                                                                                                                     1/1 
+  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [                                                                    ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=======                                                             ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==============                                                      ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===================                                                 ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===========================                                         ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==================================                                  ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=======================================                             ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==========================================                          ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===========================================                         ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===================================================                 ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===========================================================         ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==================================================================  ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=================================================================== ] 1/2  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch                                                                        1/2 
+  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [                                                                       ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==                                                                     ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [====                                                                   ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=====                                                                  ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [======                                                                 ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=======                                                                ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=========                                                              ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [============                                                           ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==============                                                         ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===============                                                        ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=================                                                      ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=====================                                                  ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [========================                                               ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=========================                                              ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==========================                                             ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===========================                                            ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=============================                                          ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==============================                                         ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===============================                                        ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=================================                                      ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==================================                                     ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===================================                                    ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [====================================                                   ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=====================================                                  ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [======================================                                 ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=======================================                                ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [========================================                               ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=========================================                              ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==========================================                             ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===========================================                            ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [============================================                           ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==============================================                         ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===============================================                        ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [================================================                       ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===================================================                    ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=====================================================                  ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [======================================================                 ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==========================================================             ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===========================================================            ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [============================================================           ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=============================================================          ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==============================================================         ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===============================================================        ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [==================================================================     ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [===================================================================    ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [====================================================================   ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [=====================================================================  ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch [====================================================================== ] 2/2  Installing       : python3-setuptools-scm-8.0.4-1.el9.noarch                                                                           2/2 
+  Running scriptlet: python3-setuptools-scm-8.0.4-1.el9.noarch                                                                           2/2 
+  Verifying        : python3-setuptools-scm-8.0.4-1.el9.noarch                                                                           1/2 
+  Verifying        : python3-typing-extensions-4.8.0-1.el9.noarch                                                                        2/2 
+Installed products updated.
+
+Installed:
+  python3-setuptools-scm-8.0.4-1.el9.noarch                           python3-typing-extensions-4.8.0-1.el9.noarch                          
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1704672000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.URIJTc
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-ansible-base-0.1.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-ansible-base-0.1.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
+Handling setuptools>=64 from build-system.requires
+Requirement satisfied: setuptools>=64
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm>=8 from build-system.requires
+Requirement satisfied: setuptools_scm>=8
+   (installed: setuptools_scm 8.0.4)
+WARNING setuptools_scm._integration.setuptools pyproject.toml does not contain a tool.setuptools_scm section
+running egg_info
+creating django_ansible_base.egg-info
+writing django_ansible_base.egg-info/PKG-INFO
+writing dependency_links to django_ansible_base.egg-info/dependency_links.txt
+writing requirements to django_ansible_base.egg-info/requires.txt
+writing top-level names to django_ansible_base.egg-info/top_level.txt
+writing manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+reading manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement not satisfied: wheel
+Exiting dependency generation pass: get_requires_for_build_wheel
++ cat /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-ansible-base-0.1.0-1.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/     [===                                               ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 4.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  4.1 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                       [   ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                             19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                    [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream               100% [==================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                          15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder      [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64          [            ===                                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [               ===                                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                58 kB/s |  35 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-setuptools-scm-8.0.4-1.el9.noarch is already installed.
+Dependencies resolved.
+=============================================================================================================================================
+ Package                           Architecture               Version                            Repository                             Size
+=============================================================================================================================================
+Installing:
+ [1mpython3-wheel                    [m noarch                     1:0.36.2-8.el9                     codeready-builder                      87 k
+
+Transaction Summary
+=============================================================================================================================================
+Install  1 Package
+
+Total size: 87 k
+Installed size: 209 k
+Downloading Packages:
+[SKIPPED] python3-wheel-0.36.2-8.el9.noarch.rpm: Already downloaded                                                                         
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                     1/1 
+  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [                                                                             ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=                                                                            ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==                                                                           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [======                                                                       ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===========                                                                  ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============                                                               ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================                                                           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================                                                     ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================                                                ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============================                                               ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [====================================                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================                                        ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [======================================                                       ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================                                ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===================================================                          ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [====================================================                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============================================================               ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================             ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=================================================================            ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===================================================================          ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [====================================================================         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [======================================================================       ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=======================================================================      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================================================================    ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===========================================================================  ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [============================================================================ ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch                                                                                 1/1 
+  Running scriptlet: python3-wheel-1:0.36.2-8.el9.noarch                                                                                 1/1 
+  Verifying        : python3-wheel-1:0.36.2-8.el9.noarch                                                                                 1/1 
+Installed products updated.
+
+Installed:
+  python3-wheel-1:0.36.2-8.el9.noarch                                                                                                        
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1704672000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zYbwKm
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-ansible-base-0.1.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-0.1.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/django-ansible-base-0.1.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
+Handling setuptools>=64 from build-system.requires
+Requirement satisfied: setuptools>=64
+   (installed: setuptools 69.0.2)
+Handling setuptools_scm>=8 from build-system.requires
+Requirement satisfied: setuptools_scm>=8
+   (installed: setuptools_scm 8.0.4)
+WARNING setuptools_scm._integration.setuptools pyproject.toml does not contain a tool.setuptools_scm section
+running egg_info
+writing django_ansible_base.egg-info/PKG-INFO
+writing dependency_links to django_ansible_base.egg-info/dependency_links.txt
+writing requirements to django_ansible_base.egg-info/requires.txt
+writing top-level names to django_ansible_base.egg-info/top_level.txt
+reading manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+WARNING setuptools_scm._integration.setuptools pyproject.toml does not contain a tool.setuptools_scm section
+running dist_info
+writing django_ansible_base.egg-info/PKG-INFO
+writing dependency_links to django_ansible_base.egg-info/dependency_links.txt
+writing requirements to django_ansible_base.egg-info/requires.txt
+writing top-level names to django_ansible_base.egg-info/top_level.txt
+reading manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'django_ansible_base.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-ansible-base-0.1.0/django_ansible_base-0.0.0.dist-info'
+adding license file "LICENSE.md" (matched pattern "LICEN[CS]E*")
+Handling cryptography from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: cryptography
+Handling Django (<4.3.0,>=4.2.5) from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: Django (<4.3.0,>=4.2.5)
+Handling djangorestframework from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: djangorestframework
+Handling django-auth-ldap from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: django-auth-ldap
+Handling django-crum from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: django-crum
+Handling django-filter from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: django-filter
+Handling drf-spectacular from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: drf-spectacular
+Handling inflection from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: inflection
+Handling python-ldap from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: python-ldap
+Handling social-auth-app-django from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: social-auth-app-django
+Handling tabulate from hook generated metadata: Requires-Dist (django-ansible-base)
+Requirement not satisfied: tabulate
++ cat /builddir/build/BUILD/python-django-ansible-base-0.1.0-1.x86_64-pyproject-buildrequires
++ rm -rfv django_ansible_base-0.0.0.dist-info/
+removed 'django_ansible_base-0.0.0.dist-info/top_level.txt'
+removed 'django_ansible_base-0.0.0.dist-info/METADATA'
+removed 'django_ansible_base-0.0.0.dist-info/LICENSE.md'
+removed directory 'django_ansible_base-0.0.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-ansible-base-0.1.0-1.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                  [===                                               ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/     [===                                               ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/100% [==================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  4.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                       [   ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                             19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                    [      ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                          17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder      [         ===                                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                            18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64          [            ===                                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64          [               ===                                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                61 kB/s |  35 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+No matching package to install: 'python3dist(django-auth-ldap)'
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-setuptools-scm-8.0.4-1.el9.noarch is already installed.
+Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
 Finish: rpmbuild python-django-ansible-base-0.1.0-1.src.rpm
 Finish: build phase for python-django-ansible-base-0.1.0-1.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-django-ansible-base-0.1.0-1.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 12 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-django-ansible-base-0.1.0-1.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 30 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS-TMP/
 ERROR: Command failed: 
- # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-django-ansible-base.spec --nocheck']
+ # /usr/bin/systemd-nspawn -q -M 12eea49f5bc24fc393c0112c3bcc4bba -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.3m6fdk_r:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-ansible-base-0.1.0-1.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/                                                                       2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                  4.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                             19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                          17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                            18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                61 kB/s |  35 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.x86_64 is already installed.
+No matching package to install: 'python3dist(django-auth-ldap)'
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-setuptools-scm-8.0.4-1.el9.noarch is already installed.
+Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
 
 Directory walk started
 Directory walk done - 213 packages
