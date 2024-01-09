@@ -1,6 +1,6 @@
 ## Package build status for version: 23.6.0
 Package | Source RPM | Status | Log
---- | --- | --- | ---
+:--- | :--- | :--- | :---
 python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log file](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log file](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log file](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -118,7 +118,7 @@ python3-openshift-0.13.1-1.el9 | python-openshift-0.13.1-1.el9.src.rpm | Built |
 python3-packaging-21.3-1.el9 | python-packaging-21.3-1.el9.src.rpm | Built | [Log file](logs/python-packaging-21.3-1.el9.src.rpm.log)
 python3-pbr-5.11.0-1.el9 | python-pbr-5.11.0-1.el9.src.rpm | Built | [Log file](logs/python-pbr-5.11.0-1.el9.src.rpm.log)
 python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log file](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
-* python3-pip-21.2.4-1.el9 - python-pip-21.2.4-1.el9.src.rpm - **Missing**
+python3-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log file](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 * python3-pkgconfig-1.5.5-1.el9 - python-pkgconfig-1.5.5-1.el9.src.rpm - **Missing**
 * python3-platformdirs-3.11.0-1.el9 - python-platformdirs-3.11.0-1.el9.src.rpm - **Missing**
 * python3-platformdirs-4.1.0-1.el9 - python-platformdirs-4.1.0-1.el9.src.rpm - **Missing**
@@ -190,4 +190,4 @@ python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log 
 * python3-zipp-3.11.0-1.el9 - python-zipp-3.11.0-1.el9.src.rpm - **Missing**
 * python3-zope-interface-5.5.2-1.el9 - python-zope-interface-5.5.2-1.el9.src.rpm - **Missing**
 
-188 total packages, 107 packages built successfully, 81 packages left to fix
+188 total packages, 108 packages built successfully, 80 packages left to fix
