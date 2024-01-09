@@ -2,15 +2,7 @@
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-rpm-23.6.0-10.el9 | awx-rpm-23.6.0-10.el9.src.rpm | Built | [Log](logs/awx-rpm-23.6.0-10.el9.src.rpm.log)
-awx-rpm-23.6.0-11.el9 | awx-rpm-23.6.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-11.el9.src.rpm.log)
-awx-rpm-23.6.0-2.el9 | awx-rpm-23.6.0-2.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-2.el9.src.rpm.log)
-awx-rpm-23.6.0-3.el9 | awx-rpm-23.6.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-3.el9.src.rpm.log)
-awx-rpm-23.6.0-4.el9 | awx-rpm-23.6.0-4.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-4.el9.src.rpm.log)
-awx-rpm-23.6.0-5.el9 | awx-rpm-23.6.0-5.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-5.el9.src.rpm.log)
-awx-rpm-23.6.0-6.el9 | awx-rpm-23.6.0-6.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-6.el9.src.rpm.log)
-awx-rpm-23.6.0-7.el9 | awx-rpm-23.6.0-7.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-7.el9.src.rpm.log)
-awx-rpm-23.6.0-8.el9 | awx-rpm-23.6.0-8.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-8.el9.src.rpm.log)
-awx-rpm-23.6.0-9.el9 | awx-rpm-23.6.0-9.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-23.6.0-9.el9.src.rpm.log)
+awx-rpm-23.6.0-12.el9 | awx-rpm-23.6.0-12.el9.src.rpm | Built | [Log](logs/awx-rpm-23.6.0-12.el9.src.rpm.log)
 python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -197,4 +189,4 @@ python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](log
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 receptor-1.4.3-1.el9 | receptor-1.4.3-1.el9.src.rpm | Built |
 
-195 total packages, 186 packages built successfully, 9 packages left to fix
+187 total packages, 187 packages built successfully, 0 packages left to fix
