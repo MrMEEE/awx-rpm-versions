@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 4%{dist}
+Release: 5%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -39,7 +39,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML python3-ldap
+BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML python3-ldap ansible-core
 BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.8.3
 BuildRequires: python3-aioredis = 1.3.1
@@ -224,7 +224,7 @@ BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
 
 
-Requires: python3 nodejs npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap
+Requires: python3 nodejs npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap ansible-core
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.8.3
 Requires: python3-aioredis = 1.3.1
@@ -426,6 +426,7 @@ git checkout -f %{version}
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
 GIT_BRANCH=%{version} VERSION=%{version} python3 -m build -s
 make ui-release
+make clean/ui-next ui-next
 mkdir -p /var/log/tower
 #python3 manage.py collectstatic --clear --noinput
 AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python3 manage.py collectstatic --noinput --clear
