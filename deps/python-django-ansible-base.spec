@@ -1,13 +1,13 @@
 Name:           python-django-ansible-base
-Version:        0~a1
+Version:        0.1.0
 Release:        1
-Summary:        Reserved package
+Summary:        Django-ansible-base is exactly what it says it is. A base for any Ansible application which will leverage Django.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         %{pypi_source django-ansible-base 0a1}
+Source:         django-ansible-base-0.1.0.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
