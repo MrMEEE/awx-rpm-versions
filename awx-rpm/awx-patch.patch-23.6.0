@@ -37,3 +37,12 @@
 -            assert cls.__module__ == 'delinea.secrets.server'
 +            assert cls.__module__ == 'delinea.secrets.vault'
 
+--- awx/settings/defaults.py        2024-01-09 13:46:42.554581244 +0100
++++ awx-fix/settings/defaults.py    2024-01-09 13:47:13.002212956 +0100
+@@ -1069,5 +1069,5 @@
+ 
+ from ansible_base import settings  # noqa: E402
+ 
+-settings_file = os.path.join(os.path.dirname(settings.__file__), 'dynamic_settings.py')
++settings_file = os.path.join(os.path.dirname(settings.__file__), 'settings.py')
+ include(settings_file)
