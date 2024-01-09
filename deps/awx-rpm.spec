@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -31,7 +31,7 @@ Source8: awx-rpm-nginx.conf-%{version}
 #Source9: awx-create-venv
 #Source10: awx-rpm-logo.svg
 #Source11: awx.service
-Patch0: patch-%{version}.patch
+Patch0: awx-patch.patch-%{version}
 License: GPLv3
 Group: AWX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}.buildroot
