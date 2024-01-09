@@ -50,6 +50,8 @@ python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | Built
 python3-distro-1.8.0-1.el9 | python-distro-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.8.0-1.el9.src.rpm.log)
 python3-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3-django-ansible-base-0.1.0-1 | python-django-ansible-base-0.1.0-1.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-0.1.0-1.src.rpm.log)
+python3-django-auth-ldap-4.6.0-1 | python-django-auth-ldap-4.6.0-1.src.rpm | Built | [Log](logs/python-django-auth-ldap-4.6.0-1.src.rpm.log)
+python3-django-auth-ldap-4.6.0-%autorelease | python-django-auth-ldap-4.6.0-%autorelease.src.rpm | **Missing** |
 python3-django-cors-headers-3.13.0-1.el9 | python-django-cors-headers-3.13.0-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-3.13.0-1.el9.src.rpm.log)
 python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | Built | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3-django-debug-toolbar-4.2.0-1.el9 | python-django-debug-toolbar-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-django-debug-toolbar-4.2.0-1.el9.src.rpm.log)
@@ -190,4 +192,4 @@ python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](log
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 receptor-1.4.3-1.el9 | receptor-1.4.3-1.el9.src.rpm | Built |
 
-188 total packages, 183 packages built successfully, 5 packages left to fix
+190 total packages, 184 packages built successfully, 6 packages left to fix

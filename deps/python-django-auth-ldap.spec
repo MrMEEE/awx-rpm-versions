@@ -1,32 +1,32 @@
-Name:           python-django-ansible-base
-Version:        0.1.0
+Name:           python-django-auth-ldap
+Version:        4.6.0
 Release:        1
-Summary:        Django-ansible-base is exactly what it says it is. A base for any Ansible application which will leverage Django.
+Summary:        Django LDAP authentication backend
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/django-ansible-base/
-Source:         django-ansible-base-0.1.0.tar.gz
+URL:            https://github.com/django-auth-ldap/django-auth-ldap
+Source:         %{pypi_source django-auth-ldap}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel python3-django-auth-ldap
+BuildRequires:  python3-devel
 
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'django-ansible-base' generated automatically by pyp2spec.}
+This is package 'django-auth-ldap' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python3-django-ansible-base
+%package -n     python3-django-auth-ldap
 Summary:        %{summary}
 
-%description -n python3-django-ansible-base %_description
+%description -n python3-django-auth-ldap %_description
 
 
 %prep
-%autosetup -p1 -n django-ansible-base-0.1.0
+%autosetup -p1 -n django-auth-ldap-%{version}
 
 
 %generate_buildrequires
@@ -48,9 +48,9 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-django-ansible-base -f %{pyproject_files}
+%files -n python3-django-auth-ldap -f %{pyproject_files}
 
 
 %changelog
-* Mon Jan 08 2024 Martin Juhl <m@rtinjuhl.dk> - 0.1.0-1
+* Mon Jan 08 2024 Martin Juhl <m@rtinjuhl.dk> - 4.6.0-1
 - Initial package
