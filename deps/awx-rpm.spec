@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 10%{dist}
+Release: 11%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -27,10 +27,8 @@ Source23: awx.target-%{version}
 Source30: receptor.conf-%{version}
 Source31: receptor-hop.conf-%{version}
 Source32: receptor-worker.conf-%{version}
+Source40: awx-rpm-logo.svg-%{version}
 Source8: awx-rpm-nginx.conf-%{version}
-#Source9: awx-create-venv
-#Source10: awx-rpm-logo.svg
-#Source11: awx.service
 Patch0: awx-patch.patch-%{version}
 License: GPLv3
 Group: AWX
@@ -430,7 +428,11 @@ git checkout -f %{version}
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
 GIT_BRANCH=%{version} VERSION=%{version} python3 -m build -s
 make ui-release
-make clean/ui-next ui-next
+make clean/ui-next 
+cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/frontend/awx/awx-rpm-logo.svg
+sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/frontend/awx/AwxMasthead.tsx
+make ui-next
+
 mkdir -p /var/log/tower
 #python3 manage.py collectstatic --clear --noinput
 AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python3 manage.py collectstatic --noinput --clear
@@ -501,11 +503,6 @@ mkdir -p %{buildroot}%{service_homedir}/venv
 #cp %{_sourcedir}/awx-create-venv $RPM_BUILD_ROOT/opt/rh/rh-python36/root/usr/bin/
 #mkdir -p $RPM_BUILD_ROOT/usr/bin/
 
-#cp %{_sourcedir}/awx-rpm-logo.svg $RPM_BUILD_ROOT/opt/awx/static/assets/awx-rpm-logo.svg
-#mv $RPM_BUILD_ROOT/opt/awx/static/assets/logo-header.svg $RPM_BUILD_ROOT/opt/awx/static/assets/logo-header.svg.orig
-#mv $RPM_BUILD_ROOT/opt/awx/static/assets/logo-login.svg $RPM_BUILD_ROOT/opt/awx/static/assets/logo-login.svg.orig
-#ln -s /opt/awx/static/assets/awx-rpm-logo.svg $RPM_BUILD_ROOT/opt/awx/static/assets/logo-header.svg
-#ln -s /opt/awx/static/assets/awx-rpm-logo.svg $RPM_BUILD_ROOT/opt/awx/static/assets/logo-login.svg
 mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
 
 sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python3.9/site-packages/awx/main/utils/external_logging.py
