@@ -1,5 +1,5 @@
 Name:           python-django-ansible-base
-Version:        0.1.0
+Version:        20240109
 Release:        1
 Summary:        Django-ansible-base is exactly what it says it is. A base for any Ansible application which will leverage Django.
 
@@ -26,7 +26,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n django-ansible-base-0.1.0
+%autosetup -p1 -n django-ansible-base
 
 
 %generate_buildrequires
@@ -52,5 +52,5 @@ Summary:        %{summary}
 
 
 %changelog
-* Mon Jan 08 2024 Martin Juhl <m@rtinjuhl.dk> - 0.1.0-1
+* Mon Jan 08 2024 Martin Juhl <m@rtinjuhl.dk> - 20240109-1
 - Initial package
