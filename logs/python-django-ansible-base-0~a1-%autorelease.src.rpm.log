@@ -1,0 +1,63 @@
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 '/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-django-ansible-base-0~a1-%autorelease.src.rpm' --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-django-ansible-base-0~a1-%autorelease.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.3
+INFO: Mock Version: 5.3
+Start(bootstrap): chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start(bootstrap): cleaning package manager metadata
+Finish(bootstrap): cleaning package manager metadata
+INFO: Package manager dnf detected and used (fallback)
+Finish(bootstrap): chroot init
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+Start: unpacking root cache
+Finish: unpacking root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+INFO: Package manager dnf detected and used (direct choice)
+INFO: Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-19.el9_1.x86_64
+  python3-dnf-4.12.0-4.el9.noarch
+  python3-dnf-plugins-core-4.1.0-3.el9.noarch
+Finish: chroot init
+Start: build phase for python-django-ansible-base-0~a1-%autorelease.src.rpm
+Start: build setup for python-django-ansible-base-0~a1-%autorelease.src.rpm
+Finish: build setup for python-django-ansible-base-0~a1-%autorelease.src.rpm
+Finish: build phase for python-django-ansible-base-0~a1-%autorelease.src.rpm
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-django-ansible-base-0~a1-%autorelease.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 2 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M d6717fa775074aee8c347a2cb350fa21 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.dcnh5ckd:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off /bin/rpm -qpl '/builddir/build/originals/python-django-ansible-base-0~a1-%autorelease.src.rpm'
+error: open of /builddir/build/originals/python-django-ansible-base-0~a1-1.el9.src.rpm failed: No such file or directory
+
+Directory walk started
+Directory walk done - 213 packages
+Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+Start: clean chroot
+Finish: clean chroot
+Finish: run
