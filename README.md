@@ -5,7 +5,7 @@ python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohttp-3.8.3-1.el9 | python-aiohttp-3.8.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-3.8.3-1.el9.src.rpm.log)
-python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
+python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
 python3-aiosignal-1.3.1-1.el9 | python-aiosignal-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aiosignal-1.3.1-1.el9.src.rpm.log)
 python3-ansible-builder-3.0.0-1.el9 | python-ansible-builder-3.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ansible-builder-3.0.0-1.el9.src.rpm.log)
 python3-ansible-runner-2.3.4-1.el9 | python-ansible-runner-2.3.4-1.el9.src.rpm | Built | [Log](logs/python-ansible-runner-2.3.4-1.el9.src.rpm.log)
@@ -129,11 +129,10 @@ python3-prometheus-client-0.19.0-1.el9 | python-prometheus-client-0.19.0-1.el9.s
 python3-psutil-5.9.4-1.el9 | python-psutil-5.9.4-1.el9.src.rpm | Built | [Log](logs/python-psutil-5.9.4-1.el9.src.rpm.log)
 python3-psycopg-3.1.9-1.el9 | python-psycopg-3.1.9-1.el9.src.rpm | Built | [Log](logs/python-psycopg-3.1.9-1.el9.src.rpm.log)
 python3-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
-python3-pyasn1-0.4.8-1.el9 | python-pyasn1-0.4.8-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-0.4.8-1.el9.src.rpm.log)
 python3-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
 python3-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3-pydantic-1.10.2-1.el9 | python-pydantic-1.10.2-1.el9.src.rpm | Built | [Log](logs/python-pydantic-1.10.2-1.el9.src.rpm.log)
-python3-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | **Missing** |
+python3-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | **Missing** | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3-pyjwt-2.6.0-1.el9 | python-pyjwt-2.6.0-1.el9.src.rpm | **Missing** |
 python3-pyopenssl-23.2.0-1.el9 | python-pyopenssl-23.2.0-1.el9.src.rpm | **Missing** |
 python3-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | **Missing** |
@@ -190,4 +189,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 120 packages built successfully, 68 packages left to fix
+187 total packages, 120 packages built successfully, 67 packages left to fix
