@@ -26,7 +26,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n django-ansible-base-0a1
+%autosetup -p1
 
 
 %generate_buildrequires
