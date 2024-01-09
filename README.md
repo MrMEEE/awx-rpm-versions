@@ -59,7 +59,7 @@ python3-djangorestframework-3.14.0-1.el9 | python-djangorestframework-3.14.0-1.e
 python3-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | Built | [Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 python3-django-solo-2.0.0-1.el9 | python-django-solo-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.0.0-1.el9.src.rpm.log)
-python3-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
+python3-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | Built | [Log](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 python3-docutils-0.19-1.el9 | python-docutils-0.19-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.19-1.el9.src.rpm.log)
 python3-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.src.rpm | Built | [Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
@@ -186,4 +186,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-184 total packages, 182 packages built successfully, 2 packages left to fix
+184 total packages, 183 packages built successfully, 1 packages left to fix
