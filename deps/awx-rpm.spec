@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 3%{dist}
+Release: 4%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -174,7 +174,6 @@ BuildRequires: python3-python-daemon = 3.0.1
 BuildRequires: python3-python-dsv-sdk = 1.0.4
 BuildRequires: python3-python-jose = 3.3.0
 BuildRequires: python3-python-string-utils = 1.0.0
-BuildRequires: python3-python-tss-sdk = 1.2.2
 BuildRequires: python3-pytz = 2022.6
 BuildRequires: python3-rapidfuzz = 3.6.1
 BuildRequires: python3-readme-renderer = 42.0
@@ -360,7 +359,6 @@ Requires: python3-python-daemon = 3.0.1
 Requires: python3-python-dsv-sdk = 1.0.4
 Requires: python3-python-jose = 3.3.0
 Requires: python3-python-string-utils = 1.0.0
-Requires: python3-python-tss-sdk = 1.2.2
 Requires: python3-pytz = 2022.6
 Requires: python3-rapidfuzz = 3.6.1
 Requires: python3-readme-renderer = 42.0
