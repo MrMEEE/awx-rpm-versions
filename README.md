@@ -50,7 +50,7 @@ python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | Built
 python3-django-debug-toolbar-4.2.0-1.el9 | python-django-debug-toolbar-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-django-debug-toolbar-4.2.0-1.el9.src.rpm.log)
 python3-django-extensions-3.2.1-1.el9 | python-django-extensions-3.2.1-1.el9.src.rpm | Built | [Log](logs/python-django-extensions-3.2.1-1.el9.src.rpm.log)
 python3-django-filter-23.5-1.el9 | python-django-filter-23.5-1.el9.src.rpm | Built | [Log](logs/python-django-filter-23.5-1.el9.src.rpm.log)
-python3-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
+python3-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | Built | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
 python3-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
@@ -186,4 +186,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-184 total packages, 181 packages built successfully, 3 packages left to fix
+184 total packages, 182 packages built successfully, 2 packages left to fix
