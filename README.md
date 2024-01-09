@@ -65,8 +65,6 @@ python3-docutils-0.19-1.el9 | python-docutils-0.19-1.el9.src.rpm | Built | [Log]
 python3-drf-spectacular-0.26.5-1.el9 | python-drf-spectacular-0.26.5-1.el9.src.rpm | Built | [Log](logs/python-drf-spectacular-0.26.5-1.el9.src.rpm.log)
 python3-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | Built | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
-python3-dulwich-0.20.50-1.el9 | python-dulwich-0.20.50-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.20.50-1.el9.src.rpm.log)
-python3-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3-filelock-3.8.0-1.el9 | python-filelock-3.8.0-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.8.0-1.el9.src.rpm.log)
@@ -143,7 +141,7 @@ python3-pytz-2022.6-1.el9 | python-pytz-2022.6-1.el9.src.rpm | Built | [Log](log
 python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.6.1-1.el9.src.rpm.log)
 python3-readme-renderer-42.0-1.el9 | python-readme-renderer-42.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-42.0-1.el9.src.rpm.log)
 python3-receptorctl-1.4.2-1.el9 | python-receptorctl-1.4.2-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.2-1.el9.src.rpm.log)
-python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | **Missing** |
+python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-4.3.5-1.el9.src.rpm.log)
 python3-requests-2.28.1-1.el9 | python-requests-2.28.1-1.el9.src.rpm | **Missing** |
 python3-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** |
 python3-requirements-parser-0.5.0-1.el9 | python-requirements-parser-0.5.0-1.el9.src.rpm | **Missing** |
@@ -154,7 +152,6 @@ python3-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src
 python3-service-identity-21.1.0-1.el9 | python-service-identity-21.1.0-1.el9.src.rpm | **Missing** |
 python3-setuptools-65.6.3-1.el9 | python-setuptools-65.6.3-1.el9.src.rpm | **Missing** |
 python3-setuptools-rust-1.5.2-1.el9 | python-setuptools-rust-1.5.2-1.el9.src.rpm | **Missing** |
-python3-setuptools-scm-7.1.0-1.el9 | python-setuptools-scm-7.1.0-1.el9.src.rpm | **Missing** |
 python3-setuptools-scm-8.0.4-1.el9 | python-setuptools-scm-8.0.4-1.el9.src.rpm | **Missing** |
 python3-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** |
 python3-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **Missing** |
@@ -189,4 +186,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-187 total packages, 133 packages built successfully, 54 packages left to fix
+184 total packages, 131 packages built successfully, 53 packages left to fix

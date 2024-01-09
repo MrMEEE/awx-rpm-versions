@@ -1,0 +1,34 @@
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.6.0/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 /opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-redis-4.3.5-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.6.0/SRPMS/python-redis-4.3.5-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.3
+INFO: Mock Version: 5.3
+Start(bootstrap): chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start(bootstrap): cleaning package manager metadata
+Finish(bootstrap): cleaning package manager metadata
+INFO: Package manager dnf detected and used (fallback)
+Finish(bootstrap): chroot init
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+Start: unpacking root cache
+Finish: unpacking root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+INFO: Package manager dnf detected and used (direct choice)
+INFO: Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-19.el9_1.x86_64
+  python3-dnf-4.12.0-4.el9.noarch
+  python3-dnf-plugins-core-4.1.0-3.el9.noarch
