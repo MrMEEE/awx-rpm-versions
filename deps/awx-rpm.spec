@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.6.0
-Release: 12%{dist}
+Release: 13%{dist}
 Source0: awx-23.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -430,6 +430,7 @@ GIT_BRANCH=%{version} VERSION=%{version} python3 -m build -s
 make ui-next/src
 cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/src/frontend/awx/awx-rpm-logo.svg
 sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/AwxMasthead.tsx
+make ui-next
 make ui-release
 
 mkdir -p /var/log/tower
