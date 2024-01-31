@@ -126,7 +126,7 @@ python3-poetry-plugin-export-1.6.0-1.el9 | python-poetry-plugin-export-1.6.0-1.e
 python3-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
 python3-prometheus-client-0.19.0-1.el9 | python-prometheus-client-0.19.0-1.el9.src.rpm | Built | [Log](logs/python-prometheus-client-0.19.0-1.el9.src.rpm.log)
 python3-psutil-5.9.4-1.el9 | python-psutil-5.9.4-1.el9.src.rpm | Built | [Log](logs/python-psutil-5.9.4-1.el9.src.rpm.log)
-python3-psycopg-3.1.9-1.el9 | python-psycopg-3.1.9-1.el9.src.rpm | **Missing** |
+python3-psycopg-3.1.9-1.el9 | python-psycopg-3.1.9-1.el9.src.rpm | **Missing** | [Log](logs/python-psycopg-3.1.9-1.el9.src.rpm.log)
 python3-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | **Missing** |
 python3-pyasn1-modules-0.3.0-1.el9 | python-pyasn1-modules-0.3.0-1.el9.src.rpm | **Missing** |
 python3-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | **Missing** |
