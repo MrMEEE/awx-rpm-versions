@@ -43,7 +43,7 @@ python3-cython-0.29.32-1.el9 | python-cython-0.29.32-1.el9.src.rpm | Built | [Lo
 python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
 python3-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 python3-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
-python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | **Missing** |
+python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | **Missing** | [Log](logs/python-deprecated-1.2.13-1.el9.src.rpm.log)
 python3-distro-1.8.0-1.el9 | python-distro-1.8.0-1.el9.src.rpm | **Missing** |
 python3-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** |
 python3-django-ansible-base-0~a1-1.el9 | python-django-ansible-base-0~a1-1.el9.src.rpm | **Missing** |
