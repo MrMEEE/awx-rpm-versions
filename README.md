@@ -73,7 +73,7 @@ python3-filelock-3.8.0-1.el9 | python-filelock-3.8.0-1.el9.src.rpm | **Missing**
 python3-frozenlist-1.3.3-1.el9 | python-frozenlist-1.3.3-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.3.3-1.el9.src.rpm.log)
 python3-gitdb-4.0.10-1.el9 | python-gitdb-4.0.10-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.10-1.el9.src.rpm.log)
 python3-gitpython3-3.1.32-1.el9 | python-gitpython-3.1.32-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.32-1.el9.src.rpm.log)
-python3-google-auth-2.14.1-1.el9 | python-google-auth-2.14.1-1.el9.src.rpm | **Missing** |
+python3-google-auth-2.14.1-1.el9 | python-google-auth-2.14.1-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.14.1-1.el9.src.rpm.log)
 python3-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** |
 python3-hatchling-1.21.1-1.el9 | python-hatchling-1.21.1-1.el9.src.rpm | **Missing** |
 python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
