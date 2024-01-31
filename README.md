@@ -67,7 +67,7 @@ python3-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm
 python3-docutils-0.19-1.el9 | python-docutils-0.19-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.19-1.el9.src.rpm.log)
 python3-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | Built | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
-python3-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** |
+python3-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | **Missing** |
 python3-filelock-3.8.0-1.el9 | python-filelock-3.8.0-1.el9.src.rpm | **Missing** |
 python3-frozenlist-1.3.3-1.el9 | python-frozenlist-1.3.3-1.el9.src.rpm | **Missing** |
