@@ -80,7 +80,7 @@ python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [
 python3-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-2.0.0-1.el9.src.rpm.log)
 python3-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3-idna-3.4-1.el9 | python-idna-3.4-1.el9.src.rpm | Built | [Log](logs/python-idna-3.4-1.el9.src.rpm.log)
-python3-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | **Missing** |
+python3-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3-inflect-6.0.2-1.el9 | python-inflect-6.0.2-1.el9.src.rpm | **Missing** |
 python3-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
 python3-irc-20.1.0-1.el9 | python-irc-20.1.0-1.el9.src.rpm | **Missing** |
