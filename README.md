@@ -137,7 +137,7 @@ python3-pyjwt-2.6.0-1.el9 | python-pyjwt-2.6.0-1.el9.src.rpm | **Missing** | [Lo
 python3-pyopenssl-23.2.0-1.el9 | python-pyopenssl-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyopenssl-23.2.0-1.el9.src.rpm.log)
 python3-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 python3-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
-python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
+python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3-pyrsistent-0.19.2-1.el9 | python-pyrsistent-0.19.2-1.el9.src.rpm | **Missing** |
 python3-pytz-2022.6-1.el9 | python-pytz-2022.6-1.el9.src.rpm | **Missing** |
 python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | **Missing** |
