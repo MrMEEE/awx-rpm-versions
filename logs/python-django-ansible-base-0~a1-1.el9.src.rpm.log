@@ -37,7 +37,7 @@ Start: build phase for python-django-ansible-base-0~a1-1.el9.src.rpm
 Start: build setup for python-django-ansible-base-0~a1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
+setting SOURCE_DATE_EPOCH=1706745600
 Wrote: /builddir/build/SRPMS/python-django-ansible-base-0~a1-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              9.3 MB/s |  61 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [   ===                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      252 kB/s |  35 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                               10 MB/s | 170 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [   ===                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.7 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                     [                  ===                                                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                       78 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ====================================================================================================================================================================================================
  Package                                     Architecture              Version                               Repository                                                                        Size
@@ -135,14 +135,14 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-django-ansible-base-0~a1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.VSyiXz
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.6giekn
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf django-ansible-base-0a1
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/django-ansible-base-0a1.tar.gz
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/django-ansible-base-0a1.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd django-ansible-base-0a1
@@ -150,7 +150,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.VSyiXz
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZEKehW
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rzIg9b
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-ansible-base-0a1
@@ -185,11 +185,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                       70 kB/s |  35 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      290 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
@@ -230,8 +230,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.AlD5Fm
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zjWOIm
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-ansible-base-0a1
@@ -271,11 +271,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.5 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      223 kB/s |  35 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 11 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      300 kB/s |  36 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
@@ -315,8 +315,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uAgt3g
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9oTWVF
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-ansible-base-0a1
@@ -375,11 +375,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                          10 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      220 kB/s |  35 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                       66 kB/s |  36 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
@@ -393,8 +393,8 @@ Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.e0HbA1
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ldh78i
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-ansible-base-0a1
@@ -444,7 +444,7 @@ removed directory 'django_ansible_base-0a1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.BpFgvA
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.QxXvFZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-ansible-base-0a1
@@ -457,14 +457,14 @@ Processing /builddir/build/BUILD/django-ansible-base-0a1
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info
-  writing /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/SOURCES.txt'
-  writing manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-o87vlr4z/django_ansible_base-0a1.dist-info'
+  creating /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info
+  writing /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/SOURCES.txt'
+  writing manifest file '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/pip-modern-metadata-q0q3pfp0/django_ansible_base-0a1.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: django-ansible-base
   Building wheel for django-ansible-base (pyproject.toml): started
@@ -529,26 +529,26 @@ Building wheels for collected packages: django-ansible-base
   ╰─> See above for output.
   
   note: This error originates from a subprocess, and is likely not a problem with pip.
-  full command: /usr/bin/python3 /usr/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/tmpdnn5tinx
+  full command: /usr/bin/python3 /usr/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/django-ansible-base-0a1/.pyproject-builddir/tmpy5oqpb20
   cwd: /builddir/build/BUILD/django-ansible-base-0a1
   Building wheel for django-ansible-base (pyproject.toml): finished with status 'error'
   ERROR: Failed building wheel for django-ansible-base
 Failed to build django-ansible-base
 ERROR: Failed to build one or more wheels
+error: Bad exit status from /var/tmp/rpm-tmp.QxXvFZ (%build)
+    Bad exit status from /var/tmp/rpm-tmp.QxXvFZ (%build)
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.BpFgvA (%build)
-    Bad exit status from /var/tmp/rpm-tmp.BpFgvA (%build)
 Finish: rpmbuild python-django-ansible-base-0~a1-1.el9.src.rpm
 Finish: build phase for python-django-ansible-base-0~a1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-django-ansible-base-0~a1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-django-ansible-base-0~a1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M dd0f83af827b4ddf990b9de1eeb7e9c2 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.357cckiw:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-django-ansible-base.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 0f6dd58e5393494685fdc4d10bd35d20 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.3vj4i71z:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-django-ansible-base.spec --nocheck'
 
 Directory walk started
-Directory walk done - 35 packages
+Directory walk done - 179 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
