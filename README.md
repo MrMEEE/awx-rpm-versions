@@ -25,7 +25,7 @@ python3-azure-core-1.26.1-1.el9 | python-azure-core-1.26.1-1.el9.src.rpm | Built
 python3-azure-keyvault-1.1.0-1.el9 | python-azure-keyvault-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-1.1.0-1.el9.src.rpm.log)
 python3-azure-nspkg-3.0.2-1.el9 | python-azure-nspkg-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-azure-nspkg-3.0.2-1.el9.src.rpm.log)
 python3-boto3-1.26.102-1.el9 | python-boto3-1.26.102-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.26.102-1.el9.src.rpm.log)
-python3-botocore-1.29.102-1.el9 | python-botocore-1.29.102-1.el9.src.rpm | **Missing** |
+python3-botocore-1.29.102-1.el9 | python-botocore-1.29.102-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.29.102-1.el9.src.rpm.log)
 python3-build-1.0.3-1.el9 | python-build-1.0.3-1.el9.src.rpm | **Missing** |
 python3-cachecontrol-0.13.1-1.el9 | python-cachecontrol-0.13.1-1.el9.src.rpm | **Missing** |
 python3-cachetools-5.2.0-1.el9 | python-cachetools-5.2.0-1.el9.src.rpm | **Missing** |
