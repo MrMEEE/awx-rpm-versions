@@ -37,7 +37,7 @@ Start: build phase for python-rapidfuzz-3.6.1-1.el9.src.rpm
 Start: build setup for python-rapidfuzz-3.6.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
+setting SOURCE_DATE_EPOCH=1706745600
 Wrote: /builddir/build/SRPMS/python-rapidfuzz-3.6.1-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                               17 MB/s | 133 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [   ===                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    23 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 27 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      214 kB/s |  36 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                               21 MB/s | 170 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [   ===                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      239 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ====================================================================================================================================================================================================
  Package                                    Architecture             Version                                  Repository                                                                       Size
@@ -96,18 +96,19 @@ Transaction Summary
 Install  32 Packages
 
 Total size: 96 M
-Total download size: 9.2 M
 Installed size: 301 M
 Downloading Packages:
 [SKIPPED] python3-packaging-23.1-1.el9.noarch.rpm: Already downloaded                                                                                                                              
 [SKIPPED] python3-setuptools-69.0.2-1.el9.noarch.rpm: Already downloaded                                                                                                                           
 [SKIPPED] make-4.3-7.el9.x86_64.rpm: Already downloaded                                                                                                                                            
+[SKIPPED] vim-filesystem-8.2.2637-20.el9_1.noarch.rpm: Already downloaded                                                                                                                          
 [SKIPPED] expat-2.5.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                         
 [SKIPPED] python3-setuptools-wheel-53.0.0-12.el9.noarch.rpm: Already downloaded                                                                                                                    
 [SKIPPED] libedit-3.1-38.20210216cvs.el9.x86_64.rpm: Already downloaded                                                                                                                            
 [SKIPPED] python3-pip-wheel-21.2.3-7.el9.noarch.rpm: Already downloaded                                                                                                                            
 [SKIPPED] python3-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                                  
 [SKIPPED] python3-libs-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                             
+[SKIPPED] libuv-1.42.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                        
 [SKIPPED] libmpc-1.2.1-4.el9.x86_64.rpm: Already downloaded                                                                                                                                        
 [SKIPPED] libxcrypt-devel-4.4.18-3.el9.x86_64.rpm: Already downloaded                                                                                                                              
 [SKIPPED] python-rpm-macros-3.9-52.el9.noarch.rpm: Already downloaded                                                                                                                              
@@ -121,18 +122,14 @@ Downloading Packages:
 [SKIPPED] gcc-plugin-annobin-11.4.1-2.1.el9.x86_64.rpm: Already downloaded                                                                                                                         
 [SKIPPED] annobin-12.12-1.el9.x86_64.rpm: Already downloaded                                                                                                                                       
 [SKIPPED] glibc-devel-2.34-83.el9_3.7.x86_64.rpm: Already downloaded                                                                                                                               
+[SKIPPED] cmake-3.20.2-9.el9_3.x86_64.rpm: Already downloaded                                                                                                                                      
+[SKIPPED] cmake-data-3.20.2-9.el9_3.noarch.rpm: Already downloaded                                                                                                                                 
 [SKIPPED] cmake-filesystem-3.20.2-9.el9_3.x86_64.rpm: Already downloaded                                                                                                                           
+[SKIPPED] cmake-rpm-macros-3.20.2-9.el9_3.noarch.rpm: Already downloaded                                                                                                                           
 [SKIPPED] kernel-headers-5.14.0-362.18.1.el9_3.x86_64.rpm: Already downloaded                                                                                                                      
 [SKIPPED] python3-devel-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                            
+[SKIPPED] ninja-build-1.10.2-6.el9.x86_64.rpm: Already downloaded                                                                                                                                  
 [SKIPPED] pyproject-rpm-macros-1.9.0-1.el9.noarch.rpm: Already downloaded                                                                                                                          
-(27/32): vim-filesystem-8.2.2637-20.el9_1.noarch.rpm                           90% [======================================================================-       ] ---  B/s |  87 MB     --:-- ETA(27/32): vim-filesystem-8.2.2637-20.el9_1.noarch.rpm                                                                                                                104 kB/s |  22 kB     00:00    
-(28-29/32): libuv-1.42.0-1.el9.x86_64.rpm                                      90% [======================================================================-       ] 104 kB/s |  87 MB     01:30 ETA(28/32): libuv-1.42.0-1.el9.x86_64.rpm                                                                                                                              584 kB/s | 153 kB     00:00    
-(29-30/32): cmake-3.20.2-9.el9_3.x86_64.rpm                                    90% [======================================================================-       ] 134 kB/s |  87 MB     01:08 ETA(29/32): cmake-rpm-macros-3.20.2-9.el9_3.noarch.rpm                                                                                                                  82 kB/s |  12 kB     00:00    
-(30-31/32): cmake-data-3.20.2-9.el9_3.noarch.rpm                               91% [=======================================================================       ] 273 kB/s |  88 MB     00:31 ETA(30/32): cmake-data-3.20.2-9.el9_3.noarch.rpm                                                                                                                       8.1 MB/s | 2.1 MB     00:00    
-(31-32/32): ninja-build-1.10.2-6.el9.x86_64.rpm                                93% [========================================================================-     ] 600 kB/s |  89 MB     00:11 ETA(31/32): ninja-build-1.10.2-6.el9.x86_64.rpm                                                                                                                        440 kB/s | 150 kB     00:00    
-(32/32): cmake-3.20.2-9.el9_3.x86_64.rpm                                       96% [===========================================================================   ] 1.2 MB/s |  93 MB     00:02 ETA(32/32): cmake-3.20.2-9.el9_3.x86_64.rpm                                                                                                                            6.6 MB/s | 6.7 MB     00:01    
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                                                                                                                                                               9.0 MB/s | 9.2 MB     00:01     
 Running transaction check
 Transaction check succeeded.
 Running transaction test
@@ -226,8 +223,8 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-rapidfuzz-3.6.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mIPLO6
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.899FTb
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -241,7 +238,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mIPLO6
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.im6Puo
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.bgDZA9
 + umask 022
 + cd /builddir/build/BUILD
 + cd rapidfuzz-3.6.1
@@ -276,11 +273,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.5 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    26 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 26 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   26 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      241 kB/s |  36 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.2 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.2 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                       55 kB/s |  36 kB     00:00    
 Package cmake-3.20.2-9.el9_3.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package ninja-build-1.10.2-6.el9.x86_64 is already installed.
@@ -324,8 +321,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1706659200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.cw6Ek4
+setting SOURCE_DATE_EPOCH=1706745600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xzLjQf
 + umask 022
 + cd /builddir/build/BUILD
 + cd rapidfuzz-3.6.1
@@ -365,11 +362,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 26 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   28 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      295 kB/s |  36 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.7 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      281 kB/s |  36 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package cmake-3.20.2-9.el9_3.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
@@ -385,10 +382,10 @@ Error:
 (try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 Finish: rpmbuild python-rapidfuzz-3.6.1-1.el9.src.rpm
 Finish: build phase for python-rapidfuzz-3.6.1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-rapidfuzz-3.6.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-rapidfuzz-3.6.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 4f7d852a817b4cc591045e50186c7cdd -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.w4zx3llb:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-rapidfuzz-3.6.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 38d01f8b2d9c4adba853363b7495d9de -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.75stm4af:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-rapidfuzz-3.6.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -396,11 +393,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                    22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                 26 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   28 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                      295 kB/s |  36 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.7 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                                    20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                      281 kB/s |  36 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package cmake-3.20.2-9.el9_3.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
@@ -416,7 +413,7 @@ Error:
 (try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 
 Directory walk started
-Directory walk done - 126 packages
+Directory walk done - 180 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
