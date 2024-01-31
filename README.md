@@ -146,7 +146,7 @@ python3-receptorctl-1.4.2-1.el9 | python-receptorctl-1.4.2-1.el9.src.rpm | Built
 python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-4.3.5-1.el9.src.rpm.log)
 python3-requests-2.28.1-1.el9 | python-requests-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-requests-2.28.1-1.el9.src.rpm.log)
 python3-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
-python3-requirements-parser-0.5.0-1.el9 | python-requirements-parser-0.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requirements-parser-0.5.0-1.el9.src.rpm.log)
+python3-requirements-parser-0.5.0-1.el9 | python-requirements-parser-0.5.0-1.el9.src.rpm | Built | [Log](logs/python-requirements-parser-0.5.0-1.el9.src.rpm.log)
 python3-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3-s3transfer-0.6.0-1.el9 | python-s3transfer-0.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.6.0-1.el9.src.rpm.log)
 python3-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-183 total packages, 116 packages built successfully, 67 packages left to fix
+183 total packages, 117 packages built successfully, 66 packages left to fix
