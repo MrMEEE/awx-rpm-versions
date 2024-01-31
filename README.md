@@ -17,7 +17,7 @@ python3-asn1-2.6.0-1.el9 | python-asn1-2.6.0-1.el9.src.rpm | **Missing** | [Log]
 python3-asyncpg-0.27.0-1.el9 | python-asyncpg-0.27.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asyncpg-0.27.0-1.el9.src.rpm.log)
 python3-async-timeout-4.0.2-1.el9 | python-async-timeout-4.0.2-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-4.0.2-1.el9.src.rpm.log)
 python3-attrs-22.1.0-1.el9 | python-attrs-22.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-22.1.0-1.el9.src.rpm.log)
-python3-autobahn-22.7.1-1.el9 | python-autobahn-22.7.1-1.el9.src.rpm | **Missing** |
+python3-autobahn-22.7.1-1.el9 | python-autobahn-22.7.1-1.el9.src.rpm | Built | [Log](logs/python-autobahn-22.7.1-1.el9.src.rpm.log)
 python3-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | **Missing** |
 python3-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** |
 python3-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | **Missing** |
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-183 total packages, 8 packages built successfully, 175 packages left to fix
+183 total packages, 9 packages built successfully, 174 packages left to fix
