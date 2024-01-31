@@ -134,7 +134,7 @@ python3-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Lo
 python3-pydantic-1.10.2-1.el9 | python-pydantic-1.10.2-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-1.10.2-1.el9.src.rpm.log)
 python3-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3-pyjwt-2.6.0-1.el9 | python-pyjwt-2.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyjwt-2.6.0-1.el9.src.rpm.log)
-python3-pyopenssl-23.2.0-1.el9 | python-pyopenssl-23.2.0-1.el9.src.rpm | **Missing** |
+python3-pyopenssl-23.2.0-1.el9 | python-pyopenssl-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyopenssl-23.2.0-1.el9.src.rpm.log)
 python3-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | **Missing** |
 python3-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | **Missing** |
 python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
