@@ -9,6 +9,7 @@ License:        gpl
 URL:            https://github.com/MagicStack/asyncpg
 Source:         %{pypi_source asyncpg}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 

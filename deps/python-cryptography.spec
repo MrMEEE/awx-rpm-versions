@@ -9,8 +9,12 @@ License:        gpl
 URL:            https://pypi.org/project/cryptography/
 Source:         %{pypi_source cryptography}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
+BuildRequires:  rust
+BuildRequires:  cargo
+BuildRequires:  openssl-devel
 
 
 # Fill in the actual package description to submit package to Fedora

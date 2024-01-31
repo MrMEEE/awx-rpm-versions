@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           python-psycopg
 Version:        3.1.9
 Release:        %autorelease
@@ -8,9 +10,10 @@ Summary:        PostgreSQL database adapter for Python
 License:        gpl
 URL:            https://psycopg.org/
 Source:         %{pypi_source psycopg}
+Patch:		psycopg-deps.patch
 
-BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildArch:      x86_64
+BuildRequires:  python3-devel libpq-devel gcc
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -21,6 +24,7 @@ This is package 'psycopg' generated automatically by pyp2spec.}
 
 %package -n     python3-psycopg
 Summary:        %{summary}
+
 
 %description -n python3-psycopg %_description
 

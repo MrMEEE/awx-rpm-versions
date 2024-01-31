@@ -28,6 +28,7 @@ Summary:        %{summary}
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 %pyproject_extras_subpkg -n python3-setuptools-scm docs,rich,test
 
+%pyproject_extras_subpkg -n python3-setuptools-scm toml
 
 %prep
 %autosetup -p1 -n setuptools-scm-%{version}

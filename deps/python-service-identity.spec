@@ -10,7 +10,7 @@ URL:            https://service-identity.readthedocs.io/
 Source:         %{pypi_source service-identity}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel python3-pyasn1 python3-pyasn1-modules 
 
 
 # Fill in the actual package description to submit package to Fedora

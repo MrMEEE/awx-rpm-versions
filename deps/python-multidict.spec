@@ -9,6 +9,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/multidict
 Source:         %{pypi_source multidict}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 

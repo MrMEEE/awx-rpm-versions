@@ -9,6 +9,7 @@ License:        gpl
 URL:            https://github.com/giampaolo/psutil
 Source:         %{pypi_source psutil}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 

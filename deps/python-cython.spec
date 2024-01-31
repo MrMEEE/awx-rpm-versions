@@ -9,6 +9,7 @@ License:        gpl
 URL:            http://cython.org/
 Source:         %{pypi_source Cython}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 

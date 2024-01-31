@@ -28,6 +28,7 @@ Summary:        %{summary}
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 %pyproject_extras_subpkg -n python3-cachecontrol dev,filecache,redis
 
+%pyproject_extras_subpkg -n python3-cachecontrol filecache
 
 %prep
 %autosetup -p1 -n cachecontrol-%{version}
