@@ -40,7 +40,7 @@ python3-constantly-15.1.0-1.el9 | python-constantly-15.1.0-1.el9.src.rpm | Built
 python3-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3-cryptography-41.0.3-1.el9 | python-cryptography-41.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.3-1.el9.src.rpm.log)
 python3-cython-0.29.32-1.el9 | python-cython-0.29.32-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.32-1.el9.src.rpm.log)
-python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** |
+python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
 python3-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** |
 python3-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | **Missing** |
 python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | **Missing** |
