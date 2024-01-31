@@ -174,7 +174,7 @@ python3-twisted-22.10.0-1.el9 | python-twisted-22.10.0-1.el9.src.rpm | **Missing
 python3-txaio-22.2.1-1.el9 | python-txaio-22.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-txaio-22.2.1-1.el9.src.rpm.log)
 python3-types-setuptools-69.0.0.20240125-1.el9 | python-types-setuptools-69.0.0.20240125-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.0.0.20240125-1.el9.src.rpm.log)
 python3-typing-extensions-4.4.0-1.el9 | python-typing-extensions-4.4.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.4.0-1.el9.src.rpm.log)
-python3-urllib3-1.26.17-1.el9 | python-urllib3-1.26.17-1.el9.src.rpm | **Missing** |
+python3-urllib3-1.26.17-1.el9 | python-urllib3-1.26.17-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-1.26.17-1.el9.src.rpm.log)
 python3-uwsgi-2.0.21-1.el9 | python-uwsgi-2.0.21-1.el9.src.rpm | **Missing** |
 python3-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | **Missing** |
 python3-websocket-client-1.4.2-1.el9 | python-websocket-client-1.4.2-1.el9.src.rpm | **Missing** |
