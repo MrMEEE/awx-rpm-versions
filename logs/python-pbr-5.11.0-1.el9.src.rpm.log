@@ -1,0 +1,1089 @@
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 /opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-pbr-5.11.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-pbr-5.11.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.3
+INFO: Mock Version: 5.3
+Start(bootstrap): chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start(bootstrap): cleaning package manager metadata
+Finish(bootstrap): cleaning package manager metadata
+INFO: Package manager dnf detected and used (fallback)
+Finish(bootstrap): chroot init
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+Start: unpacking root cache
+Finish: unpacking root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+INFO: Package manager dnf detected and used (direct choice)
+INFO: Buildroot is handled by package management downloaded with a bootstrap image:
+  rpm-4.16.1.3-19.el9_1.x86_64
+  python3-dnf-4.12.0-4.el9.noarch
+  python3-dnf-plugins-core-4.1.0-3.el9.noarch
+Finish: chroot init
+Start: build phase for python-pbr-5.11.0-1.el9.src.rpm
+Start: build setup for python-pbr-5.11.0-1.el9.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706659200
+Wrote: /builddir/build/SRPMS/python-pbr-5.11.0-1.el9.src.rpm
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                               20 MB/s | 110 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [   ===                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         5.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [            ===                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      203 kB/s |  35 kB     00:00    
+Dependencies resolved.
+====================================================================================================================================================================================================
+ Package                                     Architecture              Version                               Repository                                                                        Size
+====================================================================================================================================================================================================
+Installing:
+ [1mpython3-devel                              [m x86_64                    3.9.18-1.el9_3.1                      appstream                                                                        249 k
+Installing dependencies:
+ [1mexpat                                      [m x86_64                    2.5.0-1.el9                           baseos                                                                           120 k
+ [1mpyproject-rpm-macros                       [m noarch                    1.9.0-1.el9                           codeready-builder                                                                 44 k
+ [1mpython-rpm-macros                          [m noarch                    3.9-52.el9                            appstream                                                                         20 k
+ [1mpython3                                    [m x86_64                    3.9.18-1.el9_3.1                      baseos                                                                            29 k
+ [1mpython3-libs                               [m x86_64                    3.9.18-1.el9_3.1                      baseos                                                                           7.8 M
+ [1mpython3-packaging                          [m noarch                    23.1-1.el9                            downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64                     80 k
+ [1mpython3-pip-wheel                          [m noarch                    21.2.3-7.el9                          baseos                                                                           1.1 M
+ [1mpython3-rpm-generators                     [m noarch                    12-8.el9                              appstream                                                                         33 k
+ [1mpython3-rpm-macros                         [m noarch                    3.9-52.el9                            appstream                                                                         16 k
+ [1mpython3-setuptools                         [m noarch                    69.0.2-1.el9                          downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64                    978 k
+ [1mpython3-setuptools-wheel                   [m noarch                    53.0.0-12.el9                         baseos                                                                           470 k
+
+Transaction Summary
+====================================================================================================================================================================================================
+Install  12 Packages
+
+Total size: 11 M
+Installed size: 39 M
+Downloading Packages:
+[SKIPPED] python3-packaging-23.1-1.el9.noarch.rpm: Already downloaded                                                                                                                              
+[SKIPPED] python3-setuptools-69.0.2-1.el9.noarch.rpm: Already downloaded                                                                                                                           
+[SKIPPED] expat-2.5.0-1.el9.x86_64.rpm: Already downloaded                                                                                                                                         
+[SKIPPED] python3-setuptools-wheel-53.0.0-12.el9.noarch.rpm: Already downloaded                                                                                                                    
+[SKIPPED] python3-pip-wheel-21.2.3-7.el9.noarch.rpm: Already downloaded                                                                                                                            
+[SKIPPED] python3-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                                  
+[SKIPPED] python3-libs-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                             
+[SKIPPED] python-rpm-macros-3.9-52.el9.noarch.rpm: Already downloaded                                                                                                                              
+[SKIPPED] python3-rpm-generators-12-8.el9.noarch.rpm: Already downloaded                                                                                                                           
+[SKIPPED] python3-rpm-macros-3.9-52.el9.noarch.rpm: Already downloaded                                                                                                                             
+[SKIPPED] python3-devel-3.9.18-1.el9_3.1.x86_64.rpm: Already downloaded                                                                                                                            
+[SKIPPED] pyproject-rpm-macros-1.9.0-1.el9.noarch.rpm: Already downloaded                                                                                                                          
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=============                                                                                                                                                          ] 1/1  Preparing        :  [==========================                                                                                                                                             ] 1/1  Preparing        :  [=========================================                                                                                                                              ] 1/1  Preparing        :  [=======================================================                                                                                                                ] 1/1  Preparing        :  [====================================================================                                                                                                   ] 1/1  Preparing        :  [===================================================================================                                                                                    ] 1/1  Preparing        :  [================================================================================================                                                                       ] 1/1  Preparing        :  [==============================================================================================================                                                         ] 1/1  Preparing        :  [=============================================================================================================================                                          ] 1/1  Preparing        :  [==========================================================================================================================================                             ] 1/1  Preparing        :  [=======================================================================================================================================================                ] 1/1  Preparing        :                                                                                                                                                                            1/1 
+  Installing       : python-rpm-macros-3.9-52.el9.noarch [                                                                                                                                  ]  1/12  Installing       : python-rpm-macros-3.9-52.el9.noarch [=======================                                                                                                           ]  1/12  Installing       : python-rpm-macros-3.9-52.el9.noarch [=================================================================================                                                 ]  1/12  Installing       : python-rpm-macros-3.9-52.el9.noarch [================================================================================================================================  ]  1/12  Installing       : python-rpm-macros-3.9-52.el9.noarch                                                                                                                                       1/12 
+  Installing       : python3-rpm-macros-3.9-52.el9.noarch [                                                                                                                                 ]  2/12  Installing       : python3-rpm-macros-3.9-52.el9.noarch [=============================================================================================================================    ]  2/12  Installing       : python3-rpm-macros-3.9-52.el9.noarch                                                                                                                                      2/12 
+  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [                                                                                                                                ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==                                                                                                                              ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [======                                                                                                                          ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==========                                                                                                                      ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [============                                                                                                                    ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [================                                                                                                                ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [====================                                                                                                            ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=======================                                                                                                         ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==========================                                                                                                      ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==============================                                                                                                  ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=================================                                                                                               ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=====================================                                                                                           ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [========================================                                                                                        ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [============================================                                                                                    ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [===============================================                                                                                 ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [===================================================                                                                             ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=======================================================                                                                         ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=========================================================                                                                       ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=============================================================                                                                   ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=================================================================                                                               ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [===================================================================                                                             ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=======================================================================                                                         ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [===========================================================================                                                     ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==============================================================================                                                  ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=================================================================================                                               ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [=====================================================================================                                           ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [========================================================================================                                        ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [============================================================================================                                    ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [================================================================================================                                ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==================================================================================================                              ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [======================================================================================================                          ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==========================================================================================================                      ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [============================================================================================================                    ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [================================================================================================================                ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [====================================================================================================================            ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [========================================================================================================================        ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==========================================================================================================================      ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch [==============================================================================================================================  ]  3/12  Installing       : python3-pip-wheel-21.2.3-7.el9.noarch                                                                                                                                     3/12 
+  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [                                                                                                                        ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=======                                                                                                                 ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=============                                                                                                           ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [====================                                                                                                    ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [===========================                                                                                             ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [==================================                                                                                      ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [==========================================                                                                              ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=================================================                                                                       ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=======================================================                                                                 ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [==============================================================                                                          ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=====================================================================                                                   ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [============================================================================                                            ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [====================================================================================                                    ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [==========================================================================================                              ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [=================================================================================================                       ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [========================================================================================================                ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [===============================================================================================================         ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch [======================================================================================================================  ]  4/12  Installing       : python3-setuptools-wheel-53.0.0-12.el9.noarch                                                                                                                             4/12 
+  Installing       : expat-2.5.0-1.el9.x86_64 [                                                                                                                                             ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [==============                                                                                                                               ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [==================                                                                                                                           ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [================================                                                                                                             ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [===============================================                                                                                              ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [===============================================================                                                                              ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [=============================================================================                                                                ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [=============================================================================================                                                ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [===========================================================================================================                                  ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [============================================================================================================                                 ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [==========================================================================================================================                   ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [==========================================================================================================================================   ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64 [===========================================================================================================================================  ]  5/12  Installing       : expat-2.5.0-1.el9.x86_64                                                                                                                                                  5/12 
+  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [                                                                                                                                      ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [=                                                                                                                                     ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [=============================================================                                                                         ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [==============================================================                                                                        ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [================================================================                                                                      ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [=================================================================                                                                     ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [========================================================================================================                              ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [=========================================================================================================                             ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64 [====================================================================================================================================  ]  6/12  Installing       : python3-3.9.18-1.el9_3.1.x86_64                                                                                                                                           6/12 
+  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [                                                                                                                                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=                                                                                                                                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==                                                                                                                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===                                                                                                                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====                                                                                                                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======                                                                                                                           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======                                                                                                                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========                                                                                                                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========                                                                                                                       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========                                                                                                                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============                                                                                                                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============                                                                                                                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============                                                                                                                  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [================                                                                                                                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================                                                                                                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===================                                                                                                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================                                                                                                             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================                                                                                                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================                                                                                                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [========================                                                                                                         ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================                                                                                                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================                                                                                                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============================                                                                                                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================                                                                                                    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================                                                                                                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [================================                                                                                                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=================================                                                                                                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================================                                                                                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================================                                                                                             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================================                                                                                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======================================                                                                                           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================================                                                                                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================================                                                                                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========================================                                                                                       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================================                                                                                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================================                                                                                    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================================                                                                                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============================================                                                                                  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=================================================                                                                                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================================================                                                                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===================================================                                                                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================================================                                                                             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======================================================                                                                           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================================================                                                                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [========================================================                                                                         ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========================================================                                                                       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================================================                                                                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============================================================                                                                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================================================                                                                    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============================================================                                                                  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [================================================================                                                                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=================================================================                                                                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===================================================================                                                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================================================================                                                             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================================================================                                                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======================================================================                                                           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [========================================================================                                                         ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================================================================                                                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========================================================================                                                       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============================================================================                                                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================================================================                                                    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================================================================                                                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============================================================================                                                  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=================================================================================                                                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================================================================================                                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===================================================================================                                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================================================================================                                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======================================================================================                                           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================================================================================                                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================================================================================                                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========================================================================================                                       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================================================================================                                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============================================================================================                                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================================================================================                                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============================================================================================                                  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [================================================================================================                                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================================================================================================                               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===================================================================================================                              ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================================================================================================                             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================================================================================================                            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================================================================================================                          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [========================================================================================================                         ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================================================================================================                        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================================================================================================                      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [============================================================================================================                     ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================================================================================================                    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================================================================================================                   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [================================================================================================================                 ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=================================================================================================================                ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==================================================================================================================               ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [====================================================================================================================             ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=====================================================================================================================            ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [======================================================================================================================           ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=======================================================================================================================          ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=========================================================================================================================        ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==========================================================================================================================       ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===========================================================================================================================      ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [=============================================================================================================================    ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [==============================================================================================================================   ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64 [===============================================================================================================================  ]  7/12  Installing       : python3-libs-3.9.18-1.el9_3.1.x86_64                                                                                                                                      7/12 
+  Installing       : python3-packaging-23.1-1.el9.noarch [                                                                                                                                  ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===                                                                                                                               ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=====                                                                                                                             ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [======                                                                                                                            ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=========                                                                                                                         ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===========                                                                                                                       ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=============                                                                                                                     ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==============                                                                                                                    ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [================                                                                                                                  ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===================                                                                                                               ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=======================                                                                                                           ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==========================                                                                                                        ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [============================                                                                                                      ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [================================                                                                                                  ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=================================                                                                                                 ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=====================================                                                                                             ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=======================================                                                                                           ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==========================================                                                                                        ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [============================================                                                                                      ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==============================================                                                                                    ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=================================================                                                                                 ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=========================================================                                                                         ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==========================================================                                                                        ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [========================================================================                                                          ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===========================================================================                                                       ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [====================================================================================                                              ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=====================================================================================                                             ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=============================================================================================                                     ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==============================================================================================                                    ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [==================================================================================================                                ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [====================================================================================================                              ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [=====================================================================================================                             ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===================================================================================================================               ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [========================================================================================================================          ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [===========================================================================================================================       ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch [================================================================================================================================  ]  8/12  Installing       : python3-packaging-23.1-1.el9.noarch                                                                                                                                       8/12 
+  Installing       : python3-rpm-generators-12-8.el9.noarch [                                                                                                                               ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [=                                                                                                                              ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [==                                                                                                                             ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [======                                                                                                                         ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [===========                                                                                                                    ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [======================================================                                                                         ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [=======================================================                                                                        ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [===========================================================================================================                    ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch [=============================================================================================================================  ]  9/12  Installing       : python3-rpm-generators-12-8.el9.noarch                                                                                                                                    9/12 
+  Installing       : python3-setuptools-69.0.2-1.el9.noarch [                                                                                                                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=                                                                                                                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==                                                                                                                             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===                                                                                                                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====                                                                                                                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======                                                                                                                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======                                                                                                                        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========                                                                                                                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========                                                                                                                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========                                                                                                                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============                                                                                                                   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============                                                                                                                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===============                                                                                                                ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [================                                                                                                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================                                                                                                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================                                                                                                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================                                                                                                           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====================                                                                                                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================                                                                                                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================                                                                                                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================                                                                                                      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========================                                                                                                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================                                                                                                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================                                                                                                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==============================                                                                                                 ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===============================                                                                                                ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================================                                                                                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==================================                                                                                             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================================                                                                                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================================                                                                                           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================================                                                                                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======================================                                                                                        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================================                                                                                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================================                                                                                      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================================                                                                                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============================================                                                                                   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================================                                                                                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==============================================                                                                                 ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [================================================                                                                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================================================                                                                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==================================================                                                                             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================================================                                                                           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====================================================                                                                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================================================                                                                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======================================================                                                                        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================================================                                                                      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========================================================                                                                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================================================                                                                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============================================================                                                                   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==============================================================                                                                 ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===============================================================                                                                ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [================================================================                                                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==================================================================                                                             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================================================================                                                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================================================================                                                           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====================================================================                                                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======================================================================                                                        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================================================================                                                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================================================================                                                      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========================================================================                                                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============================================================================                                                   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================================================================                                                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==============================================================================                                                 ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [================================================================================                                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================================================================================                                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==================================================================================                                             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================================================================================                                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====================================================================================                                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================================================================================                                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======================================================================================                                        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================================================================================                                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========================================================================================                                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================================================================================                                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============================================================================================                                   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================================================================================                                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===============================================================================================                                ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [================================================================================================                               ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================================================================================================                              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================================================================================================                            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================================================================================================                           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=====================================================================================================                          ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================================================================================================                         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================================================================================================                       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================================================================================================                      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==========================================================================================================                     ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================================================================================================                    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================================================================================================                  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==============================================================================================================                 ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===============================================================================================================                ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=================================================================================================================              ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [==================================================================================================================             ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===================================================================================================================            ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [====================================================================================================================           ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [======================================================================================================================         ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=======================================================================================================================        ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [========================================================================================================================       ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=========================================================================================================================      ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [===========================================================================================================================    ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [============================================================================================================================   ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch [=============================================================================================================================  ] 10/12  Installing       : python3-setuptools-69.0.2-1.el9.noarch                                                                                                                                   10/12 
+  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [                                                                                                                                ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=                                                                                                                               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====                                                                                                                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [======                                                                                                                          ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========                                                                                                                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===============                                                                                                                 ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [================                                                                                                                ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=================                                                                                                               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================                                                                                                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [====================                                                                                                            ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=======================                                                                                                         ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [========================                                                                                                        ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=========================                                                                                                       ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========================                                                                                                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=============================                                                                                                   ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==============================                                                                                                  ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=================================                                                                                               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==================================                                                                                              ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================                                                                                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================                                                                                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [======================================                                                                                          ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===========================================                                                                                     ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================                                                                                    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===============================================                                                                                 ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================================                                                                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [====================================================                                                                            ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================================                                                                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=======================================================                                                                         ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [========================================================                                                                        ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========================================================                                                                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================================                                                                    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=============================================================                                                                   ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==============================================================                                                                  ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [================================================================                                                                ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=================================================================                                                               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==================================================================                                                              ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================================================                                                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================================================                                                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [======================================================================                                                          ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=======================================================================                                                         ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [========================================================================                                                        ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========================================================================                                                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===========================================================================                                                     ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================================================                                                    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==============================================================================                                                  ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=================================================================================                                               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================================================================                                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [====================================================================================                                            ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================================================================                                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=======================================================================================                                         ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=========================================================================================                                       ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========================================================================================                                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================================================================                                    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=============================================================================================                                   ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==================================================================================================                              ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================================================================================                             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================================================================================                           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [======================================================================================================                          ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=======================================================================================================                         ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [========================================================================================================                        ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==========================================================================================================                      ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===========================================================================================================                     ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================================================================================                    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=================================================================================================================               ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [===================================================================================================================             ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=====================================================================================================================           ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [========================================================================================================================        ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=========================================================================================================================       ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [============================================================================================================================    ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [=============================================================================================================================   ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64 [==============================================================================================================================  ] 11/12  Installing       : python3-devel-3.9.18-1.el9_3.1.x86_64                                                                                                                                    11/12 
+  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [                                                                                                                              ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [============                                                                                                                  ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [=========================================                                                                                     ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [==================================================                                                                            ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [======================================================                                                                        ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [===========================================================                                                                   ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [=================================================================================================                             ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [===================================================================================================                           ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [===========================================================================================================================   ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch [============================================================================================================================  ] 12/12  Installing       : pyproject-rpm-macros-1.9.0-1.el9.noarch                                                                                                                                  12/12 
+  Running scriptlet: pyproject-rpm-macros-1.9.0-1.el9.noarch                                                                                                                                  12/12 
+  Verifying        : python3-packaging-23.1-1.el9.noarch                                                                                                                                       1/12 
+  Verifying        : python3-setuptools-69.0.2-1.el9.noarch                                                                                                                                    2/12 
+  Verifying        : expat-2.5.0-1.el9.x86_64                                                                                                                                                  3/12 
+  Verifying        : python3-setuptools-wheel-53.0.0-12.el9.noarch                                                                                                                             4/12 
+  Verifying        : python3-pip-wheel-21.2.3-7.el9.noarch                                                                                                                                     5/12 
+  Verifying        : python3-3.9.18-1.el9_3.1.x86_64                                                                                                                                           6/12 
+  Verifying        : python3-libs-3.9.18-1.el9_3.1.x86_64                                                                                                                                      7/12 
+  Verifying        : python-rpm-macros-3.9-52.el9.noarch                                                                                                                                       8/12 
+  Verifying        : python3-rpm-generators-12-8.el9.noarch                                                                                                                                    9/12 
+  Verifying        : python3-rpm-macros-3.9-52.el9.noarch                                                                                                                                     10/12 
+  Verifying        : python3-devel-3.9.18-1.el9_3.1.x86_64                                                                                                                                    11/12 
+  Verifying        : pyproject-rpm-macros-1.9.0-1.el9.noarch                                                                                                                                  12/12 
+Installed products updated.
+
+Installed:
+  expat-2.5.0-1.el9.x86_64                      pyproject-rpm-macros-1.9.0-1.el9.noarch        python-rpm-macros-3.9-52.el9.noarch           python3-3.9.18-1.el9_3.1.x86_64                     
+  python3-devel-3.9.18-1.el9_3.1.x86_64         python3-libs-3.9.18-1.el9_3.1.x86_64           python3-packaging-23.1-1.el9.noarch           python3-pip-wheel-21.2.3-7.el9.noarch               
+  python3-rpm-generators-12-8.el9.noarch        python3-rpm-macros-3.9-52.el9.noarch           python3-setuptools-69.0.2-1.el9.noarch        python3-setuptools-wheel-53.0.0-12.el9.noarch       
+
+Complete!
+Finish: build setup for python-pbr-5.11.0-1.el9.src.rpm
+Start: Outputting list of installed packages
+Finish: Outputting list of installed packages
+Start: rpmbuild python-pbr-5.11.0-1.el9.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706659200
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IwbXv6
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf pbr-5.11.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/pbr-5.11.0.tar.gz
++ /usr/bin/tar -xof -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd pbr-5.11.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PCLHw8
++ umask 022
++ cd /builddir/build/BUILD
++ cd pbr-5.11.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3dist(setuptools) >= 40.8'
++ echo 'python3dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir --output /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement not satisfied: wheel
+Exiting dependency generation pass: build backend
++ cat /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-pbr-5.11.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                      269 kB/s |  35 kB     00:00    
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Dependencies resolved.
+====================================================================================================================================================================================================
+ Package                             Architecture                 Version                                 Repository                                                                           Size
+====================================================================================================================================================================================================
+Installing:
+ [1mpython3-pip                        [m noarch                       22.0.4-1.el9                            downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64                       2.7 M
+ [1mpython3-wheel                      [m noarch                       1:0.36.2-8.el9                          codeready-builder                                                                    87 k
+
+Transaction Summary
+====================================================================================================================================================================================================
+Install  2 Packages
+
+Total size: 2.7 M
+Installed size: 13 M
+Downloading Packages:
+[SKIPPED] python3-pip-22.0.4-1.el9.noarch.rpm: Already downloaded                                                                                                                                  
+[SKIPPED] python3-wheel-0.36.2-8.el9.noarch.rpm: Already downloaded                                                                                                                                
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [===================================================================================                                                                                    ] 1/1  Preparing        :                                                                                                                                                                            1/1 
+  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [                                                                                                                                    ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=                                                                                                                                   ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==                                                                                                                                  ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===                                                                                                                                 ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===========                                                                                                                         ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===================                                                                                                                 ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================                                                                                                           ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===============================                                                                                                     ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================                                                                                          ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [============================================                                                                                        ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================                                                                                  ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===================================================                                                                                 ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [====================================================                                                                                ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============================================================                                                                      ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================                                                                    ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================                                                                  ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================================================                                                       ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================================================                                            ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================================================================================                                           ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================================================================                          ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============================================================================================================                      ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================================================================                    ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=================================================================================================================                   ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================================================================                  ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [====================================================================================================================                ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================================================================================               ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================================================================================================================           ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================================================================================          ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==============================================================================================================================      ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=================================================================================================================================   ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==================================================================================================================================  ] 1/2  Installing       : python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                        1/2 
+  Installing       : python3-pip-22.0.4-1.el9.noarch [                                                                                                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=                                                                                                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==                                                                                                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====                                                                                                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====                                                                                                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======                                                                                                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========                                                                                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========                                                                                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========                                                                                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============                                                                                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============                                                                                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============                                                                                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================                                                                                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================                                                                                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================                                                                                                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================                                                                                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================                                                                                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================                                                                                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================                                                                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================                                                                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================                                                                                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================                                                                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================                                                                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================                                                                                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================                                                                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================                                                                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================                                                                                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================                                                                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================                                                                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================                                                                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================                                                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================                                                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================                                                                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================                                                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================                                                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================                                                                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================                                                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================                                                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================                                                                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================                                                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================                                                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================                                                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================                                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================                                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================                                                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================                                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================                                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================                                                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================================                                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================================                                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================================                                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================================                                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================================                                                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================================================                                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================================                                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================================                                                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================================================                                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================================                                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================================                                                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================================================                                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================================================                                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================================================                                                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================================================                                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================================================                                                   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================================================                                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================================================================                                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================================================                                               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================================================                                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================================================================                                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================================================                                           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================================================                                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================================================================                                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================================================================                                       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================================================================                                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================================================================                                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================================================================                                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================================================================                                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [========================================================================================================                                ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================================================================                              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================================================================                             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [============================================================================================================                            ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================================================================                          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================================================================                         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [================================================================================================================                        ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================================================================================                      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================================================================================                     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [====================================================================================================================                    ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================================================================================                  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=======================================================================================================================                 ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=========================================================================================================================               ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==========================================================================================================================              ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===========================================================================================================================             ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=============================================================================================================================           ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==============================================================================================================================          ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===============================================================================================================================         ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=================================================================================================================================       ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [==================================================================================================================================      ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [===================================================================================================================================     ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [=====================================================================================================================================   ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch [======================================================================================================================================  ] 2/2  Installing       : python3-pip-22.0.4-1.el9.noarch                                                                                                                                            2/2 
+  Running scriptlet: python3-pip-22.0.4-1.el9.noarch                                                                                                                                            2/2 
+  Verifying        : python3-pip-22.0.4-1.el9.noarch                                                                                                                                            1/2 
+  Verifying        : python3-wheel-1:0.36.2-8.el9.noarch                                                                                                                                        2/2 
+Installed products updated.
+
+Installed:
+  python3-pip-22.0.4-1.el9.noarch                                                                python3-wheel-1:0.36.2-8.el9.noarch                                                               
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706659200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.IplLCk
++ umask 022
++ cd /builddir/build/BUILD
++ cd pbr-5.11.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3dist(setuptools) >= 40.8'
++ echo 'python3dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir --output /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+/usr/lib/python3.9/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/usr/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing pbr.egg-info/PKG-INFO
+writing dependency_links to pbr.egg-info/dependency_links.txt
+writing entry points to pbr.egg-info/entry_points.txt
+writing top-level names to pbr.egg-info/top_level.txt
+[pbr] Reusing existing SOURCES.txt
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing pbr.egg-info/PKG-INFO
+writing dependency_links to pbr.egg-info/dependency_links.txt
+writing entry points to pbr.egg-info/entry_points.txt
+writing top-level names to pbr.egg-info/top_level.txt
+[pbr] Reusing existing SOURCES.txt
+creating '/builddir/build/BUILD/pbr-5.11.0/pbr-5.11.0.dist-info'
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+adding license file "AUTHORS" (matched pattern "AUTHORS*")
++ cat /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv pbr-5.11.0.dist-info/
+removed 'pbr-5.11.0.dist-info/entry_points.txt'
+removed 'pbr-5.11.0.dist-info/top_level.txt'
+removed 'pbr-5.11.0.dist-info/METADATA'
+removed 'pbr-5.11.0.dist-info/LICENSE'
+removed 'pbr-5.11.0.dist-info/AUTHORS'
+removed directory 'pbr-5.11.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-pbr-5.11.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                             [===                                                                           ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                              2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64        [===                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64   100% [==============================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                         4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                  [   ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                    21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                               [      ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                 23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                 [         ===                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                   24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                     [            ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                     [               ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                       64 kB/s |  35 kB     00:00    
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706659200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.k0XyQJ
++ umask 022
++ cd /builddir/build/BUILD
++ cd pbr-5.11.0
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3dist(setuptools) >= 40.8'
++ echo 'python3dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir --output /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+/usr/lib/python3.9/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/usr/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing pbr.egg-info/PKG-INFO
+writing dependency_links to pbr.egg-info/dependency_links.txt
+writing entry points to pbr.egg-info/entry_points.txt
+writing top-level names to pbr.egg-info/top_level.txt
+[pbr] Reusing existing SOURCES.txt
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing pbr.egg-info/PKG-INFO
+writing dependency_links to pbr.egg-info/dependency_links.txt
+writing entry points to pbr.egg-info/entry_points.txt
+writing top-level names to pbr.egg-info/top_level.txt
+[pbr] Reusing existing SOURCES.txt
+creating '/builddir/build/BUILD/pbr-5.11.0/pbr-5.11.0.dist-info'
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+adding license file "AUTHORS" (matched pattern "AUTHORS*")
++ cat /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv pbr-5.11.0.dist-info/
+removed 'pbr-5.11.0.dist-info/entry_points.txt'
+removed 'pbr-5.11.0.dist-info/top_level.txt'
+removed 'pbr-5.11.0.dist-info/METADATA'
+removed 'pbr-5.11.0.dist-info/AUTHORS'
+removed 'pbr-5.11.0.dist-info/LICENSE'
+removed directory 'pbr-5.11.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.bxv3ly
++ umask 022
++ cd /builddir/build/BUILD
++ cd pbr-5.11.0
++ mkdir -p /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir
+Processing /builddir/build/BUILD/pbr-5.11.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /usr/lib/python3.9/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+  !!
+
+          ********************************************************************************
+          Please avoid running ``setup.py`` and ``easy_install``.
+          Instead, use pypa/build, pypa/installer or other
+          standards-based tools.
+
+          See https://github.com/pypa/setuptools/issues/917 for details.
+          ********************************************************************************
+
+  !!
+    easy_install.initialize_options(self)
+  /usr/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+  !!
+
+          ********************************************************************************
+          Please avoid running ``setup.py`` directly.
+          Instead, use pypa/build, pypa/installer or other
+          standards-based tools.
+
+          See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+          ********************************************************************************
+
+  !!
+    self.initialize_options()
+  running dist_info
+  creating /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info
+  writing /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/entry_points.txt
+  writing top-level names to /builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/top_level.txt
+  [pbr] Processing SOURCES.txt
+  writing manifest file '/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/SOURCES.txt'
+  warning: no previously-included files found matching '.gitignore'
+  warning: no previously-included files found matching '.gitreview'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file '/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-modern-metadata-nw5kutk6/pbr-5.11.0.dist-info'
+  adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+  adding license file "AUTHORS" (matched pattern "AUTHORS*")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: pbr
+  Building wheel for pbr (pyproject.toml): started
+  Running command Building wheel for pbr (pyproject.toml)
+  /usr/lib/python3.9/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+  !!
+
+          ********************************************************************************
+          Please avoid running ``setup.py`` and ``easy_install``.
+          Instead, use pypa/build, pypa/installer or other
+          standards-based tools.
+
+          See https://github.com/pypa/setuptools/issues/917 for details.
+          ********************************************************************************
+
+  !!
+    easy_install.initialize_options(self)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/pbr
+  creating build/lib/pbr/hooks
+  copying pbr/hooks/__init__.py -> build/lib/pbr/hooks
+  copying pbr/hooks/backwards.py -> build/lib/pbr/hooks
+  copying pbr/hooks/base.py -> build/lib/pbr/hooks
+  copying pbr/hooks/commands.py -> build/lib/pbr/hooks
+  copying pbr/hooks/files.py -> build/lib/pbr/hooks
+  copying pbr/hooks/metadata.py -> build/lib/pbr/hooks
+  creating build/lib/pbr/cmd
+  copying pbr/cmd/__init__.py -> build/lib/pbr/cmd
+  copying pbr/cmd/main.py -> build/lib/pbr/cmd
+  creating build/lib/pbr/tests
+  copying pbr/tests/__init__.py -> build/lib/pbr/tests
+  copying pbr/tests/base.py -> build/lib/pbr/tests
+  copying pbr/tests/test_commands.py -> build/lib/pbr/tests
+  copying pbr/tests/test_core.py -> build/lib/pbr/tests
+  copying pbr/tests/test_files.py -> build/lib/pbr/tests
+  copying pbr/tests/test_hooks.py -> build/lib/pbr/tests
+  copying pbr/tests/test_integration.py -> build/lib/pbr/tests
+  copying pbr/tests/test_packaging.py -> build/lib/pbr/tests
+  copying pbr/tests/test_pbr_json.py -> build/lib/pbr/tests
+  copying pbr/tests/test_setup.py -> build/lib/pbr/tests
+  copying pbr/tests/test_util.py -> build/lib/pbr/tests
+  copying pbr/tests/test_version.py -> build/lib/pbr/tests
+  copying pbr/tests/test_wsgi.py -> build/lib/pbr/tests
+  copying pbr/tests/util.py -> build/lib/pbr/tests
+  copying pbr/__init__.py -> build/lib/pbr
+  copying pbr/build.py -> build/lib/pbr
+  copying pbr/builddoc.py -> build/lib/pbr
+  copying pbr/core.py -> build/lib/pbr
+  copying pbr/extra_files.py -> build/lib/pbr
+  copying pbr/find_package.py -> build/lib/pbr
+  copying pbr/git.py -> build/lib/pbr
+  copying pbr/options.py -> build/lib/pbr
+  copying pbr/packaging.py -> build/lib/pbr
+  copying pbr/pbr_json.py -> build/lib/pbr
+  copying pbr/sphinxext.py -> build/lib/pbr
+  copying pbr/testr_command.py -> build/lib/pbr
+  copying pbr/util.py -> build/lib/pbr
+  copying pbr/version.py -> build/lib/pbr
+  running egg_info
+  writing pbr.egg-info/PKG-INFO
+  writing dependency_links to pbr.egg-info/dependency_links.txt
+  writing entry points to pbr.egg-info/entry_points.txt
+  writing top-level names to pbr.egg-info/top_level.txt
+  [pbr] Reusing existing SOURCES.txt
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage.data_files' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage.data_files' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage.data_files' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage.data_files' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage.data_files' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage.doc.source' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage.doc.source' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage.doc.source' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage.doc.source' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage.doc.source' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage.pbr_testpackage' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage.pbr_testpackage' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage.pbr_testpackage' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage.pbr_testpackage' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage.pbr_testpackage' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage.pbr_testpackage.package_data' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage.pbr_testpackage.package_data' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage.pbr_testpackage.package_data' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage.pbr_testpackage.package_data' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage.pbr_testpackage.package_data' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.9/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'pbr.tests.testpackage.src' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'pbr.tests.testpackage.src' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'pbr.tests.testpackage.src' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'pbr.tests.testpackage.src' to be distributed and are
+          already explicitly excluding 'pbr.tests.testpackage.src' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/CHANGES.txt -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/LICENSE.txt -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/MANIFEST.in -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/README.txt -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/extra-file.txt -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/git-extra-file.txt -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/setup.cfg -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/setup.py -> build/lib/pbr/tests/testpackage
+  copying pbr/tests/testpackage/test-requirements.txt -> build/lib/pbr/tests/testpackage
+  creating build/lib/pbr/tests/testpackage/data_files
+  copying pbr/tests/testpackage/data_files/a.txt -> build/lib/pbr/tests/testpackage/data_files
+  copying pbr/tests/testpackage/data_files/b.txt -> build/lib/pbr/tests/testpackage/data_files
+  copying pbr/tests/testpackage/data_files/c.rst -> build/lib/pbr/tests/testpackage/data_files
+  creating build/lib/pbr/tests/testpackage/doc
+  creating build/lib/pbr/tests/testpackage/doc/source
+  copying pbr/tests/testpackage/doc/source/conf.py -> build/lib/pbr/tests/testpackage/doc/source
+  copying pbr/tests/testpackage/doc/source/index.rst -> build/lib/pbr/tests/testpackage/doc/source
+  copying pbr/tests/testpackage/doc/source/installation.rst -> build/lib/pbr/tests/testpackage/doc/source
+  copying pbr/tests/testpackage/doc/source/usage.rst -> build/lib/pbr/tests/testpackage/doc/source
+  creating build/lib/pbr/tests/testpackage/pbr_testpackage
+  copying pbr/tests/testpackage/pbr_testpackage/__init__.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
+  copying pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
+  copying pbr/tests/testpackage/pbr_testpackage/cmd.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
+  copying pbr/tests/testpackage/pbr_testpackage/extra.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
+  copying pbr/tests/testpackage/pbr_testpackage/wsgi.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
+  creating build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
+  copying pbr/tests/testpackage/pbr_testpackage/package_data/1.txt -> build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
+  copying pbr/tests/testpackage/pbr_testpackage/package_data/2.txt -> build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
+  creating build/lib/pbr/tests/testpackage/src
+  copying pbr/tests/testpackage/src/testext.c -> build/lib/pbr/tests/testpackage/src
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  [pbr] Generating AUTHORS
+  [pbr] AUTHORS complete (0.0s)
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/pbr
+  creating build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/backwards.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/base.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/commands.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/files.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/metadata.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  creating build/bdist.linux-x86_64/wheel/pbr/cmd
+  copying build/lib/pbr/cmd/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
+  copying build/lib/pbr/cmd/main.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
+  creating build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/base.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_commands.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_core.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_files.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_hooks.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_integration.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_packaging.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_pbr_json.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_setup.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_util.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_version.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/test_wsgi.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  copying build/lib/pbr/tests/util.py -> build/bdist.linux-x86_64/wheel/pbr/tests
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/CHANGES.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/LICENSE.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/MANIFEST.in -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/README.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/extra-file.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/git-extra-file.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/setup.cfg -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/setup.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  copying build/lib/pbr/tests/testpackage/test-requirements.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/data_files
+  copying build/lib/pbr/tests/testpackage/data_files/a.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/data_files
+  copying build/lib/pbr/tests/testpackage/data_files/b.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/data_files
+  copying build/lib/pbr/tests/testpackage/data_files/c.rst -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/data_files
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
+  copying build/lib/pbr/tests/testpackage/doc/source/conf.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
+  copying build/lib/pbr/tests/testpackage/doc/source/index.rst -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
+  copying build/lib/pbr/tests/testpackage/doc/source/installation.rst -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
+  copying build/lib/pbr/tests/testpackage/doc/source/usage.rst -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/cmd.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/extra.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/wsgi.py -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage/package_data
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/package_data/1.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage/package_data
+  copying build/lib/pbr/tests/testpackage/pbr_testpackage/package_data/2.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage/package_data
+  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/src
+  copying build/lib/pbr/tests/testpackage/src/testext.c -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/src
+  copying build/lib/pbr/__init__.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/build.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/builddoc.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/core.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/extra_files.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/find_package.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/git.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/options.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/packaging.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/pbr_json.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/sphinxext.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/testr_command.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/util.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/version.py -> build/bdist.linux-x86_64/wheel/pbr
+  running install_egg_info
+  Copying pbr.egg-info to build/bdist.linux-x86_64/wheel/pbr-5.11.0-py3.9.egg-info
+  running install_scripts
+  adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+  adding license file "AUTHORS" (matched pattern "AUTHORS*")
+  creating build/bdist.linux-x86_64/wheel/pbr-5.11.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir/pip-wheel-i86f555b/.tmp-eil5l6u5/pbr-5.11.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'pbr/__init__.py'
+  adding 'pbr/build.py'
+  adding 'pbr/builddoc.py'
+  adding 'pbr/core.py'
+  adding 'pbr/extra_files.py'
+  adding 'pbr/find_package.py'
+  adding 'pbr/git.py'
+  adding 'pbr/options.py'
+  adding 'pbr/packaging.py'
+  adding 'pbr/pbr_json.py'
+  adding 'pbr/sphinxext.py'
+  adding 'pbr/testr_command.py'
+  adding 'pbr/util.py'
+  adding 'pbr/version.py'
+  adding 'pbr/cmd/__init__.py'
+  adding 'pbr/cmd/main.py'
+  adding 'pbr/hooks/__init__.py'
+  adding 'pbr/hooks/backwards.py'
+  adding 'pbr/hooks/base.py'
+  adding 'pbr/hooks/commands.py'
+  adding 'pbr/hooks/files.py'
+  adding 'pbr/hooks/metadata.py'
+  adding 'pbr/tests/__init__.py'
+  adding 'pbr/tests/base.py'
+  adding 'pbr/tests/test_commands.py'
+  adding 'pbr/tests/test_core.py'
+  adding 'pbr/tests/test_files.py'
+  adding 'pbr/tests/test_hooks.py'
+  adding 'pbr/tests/test_integration.py'
+  adding 'pbr/tests/test_packaging.py'
+  adding 'pbr/tests/test_pbr_json.py'
+  adding 'pbr/tests/test_setup.py'
+  adding 'pbr/tests/test_util.py'
+  adding 'pbr/tests/test_version.py'
+  adding 'pbr/tests/test_wsgi.py'
+  adding 'pbr/tests/util.py'
+  adding 'pbr/tests/testpackage/CHANGES.txt'
+  adding 'pbr/tests/testpackage/LICENSE.txt'
+  adding 'pbr/tests/testpackage/MANIFEST.in'
+  adding 'pbr/tests/testpackage/README.txt'
+  adding 'pbr/tests/testpackage/extra-file.txt'
+  adding 'pbr/tests/testpackage/git-extra-file.txt'
+  adding 'pbr/tests/testpackage/setup.cfg'
+  adding 'pbr/tests/testpackage/setup.py'
+  adding 'pbr/tests/testpackage/test-requirements.txt'
+  adding 'pbr/tests/testpackage/data_files/a.txt'
+  adding 'pbr/tests/testpackage/data_files/b.txt'
+  adding 'pbr/tests/testpackage/data_files/c.rst'
+  adding 'pbr/tests/testpackage/doc/source/conf.py'
+  adding 'pbr/tests/testpackage/doc/source/index.rst'
+  adding 'pbr/tests/testpackage/doc/source/installation.rst'
+  adding 'pbr/tests/testpackage/doc/source/usage.rst'
+  adding 'pbr/tests/testpackage/pbr_testpackage/__init__.py'
+  adding 'pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py'
+  adding 'pbr/tests/testpackage/pbr_testpackage/cmd.py'
+  adding 'pbr/tests/testpackage/pbr_testpackage/extra.py'
+  adding 'pbr/tests/testpackage/pbr_testpackage/wsgi.py'
+  adding 'pbr/tests/testpackage/pbr_testpackage/package_data/1.txt'
+  adding 'pbr/tests/testpackage/pbr_testpackage/package_data/2.txt'
+  adding 'pbr/tests/testpackage/src/testext.c'
+  adding 'pbr-5.11.0.dist-info/AUTHORS'
+  adding 'pbr-5.11.0.dist-info/LICENSE'
+  adding 'pbr-5.11.0.dist-info/METADATA'
+  adding 'pbr-5.11.0.dist-info/WHEEL'
+  adding 'pbr-5.11.0.dist-info/entry_points.txt'
+  adding 'pbr-5.11.0.dist-info/top_level.txt'
+  adding 'pbr-5.11.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for pbr (pyproject.toml): finished with status 'done'
+  Created wheel for pbr: filename=pbr-5.11.0-py2.py3-none-any.whl size=112621 sha256=67cc51c12d2fa53e4f2cd3fb07f51acd936a35b14e4e5912b0b280a8e510a8f9
+  Stored in directory: /builddir/.cache/pip/wheels/8f/79/50/0a6eec9242c22434362980fe0b383c8cf289d41a763de84cf3
+Successfully built pbr
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.7o1oTB
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64
++ cd pbr-5.11.0
+++ ls /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir/pbr-5.11.0-py2.py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=pbr==5.11.0
++ TMPDIR=/builddir/build/BUILD/pbr-5.11.0/.pyproject-builddir
++ /usr/bin/python3 -m pip install --root /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir pbr==5.11.0
+Using pip 22.0.4 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+Looking in links: /builddir/build/BUILD/pbr-5.11.0/pyproject-wheeldir
+Processing ./pyproject-wheeldir/pbr-5.11.0-py2.py3-none-any.whl
+Installing collected packages: pbr
+  Creating /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin/pbr to 755
+Successfully installed pbr-5.11.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin ']'
++ '[' -f /usr/bin/pathfix3.9.py ']'
++ pathfix=/usr/bin/pathfix3.9.py
++ '[' -z s ']'
++ shebang_flags=-kas
++ /usr/bin/pathfix3.9.py -pni /usr/bin/python3 -kas /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin/pbr
+/builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin/pbr: updating
++ rm -rfv /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ site_dirs+=("/usr/lib/python3.9/site-packages")
++ '[' /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib64/python3.9/site-packages '!=' /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib64/python3.9/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/RECORD --output /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9/site-packages/pbr-5.11.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64 --sitelib /usr/lib/python3.9/site-packages --sitearch /usr/lib64/python3.9/site-packages --python-version 3.9 --pyproject-record /builddir/build/BUILD/python-pbr-5.11.0-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 5.11.0-1.el9 --unique-debug-suffix -5.11.0-1.el9.x86_64 --unique-debug-src-base python-pbr-5.11.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/pbr-5.11.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64/usr/lib/python3.9 using python3.9
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3-pbr-5.11.0-1.el9.noarch
+Provides: python-pbr = 5.11.0-1.el9 python3-pbr = 5.11.0-1.el9 python3.9-pbr = 5.11.0-1.el9 python3.9dist(pbr) = 5.11 python3dist(pbr) = 5.11
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3 python(abi) = 3.9
+Obsoletes: python39-pbr < 5.11.0-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-pbr-5.11.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-pbr-5.11.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3-pbr-5.11.0-1.el9.noarch.rpm
+Finish: rpmbuild python-pbr-5.11.0-1.el9.src.rpm
+Finish: build phase for python-pbr-5.11.0-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-pbr-5.11.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 23 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
+Finish: run
+Directory walk started
+Directory walk done - 105 packages
+Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+Start: clean chroot
+Finish: clean chroot
+Finish: run
