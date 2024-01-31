@@ -47,7 +47,7 @@ python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | **Mis
 python3-distro-1.8.0-1.el9 | python-distro-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.8.0-1.el9.src.rpm.log)
 python3-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3-django-ansible-base-0~a1-1.el9 | python-django-ansible-base-0~a1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-0~a1-1.el9.src.rpm.log)
-python3-django-ansible-base-20240109-1.el9 | python-django-ansible-base-20240109-1.el9.src.rpm | **Missing** |
+python3-django-ansible-base-20240109-1.el9 | python-django-ansible-base-20240109-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-20240109-1.el9.src.rpm.log)
 python3-django-auth-ldap-4.6.0-1.el9 | python-django-auth-ldap-4.6.0-1.el9.src.rpm | **Missing** |
 python3-django-cors-headers-3.13.0-1.el9 | python-django-cors-headers-3.13.0-1.el9.src.rpm | **Missing** |
 python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** |
