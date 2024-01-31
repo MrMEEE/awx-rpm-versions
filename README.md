@@ -14,7 +14,7 @@ python3-ansiconv-1.0.0-1.el9 | python-ansiconv-1.0.0-1.el9.src.rpm | Built | [Lo
 python3-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | Built | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3-asgiref-3.6.0-1.el9 | python-asgiref-3.6.0-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.6.0-1.el9.src.rpm.log)
 python3-asn1-2.6.0-1.el9 | python-asn1-2.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asn1-2.6.0-1.el9.src.rpm.log)
-python3-asyncpg-0.27.0-1.el9 | python-asyncpg-0.27.0-1.el9.src.rpm | **Missing** |
+python3-asyncpg-0.27.0-1.el9 | python-asyncpg-0.27.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asyncpg-0.27.0-1.el9.src.rpm.log)
 python3-async-timeout-4.0.2-1.el9 | python-async-timeout-4.0.2-1.el9.src.rpm | **Missing** |
 python3-attrs-22.1.0-1.el9 | python-attrs-22.1.0-1.el9.src.rpm | **Missing** |
 python3-autobahn-22.7.1-1.el9 | python-autobahn-22.7.1-1.el9.src.rpm | **Missing** |
