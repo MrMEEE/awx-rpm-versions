@@ -172,7 +172,7 @@ python3-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | Built | [Log]
 python3-twine-4.0.2-1.el9 | python-twine-4.0.2-1.el9.src.rpm | Built | [Log](logs/python-twine-4.0.2-1.el9.src.rpm.log)
 python3-twisted-22.10.0-1.el9 | python-twisted-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-22.10.0-1.el9.src.rpm.log)
 python3-txaio-22.2.1-1.el9 | python-txaio-22.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-txaio-22.2.1-1.el9.src.rpm.log)
-python3-types-setuptools-69.0.0.20240125-1.el9 | python-types-setuptools-69.0.0.20240125-1.el9.src.rpm | **Missing** |
+python3-types-setuptools-69.0.0.20240125-1.el9 | python-types-setuptools-69.0.0.20240125-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.0.0.20240125-1.el9.src.rpm.log)
 python3-typing-extensions-4.4.0-1.el9 | python-typing-extensions-4.4.0-1.el9.src.rpm | **Missing** |
 python3-urllib3-1.26.17-1.el9 | python-urllib3-1.26.17-1.el9.src.rpm | **Missing** |
 python3-uwsgi-2.0.21-1.el9 | python-uwsgi-2.0.21-1.el9.src.rpm | **Missing** |
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-183 total packages, 103 packages built successfully, 80 packages left to fix
+183 total packages, 104 packages built successfully, 79 packages left to fix
