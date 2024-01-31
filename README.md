@@ -4,7 +4,7 @@ Package | Source RPM | Status | Log
 python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
-python3-aiohttp-3.8.3-1.el9 | python-aiohttp-3.8.3-1.el9.src.rpm | **Missing** |
+python3-aiohttp-3.8.3-1.el9 | python-aiohttp-3.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.8.3-1.el9.src.rpm.log)
 python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | **Missing** |
 python3-aiosignal-1.3.1-1.el9 | python-aiosignal-1.3.1-1.el9.src.rpm | **Missing** |
 python3-ansible-base-2.10.17-1.el9 | python-ansible-base-2.10.17-1.el9.src.rpm | **Missing** |
