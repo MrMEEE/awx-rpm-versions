@@ -90,7 +90,7 @@ python3-jaraco-collections-3.8.0-1.el9 | python-jaraco-collections-3.8.0-1.el9.s
 python3-jaraco-context-4.2.0-1.el9 | python-jaraco-context-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-context-4.2.0-1.el9.src.rpm.log)
 python3-jaraco-functools-3.5.2-1.el9 | python-jaraco-functools-3.5.2-1.el9.src.rpm | Built | [Log](logs/python-jaraco-functools-3.5.2-1.el9.src.rpm.log)
 python3-jaraco-logging-3.1.2-1.el9 | python-jaraco-logging-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-jaraco-logging-3.1.2-1.el9.src.rpm.log)
-python3-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
+python3-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
 python3-jaraco-text-3.11.0-1.el9 | python-jaraco-text-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-3.11.0-1.el9.src.rpm.log)
 python3-jinja2-3.1.2-1.el9 | python-jinja2-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.2-1.el9.src.rpm.log)
 python3-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-183 total packages, 158 packages built successfully, 25 packages left to fix
+183 total packages, 159 packages built successfully, 24 packages left to fix
