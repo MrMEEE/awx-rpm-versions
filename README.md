@@ -1,7 +1,7 @@
 ## Package build status for version: 23.7.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
+python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohttp-3.8.3-1.el9 | python-aiohttp-3.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.8.3-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-183 total packages, 143 packages built successfully, 40 packages left to fix
+183 total packages, 144 packages built successfully, 39 packages left to fix
