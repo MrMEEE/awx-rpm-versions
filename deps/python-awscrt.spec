@@ -11,7 +11,7 @@ Source:         %{pypi_source awscrt}
 
 BuildRequires:  python3-devel
 BuildRequires:  gcc
-
+BuildRequires:  cmake
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
