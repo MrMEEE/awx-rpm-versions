@@ -141,7 +141,7 @@ python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](l
 python3-pyrsistent-0.19.2-1.el9 | python-pyrsistent-0.19.2-1.el9.src.rpm | Built | [Log](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
 python3-pytz-2022.6-1.el9 | python-pytz-2022.6-1.el9.src.rpm | Built | [Log](logs/python-pytz-2022.6-1.el9.src.rpm.log)
 python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.6.1-1.el9.src.rpm.log)
-python3-readme-renderer-42.0-1.el9 | python-readme-renderer-42.0-1.el9.src.rpm | **Missing** | [Log](logs/python-readme-renderer-42.0-1.el9.src.rpm.log)
+python3-readme-renderer-42.0-1.el9 | python-readme-renderer-42.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-42.0-1.el9.src.rpm.log)
 python3-receptorctl-1.4.2-1.el9 | python-receptorctl-1.4.2-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.2-1.el9.src.rpm.log)
 python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | Built | [Log](logs/python-redis-4.3.5-1.el9.src.rpm.log)
 python3-requests-2.28.1-1.el9 | python-requests-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-requests-2.28.1-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-183 total packages, 162 packages built successfully, 21 packages left to fix
+183 total packages, 163 packages built successfully, 20 packages left to fix
