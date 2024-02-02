@@ -68,7 +68,6 @@ python3-docutils-0.19-1.el9 | python-docutils-0.19-1.el9.src.rpm | Built | [Log]
 python3-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | Built | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
-python3-entangled-cli-2.0.2-1.el9 | python-entangled-cli-2.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-entangled-cli-2.0.2-1.el9.src.rpm.log)
 python3-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3-filelock-3.8.0-1.el9 | python-filelock-3.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.8.0-1.el9.src.rpm.log)
 python3-frozenlist-1.3.3-1.el9 | python-frozenlist-1.3.3-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.3.3-1.el9.src.rpm.log)
@@ -105,9 +104,6 @@ python3-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [
 python3-markdown-3.4.1-1.el9 | python-markdown-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
 python3-markupsafe-2.1.1-1.el9 | python-markupsafe-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.1-1.el9.src.rpm.log)
 python3-maturin-1.4.0-1.el9 | python-maturin-1.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.4.0-1.el9.src.rpm.log)
-python3-mkdocs-entangled-plugin-0.4.0-1.el9 | python-mkdocs-entangled-plugin-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mkdocs-entangled-plugin-0.4.0-1.el9.src.rpm.log)
-python3-mkdocs-material-9.5.6-1.el9 | python-mkdocs-material-9.5.6-1.el9.src.rpm | **Missing** |
-python3-mkdocstrings-0.24.0-1.el9 | python-mkdocstrings-0.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mkdocstrings-0.24.0-1.el9.src.rpm.log)
 python3-more-itertools-9.0.0-1.el9 | python-more-itertools-9.0.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-9.0.0-1.el9.src.rpm.log)
 python3-msgpack-1.0.4-1.el9 | python-msgpack-1.0.4-1.el9.src.rpm | **Missing** | [Log](logs/python-msgpack-1.0.4-1.el9.src.rpm.log)
 python3-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
@@ -121,7 +117,6 @@ python3-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | B
 python3-openshift-0.13.1-1.el9 | python-openshift-0.13.1-1.el9.src.rpm | Built | [Log](logs/python-openshift-0.13.1-1.el9.src.rpm.log)
 python3-packaging-21.3-1.el9 | python-packaging-21.3-1.el9.src.rpm | Built | [Log](logs/python-packaging-21.3-1.el9.src.rpm.log)
 python3-pbr-5.11.0-1.el9 | python-pbr-5.11.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-5.11.0-1.el9.src.rpm.log)
-python3-pdm-backend-2.1.8-1.el9 | python-pdm-backend-2.1.8-1.el9.src.rpm | Built | [Log](logs/python-pdm-backend-2.1.8-1.el9.src.rpm.log)
 python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 python3-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
@@ -190,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-188 total packages, 121 packages built successfully, 67 packages left to fix
+183 total packages, 120 packages built successfully, 63 packages left to fix
