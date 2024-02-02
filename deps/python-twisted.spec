@@ -28,7 +28,6 @@ Provides: python3dist(twisted[tls]) python3.9dist(twisted[tls])
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-twisted all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
 
 
 %prep
@@ -37,7 +36,7 @@ Provides: python3dist(twisted[tls]) python3.9dist(twisted[tls])
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
+%pyproject_buildrequires -x http2,tls
 
 
 %build
