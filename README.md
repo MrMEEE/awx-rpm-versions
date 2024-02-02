@@ -20,7 +20,7 @@ python3-attrs-22.1.0-1.el9 | python-attrs-22.1.0-1.el9.src.rpm | **Missing** | [
 python3-autobahn-22.7.1-1.el9 | python-autobahn-22.7.1-1.el9.src.rpm | Built | [Log](logs/python-autobahn-22.7.1-1.el9.src.rpm.log)
 python3-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
-python3-awscrt-0.20.3-1.el9 | python-awscrt-0.20.3-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.20.3-1.el9.src.rpm.log)
+python3-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.16.9-1.el9.src.rpm.log)
 python3-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | Built | [Log](logs/python-azure-common-1.1.28-1.el9.src.rpm.log)
 python3-azure-core-1.26.1-1.el9 | python-azure-core-1.26.1-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.26.1-1.el9.src.rpm.log)
 python3-azure-keyvault-1.1.0-1.el9 | python-azure-keyvault-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-1.1.0-1.el9.src.rpm.log)

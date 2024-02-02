@@ -1,5 +1,5 @@
 Name:           python-awscrt
-Version:        0.20.3
+Version:        0.16.9
 Release:        %autorelease
 Summary:        A common runtime for AWS Python projects
 
