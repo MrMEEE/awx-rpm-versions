@@ -105,7 +105,7 @@ python3-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [
 python3-markdown-3.4.1-1.el9 | python-markdown-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
 python3-markupsafe-2.1.1-1.el9 | python-markupsafe-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.1-1.el9.src.rpm.log)
 python3-maturin-1.4.0-1.el9 | python-maturin-1.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.4.0-1.el9.src.rpm.log)
-python3-mkdocs-entangled-plugin-0.4.0-1.el9 | python-mkdocs-entangled-plugin-0.4.0-1.el9.src.rpm | **Missing** |
+python3-mkdocs-entangled-plugin-0.4.0-1.el9 | python-mkdocs-entangled-plugin-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mkdocs-entangled-plugin-0.4.0-1.el9.src.rpm.log)
 python3-mkdocs-material-9.5.6-1.el9 | python-mkdocs-material-9.5.6-1.el9.src.rpm | **Missing** |
 python3-mkdocstrings-0.24.0-1.el9 | python-mkdocstrings-0.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mkdocstrings-0.24.0-1.el9.src.rpm.log)
 python3-more-itertools-9.0.0-1.el9 | python-more-itertools-9.0.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-9.0.0-1.el9.src.rpm.log)
