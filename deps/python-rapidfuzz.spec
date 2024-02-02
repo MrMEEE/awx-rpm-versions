@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 Name:           python-rapidfuzz
 Version:        3.6.1
 Release:        %autorelease
