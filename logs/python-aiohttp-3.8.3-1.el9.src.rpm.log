@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                            2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                             22 MB/s | 173 kB     00:00    
-https://download.copr.fedorainfracloud.org/re     [   ===                                       ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.5 kB/s | 1.5 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                             18 MB/s | 174 kB     00:00    
+https://download.copr.fedorainfracloud.org/re     [   ===                                       ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.6 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                 [      ===                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                  17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream              [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Bu     [            ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                 21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_6     [               ===                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_6     [                  ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                     68 kB/s |  31 kB     00:00    
+Red Hat Enterprise Linux - AppStream              [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Bu     [            ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                 20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_6     [               ===                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_6     [                  ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                     59 kB/s |  31 kB     00:00    
 Dependencies resolved.
 ==================================================================================================================================
  Package                   Arch    Version                   Repository                                                      Size
@@ -192,13 +192,13 @@ Start: rpmbuild python-aiohttp-3.8.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1706832000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7TnUo4
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8Be8lI
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf aiohttp-3.8.3
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/aiohttp-3.8.3.tar.gz
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/aiohttp-3.8.3.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd aiohttp-3.8.3
@@ -206,7 +206,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7TnUo4
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.wqRVv4
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7ZsIoV
 + umask 022
 + cd /builddir/build/BUILD
 + cd aiohttp-3.8.3
@@ -241,11 +241,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                            2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/re     [===                                          ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                 [   ===                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS            100% [=============================================] 7.1 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                 7.1 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream              [      ===                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Bu     [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Bu100% [=============================================] 7.8 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                7.8 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_6     [            ===                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                    216 kB/s |  31 kB     00:00    
+https://download.copr.fedorainfracloud.org/re     [===                                          ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re     [   ===                                       ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       3.3 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                 [      ===                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                  18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream              [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Bu     [            ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                 20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_6     [               ===                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                    107 kB/s |  31 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
@@ -288,7 +288,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1706832000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fyUGie
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.0CAsmL
 + umask 022
 + cd /builddir/build/BUILD
 + cd aiohttp-3.8.3
@@ -350,5 +350,231 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                            2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/re     [===                                          ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 3.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       3.3 kB/s | 1.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/re     [===                                          ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                 [   ===                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                  17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream              [      ===                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Bu     [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                 20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_6     [            ===                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                    254 kB/s |  31 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Dependencies resolved.
+==================================================================================================================================
+ Package                        Architecture            Version                          Repository                          Size
+==================================================================================================================================
+Installing:
+ [1mpython3-wheel                 [m noarch                  1:0.36.2-8.el9                   codeready-builder                   87 k
+
+Transaction Summary
+==================================================================================================================================
+Install  1 Package
+
+Total size: 87 k
+Installed size: 209 k
+Downloading Packages:
+[SKIPPED] python3-wheel-0.36.2-8.el9.noarch.rpm: Already downloaded                                                              
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                          1/1 
+  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [                                                                  ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=                                                                 ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====                                                             ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========                                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [============                                                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===============                                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================                                             ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [======================                                            ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================                                         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================                                        ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===============================                                   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================                                  ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=================================                                 ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [======================================                            ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [============================================                      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=====================================================             ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=======================================================           ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [========================================================          ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=========================================================         ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [==========================================================        ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [============================================================      ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [=============================================================     ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [===============================================================   ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================  ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch [================================================================= ] 1/1  Installing       : python3-wheel-1:0.36.2-8.el9.noarch                                                                      1/1 
+  Running scriptlet: python3-wheel-1:0.36.2-8.el9.noarch                                                                      1/1 
+  Verifying        : python3-wheel-1:0.36.2-8.el9.noarch                                                                      1/1 
+Installed products updated.
+
+Installed:
+  python3-wheel-1:0.36.2-8.el9.noarch                                                                                             
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706832000
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.I1F95I
++ umask 022
++ cd /builddir/build/BUILD
++ cd aiohttp-3.8.3
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/aiohttp-3.8.3/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/aiohttp-3.8.3/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/aiohttp-3.8.3/pyproject-wheeldir --output /builddir/build/BUILD/python-aiohttp-3.8.3-1.el9.x86_64-pyproject-buildrequires -x speedups
+Handling setuptools >= 46.4.0 from build-system.requires
+Requirement satisfied: setuptools >= 46.4.0
+   (installed: setuptools 69.0.2)
+*********************
+* Accelerated build *
+*********************
+running egg_info
+writing aiohttp.egg-info/PKG-INFO
+writing dependency_links to aiohttp.egg-info/dependency_links.txt
+writing requirements to aiohttp.egg-info/requires.txt
+writing top-level names to aiohttp.egg-info/top_level.txt
+reading manifest file 'aiohttp.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'aiohttp' anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.lib' found anywhere in distribution
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.a' found anywhere in distribution
+warning: no previously-included files matching '*.obj' found anywhere in distribution
+warning: no previously-included files found matching 'aiohttp/*.html'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'aiohttp.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+*********************
+* Accelerated build *
+*********************
+running dist_info
+writing aiohttp.egg-info/PKG-INFO
+writing dependency_links to aiohttp.egg-info/dependency_links.txt
+writing requirements to aiohttp.egg-info/requires.txt
+writing top-level names to aiohttp.egg-info/top_level.txt
+reading manifest file 'aiohttp.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'aiohttp' anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.lib' found anywhere in distribution
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.a' found anywhere in distribution
+warning: no previously-included files matching '*.obj' found anywhere in distribution
+warning: no previously-included files found matching 'aiohttp/*.html'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'aiohttp.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/aiohttp-3.8.3/aiohttp-3.8.3.dist-info'
+adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+Handling attrs (>=17.3.0) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: attrs (>=17.3.0)
+Handling charset-normalizer (<3.0,>=2.0) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: charset-normalizer (<3.0,>=2.0)
+Handling multidict (<7.0,>=4.5) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: multidict (<7.0,>=4.5)
+Handling async-timeout (<5.0,>=4.0.0a3) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: async-timeout (<5.0,>=4.0.0a3)
+Handling yarl (<2.0,>=1.0) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: yarl (<2.0,>=1.0)
+Handling frozenlist (>=1.1.1) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: frozenlist (>=1.1.1)
+Handling aiosignal (>=1.1.2) from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: aiosignal (>=1.1.2)
+Handling idna-ssl (>=1.0) ; python_version < "3.7" from hook generated metadata: Requires-Dist (aiohttp)
+Ignoring alien requirement: idna-ssl (>=1.0) ; python_version < "3.7"
+Handling asynctest (==0.13.0) ; python_version < "3.8" from hook generated metadata: Requires-Dist (aiohttp)
+Ignoring alien requirement: asynctest (==0.13.0) ; python_version < "3.8"
+Handling typing-extensions (>=3.7.4) ; python_version < "3.8" from hook generated metadata: Requires-Dist (aiohttp)
+Ignoring alien requirement: typing-extensions (>=3.7.4) ; python_version < "3.8"
+Handling aiodns ; extra == 'speedups' from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: aiodns ; extra == 'speedups'
+Handling Brotli ; extra == 'speedups' from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: Brotli ; extra == 'speedups'
+Handling cchardet ; (python_version < "3.10") and extra == 'speedups' from hook generated metadata: Requires-Dist (aiohttp)
+Requirement not satisfied: cchardet ; (python_version < "3.10") and extra == 'speedups'
++ cat /builddir/build/BUILD/python-aiohttp-3.8.3-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv aiohttp-3.8.3.dist-info/
+removed 'aiohttp-3.8.3.dist-info/top_level.txt'
+removed 'aiohttp-3.8.3.dist-info/METADATA'
+removed 'aiohttp-3.8.3.dist-info/LICENSE.txt'
+removed directory 'aiohttp-3.8.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-aiohttp-3.8.3-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/            [===                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                            2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/re     [===                                          ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/re100% [=============================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.5 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                 [   ===                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                  19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream              [      ===                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                               20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Bu     [         ===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                 21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_6     [            ===                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                    149 kB/s |  31 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+No matching package to install: 'python3dist(cchardet)'
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
+Finish: rpmbuild python-aiohttp-3.8.3-1.el9.src.rpm
+Finish: build phase for python-aiohttp-3.8.3-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-aiohttp-3.8.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 33 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M 40b8515bf4724a208341657960bb5368 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.4szk3f4v:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-aiohttp-3.8.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                            2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                       4.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                  19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                               20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                 21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                    149 kB/s |  31 kB     00:00    
+Package python3-tomli-2.0.1-5.el9.noarch is already installed.
+Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
+Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
+No matching package to install: 'python3dist(cchardet)'
+Package python3-packaging-23.1-1.el9.noarch is already installed.
+Package python3-pip-22.0.4-1.el9.noarch is already installed.
+Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
+Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
+
+Directory walk started
+Directory walk done - 186 packages
+Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished
+INFO: mock.py version 5.3 starting (python version = 3.9.14, NVR = mock-5.3-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+Start: clean chroot
+Finish: clean chroot
+Finish: run
