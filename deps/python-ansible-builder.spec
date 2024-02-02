@@ -10,7 +10,7 @@ URL:            https://ansible-builder.readthedocs.io
 Source:         %{pypi_source ansible-builder}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel python-setuptools-scm
+BuildRequires:  python3-devel python-setuptools_scm
 Patch: ansible-builder-scm-version.patch
 
 # Fill in the actual package description to submit package to Fedora
