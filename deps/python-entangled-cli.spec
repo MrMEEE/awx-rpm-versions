@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 
 %generate_buildrequires
-%pyproject_buildrequires -x rich
+%pyproject_buildrequires
 
 
 %build
