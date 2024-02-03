@@ -11,7 +11,8 @@ Source:         %{pypi_source cryptography}
 
 BuildRequires:  python3-devel
 BuildRequires:  gcc
-
+BuildRequires:  libopenssl-devel
+BuildRequires:  gcc-c++
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
