@@ -13,6 +13,8 @@ BuildRequires:  python3-devel
 BuildRequires:  gcc
 BuildRequires:  openssl-devel
 BuildRequires:  gcc-c++
+BuildRequires:  rust
+BuildRequires:  cargo
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
