@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.7.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-23.7.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -182,7 +182,6 @@ BuildRequires: python3-psutil = 5.9.4
 BuildRequires: python3-psutil+test = 5.9.4
 BuildRequires: python3-psycopg = 3.1.9
 BuildRequires: python3-ptyprocess = 0.7.0
-BuildRequires: python3-pyasn1-modules = 0.3.0
 BuildRequires: python3-pyasn1-modules = 0.5.1
 BuildRequires: python3-pycparser = 2.21
 BuildRequires: python3-pydantic = 1.10.2
@@ -251,9 +250,6 @@ BuildRequires: python3-urllib3 = 1.26.17
 BuildRequires: python3-uwsgi = 2.0.21
 BuildRequires: python3-uwsgitop = 0.11
 BuildRequires: python3-websocket-client = 1.4.2
-BuildRequires: python3-websocket-client+docs = 1.4.2
-BuildRequires: python3-websocket-client+optional = 1.4.2
-BuildRequires: python3-websocket-client+test = 1.4.2
 BuildRequires: python3-wheel = 0.42.0
 BuildRequires: python3-wheel+test = 0.42.0
 BuildRequires: python3-wrapt = 1.15.0
@@ -409,7 +405,6 @@ Requires: python3-psutil = 5.9.4
 Requires: python3-psutil+test = 5.9.4
 Requires: python3-psycopg = 3.1.9
 Requires: python3-ptyprocess = 0.7.0
-Requires: python3-pyasn1-modules = 0.3.0
 Requires: python3-pyasn1-modules = 0.5.1
 Requires: python3-pycparser = 2.21
 Requires: python3-pydantic = 1.10.2
@@ -478,9 +473,6 @@ Requires: python3-urllib3 = 1.26.17
 Requires: python3-uwsgi = 2.0.21
 Requires: python3-uwsgitop = 0.11
 Requires: python3-websocket-client = 1.4.2
-Requires: python3-websocket-client+docs = 1.4.2
-Requires: python3-websocket-client+optional = 1.4.2
-Requires: python3-websocket-client+test = 1.4.2
 Requires: python3-wheel = 0.42.0
 Requires: python3-wheel+test = 0.42.0
 Requires: python3-wrapt = 1.15.0
