@@ -46,12 +46,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                      33 MB/s | 254 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             280 kB/s |  34 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                      24 MB/s | 258 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                2.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================] 9.1 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                          9.1 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                              100% [=================================================================================================================================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        11 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                     ===                                                                                                                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                     46% [===================================================================-                                                                             ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              40 kB/s |  34 kB     00:00    
 Dependencies resolved.
 ===========================================================================================================================================================================================================================================================================================================================================
  Package                                                                     Architecture                                              Version                                                                      Repository                                                                                                        Size
@@ -196,7 +196,7 @@ Start: rpmbuild python-psycopg-3.1.9-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1706918400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.bcIspu
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ehAZ6Y
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -207,12 +207,12 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.bcIspu
 + '[' 0 -ne 0 ']'
 + cd psycopg-3.1.9
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
-+ /usr/bin/patch -p1 -s --fuzz=0 --no-backup-if-mismatch
 + /usr/bin/cat /builddir/build/SOURCES/psycopg-deps.patch
++ /usr/bin/patch -p1 -s --fuzz=0 --no-backup-if-mismatch
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6nEaeH
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZiBeXF
 + umask 022
 + cd /builddir/build/BUILD
 + cd psycopg-3.1.9
@@ -231,7 +231,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6nEaeH
 + TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires -x binary,c,dev,docs,pool,test
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
 Import error: No module named 'tomli'
 + cat /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -247,11 +247,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.5 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        17 kB/s | 4.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        21 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [                  ===                                                                                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              35 kB/s |  34 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              60 kB/s |  34 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libpq-devel-13.11-1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -295,7 +295,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1706918400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9pl0q7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.kkPFD5
 + umask 022
 + cd /builddir/build/BUILD
 + cd psycopg-3.1.9
@@ -314,7 +314,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9pl0q7
 + TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires -x binary,c,dev,docs,pool,test
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
 Handling setuptools>=49.2.0 from build-system.requires
 Requirement satisfied: setuptools>=49.2.0
    (installed: setuptools 69.0.2)
@@ -343,11 +343,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.3 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================] 9.1 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                          9.1 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                              100% [=================================================================================================================================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                100% [=================================================================================================================================================] 9.3 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                         9.3 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             275 kB/s |  34 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          25 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             244 kB/s |  34 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libpq-devel-13.11-1.el9.x86_64 is already installed.
@@ -390,7 +390,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1706918400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.0fJEvF
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sXo3R8
 + umask 022
 + cd /builddir/build/BUILD
 + cd psycopg-3.1.9
@@ -409,7 +409,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.0fJEvF
 + TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
 + RPM_TOXENV=py39
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires -x binary,c,dev,docs,pool,test
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
 Handling setuptools>=49.2.0 from build-system.requires
 Requirement satisfied: setuptools>=49.2.0
    (installed: setuptools 69.0.2)
@@ -441,42 +441,43 @@ Ignoring alien requirement: backports.zoneinfo (>=0.2.0) ; python_version < "3.9
 Handling tzdata ; sys_platform == "win32" from hook generated metadata: Requires-Dist (psycopg)
 Ignoring alien requirement: tzdata ; sys_platform == "win32"
 Handling psycopg-binary (==3.1.9) ; extra == 'binary' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: psycopg-binary (==3.1.9) ; extra == 'binary'
+Ignoring alien requirement: psycopg-binary (==3.1.9) ; extra == 'binary'
 Handling psycopg-c (==3.1.9) ; extra == 'c' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: psycopg-c (==3.1.9) ; extra == 'c'
+Ignoring alien requirement: psycopg-c (==3.1.9) ; extra == 'c'
 Handling black (>=23.1.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: black (>=23.1.0) ; extra == 'dev'
+Ignoring alien requirement: black (>=23.1.0) ; extra == 'dev'
 Handling dnspython (>=2.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: dnspython (>=2.1) ; extra == 'dev'
+Ignoring alien requirement: dnspython (>=2.1) ; extra == 'dev'
 Handling flake8 (>=4.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: flake8 (>=4.0) ; extra == 'dev'
+Ignoring alien requirement: flake8 (>=4.0) ; extra == 'dev'
 Handling mypy (>=1.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: mypy (>=1.2) ; extra == 'dev'
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'dev'
 Handling types-setuptools (>=57.4) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: types-setuptools (>=57.4) ; extra == 'dev'
+Ignoring alien requirement: types-setuptools (>=57.4) ; extra == 'dev'
 Handling wheel (>=0.37) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: wheel (>=0.37) ; extra == 'dev'
 Handling Sphinx (>=5.0) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: Sphinx (>=5.0) ; extra == 'docs'
+Ignoring alien requirement: Sphinx (>=5.0) ; extra == 'docs'
 Handling furo (==2022.6.21) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: furo (==2022.6.21) ; extra == 'docs'
+Ignoring alien requirement: furo (==2022.6.21) ; extra == 'docs'
 Handling sphinx-autobuild (>=2021.3.14) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: sphinx-autobuild (>=2021.3.14) ; extra == 'docs'
+Ignoring alien requirement: sphinx-autobuild (>=2021.3.14) ; extra == 'docs'
 Handling sphinx-autodoc-typehints (>=1.12) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: sphinx-autodoc-typehints (>=1.12) ; extra == 'docs'
+Ignoring alien requirement: sphinx-autodoc-typehints (>=1.12) ; extra == 'docs'
 Handling psycopg-pool ; extra == 'pool' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: psycopg-pool ; extra == 'pool'
+Ignoring alien requirement: psycopg-pool ; extra == 'pool'
 Handling anyio (>=3.6.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: anyio (>=3.6.2) ; extra == 'test'
+Ignoring alien requirement: anyio (>=3.6.2) ; extra == 'test'
 Handling mypy (>=1.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: mypy (>=1.2) ; extra == 'test'
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'test'
 Handling pproxy (>=2.7) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: pproxy (>=2.7) ; extra == 'test'
+Ignoring alien requirement: pproxy (>=2.7) ; extra == 'test'
 Handling pytest (>=6.2.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: pytest (>=6.2.5) ; extra == 'test'
+Ignoring alien requirement: pytest (>=6.2.5) ; extra == 'test'
 Handling pytest-cov (>=3.0) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: pytest-cov (>=3.0) ; extra == 'test'
+Ignoring alien requirement: pytest-cov (>=3.0) ; extra == 'test'
 Handling pytest-randomly (>=3.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
-Requirement not satisfied: pytest-randomly (>=3.5) ; extra == 'test'
+Ignoring alien requirement: pytest-randomly (>=3.5) ; extra == 'test'
 + cat /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
 + rm -rfv psycopg-3.1.9.dist-info/
 removed 'psycopg-3.1.9.dist-info/top_level.txt'
@@ -495,76 +496,613 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             261 kB/s |  34 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             247 kB/s |  34 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libpq-devel-13.11-1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
-No matching package to install: 'python3dist(anyio) >= 3.6.2'
-No matching package to install: 'python3dist(black) >= 23.1'
-No matching package to install: 'python3dist(furo) = 2022.6.21'
-No matching package to install: 'python3dist(mypy) >= 1.2'
 Package python3-packaging-23.1-1.el9.noarch is already installed.
 Package python3-pip-22.0.4-1.el9.noarch is already installed.
-No matching package to install: 'python3dist(pproxy) >= 2.7'
-No matching package to install: 'python3dist(psycopg-binary) = 3.1.9'
-No matching package to install: 'python3dist(psycopg-c) = 3.1.9'
-No matching package to install: 'python3dist(psycopg-pool)'
-No matching package to install: 'python3dist(pytest) >= 6.2.5'
 Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3dist(sphinx-autodoc-typehints) >= 1.12'
 Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-psycopg-3.1.9-1.el9.src.rpm
-Finish: build phase for python-psycopg-3.1.9-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-psycopg-3.1.9-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 34 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M d083314f79e9474a8ff15cee442cfa2c -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.zaxh2atp:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-psycopg-3.1.9-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+===========================================================================================================================================================================================================================================================================================================================================
+ Package                                                                         Architecture                                                 Version                                                            Repository                                                                                                           Size
+===========================================================================================================================================================================================================================================================================================================================================
+Installing:
+ [1mpython3-typing-extensions                                                      [m noarch                                                       4.8.0-1.el9                                                        downloadcoprfedorainfracloudorg_results_copr_PyPI_epel9x86_64                                                        58 k
+
+Transaction Summary
+===========================================================================================================================================================================================================================================================================================================================================
+Install  1 Package
+
+Total size: 58 k
+Installed size: 284 k
+Downloading Packages:
+[SKIPPED] python3-typing-extensions-4.8.0-1.el9.noarch.rpm: Already downloaded                                                                                                                                                                                                                                                            
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                                                                                                                                                                   1/1 
+  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [                                                                                                                                                                                                                                                                  ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [============================                                                                                                                                                                                                                                      ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [========================================================                                                                                                                                                                                                          ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==========================================================================                                                                                                                                                                                        ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=======================================================================================================                                                                                                                                                           ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===================================================================================================================================                                                                                                                               ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=====================================================================================================================================================                                                                                                             ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [==================================================================================================================================================================                                                                                                ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=====================================================================================================================================================================                                                                                             ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [=================================================================================================================================================================================================                                                                 ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [================================================================================================================================================================================================================================                                  ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [============================================================================================================================================================================================================================================================      ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch [===============================================================================================================================================================================================================================================================   ] 1/1  Installing       : python3-typing-extensions-4.8.0-1.el9.noarch                                                                                                                                                                                                                                                                      1/1 
+  Running scriptlet: python3-typing-extensions-4.8.0-1.el9.noarch                                                                                                                                                                                                                                                                      1/1 
+  Verifying        : python3-typing-extensions-4.8.0-1.el9.noarch                                                                                                                                                                                                                                                                      1/1 
+Installed products updated.
+
+Installed:
+  python3-typing-extensions-4.8.0-1.el9.noarch                                                                                                                                                                                                                                                                                             
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706918400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8sTx9f
++ umask 022
++ cd /builddir/build/BUILD
++ cd psycopg-3.1.9
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools>=49.2.0 from build-system.requires
+Requirement satisfied: setuptools>=49.2.0
+   (installed: setuptools 69.0.2)
+running egg_info
+writing psycopg.egg-info/PKG-INFO
+writing dependency_links to psycopg.egg-info/dependency_links.txt
+writing requirements to psycopg.egg-info/requires.txt
+writing top-level names to psycopg.egg-info/top_level.txt
+reading manifest file 'psycopg.egg-info/SOURCES.txt'
+adding license file 'LICENSE.txt'
+writing manifest file 'psycopg.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing psycopg.egg-info/PKG-INFO
+writing dependency_links to psycopg.egg-info/dependency_links.txt
+writing requirements to psycopg.egg-info/requires.txt
+writing top-level names to psycopg.egg-info/top_level.txt
+reading manifest file 'psycopg.egg-info/SOURCES.txt'
+adding license file 'LICENSE.txt'
+writing manifest file 'psycopg.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/psycopg-3.1.9/psycopg-3.1.9.dist-info'
+adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+Handling typing-extensions (>=4.1) from hook generated metadata: Requires-Dist (psycopg)
+Requirement satisfied: typing-extensions (>=4.1)
+   (installed: typing-extensions 4.8.0)
+Handling backports.zoneinfo (>=0.2.0) ; python_version < "3.9" from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: backports.zoneinfo (>=0.2.0) ; python_version < "3.9"
+Handling tzdata ; sys_platform == "win32" from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: tzdata ; sys_platform == "win32"
+Handling psycopg-binary (==3.1.9) ; extra == 'binary' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-binary (==3.1.9) ; extra == 'binary'
+Handling psycopg-c (==3.1.9) ; extra == 'c' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-c (==3.1.9) ; extra == 'c'
+Handling black (>=23.1.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: black (>=23.1.0) ; extra == 'dev'
+Handling dnspython (>=2.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: dnspython (>=2.1) ; extra == 'dev'
+Handling flake8 (>=4.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: flake8 (>=4.0) ; extra == 'dev'
+Handling mypy (>=1.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'dev'
+Handling types-setuptools (>=57.4) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: types-setuptools (>=57.4) ; extra == 'dev'
+Handling wheel (>=0.37) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: wheel (>=0.37) ; extra == 'dev'
+Handling Sphinx (>=5.0) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: Sphinx (>=5.0) ; extra == 'docs'
+Handling furo (==2022.6.21) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: furo (==2022.6.21) ; extra == 'docs'
+Handling sphinx-autobuild (>=2021.3.14) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: sphinx-autobuild (>=2021.3.14) ; extra == 'docs'
+Handling sphinx-autodoc-typehints (>=1.12) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: sphinx-autodoc-typehints (>=1.12) ; extra == 'docs'
+Handling psycopg-pool ; extra == 'pool' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-pool ; extra == 'pool'
+Handling anyio (>=3.6.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: anyio (>=3.6.2) ; extra == 'test'
+Handling mypy (>=1.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'test'
+Handling pproxy (>=2.7) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pproxy (>=2.7) ; extra == 'test'
+Handling pytest (>=6.2.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest (>=6.2.5) ; extra == 'test'
+Handling pytest-cov (>=3.0) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest-cov (>=3.0) ; extra == 'test'
+Handling pytest-randomly (>=3.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest-randomly (>=3.5) ; extra == 'test'
++ cat /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv psycopg-3.1.9.dist-info/
+removed 'psycopg-3.1.9.dist-info/top_level.txt'
+removed 'psycopg-3.1.9.dist-info/METADATA'
+removed 'psycopg-3.1.9.dist-info/LICENSE.txt'
+removed directory 'psycopg-3.1.9.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-psycopg-3.1.9-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                             261 kB/s |  34 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                 [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/                                                                                                                                                                                                                                                                     2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            [===                                                                                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                       100% [=================================================================================================================================================] 4.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                                                                                                                                                4.6 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                                                                                      [   ===                                                                                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                 100% [=================================================================================================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                                                                                                                                           11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                                                                                   [      ===                                                                                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                                                                                                                                                        20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     [         ===                                                                                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                                                                                                                                                          24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                                                                         [            ===                                                                                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         [               ===                                                                                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                                                                                                                                              61 kB/s |  34 kB     00:00    
 Package python3-tomli-2.0.1-5.el9.noarch is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package libpq-devel-13.11-1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
 Package python3-devel-3.9.18-1.el9_3.1.x86_64 is already installed.
-No matching package to install: 'python3dist(anyio) >= 3.6.2'
-No matching package to install: 'python3dist(black) >= 23.1'
-No matching package to install: 'python3dist(furo) = 2022.6.21'
-No matching package to install: 'python3dist(mypy) >= 1.2'
 Package python3-packaging-23.1-1.el9.noarch is already installed.
 Package python3-pip-22.0.4-1.el9.noarch is already installed.
-No matching package to install: 'python3dist(pproxy) >= 2.7'
-No matching package to install: 'python3dist(psycopg-binary) = 3.1.9'
-No matching package to install: 'python3dist(psycopg-c) = 3.1.9'
-No matching package to install: 'python3dist(psycopg-pool)'
-No matching package to install: 'python3dist(pytest) >= 6.2.5'
 Package python3-setuptools-69.0.2-1.el9.noarch is already installed.
-No matching package to install: 'python3dist(sphinx-autodoc-typehints) >= 1.12'
+Package python3-typing-extensions-4.8.0-1.el9.noarch is already installed.
 Package python3-wheel-1:0.36.2-8.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1706918400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Ekxh5i
++ umask 022
++ cd /builddir/build/BUILD
++ cd psycopg-3.1.9
++ echo pyproject-rpm-macros
++ echo python3-devel
++ echo 'python3dist(pip) >= 19'
++ echo 'python3dist(packaging)'
++ '[' -f pyproject.toml ']'
++ echo '(python3dist(tomli) if python3-devel < 3.11)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3 ']'
++ mkdir -p /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ RPM_TOXENV=py39
++ HOSTNAME=rpmbuild
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3 --wheeldir /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools>=49.2.0 from build-system.requires
+Requirement satisfied: setuptools>=49.2.0
+   (installed: setuptools 69.0.2)
+running egg_info
+writing psycopg.egg-info/PKG-INFO
+writing dependency_links to psycopg.egg-info/dependency_links.txt
+writing requirements to psycopg.egg-info/requires.txt
+writing top-level names to psycopg.egg-info/top_level.txt
+reading manifest file 'psycopg.egg-info/SOURCES.txt'
+adding license file 'LICENSE.txt'
+writing manifest file 'psycopg.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.36.2)
+running dist_info
+writing psycopg.egg-info/PKG-INFO
+writing dependency_links to psycopg.egg-info/dependency_links.txt
+writing requirements to psycopg.egg-info/requires.txt
+writing top-level names to psycopg.egg-info/top_level.txt
+reading manifest file 'psycopg.egg-info/SOURCES.txt'
+adding license file 'LICENSE.txt'
+writing manifest file 'psycopg.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/psycopg-3.1.9/psycopg-3.1.9.dist-info'
+adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+Handling typing-extensions (>=4.1) from hook generated metadata: Requires-Dist (psycopg)
+Requirement satisfied: typing-extensions (>=4.1)
+   (installed: typing-extensions 4.8.0)
+Handling backports.zoneinfo (>=0.2.0) ; python_version < "3.9" from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: backports.zoneinfo (>=0.2.0) ; python_version < "3.9"
+Handling tzdata ; sys_platform == "win32" from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: tzdata ; sys_platform == "win32"
+Handling psycopg-binary (==3.1.9) ; extra == 'binary' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-binary (==3.1.9) ; extra == 'binary'
+Handling psycopg-c (==3.1.9) ; extra == 'c' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-c (==3.1.9) ; extra == 'c'
+Handling black (>=23.1.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: black (>=23.1.0) ; extra == 'dev'
+Handling dnspython (>=2.1) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: dnspython (>=2.1) ; extra == 'dev'
+Handling flake8 (>=4.0) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: flake8 (>=4.0) ; extra == 'dev'
+Handling mypy (>=1.2) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'dev'
+Handling types-setuptools (>=57.4) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: types-setuptools (>=57.4) ; extra == 'dev'
+Handling wheel (>=0.37) ; extra == 'dev' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: wheel (>=0.37) ; extra == 'dev'
+Handling Sphinx (>=5.0) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: Sphinx (>=5.0) ; extra == 'docs'
+Handling furo (==2022.6.21) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: furo (==2022.6.21) ; extra == 'docs'
+Handling sphinx-autobuild (>=2021.3.14) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: sphinx-autobuild (>=2021.3.14) ; extra == 'docs'
+Handling sphinx-autodoc-typehints (>=1.12) ; extra == 'docs' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: sphinx-autodoc-typehints (>=1.12) ; extra == 'docs'
+Handling psycopg-pool ; extra == 'pool' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: psycopg-pool ; extra == 'pool'
+Handling anyio (>=3.6.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: anyio (>=3.6.2) ; extra == 'test'
+Handling mypy (>=1.2) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: mypy (>=1.2) ; extra == 'test'
+Handling pproxy (>=2.7) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pproxy (>=2.7) ; extra == 'test'
+Handling pytest (>=6.2.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest (>=6.2.5) ; extra == 'test'
+Handling pytest-cov (>=3.0) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest-cov (>=3.0) ; extra == 'test'
+Handling pytest-randomly (>=3.5) ; extra == 'test' from hook generated metadata: Requires-Dist (psycopg)
+Ignoring alien requirement: pytest-randomly (>=3.5) ; extra == 'test'
++ cat /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv psycopg-3.1.9.dist-info/
+removed 'psycopg-3.1.9.dist-info/top_level.txt'
+removed 'psycopg-3.1.9.dist-info/METADATA'
+removed 'psycopg-3.1.9.dist-info/LICENSE.txt'
+removed directory 'psycopg-3.1.9.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Tcor1c
++ umask 022
++ cd /builddir/build/BUILD
++ cd psycopg-3.1.9
++ mkdir -p /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ /usr/bin/python3 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir
+Processing /builddir/build/BUILD/psycopg-3.1.9
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info
+  writing /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-modern-metadata-_kgprqep/psycopg-3.1.9.dist-info'
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: psycopg
+  Building wheel for psycopg (pyproject.toml): started
+  Running command Building wheel for psycopg (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/psycopg
+  copying psycopg/__init__.py -> build/lib/psycopg
+  copying psycopg/_adapters_map.py -> build/lib/psycopg
+  copying psycopg/_cmodule.py -> build/lib/psycopg
+  copying psycopg/_column.py -> build/lib/psycopg
+  copying psycopg/_compat.py -> build/lib/psycopg
+  copying psycopg/_dns.py -> build/lib/psycopg
+  copying psycopg/_encodings.py -> build/lib/psycopg
+  copying psycopg/_enums.py -> build/lib/psycopg
+  copying psycopg/_pipeline.py -> build/lib/psycopg
+  copying psycopg/_preparing.py -> build/lib/psycopg
+  copying psycopg/_queries.py -> build/lib/psycopg
+  copying psycopg/_struct.py -> build/lib/psycopg
+  copying psycopg/_tpc.py -> build/lib/psycopg
+  copying psycopg/_transform.py -> build/lib/psycopg
+  copying psycopg/_typeinfo.py -> build/lib/psycopg
+  copying psycopg/_tz.py -> build/lib/psycopg
+  copying psycopg/_wrappers.py -> build/lib/psycopg
+  copying psycopg/abc.py -> build/lib/psycopg
+  copying psycopg/adapt.py -> build/lib/psycopg
+  copying psycopg/client_cursor.py -> build/lib/psycopg
+  copying psycopg/connection.py -> build/lib/psycopg
+  copying psycopg/connection_async.py -> build/lib/psycopg
+  copying psycopg/conninfo.py -> build/lib/psycopg
+  copying psycopg/copy.py -> build/lib/psycopg
+  copying psycopg/cursor.py -> build/lib/psycopg
+  copying psycopg/cursor_async.py -> build/lib/psycopg
+  copying psycopg/dbapi20.py -> build/lib/psycopg
+  copying psycopg/errors.py -> build/lib/psycopg
+  copying psycopg/generators.py -> build/lib/psycopg
+  copying psycopg/postgres.py -> build/lib/psycopg
+  copying psycopg/rows.py -> build/lib/psycopg
+  copying psycopg/server_cursor.py -> build/lib/psycopg
+  copying psycopg/sql.py -> build/lib/psycopg
+  copying psycopg/transaction.py -> build/lib/psycopg
+  copying psycopg/version.py -> build/lib/psycopg
+  copying psycopg/waiting.py -> build/lib/psycopg
+  creating build/lib/psycopg/crdb
+  copying psycopg/crdb/__init__.py -> build/lib/psycopg/crdb
+  copying psycopg/crdb/_types.py -> build/lib/psycopg/crdb
+  copying psycopg/crdb/connection.py -> build/lib/psycopg/crdb
+  creating build/lib/psycopg/pq
+  copying psycopg/pq/__init__.py -> build/lib/psycopg/pq
+  copying psycopg/pq/_debug.py -> build/lib/psycopg/pq
+  copying psycopg/pq/_enums.py -> build/lib/psycopg/pq
+  copying psycopg/pq/_pq_ctypes.py -> build/lib/psycopg/pq
+  copying psycopg/pq/abc.py -> build/lib/psycopg/pq
+  copying psycopg/pq/misc.py -> build/lib/psycopg/pq
+  copying psycopg/pq/pq_ctypes.py -> build/lib/psycopg/pq
+  creating build/lib/psycopg/types
+  copying psycopg/types/__init__.py -> build/lib/psycopg/types
+  copying psycopg/types/array.py -> build/lib/psycopg/types
+  copying psycopg/types/bool.py -> build/lib/psycopg/types
+  copying psycopg/types/composite.py -> build/lib/psycopg/types
+  copying psycopg/types/datetime.py -> build/lib/psycopg/types
+  copying psycopg/types/enum.py -> build/lib/psycopg/types
+  copying psycopg/types/hstore.py -> build/lib/psycopg/types
+  copying psycopg/types/json.py -> build/lib/psycopg/types
+  copying psycopg/types/multirange.py -> build/lib/psycopg/types
+  copying psycopg/types/net.py -> build/lib/psycopg/types
+  copying psycopg/types/none.py -> build/lib/psycopg/types
+  copying psycopg/types/numeric.py -> build/lib/psycopg/types
+  copying psycopg/types/range.py -> build/lib/psycopg/types
+  copying psycopg/types/shapely.py -> build/lib/psycopg/types
+  copying psycopg/types/string.py -> build/lib/psycopg/types
+  copying psycopg/types/uuid.py -> build/lib/psycopg/types
+  copying psycopg/py.typed -> build/lib/psycopg
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/__init__.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_adapters_map.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_cmodule.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_column.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_compat.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_dns.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_encodings.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_enums.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_pipeline.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_preparing.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_queries.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_struct.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_tpc.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_transform.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_typeinfo.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_tz.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/_wrappers.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/abc.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/adapt.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/client_cursor.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/connection.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/connection_async.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/conninfo.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/copy.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/cursor.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/cursor_async.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/dbapi20.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/errors.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/generators.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/postgres.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/rows.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/server_cursor.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/sql.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/transaction.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/version.py -> build/bdist.linux-x86_64/wheel/psycopg
+  copying build/lib/psycopg/waiting.py -> build/bdist.linux-x86_64/wheel/psycopg
+  creating build/bdist.linux-x86_64/wheel/psycopg/crdb
+  copying build/lib/psycopg/crdb/__init__.py -> build/bdist.linux-x86_64/wheel/psycopg/crdb
+  copying build/lib/psycopg/crdb/_types.py -> build/bdist.linux-x86_64/wheel/psycopg/crdb
+  copying build/lib/psycopg/crdb/connection.py -> build/bdist.linux-x86_64/wheel/psycopg/crdb
+  creating build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/__init__.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/_debug.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/_enums.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/_pq_ctypes.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/abc.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/misc.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  copying build/lib/psycopg/pq/pq_ctypes.py -> build/bdist.linux-x86_64/wheel/psycopg/pq
+  creating build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/__init__.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/array.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/bool.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/composite.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/datetime.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/enum.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/hstore.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/json.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/multirange.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/net.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/none.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/numeric.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/range.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/shapely.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/string.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/types/uuid.py -> build/bdist.linux-x86_64/wheel/psycopg/types
+  copying build/lib/psycopg/py.typed -> build/bdist.linux-x86_64/wheel/psycopg
+  running install_egg_info
+  running egg_info
+  writing psycopg.egg-info/PKG-INFO
+  writing dependency_links to psycopg.egg-info/dependency_links.txt
+  writing requirements to psycopg.egg-info/requires.txt
+  writing top-level names to psycopg.egg-info/top_level.txt
+  reading manifest file 'psycopg.egg-info/SOURCES.txt'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'psycopg.egg-info/SOURCES.txt'
+  Copying psycopg.egg-info to build/bdist.linux-x86_64/wheel/psycopg-3.1.9-py3.9.egg-info
+  running install_scripts
+  adding license file "LICENSE.txt" (matched pattern "LICENSE.txt")
+  creating build/bdist.linux-x86_64/wheel/psycopg-3.1.9.dist-info/WHEEL
+  creating '/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir/pip-wheel-hg_56bib/.tmp-fv1j03t6/psycopg-3.1.9-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'psycopg/__init__.py'
+  adding 'psycopg/_adapters_map.py'
+  adding 'psycopg/_cmodule.py'
+  adding 'psycopg/_column.py'
+  adding 'psycopg/_compat.py'
+  adding 'psycopg/_dns.py'
+  adding 'psycopg/_encodings.py'
+  adding 'psycopg/_enums.py'
+  adding 'psycopg/_pipeline.py'
+  adding 'psycopg/_preparing.py'
+  adding 'psycopg/_queries.py'
+  adding 'psycopg/_struct.py'
+  adding 'psycopg/_tpc.py'
+  adding 'psycopg/_transform.py'
+  adding 'psycopg/_typeinfo.py'
+  adding 'psycopg/_tz.py'
+  adding 'psycopg/_wrappers.py'
+  adding 'psycopg/abc.py'
+  adding 'psycopg/adapt.py'
+  adding 'psycopg/client_cursor.py'
+  adding 'psycopg/connection.py'
+  adding 'psycopg/connection_async.py'
+  adding 'psycopg/conninfo.py'
+  adding 'psycopg/copy.py'
+  adding 'psycopg/cursor.py'
+  adding 'psycopg/cursor_async.py'
+  adding 'psycopg/dbapi20.py'
+  adding 'psycopg/errors.py'
+  adding 'psycopg/generators.py'
+  adding 'psycopg/postgres.py'
+  adding 'psycopg/py.typed'
+  adding 'psycopg/rows.py'
+  adding 'psycopg/server_cursor.py'
+  adding 'psycopg/sql.py'
+  adding 'psycopg/transaction.py'
+  adding 'psycopg/version.py'
+  adding 'psycopg/waiting.py'
+  adding 'psycopg/crdb/__init__.py'
+  adding 'psycopg/crdb/_types.py'
+  adding 'psycopg/crdb/connection.py'
+  adding 'psycopg/pq/__init__.py'
+  adding 'psycopg/pq/_debug.py'
+  adding 'psycopg/pq/_enums.py'
+  adding 'psycopg/pq/_pq_ctypes.py'
+  adding 'psycopg/pq/abc.py'
+  adding 'psycopg/pq/misc.py'
+  adding 'psycopg/pq/pq_ctypes.py'
+  adding 'psycopg/types/__init__.py'
+  adding 'psycopg/types/array.py'
+  adding 'psycopg/types/bool.py'
+  adding 'psycopg/types/composite.py'
+  adding 'psycopg/types/datetime.py'
+  adding 'psycopg/types/enum.py'
+  adding 'psycopg/types/hstore.py'
+  adding 'psycopg/types/json.py'
+  adding 'psycopg/types/multirange.py'
+  adding 'psycopg/types/net.py'
+  adding 'psycopg/types/none.py'
+  adding 'psycopg/types/numeric.py'
+  adding 'psycopg/types/range.py'
+  adding 'psycopg/types/shapely.py'
+  adding 'psycopg/types/string.py'
+  adding 'psycopg/types/uuid.py'
+  adding 'psycopg-3.1.9.dist-info/LICENSE.txt'
+  adding 'psycopg-3.1.9.dist-info/METADATA'
+  adding 'psycopg-3.1.9.dist-info/WHEEL'
+  adding 'psycopg-3.1.9.dist-info/top_level.txt'
+  adding 'psycopg-3.1.9.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for psycopg (pyproject.toml): finished with status 'done'
+  Created wheel for psycopg: filename=psycopg-3.1.9-py3-none-any.whl size=167752 sha256=ced8b93a3da4020b96ca3db10cdab75c0121c475f6a7b73294886064232704f9
+  Stored in directory: /builddir/.cache/pip/wheels/23/07/bb/ebe46899ed8a9060c424c3ff1ded973d1d64f0586efd4a9dce
+Successfully built psycopg
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.RSaNi7
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64
++ cd psycopg-3.1.9
+++ ls /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir/psycopg-3.1.9-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=psycopg==3.1.9
++ TMPDIR=/builddir/build/BUILD/psycopg-3.1.9/.pyproject-builddir
++ /usr/bin/python3 -m pip install --root /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir psycopg==3.1.9
+Using pip 22.0.4 from /usr/lib/python3.9/site-packages/pip (python 3.9)
+Looking in links: /builddir/build/BUILD/psycopg-3.1.9/pyproject-wheeldir
+Processing ./pyproject-wheeldir/psycopg-3.1.9-py3-none-any.whl
+Installing collected packages: psycopg
+Successfully installed psycopg-3.1.9
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ site_dirs+=("/usr/lib/python3.9/site-packages")
++ '[' /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib64/python3.9/site-packages '!=' /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib64/python3.9/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/RECORD --output /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9/site-packages/psycopg-3.1.9.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64 --sitelib /usr/lib/python3.9/site-packages --sitearch /usr/lib64/python3.9/site-packages --python-version 3.9 --pyproject-record /builddir/build/BUILD/python-psycopg-3.1.9-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64/usr/lib/python3.9 using python3.9
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3-psycopg-3.1.9-1.el9.x86_64
+Provides: python-psycopg = 3.1.9-1.el9 python3-psycopg = 3.1.9-1.el9 python3-psycopg(x86-64) = 3.1.9-1.el9 python3.9-psycopg = 3.1.9-1.el9 python3.9dist(psycopg) = 3.1.9 python3dist(psycopg) = 3.1.9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.9 python3.9dist(typing-extensions) >= 4.1
+Obsoletes: python39-psycopg < 3.1.9-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-psycopg-3.1.9-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-psycopg-3.1.9-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3-psycopg-3.1.9-1.el9.x86_64.rpm
+Finish: rpmbuild python-psycopg-3.1.9-1.el9.src.rpm
+Finish: build phase for python-psycopg-3.1.9-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/23.7.0/SRPMS/python-psycopg-3.1.9-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 40 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 246 packages
+Directory walk done - 250 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.7.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)

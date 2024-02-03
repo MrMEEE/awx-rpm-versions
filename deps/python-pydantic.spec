@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 Name:           python-pydantic
 Version:        1.10.2
 Release:        %autorelease
