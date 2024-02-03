@@ -1,5 +1,5 @@
 Name:           python-cryptography
-Version:        36.0.2
+Version:        41.0.3
 Release:        %autorelease
 Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 
