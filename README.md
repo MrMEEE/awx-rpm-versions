@@ -98,7 +98,7 @@ python3-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** | [Log]
 python3-json-log-formatter-0.5.1-1.el9 | python-json-log-formatter-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-0.5.1-1.el9.src.rpm.log)
 python3-jsonschema-4.17.3-1.el9 | python-jsonschema-4.17.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.17.3-1.el9.src.rpm.log)
 python3-jwcrypto-1.4.2-1.el9 | python-jwcrypto-1.4.2-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.4.2-1.el9.src.rpm.log)
-python3-keyring-24.3.0-1.el9 | python-keyring-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-24.3.0-1.el9.src.rpm.log)
+python3-keyring-24.3.0-1.el9 | python-keyring-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-keyring-24.3.0-1.el9.src.rpm.log)
 python3-kubernetes-25.3.0-1.el9 | python-kubernetes-25.3.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
 python3-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3-markdown-3.4.1-1.el9 | python-markdown-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
@@ -185,4 +185,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-183 total packages, 171 packages built successfully, 12 packages left to fix
+183 total packages, 172 packages built successfully, 11 packages left to fix
