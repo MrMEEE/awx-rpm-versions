@@ -1,20 +1,16 @@
 Name:           python-cryptography
-Version:        41.0.3
+Version:        36.0.2
 Release:        %autorelease
 Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/cryptography/
+URL:            https://github.com/pyca/cryptography
 Source:         %{pypi_source cryptography}
 
-BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
-BuildRequires:  rust
-BuildRequires:  cargo
-BuildRequires:  openssl-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -28,16 +24,12 @@ Summary:        %{summary}
 
 %description -n python3-cryptography %_description
 
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-
 
 %prep
 %autosetup -p1 -n cryptography-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
