@@ -27,7 +27,7 @@ Summary:        %{summary}
 %pyproject_extras_subpkg -n python3-django-ansible-base rest_filters,jwt_consumer
 
 %prep
-%autosetup -p1 -n django-ansible-base
+%autosetup -p1 -n django-ansible-base-2024.1.31
 
 
 %generate_buildrequires
