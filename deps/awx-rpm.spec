@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.7.0
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: awx-23.7.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -37,12 +37,12 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: make python3 python3-devel npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML python3-ldap ansible-core
-BuildRequires: nodejs >= 18
+BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML python3-ldap
 BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.8.3
 BuildRequires: python3-aioredis = 1.3.1
 BuildRequires: python3-aiosignal = 1.3.1
+BuildRequires: python3-ansible-base = 2.10.17
 BuildRequires: python3-ansible-builder = 3.0.0
 BuildRequires: python3-ansible-runner = 2.3.4
 BuildRequires: python3-ansiconv = 1.0.0
@@ -246,11 +246,12 @@ BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
 
 
-Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap ansible-core
+Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.8.3
 Requires: python3-aioredis = 1.3.1
 Requires: python3-aiosignal = 1.3.1
+Requires: python3-ansible-base = 2.10.17
 Requires: python3-ansible-builder = 3.0.0
 Requires: python3-ansible-runner = 2.3.4
 Requires: python3-ansiconv = 1.0.0
