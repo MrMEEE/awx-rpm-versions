@@ -42,7 +42,6 @@ BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.8.3
 BuildRequires: python3-aioredis = 1.3.1
 BuildRequires: python3-aiosignal = 1.3.1
-BuildRequires: python3-ansible-base = 2.10.17
 BuildRequires: python3-ansible-builder = 3.0.0
 BuildRequires: python3-ansible-runner = 2.3.4
 BuildRequires: python3-ansiconv = 1.0.0
