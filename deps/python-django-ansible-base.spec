@@ -22,10 +22,9 @@ This is package 'django-ansible-base' generated automatically by pyp2spec.}
 %package -n     python3-django-ansible-base
 Summary:        %{summary}
 
-%pyproject_extras_subpkg -n python3-django-ansible-base rest_filters,jwt_consumer
-
 %description -n python3-django-ansible-base %_description
 
+%pyproject_extras_subpkg -n python3-django-ansible-base rest_filters,jwt_consumer
 
 %prep
 %autosetup -p1 -n django-ansible-base
