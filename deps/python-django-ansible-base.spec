@@ -1,5 +1,5 @@
 Name:           python-django-ansible-base
-Version:        20240109
+Version:        20240131
 Release:        %autorelease
 Summary:        Reserved package
 
@@ -7,7 +7,7 @@ Summary:        Reserved package
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         django-ansible-base-20240109.tar.gz
+Source:         https://github.com/ansible/django-ansible-base/releases/download/2024.1.31/django-ansible-base-2024.1.31.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -22,6 +22,8 @@ This is package 'django-ansible-base' generated automatically by pyp2spec.}
 %package -n     python3-django-ansible-base
 Summary:        %{summary}
 
+%pyproject_extras_subpkg -n python3-django-ansible-base rest_filters,jwt_consumer
+
 %description -n python3-django-ansible-base %_description
 
 
@@ -30,7 +32,7 @@ Summary:        %{summary}
 
 
 %generate_buildrequires
-%pyproject_buildrequires
+%pyproject_buildrequires -x rest_filters,jwt_consumer
 
 
 %build
