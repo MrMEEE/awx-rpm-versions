@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.7.0
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: awx-23.7.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -42,7 +42,6 @@ BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.8.3
 BuildRequires: python3-aioredis = 1.3.1
 BuildRequires: python3-aiosignal = 1.3.1
-BuildRequires: python3-ansible-base = 2.10.17
 BuildRequires: python3-ansible-builder = 3.0.0
 BuildRequires: python3-ansible-runner = 2.3.4
 BuildRequires: python3-ansiconv = 1.0.0
@@ -253,7 +252,6 @@ Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.8.3
 Requires: python3-aioredis = 1.3.1
 Requires: python3-aiosignal = 1.3.1
-Requires: python3-ansible-base = 2.10.17
 Requires: python3-ansible-builder = 3.0.0
 Requires: python3-ansible-runner = 2.3.4
 Requires: python3-ansiconv = 1.0.0
