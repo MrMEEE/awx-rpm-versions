@@ -166,7 +166,7 @@ python3-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](log
 python3-trove-classifiers-2024.1.31-1.el9 | python-trove-classifiers-2024.1.31-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.1.31-1.el9.src.rpm.log)
 python3-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | Built | [Log](logs/python-twilio-7.15.3-1.el9.src.rpm.log)
 python3-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | Built | [Log](logs/python-twine-5.0.0-1.el9.src.rpm.log)
-python3-twisted-22.10.0-1.el9 | python-twisted-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-22.10.0-1.el9.src.rpm.log)
+python3-twisted-22.10.0-1.el9 | python-twisted-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-22.10.0-1.el9.src.rpm.log)
 python3-txaio-22.2.1-1.el9 | python-txaio-22.2.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-22.2.1-1.el9.src.rpm.log)
 python3-types-setuptools-69.0.0.20240125-1.el9 | python-types-setuptools-69.0.0.20240125-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.0.0.20240125-1.el9.src.rpm.log)
 python3-typing-extensions-4.4.0-1.el9 | python-typing-extensions-4.4.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.4.0-1.el9.src.rpm.log)
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 175 packages built successfully, 4 packages left to fix
+179 total packages, 176 packages built successfully, 3 packages left to fix
