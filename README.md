@@ -179,6 +179,6 @@ python3-wrapt-1.15.0-1.el9 | python-wrapt-1.15.0-1.el9.src.rpm | Built | [Log](l
 python3-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/python-yarl-1.8.1-1.el9.src.rpm.log)
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
-python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
+python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 156 packages built successfully, 23 packages left to fix
+179 total packages, 157 packages built successfully, 22 packages left to fix
