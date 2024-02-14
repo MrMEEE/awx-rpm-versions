@@ -28,6 +28,7 @@ python3-azure-nspkg-3.0.2-1.el9 | python-azure-nspkg-3.0.2-1.el9.src.rpm | Built
 python3-boto3-1.26.102-1.el9 | python-boto3-1.26.102-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.26.102-1.el9.src.rpm.log)
 python3-botocore-1.29.102-1.el9 | python-botocore-1.29.102-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.29.102-1.el9.src.rpm.log)
 python3-build-1.0.3-1.el9 | python-build-1.0.3-1.el9.src.rpm | Built | [Log](logs/python-build-1.0.3-1.el9.src.rpm.log)
+python3-cachecontrol-0.13.1-1.el9 | python-cachecontrol-0.13.1-1.el9.src.rpm | **Missing** |
 python3-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3-cachetools-5.2.0-1.el9 | python-cachetools-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.2.0-1.el9.src.rpm.log)
 python3-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
@@ -181,4 +182,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 170 packages built successfully, 9 packages left to fix
+180 total packages, 170 packages built successfully, 10 packages left to fix

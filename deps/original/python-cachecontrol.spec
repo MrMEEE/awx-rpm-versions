@@ -1,5 +1,5 @@
 Name:           python-cachecontrol
-Version:        0.14.0
+Version:        0.13.1
 Release:        %autorelease
 Summary:        httplib2 caching for requests
 
