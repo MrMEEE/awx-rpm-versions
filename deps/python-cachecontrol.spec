@@ -15,6 +15,7 @@ BuildRequires:  python3-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
+
 This is package 'cachecontrol' generated automatically by pyp2spec.}
 
 %description %_description
@@ -26,8 +27,8 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-cachecontrol dev,filecache,redis
 
+%pyproject_extras_subpkg -n python3-cachecontrol filecache
 
 %prep
 %autosetup -p1 -n cachecontrol-%{version}
@@ -35,7 +36,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,filecache,redis
+%pyproject_buildrequires -x filecache
 
 
 %build

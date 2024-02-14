@@ -1,0 +1,21 @@
+--- python-cryptography.spec	2024-02-14 16:31:55.618025484 +0100
++++ python-cryptography.spec	2024-02-04 23:47:42.979796851 +0100
+@@ -1,5 +1,5 @@
+ Name:           python-cryptography
+-Version:        36.0.2
++Version:        41.0.3
+ Release:        %autorelease
+ Summary:        cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+ 
+@@ -11,7 +11,10 @@
+ 
+ BuildRequires:  python3-devel
+ BuildRequires:  gcc
+-
++BuildRequires:  openssl-devel
++BuildRequires:  gcc-c++
++BuildRequires:  rust
++BuildRequires:  cargo
+ 
+ # Fill in the actual package description to submit package to Fedora
+ %global _description %{expand:

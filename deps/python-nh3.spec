@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 Name:           python-nh3
 Version:        0.2.15
 Release:        %autorelease
@@ -9,8 +10,11 @@ License:        gpl
 URL:            https://pypi.org/project/nh3/
 Source:         %{pypi_source nh3}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
+BuildRequires:  rust
+BuildRequires:  cargo
 
 
 # Fill in the actual package description to submit package to Fedora

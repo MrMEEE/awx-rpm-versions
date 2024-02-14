@@ -8,6 +8,7 @@ Summary:        A non-validating SQL parser.
 License:        gpl
 URL:            https://pypi.org/project/sqlparse/
 Source:         %{pypi_source sqlparse}
+Patch:		sqlparse-python-explicit.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
@@ -26,7 +27,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-sqlparse dev,doc,test
 
 
 %prep
@@ -35,7 +35,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,doc,test
+%pyproject_buildrequires
 
 
 %build
