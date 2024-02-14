@@ -39,7 +39,7 @@ python3-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/
 python3-click-8.1.3-1.el9 | python-click-8.1.3-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.3-1.el9.src.rpm.log)
 python3-constantly-15.1.0-1.el9 | python-constantly-15.1.0-1.el9.src.rpm | Built | [Log](logs/python-constantly-15.1.0-1.el9.src.rpm.log)
 python3-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
-python3-cryptography-41.0.3-1.el9 | python-cryptography-41.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.3-1.el9.src.rpm.log)
+python3-cryptography-41.0.3-1.el9 | python-cryptography-41.0.3-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.3-1.el9.src.rpm.log)
 python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | Built | [Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
 python3-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 python3-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 170 packages built successfully, 9 packages left to fix
+179 total packages, 171 packages built successfully, 8 packages left to fix
