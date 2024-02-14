@@ -38,7 +38,7 @@ python3-charset-normalizer-2.1.1-1.el9 | python-charset-normalizer-2.1.1-1.el9.s
 python3-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3-click-8.1.3-1.el9 | python-click-8.1.3-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.3-1.el9.src.rpm.log)
 python3-constantly-15.1.0-1.el9 | python-constantly-15.1.0-1.el9.src.rpm | Built | [Log](logs/python-constantly-15.1.0-1.el9.src.rpm.log)
-python3-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** |
+python3-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3-cryptography-41.0.3-1.el9 | python-cryptography-41.0.3-1.el9.src.rpm | **Missing** |
 python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** |
 python3-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 29 packages built successfully, 150 packages left to fix
+179 total packages, 30 packages built successfully, 149 packages left to fix
