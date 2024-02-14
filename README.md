@@ -118,7 +118,7 @@ python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log]
 python3-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 python3-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
-python3-poetry-1.7.1-1.el9 | python-poetry-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.7.1-1.el9.src.rpm.log)
+python3-poetry-1.7.1-1.el9 | python-poetry-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.7.1-1.el9.src.rpm.log)
 python3-poetry-plugin-export-1.6.0-1.el9 | python-poetry-plugin-export-1.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.6.0-1.el9.src.rpm.log)
 python3-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
 python3-prometheus-client-0.19.0-1.el9 | python-prometheus-client-0.19.0-1.el9.src.rpm | Built | [Log](logs/python-prometheus-client-0.19.0-1.el9.src.rpm.log)
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 171 packages built successfully, 8 packages left to fix
+179 total packages, 172 packages built successfully, 7 packages left to fix
