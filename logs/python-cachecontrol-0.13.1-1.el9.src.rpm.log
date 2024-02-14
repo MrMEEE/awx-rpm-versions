@@ -1,0 +1,34 @@
+INFO: mock.py version 5.4 starting (python version = 3.9.14, NVR = mock-5.4-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/23.8.0/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/23.8.0/RPMS-TMP/ --no-clean --addrepo=https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64 /opt/awx-rpm-v2/rpmbuilds/23.8.0/SRPMS/python-cachecontrol-0.13.1-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/23.8.0/SRPMS/python-cachecontrol-0.13.1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.4
+INFO: Mock Version: 5.4
+INFO: Package manager dnf detected and used (fallback)
+INFO: Package manager dnf detected and used (direct choice)
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/23.8.0/SRPMS/python-cachecontrol-0.13.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 0 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/23.8.0/RPMS-TMP/
+ERROR: Build root is locked by another process.
+Directory walk started
+Directory walk done - 230 packages
+Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/23.8.0/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Pool finished
+INFO: mock.py version 5.4 starting (python version = 3.9.14, NVR = mock-5.4-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+Start: clean chroot
+ERROR: Build root is locked by another process.
