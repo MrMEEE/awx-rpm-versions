@@ -1,5 +1,5 @@
 Name:           python-django-ansible-base
-Version:        20240131
+Version:        20240212
 Release:        %autorelease
 Summary:        Reserved package
 
@@ -7,7 +7,7 @@ Summary:        Reserved package
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         https://github.com/ansible/django-ansible-base/releases/download/2024.1.31/django-ansible-base-2024.1.31.tar.gz
+Source:         https://github.com/ansible/django-ansible-base/releases/download/2024.2.12/django-ansible-base-2024.2.12.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
