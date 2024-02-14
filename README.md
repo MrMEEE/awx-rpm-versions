@@ -171,7 +171,7 @@ python3-txaio-22.2.1-1.el9 | python-txaio-22.2.1-1.el9.src.rpm | Built | [Log](l
 python3-types-setuptools-69.0.0.20240125-1.el9 | python-types-setuptools-69.0.0.20240125-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.0.0.20240125-1.el9.src.rpm.log)
 python3-typing-extensions-4.4.0-1.el9 | python-typing-extensions-4.4.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.4.0-1.el9.src.rpm.log)
 python3-urllib3-1.26.17-1.el9 | python-urllib3-1.26.17-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.17-1.el9.src.rpm.log)
-python3-uwsgi-2.0.21-1.el9 | python-uwsgi-2.0.21-1.el9.src.rpm | **Missing** |
+python3-uwsgi-2.0.21-1.el9 | python-uwsgi-2.0.21-1.el9.src.rpm | Built | [Log](logs/python-uwsgi-2.0.21-1.el9.src.rpm.log)
 python3-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | **Missing** |
 python3-websocket-client-1.4.2-1.el9 | python-websocket-client-1.4.2-1.el9.src.rpm | **Missing** |
 python3-wheel-0.42.0-1.el9 | python-wheel-0.42.0-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 148 packages built successfully, 31 packages left to fix
+179 total packages, 149 packages built successfully, 30 packages left to fix
