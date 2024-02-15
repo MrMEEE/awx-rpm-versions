@@ -1,3 +1,5 @@
+%bcond_without check
+
 Name:           python-twisted
 Version:        22.10.0
 Release:        %autorelease
@@ -10,8 +12,7 @@ URL:            https://twistedmatrix.com/
 Source:         %{pypi_source Twisted}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
-
+BuildRequires:  python3-devel python3-cryptography python3-bcrypt python3-pyasn1 python3-tkinter python3-hamcrest glibc-langpack-en python3-pyopenssl
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -21,12 +22,12 @@ This is package 'twisted' generated automatically by pyp2spec.}
 
 %package -n     python3-twisted
 Summary:        %{summary}
+Provides: python3dist(twisted[tls]) python3.9dist(twisted[tls])
 
 %description -n python3-twisted %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-twisted all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
 
 
 %prep
@@ -35,7 +36,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
+%pyproject_buildrequires -x http2,tls
 
 
 %build

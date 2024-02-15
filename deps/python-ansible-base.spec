@@ -1,3 +1,4 @@
+%undefine __brp_mangle_shebangs
 Name:           python-ansible-base
 Version:        2.10.17
 Release:        %autorelease
