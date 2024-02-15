@@ -115,7 +115,7 @@ python3-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | B
 python3-openshift-0.13.1-1.el9 | python-openshift-0.13.1-1.el9.src.rpm | Built | [Log](logs/python-openshift-0.13.1-1.el9.src.rpm.log)
 python3-packaging-21.3-1.el9 | python-packaging-21.3-1.el9.src.rpm | Built | [Log](logs/python-packaging-21.3-1.el9.src.rpm.log)
 python3-pbr-5.11.0-1.el9 | python-pbr-5.11.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-5.11.0-1.el9.src.rpm.log)
-python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | **Missing** |
+python3-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | **Missing** |
 python3-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** |
 python3-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** |
@@ -182,4 +182,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-180 total packages, 103 packages built successfully, 77 packages left to fix
+180 total packages, 104 packages built successfully, 76 packages left to fix
