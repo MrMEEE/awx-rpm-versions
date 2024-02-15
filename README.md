@@ -54,7 +54,7 @@ python3-django-extensions-3.2.1-1.el9 | python-django-extensions-3.2.1-1.el9.src
 python3-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
 python3-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
-python3-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** |
+python3-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 python3-django-radius-1.5.0-1.el9 | python-django-radius-1.5.0-1.el9.src.rpm | **Missing** |
 python3-djangorestframework-3.14.0-1.el9 | python-djangorestframework-3.14.0-1.el9.src.rpm | **Missing** |
 python3-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | **Missing** |
@@ -182,4 +182,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-180 total packages, 44 packages built successfully, 136 packages left to fix
+180 total packages, 45 packages built successfully, 135 packages left to fix
