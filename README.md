@@ -45,7 +45,7 @@ python3-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | Built | [Log](l
 python3-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 python3-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
 python3-deprecated-1.2.13-1.el9 | python-deprecated-1.2.13-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.13-1.el9.src.rpm.log)
-python3-distro-1.8.0-1.el9 | python-distro-1.8.0-1.el9.src.rpm | **Missing** |
+python3-distro-1.8.0-1.el9 | python-distro-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.8.0-1.el9.src.rpm.log)
 python3-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** |
 python3-django-cors-headers-3.13.0-1.el9 | python-django-cors-headers-3.13.0-1.el9.src.rpm | **Missing** |
 python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** |
@@ -182,4 +182,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-180 total packages, 37 packages built successfully, 143 packages left to fix
+180 total packages, 38 packages built successfully, 142 packages left to fix
