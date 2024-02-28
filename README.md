@@ -161,7 +161,7 @@ python3-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.r
 python3-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
-python3-tempora-5.1.0-1.el9 | python-tempora-5.1.0-1.el9.src.rpm | **Missing** |
+python3-tempora-5.1.0-1.el9 | python-tempora-5.1.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.1.0-1.el9.src.rpm.log)
 python3-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** |
 python3-trove-classifiers-2024.2.23-1.el9 | python-trove-classifiers-2024.2.23-1.el9.src.rpm | **Missing** |
 python3-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 142 packages built successfully, 37 packages left to fix
+179 total packages, 143 packages built successfully, 36 packages left to fix
