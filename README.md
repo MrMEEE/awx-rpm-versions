@@ -99,7 +99,7 @@ python3-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | Built | [Lo
 python3-kubernetes-25.3.0-1.el9 | python-kubernetes-25.3.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-25.3.0-1.el9.src.rpm.log)
 python3-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3-markdown-3.4.1-1.el9 | python-markdown-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.4.1-1.el9.src.rpm.log)
-python3-markupsafe-2.1.1-1.el9 | python-markupsafe-2.1.1-1.el9.src.rpm | **Missing** |
+python3-markupsafe-2.1.1-1.el9 | python-markupsafe-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.1-1.el9.src.rpm.log)
 python3-maturin-1.4.0-1.el9 | python-maturin-1.4.0-1.el9.src.rpm | **Missing** |
 python3-more-itertools-9.0.0-1.el9 | python-more-itertools-9.0.0-1.el9.src.rpm | **Missing** |
 python3-msgpack-1.0.4-1.el9 | python-msgpack-1.0.4-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 86 packages built successfully, 93 packages left to fix
+179 total packages, 87 packages built successfully, 92 packages left to fix
