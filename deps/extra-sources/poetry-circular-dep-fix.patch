@@ -1,22 +1,22 @@
-diff -uNr poetry-1.7.1/PKG-INFO poetry-1.7.1-fix/PKG-INFO
---- poetry-1.7.1/PKG-INFO	1970-01-01 01:00:00.000000000 +0100
-+++ poetry-1.7.1-fix/PKG-INFO	2023-12-29 23:41:19.053914628 +0100
+diff -uNr poetry-1.8.1/PKG-INFO poetry-1.8.1-new/PKG-INFO
+--- poetry-1.8.1/PKG-INFO	1970-01-01 01:00:00.000000000 +0100
++++ poetry-1.8.1-new/PKG-INFO	2024-02-28 15:17:44.521606734 +0100
 @@ -33,7 +33,6 @@
  Requires-Dist: pkginfo (>=1.9.4,<2.0.0)
- Requires-Dist: platformdirs (>=3.0.0,<4.0.0)
- Requires-Dist: poetry-core (==1.8.1)
+ Requires-Dist: platformdirs (>=3.0.0,<5)
+ Requires-Dist: poetry-core (==1.9.0)
 -Requires-Dist: poetry-plugin-export (>=1.6.0,<2.0.0)
  Requires-Dist: pyproject-hooks (>=1.0.0,<2.0.0)
  Requires-Dist: requests (>=2.26,<3.0)
- Requires-Dist: requests-toolbelt (>=0.9.1,<2)
-diff -uNr poetry-1.7.1/pyproject.toml poetry-1.7.1-fix/pyproject.toml
---- poetry-1.7.1/pyproject.toml	2023-11-16 20:08:40.728930200 +0100
-+++ poetry-1.7.1-fix/pyproject.toml	2023-12-29 23:41:31.287576143 +0100
-@@ -33,7 +33,6 @@
+ Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+diff -uNr poetry-1.8.1/pyproject.toml poetry-1.8.1-new/pyproject.toml
+--- poetry-1.8.1/pyproject.toml	2024-02-26 17:12:32.226544000 +0100
++++ poetry-1.8.1-new/pyproject.toml	2024-02-28 15:17:04.440381836 +0100
+@@ -32,7 +32,6 @@
  python = "^3.8"
  
- poetry-core = "1.8.1"
+ poetry-core = "1.9.0"
 -poetry-plugin-export = "^1.6.0"
  build = "^1.0.3"
- cachecontrol = { version = "^0.13.0", extras = ["filecache"] }
+ cachecontrol = { version = "^0.14.0", extras = ["filecache"] }
  cleo = "^2.1.0"
