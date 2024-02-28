@@ -1,7 +1,7 @@
 ## Package build status for version: 23.9.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
+python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohttp-3.9.3-1.el9 | python-aiohttp-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
@@ -178,7 +178,7 @@ python3-wheel-0.42.0-1.el9 | python-wheel-0.42.0-1.el9.src.rpm | Built | [Log](l
 python3-wrapt-1.15.0-1.el9 | python-wrapt-1.15.0-1.el9.src.rpm | Built | [Log](logs/python-wrapt-1.15.0-1.el9.src.rpm.log)
 python3-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/python-yarl-1.8.1-1.el9.src.rpm.log)
-python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
+python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 159 packages built successfully, 20 packages left to fix
+179 total packages, 160 packages built successfully, 19 packages left to fix
