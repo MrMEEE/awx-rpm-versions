@@ -1,5 +1,5 @@
 [Unit]
-Description=AWX channels worker service
+Description=AWX WS Heartbeat service
 PartOf=awx.target
 
 [Service]
@@ -8,7 +8,7 @@ Group=awx
 EnvironmentFile=-/etc/sysconfig/awx
 Environment=AWX_SETTINGS_FILE=/etc/tower/settings.py
 Environment=PATH=/opt/awx/bin:/bin:/sbin:/usr/bin:/usr/sbin
-ExecStart=/usr/bin/awx-manage run_wsbroadcast
+ExecStart=/usr/bin/awx-manage run_ws_heartbeat
 Restart=on-failure
 RestartSec=2s
 
