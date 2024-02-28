@@ -34,7 +34,7 @@ python3-cffi-1.15.1-1.el9 | python-cffi-1.15.1-1.el9.src.rpm | Built | [Log](log
 python3-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | Built | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 python3-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
 python3-charset-normalizer-2.1.1-1.el9 | python-charset-normalizer-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-2.1.1-1.el9.src.rpm.log)
-python3-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+python3-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3-click-8.1.3-1.el9 | python-click-8.1.3-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.3-1.el9.src.rpm.log)
 python3-constantly-15.1.0-1.el9 | python-constantly-15.1.0-1.el9.src.rpm | Built | [Log](logs/python-constantly-15.1.0-1.el9.src.rpm.log)
 python3-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-179 total packages, 171 packages built successfully, 8 packages left to fix
+179 total packages, 172 packages built successfully, 7 packages left to fix
