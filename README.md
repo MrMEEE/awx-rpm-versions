@@ -140,7 +140,7 @@ python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | **Missing
 python3-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 python3-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
 python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | Built | [Log](logs/python-redis-4.3.5-1.el9.src.rpm.log)
-python3-requests-2.28.1-1.el9 | python-requests-2.28.1-1.el9.src.rpm | **Missing** |
+python3-requests-2.28.1-1.el9 | python-requests-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-requests-2.28.1-1.el9.src.rpm.log)
 python3-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** |
 python3-requirements-parser-0.5.0-1.el9 | python-requirements-parser-0.5.0-1.el9.src.rpm | **Missing** |
 python3-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 123 packages built successfully, 56 packages left to fix
+179 total packages, 124 packages built successfully, 55 packages left to fix
