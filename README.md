@@ -90,7 +90,7 @@ python3-jaraco-logging-3.1.2-1.el9 | python-jaraco-logging-3.1.2-1.el9.src.rpm |
 python3-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
 python3-jaraco-text-3.11.0-1.el9 | python-jaraco-text-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-text-3.11.0-1.el9.src.rpm.log)
 python3-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
-python3-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | **Missing** |
+python3-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** |
 python3-json-log-formatter-0.5.1-1.el9 | python-json-log-formatter-0.5.1-1.el9.src.rpm | **Missing** |
 python3-jsonschema-4.17.3-1.el9 | python-jsonschema-4.17.3-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 77 packages built successfully, 102 packages left to fix
+179 total packages, 78 packages built successfully, 101 packages left to fix
