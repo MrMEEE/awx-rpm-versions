@@ -136,7 +136,7 @@ python3-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm
 python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3-pyrsistent-0.19.2-1.el9 | python-pyrsistent-0.19.2-1.el9.src.rpm | Built | [Log](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
 python3-pytz-2022.6-1.el9 | python-pytz-2022.6-1.el9.src.rpm | Built | [Log](logs/python-pytz-2022.6-1.el9.src.rpm.log)
-python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | **Missing** |
+python3-rapidfuzz-3.6.1-1.el9 | python-rapidfuzz-3.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.6.1-1.el9.src.rpm.log)
 python3-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | **Missing** |
 python3-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | **Missing** |
 python3-redis-4.3.5-1.el9 | python-redis-4.3.5-1.el9.src.rpm | **Missing** |
