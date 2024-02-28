@@ -60,7 +60,7 @@ python3-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2
 python3-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 python3-django-solo-2.0.0-1.el9 | python-django-solo-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.0.0-1.el9.src.rpm.log)
 python3-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
-python3-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | **Missing** |
+python3-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | Built | [Log](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 python3-docutils-0.19-1.el9 | python-docutils-0.19-1.el9.src.rpm | **Missing** |
 python3-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** |
 python3-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | **Missing** |
@@ -181,4 +181,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-179 total packages, 48 packages built successfully, 131 packages left to fix
+179 total packages, 49 packages built successfully, 130 packages left to fix
