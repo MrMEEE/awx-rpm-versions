@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.8.1
-Release: 4%{dist}
+Release: 5%{dist}
 Source0: awx-23.8.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
