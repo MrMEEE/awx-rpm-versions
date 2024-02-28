@@ -1,0 +1,25 @@
+--- python-twisted.spec	2024-02-28 11:52:12.571495570 +0100
++++ python-twisted.spec	2024-02-16 11:21:09.886779031 +0100
+@@ -22,12 +23,12 @@
+ 
+ %package -n     python3-twisted
+ Summary:        %{summary}
++Provides: python3dist(twisted[tls]) python3.9dist(twisted[tls])
+ 
+ %description -n python3-twisted %_description
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-twisted all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
+ 
+ 
+ %prep
+@@ -36,7 +37,7 @@
+ 
+ %generate_buildrequires
+ # Keep only those extras which you actually want to package or use during tests
+-%pyproject_buildrequires -x all-non-platform,all_non_platform,conch,conch-nacl,contextvars,dev,dev-release,gtk-platform,gtk_platform,http2,macos-platform,macos_platform,mypy,osx-platform,osx_platform,serial,test,tls,windows-platform,windows_platform
++%pyproject_buildrequires -x http2,tls
+ 
+ 
+ %build

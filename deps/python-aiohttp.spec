@@ -9,6 +9,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/aiohttp
 Source:         %{pypi_source aiohttp}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 
@@ -26,7 +27,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-aiohttp speedups
 
 
 %prep
@@ -35,7 +35,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x speedups
+%pyproject_buildrequires
 
 
 %build
