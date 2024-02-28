@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.9.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-23.9.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -88,6 +88,9 @@ BuildRequires: python3-defusedxml = 0.7.1
 BuildRequires: python3-deprecated = 1.2.13
 BuildRequires: python3-distro = 1.8.0
 BuildRequires: python3-django = 4.2.6
+BuildRequires: python3-django-ansible-base = 20240212
+BuildRequires: python3-django-ansible-base+jwt_consumer = 20240212
+BuildRequires: python3-django-ansible-base+rest_filters = 20240212
 BuildRequires: python3-django+argon2 = 4.2.6
 BuildRequires: python3-django+bcrypt = 4.2.6
 BuildRequires: python3-django-cors-headers = 3.13.0
@@ -297,6 +300,9 @@ Requires: python3-defusedxml = 0.7.1
 Requires: python3-deprecated = 1.2.13
 Requires: python3-distro = 1.8.0
 Requires: python3-django = 4.2.6
+Requires: python3-django-ansible-base = 20240212
+Requires: python3-django-ansible-base+jwt_consumer = 20240212
+Requires: python3-django-ansible-base+rest_filters = 20240212
 Requires: python3-django+argon2 = 4.2.6
 Requires: python3-django+bcrypt = 4.2.6
 Requires: python3-django-cors-headers = 3.13.0
