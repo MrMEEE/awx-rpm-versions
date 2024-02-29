@@ -4,7 +4,7 @@
 %define service_group receptor
 
 Summary: Receptor service
-Name: receptor
+Name: awx-receptor
 Version: 1.4.4
 Release: 1%{dist}
 Source0: receptor-%{version}.tar.gz
@@ -20,7 +20,7 @@ BuildRequires: golang make python3 python3-wheel git
 %{summary}
 
 %prep
-%setup
+%setup -n awx-receptor-%{version}
 
 %build
 make build-all
