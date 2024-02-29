@@ -6,7 +6,7 @@
 Summary: Receptor service
 Name: awx-receptor
 Version: 1.4.4
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: receptor-%{version}.tar.gz
 License: ASL2
 Group: AWX
@@ -19,7 +19,7 @@ BuildRequires: golang make python3 python3-wheel git
 %description
 %{summary}
 
-%prep
+%prep -n receptor-%{version}
 %setup
 
 %build
