@@ -20,7 +20,7 @@ BuildRequires: golang make python3 python3-wheel git
 %{summary}
 
 %prep
-%setup -n awx-receptor-%{version}
+%setup -n receptor-%{version}
 
 %build
 make build-all
