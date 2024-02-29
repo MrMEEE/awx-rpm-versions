@@ -12,12 +12,13 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.8.1
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: awx-23.8.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
 Source3: awx-dispatcher.service-%{version}
-Source4: awx-wsbroadcast.service-%{version}
+Source4: awx-wsrelay.service-%{version}
+Source5: awx-ws-heartbeat.service-%{version}
 Source6: awx-daphne.service-%{version}
 Source7: awx-web.service-%{version}
 Source20: awx-receptor.service-%{version}
@@ -248,7 +249,7 @@ BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
 
 
-Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap
+Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq python3-dateutil python3-PyYAML python3-ldap
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.8.3
 Requires: python3-aioredis = 1.3.1
@@ -525,7 +526,7 @@ rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
 
 mkdir -p %{buildroot}/usr/lib/systemd/system
 # awx-channels-worker awx
-for service in awx-web awx-wsbroadcast awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
+for service in awx-web awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
     cp %{_sourcedir}/${service}.service-%{version} %{buildroot}/usr/lib/systemd/system/${service}.service
 done
 
@@ -591,6 +592,7 @@ fi
 /etc/receptor/receptor-hop.conf
 /etc/receptor/receptor-worker.conf
 /etc/receptor/receptor.conf
+/etc/receptor
 #/usr/bin/ansible-tower-service
 #/usr/bin/ansible-tower-setup
 #/usr/bin/awx-python
