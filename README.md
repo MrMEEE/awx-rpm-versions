@@ -7,7 +7,7 @@ awx-rpm-23.8.1-2.el9 | awx-rpm-23.8.1-2.el9.src.rpm | **Missing** | [Log](logs/a
 awx-rpm-23.8.1-3.el9 | awx-rpm-23.8.1-3.el9.src.rpm | Built | [Log](logs/awx-rpm-23.8.1-3.el9.src.rpm.log)
 awx-rpm-23.8.1-4.el9 | awx-rpm-23.8.1-4.el9.src.rpm | Built | [Log](logs/awx-rpm-23.8.1-4.el9.src.rpm.log)
 awx-rpm-23.8.1-5.el9 | awx-rpm-23.8.1-5.el9.src.rpm | Built | [Log](logs/awx-rpm-23.8.1-5.el9.src.rpm.log)
-awx-rpm-23.8.1-7.el9 | awx-rpm-23.8.1-7.el9.src.rpm | **Missing** |
+awx-rpm-23.8.1-7.el9 | awx-rpm-23.8.1-7.el9.src.rpm | Built | [Log](logs/awx-rpm-23.8.1-7.el9.src.rpm.log)
 python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -191,4 +191,4 @@ python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](log
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 receptor-1.4.4-1.el9 | receptor-1.4.4-1.el9.src.rpm | Built |
 
-189 total packages, 186 packages built successfully, 3 packages left to fix
+189 total packages, 187 packages built successfully, 2 packages left to fix
