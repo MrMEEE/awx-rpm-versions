@@ -22,7 +22,7 @@ BuildRequires: golang make python3 python3-wheel git
 %prep -n receptor-%{version}
 %setup
 
-%build
+%build -n receptor-%{version}
 make build-all
 
 %install
