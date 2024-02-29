@@ -19,8 +19,8 @@ BuildRequires: golang make python3 python3-wheel git
 %description
 %{summary}
 
-%prep -n receptor-%{version}
-%setup
+%prep 
+%setup -n receptor-%{version}
 
 %build -n receptor-%{version}
 make build-all
