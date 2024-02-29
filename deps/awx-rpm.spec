@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 23.9.0
-Release: 4%{dist}
+Release: 5%{dist}
 Source0: awx-23.9.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -251,7 +251,7 @@ BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
 
 
-Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg receptor libpq python3-dateutil python3-PyYAML python3-ldap
+Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq python3-dateutil python3-PyYAML python3-ldap
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.9.3
 Requires: python3-aioredis = 1.3.1
