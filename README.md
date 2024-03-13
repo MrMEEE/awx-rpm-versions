@@ -78,7 +78,7 @@ python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [
 python3-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-2.0.0-1.el9.src.rpm.log)
 python3-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3-idna-3.4-1.el9 | python-idna-3.4-1.el9.src.rpm | Built | [Log](logs/python-idna-3.4-1.el9.src.rpm.log)
-python3-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | **Missing** |
+python3-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3-inflect-6.0.2-1.el9 | python-inflect-6.0.2-1.el9.src.rpm | **Missing** |
 python3-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
 python3-irc-20.1.0-1.el9 | python-irc-20.1.0-1.el9.src.rpm | **Missing** |
@@ -183,4 +183,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-181 total packages, 65 packages built successfully, 116 packages left to fix
+181 total packages, 66 packages built successfully, 115 packages left to fix
