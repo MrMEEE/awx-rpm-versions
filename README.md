@@ -165,7 +165,7 @@ python3-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Bui
 python3-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3-tempora-5.1.0-1.el9 | python-tempora-5.1.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.1.0-1.el9.src.rpm.log)
 python3-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
-python3-trove-classifiers-2024.3.3-1.el9 | python-trove-classifiers-2024.3.3-1.el9.src.rpm | **Missing** |
+python3-trove-classifiers-2024.3.3-1.el9 | python-trove-classifiers-2024.3.3-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.3.3-1.el9.src.rpm.log)
 python3-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | **Missing** |
 python3-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** |
 python3-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** |
@@ -183,4 +183,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-181 total packages, 146 packages built successfully, 35 packages left to fix
+181 total packages, 147 packages built successfully, 34 packages left to fix
