@@ -74,7 +74,7 @@ python3-gitpython3-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | Built 
 python3-google-auth-2.14.1-1.el9 | python-google-auth-2.14.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.14.1-1.el9.src.rpm.log)
 python3-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3-hatchling-1.21.1-1.el9 | python-hatchling-1.21.1-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.21.1-1.el9.src.rpm.log)
-python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
+python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | **Missing** |
 python3-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | **Missing** |
 python3-idna-3.4-1.el9 | python-idna-3.4-1.el9.src.rpm | **Missing** |
@@ -183,4 +183,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-181 total packages, 61 packages built successfully, 120 packages left to fix
+181 total packages, 62 packages built successfully, 119 packages left to fix
