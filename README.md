@@ -5,7 +5,7 @@ python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohttp-3.9.3-1.el9 | python-aiohttp-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
-python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
+python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
 python3-aiosignal-1.3.1-1.el9 | python-aiosignal-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aiosignal-1.3.1-1.el9.src.rpm.log)
 python3-ansible-builder-3.0.1-1.el9 | python-ansible-builder-3.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-ansible-builder-3.0.1-1.el9.src.rpm.log)
 python3-ansible-runner-2.3.6-1.el9 | python-ansible-runner-2.3.6-1.el9.src.rpm | Built | [Log](logs/python-ansible-runner-2.3.6-1.el9.src.rpm.log)
@@ -183,4 +183,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-181 total packages, 164 packages built successfully, 17 packages left to fix
+181 total packages, 165 packages built successfully, 16 packages left to fix
