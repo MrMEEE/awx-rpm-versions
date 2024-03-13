@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 Name:           python-msgpack
 Version:        1.0.4
 Release:        %autorelease

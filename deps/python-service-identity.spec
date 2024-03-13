@@ -10,7 +10,7 @@ URL:            https://service-identity.readthedocs.io/
 Source:         %{pypi_source service-identity}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+BuildRequires:  python3-devel python3-pyasn1 python3-pyasn1-modules 
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -26,7 +26,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-service-identity dev,docs,idna,tests
 
 
 %prep
@@ -35,7 +34,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,docs,idna,tests
+%pyproject_buildrequires
 
 
 %build
