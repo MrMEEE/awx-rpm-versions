@@ -68,7 +68,7 @@ python3-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log]
 python3-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3-filelock-3.8.0-1.el9 | python-filelock-3.8.0-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.8.0-1.el9.src.rpm.log)
-python3-frozenlist-1.3.3-1.el9 | python-frozenlist-1.3.3-1.el9.src.rpm | **Missing** |
+python3-frozenlist-1.3.3-1.el9 | python-frozenlist-1.3.3-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.3.3-1.el9.src.rpm.log)
 python3-gitdb-4.0.10-1.el9 | python-gitdb-4.0.10-1.el9.src.rpm | **Missing** |
 python3-gitpython3-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** |
 python3-google-auth-2.14.1-1.el9 | python-google-auth-2.14.1-1.el9.src.rpm | **Missing** |
@@ -183,4 +183,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** |
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** |
 
-181 total packages, 55 packages built successfully, 126 packages left to fix
+181 total packages, 56 packages built successfully, 125 packages left to fix
