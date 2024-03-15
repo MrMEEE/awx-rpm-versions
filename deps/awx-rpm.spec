@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 24.0.0
-Release: 2%{dist}
+Release: 5%{dist}
 Source0: awx-24.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -38,7 +38,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel python3-dateutil python3-PyYAML python3-ldap
+BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel 
 BuildRequires: python3-adal = 1.2.7
 BuildRequires: python3-aiohttp = 3.9.3
 BuildRequires: python3-aioredis = 1.3.1
@@ -249,9 +249,9 @@ BuildRequires: python3-yarl = 1.8.1
 BuildRequires: python3-zipp = 3.11.0
 BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
+BuildRequires: python3-pyyaml python3-lxml python3-dulwich python3-importlib-metadata python3-dateutil python3-ldap python3-pyasn1 python3-expect python3-pyparsing python3-resolvelib 
 
-
-Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq python3-dateutil python3-PyYAML python3-ldap
+Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3-adal = 1.2.7
 Requires: python3-aiohttp = 3.9.3
 Requires: python3-aioredis = 1.3.1
@@ -462,7 +462,7 @@ Requires: python3-yarl = 1.8.1
 Requires: python3-zipp = 3.11.0
 Requires: python3-zope-interface = 5.5.2
 Requires: python-ntlm = 1.1.0
-
+Requires: python3-pyyaml python3-lxml python3-dulwich python3-importlib-metadata python3-dateutil python3-ldap python3-pyasn1 python3-expect python3-pyparsing python3-resolvelib 
 
 %{?systemd_requires}
 
