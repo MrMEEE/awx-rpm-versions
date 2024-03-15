@@ -5,6 +5,7 @@ awx-receptor-1.4.4-1.el9 | awx-receptor-1.4.4-1.el9.src.rpm | Built |
 awx-rpm-24.0.0-10.el9 | awx-rpm-24.0.0-10.el9.src.rpm | Built | [Log](logs/awx-rpm-24.0.0-10.el9.src.rpm.log)
 awx-rpm-24.0.0-11.el9 | awx-rpm-24.0.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.0.0-11.el9.src.rpm.log)
 awx-rpm-24.0.0-12.el9 | awx-rpm-24.0.0-12.el9.src.rpm | Built | [Log](logs/awx-rpm-24.0.0-12.el9.src.rpm.log)
+awx-rpm-24.0.0-13.el9 | awx-rpm-24.0.0-13.el9.src.rpm | Built | [Log](logs/awx-rpm-24.0.0-13.el9.src.rpm.log)
 awx-rpm-24.0.0-1.el9 | awx-rpm-24.0.0-1.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.0.0-1.el9.src.rpm.log)
 awx-rpm-24.0.0-2.el9 | awx-rpm-24.0.0-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.0.0-2.el9.src.rpm.log)
 awx-rpm-24.0.0-3.el9 | awx-rpm-24.0.0-3.el9.src.rpm | **Missing** |
@@ -196,4 +197,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-194 total packages, 185 packages built successfully, 9 packages left to fix
+195 total packages, 186 packages built successfully, 9 packages left to fix

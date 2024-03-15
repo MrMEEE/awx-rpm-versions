@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 24.0.0
-Release: 12%{dist}
+Release: 13%{dist}
 Source0: awx-24.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -241,7 +241,6 @@ BuildRequires: python3-urllib3 = 1.26.17
 BuildRequires: python3-uwsgi = 2.0.21
 BuildRequires: python3-uwsgitop = 0.11
 BuildRequires: python3-websocket-client = 1.4.2
-BuildRequires: python3-wheel = 0.43.0
 BuildRequires: python3-wrapt = 1.15.0
 BuildRequires: python3-xmlsec = 1.3.13
 BuildRequires: python3-yarl = 1.8.1
@@ -453,7 +452,6 @@ Requires: python3-urllib3 = 1.26.17
 Requires: python3-uwsgi = 2.0.21
 Requires: python3-uwsgitop = 0.11
 Requires: python3-websocket-client = 1.4.2
-Requires: python3-wheel = 0.43.0
 Requires: python3-wrapt = 1.15.0
 Requires: python3-xmlsec = 1.3.13
 Requires: python3-yarl = 1.8.1
