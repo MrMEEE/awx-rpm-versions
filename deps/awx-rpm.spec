@@ -12,7 +12,7 @@
 Summary: Ansible AWX
 Name: awx-rpm
 Version: 24.0.0
-Release: 10%{dist}
+Release: 12%{dist}
 Source0: awx-24.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -248,7 +248,7 @@ BuildRequires: python3-yarl = 1.8.1
 BuildRequires: python3-zipp = 3.11.0
 BuildRequires: python3-zope-interface = 5.5.2
 BuildRequires: python-ntlm = 1.1.0
-BuildRequires: python3-pyyaml python3-lxml python3-dulwich python3-dateutil python3-ldap python3-pyasn1 python3-pexpect python3-pyparsing python3-resolvelib 
+BuildRequires: python3-pyyaml python3-lxml python3-dateutil python3-ldap python3-pyasn1 python3-pexpect python3-pyparsing python3-resolvelib 
 
 Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3-adal = 1.2.7
@@ -460,7 +460,7 @@ Requires: python3-yarl = 1.8.1
 Requires: python3-zipp = 3.11.0
 Requires: python3-zope-interface = 5.5.2
 Requires: python-ntlm = 1.1.0
-Requires: python3-pyyaml python3-lxml python3-dulwich python3-dateutil python3-ldap python3-pyasn1 python3-pexpect python3-pyparsing python3-resolvelib 
+Requires: python3-pyyaml python3-lxml python3-dateutil python3-ldap python3-pyasn1 python3-pexpect python3-pyparsing python3-resolvelib 
 
 %{?systemd_requires}
 
