@@ -9,6 +9,8 @@ awx-rpm-24.0.0-4.el9 | awx-rpm-24.0.0-4.el9.src.rpm | **Missing** | [Log](logs/a
 awx-rpm-24.0.0-5.el9 | awx-rpm-24.0.0-5.el9.src.rpm | **Missing** |
 awx-rpm-24.0.0-6.el9 | awx-rpm-24.0.0-6.el9.src.rpm | **Missing** |
 awx-rpm-24.0.0-7.el9 | awx-rpm-24.0.0-7.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.0.0-7.el9.src.rpm.log)
+awx-rpm-24.0.0-8.el9 | awx-rpm-24.0.0-8.el9.src.rpm | **Missing** |
+awx-rpm-24.0.0-9.el9 | awx-rpm-24.0.0-9.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.0.0-9.el9.src.rpm.log)
 python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -141,7 +143,6 @@ python3-pydantic-1.10.2-1.el9 | python-pydantic-1.10.2-1.el9.src.rpm | Built | [
 python3-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3-pyjwt-2.6.0-1.el9 | python-pyjwt-2.6.0-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.6.0-1.el9.src.rpm.log)
 python3-pyopenssl-23.2.0-1.el9 | python-pyopenssl-23.2.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-23.2.0-1.el9.src.rpm.log)
-python3-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 python3-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
 python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | Built | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3-pyrsistent-0.19.2-1.el9 | python-pyrsistent-0.19.2-1.el9.src.rpm | Built | [Log](logs/python-pyrsistent-0.19.2-1.el9.src.rpm.log)
@@ -191,4 +192,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-189 total packages, 183 packages built successfully, 6 packages left to fix
+190 total packages, 182 packages built successfully, 8 packages left to fix
