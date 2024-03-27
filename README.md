@@ -143,7 +143,7 @@ python3-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](log
 python3-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 python3-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
 python3-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
-python3-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | **Missing** |
+python3-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
 python3-rapidfuzz-3.7.0-1.el9 | python-rapidfuzz-3.7.0-1.el9.src.rpm | **Missing** |
 python3-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | **Missing** |
 python3-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 113 packages built successfully, 75 packages left to fix
+188 total packages, 114 packages built successfully, 74 packages left to fix
