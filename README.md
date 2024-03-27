@@ -167,7 +167,7 @@ python3-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/
 python3-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | Built | [Log](logs/python-slack-sdk-3.27.0-1.el9.src.rpm.log)
 python3-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.1-1.el9.src.rpm.log)
 python3-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | Built | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
-python3-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** |
+python3-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** |
 python3-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | **Missing** |
 python3-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 131 packages built successfully, 57 packages left to fix
+188 total packages, 132 packages built successfully, 56 packages left to fix
