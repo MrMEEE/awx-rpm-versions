@@ -116,7 +116,7 @@ python3-msrestazure-0.6.4-1.el9 | python-msrestazure-0.6.4-1.el9.src.rpm | Built
 python3-multidict-6.0.5-1.el9 | python-multidict-6.0.5-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.0.5-1.el9.src.rpm.log)
 python3-netaddr-1.2.1-1.el9 | python-netaddr-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-netaddr-1.2.1-1.el9.src.rpm.log)
 python3-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.17-1.el9.src.rpm.log)
-python3-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | **Missing** |
+python3-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** |
 python3-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | **Missing** |
 python3-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 92 packages built successfully, 96 packages left to fix
+188 total packages, 93 packages built successfully, 95 packages left to fix
