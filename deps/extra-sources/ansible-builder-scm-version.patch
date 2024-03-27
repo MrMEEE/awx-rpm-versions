@@ -1,0 +1,10 @@
+diff -uNr ansible-builder-3.0.0/pyproject.toml ansible-builder-3.0.0-fix/pyproject.toml
+--- ansible-builder-3.0.0/pyproject.toml	2023-04-26 20:13:00.000000000 +0200
++++ ansible-builder-3.0.0-fix/pyproject.toml	2024-01-09 10:57:42.536312041 +0100
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["setuptools>=45, <=67.7.2", "setuptools-scm[toml]>=6.2, <=7.1.0"]  # pin max versions of build deps and update as needed
++requires = ["setuptools>=45, <=67.7.2", "setuptools-scm[toml]>=6.2"]  # pin max versions of build deps and update as needed
+ build-backend = "setuptools.build_meta"
+ 
+ [tool.setuptools_scm]
