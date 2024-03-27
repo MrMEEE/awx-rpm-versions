@@ -52,7 +52,7 @@ python3-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](l
 python3-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3-django-ansible-base-20240212-1.el9 | python-django-ansible-base-20240212-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
 python3-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.3.1-1.el9.src.rpm.log)
-python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | Built | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3-django-debug-toolbar-4.3.0-1.el9 | python-django-debug-toolbar-4.3.0-1.el9.src.rpm | Built | [Log](logs/python-django-debug-toolbar-4.3.0-1.el9.src.rpm.log)
 python3-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | Built | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 python3-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [Log]
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-188 total packages, 168 packages built successfully, 20 packages left to fix
+188 total packages, 169 packages built successfully, 19 packages left to fix
