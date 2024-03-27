@@ -1,3 +1,4 @@
+%undefine __brp_python_bytecompile
 Name:           python-ntlm
 Version:        1.1.0
 Release:        %autorelease
@@ -48,8 +49,11 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-python-ntlm -f %{pyproject_files}
-
+%files
+%{python3_sitelib}/ntlm
+%{python3_sitelib}/python_ntlm-1.1.0.dist-info
+/usr/bin/ntlm_example_extended
+/usr/bin/ntlm_example_simple
 
 %changelog
 %autochangelog

@@ -9,6 +9,7 @@ License:        gpl
 URL:            https://github.com/redis/hiredis-py
 Source:         %{pypi_source hiredis}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 

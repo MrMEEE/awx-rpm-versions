@@ -1,3 +1,4 @@
+%undefine __brp_mangle_shebangs
 Name:           python-django
 Version:        4.2.6
 Release:        %autorelease

@@ -31,7 +31,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n asciichartpy-%{version}
-
+touch README.md
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests

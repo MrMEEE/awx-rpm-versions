@@ -9,8 +9,11 @@ License:        gpl
 URL:            https://github.com/aio-libs/frozenlist
 Source:         %{pypi_source frozenlist}
 
+BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
+
+Patch: frozenlist-wheel-version.patch
 
 
 # Fill in the actual package description to submit package to Fedora

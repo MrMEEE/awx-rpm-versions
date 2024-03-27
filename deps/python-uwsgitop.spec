@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           python-uwsgitop
 Version:        0.11
 Release:        %autorelease

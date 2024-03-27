@@ -8,6 +8,7 @@ Summary:        A library to create a command-line program from a function
 License:        gpl
 URL:            https://github.com/Lucretiel/autocommand
 Source:         %{pypi_source autocommand}
+Patch:		autocommand-undefined-license.patch 
 
 BuildArch:      noarch
 BuildRequires:  python3-devel

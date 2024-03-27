@@ -1,3 +1,5 @@
+%bcond_without check
+
 Name:           python-twisted
 Version:        23.10.0
 Release:        %autorelease
@@ -10,8 +12,7 @@ URL:            https://twistedmatrix.com/
 Source:         %{pypi_source twisted}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
-
+BuildRequires:  python3-devel python3-cryptography python3-bcrypt python3-pyasn1 python3-tkinter python3-hamcrest glibc-langpack-en python3-pyopenssl
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -26,8 +27,7 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python3-twisted all-non-platform,conch,dev,dev-release,gtk-platform,http2,macos-platform,mypy,osx-platform,serial,test,tls,windows-platform
-
+%pyproject_extras_subpkg -n python3-twisted http2,tls
 
 %prep
 %autosetup -p1 -n twisted-%{version}
@@ -35,7 +35,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x all-non-platform,conch,dev,dev-release,gtk-platform,http2,macos-platform,mypy,osx-platform,serial,test,tls,windows-platform
+%pyproject_buildrequires -x http2,tls
 
 
 %build
