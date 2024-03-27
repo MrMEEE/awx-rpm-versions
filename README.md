@@ -148,7 +148,7 @@ python3-rapidfuzz-3.7.0-1.el9 | python-rapidfuzz-3.7.0-1.el9.src.rpm | **Missing
 python3-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 python3-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
 python3-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
-python3-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** |
+python3-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 python3-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | **Missing** |
 python3-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** |
 python3-requirements-parser-0.5.0-1.el9 | python-requirements-parser-0.5.0-1.el9.src.rpm | **Missing** |
