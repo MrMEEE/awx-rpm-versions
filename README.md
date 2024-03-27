@@ -128,7 +128,7 @@ python3-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | B
 python3-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 python3-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
-python3-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** |
+python3-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
 python3-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | **Missing** |
 python3-prometheus-client-0.20.0-1.el9 | python-prometheus-client-0.20.0-1.el9.src.rpm | **Missing** |
 python3-psutil-5.9.8-1.el9 | python-psutil-5.9.8-1.el9.src.rpm | **Missing** |
