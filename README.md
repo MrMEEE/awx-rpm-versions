@@ -162,7 +162,7 @@ python3-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built
 python3-setuptools-rust-1.8.1-1.el9 | python-setuptools-rust-1.8.1-1.el9.src.rpm | Built | [Log](logs/python-setuptools-rust-1.8.1-1.el9.src.rpm.log)
 python3-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
 python3-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
-python3-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **Missing** |
+python3-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | **Missing** |
 python3-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | **Missing** |
 python3-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 126 packages built successfully, 62 packages left to fix
+188 total packages, 127 packages built successfully, 61 packages left to fix
