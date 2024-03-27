@@ -13,7 +13,7 @@ BuildArch:      x86_64
 BuildRequires:  python3-devel
 BuildRequires:  gcc
 
-Patch: frozenlist-wheel-version.patch
+#Patch: frozenlist-wheel-version.patch
 
 
 # Fill in the actual package description to submit package to Fedora

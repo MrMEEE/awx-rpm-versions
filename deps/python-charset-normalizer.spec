@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 Name:           python-charset-normalizer
 Version:        3.3.2
 Release:        %autorelease
