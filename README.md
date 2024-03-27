@@ -123,7 +123,7 @@ python3-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | Built |
 python3-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-23.2-1.el9.src.rpm.log)
 python3-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
 python3-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
-python3-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** |
+python3-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** |
 python3-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | **Missing** |
 python3-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 99 packages built successfully, 89 packages left to fix
+188 total packages, 100 packages built successfully, 88 packages left to fix
