@@ -156,7 +156,7 @@ python3-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | **Missing**
 python3-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
 python3-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
-python3-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** |
+python3-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** |
 python3-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | **Missing** |
 python3-setuptools-rust-1.8.1-1.el9 | python-setuptools-rust-1.8.1-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 122 packages built successfully, 66 packages left to fix
+188 total packages, 123 packages built successfully, 65 packages left to fix
