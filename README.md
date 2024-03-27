@@ -187,7 +187,7 @@ python3-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.r
 python3-wheel-0.43.0-1.el9 | python-wheel-0.43.0-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.43.0-1.el9.src.rpm.log)
 python3-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [Log](logs/python-yarl-1.9.4-1.el9.src.rpm.log)
-python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
+python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 149 packages built successfully, 39 packages left to fix
+188 total packages, 150 packages built successfully, 38 packages left to fix
