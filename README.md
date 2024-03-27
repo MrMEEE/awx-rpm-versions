@@ -24,7 +24,7 @@ python3-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | Built | [
 python3-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.16.9-1.el9.src.rpm.log)
 python3-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | Built | [Log](logs/python-azure-common-1.1.28-1.el9.src.rpm.log)
 python3-azure-core-1.30.0-1.el9 | python-azure-core-1.30.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.30.0-1.el9.src.rpm.log)
-python3-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | **Missing** |
+python3-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | Built | [Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
 python3-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** |
 python3-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm | **Missing** |
 python3-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 17 packages built successfully, 171 packages left to fix
+188 total packages, 18 packages built successfully, 170 packages left to fix
