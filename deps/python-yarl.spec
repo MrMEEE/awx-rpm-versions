@@ -1,3 +1,4 @@
+%global __python3 /usr/bin/python3.11
 Name:           python-yarl
 Version:        1.9.4
 Release:        %autorelease
