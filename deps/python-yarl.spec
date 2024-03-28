@@ -11,7 +11,7 @@ URL:            https://github.com/aio-libs/yarl
 Source:         %{pypi_source yarl}
 
 BuildArch:      x86_64
-BuildRequires:  python3-devel
+BuildRequires:  python3.11-devel python3.11
 BuildRequires:  gcc
 
 
