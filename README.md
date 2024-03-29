@@ -51,7 +51,7 @@ python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Buil
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3.11-django-ansible-base-20240212-1.el9 | python-django-ansible-base-20240212-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
-python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | **Missing** |
+python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-cors-headers-4.3.1-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** |
 python3.11-django-debug-toolbar-4.3.0-1.el9 | python-django-debug-toolbar-4.3.0-1.el9.src.rpm | **Missing** |
 python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** |
