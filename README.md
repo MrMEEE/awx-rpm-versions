@@ -126,7 +126,7 @@ python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 python3.11-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
-python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | **Missing** |
+python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | **Missing** |
 python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** |
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 45 packages built successfully, 143 packages left to fix
+188 total packages, 46 packages built successfully, 142 packages left to fix
