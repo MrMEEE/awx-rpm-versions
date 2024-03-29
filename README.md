@@ -59,7 +59,7 @@ python3.11-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
-python3.11-django-radius-1.5.0-1.el9 | python-django-radius-1.5.0-1.el9.src.rpm | **Missing** |
+python3.11-django-radius-1.5.0-1.el9 | python-django-radius-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-radius-1.5.0-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.14.0-1.el9 | python-djangorestframework-3.14.0-1.el9.src.rpm | **Missing** |
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | **Missing** |
