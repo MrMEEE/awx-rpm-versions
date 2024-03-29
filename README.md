@@ -42,7 +42,7 @@ python3.113.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-
 python3.113.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.113.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
 python3.113.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
-python3.113.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** |
+python3.113.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.113.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** |
 python3.113.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | **Missing** |
 python3.113.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** |
