@@ -103,7 +103,7 @@ python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifi
 python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.4-1.el9.src.rpm.log)
 python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
-python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** |
+python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | **Missing** |
