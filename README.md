@@ -5,7 +5,7 @@ python3-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | 
 python3-saml-1.14.0-1.el9 | python3-saml-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.14.0-1.el9.src.rpm.log)
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohttp-3.9.3-1.el9 | python-aiohttp-3.9.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
-python3-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** |
+python3-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | **Missing** |
 python3-aiosignal-1.3.1-1.el9 | python-aiosignal-1.3.1-1.el9.src.rpm | **Missing** |
 python3-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.rpm | **Missing** |
