@@ -170,7 +170,7 @@ python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
-python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** |
+python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** |
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** |
 python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | **Missing** |
