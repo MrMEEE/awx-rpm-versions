@@ -141,7 +141,7 @@ python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rp
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
-python3.11-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | **Missing** |
+python3.11-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
 python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | **Missing** |
 python3.11-rapidfuzz-3.7.0-1.el9 | python-rapidfuzz-3.7.0-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 55 packages built successfully, 133 packages left to fix
+188 total packages, 56 packages built successfully, 132 packages left to fix
