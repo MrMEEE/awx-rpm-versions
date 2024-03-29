@@ -183,11 +183,11 @@ python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.24-1.el9 | python-uwsgi-2.0.24-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
-python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | **Missing** |
+python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-wheel-0.43.0-1.el9 | python-wheel-0.43.0-1.el9.src.rpm | **Missing** |
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
 python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 71 packages built successfully, 117 packages left to fix
+188 total packages, 72 packages built successfully, 116 packages left to fix
