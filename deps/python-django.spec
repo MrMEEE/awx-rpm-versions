@@ -1,4 +1,4 @@
-
+%undefine __brp_mangle_shebangs
 %global python3_pkgversion 3.11
 
 Name:           python-django

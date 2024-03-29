@@ -14,7 +14,7 @@ Source:         %{pypi_source django-radius}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-future
 
 
 # Fill in the actual package description to submit package to Fedora

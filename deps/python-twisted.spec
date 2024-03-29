@@ -1,4 +1,4 @@
-
+%bcond_without check
 %global python3_pkgversion 3.11
 
 Name:           python-twisted
@@ -14,7 +14,7 @@ Source:         %{pypi_source twisted}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-cryptography python%{python3_pkgversion}-bcrypt python%{python3_pkgversion}-pyasn1 python%{python3_pkgversion}-tkinter python%{python3_pkgversion}-hamcrest glibc-langpack-en python%{python3_pkgversion}-pyopenssl
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-twisted all-non-platform,conch,dev,dev-release,gtk-platform,http2,macos-platform,mypy,osx-platform,serial,test,tls,windows-platform
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-twisted python3-twisted http2,tls
 
 
 %prep

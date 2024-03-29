@@ -12,9 +12,8 @@ License:        gpl
 URL:            https://pypi.org/project/dm.xmlsec.binding
 Source:         %{pypi_source dm.xmlsec.binding}
 
-BuildArch:      noarch
-
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildArch:      x86_64
+BuildRequires:  python%{python3_pkgversion}-devel libxml2-devel xmlsec1-openssl-devel xmlsec1-devel gcc libtool-ltdl-devel
 
 
 # Fill in the actual package description to submit package to Fedora

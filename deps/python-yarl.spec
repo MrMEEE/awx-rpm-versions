@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/yarl
 Source:         %{pypi_source yarl}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 

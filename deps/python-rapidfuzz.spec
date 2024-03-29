@@ -1,4 +1,4 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-rapidfuzz
@@ -31,7 +31,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-rapidfuzz full
 
 
 %prep

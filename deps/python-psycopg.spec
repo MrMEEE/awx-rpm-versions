@@ -1,4 +1,4 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-psycopg
@@ -11,11 +11,10 @@ Summary:        PostgreSQL database adapter for Python
 License:        gpl
 URL:            https://psycopg.org/
 Source:         %{pypi_source psycopg}
+Patch:         psycopg-deps.patch
 
-BuildArch:      noarch
-
-BuildRequires:  python%{python3_pkgversion}-devel
-
+BuildArch:      x86_64
+BuildRequires:  python%{python3_pkgversion}-devel libpq-devel gcc
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -30,7 +29,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-psycopg binary,c,dev,docs,pool,test
 
 
 %prep

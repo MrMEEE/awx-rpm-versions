@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/aiohttp
 Source:         %{pypi_source aiohttp}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
