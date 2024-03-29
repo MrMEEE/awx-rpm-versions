@@ -29,7 +29,7 @@ python3-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm |
 python3-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm.log)
 python3-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
 python3-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
-python3-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing** |
+python3-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | **Missing** |
 python3-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** |
 python3-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** |
