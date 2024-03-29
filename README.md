@@ -110,7 +110,7 @@ python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | Built | [L
 python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
 python3.11-msal-1.26.0-1.el9 | python-msal-1.26.0-1.el9.src.rpm | **Missing** | [Log](logs/python-msal-1.26.0-1.el9.src.rpm.log)
 python3.11-msal-extensions-1.1.0-1.el9 | python-msal-extensions-1.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
-python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | **Missing** |
+python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | Built | [Log](logs/python-msgpack-1.0.5-1.el9.src.rpm.log)
 python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** |
 python3.11-msrestazure-0.6.4-1.el9 | python-msrestazure-0.6.4-1.el9.src.rpm | **Missing** |
 python3.11-multidict-6.0.5-1.el9 | python-multidict-6.0.5-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 39 packages built successfully, 149 packages left to fix
+188 total packages, 40 packages built successfully, 148 packages left to fix
