@@ -49,7 +49,7 @@ python3.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** 
 python3.11-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
-python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** |
+python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
 python3.11-django-ansible-base-20240212-1.el9 | python-django-ansible-base-20240212-1.el9.src.rpm | **Missing** |
 python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | **Missing** |
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** |
