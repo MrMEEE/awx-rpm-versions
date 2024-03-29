@@ -116,7 +116,7 @@ python3.11-msrestazure-0.6.4-1.el9 | python-msrestazure-0.6.4-1.el9.src.rpm | **
 python3.11-multidict-6.0.5-1.el9 | python-multidict-6.0.5-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.0.5-1.el9.src.rpm.log)
 python3.11-netaddr-1.2.1-1.el9 | python-netaddr-1.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-netaddr-1.2.1-1.el9.src.rpm.log)
 python3.11-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.17-1.el9.src.rpm.log)
-python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | **Missing** |
+python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** |
 python3.11-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | **Missing** |
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** |
