@@ -91,7 +91,7 @@ python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [L
 python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-4.3.0-1.el9 | python-jaraco-context-4.3.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-context-4.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-functools-4.0.0-1.el9.src.rpm.log)
-python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | **Missing** |
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** |
