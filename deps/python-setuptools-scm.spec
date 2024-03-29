@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-setuptools-scm toml
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-setuptools_scm toml
 
 
 %prep
