@@ -127,7 +127,7 @@ python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Miss
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 python3.11-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
-python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | **Missing** |
+python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
 python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** |
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | **Missing** |
 python3.11-prometheus-client-0.20.0-1.el9 | python-prometheus-client-0.20.0-1.el9.src.rpm | **Missing** |
