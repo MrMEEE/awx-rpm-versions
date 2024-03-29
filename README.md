@@ -86,7 +86,7 @@ python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
-python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** |
+python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-context-4.3.0-1.el9 | python-jaraco-context-4.3.0-1.el9.src.rpm | **Missing** |
