@@ -161,7 +161,7 @@ python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.8.1-1.el9 | python-setuptools-rust-1.8.1-1.el9.src.rpm | Built | [Log](logs/python-setuptools-rust-1.8.1-1.el9.src.rpm.log)
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
-python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** |
+python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **Missing** |
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | **Missing** |
 python3.11-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | **Missing** |
