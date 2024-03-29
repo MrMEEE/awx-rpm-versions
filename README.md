@@ -39,7 +39,7 @@ python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** | 
 python3.11-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 python3.11-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
-python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** |
+python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | **Missing** |
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** |
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** |
