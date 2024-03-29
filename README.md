@@ -14,7 +14,7 @@ python3.11-ansible-runner-2.3.6-1.el9 | python-ansible-runner-2.3.6-1.el9.src.rp
 python3.11-ansiconv-1.0.0-1.el9 | python-ansiconv-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-ansiconv-1.0.0-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
-python3.11-asn1-2.7.0-1.el9 | python-asn1-2.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asn1-2.7.0-1.el9.src.rpm.log)
+python3.11-asn1-2.7.0-1.el9 | python-asn1-2.7.0-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.0-1.el9.src.rpm.log)
 python3.11-asyncpg-0.29.0-1.el9 | python-asyncpg-0.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asyncpg-0.29.0-1.el9.src.rpm.log)
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-4.0.3-1.el9.src.rpm.log)
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-188 total packages, 75 packages built successfully, 113 packages left to fix
+188 total packages, 76 packages built successfully, 112 packages left to fix
