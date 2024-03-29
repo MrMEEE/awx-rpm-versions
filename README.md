@@ -147,7 +147,7 @@ python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](
 python3.11-rapidfuzz-3.7.0-1.el9 | python-rapidfuzz-3.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.7.0-1.el9.src.rpm.log)
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | **Missing** | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 python3.11-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
-python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | **Missing** |
+python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
 python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** |
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | **Missing** |
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 57 packages built successfully, 131 packages left to fix
+188 total packages, 58 packages built successfully, 130 packages left to fix
