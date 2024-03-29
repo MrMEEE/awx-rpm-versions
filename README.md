@@ -21,7 +21,7 @@ python3-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [
 python3-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
-python3-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | **Missing** |
+python3-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | **Missing** | [Log](logs/python-awscrt-0.16.9-1.el9.src.rpm.log)
 python3-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | **Missing** |
 python3-azure-core-1.30.0-1.el9 | python-azure-core-1.30.0-1.el9.src.rpm | **Missing** |
 python3-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | **Missing** |
