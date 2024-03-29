@@ -36,7 +36,7 @@ python-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **
 python-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
 python-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
-python-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** |
+python-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 python-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rpm | **Missing** |
 python-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | **Missing** |
 python-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** |
