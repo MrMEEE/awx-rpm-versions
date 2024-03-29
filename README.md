@@ -101,7 +101,7 @@ python3.11-json-log-formatter-0.5.2-1.el9 | python-json-log-formatter-0.5.2-1.el
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifications-2023.12.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.4-1.el9.src.rpm.log)
-python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | **Missing** |
+python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** |
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** |
 python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | **Missing** |
