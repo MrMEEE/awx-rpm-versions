@@ -34,7 +34,7 @@ python$PYTHONBUILD-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rp
 python$PYTHONBUILD-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python$PYTHONBUILD-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python$PYTHONBUILD-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
-python$PYTHONBUILD-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** |
+python$PYTHONBUILD-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python$PYTHONBUILD-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** |
 python$PYTHONBUILD-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | **Missing** |
 python$PYTHONBUILD-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rpm | **Missing** |
