@@ -1,0 +1,13 @@
+--- python-dm-xmlsec-binding.spec	2024-03-29 20:48:18.162782219 +0100
++++ python-dm-xmlsec-binding.spec	2024-03-27 09:27:36.736513352 +0100
+@@ -9,8 +9,8 @@
+ URL:            https://pypi.org/project/dm.xmlsec.binding
+ Source:         %{pypi_source dm.xmlsec.binding}
+ 
+-BuildArch:      noarch
+-BuildRequires:  python3-devel
++BuildArch:      x86_64
++BuildRequires:  python3-devel libxml2-devel xmlsec1-openssl-devel xmlsec1-devel gcc libtool-ltdl-devel
+ 
+ 
+ # Fill in the actual package description to submit package to Fedora

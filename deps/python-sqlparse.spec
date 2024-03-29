@@ -11,6 +11,7 @@ Summary:        A non-validating SQL parser.
 License:        gpl
 URL:            https://pypi.org/project/sqlparse/
 Source:         %{pypi_source sqlparse}
+Patch:		sqlparse-python-explicit.patch
 
 BuildArch:      noarch
 
@@ -39,7 +40,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,doc,test
+%pyproject_buildrequires
 
 
 %build

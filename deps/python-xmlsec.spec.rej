@@ -1,0 +1,17 @@
+--- python-xmlsec.spec	2024-03-29 20:48:18.255791624 +0100
++++ python-xmlsec.spec	2024-03-27 09:27:52.965158702 +0100
+@@ -9,8 +9,14 @@
+ URL:            https://github.com/mehcode/python-xmlsec
+ Source:         %{pypi_source xmlsec}
+ 
++BuildArch:      x86_64
+ BuildRequires:  python3-devel
+ BuildRequires:  gcc
++BuildRequires:  xmlsec1-openssl
++BuildRequires:  xmlsec1-nss
++BuildRequires:  xmlsec1
++BuildRequires:  xmlsec1-devel
++BuildRequires:  libtool-ltdl-devel
+ 
+ 
+ # Fill in the actual package description to submit package to Fedora

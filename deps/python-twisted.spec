@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x all-non-platform,conch,dev,dev-release,gtk-platform,http2,macos-platform,mypy,osx-platform,serial,test,tls,windows-platform
+%pyproject_buildrequires -x http2,tls
 
 
 %build

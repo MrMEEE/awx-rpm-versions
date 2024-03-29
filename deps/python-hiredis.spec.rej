@@ -1,0 +1,10 @@
+--- python-hiredis.spec	2024-03-29 20:48:18.173783331 +0100
++++ python-hiredis.spec	2024-03-27 09:27:36.751514873 +0100
+@@ -9,6 +9,7 @@
+ URL:            https://github.com/redis/hiredis-py
+ Source:         %{pypi_source hiredis}
+ 
++BuildArch:      x86_64
+ BuildRequires:  python3-devel
+ BuildRequires:  gcc
+ 

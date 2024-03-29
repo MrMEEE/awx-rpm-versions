@@ -1,0 +1,19 @@
+--- python-jaraco-text.spec	2024-03-29 20:48:18.185784545 +0100
++++ python-jaraco-text.spec	2024-03-29 20:47:25.946502162 +0100
+@@ -10,7 +10,7 @@
+ Source:         %{pypi_source jaraco.text}
+ 
+ BuildArch:      noarch
+-BuildRequires:  python3-devel
++BuildRequires:  python3-devel python3-inflect
+ 
+ 
+ # Fill in the actual package description to submit package to Fedora
+@@ -26,7 +26,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-jaraco-text docs,testing
+ 
+ 
+ %prep

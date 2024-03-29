@@ -1,0 +1,11 @@
+--- python-wheel.spec	2024-03-29 20:48:18.253791422 +0100
++++ python-wheel.spec	2024-03-27 09:27:52.963158499 +0100
+@@ -26,8 +26,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-wheel test
+-
+ 
+ %prep
+ %autosetup -p1 -n wheel-%{version}

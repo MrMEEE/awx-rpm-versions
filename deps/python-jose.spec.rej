@@ -1,0 +1,10 @@
+--- python-jose.spec	2024-03-29 20:48:18.187784747 +0100
++++ python-jose.spec	2024-03-27 09:27:52.904152517 +0100
+@@ -26,7 +26,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-python-jose cryptography,pycrypto,pycryptodome
+ 
+ 
+ %prep

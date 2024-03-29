@@ -31,7 +31,8 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n dm.xmlsec.binding-%{version}
-
+sed -i '/Md5/d' src/_xmlsec.c
+sed -i '/Sha1/d' src/_xmlsec.c
 
 %generate_buildrequires
 %pyproject_buildrequires
@@ -39,7 +40,6 @@ Summary:        %{summary}
 
 %build
 %pyproject_wheel
-
 
 %install
 %pyproject_install

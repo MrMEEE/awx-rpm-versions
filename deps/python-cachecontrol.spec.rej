@@ -1,0 +1,11 @@
+--- python-cachecontrol.spec	2024-03-29 20:48:18.133779286 +0100
++++ python-cachecontrol.spec	2024-03-27 09:27:10.624866006 +0100
+@@ -26,7 +26,7 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-cachecontrol dev,filecache,redis
++%pyproject_extras_subpkg -n python3-cachecontrol filecache,redis
+ 
+ 
+ %prep

@@ -1,0 +1,19 @@
+--- python-attrs.spec	2024-03-29 20:48:18.124778376 +0100
++++ python-attrs.spec	2024-03-29 20:47:25.942501758 +0100
+@@ -26,7 +26,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-attrs dev,docs,tests,tests-no-zope,tests_no_zope
+ 
+ 
+ %prep
+@@ -35,7 +34,7 @@
+ 
+ %generate_buildrequires
+ # Keep only those extras which you actually want to package or use during tests
+-%pyproject_buildrequires -x dev,docs,tests,tests-no-zope,tests_no_zope
++%pyproject_buildrequires
+ 
+ 
+ %build

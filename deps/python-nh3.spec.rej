@@ -1,0 +1,19 @@
+--- python-nh3.spec	2024-03-29 20:48:18.199785961 +0100
++++ python-nh3.spec	2024-03-29 20:47:25.948502364 +0100
+@@ -1,3 +1,4 @@
++%global debug_package %{nil}
+ Name:           python-nh3
+ Version:        0.2.15
+ Release:        %autorelease
+@@ -9,8 +10,11 @@
+ URL:            https://pypi.org/project/nh3/
+ Source:         %{pypi_source nh3}
+ 
++BuildArch:      x86_64
+ BuildRequires:  python3-devel
+ BuildRequires:  gcc
++BuildRequires:  rust
++BuildRequires:  cargo
+ 
+ 
+ # Fill in the actual package description to submit package to Fedora

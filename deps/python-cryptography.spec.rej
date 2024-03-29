@@ -1,0 +1,22 @@
+--- python-cryptography.spec	2024-03-29 20:48:18.142780197 +0100
++++ python-cryptography.spec	2024-03-27 09:27:10.634867020 +0100
+@@ -10,8 +10,10 @@
+ Source:         %{pypi_source cryptography}
+ 
+ BuildRequires:  python3-devel
++BuildRequires:  openssl-devel
+ BuildRequires:  gcc
+-
++BuildRequires:  rust
++BuildRequires:  cargo
+ 
+ # Fill in the actual package description to submit package to Fedora
+ %global _description %{expand:
+@@ -26,7 +28,6 @@
+ 
+ # For official Fedora packages, review which extras should be actually packaged
+ # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+-%pyproject_extras_subpkg -n python3-cryptography docs,docstest,nox,pep8test,sdist,ssh,test,test-randomorder
+ 
+ 
+ %prep

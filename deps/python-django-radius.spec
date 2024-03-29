@@ -33,10 +33,6 @@ Summary:        %{summary}
 %autosetup -p1 -n django-radius-%{version}
 
 
-%generate_buildrequires
-%pyproject_buildrequires
-
-
 %build
 %pyproject_wheel
 

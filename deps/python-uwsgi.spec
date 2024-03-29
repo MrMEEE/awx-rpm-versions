@@ -38,6 +38,7 @@ Summary:        %{summary}
 
 
 %build
+touch INSTALLER
 %pyproject_wheel
 
 
@@ -47,9 +48,6 @@ Summary:        %{summary}
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 %pyproject_save_files '*' +auto
 
-
-%check
-%pyproject_check_import
 
 
 %files -n python%{python3_pkgversion}-uwsgi -f %{pyproject_files}

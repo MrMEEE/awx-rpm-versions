@@ -1,0 +1,15 @@
+--- python-frozenlist.spec	2024-03-29 20:48:18.167782725 +0100
++++ python-frozenlist.spec	2024-03-29 20:47:25.944501960 +0100
+@@ -9,9 +9,12 @@
+ URL:            https://github.com/aio-libs/frozenlist
+ Source:         %{pypi_source frozenlist}
+ 
++BuildArch:      x86_64
+ BuildRequires:  python3-devel
+ BuildRequires:  gcc
+ 
++Patch: frozenlist-wheel-version.patch
++
+ 
+ # Fill in the actual package description to submit package to Fedora
+ %global _description %{expand:

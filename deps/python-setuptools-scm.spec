@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x docs,rich,test
+%pyproject_buildrequires -x toml
 
 
 %build

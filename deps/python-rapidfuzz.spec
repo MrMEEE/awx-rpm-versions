@@ -15,7 +15,8 @@ Source:         %{pypi_source rapidfuzz}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  cmake 
+BuildRequires:  ninja-build
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
@@ -39,7 +40,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x full
+%pyproject_buildrequires
 
 
 %build
