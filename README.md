@@ -71,7 +71,7 @@ python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Miss
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
-python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** |
+python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | **Missing** |
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | **Missing** |
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** |
