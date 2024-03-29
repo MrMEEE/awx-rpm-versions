@@ -166,7 +166,7 @@ python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Bu
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | **Missing** | [Log](logs/python-slack-sdk-3.27.0-1.el9.src.rpm.log)
 python3.11-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.1-1.el9.src.rpm.log)
-python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** |
+python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** |
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | **Missing** |
