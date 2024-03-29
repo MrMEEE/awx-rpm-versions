@@ -158,7 +158,7 @@ python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | **
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
-python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | **Missing** |
+python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.8.1-1.el9 | python-setuptools-rust-1.8.1-1.el9.src.rpm | **Missing** |
 python3.11-setuptools_scm-8.0.4-1.el9 | python-setuptools_scm-8.0.4-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.0.4-1.el9.src.rpm.log)
 python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** |
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-188 total packages, 60 packages built successfully, 128 packages left to fix
+188 total packages, 61 packages built successfully, 127 packages left to fix
