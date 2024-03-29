@@ -137,7 +137,7 @@ python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Buil
 python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
-python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | **Missing** |
+python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | **Missing** |
 python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | **Missing** |
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | **Missing** |
