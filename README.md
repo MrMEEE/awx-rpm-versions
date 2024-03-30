@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-ntlm-1.1.0-1.el9.src.rpm
+The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:07:32 PM CET 2024
+The build completed at Sat Mar 30 09:08:01 PM CET 2024
 
 The build was unsuccessful.
 
