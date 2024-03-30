@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-pkginfo-1.10.0-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:03:15 PM CET 2024
+The build completed at Sat Mar 30 05:03:50 PM CET 2024
 
 The build was unsuccessful.
 
