@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
+The lastest package built was python-django-radius-1.5.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:18:32 PM CET 2024
+The build completed at Sat Mar 30 08:18:53 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
