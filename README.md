@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:06:49 PM CET 2024
+The build completed at Sat Mar 30 05:07:06 PM CET 2024
 
 The build was unsuccessful.
 
