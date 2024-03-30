@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-secretstorage-3.3.3-1.el9.src.rpm
+The lastest package built was python-keyring-25.0.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:54:39 PM CET 2024
+The build completed at Sat Mar 30 11:55:44 PM CET 2024
 
 The build was successful.
 
-[Build Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
+[Build Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -122,7 +122,7 @@ python3.11-json-log-formatter-0.5.2-1.el9 | python-json-log-formatter-0.5.2-1.el
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifications-2023.12.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.4-1.el9.src.rpm.log)
-python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
+python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | Built | [Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | Built | [Log](logs/python-lxml-4.9.4-1.el9.src.rpm.log)
@@ -224,4 +224,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-214 total packages, 156 packages built successfully, 58 packages left to fix
+214 total packages, 157 packages built successfully, 57 packages left to fix
