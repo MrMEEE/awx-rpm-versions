@@ -1,4 +1,4 @@
-
+%undefine __brp_python_bytecompile
 %global python3_pkgversion 3.11
 
 Name:           python-ntlm
@@ -38,22 +38,18 @@ Summary:        %{summary}
 
 
 %build
-%pyproject_wheel
 
 
 %install
-%pyproject_install
-# For official Fedora packages, including files with '*' +auto is not allowed
-# Replace it with a list of relevant Python modules/globs and list extra files in %%files
-%pyproject_save_files '*' +auto
-
 
 %check
-%pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-python-ntlm -f %{pyproject_files}
-
+%files -n python%{python3_pkgversion}-python-ntlm 
+%{python3_sitelib}/ntlm
+%{python3_sitelib}/python_ntlm-1.1.0.dist-info
+/usr/bin/ntlm_example_extended
+/usr/bin/ntlm_example_simple
 
 %changelog
 %autochangelog
