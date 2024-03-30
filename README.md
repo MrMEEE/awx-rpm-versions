@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-virtualenv-20.25.1-1.el9.src.rpm
+The lastest package built was python-zope-interface-6.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:08:48 PM CET 2024
+The build completed at Sat Mar 30 08:09:25 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
