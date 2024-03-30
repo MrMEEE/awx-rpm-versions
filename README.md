@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.25.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:49:13 PM CET 2024
+The build completed at Sat Mar 30 06:49:49 PM CET 2024
 
 The build was unsuccessful.
 
