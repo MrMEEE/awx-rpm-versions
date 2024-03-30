@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-specifications-2023.12.1-1.el9.src.rpm
+The lastest package built was python-msal-extensions-1.1.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 12:26:40 AM CET 2024
+The build completed at Sun Mar 31 12:27:10 AM CET 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
+[Build Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
