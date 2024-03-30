@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-kubernetes-29.0.0-1.el9.src.rpm
+The lastest package built was python-msal-extensions-1.1.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:28:59 PM CET 2024
+The build completed at Sat Mar 30 08:29:29 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
