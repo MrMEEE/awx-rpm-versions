@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
+The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:08:59 PM CET 2024
+The build completed at Sat Mar 30 06:09:14 PM CET 2024
 
 The build was unsuccessful.
 
