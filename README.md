@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-aiodns-3.1.1-1.el9.src.rpm
+The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:11:09 PM CET 2024
+The build completed at Sat Mar 30 11:11:46 PM CET 2024
 
 The build was unsuccessful.
 
