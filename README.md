@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-rest-swagger-2.2.0-1.el9.src.rpm
+The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:59:27 PM CET 2024
+The build completed at Sat Mar 30 06:59:57 PM CET 2024
 
 The build was unsuccessful.
 
