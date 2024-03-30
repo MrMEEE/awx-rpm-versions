@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 22 MB/s | 127 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 4.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.5 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         80 kB/s |  23 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 10 MB/s | 127 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [      ===                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           2.2 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [               ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                     ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         45 kB/s |  23 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                  Architecture        Version                                Repository                                                                  Size
@@ -230,7 +230,7 @@ Start: rpmbuild python-bcrypt-4.1.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.1IKyUX
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.GqFeHL
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -244,7 +244,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.1IKyUX
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XHgPmf
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.cCCUVo
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -279,11 +279,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        196 kB/s |  23 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         46 kB/s |  23 kB     00:00    
 Package cargo-1.71.1-1.el9.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -326,7 +326,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9JyjFT
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.h3Ogoj
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -367,11 +367,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        256 kB/s |  23 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         54 kB/s |  23 kB     00:00    
 Package cargo-1.71.1-1.el9.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -422,7 +422,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.SIbuIN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.s4EOFu
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -509,11 +509,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.1 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        195 kB/s |  23 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         46 kB/s |  23 kB     00:00    
 Package cargo-1.71.1-1.el9.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
@@ -580,7 +580,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Kc6e9B
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.U2EmBQ
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -667,11 +667,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================] 3.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     3.4 kB/s | 4.1 kB     00:01    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        203 kB/s |  23 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                           [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     2.8 kB/s | 4.1 kB     00:01    
+Red Hat Enterprise Linux - AppStream                                        [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                        [               ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                  9.8 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [                  ===                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [                     ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        259 kB/s |  23 kB     00:00    
 Package python3.11-pytest-7.2.0-1.el9.noarch is already installed.
 Package cargo-1.71.1-1.el9.x86_64 is already installed.
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
@@ -691,7 +691,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.lUdh0G
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.bhzJNA
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -769,7 +769,7 @@ removed directory 'bcrypt-4.1.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.UjYKfU
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Wutzig
 + umask 022
 + cd /builddir/build/BUILD
 + cd bcrypt-4.1.2
@@ -782,13 +782,13 @@ Processing /builddir/build/BUILD/bcrypt-4.1.2
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info
-  writing /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info
+  writing /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no previously-included files found matching 'requirements.txt'
   warning: no previously-included files found matching 'release.py'
@@ -797,8 +797,8 @@ Processing /builddir/build/BUILD/bcrypt-4.1.2
   warning: no previously-included files found matching 'src/_bcrypt/target'
   warning: no previously-included files matching '*' found under directory 'src/_bcrypt/target'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-fj5fkuvf/bcrypt-4.1.2.dist-info'
+  writing manifest file '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-modern-metadata-7q177cj_/bcrypt-4.1.2.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: bcrypt
   Building wheel for bcrypt (pyproject.toml): started
@@ -831,84 +831,84 @@ Building wheels for collected packages: bcrypt
   running build_rust
       Updating crates.io index
    Downloading crates ...
-    Downloaded bcrypt v0.15.0
+    Downloaded autocfg v1.1.0
+    Downloaded block-buffer v0.10.4
+    Downloaded blowfish v0.9.1
+    Downloaded bcrypt-pbkdf v0.10.0
     Downloaded bitflags v1.3.2
     Downloaded base64 v0.21.5
-    Downloaded blowfish v0.9.1
     Downloaded crypto-common v0.1.6
-    Downloaded pbkdf2 v0.12.2
-    Downloaded cfg-if v1.0.0
-    Downloaded block-buffer v0.10.4
     Downloaded cpufeatures v0.2.11
-    Downloaded autocfg v1.1.0
-    Downloaded unindent v0.2.3
-    Downloaded pyo3-macros v0.20.0
-    Downloaded windows-targets v0.48.5
-    Downloaded quote v1.0.33
-    Downloaded version_check v0.9.4
-    Downloaded subtle v2.5.0
-    Downloaded memoffset v0.9.0
-    Downloaded indoc v2.0.4
+    Downloaded byteorder v1.5.0
     Downloaded generic-array v0.14.7
     Downloaded digest v0.10.7
-    Downloaded zeroize v1.7.0
-    Downloaded scopeguard v1.2.0
-    Downloaded heck v0.4.1
+    Downloaded cfg-if v1.0.0
+    Downloaded bcrypt v0.15.0
+    Downloaded memoffset v0.9.0
     Downloaded inout v0.1.3
-    Downloaded cipher v0.4.4
-    Downloaded byteorder v1.5.0
     Downloaded parking_lot_core v0.9.9
-    Downloaded target-lexicon v0.12.12
-    Downloaded smallvec v1.11.2
-    Downloaded pyo3-build-config v0.20.0
-    Downloaded once_cell v1.19.0
+    Downloaded cipher v0.4.4
+    Downloaded pbkdf2 v0.12.2
+    Downloaded pyo3-macros v0.20.0
+    Downloaded parking_lot v0.12.1
+    Downloaded indoc v2.0.4
+    Downloaded unindent v0.2.3
+    Downloaded version_check v0.9.4
+    Downloaded heck v0.4.1
     Downloaded getrandom v0.2.11
-    Downloaded redox_syscall v0.4.1
-    Downloaded wasi v0.11.0+wasi-snapshot-preview1
     Downloaded sha2 v0.10.8
+    Downloaded windows-targets v0.48.5
+    Downloaded once_cell v1.19.0
+    Downloaded scopeguard v1.2.0
+    Downloaded quote v1.0.33
+    Downloaded target-lexicon v0.12.12
+    Downloaded subtle v2.5.0
+    Downloaded wasi v0.11.0+wasi-snapshot-preview1
     Downloaded proc-macro2 v1.0.70
+    Downloaded lock_api v0.4.11
+    Downloaded smallvec v1.11.2
+    Downloaded zeroize v1.7.0
+    Downloaded typenum v1.17.0
     Downloaded unicode-ident v1.0.12
     Downloaded pyo3-macros-backend v0.20.0
-    Downloaded typenum v1.17.0
+    Downloaded redox_syscall v0.4.1
+    Downloaded pyo3-build-config v0.20.0
     Downloaded pyo3-ffi v0.20.0
-    Downloaded parking_lot v0.12.1
-    Downloaded lock_api v0.4.11
     Downloaded syn v2.0.41
-    Downloaded windows_x86_64_gnullvm v0.48.5
-    Downloaded pyo3 v0.20.0
     Downloaded windows_aarch64_gnullvm v0.48.5
+    Downloaded pyo3 v0.20.0
+    Downloaded windows_x86_64_gnullvm v0.48.5
     Downloaded libc v0.2.151
-    Downloaded windows_x86_64_msvc v0.48.5
-    Downloaded windows_aarch64_msvc v0.48.5
     Downloaded windows_x86_64_gnu v0.48.5
     Downloaded windows_i686_msvc v0.48.5
+    Downloaded windows_x86_64_msvc v0.48.5
     Downloaded windows_i686_gnu v0.48.5
-    Downloaded bcrypt-pbkdf v0.10.0
+    Downloaded windows_aarch64_msvc v0.48.5
   cargo rustc --lib --message-format=json-render-diagnostics --manifest-path src/_bcrypt/Cargo.toml --release -v --features pyo3/extension-module --crate-type cdylib --
      Compiling typenum v1.17.0
      Compiling version_check v0.9.4
+       Running `rustc --crate-name build_script_main --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/build/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=514df10e5cfebecb -C extra-filename=-514df10e5cfebecb --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/typenum-514df10e5cfebecb -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling target-lexicon v0.12.12
      Compiling libc v0.2.151
-       Running `rustc --crate-name version_check /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=2621f95adde5e86b -C extra-filename=-2621f95adde5e86b --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-       Running `rustc --crate-name build_script_main --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/build/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=514df10e5cfebecb -C extra-filename=-514df10e5cfebecb --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/typenum-514df10e5cfebecb -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
        Running `rustc --crate-name build_script_build /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.151/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=840f00d9b33a1c76 -C extra-filename=-840f00d9b33a1c76 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/libc-840f00d9b33a1c76 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=a66d06c3297d19b1 -C extra-filename=-a66d06c3297d19b1 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/target-lexicon-a66d06c3297d19b1 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
+       Running `rustc --crate-name version_check /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=2621f95adde5e86b -C extra-filename=-2621f95adde5e86b --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling autocfg v1.1.0
        Running `rustc --crate-name autocfg /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.1.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=caf9ac5e88d67cfd -C extra-filename=-caf9ac5e88d67cfd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling generic-array v0.14.7
        Running `rustc --crate-name build_script_build /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/generic-array-0.14.7/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="more_lengths"' -C metadata=49c70a6860cd0449 -C extra-filename=-49c70a6860cd0449 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/generic-array-49c70a6860cd0449 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern version_check=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libversion_check-2621f95adde5e86b.rlib --cap-lints allow`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/target-lexicon-a66d06c3297d19b1/build-script-build`
        Running `rustc --crate-name target_lexicon --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.12/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=327078220467b283 -C extra-filename=-327078220467b283 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow --cfg 'feature="rust_1_40"'`
+       Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/typenum-514df10e5cfebecb/build-script-main`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/generic-array-49c70a6860cd0449/build-script-build`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/libc-840f00d9b33a1c76/build-script-build`
-       Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/typenum-514df10e5cfebecb/build-script-main`
+       Running `rustc --crate-name typenum --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=892b6a5ef12022cc -C extra-filename=-892b6a5ef12022cc --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling once_cell v1.19.0
        Running `rustc --crate-name once_cell --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.19.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' -C metadata=3349a8fac06d6bbd -C extra-filename=-3349a8fac06d6bbd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-       Running `rustc --crate-name typenum --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/typenum-1.17.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=892b6a5ef12022cc -C extra-filename=-892b6a5ef12022cc --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling cfg-if v1.0.0
-       Running `rustc --crate-name cfg_if --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b982d30b983edc60 -C extra-filename=-b982d30b983edc60 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling proc-macro2 v1.0.70
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.70/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="proc-macro"' -C metadata=00ad179219752d31 -C extra-filename=-00ad179219752d31 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/proc-macro2-00ad179219752d31 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
+     Compiling cfg-if v1.0.0
+       Running `rustc --crate-name cfg_if --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b982d30b983edc60 -C extra-filename=-b982d30b983edc60 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
        Running `rustc --crate-name libc /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.151/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=a13acc66ed78bd65 -C extra-filename=-a13acc66ed78bd65 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow --cfg freebsd11 --cfg libc_priv_mod_use --cfg libc_union --cfg libc_const_size_of --cfg libc_align --cfg libc_int128 --cfg libc_core_cvoid --cfg libc_packedN --cfg libc_cfg_target_vendor --cfg libc_non_exhaustive --cfg libc_long_array --cfg libc_ptr_addr_of --cfg libc_underscore_const_names --cfg libc_const_extern_fn`
      Compiling pyo3-build-config v0.20.0
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.20.0/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' -C metadata=7b9fb12b8e673237 -C extra-filename=-7b9fb12b8e673237 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-build-config-7b9fb12b8e673237 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern target_lexicon=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libtarget_lexicon-327078220467b283.rlib --cap-lints allow`
@@ -927,65 +927,65 @@ Building wheels for collected packages: bcrypt
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="atomic_usize"' --cfg 'feature="default"' -C metadata=4534316dba7b2ad0 -C extra-filename=-4534316dba7b2ad0 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/lock_api-4534316dba7b2ad0 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern autocfg=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libautocfg-caf9ac5e88d67cfd.rlib --cap-lints allow`
      Compiling crypto-common v0.1.6
        Running `rustc --crate-name crypto_common --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crypto-common-0.1.6/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=2a068e74cf5be478 -C extra-filename=-2a068e74cf5be478 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern generic_array=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgeneric_array-bdf6edb14fdef8d1.rmeta --extern typenum=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libtypenum-892b6a5ef12022cc.rmeta --cap-lints allow`
-     Compiling block-buffer v0.10.4
-       Running `rustc --crate-name block_buffer --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/block-buffer-0.10.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b623008943d7f59a -C extra-filename=-b623008943d7f59a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern generic_array=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgeneric_array-bdf6edb14fdef8d1.rmeta --cap-lints allow`
      Compiling inout v0.1.3
        Running `rustc --crate-name inout --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/inout-0.1.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=642e5ba64c9ed408 -C extra-filename=-642e5ba64c9ed408 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern generic_array=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgeneric_array-bdf6edb14fdef8d1.rmeta --cap-lints allow`
+     Compiling block-buffer v0.10.4
+       Running `rustc --crate-name block_buffer --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/block-buffer-0.10.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b623008943d7f59a -C extra-filename=-b623008943d7f59a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern generic_array=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgeneric_array-bdf6edb14fdef8d1.rmeta --cap-lints allow`
      Compiling parking_lot_core v0.9.9
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot_core-0.9.9/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=519446460293d8b8 -C extra-filename=-519446460293d8b8 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/parking_lot_core-519446460293d8b8 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling digest v0.10.7
-       Running `rustc --crate-name digest --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="block-buffer"' --cfg 'feature="core-api"' --cfg 'feature="default"' --cfg 'feature="mac"' --cfg 'feature="subtle"' -C metadata=fbe0e3871a19d975 -C extra-filename=-fbe0e3871a19d975 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern block_buffer=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libblock_buffer-b623008943d7f59a.rmeta --extern crypto_common=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcrypto_common-2a068e74cf5be478.rmeta --extern subtle=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsubtle-ae0478e05e59f6f0.rmeta --cap-lints allow`
      Compiling cipher v0.4.4
        Running `rustc --crate-name cipher --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cipher-0.4.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=779a3880c6536ada -C extra-filename=-779a3880c6536ada --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern crypto_common=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcrypto_common-2a068e74cf5be478.rmeta --extern inout=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libinout-642e5ba64c9ed408.rmeta --cap-lints allow`
+     Compiling digest v0.10.7
+       Running `rustc --crate-name digest --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="block-buffer"' --cfg 'feature="core-api"' --cfg 'feature="default"' --cfg 'feature="mac"' --cfg 'feature="subtle"' -C metadata=fbe0e3871a19d975 -C extra-filename=-fbe0e3871a19d975 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern block_buffer=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libblock_buffer-b623008943d7f59a.rmeta --extern crypto_common=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcrypto_common-2a068e74cf5be478.rmeta --extern subtle=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsubtle-ae0478e05e59f6f0.rmeta --cap-lints allow`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/parking_lot_core-519446460293d8b8/build-script-build`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/lock_api-4534316dba7b2ad0/build-script-build`
      Compiling syn v2.0.41
        Running `rustc --crate-name syn --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-2.0.41/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --cfg 'feature="quote"' -C metadata=6bf2909eff3b035f -C extra-filename=-6bf2909eff3b035f --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern proc_macro2=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libproc_macro2-f55b616054b73eee.rmeta --extern quote=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libquote-7233547ab1bb0c48.rmeta --extern unicode_ident=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libunicode_ident-4bc9baeae382562d.rmeta --cap-lints allow`
      Compiling memoffset v0.9.0
        Running `rustc --crate-name build_script_build /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.0/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=71dc3fb73a325b2b -C extra-filename=-71dc3fb73a325b2b --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/memoffset-71dc3fb73a325b2b -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern autocfg=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libautocfg-caf9ac5e88d67cfd.rlib --cap-lints allow`
+     Compiling byteorder v1.5.0
+       Running `rustc --crate-name byteorder --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/byteorder-1.5.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=af53113314c699c4 -C extra-filename=-af53113314c699c4 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling smallvec v1.11.2
        Running `rustc --crate-name smallvec --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/smallvec-1.11.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=3b68b494aed60c53 -C extra-filename=-3b68b494aed60c53 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling scopeguard v1.2.0
        Running `rustc --crate-name scopeguard /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/scopeguard-1.2.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=0c55a02680dd73dc -C extra-filename=-0c55a02680dd73dc --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling byteorder v1.5.0
-       Running `rustc --crate-name byteorder --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/byteorder-1.5.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=af53113314c699c4 -C extra-filename=-af53113314c699c4 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling heck v0.4.1
        Running `rustc --crate-name heck --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/heck-0.4.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=0d016bdfc9eae6c6 -C extra-filename=-0d016bdfc9eae6c6 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling blowfish v0.9.1
-       Running `rustc --crate-name blowfish --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/blowfish-0.9.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="bcrypt"' -C metadata=873bf8df6cfd0f2a -C extra-filename=-873bf8df6cfd0f2a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern byteorder=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbyteorder-af53113314c699c4.rmeta --extern cipher=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcipher-779a3880c6536ada.rmeta --cap-lints allow`
+       Running `rustc --crate-name parking_lot_core --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot_core-0.9.9/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b3de6aaad9f15f05 -C extra-filename=-b3de6aaad9f15f05 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern cfg_if=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcfg_if-b982d30b983edc60.rmeta --extern libc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblibc-a13acc66ed78bd65.rmeta --extern smallvec=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsmallvec-3b68b494aed60c53.rmeta --cap-lints allow`
+       Running `rustc --crate-name lock_api --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="atomic_usize"' --cfg 'feature="default"' -C metadata=ed95a65e7f3d29ef -C extra-filename=-ed95a65e7f3d29ef --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern scopeguard=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libscopeguard-0c55a02680dd73dc.rmeta --cap-lints allow --cfg has_const_fn_trait_bound`
      Compiling pyo3-ffi v0.20.0
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-ffi-0.20.0/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="default"' --cfg 'feature="extension-module"' -C metadata=77f3ee066ca47a49 -C extra-filename=-77f3ee066ca47a49 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-ffi-77f3ee066ca47a49 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpyo3_build_config-72ee4fd372e71c75.rlib --cap-lints allow`
      Compiling pyo3 v0.20.0
        Running `rustc --crate-name build_script_build --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-0.20.0/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="indoc"' --cfg 'feature="macros"' --cfg 'feature="pyo3-macros"' --cfg 'feature="unindent"' -C metadata=3d188e2229c45fd3 -C extra-filename=-3d188e2229c45fd3 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-3d188e2229c45fd3 -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern pyo3_build_config=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpyo3_build_config-72ee4fd372e71c75.rlib --cap-lints allow`
-       Running `rustc --crate-name parking_lot_core --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot_core-0.9.9/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=b3de6aaad9f15f05 -C extra-filename=-b3de6aaad9f15f05 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern cfg_if=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcfg_if-b982d30b983edc60.rmeta --extern libc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblibc-a13acc66ed78bd65.rmeta --extern smallvec=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsmallvec-3b68b494aed60c53.rmeta --cap-lints allow`
-       Running `rustc --crate-name lock_api --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lock_api-0.4.11/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="atomic_usize"' --cfg 'feature="default"' -C metadata=ed95a65e7f3d29ef -C extra-filename=-ed95a65e7f3d29ef --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern scopeguard=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libscopeguard-0c55a02680dd73dc.rmeta --cap-lints allow --cfg has_const_fn_trait_bound`
+     Compiling blowfish v0.9.1
+       Running `rustc --crate-name blowfish --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/blowfish-0.9.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="bcrypt"' -C metadata=873bf8df6cfd0f2a -C extra-filename=-873bf8df6cfd0f2a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern byteorder=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbyteorder-af53113314c699c4.rmeta --extern cipher=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcipher-779a3880c6536ada.rmeta --cap-lints allow`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-ffi-77f3ee066ca47a49/build-script-build`
        Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/memoffset-71dc3fb73a325b2b/build-script-build`
      Compiling cpufeatures v0.2.11
        Running `rustc --crate-name cpufeatures --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cpufeatures-0.2.11/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=152d11486878133a -C extra-filename=-152d11486878133a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling sha2 v0.10.8
        Running `rustc --crate-name sha2 --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=1af3bd150392e693 -C extra-filename=-1af3bd150392e693 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern cfg_if=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcfg_if-b982d30b983edc60.rmeta --extern cpufeatures=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcpufeatures-152d11486878133a.rmeta --extern digest=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libdigest-fbe0e3871a19d975.rmeta --cap-lints allow`
+       Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-3d188e2229c45fd3/build-script-build`
        Running `rustc --crate-name memoffset /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memoffset-0.9.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="default"' -C metadata=a2683de7e7e6d0a7 -C extra-filename=-a2683de7e7e6d0a7 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow --cfg tuple_ty --cfg allow_clippy --cfg maybe_uninit --cfg doctests --cfg raw_ref_macros --cfg stable_const`
        Running `rustc --crate-name pyo3_ffi --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-ffi-0.20.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="default"' --cfg 'feature="extension-module"' -C metadata=078586e283fef1bb -C extra-filename=-078586e283fef1bb --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern libc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblibc-a13acc66ed78bd65.rmeta --cap-lints allow --cfg Py_3_6 --cfg Py_3_7 --cfg Py_3_8 --cfg Py_3_9 --cfg Py_3_10 --cfg Py_3_11 --cfg Py_LIMITED_API --cfg thread_local_const_init`
      Compiling parking_lot v0.12.1
        Running `rustc --crate-name parking_lot --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/parking_lot-0.12.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="default"' -C metadata=c58e9f01bbf815cd -C extra-filename=-c58e9f01bbf815cd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern lock_api=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblock_api-ed95a65e7f3d29ef.rmeta --extern parking_lot_core=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libparking_lot_core-b3de6aaad9f15f05.rmeta --cap-lints allow`
-       Running `/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/build/pyo3-3d188e2229c45fd3/build-script-build`
      Compiling pbkdf2 v0.12.2
        Running `rustc --crate-name pbkdf2 --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pbkdf2-0.12.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=f3b5725000d35652 -C extra-filename=-f3b5725000d35652 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern digest=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libdigest-fbe0e3871a19d975.rmeta --cap-lints allow`
      Compiling getrandom v0.2.11
        Running `rustc --crate-name getrandom --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.11/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="std"' -C metadata=9e5451519c24b755 -C extra-filename=-9e5451519c24b755 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern cfg_if=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcfg_if-b982d30b983edc60.rmeta --extern libc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblibc-a13acc66ed78bd65.rmeta --cap-lints allow`
-     Compiling unindent v0.2.3
-       Running `rustc --crate-name unindent --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unindent-0.2.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=594a6b64a88b5dfd -C extra-filename=-594a6b64a88b5dfd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling base64 v0.21.5
-       Running `rustc --crate-name base64 --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/base64-0.21.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=dd9a0bdb2495120c -C extra-filename=-dd9a0bdb2495120c --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
-     Compiling zeroize v1.7.0
-       Running `rustc --crate-name zeroize --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zeroize-1.7.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' -C metadata=4873b09c77dda1b7 -C extra-filename=-4873b09c77dda1b7 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling indoc v2.0.4
        Running `rustc --crate-name indoc --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/indoc-2.0.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type proc-macro --emit=dep-info,link -C prefer-dynamic -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=e2137849c92610ca -C extra-filename=-e2137849c92610ca --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern proc_macro --cap-lints allow`
-     Compiling bcrypt v0.15.0
-       Running `rustc --crate-name bcrypt --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bcrypt-0.15.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="getrandom"' --cfg 'feature="std"' --cfg 'feature="zeroize"' -C metadata=975691d1d49447bd -C extra-filename=-975691d1d49447bd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern base64=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbase64-dd9a0bdb2495120c.rmeta --extern blowfish=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libblowfish-873bf8df6cfd0f2a.rmeta --extern getrandom=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgetrandom-9e5451519c24b755.rmeta --extern subtle=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsubtle-ae0478e05e59f6f0.rmeta --extern zeroize=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libzeroize-4873b09c77dda1b7.rmeta --cap-lints allow`
+     Compiling unindent v0.2.3
+       Running `rustc --crate-name unindent --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unindent-0.2.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on -C metadata=594a6b64a88b5dfd -C extra-filename=-594a6b64a88b5dfd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
+     Compiling zeroize v1.7.0
+       Running `rustc --crate-name zeroize --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/zeroize-1.7.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' -C metadata=4873b09c77dda1b7 -C extra-filename=-4873b09c77dda1b7 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
+     Compiling base64 v0.21.5
+       Running `rustc --crate-name base64 --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/base64-0.21.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=dd9a0bdb2495120c -C extra-filename=-dd9a0bdb2495120c --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --cap-lints allow`
      Compiling bcrypt-pbkdf v0.10.0
        Running `rustc --crate-name bcrypt_pbkdf --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bcrypt-pbkdf-0.10.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=358c42db8bacf94b -C extra-filename=-358c42db8bacf94b --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern blowfish=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libblowfish-873bf8df6cfd0f2a.rmeta --extern pbkdf2=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpbkdf2-f3b5725000d35652.rmeta --extern sha2=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsha2-1af3bd150392e693.rmeta --cap-lints allow`
+     Compiling bcrypt v0.15.0
+       Running `rustc --crate-name bcrypt --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bcrypt-0.15.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="getrandom"' --cfg 'feature="std"' --cfg 'feature="zeroize"' -C metadata=975691d1d49447bd -C extra-filename=-975691d1d49447bd --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern base64=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbase64-dd9a0bdb2495120c.rmeta --extern blowfish=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libblowfish-873bf8df6cfd0f2a.rmeta --extern getrandom=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgetrandom-9e5451519c24b755.rmeta --extern subtle=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsubtle-ae0478e05e59f6f0.rmeta --extern zeroize=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libzeroize-4873b09c77dda1b7.rmeta --cap-lints allow`
      Compiling pyo3-macros-backend v0.20.0
        Running `rustc --crate-name pyo3_macros_backend --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-macros-backend-0.20.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' -C metadata=fd2b800904c0dd4a -C extra-filename=-fd2b800904c0dd4a --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern heck=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libheck-0d016bdfc9eae6c6.rmeta --extern proc_macro2=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libproc_macro2-f55b616054b73eee.rmeta --extern quote=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libquote-7233547ab1bb0c48.rmeta --extern syn=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsyn-6bf2909eff3b035f.rmeta --cap-lints allow`
      Compiling pyo3-macros v0.20.0
@@ -993,7 +993,7 @@ Building wheels for collected packages: bcrypt
        Running `rustc --crate-name pyo3 --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-0.20.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C linker-plugin-lto -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="indoc"' --cfg 'feature="macros"' --cfg 'feature="pyo3-macros"' --cfg 'feature="unindent"' -C metadata=44bc5e2646615170 -C extra-filename=-44bc5e2646615170 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern cfg_if=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libcfg_if-b982d30b983edc60.rmeta --extern indoc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libindoc-e2137849c92610ca.so --extern libc=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/liblibc-a13acc66ed78bd65.rmeta --extern memoffset=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libmemoffset-a2683de7e7e6d0a7.rmeta --extern parking_lot=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libparking_lot-c58e9f01bbf815cd.rmeta --extern pyo3_ffi=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpyo3_ffi-078586e283fef1bb.rmeta --extern pyo3_macros=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpyo3_macros-5c02f0728b109484.so --extern unindent=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libunindent-594a6b64a88b5dfd.rmeta --cap-lints allow --cfg Py_3_6 --cfg Py_3_7 --cfg Py_3_8 --cfg Py_3_9 --cfg Py_3_10 --cfg Py_3_11 --cfg Py_LIMITED_API --cfg thread_local_const_init`
      Compiling bcrypt-rust v0.1.0 (/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt)
        Running `rustc --crate-name bcrypt_rust --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type cdylib --emit=dep-info,link -C opt-level=3 -C lto=thin -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="extension-module"' -C metadata=b0e50c8480f61fb8 --out-dir /builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps -L dependency=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps --extern base64=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbase64-dd9a0bdb2495120c.rlib --extern bcrypt=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbcrypt-975691d1d49447bd.rlib --extern bcrypt_pbkdf=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libbcrypt_pbkdf-358c42db8bacf94b.rlib --extern getrandom=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libgetrandom-9e5451519c24b755.rlib --extern pyo3=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libpyo3-44bc5e2646615170.rlib --extern subtle=/builddir/build/BUILD/bcrypt-4.1.2/src/_bcrypt/target/release/deps/libsubtle-ae0478e05e59f6f0.rlib`
-      Finished release [optimized] target(s) in 18.63s
+      Finished release [optimized] target(s) in 21.22s
   Copying rust artifact from src/_bcrypt/target/release/libbcrypt_rust.so to build/lib.linux-x86_64-cpython-311/bcrypt/_bcrypt.cpython-311-x86_64-linux-gnu.so
   installing to build/bdist.linux-x86_64/wheel
   running install
@@ -1009,7 +1009,7 @@ Building wheels for collected packages: bcrypt
   Copying src/bcrypt.egg-info to build/bdist.linux-x86_64/wheel/bcrypt-4.1.2-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/bcrypt-4.1.2.dist-info/WHEEL
-  creating '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-wheel-nkd9tktg/.tmp-pssf83nq/bcrypt-4.1.2-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir/pip-wheel-9ichgqb6/.tmp-zi8_olf8/bcrypt-4.1.2-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'bcrypt/__init__.py'
   adding 'bcrypt/__init__.pyi'
   adding 'bcrypt/_bcrypt.cpython-311-x86_64-linux-gnu.so'
@@ -1027,7 +1027,7 @@ Successfully built bcrypt
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.JjOBZ6
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.aLhSbN
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64 '!=' / ']'
@@ -1037,8 +1037,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.JjOBZ6
 + mkdir /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64
 + cd bcrypt-4.1.2
 ++ ls /builddir/build/BUILD/bcrypt-4.1.2/pyproject-wheeldir/bcrypt-4.1.2-cp311-cp311-linux_x86_64.whl
-++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
 + specifier=bcrypt==4.1.2
 + TMPDIR=/builddir/build/BUILD/bcrypt-4.1.2/.pyproject-builddir
 + /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/bcrypt-4.1.2/pyproject-wheeldir bcrypt==4.1.2
@@ -1071,18 +1071,15 @@ removed '/builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64/usr/lib64/py
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
 + /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-bcrypt-4.1.2-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-bcrypt-4.1.2-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-bcrypt-4.1.2-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 4.1.2-1.el9 --unique-debug-suffix -4.1.2-1.el9.x86_64 --unique-debug-src-base python-bcrypt-4.1.2-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/bcrypt-4.1.2
-extracting debug info from /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/bcrypt/_bcrypt.cpython-311-x86_64-linux-gnu.so
-original debug info size: 5096kB, size after compression: 4296kB
-/usr/bin/sepdebugcrcfix: Updated 1 CRC32s, 0 CRC32s did match.
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
 + /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
 Bytecompiling .py files below /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64/usr/lib64/python3.11 using python3.11
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64/usr/lib/debug/usr/lib64/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
 Processing files: python3.11-bcrypt-4.1.2-1.el9.x86_64
@@ -1097,21 +1094,18 @@ Processing files: python3.11-bcrypt+typecheck-4.1.2-1.el9.x86_64
 Provides: python3.11-bcrypt+typecheck = 4.1.2-1.el9 python3.11-bcrypt+typecheck(x86-64) = 4.1.2-1.el9 python3.11dist(bcrypt[typecheck]) = 4.1.2
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires: python(abi) = 3.11 python3.11dist(mypy)
-Processing files: python-bcrypt-debugsource-4.1.2-1.el9.x86_64
-
-
-RPM build errors:
-error: Empty %files file /builddir/build/BUILD/bcrypt-4.1.2/debugsourcefiles.list
-    Empty %files file /builddir/build/BUILD/bcrypt-4.1.2/debugsourcefiles.list
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-bcrypt-4.1.2-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-bcrypt-4.1.2-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-bcrypt+tests-4.1.2-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/python3.11-bcrypt+typecheck-4.1.2-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/python3.11-bcrypt-4.1.2-1.el9.x86_64.rpm
 Finish: rpmbuild python-bcrypt-4.1.2-1.el9.src.rpm
 Finish: build phase for python-bcrypt-4.1.2-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-bcrypt-4.1.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 1 minutes 8 seconds
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-bcrypt-4.1.2-1.el9.src.rpm) Config(epel-9-x86_64) 1 minutes 10 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M e46f8a6567fe40e99f0d01f9871d59cf -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.8b3vll6h:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-bcrypt.spec --nocheck'
-
+Finish: run
 Directory walk started
-Directory walk done - 148 packages
+Directory walk done - 151 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
