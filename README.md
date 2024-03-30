@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
+The lastest package built was python-django-radius-1.5.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:29:37 PM CET 2024
+The build completed at Sat Mar 30 09:29:58 PM CET 2024
 
 The build was unsuccessful.
 
