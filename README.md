@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msal-extensions-1.1.0-1.el9.src.rpm
+The lastest package built was python-msrest-0.7.1-1.el9.src.rpm
 
-The build completed at Sun Mar 31 12:27:10 AM CET 2024
+The build completed at Sun Mar 31 12:27:48 AM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -133,7 +133,7 @@ python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.
 python3.11-msal-1.26.0-1.el9 | python-msal-1.26.0-1.el9.src.rpm | Built | [Log](logs/python-msal-1.26.0-1.el9.src.rpm.log)
 python3.11-msal-extensions-1.1.0-1.el9 | python-msal-extensions-1.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
 python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | Built | [Log](logs/python-msgpack-1.0.5-1.el9.src.rpm.log)
-python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
+python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
 python3.11-msrestazure-0.6.4-1.el9 | python-msrestazure-0.6.4-1.el9.src.rpm | **Missing** | [Log](logs/python-msrestazure-0.6.4-1.el9.src.rpm.log)
 python3.11-multidict-6.0.5-1.el9 | python-multidict-6.0.5-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.0.5-1.el9.src.rpm.log)
 python3.11-mypy-1.9.0-1.el9 | python-mypy-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.9.0-1.el9.src.rpm.log)
@@ -225,4 +225,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-215 total packages, 164 packages built successfully, 51 packages left to fix
+215 total packages, 165 packages built successfully, 50 packages left to fix
