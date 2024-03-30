@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-radius-1.5.0-1.el9.src.rpm
+The lastest package built was python-django-rest-swagger-2.2.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:21:18 PM CET 2024
+The build completed at Sat Mar 30 06:21:49 PM CET 2024
 
 The build was unsuccessful.
 
