@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
+The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:17:44 PM CET 2024
+The build completed at Sat Mar 30 08:18:32 PM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
@@ -70,7 +70,7 @@ python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **
 python3.11-django-debug-toolbar-4.3.0-1.el9 | python-django-debug-toolbar-4.3.0-1.el9.src.rpm | Built | [Log](logs/python-django-debug-toolbar-4.3.0-1.el9.src.rpm.log)
 python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | Built | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 python3.11-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
-python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
+python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 python3.11-django-radius-1.5.0-1.el9 | python-django-radius-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-radius-1.5.0-1.el9.src.rpm.log)
@@ -223,4 +223,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-213 total packages, 149 packages built successfully, 64 packages left to fix
+213 total packages, 150 packages built successfully, 63 packages left to fix
