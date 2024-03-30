@@ -158,7 +158,7 @@ python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.
 python3.11-requirements-parser-0.7.0-1.el9 | python-requirements-parser-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-requirements-parser-0.7.0-1.el9.src.rpm.log)
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
-python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
+python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
@@ -194,4 +194,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-192 total packages, 104 packages built successfully, 88 packages left to fix
+192 total packages, 105 packages built successfully, 87 packages left to fix
