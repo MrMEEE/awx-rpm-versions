@@ -151,7 +151,7 @@ python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](
 python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
-python3.11-requirements-parser-0.7.0-1.el9 | python-requirements-parser-0.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requirements-parser-0.7.0-1.el9.src.rpm.log)
+python3.11-requirements-parser-0.7.0-1.el9 | python-requirements-parser-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-requirements-parser-0.7.0-1.el9.src.rpm.log)
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-188 total packages, 86 packages built successfully, 102 packages left to fix
+188 total packages, 87 packages built successfully, 101 packages left to fix
