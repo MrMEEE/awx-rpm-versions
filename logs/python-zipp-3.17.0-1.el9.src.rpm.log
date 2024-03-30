@@ -47,12 +47,13 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                1.4 MB/s |  73 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      13 kB/s | 4.1 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.3 MB/s |  85 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.3 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.3 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         71 kB/s |  32 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                          50% [===================================-                                   ]  52 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         50 kB/s |  31 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [                     ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                          45% [================================                                       ]  30 MB/s | 9.4 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         32 MB/s |  21 MB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                     Architecture          Version                         Repository                                                                    Size
@@ -178,7 +179,7 @@ Start: rpmbuild python-zipp-3.17.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.F0NEnZ
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uF4j4f
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -192,7 +193,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.F0NEnZ
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.A8p1mk
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5CxH6H
 + umask 022
 + cd /builddir/build/BUILD
 + cd zipp-3.17.0
@@ -244,11 +245,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.7 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   13 kB/s | 4.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   15 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     13 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         59 kB/s |  32 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         62 kB/s |  31 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                          40% [============================-                                          ]  28 MB/s | 8.4 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         32 MB/s |  21 MB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -295,7 +297,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.S4vY1W
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.L9QkpB
 + umask 022
 + cd /builddir/build/BUILD
 + cd zipp-3.17.0
@@ -398,11 +400,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            13 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         73 kB/s |  32 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   14 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     25 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         62 kB/s |  31 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                          11% [========                                                               ] 7.7 MB/s | 2.3 MB     00:02 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         28 MB/s |  21 MB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -419,7 +422,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FHOWFl
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FT7PKi
 + umask 022
 + cd /builddir/build/BUILD
 + cd zipp-3.17.0
@@ -513,7 +516,7 @@ removed directory 'zipp-3.17.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.7mXOWg
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Yhpj2X
 + umask 022
 + cd /builddir/build/BUILD
 + cd zipp-3.17.0
@@ -526,16 +529,16 @@ Processing /builddir/build/BUILD/zipp-3.17.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info
-  writing /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info
+  writing /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/SOURCES.txt'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-66w_1xk5/zipp-3.17.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-modern-metadata-h3llnug2/zipp-3.17.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: zipp
   Building wheel for zipp (pyproject.toml): started
@@ -570,7 +573,7 @@ Building wheels for collected packages: zipp
   Copying zipp.egg-info to build/bdist.linux-x86_64/wheel/zipp-3.17.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/zipp-3.17.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-wheel-d7x2fkks/.tmp-e5e5_1wz/zipp-3.17.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir/pip-wheel-ovvp5tb0/.tmp-mkg41e2s/zipp-3.17.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'zipp/__init__.py'
   adding 'zipp/glob.py'
   adding 'zipp/py310compat.py'
@@ -587,7 +590,7 @@ Successfully built zipp
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.9SLLN9
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Pn3mGY
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-zipp-3.17.0-1.el9.x86_64 '!=' / ']'
@@ -597,8 +600,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.9SLLN9
 + mkdir /builddir/build/BUILDROOT/python-zipp-3.17.0-1.el9.x86_64
 + cd zipp-3.17.0
 ++ ls /builddir/build/BUILD/zipp-3.17.0/pyproject-wheeldir/zipp-3.17.0-py3-none-any.whl
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 ++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=zipp==3.17.0
 + TMPDIR=/builddir/build/BUILD/zipp-3.17.0/.pyproject-builddir
 + /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-zipp-3.17.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/zipp-3.17.0/pyproject-wheeldir zipp==3.17.0
@@ -651,11 +654,11 @@ Wrote: /builddir/build/SRPMS/python-zipp-3.17.0-1.el9.src.rpm
 Wrote: /builddir/build/RPMS/python3.11-zipp-3.17.0-1.el9.noarch.rpm
 Finish: rpmbuild python-zipp-3.17.0-1.el9.src.rpm
 Finish: build phase for python-zipp-3.17.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-zipp-3.17.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-zipp-3.17.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 28 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 92 packages
+Directory walk done - 114 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
