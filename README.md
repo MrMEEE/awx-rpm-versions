@@ -17,7 +17,7 @@ python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [L
 python3.11-asn1-2.7.0-1.el9 | python-asn1-2.7.0-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.0-1.el9.src.rpm.log)
 python3.11-asyncpg-0.29.0-1.el9 | python-asyncpg-0.29.0-1.el9.src.rpm | Built | [Log](logs/python-asyncpg-0.29.0-1.el9.src.rpm.log)
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-4.0.3-1.el9.src.rpm.log)
-python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
+python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | Built | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
@@ -194,4 +194,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-192 total packages, 100 packages built successfully, 92 packages left to fix
+192 total packages, 101 packages built successfully, 91 packages left to fix
