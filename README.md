@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-slack-sdk-3.27.0-1.el9.src.rpm
+The lastest package built was python-social-auth-app-django-5.4.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:23:30 PM CET 2024
+The build completed at Sat Mar 30 07:24:04 PM CET 2024
 
 The build was unsuccessful.
 
