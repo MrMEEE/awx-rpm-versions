@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 22 MB/s | 154 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         53 kB/s |  27 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 32 MB/s | 189 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            12 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================] 9.8 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                     9.8 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        230 kB/s |  27 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                    Architecture          Version                          Repository                                                                    Size
@@ -163,7 +163,7 @@ Start: rpmbuild python-django-extensions-3.2.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uFAHu6
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.yoyxO2
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -177,7 +177,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uFAHu6
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.H8Z9Pv
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.25fmsF
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-extensions-3.2.3
@@ -214,11 +214,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         53 kB/s |  27 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        298 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -264,7 +264,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dyZqfe
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.VpMYEF
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-extensions-3.2.3
@@ -334,52 +334,991 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        236 kB/s |  27 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         87 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 3.2'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-django-extensions-3.2.3-1.el9.src.rpm
-Finish: build phase for python-django-extensions-3.2.3-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-django-extensions-3.2.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 22 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M e770215bd55f41e3b515dd22169928ac -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.iei84d5f:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-extensions-3.2.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+======================================================================================================================================================================================
+ Package                                      Architecture                    Version                               Repository                                                   Size
+======================================================================================================================================================================================
+Installing:
+ [1mpython3.11-django                           [m noarch                          4.2.6-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                          5.6 M
+Installing dependencies:
+ [1mpython3.11-asgiref                          [m noarch                          3.7.2-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                           55 k
+ [1mpython3.11-sqlparse                         [m noarch                          0.4.4-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                          100 k
+
+Transaction Summary
+======================================================================================================================================================================================
+Install  3 Packages
+
+Total size: 5.8 M
+Installed size: 30 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==================================================                                                                                                       ] 1/1  Preparing        :  [====================================================================================================                                                     ] 1/1  Preparing        :                                                                                                                                                              1/1 
+  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [                                                                                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=                                                                                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==                                                                                                                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [============                                                                                                       ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============                                                                                                      ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================                                                                                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================                                                                                         ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================                                                                                    ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================                                                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================                                                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================                                                                                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [====================================                                                                               ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================                                                                              ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================                                                                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================================                                                                          ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========================================                                                                        ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [====================================================                                                               ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=======================================================                                                            ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==============================================================                                                     ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================================================                                                    ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================                                                ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=======================================================================                                            ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================================                                ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================================================================                              ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================================================================================                             ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================================================================                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================================================================================                          ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================================================                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================================                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================================================================================                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================================================================================================             ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================================================================================           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================================================================================================         ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================================================================   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================================================  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                       1/3 
+  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [                                                                                                                    ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=                                                                                                                   ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======                                                                                                              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==========                                                                                                          ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=============                                                                                                       ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================                                                                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================                                                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================                                                                     ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=================================================                                                                   ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================                                                               ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [========================================================                                                            ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======================================================================                                              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=========================================================================                                           ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===========================================================================                                         ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================================================                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===================================================================================                                 ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [====================================================================================                                ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================================================                               ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=========================================================================================                           ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================================================================                     ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==================================================================================================                  ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======================================================================================================              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================================================================================      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==================================================================================================================  ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                        2/3 
+  Installing       : python3.11-django-4.2.6-1.el9.noarch [                                                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=                                                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==                                                                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===                                                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====                                                                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====                                                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======                                                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========                                                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========                                                                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========                                                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========                                                                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============                                                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============                                                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============                                                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================                                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================                                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================                                                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================                                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================                                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================                                                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================                                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================                                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================                                                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================                                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================                                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================                                                                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================                                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================                                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================                                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================                                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================                                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================                                                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================================                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================================                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================================                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================================                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================================                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================================                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================================                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================================                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================================                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================================================                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================================                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================================               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================================             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================================================            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================================================           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================================          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================================         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================================        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================================================      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================================================================     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================================================    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================================================   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================================================  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch                                                                                                                         3/3 
+  Running scriptlet: python3.11-django-4.2.6-1.el9.noarch                                                                                                                         3/3 
+  Verifying        : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                        1/3 
+  Verifying        : python3.11-django-4.2.6-1.el9.noarch                                                                                                                         2/3 
+  Verifying        : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                       3/3 
+Installed products updated.
+
+Installed:
+  python3.11-asgiref-3.7.2-1.el9.noarch                       python3.11-django-4.2.6-1.el9.noarch                       python3.11-sqlparse-0.4.4-1.el9.noarch                      
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1711756800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZxvXLJ
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-extensions-3.2.3
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir --output /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing django_extensions.egg-info/PKG-INFO
+writing dependency_links to django_extensions.egg-info/dependency_links.txt
+writing requirements to django_extensions.egg-info/requires.txt
+writing top-level names to django_extensions.egg-info/top_level.txt
+reading manifest file 'django_extensions.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_extensions.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing django_extensions.egg-info/PKG-INFO
+writing dependency_links to django_extensions.egg-info/dependency_links.txt
+writing requirements to django_extensions.egg-info/requires.txt
+writing top-level names to django_extensions.egg-info/top_level.txt
+reading manifest file 'django_extensions.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_extensions.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-extensions-3.2.3/django_extensions-3.2.3.dist-info'
+Handling Django >=3.2 from hook generated metadata: Requires-Dist (django-extensions)
+Requirement satisfied: Django >=3.2
+   (installed: Django 4.2.6)
++ cat /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv django_extensions-3.2.3.dist-info/
+removed 'django_extensions-3.2.3.dist-info/top_level.txt'
+removed 'django_extensions-3.2.3.dist-info/METADATA'
+removed 'django_extensions-3.2.3.dist-info/LICENSE'
+removed directory 'django_extensions-3.2.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-extensions-3.2.3-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                        236 kB/s |  27 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        301 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 3.2'
+Package python3.11-django-4.2.6-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1711756800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.12Kjxb
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-extensions-3.2.3
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir --output /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing django_extensions.egg-info/PKG-INFO
+writing dependency_links to django_extensions.egg-info/dependency_links.txt
+writing requirements to django_extensions.egg-info/requires.txt
+writing top-level names to django_extensions.egg-info/top_level.txt
+reading manifest file 'django_extensions.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_extensions.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing django_extensions.egg-info/PKG-INFO
+writing dependency_links to django_extensions.egg-info/dependency_links.txt
+writing requirements to django_extensions.egg-info/requires.txt
+writing top-level names to django_extensions.egg-info/top_level.txt
+reading manifest file 'django_extensions.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_extensions.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-extensions-3.2.3/django_extensions-3.2.3.dist-info'
+Handling Django >=3.2 from hook generated metadata: Requires-Dist (django-extensions)
+Requirement satisfied: Django >=3.2
+   (installed: Django 4.2.6)
++ cat /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv django_extensions-3.2.3.dist-info/
+removed 'django_extensions-3.2.3.dist-info/top_level.txt'
+removed 'django_extensions-3.2.3.dist-info/METADATA'
+removed 'django_extensions-3.2.3.dist-info/LICENSE'
+removed directory 'django_extensions-3.2.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.LnC0vd
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-extensions-3.2.3
++ mkdir -p /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir
+Processing /builddir/build/BUILD/django-extensions-3.2.3
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info
+  writing /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-modern-metadata-jex5kpk5/django_extensions-3.2.3.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: django-extensions
+  Building wheel for django-extensions (pyproject.toml): started
+  Running command Building wheel for django-extensions (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/django_extensions
+  copying django_extensions/__init__.py -> build/lib/django_extensions
+  copying django_extensions/apps.py -> build/lib/django_extensions
+  copying django_extensions/collision_resolvers.py -> build/lib/django_extensions
+  copying django_extensions/compat.py -> build/lib/django_extensions
+  copying django_extensions/import_subclasses.py -> build/lib/django_extensions
+  copying django_extensions/models.py -> build/lib/django_extensions
+  copying django_extensions/settings.py -> build/lib/django_extensions
+  copying django_extensions/validators.py -> build/lib/django_extensions
+  creating build/lib/django_extensions/admin
+  copying django_extensions/admin/__init__.py -> build/lib/django_extensions/admin
+  copying django_extensions/admin/filter.py -> build/lib/django_extensions/admin
+  copying django_extensions/admin/widgets.py -> build/lib/django_extensions/admin
+  creating build/lib/django_extensions/auth
+  copying django_extensions/auth/__init__.py -> build/lib/django_extensions/auth
+  copying django_extensions/auth/mixins.py -> build/lib/django_extensions/auth
+  creating build/lib/django_extensions/db
+  copying django_extensions/db/__init__.py -> build/lib/django_extensions/db
+  copying django_extensions/db/models.py -> build/lib/django_extensions/db
+  creating build/lib/django_extensions/db/fields
+  copying django_extensions/db/fields/__init__.py -> build/lib/django_extensions/db/fields
+  copying django_extensions/db/fields/json.py -> build/lib/django_extensions/db/fields
+  creating build/lib/django_extensions/jobs
+  copying django_extensions/jobs/__init__.py -> build/lib/django_extensions/jobs
+  creating build/lib/django_extensions/jobs/daily
+  copying django_extensions/jobs/daily/__init__.py -> build/lib/django_extensions/jobs/daily
+  copying django_extensions/jobs/daily/cache_cleanup.py -> build/lib/django_extensions/jobs/daily
+  copying django_extensions/jobs/daily/daily_cleanup.py -> build/lib/django_extensions/jobs/daily
+  creating build/lib/django_extensions/jobs/hourly
+  copying django_extensions/jobs/hourly/__init__.py -> build/lib/django_extensions/jobs/hourly
+  creating build/lib/django_extensions/jobs/minutely
+  copying django_extensions/jobs/minutely/__init__.py -> build/lib/django_extensions/jobs/minutely
+  creating build/lib/django_extensions/jobs/monthly
+  copying django_extensions/jobs/monthly/__init__.py -> build/lib/django_extensions/jobs/monthly
+  creating build/lib/django_extensions/jobs/weekly
+  copying django_extensions/jobs/weekly/__init__.py -> build/lib/django_extensions/jobs/weekly
+  creating build/lib/django_extensions/jobs/yearly
+  copying django_extensions/jobs/yearly/__init__.py -> build/lib/django_extensions/jobs/yearly
+  creating build/lib/django_extensions/logging
+  copying django_extensions/logging/__init__.py -> build/lib/django_extensions/logging
+  copying django_extensions/logging/filters.py -> build/lib/django_extensions/logging
+  creating build/lib/django_extensions/management
+  copying django_extensions/management/__init__.py -> build/lib/django_extensions/management
+  copying django_extensions/management/base.py -> build/lib/django_extensions/management
+  copying django_extensions/management/color.py -> build/lib/django_extensions/management
+  copying django_extensions/management/debug_cursor.py -> build/lib/django_extensions/management
+  copying django_extensions/management/email_notifications.py -> build/lib/django_extensions/management
+  copying django_extensions/management/jobs.py -> build/lib/django_extensions/management
+  copying django_extensions/management/modelviz.py -> build/lib/django_extensions/management
+  copying django_extensions/management/mysql.py -> build/lib/django_extensions/management
+  copying django_extensions/management/notebook_extension.py -> build/lib/django_extensions/management
+  copying django_extensions/management/shells.py -> build/lib/django_extensions/management
+  copying django_extensions/management/signals.py -> build/lib/django_extensions/management
+  copying django_extensions/management/technical_response.py -> build/lib/django_extensions/management
+  copying django_extensions/management/utils.py -> build/lib/django_extensions/management
+  creating build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/__init__.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/admin_generator.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/clean_pyc.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/clear_cache.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/compile_pyc.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/create_command.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/create_jobs.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/create_template_tags.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/delete_squashed_migrations.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/describe_form.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/drop_test_database.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/dumpscript.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/export_emails.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/find_template.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/generate_password.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/generate_secret_key.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/graph_models.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/list_model_info.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/list_signals.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/mail_debug.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/managestate.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/merge_model_instances.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/notes.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/pipchecker.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/print_settings.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/print_user_for_session.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/raise_test_exception.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/reset_db.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/reset_schema.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/runjob.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/runjobs.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/runprofileserver.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/runscript.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/runserver_plus.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/set_default_site.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/set_fake_emails.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/set_fake_passwords.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/shell_plus.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/show_template_tags.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/show_urls.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/sqlcreate.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/sqldiff.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/sqldsn.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/sync_s3.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/syncdata.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/unreferenced_files.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/update_permissions.py -> build/lib/django_extensions/management/commands
+  copying django_extensions/management/commands/validate_templates.py -> build/lib/django_extensions/management/commands
+  creating build/lib/django_extensions/mongodb
+  copying django_extensions/mongodb/__init__.py -> build/lib/django_extensions/mongodb
+  copying django_extensions/mongodb/models.py -> build/lib/django_extensions/mongodb
+  creating build/lib/django_extensions/mongodb/fields
+  copying django_extensions/mongodb/fields/__init__.py -> build/lib/django_extensions/mongodb/fields
+  copying django_extensions/mongodb/fields/json.py -> build/lib/django_extensions/mongodb/fields
+  creating build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/__init__.py -> build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/debugger_tags.py -> build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/highlighting.py -> build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/indent_text.py -> build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/syntax_color.py -> build/lib/django_extensions/templatetags
+  copying django_extensions/templatetags/widont.py -> build/lib/django_extensions/templatetags
+  creating build/lib/django_extensions/utils
+  copying django_extensions/utils/__init__.py -> build/lib/django_extensions/utils
+  copying django_extensions/utils/deprecation.py -> build/lib/django_extensions/utils
+  copying django_extensions/utils/dia2django.py -> build/lib/django_extensions/utils
+  copying django_extensions/utils/internal_ips.py -> build/lib/django_extensions/utils
+  creating build/lib/django_extensions/conf
+  creating build/lib/django_extensions/conf/app_template
+  copying django_extensions/conf/app_template/__init__.py.tmpl -> build/lib/django_extensions/conf/app_template
+  copying django_extensions/conf/app_template/forms.py.tmpl -> build/lib/django_extensions/conf/app_template
+  copying django_extensions/conf/app_template/models.py.tmpl -> build/lib/django_extensions/conf/app_template
+  copying django_extensions/conf/app_template/urls.py.tmpl -> build/lib/django_extensions/conf/app_template
+  copying django_extensions/conf/app_template/views.py.tmpl -> build/lib/django_extensions/conf/app_template
+  creating build/lib/django_extensions/conf/app_template/migrations
+  copying django_extensions/conf/app_template/migrations/__init__.py.tmpl -> build/lib/django_extensions/conf/app_template/migrations
+  creating build/lib/django_extensions/conf/command_template
+  creating build/lib/django_extensions/conf/command_template/management
+  copying django_extensions/conf/command_template/management/__init__.py.tmpl -> build/lib/django_extensions/conf/command_template/management
+  creating build/lib/django_extensions/conf/command_template/management/commands
+  copying django_extensions/conf/command_template/management/commands/__init__.py.tmpl -> build/lib/django_extensions/conf/command_template/management/commands
+  copying django_extensions/conf/command_template/management/commands/sample.py.tmpl -> build/lib/django_extensions/conf/command_template/management/commands
+  creating build/lib/django_extensions/conf/jobs_template
+  creating build/lib/django_extensions/conf/jobs_template/jobs
+  copying django_extensions/conf/jobs_template/jobs/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs
+  copying django_extensions/conf/jobs_template/jobs/sample.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs
+  creating build/lib/django_extensions/conf/jobs_template/jobs/daily
+  copying django_extensions/conf/jobs_template/jobs/daily/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs/daily
+  creating build/lib/django_extensions/conf/jobs_template/jobs/hourly
+  copying django_extensions/conf/jobs_template/jobs/hourly/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs/hourly
+  creating build/lib/django_extensions/conf/jobs_template/jobs/monthly
+  copying django_extensions/conf/jobs_template/jobs/monthly/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs/monthly
+  creating build/lib/django_extensions/conf/jobs_template/jobs/weekly
+  copying django_extensions/conf/jobs_template/jobs/weekly/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs/weekly
+  creating build/lib/django_extensions/conf/jobs_template/jobs/yearly
+  copying django_extensions/conf/jobs_template/jobs/yearly/__init__.py.tmpl -> build/lib/django_extensions/conf/jobs_template/jobs/yearly
+  creating build/lib/django_extensions/conf/template_tags_template
+  creating build/lib/django_extensions/conf/template_tags_template/templatetags
+  copying django_extensions/conf/template_tags_template/templatetags/__init__.py.tmpl -> build/lib/django_extensions/conf/template_tags_template/templatetags
+  copying django_extensions/conf/template_tags_template/templatetags/sample.py.tmpl -> build/lib/django_extensions/conf/template_tags_template/templatetags
+  creating build/lib/django_extensions/locale
+  creating build/lib/django_extensions/locale/ar
+  creating build/lib/django_extensions/locale/ar/LC_MESSAGES
+  copying django_extensions/locale/ar/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/ar/LC_MESSAGES
+  creating build/lib/django_extensions/locale/da
+  creating build/lib/django_extensions/locale/da/LC_MESSAGES
+  copying django_extensions/locale/da/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/da/LC_MESSAGES
+  copying django_extensions/locale/da/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/da/LC_MESSAGES
+  creating build/lib/django_extensions/locale/de
+  creating build/lib/django_extensions/locale/de/LC_MESSAGES
+  copying django_extensions/locale/de/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/de/LC_MESSAGES
+  copying django_extensions/locale/de/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/de/LC_MESSAGES
+  creating build/lib/django_extensions/locale/el
+  creating build/lib/django_extensions/locale/el/LC_MESSAGES
+  copying django_extensions/locale/el/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/el/LC_MESSAGES
+  copying django_extensions/locale/el/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/el/LC_MESSAGES
+  creating build/lib/django_extensions/locale/en
+  creating build/lib/django_extensions/locale/en/LC_MESSAGES
+  copying django_extensions/locale/en/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/en/LC_MESSAGES
+  copying django_extensions/locale/en/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/en/LC_MESSAGES
+  creating build/lib/django_extensions/locale/es
+  creating build/lib/django_extensions/locale/es/LC_MESSAGES
+  copying django_extensions/locale/es/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/es/LC_MESSAGES
+  copying django_extensions/locale/es/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/es/LC_MESSAGES
+  creating build/lib/django_extensions/locale/fr
+  creating build/lib/django_extensions/locale/fr/LC_MESSAGES
+  copying django_extensions/locale/fr/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/fr/LC_MESSAGES
+  copying django_extensions/locale/fr/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/fr/LC_MESSAGES
+  creating build/lib/django_extensions/locale/hu
+  creating build/lib/django_extensions/locale/hu/LC_MESSAGES
+  copying django_extensions/locale/hu/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/hu/LC_MESSAGES
+  copying django_extensions/locale/hu/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/hu/LC_MESSAGES
+  creating build/lib/django_extensions/locale/id
+  creating build/lib/django_extensions/locale/id/LC_MESSAGES
+  copying django_extensions/locale/id/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/id/LC_MESSAGES
+  copying django_extensions/locale/id/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/id/LC_MESSAGES
+  creating build/lib/django_extensions/locale/it
+  creating build/lib/django_extensions/locale/it/LC_MESSAGES
+  copying django_extensions/locale/it/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/it/LC_MESSAGES
+  copying django_extensions/locale/it/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/it/LC_MESSAGES
+  creating build/lib/django_extensions/locale/ja
+  creating build/lib/django_extensions/locale/ja/LC_MESSAGES
+  copying django_extensions/locale/ja/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/ja/LC_MESSAGES
+  copying django_extensions/locale/ja/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/ja/LC_MESSAGES
+  creating build/lib/django_extensions/locale/pl
+  creating build/lib/django_extensions/locale/pl/LC_MESSAGES
+  copying django_extensions/locale/pl/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/pl/LC_MESSAGES
+  copying django_extensions/locale/pl/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/pl/LC_MESSAGES
+  creating build/lib/django_extensions/locale/pt
+  creating build/lib/django_extensions/locale/pt/LC_MESSAGES
+  copying django_extensions/locale/pt/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/pt/LC_MESSAGES
+  copying django_extensions/locale/pt/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/pt/LC_MESSAGES
+  creating build/lib/django_extensions/locale/pt_BR
+  creating build/lib/django_extensions/locale/pt_BR/LC_MESSAGES
+  copying django_extensions/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/pt_BR/LC_MESSAGES
+  copying django_extensions/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/pt_BR/LC_MESSAGES
+  creating build/lib/django_extensions/locale/ro
+  creating build/lib/django_extensions/locale/ro/LC_MESSAGES
+  copying django_extensions/locale/ro/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/ro/LC_MESSAGES
+  copying django_extensions/locale/ro/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/ro/LC_MESSAGES
+  creating build/lib/django_extensions/locale/ru
+  creating build/lib/django_extensions/locale/ru/LC_MESSAGES
+  copying django_extensions/locale/ru/LC_MESSAGES/django.mo -> build/lib/django_extensions/locale/ru/LC_MESSAGES
+  copying django_extensions/locale/ru/LC_MESSAGES/django.po -> build/lib/django_extensions/locale/ru/LC_MESSAGES
+  creating build/lib/django_extensions/static
+  creating build/lib/django_extensions/static/django_extensions
+  creating build/lib/django_extensions/static/django_extensions/css
+  copying django_extensions/static/django_extensions/css/jquery.autocomplete.css -> build/lib/django_extensions/static/django_extensions/css
+  creating build/lib/django_extensions/static/django_extensions/img
+  copying django_extensions/static/django_extensions/img/indicator.gif -> build/lib/django_extensions/static/django_extensions/img
+  creating build/lib/django_extensions/static/django_extensions/js
+  copying django_extensions/static/django_extensions/js/jquery.ajaxQueue.js -> build/lib/django_extensions/static/django_extensions/js
+  copying django_extensions/static/django_extensions/js/jquery.autocomplete.js -> build/lib/django_extensions/static/django_extensions/js
+  copying django_extensions/static/django_extensions/js/jquery.bgiframe.js -> build/lib/django_extensions/static/django_extensions/js
+  creating build/lib/django_extensions/templates
+  creating build/lib/django_extensions/templates/django_extensions
+  creating build/lib/django_extensions/templates/django_extensions/graph_models
+  creating build/lib/django_extensions/templates/django_extensions/graph_models/django2018
+  copying django_extensions/templates/django_extensions/graph_models/django2018/digraph.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/django2018
+  copying django_extensions/templates/django_extensions/graph_models/django2018/label.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/django2018
+  copying django_extensions/templates/django_extensions/graph_models/django2018/relation.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/django2018
+  creating build/lib/django_extensions/templates/django_extensions/graph_models/original
+  copying django_extensions/templates/django_extensions/graph_models/original/digraph.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/original
+  copying django_extensions/templates/django_extensions/graph_models/original/label.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/original
+  copying django_extensions/templates/django_extensions/graph_models/original/relation.dot -> build/lib/django_extensions/templates/django_extensions/graph_models/original
+  creating build/lib/django_extensions/templates/django_extensions/widgets
+  copying django_extensions/templates/django_extensions/widgets/foreignkey_searchinput.html -> build/lib/django_extensions/templates/django_extensions/widgets
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/apps.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/collision_resolvers.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/compat.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/import_subclasses.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/models.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/settings.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  copying build/lib/django_extensions/validators.py -> build/bdist.linux-x86_64/wheel/django_extensions
+  creating build/bdist.linux-x86_64/wheel/django_extensions/admin
+  copying build/lib/django_extensions/admin/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/admin
+  copying build/lib/django_extensions/admin/filter.py -> build/bdist.linux-x86_64/wheel/django_extensions/admin
+  copying build/lib/django_extensions/admin/widgets.py -> build/bdist.linux-x86_64/wheel/django_extensions/admin
+  creating build/bdist.linux-x86_64/wheel/django_extensions/auth
+  copying build/lib/django_extensions/auth/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/auth
+  copying build/lib/django_extensions/auth/mixins.py -> build/bdist.linux-x86_64/wheel/django_extensions/auth
+  creating build/bdist.linux-x86_64/wheel/django_extensions/db
+  copying build/lib/django_extensions/db/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/db
+  copying build/lib/django_extensions/db/models.py -> build/bdist.linux-x86_64/wheel/django_extensions/db
+  creating build/bdist.linux-x86_64/wheel/django_extensions/db/fields
+  copying build/lib/django_extensions/db/fields/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/db/fields
+  copying build/lib/django_extensions/db/fields/json.py -> build/bdist.linux-x86_64/wheel/django_extensions/db/fields
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs
+  copying build/lib/django_extensions/jobs/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/daily
+  copying build/lib/django_extensions/jobs/daily/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/daily
+  copying build/lib/django_extensions/jobs/daily/cache_cleanup.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/daily
+  copying build/lib/django_extensions/jobs/daily/daily_cleanup.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/daily
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/hourly
+  copying build/lib/django_extensions/jobs/hourly/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/hourly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/minutely
+  copying build/lib/django_extensions/jobs/minutely/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/minutely
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/monthly
+  copying build/lib/django_extensions/jobs/monthly/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/monthly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/weekly
+  copying build/lib/django_extensions/jobs/weekly/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/weekly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/jobs/yearly
+  copying build/lib/django_extensions/jobs/yearly/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/jobs/yearly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/logging
+  copying build/lib/django_extensions/logging/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/logging
+  copying build/lib/django_extensions/logging/filters.py -> build/bdist.linux-x86_64/wheel/django_extensions/logging
+  creating build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/base.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/color.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/debug_cursor.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/email_notifications.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/jobs.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/modelviz.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/mysql.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/notebook_extension.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/shells.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/signals.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/technical_response.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  copying build/lib/django_extensions/management/utils.py -> build/bdist.linux-x86_64/wheel/django_extensions/management
+  creating build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/admin_generator.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/clean_pyc.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/clear_cache.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/compile_pyc.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/create_command.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/create_jobs.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/create_template_tags.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/delete_squashed_migrations.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/describe_form.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/drop_test_database.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/dumpscript.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/export_emails.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/find_template.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/generate_password.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/generate_secret_key.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/graph_models.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/list_model_info.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/list_signals.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/mail_debug.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/managestate.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/merge_model_instances.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/notes.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/pipchecker.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/print_settings.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/print_user_for_session.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/raise_test_exception.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/reset_db.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/reset_schema.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/runjob.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/runjobs.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/runprofileserver.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/runscript.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/runserver_plus.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/set_default_site.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/set_fake_emails.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/set_fake_passwords.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/shell_plus.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/show_template_tags.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/show_urls.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/sqlcreate.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/sqldiff.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/sqldsn.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/sync_s3.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/syncdata.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/unreferenced_files.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/update_permissions.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  copying build/lib/django_extensions/management/commands/validate_templates.py -> build/bdist.linux-x86_64/wheel/django_extensions/management/commands
+  creating build/bdist.linux-x86_64/wheel/django_extensions/mongodb
+  copying build/lib/django_extensions/mongodb/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/mongodb
+  copying build/lib/django_extensions/mongodb/models.py -> build/bdist.linux-x86_64/wheel/django_extensions/mongodb
+  creating build/bdist.linux-x86_64/wheel/django_extensions/mongodb/fields
+  copying build/lib/django_extensions/mongodb/fields/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/mongodb/fields
+  copying build/lib/django_extensions/mongodb/fields/json.py -> build/bdist.linux-x86_64/wheel/django_extensions/mongodb/fields
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/debugger_tags.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/highlighting.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/indent_text.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/syntax_color.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  copying build/lib/django_extensions/templatetags/widont.py -> build/bdist.linux-x86_64/wheel/django_extensions/templatetags
+  creating build/bdist.linux-x86_64/wheel/django_extensions/utils
+  copying build/lib/django_extensions/utils/__init__.py -> build/bdist.linux-x86_64/wheel/django_extensions/utils
+  copying build/lib/django_extensions/utils/deprecation.py -> build/bdist.linux-x86_64/wheel/django_extensions/utils
+  copying build/lib/django_extensions/utils/dia2django.py -> build/bdist.linux-x86_64/wheel/django_extensions/utils
+  copying build/lib/django_extensions/utils/internal_ips.py -> build/bdist.linux-x86_64/wheel/django_extensions/utils
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  copying build/lib/django_extensions/conf/app_template/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  copying build/lib/django_extensions/conf/app_template/forms.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  copying build/lib/django_extensions/conf/app_template/models.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  copying build/lib/django_extensions/conf/app_template/urls.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  copying build/lib/django_extensions/conf/app_template/views.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template/migrations
+  copying build/lib/django_extensions/conf/app_template/migrations/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/app_template/migrations
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template/management
+  copying build/lib/django_extensions/conf/command_template/management/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template/management
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template/management/commands
+  copying build/lib/django_extensions/conf/command_template/management/commands/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template/management/commands
+  copying build/lib/django_extensions/conf/command_template/management/commands/sample.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/command_template/management/commands
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs
+  copying build/lib/django_extensions/conf/jobs_template/jobs/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs
+  copying build/lib/django_extensions/conf/jobs_template/jobs/sample.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/daily
+  copying build/lib/django_extensions/conf/jobs_template/jobs/daily/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/daily
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/hourly
+  copying build/lib/django_extensions/conf/jobs_template/jobs/hourly/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/hourly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/monthly
+  copying build/lib/django_extensions/conf/jobs_template/jobs/monthly/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/monthly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/weekly
+  copying build/lib/django_extensions/conf/jobs_template/jobs/weekly/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/weekly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/yearly
+  copying build/lib/django_extensions/conf/jobs_template/jobs/yearly/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/jobs_template/jobs/yearly
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/template_tags_template
+  creating build/bdist.linux-x86_64/wheel/django_extensions/conf/template_tags_template/templatetags
+  copying build/lib/django_extensions/conf/template_tags_template/templatetags/__init__.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/template_tags_template/templatetags
+  copying build/lib/django_extensions/conf/template_tags_template/templatetags/sample.py.tmpl -> build/bdist.linux-x86_64/wheel/django_extensions/conf/template_tags_template/templatetags
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ar
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ar/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ar/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ar/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/da
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/da/LC_MESSAGES
+  copying build/lib/django_extensions/locale/da/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/da/LC_MESSAGES
+  copying build/lib/django_extensions/locale/da/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/da/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/de
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/de/LC_MESSAGES
+  copying build/lib/django_extensions/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/de/LC_MESSAGES
+  copying build/lib/django_extensions/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/de/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/el
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/el/LC_MESSAGES
+  copying build/lib/django_extensions/locale/el/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/el/LC_MESSAGES
+  copying build/lib/django_extensions/locale/el/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/el/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/en
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/en/LC_MESSAGES
+  copying build/lib/django_extensions/locale/en/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/en/LC_MESSAGES
+  copying build/lib/django_extensions/locale/en/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/en/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/es
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/es/LC_MESSAGES
+  copying build/lib/django_extensions/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/es/LC_MESSAGES
+  copying build/lib/django_extensions/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/es/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/fr
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/fr/LC_MESSAGES
+  copying build/lib/django_extensions/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/fr/LC_MESSAGES
+  copying build/lib/django_extensions/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/fr/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/hu
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/hu/LC_MESSAGES
+  copying build/lib/django_extensions/locale/hu/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/hu/LC_MESSAGES
+  copying build/lib/django_extensions/locale/hu/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/hu/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/id
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/id/LC_MESSAGES
+  copying build/lib/django_extensions/locale/id/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/id/LC_MESSAGES
+  copying build/lib/django_extensions/locale/id/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/id/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/it
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/it/LC_MESSAGES
+  copying build/lib/django_extensions/locale/it/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/it/LC_MESSAGES
+  copying build/lib/django_extensions/locale/it/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/it/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ja
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ja/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ja/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ja/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ja/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ja/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pl
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pl/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pl/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pl/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pt
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pt/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pt/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pt/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pt/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pt/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pt_BR
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/pt_BR/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pt_BR/LC_MESSAGES
+  copying build/lib/django_extensions/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/pt_BR/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ro
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ro/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ro/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ro/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ro/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ro/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ru
+  creating build/bdist.linux-x86_64/wheel/django_extensions/locale/ru/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ru/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ru/LC_MESSAGES
+  copying build/lib/django_extensions/locale/ru/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/django_extensions/locale/ru/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/django_extensions/static
+  creating build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions
+  creating build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/css
+  copying build/lib/django_extensions/static/django_extensions/css/jquery.autocomplete.css -> build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/css
+  creating build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/img
+  copying build/lib/django_extensions/static/django_extensions/img/indicator.gif -> build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/img
+  creating build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/js
+  copying build/lib/django_extensions/static/django_extensions/js/jquery.ajaxQueue.js -> build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/js
+  copying build/lib/django_extensions/static/django_extensions/js/jquery.autocomplete.js -> build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/js
+  copying build/lib/django_extensions/static/django_extensions/js/jquery.bgiframe.js -> build/bdist.linux-x86_64/wheel/django_extensions/static/django_extensions/js
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/django2018
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/django2018/digraph.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/django2018
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/django2018/label.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/django2018
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/django2018/relation.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/django2018
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/original
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/original/digraph.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/original
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/original/label.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/original
+  copying build/lib/django_extensions/templates/django_extensions/graph_models/original/relation.dot -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/graph_models/original
+  creating build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/widgets
+  copying build/lib/django_extensions/templates/django_extensions/widgets/foreignkey_searchinput.html -> build/bdist.linux-x86_64/wheel/django_extensions/templates/django_extensions/widgets
+  running install_egg_info
+  running egg_info
+  writing django_extensions.egg-info/PKG-INFO
+  writing dependency_links to django_extensions.egg-info/dependency_links.txt
+  writing requirements to django_extensions.egg-info/requires.txt
+  writing top-level names to django_extensions.egg-info/top_level.txt
+  reading manifest file 'django_extensions.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'django_extensions.egg-info/SOURCES.txt'
+  Copying django_extensions.egg-info to build/bdist.linux-x86_64/wheel/django_extensions-3.2.3-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/django_extensions-3.2.3.dist-info/WHEEL
+  creating '/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir/pip-wheel-_ql2wlu2/.tmp-jejdpnq4/django_extensions-3.2.3-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'django_extensions/__init__.py'
+  adding 'django_extensions/apps.py'
+  adding 'django_extensions/collision_resolvers.py'
+  adding 'django_extensions/compat.py'
+  adding 'django_extensions/import_subclasses.py'
+  adding 'django_extensions/models.py'
+  adding 'django_extensions/settings.py'
+  adding 'django_extensions/validators.py'
+  adding 'django_extensions/admin/__init__.py'
+  adding 'django_extensions/admin/filter.py'
+  adding 'django_extensions/admin/widgets.py'
+  adding 'django_extensions/auth/__init__.py'
+  adding 'django_extensions/auth/mixins.py'
+  adding 'django_extensions/conf/app_template/__init__.py.tmpl'
+  adding 'django_extensions/conf/app_template/forms.py.tmpl'
+  adding 'django_extensions/conf/app_template/models.py.tmpl'
+  adding 'django_extensions/conf/app_template/urls.py.tmpl'
+  adding 'django_extensions/conf/app_template/views.py.tmpl'
+  adding 'django_extensions/conf/app_template/migrations/__init__.py.tmpl'
+  adding 'django_extensions/conf/command_template/management/__init__.py.tmpl'
+  adding 'django_extensions/conf/command_template/management/commands/__init__.py.tmpl'
+  adding 'django_extensions/conf/command_template/management/commands/sample.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/__init__.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/sample.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/daily/__init__.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/hourly/__init__.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/monthly/__init__.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/weekly/__init__.py.tmpl'
+  adding 'django_extensions/conf/jobs_template/jobs/yearly/__init__.py.tmpl'
+  adding 'django_extensions/conf/template_tags_template/templatetags/__init__.py.tmpl'
+  adding 'django_extensions/conf/template_tags_template/templatetags/sample.py.tmpl'
+  adding 'django_extensions/db/__init__.py'
+  adding 'django_extensions/db/models.py'
+  adding 'django_extensions/db/fields/__init__.py'
+  adding 'django_extensions/db/fields/json.py'
+  adding 'django_extensions/jobs/__init__.py'
+  adding 'django_extensions/jobs/daily/__init__.py'
+  adding 'django_extensions/jobs/daily/cache_cleanup.py'
+  adding 'django_extensions/jobs/daily/daily_cleanup.py'
+  adding 'django_extensions/jobs/hourly/__init__.py'
+  adding 'django_extensions/jobs/minutely/__init__.py'
+  adding 'django_extensions/jobs/monthly/__init__.py'
+  adding 'django_extensions/jobs/weekly/__init__.py'
+  adding 'django_extensions/jobs/yearly/__init__.py'
+  adding 'django_extensions/locale/ar/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/da/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/da/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/de/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/de/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/el/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/el/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/en/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/en/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/es/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/es/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/fr/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/fr/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/hu/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/hu/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/id/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/id/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/it/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/it/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/ja/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/ja/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/pl/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/pl/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/pt/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/pt/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/pt_BR/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/pt_BR/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/ro/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/ro/LC_MESSAGES/django.po'
+  adding 'django_extensions/locale/ru/LC_MESSAGES/django.mo'
+  adding 'django_extensions/locale/ru/LC_MESSAGES/django.po'
+  adding 'django_extensions/logging/__init__.py'
+  adding 'django_extensions/logging/filters.py'
+  adding 'django_extensions/management/__init__.py'
+  adding 'django_extensions/management/base.py'
+  adding 'django_extensions/management/color.py'
+  adding 'django_extensions/management/debug_cursor.py'
+  adding 'django_extensions/management/email_notifications.py'
+  adding 'django_extensions/management/jobs.py'
+  adding 'django_extensions/management/modelviz.py'
+  adding 'django_extensions/management/mysql.py'
+  adding 'django_extensions/management/notebook_extension.py'
+  adding 'django_extensions/management/shells.py'
+  adding 'django_extensions/management/signals.py'
+  adding 'django_extensions/management/technical_response.py'
+  adding 'django_extensions/management/utils.py'
+  adding 'django_extensions/management/commands/__init__.py'
+  adding 'django_extensions/management/commands/admin_generator.py'
+  adding 'django_extensions/management/commands/clean_pyc.py'
+  adding 'django_extensions/management/commands/clear_cache.py'
+  adding 'django_extensions/management/commands/compile_pyc.py'
+  adding 'django_extensions/management/commands/create_command.py'
+  adding 'django_extensions/management/commands/create_jobs.py'
+  adding 'django_extensions/management/commands/create_template_tags.py'
+  adding 'django_extensions/management/commands/delete_squashed_migrations.py'
+  adding 'django_extensions/management/commands/describe_form.py'
+  adding 'django_extensions/management/commands/drop_test_database.py'
+  adding 'django_extensions/management/commands/dumpscript.py'
+  adding 'django_extensions/management/commands/export_emails.py'
+  adding 'django_extensions/management/commands/find_template.py'
+  adding 'django_extensions/management/commands/generate_password.py'
+  adding 'django_extensions/management/commands/generate_secret_key.py'
+  adding 'django_extensions/management/commands/graph_models.py'
+  adding 'django_extensions/management/commands/list_model_info.py'
+  adding 'django_extensions/management/commands/list_signals.py'
+  adding 'django_extensions/management/commands/mail_debug.py'
+  adding 'django_extensions/management/commands/managestate.py'
+  adding 'django_extensions/management/commands/merge_model_instances.py'
+  adding 'django_extensions/management/commands/notes.py'
+  adding 'django_extensions/management/commands/pipchecker.py'
+  adding 'django_extensions/management/commands/print_settings.py'
+  adding 'django_extensions/management/commands/print_user_for_session.py'
+  adding 'django_extensions/management/commands/raise_test_exception.py'
+  adding 'django_extensions/management/commands/reset_db.py'
+  adding 'django_extensions/management/commands/reset_schema.py'
+  adding 'django_extensions/management/commands/runjob.py'
+  adding 'django_extensions/management/commands/runjobs.py'
+  adding 'django_extensions/management/commands/runprofileserver.py'
+  adding 'django_extensions/management/commands/runscript.py'
+  adding 'django_extensions/management/commands/runserver_plus.py'
+  adding 'django_extensions/management/commands/set_default_site.py'
+  adding 'django_extensions/management/commands/set_fake_emails.py'
+  adding 'django_extensions/management/commands/set_fake_passwords.py'
+  adding 'django_extensions/management/commands/shell_plus.py'
+  adding 'django_extensions/management/commands/show_template_tags.py'
+  adding 'django_extensions/management/commands/show_urls.py'
+  adding 'django_extensions/management/commands/sqlcreate.py'
+  adding 'django_extensions/management/commands/sqldiff.py'
+  adding 'django_extensions/management/commands/sqldsn.py'
+  adding 'django_extensions/management/commands/sync_s3.py'
+  adding 'django_extensions/management/commands/syncdata.py'
+  adding 'django_extensions/management/commands/unreferenced_files.py'
+  adding 'django_extensions/management/commands/update_permissions.py'
+  adding 'django_extensions/management/commands/validate_templates.py'
+  adding 'django_extensions/mongodb/__init__.py'
+  adding 'django_extensions/mongodb/models.py'
+  adding 'django_extensions/mongodb/fields/__init__.py'
+  adding 'django_extensions/mongodb/fields/json.py'
+  adding 'django_extensions/static/django_extensions/css/jquery.autocomplete.css'
+  adding 'django_extensions/static/django_extensions/img/indicator.gif'
+  adding 'django_extensions/static/django_extensions/js/jquery.ajaxQueue.js'
+  adding 'django_extensions/static/django_extensions/js/jquery.autocomplete.js'
+  adding 'django_extensions/static/django_extensions/js/jquery.bgiframe.js'
+  adding 'django_extensions/templates/django_extensions/graph_models/django2018/digraph.dot'
+  adding 'django_extensions/templates/django_extensions/graph_models/django2018/label.dot'
+  adding 'django_extensions/templates/django_extensions/graph_models/django2018/relation.dot'
+  adding 'django_extensions/templates/django_extensions/graph_models/original/digraph.dot'
+  adding 'django_extensions/templates/django_extensions/graph_models/original/label.dot'
+  adding 'django_extensions/templates/django_extensions/graph_models/original/relation.dot'
+  adding 'django_extensions/templates/django_extensions/widgets/foreignkey_searchinput.html'
+  adding 'django_extensions/templatetags/__init__.py'
+  adding 'django_extensions/templatetags/debugger_tags.py'
+  adding 'django_extensions/templatetags/highlighting.py'
+  adding 'django_extensions/templatetags/indent_text.py'
+  adding 'django_extensions/templatetags/syntax_color.py'
+  adding 'django_extensions/templatetags/widont.py'
+  adding 'django_extensions/utils/__init__.py'
+  adding 'django_extensions/utils/deprecation.py'
+  adding 'django_extensions/utils/dia2django.py'
+  adding 'django_extensions/utils/internal_ips.py'
+  adding 'django_extensions-3.2.3.dist-info/LICENSE'
+  adding 'django_extensions-3.2.3.dist-info/METADATA'
+  adding 'django_extensions-3.2.3.dist-info/WHEEL'
+  adding 'django_extensions-3.2.3.dist-info/top_level.txt'
+  adding 'django_extensions-3.2.3.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for django-extensions (pyproject.toml): finished with status 'done'
+  Created wheel for django-extensions: filename=django_extensions-3.2.3-py3-none-any.whl size=229869 sha256=febeaea9a6c63d19ae4b7f914e755490df0ccce522e7992dff47d1b1e851b298
+  Stored in directory: /builddir/.cache/pip/wheels/6e/94/69/9fa3afbfe86ef53a2167975b07fd96057b60caceb603c1e86a
+Successfully built django-extensions
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.7WP3Yk
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64
++ cd django-extensions-3.2.3
+++ ls /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir/django_extensions-3.2.3-py3-none-any.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
++ specifier=django_extensions==3.2.3
++ TMPDIR=/builddir/build/BUILD/django-extensions-3.2.3/.pyproject-builddir
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir django_extensions==3.2.3
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/django-extensions-3.2.3/pyproject-wheeldir
+Processing ./pyproject-wheeldir/django_extensions-3.2.3-py3-none-any.whl
+Installing collected packages: django_extensions
+Successfully installed django_extensions-3.2.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/RECORD --output /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11/site-packages/django_extensions-3.2.3.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-django-extensions-3.2.3-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 3.2.3-1.el9 --unique-debug-suffix -3.2.3-1.el9.x86_64 --unique-debug-src-base python-django-extensions-3.2.3-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/django-extensions-3.2.3
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-django-extensions-3.2.3-1.el9.noarch
+Provides: python3.11-django-extensions = 3.2.3-1.el9 python3.11dist(django-extensions) = 3.2.3
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(django) >= 3.2
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-django-extensions-3.2.3-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-django-extensions-3.2.3-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-django-extensions-3.2.3-1.el9.noarch.rpm
+Finish: rpmbuild python-django-extensions-3.2.3-1.el9.src.rpm
+Finish: build phase for python-django-extensions-3.2.3-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-django-extensions-3.2.3-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 30 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 169 packages
+Directory walk done - 175 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
