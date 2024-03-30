@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
+The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:20:25 PM CET 2024
+The build completed at Sat Mar 30 05:20:56 PM CET 2024
 
 The build was unsuccessful.
 
