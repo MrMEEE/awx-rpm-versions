@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
+The lastest package built was python-fastjsonschema-2.19.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 04:50:17 PM CET 2024
+The build completed at Sat Mar 30 04:50:48 PM CET 2024
 
 The build was unsuccessful.
 
