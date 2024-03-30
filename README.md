@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
+The lastest package built was python-aiodns-3.1.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:59:38 PM CET 2024
+The build completed at Sat Mar 30 10:00:11 PM CET 2024
 
 The build was unsuccessful.
 
