@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 23 MB/s | 154 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 12 MB/s | 196 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 4.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.8 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     16 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        238 kB/s |  27 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         53 kB/s |  27 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                    Architecture          Version                          Repository                                                                    Size
@@ -163,7 +163,7 @@ Start: rpmbuild python-django-solo-2.2.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.2bNefR
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.saVhCD
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -177,7 +177,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.2bNefR
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.x4Hm34
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OWay2l
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-solo-2.2.0
@@ -215,10 +215,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
 https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                        [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                        [               ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                        [                  ===                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                  1.1 kB/s | 4.5 kB     00:03    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [                     ===                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                          [                        ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                          [                           ===                                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                    1.7 kB/s | 4.5 kB     00:02    
-Extra Packages for Enterprise Linux 9 - x86_64                              [                              ===                                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        119 kB/s |  27 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         52 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -264,7 +264,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.feq0h7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rBU049
 + umask 022
 + cd /builddir/build/BUILD
 + cd django-solo-2.2.0
@@ -334,52 +334,539 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 4.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.7 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        297 kB/s |  27 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        218 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 3.2'
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-django-solo-2.2.0-1.el9.src.rpm
-Finish: build phase for python-django-solo-2.2.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-django-solo-2.2.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 5e7336e372f6401c962a32842cc9c892 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.83qa0gv8:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-solo-2.2.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+======================================================================================================================================================================================
+ Package                                      Architecture                    Version                               Repository                                                   Size
+======================================================================================================================================================================================
+Installing:
+ [1mpython3.11-django                           [m noarch                          4.2.6-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                          5.6 M
+Installing dependencies:
+ [1mpython3.11-asgiref                          [m noarch                          3.7.2-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                           55 k
+ [1mpython3.11-sqlparse                         [m noarch                          0.4.4-1.el9                           _opt_awxrpmv2_rpmbuilds_2410_RPMS_                          100 k
+
+Transaction Summary
+======================================================================================================================================================================================
+Install  3 Packages
+
+Total size: 5.8 M
+Installed size: 30 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==================================================                                                                                                       ] 1/1  Preparing        :  [====================================================================================================                                                     ] 1/1  Preparing        :                                                                                                                                                              1/1 
+  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [                                                                                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=                                                                                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==                                                                                                                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [============                                                                                                       ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=============                                                                                                      ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================                                                                                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================                                                                                         ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================                                                                                    ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================                                                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================                                                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================                                                                                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [====================================                                                                               ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================                                                                              ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================                                                                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================================                                                                          ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===========================================                                                                        ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [====================================================                                                               ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=======================================================                                                            ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==============================================================                                                     ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===============================================================                                                    ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================                                                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================                                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================                                                ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=======================================================================                                            ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================                                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [===================================================================================                                ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=====================================================================================                              ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================================================================================                             ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================================================================                           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=========================================================================================                          ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================================================                   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================================                  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==================================================================================================                 ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [======================================================================================================             ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [========================================================================================================           ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [==========================================================================================================         ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [================================================================================================================   ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch [=================================================================================================================  ] 1/3  Installing       : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                       1/3 
+  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [                                                                                                                    ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=                                                                                                                   ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======                                                                                                              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==========                                                                                                          ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=============                                                                                                       ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================                                                                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================                                                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================                                                                     ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=================================================                                                                   ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================                                                               ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [========================================================                                                            ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======================================================================                                              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=========================================================================                                           ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===========================================================================                                         ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================================================                                      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===================================================================================                                 ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [====================================================================================                                ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=====================================================================================                               ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [=========================================================================================                           ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [===============================================================================================                     ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==================================================================================================                  ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [======================================================================================================              ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==============================================================================================================      ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch [==================================================================================================================  ] 2/3  Installing       : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                        2/3 
+  Installing       : python3.11-django-4.2.6-1.el9.noarch [                                                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=                                                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==                                                                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===                                                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====                                                                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====                                                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======                                                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========                                                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========                                                                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========                                                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========                                                                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============                                                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============                                                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============                                                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================                                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================                                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================                                                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================                                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================                                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================                                                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================                                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================                                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================                                                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================                                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================                                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================                                                                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================                                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================                                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================                                                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================                                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================                                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================                                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================                                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================                                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================                                                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================                                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================                                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================                                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================                                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================                                                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================                                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================                                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================                                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================                                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================                                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================                                                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================                                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================                                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================                                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================                                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================                                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================                                                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================                                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================                                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================                                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================                                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================                                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================                                                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================                                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================                                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================                                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================                                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================                                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================                                            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================                                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================                                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================                                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================                                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================                                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================================                                     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================                                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================                                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================================                                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================                                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================                               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=======================================================================================                              ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================                             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================================                           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================                          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================                         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================                        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==============================================================================================                       ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================================                      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================================                    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================================                   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================================                  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [====================================================================================================                 ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=====================================================================================================                ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [======================================================================================================               ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [========================================================================================================             ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=========================================================================================================            ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==========================================================================================================           ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===========================================================================================================          ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [============================================================================================================         ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=============================================================================================================        ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===============================================================================================================      ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [================================================================================================================     ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [=================================================================================================================    ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [==================================================================================================================   ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch [===================================================================================================================  ] 3/3  Installing       : python3.11-django-4.2.6-1.el9.noarch                                                                                                                         3/3 
+  Running scriptlet: python3.11-django-4.2.6-1.el9.noarch                                                                                                                         3/3 
+  Verifying        : python3.11-asgiref-3.7.2-1.el9.noarch                                                                                                                        1/3 
+  Verifying        : python3.11-django-4.2.6-1.el9.noarch                                                                                                                         2/3 
+  Verifying        : python3.11-sqlparse-0.4.4-1.el9.noarch                                                                                                                       3/3 
+Installed products updated.
+
+Installed:
+  python3.11-asgiref-3.7.2-1.el9.noarch                       python3.11-django-4.2.6-1.el9.noarch                       python3.11-sqlparse-0.4.4-1.el9.noarch                      
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1711756800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PfhXsh
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-solo-2.2.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing django_solo.egg-info/PKG-INFO
+writing dependency_links to django_solo.egg-info/dependency_links.txt
+writing requirements to django_solo.egg-info/requires.txt
+writing top-level names to django_solo.egg-info/top_level.txt
+reading manifest file 'django_solo.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_solo.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing django_solo.egg-info/PKG-INFO
+writing dependency_links to django_solo.egg-info/dependency_links.txt
+writing requirements to django_solo.egg-info/requires.txt
+writing top-level names to django_solo.egg-info/top_level.txt
+reading manifest file 'django_solo.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_solo.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-solo-2.2.0/django_solo-2.2.0.dist-info'
+Handling django >=3.2 from hook generated metadata: Requires-Dist (django-solo)
+Requirement satisfied: django >=3.2
+   (installed: django 4.2.6)
++ cat /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv django_solo-2.2.0.dist-info/
+removed 'django_solo-2.2.0.dist-info/top_level.txt'
+removed 'django_solo-2.2.0.dist-info/METADATA'
+removed 'django_solo-2.2.0.dist-info/LICENSE'
+removed directory 'django_solo-2.2.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-django-solo-2.2.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.7 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                                                                                      15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                                                                        297 kB/s |  27 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.1 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         53 kB/s |  27 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
-No matching package to install: 'python3.11dist(django) >= 3.2'
+Package python3.11-django-4.2.6-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1711756800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.F7amW1
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-solo-2.2.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir --output /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing django_solo.egg-info/PKG-INFO
+writing dependency_links to django_solo.egg-info/dependency_links.txt
+writing requirements to django_solo.egg-info/requires.txt
+writing top-level names to django_solo.egg-info/top_level.txt
+reading manifest file 'django_solo.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_solo.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing django_solo.egg-info/PKG-INFO
+writing dependency_links to django_solo.egg-info/dependency_links.txt
+writing requirements to django_solo.egg-info/requires.txt
+writing top-level names to django_solo.egg-info/top_level.txt
+reading manifest file 'django_solo.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'django_solo.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/django-solo-2.2.0/django_solo-2.2.0.dist-info'
+Handling django >=3.2 from hook generated metadata: Requires-Dist (django-solo)
+Requirement satisfied: django >=3.2
+   (installed: django 4.2.6)
++ cat /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-buildrequires
++ rm -rfv django_solo-2.2.0.dist-info/
+removed 'django_solo-2.2.0.dist-info/top_level.txt'
+removed 'django_solo-2.2.0.dist-info/METADATA'
+removed 'django_solo-2.2.0.dist-info/LICENSE'
+removed directory 'django_solo-2.2.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.7Bu9I6
++ umask 022
++ cd /builddir/build/BUILD
++ cd django-solo-2.2.0
++ mkdir -p /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir
+Processing /builddir/build/BUILD/django-solo-2.2.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info
+  writing /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-modern-metadata-xwdvajo5/django_solo-2.2.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: django-solo
+  Building wheel for django-solo (pyproject.toml): started
+  Running command Building wheel for django-solo (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/solo
+  copying solo/__init__.py -> build/lib/solo
+  copying solo/admin.py -> build/lib/solo
+  copying solo/apps.py -> build/lib/solo
+  copying solo/models.py -> build/lib/solo
+  copying solo/settings.py -> build/lib/solo
+  creating build/lib/solo/templatetags
+  copying solo/templatetags/__init__.py -> build/lib/solo/templatetags
+  copying solo/templatetags/solo_tags.py -> build/lib/solo/templatetags
+  creating build/lib/solo/tests
+  copying solo/tests/__init__.py -> build/lib/solo/tests
+  copying solo/tests/models.py -> build/lib/solo/tests
+  copying solo/tests/settings.py -> build/lib/solo/tests
+  copying solo/tests/tests.py -> build/lib/solo/tests
+  running egg_info
+  writing django_solo.egg-info/PKG-INFO
+  writing dependency_links to django_solo.egg-info/dependency_links.txt
+  writing requirements to django_solo.egg-info/requires.txt
+  writing top-level names to django_solo.egg-info/top_level.txt
+  reading manifest file 'django_solo.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'django_solo.egg-info/SOURCES.txt'
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'solo.locale.de.LC_MESSAGES' is absent from the `packages` configuration.
+  !!
 
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'solo.locale.de.LC_MESSAGES' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'solo.locale.de.LC_MESSAGES' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'solo.locale.de.LC_MESSAGES' to be distributed and are
+          already explicitly excluding 'solo.locale.de.LC_MESSAGES' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'solo.locale.es.LC_MESSAGES' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'solo.locale.es.LC_MESSAGES' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'solo.locale.es.LC_MESSAGES' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'solo.locale.es.LC_MESSAGES' to be distributed and are
+          already explicitly excluding 'solo.locale.es.LC_MESSAGES' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:207: _Warning: Package 'solo.templates.admin.solo' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'solo.templates.admin.solo' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'solo.templates.admin.solo' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'solo.templates.admin.solo' to be distributed and are
+          already explicitly excluding 'solo.templates.admin.solo' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib/solo/locale
+  creating build/lib/solo/locale/de
+  creating build/lib/solo/locale/de/LC_MESSAGES
+  copying solo/locale/de/LC_MESSAGES/django.mo -> build/lib/solo/locale/de/LC_MESSAGES
+  copying solo/locale/de/LC_MESSAGES/django.po -> build/lib/solo/locale/de/LC_MESSAGES
+  creating build/lib/solo/locale/es
+  creating build/lib/solo/locale/es/LC_MESSAGES
+  copying solo/locale/es/LC_MESSAGES/django.mo -> build/lib/solo/locale/es/LC_MESSAGES
+  copying solo/locale/es/LC_MESSAGES/django.po -> build/lib/solo/locale/es/LC_MESSAGES
+  creating build/lib/solo/templates
+  creating build/lib/solo/templates/admin
+  creating build/lib/solo/templates/admin/solo
+  copying solo/templates/admin/solo/change_form.html -> build/lib/solo/templates/admin/solo
+  copying solo/templates/admin/solo/object_history.html -> build/lib/solo/templates/admin/solo
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/solo
+  copying build/lib/solo/__init__.py -> build/bdist.linux-x86_64/wheel/solo
+  copying build/lib/solo/admin.py -> build/bdist.linux-x86_64/wheel/solo
+  copying build/lib/solo/apps.py -> build/bdist.linux-x86_64/wheel/solo
+  copying build/lib/solo/models.py -> build/bdist.linux-x86_64/wheel/solo
+  copying build/lib/solo/settings.py -> build/bdist.linux-x86_64/wheel/solo
+  creating build/bdist.linux-x86_64/wheel/solo/templatetags
+  copying build/lib/solo/templatetags/__init__.py -> build/bdist.linux-x86_64/wheel/solo/templatetags
+  copying build/lib/solo/templatetags/solo_tags.py -> build/bdist.linux-x86_64/wheel/solo/templatetags
+  creating build/bdist.linux-x86_64/wheel/solo/tests
+  copying build/lib/solo/tests/__init__.py -> build/bdist.linux-x86_64/wheel/solo/tests
+  copying build/lib/solo/tests/models.py -> build/bdist.linux-x86_64/wheel/solo/tests
+  copying build/lib/solo/tests/settings.py -> build/bdist.linux-x86_64/wheel/solo/tests
+  copying build/lib/solo/tests/tests.py -> build/bdist.linux-x86_64/wheel/solo/tests
+  creating build/bdist.linux-x86_64/wheel/solo/locale
+  creating build/bdist.linux-x86_64/wheel/solo/locale/de
+  creating build/bdist.linux-x86_64/wheel/solo/locale/de/LC_MESSAGES
+  copying build/lib/solo/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/solo/locale/de/LC_MESSAGES
+  copying build/lib/solo/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/solo/locale/de/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/solo/locale/es
+  creating build/bdist.linux-x86_64/wheel/solo/locale/es/LC_MESSAGES
+  copying build/lib/solo/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/wheel/solo/locale/es/LC_MESSAGES
+  copying build/lib/solo/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/wheel/solo/locale/es/LC_MESSAGES
+  creating build/bdist.linux-x86_64/wheel/solo/templates
+  creating build/bdist.linux-x86_64/wheel/solo/templates/admin
+  creating build/bdist.linux-x86_64/wheel/solo/templates/admin/solo
+  copying build/lib/solo/templates/admin/solo/change_form.html -> build/bdist.linux-x86_64/wheel/solo/templates/admin/solo
+  copying build/lib/solo/templates/admin/solo/object_history.html -> build/bdist.linux-x86_64/wheel/solo/templates/admin/solo
+  running install_egg_info
+  Copying django_solo.egg-info to build/bdist.linux-x86_64/wheel/django_solo-2.2.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/django_solo-2.2.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir/pip-wheel-lk8z_9be/.tmp-dy10cepu/django_solo-2.2.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'solo/__init__.py'
+  adding 'solo/admin.py'
+  adding 'solo/apps.py'
+  adding 'solo/models.py'
+  adding 'solo/settings.py'
+  adding 'solo/locale/de/LC_MESSAGES/django.mo'
+  adding 'solo/locale/de/LC_MESSAGES/django.po'
+  adding 'solo/locale/es/LC_MESSAGES/django.mo'
+  adding 'solo/locale/es/LC_MESSAGES/django.po'
+  adding 'solo/templates/admin/solo/change_form.html'
+  adding 'solo/templates/admin/solo/object_history.html'
+  adding 'solo/templatetags/__init__.py'
+  adding 'solo/templatetags/solo_tags.py'
+  adding 'solo/tests/__init__.py'
+  adding 'solo/tests/models.py'
+  adding 'solo/tests/settings.py'
+  adding 'solo/tests/tests.py'
+  adding 'django_solo-2.2.0.dist-info/LICENSE'
+  adding 'django_solo-2.2.0.dist-info/METADATA'
+  adding 'django_solo-2.2.0.dist-info/WHEEL'
+  adding 'django_solo-2.2.0.dist-info/top_level.txt'
+  adding 'django_solo-2.2.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for django-solo (pyproject.toml): finished with status 'done'
+  Created wheel for django-solo: filename=django_solo-2.2.0-py3-none-any.whl size=15585 sha256=dd333f4b41b6c79f89264098a1e22e9aa12d443881f830b7a0affc638d725c23
+  Stored in directory: /builddir/.cache/pip/wheels/45/65/25/5dd04a16fb6a8a2b127a9fd966f58f5d1aef911959d88b1771
+Successfully built django-solo
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.SRgZ1F
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64
++ cd django-solo-2.2.0
+++ ls /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir/django_solo-2.2.0-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=django_solo==2.2.0
++ TMPDIR=/builddir/build/BUILD/django-solo-2.2.0/.pyproject-builddir
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir django_solo==2.2.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/django-solo-2.2.0/pyproject-wheeldir
+Processing ./pyproject-wheeldir/django_solo-2.2.0-py3-none-any.whl
+Installing collected packages: django_solo
+Successfully installed django_solo-2.2.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/RECORD --output /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/django_solo-2.2.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-files --output-modules /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-django-solo-2.2.0-1.el9.x86_64-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2.2.0-1.el9 --unique-debug-suffix -2.2.0-1.el9.x86_64 --unique-debug-src-base python-django-solo-2.2.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/django-solo-2.2.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-django-solo-2.2.0-1.el9.noarch
+Provides: python3.11-django-solo = 2.2.0-1.el9 python3.11dist(django-solo) = 2.2
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(django) >= 3.2
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-django-solo-2.2.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-django-solo-2.2.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-django-solo-2.2.0-1.el9.noarch.rpm
+Finish: rpmbuild python-django-solo-2.2.0-1.el9.src.rpm
+Finish: build phase for python-django-solo-2.2.0-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-django-solo-2.2.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 32 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 169 packages
+Directory walk done - 178 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
