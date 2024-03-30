@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
+The lastest package built was python-pycares-4.4.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:48:20 PM CET 2024
+The build completed at Sat Mar 30 11:50:25 PM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
@@ -162,6 +162,7 @@ python3.11-psutil-5.9.8-1.el9 | python-psutil-5.9.8-1.el9.src.rpm | Built | [Log
 python3.11-psycopg-3.1.18-1.el9 | python-psycopg-3.1.18-1.el9.src.rpm | Built | [Log](logs/python-psycopg-3.1.18-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.5.1-1.el9.src.rpm.log)
+python3.11-pycares-4.4.0-1.el9 | python-pycares-4.4.0-1.el9.src.rpm | Built | [Log](logs/python-pycares-4.4.0-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
@@ -223,4 +224,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-213 total packages, 152 packages built successfully, 61 packages left to fix
+214 total packages, 153 packages built successfully, 61 packages left to fix
