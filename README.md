@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:17:59 PM CET 2024
+The build completed at Sat Mar 30 11:19:25 PM CET 2024
 
 The build was unsuccessful.
 
