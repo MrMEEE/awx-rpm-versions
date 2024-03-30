@@ -47,7 +47,7 @@ python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm 
 python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
 python3.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | Built | [Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
 python3.11-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
-python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | **Missing** |
+python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | **Missing** | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
