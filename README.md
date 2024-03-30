@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jsonschema-specifications-2023.12.1-1.el9.src.rpm
+The lastest package built was python-keyring-25.0.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 04:57:21 PM CET 2024
+The build completed at Sat Mar 30 04:57:59 PM CET 2024
 
 The build was unsuccessful.
 
