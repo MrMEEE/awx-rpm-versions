@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-requests-2.31.0-1.el9.src.rpm
+The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:01:57 PM CET 2024
+The build completed at Sat Mar 30 11:03:06 PM CET 2024
 
 The build was unsuccessful.
 
