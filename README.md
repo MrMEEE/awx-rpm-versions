@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-tempora-5.5.1-1.el9.src.rpm
+The lastest package built was python-tomlkit-0.12.4-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:13:23 PM CET 2024
+The build completed at Sat Mar 30 05:14:02 PM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
@@ -197,7 +197,7 @@ python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | 
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
-python3.11-tomlkit-0.12.4-1.el9 | python-tomlkit-0.12.4-1.el9.src.rpm | **Missing** |
+python3.11-tomlkit-0.12.4-1.el9 | python-tomlkit-0.12.4-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.4-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | Built | [Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
 python3.11-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.0.0-1.el9.src.rpm.log)
@@ -217,4 +217,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-207 total packages, 140 packages built successfully, 67 packages left to fix
+207 total packages, 141 packages built successfully, 66 packages left to fix
