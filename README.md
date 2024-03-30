@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
+The lastest package built was python-jinja2-3.1.3-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:49:07 PM CET 2024
+The build completed at Sat Mar 30 05:49:37 PM CET 2024
 
 The build was unsuccessful.
 
