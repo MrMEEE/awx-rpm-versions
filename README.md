@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-ntlm-1.1.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 12:54:36 AM CET 2024
+The build completed at Sun Mar 31 12:56:34 AM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
