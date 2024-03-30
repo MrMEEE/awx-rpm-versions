@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-channels-redis-3.4.1-1.el9.src.rpm
+The lastest package built was python-charset-normalizer-3.3.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:37:52 PM CET 2024
+The build completed at Sat Mar 30 05:38:31 PM CET 2024
 
 The build was unsuccessful.
 
