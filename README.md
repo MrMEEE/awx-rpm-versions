@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
+The lastest package built was python-aiodns-3.1.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:29:22 PM CET 2024
+The build completed at Sat Mar 30 07:29:50 PM CET 2024
 
 The build was unsuccessful.
 
@@ -12,7 +12,7 @@ Package | Source RPM | Status | Log
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
-python3.11-aiodns-3.1.1-1.el9 | python-aiodns-3.1.1-1.el9.src.rpm | **Missing** |
+python3.11-aiodns-3.1.1-1.el9 | python-aiodns-3.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-aiodns-3.1.1-1.el9.src.rpm.log)
 python3.11-aiohttp-3.9.3-1.el9 | python-aiohttp-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3.11-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
