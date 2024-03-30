@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-inflect-7.0.0-1.el9.src.rpm
+The lastest package built was python-irc-20.3.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:45:07 PM CET 2024
+The build completed at Sat Mar 30 05:45:50 PM CET 2024
 
 The build was unsuccessful.
 
