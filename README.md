@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-parsley-1.3-1.el9.src.rpm
+The lastest package built was python-bindep-2.11.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 12:04:48 AM CET 2024
+The build completed at Sun Mar 31 12:05:56 AM CET 2024
 
 The build was successful.
 
-[Build Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -39,7 +39,7 @@ python3.11-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certi
 python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
 python3.11-bcrypt-4.1.2-1.el9 | python-bcrypt-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-bcrypt-4.1.2-1.el9.src.rpm.log)
-python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
+python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | Built | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 python3.11-blinker-1.7.0-1.el9 | python-blinker-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.7.0-1.el9.src.rpm.log)
 python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
@@ -225,4 +225,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-215 total packages, 160 packages built successfully, 55 packages left to fix
+215 total packages, 161 packages built successfully, 54 packages left to fix
