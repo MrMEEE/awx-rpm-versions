@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-secretstorage-3.3.3-1.el9.src.rpm
+The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:15:26 PM CET 2024
+The build completed at Sat Mar 30 09:15:58 PM CET 2024
 
 The build was unsuccessful.
 
