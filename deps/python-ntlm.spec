@@ -53,7 +53,6 @@ Summary:        %{summary}
 
 
 %files -n python%{python3_pkgversion}-python-ntlm 
-#-f %{pyproject_files}
 %{python3_sitelib}/ntlm
 %{python3_sitelib}/python_ntlm-1.1.0.dist-info
 /usr/bin/ntlm_example_extended
