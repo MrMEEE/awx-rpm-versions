@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jaraco-logging-3.3.0-1.el9.src.rpm
+The lastest package built was python-jaraco-text-3.12.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:47:53 PM CET 2024
+The build completed at Sat Mar 30 05:48:32 PM CET 2024
 
 The build was unsuccessful.
 
