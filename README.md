@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-portalocker-2.8.2-1.el9.src.rpm
+The lastest package built was python-prometheus-client-0.20.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:37:57 PM CET 2024
+The build completed at Sat Mar 30 06:38:30 PM CET 2024
 
 The build was unsuccessful.
 
