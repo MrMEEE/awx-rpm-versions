@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
+The lastest package built was python-slack-sdk-3.27.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:44:33 PM CET 2024
+The build completed at Sat Mar 30 06:45:03 PM CET 2024
 
 The build was unsuccessful.
 
