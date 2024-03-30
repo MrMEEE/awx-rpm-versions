@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jaraco-text-3.12.0-1.el9.src.rpm
+The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:48:32 PM CET 2024
+The build completed at Sat Mar 30 05:49:07 PM CET 2024
 
 The build was unsuccessful.
 
@@ -111,7 +111,7 @@ python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.sr
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
-python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
+python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
