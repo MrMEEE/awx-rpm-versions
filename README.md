@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-msrestazure-0.6.4-1.el9.src.rpm
+The lastest package built was python-netaddr-1.2.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:11:03 PM CET 2024
+The build completed at Sat Mar 30 07:11:43 PM CET 2024
 
 The build was unsuccessful.
 
