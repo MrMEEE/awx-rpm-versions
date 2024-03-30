@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-keyring-25.0.0-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:55:44 PM CET 2024
+The build completed at Sat Mar 30 11:56:33 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
