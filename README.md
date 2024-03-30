@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
+The lastest package built was python-gitpython-3.1.42-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:00:38 PM CET 2024
+The build completed at Sat Mar 30 07:01:35 PM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
