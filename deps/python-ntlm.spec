@@ -44,12 +44,7 @@ Summary:        %{summary}
 
 %check
 
-
 %files -n python%{python3_pkgversion}-python-ntlm 
-%{python3_sitelib}/ntlm
-%{python3_sitelib}/python_ntlm-1.1.0.dist-info
-/usr/bin/ntlm_example_extended
-/usr/bin/ntlm_example_simple
 
 %changelog
 %autochangelog
