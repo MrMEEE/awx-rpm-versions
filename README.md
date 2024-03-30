@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-fastjsonschema-2.19.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:30:16 PM CET 2024
+The build completed at Sat Mar 30 05:33:16 PM CET 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
@@ -84,7 +84,7 @@ python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | 
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
-python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | **Missing** | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
+python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
 python3.11-future-1.0.0-1.el9 | python-future-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-future-1.0.0-1.el9.src.rpm.log)
@@ -220,4 +220,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-210 total packages, 141 packages built successfully, 69 packages left to fix
+210 total packages, 142 packages built successfully, 68 packages left to fix
