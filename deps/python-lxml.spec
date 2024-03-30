@@ -14,7 +14,7 @@ Source:         %{pypi_source lxml}
 
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
+BuildRequires:  gcc libxml2-devel libxslt-devel
 
 
 # Fill in the actual package description to submit package to Fedora
