@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-tacacs-plus-1.0-1.el9.src.rpm
+The lastest package built was python-tempora-5.5.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:54:20 PM CET 2024
+The build completed at Sat Mar 30 09:54:50 PM CET 2024
 
 The build was unsuccessful.
 
