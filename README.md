@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jaraco-classes-3.3.1-1.el9.src.rpm
+The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:25:40 PM CET 2024
+The build completed at Sat Mar 30 06:26:20 PM CET 2024
 
 The build was unsuccessful.
 
