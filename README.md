@@ -144,7 +144,7 @@ python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | 
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
-python3.11-pyhamcrest-2.1.0-1.el9 | python-pyhamcrest-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
+python3.11-pyhamcrest-2.1.0-1.el9 | python-pyhamcrest-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
 python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.8.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
@@ -196,4 +196,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-194 total packages, 111 packages built successfully, 83 packages left to fix
+194 total packages, 112 packages built successfully, 82 packages left to fix
