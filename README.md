@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
+The lastest package built was python-jaraco-logging-3.3.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:59:56 PM CET 2024
+The build completed at Sat Mar 30 09:00:39 PM CET 2024
 
 The build was unsuccessful.
 
