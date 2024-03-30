@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
+The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:53:41 PM CET 2024
+The build completed at Sat Mar 30 07:54:11 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
