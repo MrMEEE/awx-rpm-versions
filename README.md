@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-irc-20.3.1-1.el9.src.rpm
+The lastest package built was python-jaraco-classes-3.3.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:03:01 PM CET 2024
+The build completed at Sat Mar 30 07:03:40 PM CET 2024
 
 The build was unsuccessful.
 
