@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-urllib3-1.26.18-1.el9.src.rpm
+The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
 
-The build completed at Sat Mar 30 09:19:47 PM CET 2024
+The build completed at Sat Mar 30 09:20:47 PM CET 2024
 
 The build was unsuccessful.
 
