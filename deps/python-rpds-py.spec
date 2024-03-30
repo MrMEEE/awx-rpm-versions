@@ -15,7 +15,8 @@ Source:         %{pypi_source rpds_py}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:	rust
+BuildRequires:	cargo
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
