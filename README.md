@@ -1,10 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
+The lastest package built was python-bindep-2.11.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 04:42:45 PM CET 2024
+The build completed at Sat Mar 30 04:43:19 PM CET 2024
 
 The build was unsuccessful.
 
+Build [Log](logs/.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -37,7 +38,7 @@ python3.11-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certi
 python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
 python3.11-bcrypt-4.1.2-1.el9 | python-bcrypt-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-bcrypt-4.1.2-1.el9.src.rpm.log)
-python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | **Missing** |
+python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
