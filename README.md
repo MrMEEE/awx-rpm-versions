@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
+The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:29:07 PM CET 2024
+The build completed at Sat Mar 30 05:29:44 PM CET 2024
 
 The build was unsuccessful.
 
@@ -182,6 +182,7 @@ python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | **Missin
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
+python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | **Missing** |
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 python3.11-setuptools-69.0.2-1.el9 | python-setuptools-69.0.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-69.0.2-1.el9.src.rpm.log)
@@ -219,4 +220,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-209 total packages, 141 packages built successfully, 68 packages left to fix
+210 total packages, 141 packages built successfully, 69 packages left to fix
