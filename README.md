@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.25.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:18:10 PM CET 2024
+The build completed at Sat Mar 30 05:18:44 PM CET 2024
 
 The build was unsuccessful.
 
@@ -209,7 +209,7 @@ python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.24-1.el9 | python-uwsgi-2.0.24-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
-python3.11-virtualenv-20.25.1-1.el9 | python-virtualenv-20.25.1-1.el9.src.rpm | **Missing** |
+python3.11-virtualenv-20.25.1-1.el9 | python-virtualenv-20.25.1-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.25.1-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-wheel-0.43.0-1.el9 | python-wheel-0.43.0-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.43.0-1.el9.src.rpm.log)
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
