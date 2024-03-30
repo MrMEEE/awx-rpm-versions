@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
+The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 04:39:25 PM CET 2024
+The build completed at Sat Mar 30 04:40:00 PM CET 2024
 
 The build was unsuccessful.
 
