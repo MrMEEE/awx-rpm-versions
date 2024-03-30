@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
+The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:02:17 PM CET 2024
+The build completed at Sat Mar 30 05:02:46 PM CET 2024
 
 The build was unsuccessful.
 
