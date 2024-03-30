@@ -75,7 +75,7 @@ python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Miss
 python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.11-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
-python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
+python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.22.4-1.el9 | python-hatchling-1.22.4-1.el9.src.rpm | **Missing** | [Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
@@ -190,4 +190,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-188 total packages, 82 packages built successfully, 106 packages left to fix
+188 total packages, 83 packages built successfully, 105 packages left to fix
