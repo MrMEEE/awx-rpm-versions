@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
+The lastest package built was python-bindep-2.11.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:49:58 PM CET 2024
+The build completed at Sat Mar 30 08:50:37 PM CET 2024
 
 The build was unsuccessful.
 
