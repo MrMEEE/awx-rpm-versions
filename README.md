@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-pyrad-2.4-1.el9.src.rpm
+The lastest package built was python-readme-renderer-43.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:01:16 PM CET 2024
+The build completed at Sat Mar 30 06:01:56 PM CET 2024
 
 The build was unsuccessful.
 
