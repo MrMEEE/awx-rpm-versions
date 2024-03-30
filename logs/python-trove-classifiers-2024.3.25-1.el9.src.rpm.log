@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 12 MB/s |  70 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 19 MB/s |  84 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         73 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         59 kB/s |  31 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                    Architecture          Version                          Repository                                                                    Size
@@ -163,7 +163,7 @@ Start: rpmbuild python-trove-classifiers-2024.3.25-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.i5zuI8
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.f9iJDa
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -177,7 +177,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.i5zuI8
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.epUjRA
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5zgKE4
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -212,11 +212,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      22 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        250 kB/s |  32 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            12 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        338 kB/s |  31 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -256,7 +256,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Qgorps
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6fVGBS
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -295,11 +295,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.1 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                     100% [=======================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     13 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        344 kB/s |  32 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         61 kB/s |  31 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -340,7 +340,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rHRyiF
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8tH0nu
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -387,10 +387,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
 https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      14 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        339 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        264 kB/s |  31 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -400,38 +400,37 @@ Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Dependencies resolved.
 ======================================================================================================================================================================================
- Package                                          Architecture                           Version                                      Repository                                 Size
+ Package                                   Architecture                    Version                                  Repository                                                   Size
 ======================================================================================================================================================================================
 Installing:
- [1mpython3.11-wheel                                [m noarch                                 0.38.4-3.el9                                 appstream                                 109 k
+ [1mpython3.11-wheel                         [m noarch                          0.43.0-1.el9                             _opt_awxrpmv2_rpmbuilds_2410_RPMS_                          149 k
 
 Transaction Summary
 ======================================================================================================================================================================================
 Install  1 Package
 
-Total size: 109 k
-Installed size: 290 k
+Total size: 149 k
+Installed size: 546 k
 Downloading Packages:
-[SKIPPED] python3.11-wheel-0.38.4-3.el9.noarch.rpm: Already downloaded                                                                                                               
 Running transaction check
 Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :                                                                                                                                                              1/1 
-  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [                                                                                                                     ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=                                                                                                                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==                                                                                                                   ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========                                                                                                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================                                                                                               ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================                                                                                         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================                                                                                  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================================                                                                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================                                                                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==============================================                                                                       ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=================================================                                                                    ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================                                                               ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [========================================================                                                             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================================                                                            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==============================================================                                                       ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==================================================================                                                   ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================================================                                               ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================================================                                            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================================================================                                        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================================================================                                      ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================================================================================                                ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=======================================================================================                              ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [========================================================================================                             ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==========================================================================================                           ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================================================================                          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================================================================================                        ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==================================================================================================                   ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================================================================================                 ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================================================================================            ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================================================================================          ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================================================================================================         ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================================================================================================  ] 1/1  Installing       : python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                         1/1 
-  Running scriptlet: python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                         1/1 
-  Verifying        : python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                         1/1 
+  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [                                                                                                                     ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=                                                                                                                    ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=====                                                                                                                ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===========                                                                                                          ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===============                                                                                                      ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==================                                                                                                   ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=======================                                                                                              ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [========================                                                                                             ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=========================                                                                                            ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==========================                                                                                           ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=============================                                                                                        ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==============================                                                                                       ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===============================                                                                                      ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===================================                                                                                  ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [====================================                                                                                 ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [======================================                                                                               ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [========================================                                                                             ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==========================================                                                                           ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===========================================                                                                          ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [============================================                                                                         ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==============================================                                                                       ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=================================================                                                                    ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===================================================                                                                  ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=====================================================                                                                ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [======================================================                                                               ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [========================================================                                                             ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=========================================================                                                            ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==========================================================                                                           ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===========================================================                                                          ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [============================================================                                                         ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==================================================================                                                   ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=====================================================================                                                ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [========================================================================                                             ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=========================================================================                                            ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=============================================================================                                        ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==============================================================================                                       ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===============================================================================                                      ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [================================================================================                                     ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=================================================================================                                    ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [====================================================================================                                 ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=====================================================================================                                ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=======================================================================================                              ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [========================================================================================                             ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==========================================================================================                           ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===========================================================================================                          ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [==============================================================================================                       ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===============================================================================================                      ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=================================================================================================                    ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [======================================================================================================               ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=========================================================================================================            ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [=============================================================================================================        ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [================================================================================================================     ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch [===================================================================================================================  ] 1/1  Installing       : python3.11-wheel-0.43.0-1.el9.noarch                                                                                                                         1/1 
+  Running scriptlet: python3.11-wheel-0.43.0-1.el9.noarch                                                                                                                         1/1 
+  Verifying        : python3.11-wheel-0.43.0-1.el9.noarch                                                                                                                         1/1 
 Installed products updated.
 
 Installed:
-  python3.11-wheel-0.38.4-3.el9.noarch                                                                                                                                                
+  python3.11-wheel-0.43.0-1.el9.noarch                                                                                                                                                
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.EaDVvg
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Q8t7eP
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -459,7 +458,7 @@ Requirement satisfied: calver
    (installed: calver 2022.6.26)
 Handling wheel from get_requires_for_build_wheel
 Requirement satisfied: wheel
-   (installed: wheel 0.38.4)
+   (installed: wheel 0.43.0)
 Handling calver from get_requires_for_build_wheel
 Requirement satisfied: calver
    (installed: calver 2022.6.26)
@@ -492,11 +491,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        342 kB/s |  32 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        336 kB/s |  31 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -504,14 +503,14 @@ Package python3.11-calver-2022.6.26-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
-Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
 Dependencies resolved.
 Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.IXNvUz
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nKxn5C
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -539,7 +538,7 @@ Requirement satisfied: calver
    (installed: calver 2022.6.26)
 Handling wheel from get_requires_for_build_wheel
 Requirement satisfied: wheel
-   (installed: wheel 0.38.4)
+   (installed: wheel 0.43.0)
 Handling calver from get_requires_for_build_wheel
 Requirement satisfied: calver
    (installed: calver 2022.6.26)
@@ -561,7 +560,7 @@ removed directory 'trove_classifiers-2024.3.25.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.1M8mI9
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.qhytIi
 + umask 022
 + cd /builddir/build/BUILD
 + cd trove-classifiers-2024.3.25
@@ -574,16 +573,16 @@ Processing /builddir/build/BUILD/trove-classifiers-2024.3.25
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info
-  writing /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info
+  writing /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-qxb0cb0r/trove_classifiers-2024.3.25.dist-info'
+  writing manifest file '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-modern-metadata-1sbj_2q5/trove_classifiers-2024.3.25.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: trove-classifiers
   Building wheel for trove-classifiers (pyproject.toml): started
@@ -618,7 +617,7 @@ Building wheels for collected packages: trove-classifiers
   Copying src/trove_classifiers.egg-info to build/bdist.linux-x86_64/wheel/trove_classifiers-2024.3.25-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/trove_classifiers-2024.3.25.dist-info/WHEEL
-  creating '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-wheel-j2pjnndj/.tmp-ygw8f5ne/trove_classifiers-2024.3.25-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/trove-classifiers-2024.3.25/.pyproject-builddir/pip-wheel-vzq4mv5g/.tmp-0_hspsrw/trove_classifiers-2024.3.25-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'trove_classifiers/__init__.py'
   adding 'trove_classifiers/__main__.py'
   adding 'trove_classifiers/py.typed'
@@ -629,13 +628,13 @@ Building wheels for collected packages: trove-classifiers
   adding 'trove_classifiers-2024.3.25.dist-info/RECORD'
   removing build/bdist.linux-x86_64/wheel
   Building wheel for trove-classifiers (pyproject.toml): finished with status 'done'
-  Created wheel for trove-classifiers: filename=trove_classifiers-2024.3.25-py3-none-any.whl size=13428 sha256=afac4654c16339beb4829b502cdb6ee965220efb8ed0eb0681e7d9d354d5944a
+  Created wheel for trove-classifiers: filename=trove_classifiers-2024.3.25-py3-none-any.whl size=13427 sha256=d6976905aff727ba849c9eef6fc227fe38fbfa1340142d820a8a76075b251b6b
   Stored in directory: /builddir/.cache/pip/wheels/6f/c9/98/28738e8e5038228e3211711a17c632f31a0e1b8244a165a79e
 Successfully built trove-classifiers
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.LmsS1b
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.ExBmUQ
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-trove-classifiers-2024.3.25-1.el9.x86_64 '!=' / ']'
@@ -673,8 +672,8 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 removed '/builddir/build/BUILDROOT/python-trove-classifiers-2024.3.25-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.3.25.dist-info/RECORD'
 + rm -fv /builddir/build/BUILDROOT/python-trove-classifiers-2024.3.25-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.3.25.dist-info/REQUESTED
 removed '/builddir/build/BUILDROOT/python-trove-classifiers-2024.3.25-1.el9.x86_64/usr/lib/python3.11/site-packages/trove_classifiers-2024.3.25.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-trove-classifiers-2024.3.25-1.el9.x86_64-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
+++ wc -l /builddir/build/BUILD/python-trove-classifiers-2024.3.25-1.el9.x86_64-pyproject-ghost-distinfo
 + lines=1
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
@@ -699,11 +698,11 @@ Wrote: /builddir/build/SRPMS/python-trove-classifiers-2024.3.25-1.el9.src.rpm
 Wrote: /builddir/build/RPMS/python3.11-trove-classifiers-2024.3.25-1.el9.noarch.rpm
 Finish: rpmbuild python-trove-classifiers-2024.3.25-1.el9.src.rpm
 Finish: build phase for python-trove-classifiers-2024.3.25-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-trove-classifiers-2024.3.25-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-trove-classifiers-2024.3.25-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 34 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 88 packages
+Directory walk done - 111 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
