@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-zope-interface-6.2-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:46:10 PM CET 2024
+The build completed at Sat Mar 30 11:46:42 PM CET 2024
 
 The build was unsuccessful.
 
