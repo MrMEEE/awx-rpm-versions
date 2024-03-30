@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python3-saml
-Version:        1.14.0
+Version:        1.16.0
 Release:        %autorelease
-Summary:        Onelogin Python Toolkit. Add SAML support to your Python software using this library
+Summary:        Saml Python Toolkit. Add SAML support to your Python software using this library
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/onelogin/python3-saml
+URL:            https://github.com/SAML-Toolkits/python3-saml
 Source:         %{pypi_source python3-saml}
 
 BuildArch:      noarch
