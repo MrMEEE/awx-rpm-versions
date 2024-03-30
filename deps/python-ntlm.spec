@@ -45,14 +45,15 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
-#%pyproject_save_files '*' +auto
+%pyproject_save_files '*' +auto
 
 
 %check
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-python-ntlm -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-python-ntlm 
+#-f %{pyproject_files}
 %{python3_sitelib}/ntlm
 %{python3_sitelib}/python_ntlm-1.1.0.dist-info
 /usr/bin/ntlm_example_extended
