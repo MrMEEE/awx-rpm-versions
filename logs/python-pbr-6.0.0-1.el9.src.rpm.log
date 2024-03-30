@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                1.5 MB/s |  83 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.9 kB/s | 1.5 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 16 MB/s |  85 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        243 kB/s |  31 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        156 kB/s |  17 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                    Architecture          Version                          Repository                                                                    Size
@@ -163,7 +163,7 @@ Start: rpmbuild python-pbr-6.0.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.gp8i9a
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.wdCyOr
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -177,7 +177,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.gp8i9a
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.AdDkO0
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OeWBSo
 + umask 022
 + cd /builddir/build/BUILD
 + cd pbr-6.0.0
@@ -215,10 +215,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
 https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.0 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        314 kB/s |  31 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        141 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -264,7 +264,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Qp9IkY
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.4c1GwZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd pbr-6.0.0
@@ -354,11 +354,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         62 kB/s |  31 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 4.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           4.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                      100% [=======================================================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                      12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        187 kB/s |  17 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -372,7 +372,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YNsjQf
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WR09RC
 + umask 022
 + cd /builddir/build/BUILD
 + cd pbr-6.0.0
@@ -453,7 +453,7 @@ removed directory 'pbr-6.0.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.resPSf
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.GwwHcq
 + umask 022
 + cd /builddir/build/BUILD
 + cd pbr-6.0.0
@@ -492,20 +492,20 @@ Processing /builddir/build/BUILD/pbr-6.0.0
   !!
     self.initialize_options()
   running dist_info
-  creating /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info
-  writing /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/entry_points.txt
-  writing top-level names to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/top_level.txt
+  creating /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info
+  writing /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/entry_points.txt
+  writing top-level names to /builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/top_level.txt
   [pbr] Processing SOURCES.txt
-  writing manifest file '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/SOURCES.txt'
+  writing manifest file '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/SOURCES.txt'
   warning: no previously-included files found matching '.gitignore'
   warning: no previously-included files found matching '.gitreview'
   warning: no previously-included files matching '*.pyc' found anywhere in distribution
   adding license file 'LICENSE'
   adding license file 'AUTHORS'
-  writing manifest file '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-2h0dp90s/pbr-6.0.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-modern-metadata-a56bqg37/pbr-6.0.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: pbr
   Building wheel for pbr (pyproject.toml): started
@@ -529,21 +529,13 @@ Building wheels for collected packages: pbr
   creating build
   creating build/lib
   creating build/lib/pbr
-  creating build/lib/pbr/tests
-  copying pbr/tests/__init__.py -> build/lib/pbr/tests
-  copying pbr/tests/base.py -> build/lib/pbr/tests
-  copying pbr/tests/test_commands.py -> build/lib/pbr/tests
-  copying pbr/tests/test_core.py -> build/lib/pbr/tests
-  copying pbr/tests/test_files.py -> build/lib/pbr/tests
-  copying pbr/tests/test_hooks.py -> build/lib/pbr/tests
-  copying pbr/tests/test_integration.py -> build/lib/pbr/tests
-  copying pbr/tests/test_packaging.py -> build/lib/pbr/tests
-  copying pbr/tests/test_pbr_json.py -> build/lib/pbr/tests
-  copying pbr/tests/test_setup.py -> build/lib/pbr/tests
-  copying pbr/tests/test_util.py -> build/lib/pbr/tests
-  copying pbr/tests/test_version.py -> build/lib/pbr/tests
-  copying pbr/tests/test_wsgi.py -> build/lib/pbr/tests
-  copying pbr/tests/util.py -> build/lib/pbr/tests
+  creating build/lib/pbr/hooks
+  copying pbr/hooks/__init__.py -> build/lib/pbr/hooks
+  copying pbr/hooks/backwards.py -> build/lib/pbr/hooks
+  copying pbr/hooks/base.py -> build/lib/pbr/hooks
+  copying pbr/hooks/commands.py -> build/lib/pbr/hooks
+  copying pbr/hooks/files.py -> build/lib/pbr/hooks
+  copying pbr/hooks/metadata.py -> build/lib/pbr/hooks
   copying pbr/__init__.py -> build/lib/pbr
   copying pbr/build.py -> build/lib/pbr
   copying pbr/core.py -> build/lib/pbr
@@ -560,13 +552,21 @@ Building wheels for collected packages: pbr
   creating build/lib/pbr/cmd
   copying pbr/cmd/__init__.py -> build/lib/pbr/cmd
   copying pbr/cmd/main.py -> build/lib/pbr/cmd
-  creating build/lib/pbr/hooks
-  copying pbr/hooks/__init__.py -> build/lib/pbr/hooks
-  copying pbr/hooks/backwards.py -> build/lib/pbr/hooks
-  copying pbr/hooks/base.py -> build/lib/pbr/hooks
-  copying pbr/hooks/commands.py -> build/lib/pbr/hooks
-  copying pbr/hooks/files.py -> build/lib/pbr/hooks
-  copying pbr/hooks/metadata.py -> build/lib/pbr/hooks
+  creating build/lib/pbr/tests
+  copying pbr/tests/__init__.py -> build/lib/pbr/tests
+  copying pbr/tests/base.py -> build/lib/pbr/tests
+  copying pbr/tests/test_commands.py -> build/lib/pbr/tests
+  copying pbr/tests/test_core.py -> build/lib/pbr/tests
+  copying pbr/tests/test_files.py -> build/lib/pbr/tests
+  copying pbr/tests/test_hooks.py -> build/lib/pbr/tests
+  copying pbr/tests/test_integration.py -> build/lib/pbr/tests
+  copying pbr/tests/test_packaging.py -> build/lib/pbr/tests
+  copying pbr/tests/test_pbr_json.py -> build/lib/pbr/tests
+  copying pbr/tests/test_setup.py -> build/lib/pbr/tests
+  copying pbr/tests/test_util.py -> build/lib/pbr/tests
+  copying pbr/tests/test_version.py -> build/lib/pbr/tests
+  copying pbr/tests/test_wsgi.py -> build/lib/pbr/tests
+  copying pbr/tests/util.py -> build/lib/pbr/tests
   running egg_info
   writing pbr.egg-info/PKG-INFO
   writing dependency_links to pbr.egg-info/dependency_links.txt
@@ -858,6 +858,29 @@ Building wheels for collected packages: pbr
   creating build/bdist.linux-x86_64
   creating build/bdist.linux-x86_64/wheel
   creating build/bdist.linux-x86_64/wheel/pbr
+  creating build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/backwards.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/base.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/commands.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/files.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/hooks/metadata.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
+  copying build/lib/pbr/__init__.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/build.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/core.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/extra_files.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/find_package.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/git.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/options.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/packaging.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/pbr_json.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/sphinxext.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/testr_command.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/util.py -> build/bdist.linux-x86_64/wheel/pbr
+  copying build/lib/pbr/version.py -> build/bdist.linux-x86_64/wheel/pbr
+  creating build/bdist.linux-x86_64/wheel/pbr/cmd
+  copying build/lib/pbr/cmd/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
+  copying build/lib/pbr/cmd/main.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
   creating build/bdist.linux-x86_64/wheel/pbr/tests
   copying build/lib/pbr/tests/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/tests
   copying build/lib/pbr/tests/base.py -> build/bdist.linux-x86_64/wheel/pbr/tests
@@ -904,34 +927,11 @@ Building wheels for collected packages: pbr
   copying build/lib/pbr/tests/testpackage/pbr_testpackage/package_data/2.txt -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage/package_data
   creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/src
   copying build/lib/pbr/tests/testpackage/src/testext.c -> build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/src
-  copying build/lib/pbr/__init__.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/build.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/core.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/extra_files.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/find_package.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/git.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/options.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/packaging.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/pbr_json.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/sphinxext.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/testr_command.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/util.py -> build/bdist.linux-x86_64/wheel/pbr
-  copying build/lib/pbr/version.py -> build/bdist.linux-x86_64/wheel/pbr
-  creating build/bdist.linux-x86_64/wheel/pbr/cmd
-  copying build/lib/pbr/cmd/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
-  copying build/lib/pbr/cmd/main.py -> build/bdist.linux-x86_64/wheel/pbr/cmd
-  creating build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/__init__.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/backwards.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/base.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/commands.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/files.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/metadata.py -> build/bdist.linux-x86_64/wheel/pbr/hooks
   running install_egg_info
   Copying pbr.egg-info to build/bdist.linux-x86_64/wheel/pbr-6.0.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/pbr-6.0.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-wheel-58sfq472/.tmp-9rauz0xs/pbr-6.0.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir/pip-wheel-le2bg0qv/.tmp-tox2wvsg/pbr-6.0.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'pbr/__init__.py'
   adding 'pbr/build.py'
   adding 'pbr/core.py'
@@ -1006,7 +1006,7 @@ Successfully built pbr
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.UyS0m0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.fjK1ip
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-pbr-6.0.0-1.el9.x86_64 '!=' / ']'
@@ -1016,8 +1016,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.UyS0m0
 + mkdir /builddir/build/BUILDROOT/python-pbr-6.0.0-1.el9.x86_64
 + cd pbr-6.0.0
 ++ ls /builddir/build/BUILD/pbr-6.0.0/pyproject-wheeldir/pbr-6.0.0-py2.py3-none-any.whl
-++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
 + specifier=pbr==6.0.0
 + TMPDIR=/builddir/build/BUILD/pbr-6.0.0/.pyproject-builddir
 + /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-pbr-6.0.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pbr-6.0.0/pyproject-wheeldir pbr==6.0.0
@@ -1079,11 +1079,11 @@ Wrote: /builddir/build/SRPMS/python-pbr-6.0.0-1.el9.src.rpm
 Wrote: /builddir/build/RPMS/python3.11-pbr-6.0.0-1.el9.noarch.rpm
 Finish: rpmbuild python-pbr-6.0.0-1.el9.src.rpm
 Finish: build phase for python-pbr-6.0.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-pbr-6.0.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 24 seconds
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-pbr-6.0.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 109 packages
+Directory walk done - 115 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
