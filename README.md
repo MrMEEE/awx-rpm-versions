@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-jose-3.3.0-1.el9.src.rpm
+The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 07:07:14 PM CET 2024
+The build completed at Sat Mar 30 07:07:48 PM CET 2024
 
 The build was unsuccessful.
 
