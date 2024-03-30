@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
+The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
 
-The build completed at Sat Mar 30 04:47:39 PM CET 2024
+The build completed at Sat Mar 30 04:48:15 PM CET 2024
 
 The build was unsuccessful.
 
