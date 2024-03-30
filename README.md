@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-social-auth-app-django-5.4.0-1.el9.src.rpm
+The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:45:38 PM CET 2024
+The build completed at Sat Mar 30 06:46:08 PM CET 2024
 
 The build was unsuccessful.
 
