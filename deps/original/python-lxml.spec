@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-lxml
-Version:        4.9.4
+Version:        4.6.5
 Release:        %autorelease
 Summary:        Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
 
