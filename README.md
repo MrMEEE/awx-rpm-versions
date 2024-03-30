@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-fastjsonschema-2.19.1-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 05:33:16 PM CET 2024
+The build completed at Sat Mar 30 05:33:59 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
