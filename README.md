@@ -1,9 +1,9 @@
 ## Latest build
-The lastest package built was python-requests-oauthlib-1.3.1-1.el9.src.rpm
+The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
 
-The build completed at Sat Mar 30 08:01:02 PM CET 2024
+The build completed at Sat Mar 30 08:02:13 PM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/.log)
 ## Package build status for version: 24.1.0
