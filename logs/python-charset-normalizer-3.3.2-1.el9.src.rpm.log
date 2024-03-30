@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 19 MB/s |  85 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        144 kB/s |  13 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                 17 MB/s |  85 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [   ===                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            12 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                   100% [=======================================================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                   12 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [            ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [                  ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         31 kB/s |  13 kB     00:00    
 Dependencies resolved.
 ======================================================================================================================================================================================
  Package                                  Architecture        Version                                Repository                                                                  Size
@@ -217,7 +217,7 @@ Start: rpmbuild python-charset-normalizer-3.3.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.6KIBDH
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8oeR3y
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -231,7 +231,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.6KIBDH
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gPKpDS
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KVS1KH
 + umask 022
 + cd /builddir/build/BUILD
 + cd charset-normalizer-3.3.2
@@ -268,11 +268,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           5.1 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        151 kB/s |  13 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.5 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.5 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         26 kB/s |  13 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -319,7 +319,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nWo18X
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3w32iL
 + umask 022
 + cd /builddir/build/BUILD
 + cd charset-normalizer-3.3.2
@@ -390,11 +390,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                      [===                                                                    ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                            13 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      20 kB/s | 4.1 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8     [===                                                                    ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x8100% [=======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                           3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                           [   ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                      18 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                        [      ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                   21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                        153 kB/s |  13 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                          [         ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                     24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                              [            ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                              [               ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                         26 kB/s |  13 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -409,7 +409,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711756800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.mMsOMG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.iypJtf
 + umask 022
 + cd /builddir/build/BUILD
 + cd charset-normalizer-3.3.2
@@ -471,7 +471,7 @@ removed directory 'charset_normalizer-3.3.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.my1Vzx
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.qvIxaB
 + umask 022
 + cd /builddir/build/BUILD
 + cd charset-normalizer-3.3.2
@@ -484,18 +484,18 @@ Processing /builddir/build/BUILD/charset-normalizer-3.3.2
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info
-  writing /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/entry_points.txt
-  writing requirements to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info
+  writing /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-5sdj97jp/charset_normalizer-3.3.2.dist-info'
+  writing manifest file '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-modern-metadata-vz0twzar/charset_normalizer-3.3.2.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: charset-normalizer
   Building wheel for charset-normalizer (pyproject.toml): started
@@ -554,7 +554,7 @@ Building wheels for collected packages: charset-normalizer
   Copying charset_normalizer.egg-info to build/bdist.linux-x86_64/wheel/charset_normalizer-3.3.2-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/charset_normalizer-3.3.2.dist-info/WHEEL
-  creating '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-wheel-3dw24osp/.tmp-vwkxsf_a/charset_normalizer-3.3.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/charset-normalizer-3.3.2/.pyproject-builddir/pip-wheel-9xc55l6s/.tmp-88wbir67/charset_normalizer-3.3.2-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'charset_normalizer/__init__.py'
   adding 'charset_normalizer/__main__.py'
   adding 'charset_normalizer/api.py'
@@ -582,7 +582,7 @@ Successfully built charset-normalizer
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.8xJtz8
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.ND2Fb6
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-charset-normalizer-3.3.2-1.el9.x86_64 '!=' / ']'
@@ -661,7 +661,7 @@ Finish: build phase for python-charset-normalizer-3.3.2-1.el9.src.rpm
 ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-charset-normalizer-3.3.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 29 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 627032791d774edbbcc294ceda079443 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.gyjldlyr:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-charset-normalizer.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 21c2a6f0aa6d4e7a8adfe9fe0776c26e -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.rouv2kec:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-charset-normalizer.spec --nocheck'
 
 Directory walk started
 Directory walk done - 115 packages
