@@ -1,7 +1,7 @@
 ## Latest build
-The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 06:36:08 PM CET 2024
+The build completed at Sat Mar 30 06:36:42 PM CET 2024
 
 The build was unsuccessful.
 
