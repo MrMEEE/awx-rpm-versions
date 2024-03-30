@@ -105,6 +105,7 @@ python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | Built | 
 python3.11-keyring-25.0.0-1.el9 | python-keyring-25.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-25.0.0-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
+python3.11-lxml-4.9.4-1.el9 | python-lxml-4.9.4-1.el9.src.rpm | **Missing** |
 python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.5.2-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-2.1.5-1.el9.src.rpm.log)
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
@@ -191,4 +192,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-189 total packages, 91 packages built successfully, 98 packages left to fix
+190 total packages, 91 packages built successfully, 99 packages left to fix
