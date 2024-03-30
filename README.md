@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-keyring-24.3.1-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
 
-The build completed at Sat Mar 30 11:59:21 PM CET 2024
+The build completed at Sun Mar 31 12:00:20 AM CET 2024
 
 The build was successful.
 
-[Build Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -152,7 +152,7 @@ python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
-python3.11-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
+python3.11-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
 python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
@@ -224,4 +224,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-214 total packages, 157 packages built successfully, 57 packages left to fix
+214 total packages, 158 packages built successfully, 56 packages left to fix
