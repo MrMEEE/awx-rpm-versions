@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 10:42:41 AM CEST 2024
+The build completed at Sun Mar 31 10:55:32 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
@@ -215,7 +215,7 @@ python3.11-tomlkit-0.12.4-1.el9 | python-tomlkit-0.12.4-1.el9.src.rpm | Built | 
 python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | Built | [Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
 python3.11-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.0.0-1.el9.src.rpm.log)
-python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
+python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 python3.11-types-psutil-5.9.5.20240316-1.el9 | python-types-psutil-5.9.5.20240316-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-5.9.5.20240316-1.el9.src.rpm.log)
 python3.11-types-setuptools-69.2.0.20240317-1.el9 | python-types-setuptools-69.2.0.20240317-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.2.0.20240317-1.el9.src.rpm.log)
@@ -232,4 +232,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-222 total packages, 184 packages built successfully, 38 packages left to fix
+222 total packages, 185 packages built successfully, 37 packages left to fix
