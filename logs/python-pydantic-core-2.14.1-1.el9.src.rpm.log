@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                     [===                                                                   ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                     [===                                                                   ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                               20 MB/s | 243 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [   ===                                                                ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                          [      ===                                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                    21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                       [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                 24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                         [            ===                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                             [               ===                                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                             [                  ===                                                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                       26 kB/s |  13 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                     [===                                                                   ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                               33 MB/s | 243 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [   ===                                                                ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                          [      ===                                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                    19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                       [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                 25 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                         [            ===                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                             [               ===                                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                      151 kB/s |  13 kB     00:00    
 Dependencies resolved.
 ====================================================================================================================================================================================
  Package                                  Architecture        Version                              Repository                                                                  Size
@@ -217,7 +217,7 @@ Start: rpmbuild python-pydantic-core-2.14.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711843200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.5qmFjk
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.aswW0E
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -231,7 +231,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.5qmFjk
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Fpehq5
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.G5Yzyg
 + umask 022
 + cd /builddir/build/BUILD
 + cd pydantic_core-2.14.1
@@ -266,11 +266,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                     [===                                                                   ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [===                                                                   ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                          [   ===                                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                    19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                       [      ===                                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                 19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                         [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                             [            ===                                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                             [               ===                                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                       30 kB/s |  13 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [===                                                                   ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 3.7 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         3.7 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                          [   ===                                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                    20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                       [      ===                                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                 22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                         [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                             [            ===                                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                             [               ===                                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                       31 kB/s |  13 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -311,7 +311,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711843200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.a21c4W
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.e7uFt7
 + umask 022
 + cd /builddir/build/BUILD
 + cd pydantic_core-2.14.1
@@ -350,11 +350,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                     [===                                                                   ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                              2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [===                                                                   ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         5.1 kB/s | 1.5 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x     [===                                                                   ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x100% [======================================================================] 3.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                         3.8 kB/s | 1.5 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                          [   ===                                                                ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                    22 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                       [      ===                                                             ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                 22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                         [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                             [            ===                                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                             [               ===                                                    ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                       26 kB/s |  13 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                         [         ===                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                   23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                             [            ===                                                       ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                      145 kB/s |  13 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -396,7 +396,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1711843200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.HJMOY3
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zui7qU
 + umask 022
 + cd /builddir/build/BUILD
 + cd pydantic_core-2.14.1
@@ -428,14 +428,14 @@ This package requires Rust and Cargo to compile extensions. Install it through
 the system's package manager or via https://rustup.rs/
 
 Checking for Rust toolchain....
-error: Bad exit status from /var/tmp/rpm-tmp.HJMOY3 (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.HJMOY3 (%generate_buildrequires)
 
 
 RPM build errors:
+error: Bad exit status from /var/tmp/rpm-tmp.zui7qU (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.zui7qU (%generate_buildrequires)
 Finish: rpmbuild python-pydantic-core-2.14.1-1.el9.src.rpm
 Finish: build phase for python-pydantic-core-2.14.1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-pydantic-core-2.14.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-pydantic-core-2.14.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-pydantic-core.spec --nocheck']
