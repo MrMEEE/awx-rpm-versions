@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-netaddr-1.2.1-1.el9.src.rpm
+The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
 
-The build completed at Mon Apr  1 12:50:41 AM CEST 2024
+The build completed at Mon Apr  1 12:51:12 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-netaddr-1.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
