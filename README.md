@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-2.31.0-1.el9.src.rpm
+The lastest package built was python-rich-13.7.1-1.el9.src.rpm
 
-The build completed at Sun Mar 31 03:55:26 PM CEST 2024
+The build completed at Sun Mar 31 03:56:02 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rich-13.7.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
