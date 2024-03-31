@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pluggy-1.4.0-1.el9.src.rpm
+The lastest package built was python-pytest-8.1.1-1.el9.src.rpm
 
-The build completed at Sun Mar 31 08:49:27 PM CEST 2024
+The build completed at Sun Mar 31 08:50:23 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pluggy-1.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pytest-8.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -179,7 +179,7 @@ python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.0.0-1.el9 | python-pyproject-hooks-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.0.0-1.el9.src.rpm.log)
 python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | Built | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
-python3.11-pytest-8.1.1-1.el9 | python-pytest-8.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pytest-8.1.1-1.el9.src.rpm.log)
+python3.11-pytest-8.1.1-1.el9 | python-pytest-8.1.1-1.el9.src.rpm | Built | [Log](logs/python-pytest-8.1.1-1.el9.src.rpm.log)
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
 python3.11-rapidfuzz-3.7.0-1.el9 | python-rapidfuzz-3.7.0-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.7.0-1.el9.src.rpm.log)
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
@@ -235,4 +235,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-225 total packages, 191 packages built successfully, 34 packages left to fix
+225 total packages, 192 packages built successfully, 33 packages left to fix
