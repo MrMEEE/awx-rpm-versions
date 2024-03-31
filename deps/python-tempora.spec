@@ -14,7 +14,7 @@ Source:         %{pypi_source tempora}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel pythonn%{python3_pkgversion}-pytest pythonn%{python3_pkgversion}-freezegun
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-pytest python%{python3_pkgversion}-freezegun
 
 
 # Fill in the actual package description to submit package to Fedora
