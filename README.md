@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-freezegun-1.4.0-1.el9.src.rpm
+The lastest package built was python-pluggy-1.4.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 08:47:29 PM CEST 2024
+The build completed at Sun Mar 31 08:48:25 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-freezegun-1.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pluggy-1.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -157,7 +157,7 @@ python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
-python3.11-pluggy-1.4.0-1.el9 | python-pluggy-1.4.0-1.el9.src.rpm | **Missing** |
+python3.11-pluggy-1.4.0-1.el9 | python-pluggy-1.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pluggy-1.4.0-1.el9.src.rpm.log)
 python3.11-poetry-1.8.2-1.el9 | python-poetry-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
