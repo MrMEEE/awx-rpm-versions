@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-portalocker-2.8.2-1.el9.src.rpm
+The lastest package built was python-prometheus-client-0.20.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 11:09:48 AM CEST 2024
+The build completed at Sun Mar 31 11:10:34 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
+[Build Log](logs/python-prometheus-client-0.20.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -161,7 +161,7 @@ python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Bu
 python3.11-poetry-plugin-export-1.7.1-1.el9 | python-poetry-plugin-export-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
 python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
-python3.11-prometheus-client-0.20.0-1.el9 | python-prometheus-client-0.20.0-1.el9.src.rpm | **Missing** | [Log](logs/python-prometheus-client-0.20.0-1.el9.src.rpm.log)
+python3.11-prometheus-client-0.20.0-1.el9 | python-prometheus-client-0.20.0-1.el9.src.rpm | Built | [Log](logs/python-prometheus-client-0.20.0-1.el9.src.rpm.log)
 python3.11-psutil-5.9.8-1.el9 | python-psutil-5.9.8-1.el9.src.rpm | Built | [Log](logs/python-psutil-5.9.8-1.el9.src.rpm.log)
 python3.11-psycopg-3.1.18-1.el9 | python-psycopg-3.1.18-1.el9.src.rpm | Built | [Log](logs/python-psycopg-3.1.18-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
@@ -232,4 +232,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-222 total packages, 185 packages built successfully, 37 packages left to fix
+222 total packages, 186 packages built successfully, 36 packages left to fix
