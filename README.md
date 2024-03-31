@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
+The lastest package built was python-urllib3-1.26.18-1.el9.src.rpm
 
-The build completed at Sun Mar 31 03:45:05 AM CEST 2024
+The build completed at Sun Mar 31 03:45:20 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
