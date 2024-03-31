@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-portalocker-2.8.2-1.el9.src.rpm
+The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 02:12:08 PM CEST 2024
+The build completed at Sun Mar 31 02:12:43 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
