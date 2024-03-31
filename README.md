@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msal-extensions-1.1.0-1.el9.src.rpm
+The lastest package built was python-netaddr-1.2.1-1.el9.src.rpm
 
-The build completed at Sun Mar 31 08:17:18 PM CEST 2024
+The build completed at Sun Mar 31 08:17:58 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-netaddr-1.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
