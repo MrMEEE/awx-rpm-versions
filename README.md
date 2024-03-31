@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-referencing-0.33.0-1.el9.src.rpm
+The lastest package built was python-requests-2.31.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 01:21:56 AM CET 2024
+The build completed at Sun Mar 31 01:22:32 AM CET 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
+[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
