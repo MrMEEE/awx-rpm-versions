@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
+The lastest package built was python-django-ansible-base-20240212-1.el9.src.rpm
 
-The build completed at Sun Mar 31 08:28:49 PM CEST 2024
+The build completed at Sun Mar 31 08:29:28 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
