@@ -14,7 +14,7 @@ Source:         %{pypi_source twisted}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-cryptography python%{python3_pkgversion}-bcrypt python%{python3_pkgversion}-pyasn1 python%{python3_pkgversion}-tkinter python%{python3_pkgversion}-hamcrest glibc-langpack-en python%{python3_pkgversion}-pyopenssl
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-cryptography python%{python3_pkgversion}-bcrypt python%{python3_pkgversion}-pyasn1 python%{python3_pkgversion}-tkinter python%{python3_pkgversion}-pyhamcrest glibc-langpack-en python%{python3_pkgversion}-pyopenssl
 
 
 # Fill in the actual package description to submit package to Fedora
