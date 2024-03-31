@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-constantly-23.10.4-1.el9.src.rpm
+The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
 
-The build completed at Sun Mar 31 01:04:35 AM CET 2024
+The build completed at Sun Mar 31 01:05:06 AM CET 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
