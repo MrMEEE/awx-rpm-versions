@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-20240212-1.el9.src.rpm
+The lastest package built was python-django-radius-1.5.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 11:04:43 PM CEST 2024
+The build completed at Sun Mar 31 11:05:04 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
+[Build Log](logs/python-django-radius-1.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
