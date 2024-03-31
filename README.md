@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
+The lastest package built was python-requests-2.31.0-1.el9.src.rpm
 
-The build completed at Mon Apr  1 12:34:52 AM CEST 2024
+The build completed at Mon Apr  1 12:35:32 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
