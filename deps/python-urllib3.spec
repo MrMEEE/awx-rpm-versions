@@ -14,7 +14,7 @@ Source:         %{pypi_source urllib3}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-ntlm
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-python-ntlm
 
 
 # Fill in the actual package description to submit package to Fedora

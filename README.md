@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-urllib3-1.26.18-1.el9.src.rpm
 
-The build completed at Sun Mar 31 10:05:00 AM CEST 2024
+The build completed at Sun Mar 31 10:06:34 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
@@ -216,7 +216,7 @@ python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** 
 python3.11-types-psutil-5.9.5.20240316-1.el9 | python-types-psutil-5.9.5.20240316-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-5.9.5.20240316-1.el9.src.rpm.log)
 python3.11-types-setuptools-69.2.0.20240317-1.el9 | python-types-setuptools-69.2.0.20240317-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-69.2.0.20240317-1.el9.src.rpm.log)
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
-python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
+python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.24-1.el9 | python-uwsgi-2.0.24-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
 python3.11-virtualenv-20.25.1-1.el9 | python-virtualenv-20.25.1-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.25.1-1.el9.src.rpm.log)
@@ -227,4 +227,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-217 total packages, 174 packages built successfully, 43 packages left to fix
+217 total packages, 175 packages built successfully, 42 packages left to fix
