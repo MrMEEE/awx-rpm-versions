@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
+The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 03:20:51 PM CEST 2024
+The build completed at Sun Mar 31 03:21:30 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
