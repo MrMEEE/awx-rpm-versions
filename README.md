@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
+The lastest package built was python-h2-4.1.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 10:29:57 AM CEST 2024
+The build completed at Sun Mar 31 10:33:56 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -94,6 +94,7 @@ python3.11-future-1.0.0-1.el9 | python-future-1.0.0-1.el9.src.rpm | Built | [Log
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.11-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
+python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.22.4-1.el9 | python-hatchling-1.22.4-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
@@ -229,4 +230,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-219 total packages, 181 packages built successfully, 38 packages left to fix
+220 total packages, 181 packages built successfully, 39 packages left to fix
