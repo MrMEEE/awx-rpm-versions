@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-automat-22.10.0-1.el9.src.rpm
+The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
 
-The build completed at Sun Mar 31 07:08:50 AM CEST 2024
+The build completed at Sun Mar 31 07:09:24 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
