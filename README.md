@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-chardet-5.2.0-1.el9.src.rpm
+The lastest package built was python-coreapi-2.3.3-1.el9.src.rpm
 
-The build completed at Mon Apr  1 03:03:49 AM CEST 2024
+The build completed at Mon Apr  1 03:04:20 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -55,7 +55,7 @@ python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
-python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing** |
+python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing** | [Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
