@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-rest-swagger-2.2.0-1.el9.src.rpm
+The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
 
-The build completed at Tue Apr  2 01:22:57 AM CEST 2024
+The build completed at Tue Apr  2 01:36:35 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
