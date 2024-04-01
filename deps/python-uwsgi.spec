@@ -42,7 +42,7 @@ Summary:        %{summary}
 
 
 %install
-#mkdir -p $RPM_BUILD_ROOT/usr/lib64/python3.11/site-packages/uWSGI-%version.dist-info/
+mkdir -p $RPM_BUILD_ROOT/usr/lib/python3.11/site-packages
 #touch $RPM_BUILD_ROOT/usr/lib64/python%{python3_pkgversion}/site-packages/uWSGI-%version.dist-info/INSTALLER
 #touch $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%version.dist-info/RECORD
 ln -s $RPM_BUILD_ROOT/usr/lib64/python3.11/site-packages/uWSGI-%version.dist-info  $RPM_BUILD_ROOT/usr/lib/python3.11/site-packages/uWSGI-%version.dist-info
