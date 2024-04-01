@@ -44,6 +44,7 @@ Summary:        %{summary}
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/lib/python3.11/site-packages/uWSGI-%version.dist-info/
 touch $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%version.dist-info/INSTALLER
+touch $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%version.dist-info/RECORD
 find $RPM_BUILD_ROOT
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
