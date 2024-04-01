@@ -39,6 +39,7 @@ Summary:        %{summary}
 
 %build
 #cp -a $RPM_BUILD_ROOT/usr/lib64/python%{python3_pkgversion}/uWSGI* $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/
+mkdir -p /usr/lib/python3.11/site-packages/uWSGI-%version.dist-info/
 touch /usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%version.dist-info/INSTALLER
 %pyproject_wheel
 
