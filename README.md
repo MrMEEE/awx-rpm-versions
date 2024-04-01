@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
+The lastest package built was python-chardet-5.2.0-1.el9.src.rpm
 
-The build completed at Mon Apr  1 01:09:34 AM CEST 2024
+The build completed at Mon Apr  1 03:03:49 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
+[Build Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -50,10 +50,12 @@ python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Buil
 python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
 python3.11-channels-3.0.5-1.el9 | python-channels-3.0.5-1.el9.src.rpm | Built | [Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
 python3.11-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
+python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
+python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing** |
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
@@ -109,6 +111,7 @@ python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm 
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | Built | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+python3.11-ipython3.11-8.23.0-1.el9 | python-ipython-8.23.0-1.el9.src.rpm | **Missing** |
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | Built | [Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
 python3.11-jaraco-classes-3.3.1-1.el9 | python-jaraco-classes-3.3.1-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.3.1-1.el9.src.rpm.log)
@@ -238,4 +241,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-228 total packages, 220 packages built successfully, 8 packages left to fix
+231 total packages, 221 packages built successfully, 10 packages left to fix

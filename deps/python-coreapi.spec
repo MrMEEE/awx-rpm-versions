@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-drf-yasg
-Version:        1.21.7
+Name:           python-coreapi
+Version:        2.3.3
 Release:        %autorelease
-Summary:        Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code.
+Summary:        Python client library for Core API.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/axnsan12/drf-yasg
-Source:         %{pypi_source drf-yasg}
+URL:            https://github.com/core-api/python-client
+Source:         %{pypi_source coreapi}
 
 BuildArch:      noarch
 
@@ -19,25 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'drf_yasg' generated automatically by pyp2spec.}
+This is package 'coreapi' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-drf-yasg
+%package -n     python%{python3_pkgversion}-coreapi
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-drf-yasg %_description
-
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+%description -n python%{python3_pkgversion}-coreapi %_description
 
 
 %prep
-%autosetup -p1 -n drf-yasg-%{version}
+%autosetup -p1 -n coreapi-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
@@ -56,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-drf-yasg -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-coreapi -f %{pyproject_files}
 
 
 %changelog

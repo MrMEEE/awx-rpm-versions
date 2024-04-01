@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-drf-yasg
-Version:        1.21.7
+Name:           python-ipython
+Version:        8.23.0
 Release:        %autorelease
-Summary:        Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code.
+Summary:        IPython: Productive Interactive Computing
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/axnsan12/drf-yasg
-Source:         %{pypi_source drf-yasg}
+URL:            https://ipython.org
+Source:         %{pypi_source ipython}
 
 BuildArch:      noarch
 
@@ -19,21 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'drf_yasg' generated automatically by pyp2spec.}
+This is package 'ipython' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-drf-yasg
+%package -n     python%{python3_pkgversion}-ipython
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-drf-yasg %_description
+%description -n python%{python3_pkgversion}-ipython %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 
 
 %prep
-%autosetup -p1 -n drf-yasg-%{version}
+%autosetup -p1 -n ipython-%{version}
 
 
 %generate_buildrequires
@@ -56,7 +56,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-drf-yasg -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-ipython -f %{pyproject_files}
 
 
 %changelog
