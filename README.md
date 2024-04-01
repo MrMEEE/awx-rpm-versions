@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
+The lastest package built was python-coreapi-2.3.3-1.el9.src.rpm
 
-The build completed at Mon Apr  1 03:10:12 AM CEST 2024
+The build completed at Mon Apr  1 03:10:42 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
+[Build Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
