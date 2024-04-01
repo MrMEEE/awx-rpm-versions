@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-ipython
-Version:        8.23.0
+Name:           python-itypes
+Version:        1.2.0
 Release:        %autorelease
-Summary:        IPython: Productive Interactive Computing
+Summary:        Simple immutable types for python.
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://ipython.org
-Source:         %{pypi_source ipython}
+URL:            http://github.com/PavanTatikonda/itypes
+Source:         %{pypi_source itypes}
 
 BuildArch:      noarch
 
@@ -19,25 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'ipython' generated automatically by pyp2spec.}
+This is package 'itypes' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-ipython
+%package -n     python%{python3_pkgversion}-itypes
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-ipython %_description
-
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+%description -n python%{python3_pkgversion}-itypes %_description
 
 
 %prep
-%autosetup -p1 -n ipython-%{version}
+%autosetup -p1 -n itypes-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
@@ -56,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-ipython -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-itypes -f %{pyproject_files}
 
 
 %changelog

@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-netaddr
-Version:        1.2.1
+Name:           python-uritemplate
+Version:        4.1.1
 Release:        %autorelease
-Summary:        A network address manipulation library for Python
+Summary:        Implementation of RFC 6570 URI Templates
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/netaddr/
-Source:         %{pypi_source netaddr}
+URL:            https://uritemplate.readthedocs.org
+Source:         %{pypi_source uritemplate}
 
 BuildArch:      noarch
 
@@ -19,25 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'netaddr' generated automatically by pyp2spec.}
+This is package 'uritemplate' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-netaddr
+%package -n     python%{python3_pkgversion}-uritemplate
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-netaddr %_description
-
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+%description -n python%{python3_pkgversion}-uritemplate %_description
 
 
 %prep
-%autosetup -p1 -n netaddr-%{version}
+%autosetup -p1 -n uritemplate-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
@@ -56,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-netaddr -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-uritemplate -f %{pyproject_files}
 
 
 %changelog
