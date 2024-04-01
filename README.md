@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-itypes-1.2.0-1.el9.src.rpm
+The lastest package built was python-jinja2-3.1.3-1.el9.src.rpm
 
-The build completed at Mon Apr  1 11:09:53 PM CEST 2024
+The build completed at Mon Apr  1 11:10:27 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-itypes-1.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
