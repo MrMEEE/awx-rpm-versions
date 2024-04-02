@@ -31,7 +31,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n uwsgi-%{version}
-
+touch INSTALLER
 %generate_buildrequires
 %pyproject_buildrequires
 
