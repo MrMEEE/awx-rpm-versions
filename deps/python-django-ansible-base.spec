@@ -28,7 +28,7 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-django-ansible-base %_description
 
-%pyproject_extras_subpkg -n python3-django-ansible-base rest_filters,jwt_consumer
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base rest_filters,jwt_consumer
 
 %prep
 %autosetup -p1 -n django-ansible-base-2024.2.12

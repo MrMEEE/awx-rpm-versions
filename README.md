@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.1.0-1.el9.src.rpm
+The lastest package built was python-django-ansible-base-20240212-1.el9.src.rpm
 
-The build completed at Tue Apr  2 05:19:19 PM CEST 2024
+The build completed at Tue Apr  2 05:23:40 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/awx-rpm-24.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -46,6 +46,7 @@ python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | Built | [L
 python3.11-blinker-1.7.0-1.el9 | python-blinker-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.7.0-1.el9.src.rpm.log)
 python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
+python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
@@ -247,4 +248,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-237 total packages, 236 packages built successfully, 1 packages left to fix
+238 total packages, 236 packages built successfully, 2 packages left to fix
