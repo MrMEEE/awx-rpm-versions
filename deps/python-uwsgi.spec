@@ -31,13 +31,13 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n uwsgi-%{version}
-touch INSTALLER RECORD
 
 %generate_buildrequires
 %pyproject_buildrequires
 
 
 %build
+touch INSTALLER
 %pyproject_wheel
 
 
