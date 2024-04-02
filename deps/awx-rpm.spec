@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 3%{dist}
+Release: 4%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -595,7 +595,7 @@ git checkout -f %{version}
 
 %install
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
-GIT_BRANCH=%{version} VERSION=%{version} python3 -m build -s
+GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
 make ui-next/src
 cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/src/frontend/awx/main/awx-rpm-logo.svg
 sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/main/AwxMasthead.tsx
@@ -603,7 +603,6 @@ make ui-next
 make ui-release
 
 mkdir -p /var/log/tower
-#python3 manage.py collectstatic --clear --noinput
 AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python3 manage.py collectstatic --noinput --clear
 mkdir -p %{buildroot}%{_prefix}
 for i in `find -type f |grep mappings.wasm`; do
@@ -735,6 +734,6 @@ fi
 %endif
 
 %changelog
-* Tue Apr 02 2024 10:30:36 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Tue Apr 02 2024 10:36:39 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
