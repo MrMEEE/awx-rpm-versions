@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://www.python-ldap.org/
 Source:         %{pypi_source python-ldap}
 
-BuildArch:      noarch
+BuildArch:      x86_64
 
 BuildRequires: openldap-devel
 BuildRequires: gcc
