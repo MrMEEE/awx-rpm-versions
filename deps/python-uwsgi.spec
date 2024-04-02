@@ -1,6 +1,6 @@
 %global distinfo $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%{version}.dist-info/
 %global python3_pkgversion 3.11
-%global python3_sitelib /usr/lib64/
+%global python3_sitelib /usr/lib64/python%{python3_pkgversion}/site-packages
 
 Name:           python-uwsgi
 Version:        2.0.24
