@@ -1,3 +1,5 @@
+%global python3_pkgversion 3.11
+
 %define  debug_package %{nil}
 %define _prefix /opt/awx-rpm
 %define _mandir %{_prefix}/share/man
@@ -12,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -38,7 +40,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: make python3 python3-devel nodejs npm gettext git python3-build rsync libpq libpq-devel 
+BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
 BuildRequires: python3.11-adal = 1.2.7
 BuildRequires: python3.11-aiodns = 3.1.1
 BuildRequires: python3.11-aiohttp = 3.9.3
@@ -186,7 +188,7 @@ BuildRequires: python3.11-msrestazure = 0.6.4
 BuildRequires: python3.11-multidict = 6.0.5
 BuildRequires: python3.11-mypy = 1.9.0
 BuildRequires: python3.11-mypy-extensions = 1.0.0
-BuildRequires: python3.11-netaddr = 1.2.1
+BuildRequires: python3.11-netaddr = 0.8.0
 BuildRequires: python3.11-nh3 = 0.2.17
 BuildRequires: python3.11-oauthlib = 3.2.2
 BuildRequires: python3.11-oauthlib+rsa = 3.2.2
@@ -223,6 +225,7 @@ BuildRequires: python3.11-pyhamcrest = 2.1.0
 BuildRequires: python3.11-pyjwt = 2.8.0
 BuildRequires: python3.11-pyjwt+crypto = 2.8.0
 BuildRequires: python3.11-pyopenssl = 24.0.0
+BuildRequires: python3.11-pyparsing = 3.1.2
 BuildRequires: python3.11-pyproject-hooks = 1.0.0
 BuildRequires: python3.11-pyrad = 2.4
 BuildRequires: python3.11-pytest = 8.1.1
@@ -233,9 +236,11 @@ BuildRequires: python3.11-python-daemon = 3.0.1
 BuildRequires: python3.11-python-dateutil = 2.9.0^post0
 BuildRequires: python3.11-python-dsv-sdk = 1.0.4
 BuildRequires: python3.11-python-jose = 3.3.0
+BuildRequires: python3.11-python-ldap = 3.4.4
 BuildRequires: python3.11-python-ntlm = 1.1.0
 BuildRequires: python3.11-python-string-utils = 1.0.0
 BuildRequires: python3.11-pytz = 2024.1
+BuildRequires: python3.11-pyyaml = 6.0.1
 BuildRequires: python3.11-rapidfuzz = 3.7.0
 BuildRequires: python3.11-readme-renderer = 43.0
 BuildRequires: python3.11-receptorctl = 1.4.4
@@ -248,6 +253,7 @@ BuildRequires: python3.11-requests+socks = 2.31.0
 BuildRequires: python3.11-requests-toolbelt = 1.0.0
 BuildRequires: python3.11-requests+use-chardet-on-py3 = 2.31.0
 BuildRequires: python3.11-requirements-parser = 0.7.0
+BuildRequires: python3.11-resolvelib = 1.0.1
 BuildRequires: python3.11-rfc3986 = 2.0.0
 BuildRequires: python3.11-rfc3986+idna2008 = 2.0.0
 BuildRequires: python3.11-rich = 13.7.1
@@ -302,9 +308,9 @@ BuildRequires: python3.11-xmlsec = 1.3.13
 BuildRequires: python3.11-yarl = 1.9.4
 BuildRequires: python3.11-zipp = 3.17.0
 BuildRequires: python3.11-zope-interface = 6.2
-BuildRequires: python3-pyyaml python3-ldap python3-pyasn1 python3-pyparsing python3-resolvelib 
+BuildRequires: python3.11-pyasn1 
 
-Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
+Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
 Requires: python3.11-aiodns = 3.1.1
 Requires: python3.11-aiohttp = 3.9.3
@@ -452,7 +458,7 @@ Requires: python3.11-msrestazure = 0.6.4
 Requires: python3.11-multidict = 6.0.5
 Requires: python3.11-mypy = 1.9.0
 Requires: python3.11-mypy-extensions = 1.0.0
-Requires: python3.11-netaddr = 1.2.1
+Requires: python3.11-netaddr = 0.8.0
 Requires: python3.11-nh3 = 0.2.17
 Requires: python3.11-oauthlib = 3.2.2
 Requires: python3.11-oauthlib+rsa = 3.2.2
@@ -489,6 +495,7 @@ Requires: python3.11-pyhamcrest = 2.1.0
 Requires: python3.11-pyjwt = 2.8.0
 Requires: python3.11-pyjwt+crypto = 2.8.0
 Requires: python3.11-pyopenssl = 24.0.0
+Requires: python3.11-pyparsing = 3.1.2
 Requires: python3.11-pyproject-hooks = 1.0.0
 Requires: python3.11-pyrad = 2.4
 Requires: python3.11-pytest = 8.1.1
@@ -499,9 +506,11 @@ Requires: python3.11-python-daemon = 3.0.1
 Requires: python3.11-python-dateutil = 2.9.0^post0
 Requires: python3.11-python-dsv-sdk = 1.0.4
 Requires: python3.11-python-jose = 3.3.0
+Requires: python3.11-python-ldap = 3.4.4
 Requires: python3.11-python-ntlm = 1.1.0
 Requires: python3.11-python-string-utils = 1.0.0
 Requires: python3.11-pytz = 2024.1
+Requires: python3.11-pyyaml = 6.0.1
 Requires: python3.11-rapidfuzz = 3.7.0
 Requires: python3.11-readme-renderer = 43.0
 Requires: python3.11-receptorctl = 1.4.4
@@ -514,6 +523,7 @@ Requires: python3.11-requests+socks = 2.31.0
 Requires: python3.11-requests-toolbelt = 1.0.0
 Requires: python3.11-requests+use-chardet-on-py3 = 2.31.0
 Requires: python3.11-requirements-parser = 0.7.0
+Requires: python3.11-resolvelib = 1.0.1
 Requires: python3.11-rfc3986 = 2.0.0
 Requires: python3.11-rfc3986+idna2008 = 2.0.0
 Requires: python3.11-rich = 13.7.1
@@ -568,7 +578,7 @@ Requires: python3.11-xmlsec = 1.3.13
 Requires: python3.11-yarl = 1.9.4
 Requires: python3.11-zipp = 3.17.0
 Requires: python3.11-zope-interface = 6.2
-Requires: python3-pyyaml python3-ldap python3-pyasn1 python3-pyparsing python3-resolvelib 
+Requires: python3.11-pyasn1 
 
 %{?systemd_requires}
 
@@ -725,6 +735,6 @@ fi
 %endif
 
 %changelog
-* Tue Apr 02 2024 05:39:15 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Tue Apr 02 2024 10:30:36 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
