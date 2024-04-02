@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
+The lastest package built was python-future-0.16.0-1.el9.src.rpm
 
-The build completed at Tue Apr  2 05:36:29 PM CEST 2024
+The build completed at Tue Apr  2 05:37:06 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
+[Build Log](logs/python-future-0.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -98,7 +98,7 @@ python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-freezegun-1.4.0-1.el9 | python-freezegun-1.4.0-1.el9.src.rpm | Built | [Log](logs/python-freezegun-1.4.0-1.el9.src.rpm.log)
 python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
-python3.11-future-0.16.0-1.el9 | python-future-0.16.0-1.el9.src.rpm | **Missing** |
+python3.11-future-0.16.0-1.el9 | python-future-0.16.0-1.el9.src.rpm | Built | [Log](logs/python-future-0.16.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.11-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
@@ -248,4 +248,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-238 total packages, 236 packages built successfully, 2 packages left to fix
+238 total packages, 237 packages built successfully, 1 packages left to fix
