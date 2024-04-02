@@ -1,4 +1,4 @@
-%global distinfo $RPM_BUILD_ROOT/usr/lib64/python%{python3_pkgversion}/site-packages/uWSGI-%{version}.dist-info/
+%global distinfo $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%{version}.dist-info/
 %global python3_pkgversion 3.11
 
 Name:           python-uwsgi
