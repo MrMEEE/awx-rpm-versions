@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-future
-Version:        1.0.0
+Version:        0.16.0
 Release:        %autorelease
 Summary:        Clean single-source support for Python 3 and 2
 
