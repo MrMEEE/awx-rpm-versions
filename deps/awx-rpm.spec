@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 4%{dist}
+Release: 5%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -603,7 +603,7 @@ make ui-next
 make ui-release
 
 mkdir -p /var/log/tower
-AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python3 manage.py collectstatic --noinput --clear
+AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
 mkdir -p %{buildroot}%{_prefix}
 for i in `find -type f |grep mappings.wasm`; do
 	echo "Removing $i"
@@ -615,7 +615,7 @@ tar zxvf awx-*.tar.gz
 rm awx-*.tar.gz
 mv awx-*/* .
 rm -rf awx-*
-pip3 install --root=%{buildroot}/ .
+pip%{python3_pkgversion} install --root=%{buildroot}/ .
 popd
 sed -i "s|/builddir.*.x86_64||g" $RPM_BUILD_ROOT/usr/bin/awx-manage
 pushd %{buildroot}/usr/lib/python3.9/site-packages/
@@ -734,6 +734,6 @@ fi
 %endif
 
 %changelog
-* Tue Apr 02 2024 10:36:39 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 12:45:30 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
