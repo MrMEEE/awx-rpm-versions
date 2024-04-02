@@ -2,15 +2,15 @@
 %global python3_pkgversion 3.11
 
 Name:           python-ldap
-Version:        2.0.0.404
+Version:        3.4.4
 Release:        %autorelease
-Summary:        Placeholder for the ldap name
+Summary:        Python modules for implementing LDAP clients
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/python-ldap/ldap-pypi-placeholder
-Source:         %{pypi_source ldap}
+URL:            https://www.python-ldap.org/
+Source:         %{pypi_source python-ldap}
 
 BuildArch:      noarch
 
@@ -19,18 +19,18 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'ldap' generated automatically by pyp2spec.}
+This is package 'python-ldap' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-ldap
+%package -n     python%{python3_pkgversion}-python-ldap
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-ldap %_description
+%description -n python%{python3_pkgversion}-python-ldap %_description
 
 
 %prep
-%autosetup -p1 -n ldap-%{version}
+%autosetup -p1 -n python-ldap-%{version}
 
 
 %generate_buildrequires
@@ -52,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-ldap -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-python-ldap -f %{pyproject_files}
 
 
 %changelog
