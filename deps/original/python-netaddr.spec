@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-netaddr
-Version:        1.2.1
+Version:        0.8.0
 Release:        %autorelease
 Summary:        A network address manipulation library for Python
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/netaddr/
+URL:            https://github.com/drkjam/netaddr/
 Source:         %{pypi_source netaddr}
 
 BuildArch:      noarch
@@ -28,18 +28,13 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-netaddr %_description
 
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-netaddr nicer-shell
-
 
 %prep
 %autosetup -p1 -n netaddr-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x nicer-shell
+%pyproject_buildrequires
 
 
 %build
