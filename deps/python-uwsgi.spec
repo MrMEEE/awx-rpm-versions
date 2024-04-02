@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-uwsgi
-Version:        2.0.24
+Version:        2.0.21
 Release:        %autorelease
 Summary:        The uWSGI server
 
@@ -42,7 +42,6 @@ touch INSTALLER
 
 
 %install
-find .
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
