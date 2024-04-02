@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -105,6 +105,7 @@ BuildRequires: python3.11-django = 4.2.6
 BuildRequires: python3.11-django-ansible-base = 20240212
 BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240212
 BuildRequires: python3.11-django-ansible-base+rest_filters = 20240212
+BuildRequires: python3.11-django-auth-ldap = 4.7.0
 BuildRequires: python3.11-django+bcrypt = 4.2.6
 BuildRequires: python3.11-django-cors-headers = 4.3.1
 BuildRequires: python3.11-django-crum = 0.7.9
@@ -375,6 +376,7 @@ Requires: python3.11-django = 4.2.6
 Requires: python3.11-django-ansible-base = 20240212
 Requires: python3.11-django-ansible-base+jwt_consumer = 20240212
 Requires: python3.11-django-ansible-base+rest_filters = 20240212
+Requires: python3.11-django-auth-ldap = 4.7.0
 Requires: python3.11-django+bcrypt = 4.2.6
 Requires: python3.11-django-cors-headers = 4.3.1
 Requires: python3.11-django-crum = 0.7.9
@@ -734,6 +736,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 12:45:30 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 01:22:42 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
