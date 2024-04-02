@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-ldap-3.4.4-1.el9.src.rpm
 
-The build completed at Tue Apr  2 09:44:21 PM CEST 2024
+The build completed at Tue Apr  2 10:26:08 PM CEST 2024
 
 The build was unsuccessful.
 
