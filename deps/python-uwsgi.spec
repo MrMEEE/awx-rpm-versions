@@ -38,7 +38,8 @@ Summary:        %{summary}
 
 
 %build
-touch INSTALLER
+mkdir -p $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%{version}.dist-info
+touch $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/uWSGI-%{version}.dist-info/INSTALLER
 %pyproject_wheel
 
 
