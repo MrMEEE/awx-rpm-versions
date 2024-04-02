@@ -31,7 +31,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n uwsgi-%{version}
-
+touch INSTALLER RECORD
 
 %generate_buildrequires
 %pyproject_buildrequires
@@ -42,7 +42,7 @@ Summary:        %{summary}
 
 
 %install
-touch INSTALLER RECORD
+find .
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files

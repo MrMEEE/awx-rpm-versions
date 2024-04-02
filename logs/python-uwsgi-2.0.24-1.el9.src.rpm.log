@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   [===                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                                          2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   [===                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                                           35 MB/s | 317 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              [   ===                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                     5.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                             21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       [            ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                               22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           [               ===                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           [                  ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                   54 kB/s |  28 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   [===                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                                           27 MB/s | 317 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              [   ===                                                                              ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64         100% [====================================================================================] 3.4 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                     3.4 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                100% [====================================================================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                                                             11 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       [            ===                                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                  100% [====================================================================================] 3.7 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                              3.7 kB/s | 4.5 kB     00:01    
+Extra Packages for Enterprise Linux 9 - x86_64                                           [               ===                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           [                  ===                                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           [                     ===                                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                   31 kB/s |  28 kB     00:00    
 Dependencies resolved.
 ================================================================================================================================================================================================================
  Package                                         Architecture               Version                                     Repository                                                                         Size
@@ -217,7 +217,7 @@ Start: rpmbuild python-uwsgi-2.0.24-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712016000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mzBTlp
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.WFpDIC
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -228,10 +228,11 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mzBTlp
 + '[' 0 -ne 0 ']'
 + cd uwsgi-2.0.24
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ touch INSTALLER RECORD
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Y6xGgy
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jheuCU
 + umask 022
 + cd /builddir/build/BUILD
 + cd uwsgi-2.0.24
@@ -268,11 +269,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   [===                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                                          2.9 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              [===                                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64         100% [====================================================================================] 5.1 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                     5.0 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        [   ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                             23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                               22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           [            ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                  293 kB/s |  28 kB     00:00    
+https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              [===                                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64         100% [====================================================================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                     3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        [   ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                   100% [====================================================================================] 9.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                               9.4 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                             22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                               21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           [            ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                  183 kB/s |  28 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -319,7 +320,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712016000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.c31Tc5
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1BRsqM
 + umask 022
 + cd /builddir/build/BUILD
 + cd uwsgi-2.0.24
@@ -388,10 +389,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   [===                                                                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                                                                                                          2.9 MB/s | 3.0 kB     00:00    
 https://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              [===                                                                                 ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64         100% [====================================================================================] 4.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64                                                                                                     4.9 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        [   ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                             21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                               21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           [            ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                  305 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                        [   ===                                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                                16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                     [      ===                                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                                             22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                       [         ===                                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                               23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           [            ===                                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           [               ===                                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                                   54 kB/s |  28 kB     00:00    
 Package gcc-11.4.1-2.1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -406,7 +407,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712016000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.MnAhcH
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZMHOSj
 + umask 022
 + cd /builddir/build/BUILD
 + cd uwsgi-2.0.24
@@ -463,7 +464,7 @@ removed directory 'uWSGI-2.0.24.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.uRExqV
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.c328zX
 + umask 022
 + cd /builddir/build/BUILD
 + cd uwsgi-2.0.24
@@ -478,15 +479,15 @@ Processing /builddir/build/BUILD/uwsgi-2.0.24
   /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:265: UserWarning: Unknown distribution option: 'descriptions'
     warnings.warn(msg)
   running dist_info
-  creating /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info
-  writing /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info
+  writing /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/SOURCES.txt'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-t11bf7pf/uWSGI-2.0.24.dist-info'
+  writing manifest file '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-modern-metadata-glacp5ff/uWSGI-2.0.24.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: uWSGI
   Building wheel for uWSGI (pyproject.toml): started
@@ -536,139 +537,139 @@ Building wheels for collected packages: uWSGI
   detected CPU cores: 4
   configured CFLAGS: -O2 -I. -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wformat-signedness -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DUWSGI_HAS_IFADDRS -DUWSGI_LOCK_USE_MUTEX -DUWSGI_EVENT_USE_EPOLL -DUWSGI_EVENT_TIMER_USE_TIMERFD -DUWSGI_EVENT_FILEMONITOR_USE_INOTIFY -DUWSGI_VERSION="\"2.0.24\"" -DUWSGI_VERSION_BASE="2" -DUWSGI_VERSION_MAJOR="0" -DUWSGI_VERSION_MINOR="24" -DUWSGI_VERSION_REVISION="0" -DUWSGI_VERSION_CUSTOM="\"\"" -DUWSGI_YAML -DUWSGI_PLUGIN_DIR="\".\"" -DUWSGI_DECLARE_EMBEDDED_PLUGINS="UDEP(python);UDEP(gevent);UDEP(ping);UDEP(cache);UDEP(nagios);UDEP(rrdtool);UDEP(carbon);UDEP(rpc);UDEP(corerouter);UDEP(fastrouter);UDEP(http);UDEP(ugreen);UDEP(signal);UDEP(syslog);UDEP(rsyslog);UDEP(logsocket);UDEP(router_uwsgi);UDEP(router_redirect);UDEP(router_basicauth);UDEP(zergpool);UDEP(redislog);UDEP(mongodblog);UDEP(router_rewrite);UDEP(router_http);UDEP(logfile);UDEP(router_cache);UDEP(rawrouter);UDEP(router_static);UDEP(sslrouter);UDEP(spooler);UDEP(cheaper_busyness);UDEP(symcall);UDEP(transformation_tofile);UDEP(transformation_gzip);UDEP(transformation_chunked);UDEP(transformation_offload);UDEP(router_memcached);UDEP(router_redis);UDEP(router_hash);UDEP(router_expires);UDEP(router_metrics);UDEP(transformation_template);UDEP(stats_pusher_socket);" -DUWSGI_LOAD_EMBEDDED_PLUGINS="ULEP(python);ULEP(gevent);ULEP(ping);ULEP(cache);ULEP(nagios);ULEP(rrdtool);ULEP(carbon);ULEP(rpc);ULEP(corerouter);ULEP(fastrouter);ULEP(http);ULEP(ugreen);ULEP(signal);ULEP(syslog);ULEP(rsyslog);ULEP(logsocket);ULEP(router_uwsgi);ULEP(router_redirect);ULEP(router_basicauth);ULEP(zergpool);ULEP(redislog);ULEP(mongodblog);ULEP(router_rewrite);ULEP(router_http);ULEP(logfile);ULEP(router_cache);ULEP(rawrouter);ULEP(router_static);ULEP(sslrouter);ULEP(spooler);ULEP(cheaper_busyness);ULEP(symcall);ULEP(transformation_tofile);ULEP(transformation_gzip);ULEP(transformation_chunked);ULEP(transformation_offload);ULEP(router_memcached);ULEP(router_redis);ULEP(router_hash);ULEP(router_expires);ULEP(router_metrics);ULEP(transformation_template);ULEP(stats_pusher_socket);"
   *** uWSGI compiling server core ***
-  [thread 1][gcc] core/utils.o
-  [thread 2][gcc] core/protocol.o
-  [thread 3][gcc] core/socket.o
-  [thread 0][gcc] core/logging.o
-  [thread 2][gcc] core/master.o
-  [thread 3][gcc] core/master_utils.o
-  [thread 0][gcc] core/emperor.o
-  [thread 2][gcc] core/notify.o
-  [thread 2][gcc] core/mule.o
-  [thread 1][gcc] core/subscription.o
-  [thread 3][gcc] core/stats.o
-  [thread 2][gcc] core/sendfile.o
-  [thread 0][gcc] core/async.o
+  [thread 3][gcc] core/utils.o
+  [thread 0][gcc] core/protocol.o
+  [thread 2][gcc] core/socket.o
+  [thread 1][gcc] core/logging.o
+  [thread 0][gcc] core/master.o
+  [thread 2][gcc] core/master_utils.o
+  [thread 1][gcc] core/emperor.o
+  [thread 0][gcc] core/notify.o
+  [thread 0][gcc] core/mule.o
+  [thread 2][gcc] core/subscription.o
+  [thread 0][gcc] core/stats.o
+  [thread 1][gcc] core/sendfile.o
+  [thread 3][gcc] core/async.o
   [thread 2][gcc] core/master_checks.o
   [thread 1][gcc] core/fifo.o
-  [thread 3][gcc] core/offload.o
-  [thread 0][gcc] core/io.o
-  [thread 2][gcc] core/static.o
-  [thread 1][gcc] core/websockets.o
-  [thread 3][gcc] core/spooler.o
-  [thread 1][gcc] core/snmp.o
+  [thread 0][gcc] core/offload.o
+  [thread 1][gcc] core/io.o
+  [thread 3][gcc] core/static.o
+  [thread 2][gcc] core/websockets.o
+  [thread 0][gcc] core/spooler.o
+  [thread 3][gcc] core/snmp.o
   [thread 2][gcc] core/exceptions.o
-  [thread 0][gcc] core/config.o
-  [thread 1][gcc] core/setup_utils.o
-  [thread 3][gcc] core/clock.o
+  [thread 3][gcc] core/config.o
+  [thread 0][gcc] core/setup_utils.o
+  [thread 1][gcc] core/clock.o
   [thread 2][gcc] core/init.o
-  [thread 3][gcc] core/buffer.o
-  [thread 1][gcc] core/reader.o
+  [thread 1][gcc] core/buffer.o
+  [thread 0][gcc] core/reader.o
   [thread 2][gcc] core/writer.o
-  [thread 0][gcc] core/alarm.o
+  [thread 1][gcc] core/alarm.o
   [thread 3][gcc] core/cron.o
-  [thread 1][gcc] core/hooks.o
-  [thread 3][gcc] core/plugins.o
-  [thread 0][gcc] core/lock.o
-  [thread 2][gcc] core/cache.o
-  [thread 3][gcc] core/daemons.o
-  [thread 1][gcc] core/errors.o
-  [thread 0][gcc] core/hash.o
-  [thread 1][gcc] core/master_events.o
-  [thread 0][gcc] core/chunked.o
-  [thread 3][gcc] core/queue.o
-  [thread 1][gcc] core/event.o
-  [thread 0][gcc] core/signal.o
-  [thread 3][gcc] core/strings.o
-  [thread 2][gcc] core/progress.o
-  [thread 1][gcc] core/timebomb.o
+  [thread 0][gcc] core/hooks.o
+  [thread 2][gcc] core/plugins.o
+  [thread 1][gcc] core/lock.o
+  [thread 3][gcc] core/cache.o
+  [thread 0][gcc] core/daemons.o
+  [thread 2][gcc] core/errors.o
+  [thread 1][gcc] core/hash.o
+  [thread 2][gcc] core/master_events.o
+  [thread 1][gcc] core/chunked.o
+  [thread 0][gcc] core/queue.o
+  [thread 2][gcc] core/event.o
+  [thread 1][gcc] core/signal.o
+  [thread 0][gcc] core/strings.o
+  [thread 3][gcc] core/progress.o
+  [thread 2][gcc] core/timebomb.o
   [thread 0][gcc] core/ini.o
   [thread 3][gcc] core/fsmon.o
   [thread 1][gcc] core/mount.o
-  [thread 2][gcc] core/metrics.o
-  [thread 0][gcc] core/plugins_builder.o
+  [thread 0][gcc] core/metrics.o
+  [thread 2][gcc] core/plugins_builder.o
   [thread 3][gcc] core/sharedarea.o
   [thread 1][gcc] core/rpc.o
-  [thread 0][gcc] core/gateway.o
-  [thread 1][gcc] core/loop.o
-  [thread 0][gcc] core/cookie.o
-  [thread 3][gcc] core/querystring.o
-  [thread 0][gcc] core/rb_timers.o
-  [thread 2][gcc] core/transformations.o
-  [thread 1][gcc] core/uwsgi.o
-  [thread 3][gcc] proto/base.o
-  [thread 0][gcc] proto/uwsgi.o
-  [thread 2][gcc] proto/http.o
-  [thread 3][gcc] proto/fastcgi.o
+  [thread 2][gcc] core/gateway.o
+  [thread 3][gcc] core/loop.o
+  [thread 2][gcc] core/cookie.o
+  [thread 1][gcc] core/querystring.o
+  [thread 2][gcc] core/rb_timers.o
+  [thread 1][gcc] core/transformations.o
+  [thread 3][gcc] core/uwsgi.o
+  [thread 0][gcc] proto/base.o
+  [thread 2][gcc] proto/uwsgi.o
+  [thread 1][gcc] proto/http.o
+  [thread 2][gcc] proto/fastcgi.o
   [thread 0][gcc] proto/scgi.o
-  [thread 0][gcc] proto/puwsgi.o
-  [thread 3][gcc] lib/linux_ns.o
-  [thread 2][gcc] core/yaml.o
-  [thread 0][gcc] core/dot_h.o
-  [thread 0][gcc] core/config_py.o
+  [thread 2][gcc] proto/puwsgi.o
+  [thread 0][gcc] lib/linux_ns.o
+  [thread 1][gcc] core/yaml.o
+  [thread 2][gcc] core/dot_h.o
+  [thread 2][gcc] core/config_py.o
   *** uWSGI compiling embedded plugins ***
-  [thread 0][gcc] plugins/python/python_plugin.o
-  [thread 3][gcc] plugins/python/pyutils.o
-  [thread 2][gcc] plugins/python/pyloader.o
-  [thread 3][gcc] plugins/python/wsgi_handlers.o
-  [thread 2][gcc] plugins/python/wsgi_headers.o
-  [thread 3][gcc] plugins/python/wsgi_subhandler.o
-  [thread 2][gcc] plugins/python/web3_subhandler.o
-  [thread 0][gcc] plugins/python/pump_subhandler.o
-  [thread 1][gcc] plugins/python/gil.o
-  [thread 3][gcc] plugins/python/uwsgi_pymodule.o
-  [thread 1][gcc] plugins/python/profiler.o
-  [thread 2][gcc] plugins/python/symimporter.o
-  [thread 0][gcc] plugins/python/tracebacker.o
-  [thread 1][gcc] plugins/python/raw.o
-  [thread 2][gcc] plugins/gevent/gevent.o
-  [thread 1][gcc] plugins/gevent/hooks.o
-  [thread 0][gcc] plugins/ping/ping_plugin.o
-  [thread 0][gcc] plugins/cache/cache.o
+  [thread 2][gcc] plugins/python/python_plugin.o
+  [thread 1][gcc] plugins/python/pyutils.o
+  [thread 0][gcc] plugins/python/pyloader.o
+  [thread 1][gcc] plugins/python/wsgi_handlers.o
+  [thread 0][gcc] plugins/python/wsgi_headers.o
+  [thread 2][gcc] plugins/python/wsgi_subhandler.o
+  [thread 1][gcc] plugins/python/web3_subhandler.o
+  [thread 3][gcc] plugins/python/pump_subhandler.o
+  [thread 0][gcc] plugins/python/gil.o
+  [thread 1][gcc] plugins/python/uwsgi_pymodule.o
+  [thread 2][gcc] plugins/python/profiler.o
+  [thread 0][gcc] plugins/python/symimporter.o
+  [thread 3][gcc] plugins/python/tracebacker.o
+  [thread 2][gcc] plugins/python/raw.o
+  [thread 0][gcc] plugins/gevent/gevent.o
+  [thread 2][gcc] plugins/gevent/hooks.o
+  [thread 3][gcc] plugins/ping/ping_plugin.o
+  [thread 3][gcc] plugins/cache/cache.o
   [thread 2][gcc] plugins/nagios/nagios.o
-  [thread 1][gcc] plugins/rrdtool/rrdtool.o
-  [thread 0][gcc] plugins/carbon/carbon.o
-  [thread 2][gcc] plugins/rpc/rpc_plugin.o
-  [thread 1][gcc] plugins/corerouter/cr_common.o
-  [thread 2][gcc] plugins/corerouter/cr_map.o
-  [thread 0][gcc] plugins/corerouter/corerouter.o
-  [thread 1][gcc] plugins/fastrouter/fastrouter.o
-  [thread 2][gcc] plugins/http/http.o
-  [thread 3][gcc] plugins/http/keepalive.o
-  [thread 1][gcc] plugins/http/https.o
+  [thread 0][gcc] plugins/rrdtool/rrdtool.o
+  [thread 2][gcc] plugins/carbon/carbon.o
+  [thread 3][gcc] plugins/rpc/rpc_plugin.o
+  [thread 0][gcc] plugins/corerouter/cr_common.o
+  [thread 3][gcc] plugins/corerouter/cr_map.o
+  [thread 2][gcc] plugins/corerouter/corerouter.o
+  [thread 0][gcc] plugins/fastrouter/fastrouter.o
+  [thread 3][gcc] plugins/http/http.o
+  [thread 1][gcc] plugins/http/keepalive.o
+  [thread 0][gcc] plugins/http/https.o
   [thread 1][gcc] plugins/http/spdy3.o
   [thread 0][gcc] plugins/ugreen/ugreen.o
-  [thread 3][gcc] plugins/signal/signal_plugin.o
+  [thread 2][gcc] plugins/signal/signal_plugin.o
   [thread 1][gcc] plugins/syslog/syslog_plugin.o
-  [thread 0][gcc] plugins/rsyslog/rsyslog_plugin.o
-  [thread 3][gcc] plugins/logsocket/logsocket_plugin.o
-  [thread 1][gcc] plugins/router_uwsgi/router_uwsgi.o
-  [thread 2][gcc] plugins/router_redirect/router_redirect.o
-  [thread 3][gcc] plugins/router_basicauth/router_basicauth.o
-  [thread 0][gcc] plugins/zergpool/zergpool.o
+  [thread 3][gcc] plugins/rsyslog/rsyslog_plugin.o
+  [thread 2][gcc] plugins/logsocket/logsocket_plugin.o
+  [thread 0][gcc] plugins/router_uwsgi/router_uwsgi.o
+  [thread 1][gcc] plugins/router_redirect/router_redirect.o
+  [thread 0][gcc] plugins/router_basicauth/router_basicauth.o
+  [thread 3][gcc] plugins/zergpool/zergpool.o
   [thread 1][gcc] plugins/redislog/redislog_plugin.o
   [thread 2][gcc] plugins/mongodblog/mongodblog_plugin.o
-  [thread 3][gcc] plugins/router_rewrite/router_rewrite.o
-  [thread 0][gcc] plugins/router_http/router_http.o
+  [thread 0][gcc] plugins/router_rewrite/router_rewrite.o
+  [thread 3][gcc] plugins/router_http/router_http.o
   [thread 2][gcc] plugins/logfile/logfile.o
-  [thread 3][gcc] plugins/router_cache/router_cache.o
-  [thread 1][gcc] plugins/rawrouter/rawrouter.o
-  [thread 0][gcc] plugins/router_static/router_static.o
-  [thread 3][gcc] plugins/sslrouter/sslrouter.o
+  [thread 1][gcc] plugins/router_cache/router_cache.o
+  [thread 0][gcc] plugins/rawrouter/rawrouter.o
+  [thread 3][gcc] plugins/router_static/router_static.o
+  [thread 1][gcc] plugins/sslrouter/sslrouter.o
   [thread 2][gcc] plugins/spooler/spooler_plugin.o
-  [thread 0][gcc] plugins/cheaper_busyness/cheaper_busyness.o
-  [thread 3][gcc] plugins/symcall/symcall_plugin.o
-  [thread 2][gcc] plugins/transformation_tofile/tofile.o
-  [thread 1][gcc] plugins/transformation_gzip/gzip.o
+  [thread 3][gcc] plugins/cheaper_busyness/cheaper_busyness.o
+  [thread 1][gcc] plugins/symcall/symcall_plugin.o
+  [thread 0][gcc] plugins/transformation_tofile/tofile.o
+  [thread 2][gcc] plugins/transformation_gzip/gzip.o
   [thread 0][gcc] plugins/transformation_chunked/chunked.o
-  [thread 3][gcc] plugins/transformation_offload/offload.o
+  [thread 1][gcc] plugins/transformation_offload/offload.o
   [thread 2][gcc] plugins/router_memcached/router_memcached.o
-  [thread 1][gcc] plugins/router_redis/router_redis.o
-  [thread 3][gcc] plugins/router_hash/router_hash.o
-  [thread 0][gcc] plugins/router_expires/expires.o
+  [thread 3][gcc] plugins/router_redis/router_redis.o
+  [thread 0][gcc] plugins/router_hash/router_hash.o
+  [thread 1][gcc] plugins/router_expires/expires.o
   [thread 2][gcc] plugins/router_metrics/plugin.o
-  [thread 1][gcc] plugins/transformation_template/tt.o
-  [thread 3][gcc] plugins/stats_pusher_socket/plugin.o
+  [thread 3][gcc] plugins/transformation_template/tt.o
+  [thread 0][gcc] plugins/stats_pusher_socket/plugin.o
   *** uWSGI linking ***
   lto-wrapper: warning: using serial compilation of 13 LTRANS jobs
   core/subscription.c: In function ‘uwsgi_subscribe’:
@@ -699,7 +700,7 @@ Building wheels for collected packages: uWSGI
   malloc = libc
 
   ############## end of uWSGI configuration #############
-  total build time: 21 seconds
+  total build time: 23 seconds
   *** uWSGI is ready, launch it with build/bdist.linux-x86_64/wheel/uWSGI-2.0.24.data/scripts/uwsgi ***
   running install_lib
   creating build/bdist.linux-x86_64/wheel/uWSGI-2.0.24.data/purelib
@@ -715,7 +716,7 @@ Building wheels for collected packages: uWSGI
   Copying uWSGI.egg-info to build/bdist.linux-x86_64/wheel/uWSGI-2.0.24.data/purelib/uWSGI-2.0.24-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/uWSGI-2.0.24.dist-info/WHEEL
-  creating '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-wheel-ma_bk348/.tmp-6velxssl/uWSGI-2.0.24-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir/pip-wheel-0ph3h7ws/.tmp-8w_d_1ja/uWSGI-2.0.24-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'uWSGI-2.0.24.data/purelib/uwsgidecorators.py'
   adding 'uWSGI-2.0.24.data/scripts/uwsgi'
   adding 'uWSGI-2.0.24.dist-info/LICENSE'
@@ -731,7 +732,7 @@ Successfully built uWSGI
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.yvdz1E
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.uq5WRa
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-uwsgi-2.0.24-1.el9.x86_64 '!=' / ']'
@@ -739,14 +740,1029 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.yvdz1E
 ++ dirname /builddir/build/BUILDROOT/python-uwsgi-2.0.24-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
 + mkdir /builddir/build/BUILDROOT/python-uwsgi-2.0.24-1.el9.x86_64
-+ cd uwsgi-2.0.24
-+ touch INSTALLER RECORD
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+.
+./.github
+./.github/workflows
+./.github/workflows/compile-test.yml
+./.github/workflows/test.yml
+./.gitignore
+./CONTRIBUTORS
+./INSTALL
+./LICENSE
+./Makefile
+./PKG-INFO
+./README
+./apache2
+./apache2/mod_Ruwsgi.c
+./apache2/mod_proxy_uwsgi.c
+./apache2/mod_uwsgi.c
+./attach.py
+./bin
+./bin/uwsgi
+./buildconf
+./buildconf/all.ini
+./buildconf/asyncio.ini
+./buildconf/base.ini
+./buildconf/cgi.ini
+./buildconf/core.ini
+./buildconf/coroae.ini
+./buildconf/coverity.ini
+./buildconf/default.ini
+./buildconf/django.ini
+./buildconf/embedded.ini
+./buildconf/erlang.ini
+./buildconf/gccgo.ini
+./buildconf/gevent.ini
+./buildconf/glusterfs.ini
+./buildconf/gridfs.ini
+./buildconf/jwsgi.ini
+./buildconf/lib.ini
+./buildconf/lua.ini
+./buildconf/luap.ini
+./buildconf/minimal.ini
+./buildconf/modular.ini
+./buildconf/mono.ini
+./buildconf/nolang.ini
+./buildconf/package.ini
+./buildconf/php.ini
+./buildconf/plonly.ini
+./buildconf/ppa.ini
+./buildconf/psgi.ini
+./buildconf/pyerl.ini
+./buildconf/pylua.ini
+./buildconf/pyonly.ini
+./buildconf/pypy.ini
+./buildconf/pypyonly.ini
+./buildconf/pyring.ini
+./buildconf/pyuwsgi.ini
+./buildconf/pyuwsginossl.ini
+./buildconf/rack.ini
+./buildconf/rados.ini
+./buildconf/rbonly.ini
+./buildconf/ring.ini
+./buildconf/ruby2.ini
+./buildconf/servlet.ini
+./buildconf/travis.ini
+./buildconf/unbit.ini
+./buildconf/unbitstaff.ini
+./buildconf/uwsgi.it.ini
+./buildconf/v8.ini
+./contrib
+./contrib/Uwsgi.pm
+./contrib/binder.pl
+./contrib/centos_init_script
+./contrib/cgi_python.c
+./contrib/cryptologger.rb
+./contrib/emperormon.ru
+./contrib/fdconf.pl
+./contrib/graphite_uwsgi.py
+./contrib/launchd
+./contrib/launchd/it.unbit.uwsgi.emperor.plist
+./contrib/launchd/it.unbit.uwsgi.plist
+./contrib/loadapp.pl
+./contrib/pypy
+./contrib/pypy/uwsgi_pypy_greenlets.py
+./contrib/pyuwsgi.py
+./contrib/runuwsgi.py
+./contrib/securesubscribe.pl
+./contrib/spoolqueue
+./contrib/spoolqueue/producer.py
+./contrib/spoolqueue/tasks.py
+./contrib/spoolqueue/tasksconsumer.py
+./contrib/subscribe.pl
+./contrib/twuwsgi.py
+./contrib/upstart
+./contrib/upstart/emperor.conf
+./contrib/upstart/uwsgi.conf
+./contrib/upython
+./contrib/urack.rb
+./contrib/uwsgi-cache-monitor.py
+./contrib/uwsgi.erl
+./contrib/uwsgi.java
+./contrib/uwsgi.rb
+./contrib/uwsgi_client.c
+./contrib/uwsgi_dynamic_client.c
+./contrib/uwsgisubscribers.ru
+./contrib/xinetd_uwsgi
+./core
+./core/alarm.c
+./core/async.c
+./core/buffer.c
+./core/cache.c
+./core/chunked.c
+./core/clang_fake.c
+./core/clock.c
+./core/config.c
+./core/cookie.c
+./core/cron.c
+./core/daemons.c
+./core/emperor.c
+./core/errors.c
+./core/event.c
+./core/exceptions.c
+./core/fifo.c
+./core/fsmon.c
+./core/gateway.c
+./core/hash.c
+./core/hooks.c
+./core/ini.c
+./core/init.c
+./core/io.c
+./core/json.c
+./core/legion.c
+./core/lock.c
+./core/logging.
+./core/logging.c
+./core/loop.c
+./core/master.c
+./core/master_checks.c
+./core/master_events.c
+./core/master_utils.c
+./core/metrics.c
+./core/mount.c
+./core/mule.c
+./core/notify.c
+./core/offload.c
+./core/plugins.c
+./core/plugins_builder.c
+./core/progress.c
+./core/protocol.c
+./core/querystring.c
+./core/queue.c
+./core/rb_timers.c
+./core/reader.c
+./core/regexp.c
+./core/routing.c
+./core/rpc.c
+./core/sendfile.c
+./core/setup_utils.c
+./core/sharedarea.c
+./core/signal.c
+./core/skel.c
+./core/snmp.c
+./core/socket.c
+./core/spooler.c
+./core/ssl.c
+./core/static.c
+./core/stats.c
+./core/storage.c
+./core/strings.c
+./core/subscription.c
+./core/timebomb.c
+./core/transformations.c
+./core/utils.c
+./core/uwsgi.c
+./core/websockets.c
+./core/writer.c
+./core/xmlconf.c
+./core/yaml.c
+./core/zeus.c
+./core/zlib.c
+./core/dot_h.c
+./core/config_py.c
+./core/protocol.o
+./core/utils.o
+./core/socket.o
+./core/logging.o
+./core/master.o
+./core/emperor.o
+./core/master_utils.o
+./core/notify.o
+./core/mule.o
+./core/subscription.o
+./core/stats.o
+./core/sendfile.o
+./core/async.o
+./core/master_checks.o
+./core/fifo.o
+./core/offload.o
+./core/io.o
+./core/static.o
+./core/websockets.o
+./core/spooler.o
+./core/snmp.o
+./core/exceptions.o
+./core/config.o
+./core/setup_utils.o
+./core/clock.o
+./core/init.o
+./core/buffer.o
+./core/reader.o
+./core/writer.o
+./core/alarm.o
+./core/cron.o
+./core/hooks.o
+./core/plugins.o
+./core/lock.o
+./core/cache.o
+./core/daemons.o
+./core/errors.o
+./core/hash.o
+./core/master_events.o
+./core/chunked.o
+./core/queue.o
+./core/event.o
+./core/signal.o
+./core/strings.o
+./core/progress.o
+./core/timebomb.o
+./core/ini.o
+./core/fsmon.o
+./core/mount.o
+./core/metrics.o
+./core/plugins_builder.o
+./core/sharedarea.o
+./core/rpc.o
+./core/gateway.o
+./core/loop.o
+./core/cookie.o
+./core/querystring.o
+./core/rb_timers.o
+./core/transformations.o
+./core/uwsgi.o
+./core/yaml.o
+./core/dot_h.o
+./core/config_py.o
+./examples
+./examples/bootstrap.py
+./examples/bootstrap2.py
+./examples/bootstrap3.py
+./examples/bootstrap4.py
+./examples/bootstrap5.py
+./examples/config.lua
+./examples/config.ru
+./examples/config17.ru
+./examples/config2.lua
+./examples/config2.ru
+./examples/config30.ru
+./examples/corostream.pl
+./examples/debug.ini
+./examples/fibers.ru
+./examples/fibers.yml
+./examples/flaskpost.py
+./examples/heavytest.ini
+./examples/heavytest.py
+./examples/info_uwsgi.php
+./examples/logic.ini
+./examples/mega.xml
+./examples/mjpeg_stream.py
+./examples/mojoapp.pl
+./examples/multi.ini
+./examples/multi.xml
+./examples/multiapp.py
+./examples/protected.ini
+./examples/router.lua
+./examples/simple_app.py
+./examples/simple_app_wsgi2.py
+./examples/simple_logger.py
+./examples/sites.xml
+./examples/sputnik.ws
+./examples/staticfilesnmp.py
+./examples/taskqueue.py
+./examples/uwsgi.xml
+./examples/uwsgirouter.py
+./examples/uwsgirouter2.py
+./examples/uwsgirouter3.py
+./examples/uwsgirouter4.py
+./examples/uwsgirouter5.py
+./examples/uwsgistatus.py
+./examples/welcome.ini
+./examples/welcome.py
+./examples/welcome3.py
+./examples/werkzeug.js
+./examples/werkzeug.yml
+./examples/werkzeug_strict.yml
+./examples/xmlindex-html.xsl
+./examples/xmlindex.ini
+./examples/zmqgevent.ini
+./ext
+./ext/uwsgi
+./ext/uwsgi/extconf.rb
+./install.sh
+./lib
+./lib/linux_ns.c
+./lib/netlink.c
+./lib/sun_fixes.c
+./lib/linux_ns.o
+./logo_uWSGI.png
+./logo_uWSGI.svg
+./mongrel2-uwsgi.conf
+./plugins
+./plugins/airbrake
+./plugins/airbrake/airbrake_plugin.c
+./plugins/airbrake/uwsgiplugin.py
+./plugins/alarm_curl
+./plugins/alarm_curl/alarm_curl_plugin.c
+./plugins/alarm_curl/uwsgiplugin.py
+./plugins/alarm_speech
+./plugins/alarm_speech/alarm_speech.m
+./plugins/alarm_speech/uwsgiplugin.py
+./plugins/alarm_xmpp
+./plugins/alarm_xmpp/alarm_xmpp_plugin.c
+./plugins/alarm_xmpp/gloox.cc
+./plugins/alarm_xmpp/uwsgiplugin.py
+./plugins/asyncio
+./plugins/asyncio/asyncio.c
+./plugins/asyncio/uwsgiplugin.py
+./plugins/cache
+./plugins/cache/cache.c
+./plugins/cache/uwsgiplugin.py
+./plugins/cache/cache.o
+./plugins/carbon
+./plugins/carbon/carbon.c
+./plugins/carbon/uwsgiplugin.py
+./plugins/carbon/carbon.o
+./plugins/cgi
+./plugins/cgi/cgi_plugin.c
+./plugins/cgi/uwsgiplugin.py
+./plugins/cheaper_backlog2
+./plugins/cheaper_backlog2/cheaper_backlog2.c
+./plugins/cheaper_backlog2/uwsgiplugin.py
+./plugins/cheaper_busyness
+./plugins/cheaper_busyness/cheaper_busyness.c
+./plugins/cheaper_busyness/uwsgiplugin.py
+./plugins/cheaper_busyness/cheaper_busyness.o
+./plugins/clock_monotonic
+./plugins/clock_monotonic/clock_monotonic.c
+./plugins/clock_monotonic/uwsgiplugin.py
+./plugins/clock_realtime
+./plugins/clock_realtime/clock_realtime.c
+./plugins/clock_realtime/uwsgiplugin.py
+./plugins/corerouter
+./plugins/corerouter/corerouter.c
+./plugins/corerouter/cr.h
+./plugins/corerouter/cr_common.c
+./plugins/corerouter/cr_map.c
+./plugins/corerouter/uwsgiplugin.py
+./plugins/corerouter/cr_common.o
+./plugins/corerouter/cr_map.o
+./plugins/corerouter/corerouter.o
+./plugins/coroae
+./plugins/coroae/coroae.c
+./plugins/coroae/uwsgiplugin.py
+./plugins/cplusplus
+./plugins/cplusplus/base.cc
+./plugins/cplusplus/plugin.c
+./plugins/cplusplus/uwsgiplugin.py
+./plugins/curl_cron
+./plugins/curl_cron/curl_cron.c
+./plugins/curl_cron/uwsgiplugin.py
+./plugins/dumbloop
+./plugins/dumbloop/dumb.c
+./plugins/dumbloop/uwsgiplugin.py
+./plugins/dummy
+./plugins/dummy/dummy.c
+./plugins/dummy/uwsgiplugin.py
+./plugins/echo
+./plugins/echo/echo_plugin.c
+./plugins/echo/uwsgiplugin.py
+./plugins/emperor_amqp
+./plugins/emperor_amqp/amqp.c
+./plugins/emperor_amqp/emperor_amqp.c
+./plugins/emperor_amqp/uwsgiplugin.py
+./plugins/emperor_mongodb
+./plugins/emperor_mongodb/emperor_mongodb.cc
+./plugins/emperor_mongodb/plugin.c
+./plugins/emperor_mongodb/uwsgiplugin.py
+./plugins/emperor_pg
+./plugins/emperor_pg/emperor_pg.c
+./plugins/emperor_pg/uwsgiplugin.py
+./plugins/emperor_zeromq
+./plugins/emperor_zeromq/emperor_zeromq.c
+./plugins/emperor_zeromq/uwsgiplugin.py
+./plugins/example
+./plugins/example/example_plugin.c
+./plugins/example/uwsgiplugin.py
+./plugins/exception_log
+./plugins/exception_log/exception_log.c
+./plugins/exception_log/uwsgiplugin.py
+./plugins/fastrouter
+./plugins/fastrouter/fastrouter.c
+./plugins/fastrouter/uwsgiplugin.py
+./plugins/fastrouter/fastrouter.o
+./plugins/fiber
+./plugins/fiber/fiber.c
+./plugins/fiber/uwsgiplugin.py
+./plugins/forkptyrouter
+./plugins/forkptyrouter/forkptyrouter.c
+./plugins/forkptyrouter/uwsgiplugin.py
+./plugins/gccgo
+./plugins/gccgo/gccgo_plugin.c
+./plugins/gccgo/uwsgi.go
+./plugins/gccgo/uwsgiplugin.py
+./plugins/geoip
+./plugins/geoip/geoip.c
+./plugins/geoip/uwsgiplugin.py
+./plugins/gevent
+./plugins/gevent/gevent.c
+./plugins/gevent/gevent.h
+./plugins/gevent/hooks.c
+./plugins/gevent/uwsgiplugin.py
+./plugins/gevent/gevent.o
+./plugins/gevent/hooks.o
+./plugins/glusterfs
+./plugins/glusterfs/glusterfs.c
+./plugins/glusterfs/uwsgiplugin.py
+./plugins/graylog2
+./plugins/graylog2/graylog2_plugin.c
+./plugins/graylog2/uwsgiplugin.py
+./plugins/greenlet
+./plugins/greenlet/greenlet.c
+./plugins/greenlet/uwsgiplugin.py
+./plugins/gridfs
+./plugins/gridfs/gridfs.cc
+./plugins/gridfs/plugin.c
+./plugins/gridfs/uwsgiplugin.py
+./plugins/http
+./plugins/http/common.h
+./plugins/http/http.c
+./plugins/http/https.c
+./plugins/http/keepalive.c
+./plugins/http/spdy3.c
+./plugins/http/spdy3.h
+./plugins/http/uwsgiplugin.py
+./plugins/http/http.o
+./plugins/http/keepalive.o
+./plugins/http/https.o
+./plugins/http/spdy3.o
+./plugins/jvm
+./plugins/jvm/jvm.h
+./plugins/jvm/jvm_plugin.c
+./plugins/jvm/uwsgi.java
+./plugins/jvm/uwsgiplugin.py
+./plugins/jwsgi
+./plugins/jwsgi/jwsgi_plugin.c
+./plugins/jwsgi/uwsgiplugin.py
+./plugins/ldap
+./plugins/ldap/ldap.c
+./plugins/ldap/uwsgiplugin.py
+./plugins/legion_cache_fetch
+./plugins/legion_cache_fetch/legion_cache_fetch.c
+./plugins/legion_cache_fetch/uwsgiplugin.py
+./plugins/libffi
+./plugins/libffi/libffi.c
+./plugins/libffi/uwsgiplugin.py
+./plugins/libtcc
+./plugins/libtcc/libtcc.c
+./plugins/libtcc/uwsgiplugin.py
+./plugins/logcrypto
+./plugins/logcrypto/logcrypto.c
+./plugins/logcrypto/uwsgiplugin.py
+./plugins/logfile
+./plugins/logfile/logfile.c
+./plugins/logfile/uwsgiplugin.py
+./plugins/logfile/logfile.o
+./plugins/logpipe
+./plugins/logpipe/logpipe.c
+./plugins/logpipe/uwsgiplugin.py
+./plugins/logsocket
+./plugins/logsocket/logsocket_plugin.c
+./plugins/logsocket/uwsgiplugin.py
+./plugins/logsocket/logsocket_plugin.o
+./plugins/logzmq
+./plugins/logzmq/plugin.c
+./plugins/logzmq/uwsgiplugin.py
+./plugins/lua
+./plugins/lua/lua_plugin.c
+./plugins/lua/uwsgiplugin.py
+./plugins/matheval
+./plugins/matheval/math.c
+./plugins/matheval/uwsgiplugin.py
+./plugins/mongodb
+./plugins/mongodb/plugin.c
+./plugins/mongodb/uwsgiplugin.py
+./plugins/mongodblog
+./plugins/mongodblog/mongodblog_plugin.c
+./plugins/mongodblog/uwsgiplugin.py
+./plugins/mongodblog/mongodblog_plugin.o
+./plugins/mongrel2
+./plugins/mongrel2/mongrel2.c
+./plugins/mongrel2/uwsgiplugin.py
+./plugins/mono
+./plugins/mono/mono_plugin.c
+./plugins/mono/uwsgi.cs
+./plugins/mono/uwsgiplugin.py
+./plugins/msgpack
+./plugins/msgpack/msgpack.c
+./plugins/msgpack/uwsgiplugin.py
+./plugins/nagios
+./plugins/nagios/nagios.c
+./plugins/nagios/uwsgiplugin.py
+./plugins/nagios/nagios.o
+./plugins/notfound
+./plugins/notfound/notfound.c
+./plugins/notfound/uwsgiplugin.py
+./plugins/objc_gc
+./plugins/objc_gc/objc_gc.m
+./plugins/objc_gc/uwsgiplugin.py
+./plugins/pam
+./plugins/pam/pam.c
+./plugins/pam/uwsgiplugin.py
+./plugins/php
+./plugins/php/common.h
+./plugins/php/php_plugin.c
+./plugins/php/session.c
+./plugins/php/uwsgiplugin.py
+./plugins/ping
+./plugins/ping/ping_plugin.c
+./plugins/ping/uwsgiplugin.py
+./plugins/ping/ping_plugin.o
+./plugins/psgi
+./plugins/psgi/psgi.h
+./plugins/psgi/psgi_loader.c
+./+ cd uwsgi-2.0.24
++ find .
 ++ xargs basename --multiple
 ++ ls /builddir/build/BUILD/uwsgi-2.0.24/pyproject-wheeldir/uWSGI-2.0.24-cp311-cp311-linux_x86_64.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=uWSGI==2.0.24
 + TMPDIR=/builddir/build/BUILD/uwsgi-2.0.24/.pyproject-builddir
 + /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-uwsgi-2.0.24-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/uwsgi-2.0.24/pyproject-wheeldir uWSGI==2.0.24
+plugins/psgi/psgi_plugin.c
+./plugins/psgi/psgi_response.c
+./plugins/psgi/uwsgi_plmodule.c
+./plugins/psgi/uwsgiplugin.py
+./plugins/pty
+./plugins/pty/pty.c
+./plugins/pty/uwsgiplugin.py
+./plugins/pypy
+./plugins/pypy/README
+./plugins/pypy/pypy_plugin.c
+./plugins/pypy/pypy_setup.py
+./plugins/pypy/uwsgiplugin.py
+./plugins/python
+./plugins/python/gil.c
+./plugins/python/profiler.c
+./plugins/python/pump_subhandler.c
+./plugins/python/pyloader.c
+./plugins/python/python_plugin.c
+./plugins/python/pyutils.c
+./plugins/python/raw.c
+./plugins/python/symimporter.c
+./plugins/python/tracebacker.c
+./plugins/python/uwsgi_pymodule.c
+./plugins/python/uwsgi_python.h
+./plugins/python/uwsgiplugin.py
+./plugins/python/web3_subhandler.c
+./plugins/python/wsgi_handlers.c
+./plugins/python/wsgi_headers.c
+./plugins/python/wsgi_subhandler.c
+./plugins/python/python_plugin.o
+./plugins/python/pyutils.o
+./plugins/python/pyloader.o
+./plugins/python/wsgi_handlers.o
+./plugins/python/wsgi_headers.o
+./plugins/python/wsgi_subhandler.o
+./plugins/python/web3_subhandler.o
+./plugins/python/pump_subhandler.o
+./plugins/python/gil.o
+./plugins/python/uwsgi_pymodule.o
+./plugins/python/profiler.o
+./plugins/python/symimporter.o
+./plugins/python/tracebacker.o
+./plugins/python/raw.o
+./plugins/pyuwsgi
+./plugins/pyuwsgi/pyuwsgi.c
+./plugins/pyuwsgi/uwsgiplugin.py
+./plugins/rack
+./plugins/rack/rack_api.c
+./plugins/rack/rack_plugin.c
+./plugins/rack/uwsgi_rack.h
+./plugins/rack/uwsgiplugin.py
+./plugins/rados
+./plugins/rados/rados.c
+./plugins/rados/uwsgiplugin.py
+./plugins/rawrouter
+./plugins/rawrouter/rawrouter.c
+./plugins/rawrouter/uwsgiplugin.py
+./plugins/rawrouter/rawrouter.o
+./plugins/rbthreads
+./plugins/rbthreads/rbthreads.c
+./plugins/rbthreads/uwsgiplugin.py
+./plugins/redislog
+./plugins/redislog/redislog_plugin.c
+./plugins/redislog/uwsgiplugin.py
+./plugins/redislog/redislog_plugin.o
+./plugins/ring
+./plugins/ring/ring_plugin.c
+./plugins/ring/uwsgiplugin.py
+./plugins/router_access
+./plugins/router_access/router_access.c
+./plugins/router_access/uwsgiplugin.py
+./plugins/router_basicauth
+./plugins/router_basicauth/router_basicauth.c
+./plugins/router_basicauth/uwsgiplugin.py
+./plugins/router_basicauth/router_basicauth.o
+./plugins/router_cache
+./plugins/router_cache/router_cache.c
+./plugins/router_cache/uwsgiplugin.py
+./plugins/router_cache/router_cache.o
+./plugins/router_expires
+./plugins/router_expires/expires.c
+./plugins/router_expires/uwsgiplugin.py
+./plugins/router_expires/expires.o
+./plugins/router_hash
+./plugins/router_hash/router_hash.c
+./plugins/router_hash/uwsgiplugin.py
+./plugins/router_hash/router_hash.o
+./plugins/router_http
+./plugins/router_http/router_http.c
+./plugins/router_http/uwsgiplugin.py
+./plugins/router_http/router_http.o
+./plugins/router_memcached
+./plugins/router_memcached/router_memcached.c
+./plugins/router_memcached/uwsgiplugin.py
+./plugins/router_memcached/router_memcached.o
+./plugins/router_metrics
+./plugins/router_metrics/plugin.c
+./plugins/router_metrics/uwsgiplugin.py
+./plugins/router_metrics/plugin.o
+./plugins/router_radius
+./plugins/router_radius/radius.c
+./plugins/router_radius/uwsgiplugin.py
+./plugins/router_redirect
+./plugins/router_redirect/router_redirect.c
+./plugins/router_redirect/uwsgiplugin.py
+./plugins/router_redirect/router_redirect.o
+./plugins/router_redis
+./plugins/router_redis/router_redis.c
+./plugins/router_redis/uwsgiplugin.py
+./plugins/router_redis/router_redis.o
+./plugins/router_rewrite
+./plugins/router_rewrite/router_rewrite.c
+./plugins/router_rewrite/uwsgiplugin.py
+./plugins/router_rewrite/router_rewrite.o
+./plugins/router_spnego
+./plugins/router_spnego/router_spnego.c
+./plugins/router_spnego/uwsgiplugin.py
+./plugins/router_static
+./plugins/router_static/router_static.c
+./plugins/router_static/uwsgiplugin.py
+./plugins/router_static/router_static.o
+./plugins/router_uwsgi
+./plugins/router_uwsgi/router_uwsgi.c
+./plugins/router_uwsgi/uwsgiplugin.py
+./plugins/router_uwsgi/router_uwsgi.o
+./plugins/router_xmldir
+./plugins/router_xmldir/router_xmldir.c
+./plugins/router_xmldir/uwsgiplugin.py
+./plugins/rpc
+./plugins/rpc/rpc_plugin.c
+./plugins/rpc/uwsgiplugin.py
+./plugins/rpc/rpc_plugin.o
+./plugins/rrdtool
+./plugins/rrdtool/rrdtool.c
+./plugins/rrdtool/uwsgiplugin.py
+./plugins/rrdtool/rrdtool.o
+./plugins/rsyslog
+./plugins/rsyslog/rsyslog_plugin.c
+./plugins/rsyslog/uwsgiplugin.py
+./plugins/rsyslog/rsyslog_plugin.o
+./plugins/ruby19
+./plugins/ruby19/uwsgiplugin.py
+./plugins/servlet
+./plugins/servlet/servlet_plugin.c
+./plugins/servlet/uwsgi_servlet.java
+./plugins/servlet/uwsgiplugin.py
+./plugins/signal
+./plugins/signal/signal_plugin.c
+./plugins/signal/uwsgiplugin.py
+./plugins/signal/signal_plugin.o
+./plugins/spooler
+./plugins/spooler/spooler_plugin.c
+./plugins/spooler/uwsgiplugin.py
+./plugins/spooler/spooler_plugin.o
+./plugins/sqlite3
+./plugins/sqlite3/plugin.c
+./plugins/sqlite3/uwsgiplugin.py
+./plugins/ssi
+./plugins/ssi/ssi.c
+./plugins/ssi/uwsgiplugin.py
+./plugins/sslrouter
+./plugins/sslrouter/sslrouter.c
+./plugins/sslrouter/uwsgiplugin.py
+./plugins/sslrouter/sslrouter.o
+./plugins/stackless
+./plugins/stackless/stackless.c
+./plugins/stackless/uwsgiplugin.py
+./plugins/stats_pusher_file
+./plugins/stats_pusher_file/plugin.c
+./plugins/stats_pusher_file/uwsgiplugin.py
+./plugins/stats_pusher_mongodb
+./plugins/stats_pusher_mongodb/plugin.c
+./plugins/stats_pusher_mongodb/stats_pusher_mongodb.cc
+./plugins/stats_pusher_mongodb/uwsgiplugin.py
+./plugins/stats_pusher_socket
+./plugins/stats_pusher_socket/plugin.c
+./plugins/stats_pusher_socket/uwsgiplugin.py
+./plugins/stats_pusher_socket/plugin.o
+./plugins/stats_pusher_statsd
+./plugins/stats_pusher_statsd/plugin.c
+./plugins/stats_pusher_statsd/uwsgiplugin.py
+./plugins/symcall
+./plugins/symcall/symcall_plugin.c
+./plugins/symcall/uwsgiplugin.py
+./plugins/symcall/symcall_plugin.o
+./plugins/syslog
+./plugins/syslog/syslog_plugin.c
+./plugins/syslog/uwsgiplugin.py
+./plugins/syslog/syslog_plugin.o
+./plugins/systemd_logger
+./plugins/systemd_logger/systemd_logger.c
+./plugins/systemd_logger/uwsgiplugin.py
+./plugins/tornado
+./plugins/tornado/tornado.c
+./plugins/tornado/uwsgiplugin.py
+./plugins/transformation_chunked
+./plugins/transformation_chunked/chunked.c
+./plugins/transformation_chunked/uwsgiplugin.py
+./plugins/transformation_chunked/chunked.o
+./plugins/transformation_gzip
+./plugins/transformation_gzip/gzip.c
+./plugins/transformation_gzip/uwsgiplugin.py
+./plugins/transformation_gzip/gzip.o
+./plugins/transformation_offload
+./plugins/transformation_offload/offload.c
+./plugins/transformation_offload/uwsgiplugin.py
+./plugins/transformation_offload/offload.o
+./plugins/transformation_template
+./plugins/transformation_template/tt.c
+./plugins/transformation_template/uwsgiplugin.py
+./plugins/transformation_template/tt.o
+./plugins/transformation_tofile
+./plugins/transformation_tofile/tofile.c
+./plugins/transformation_tofile/uwsgiplugin.py
+./plugins/transformation_tofile/tofile.o
+./plugins/transformation_toupper
+./plugins/transformation_toupper/toupper.c
+./plugins/transformation_toupper/uwsgiplugin.py
+./plugins/tuntap
+./plugins/tuntap/common.c
+./plugins/tuntap/common.h
+./plugins/tuntap/firewall.c
+./plugins/tuntap/tuntap.c
+./plugins/tuntap/uwsgiplugin.py
+./plugins/ugreen
+./plugins/ugreen/ugreen.c
+./plugins/ugreen/uwsgiplugin.py
+./plugins/ugreen/ugreen.o
+./plugins/v8
+./plugins/v8/plugin.c
+./plugins/v8/uwsgiplugin.py
+./plugins/v8/v8_commonjs.cc
+./plugins/v8/v8_jsgi.cc
+./plugins/v8/v8_uwsgi.cc
+./plugins/v8/v8_uwsgi.h
+./plugins/webdav
+./plugins/webdav/uwsgiplugin.py
+./plugins/webdav/webdav.c
+./plugins/xattr
+./plugins/xattr/uwsgiplugin.py
+./plugins/xattr/xattr.c
+./plugins/xslt
+./plugins/xslt/uwsgiplugin.py
+./plugins/xslt/xslt.c
+./plugins/zabbix
+./plugins/zabbix/plugin.c
+./plugins/zabbix/uwsgiplugin.py
+./plugins/zergpool
+./plugins/zergpool/uwsgiplugin.py
+./plugins/zergpool/zergpool.c
+./plugins/zergpool/zergpool.o
+./proto
+./proto/BUILD
+./proto/base.c
+./proto/fastcgi.c
+./proto/http.c
+./proto/puwsgi.c
+./proto/scgi.c
+./proto/uwsgi.c
+./proto/base.o
+./proto/uwsgi.o
+./proto/http.o
+./proto/fastcgi.o
+./proto/scgi.o
+./proto/puwsgi.o
+./setup.cpyext.py
+./setup.py
+./setup.pyuwsgi.py
+./t
+./t/cachebitmap.ini
+./t/cachebitmap.py
+./t/cachetest.py
+./t/clojure
+./t/clojure/myapp.clj
+./t/core
+./t/core/apps
+./t/core/apps/read_body_and_send.pl
+./t/core/read_body_and_send.pl
+./t/core/url_sanitize.pl
+./t/go
+./t/go/cachetest.go
+./t/go/complextest.go
+./t/go/uploadtest.go
+./t/java
+./t/java/rpc.java
+./t/lua
+./t/lua/basic.lua
+./t/mono
+./t/mono/cache.aspx
+./t/mules
+./t/mules/mulebrain.py
+./t/mules/reload.py
+./t/mules/signal_management.py
+./t/perl
+./t/perl/active_workers_signal.pl
+./t/perl/apps
+./t/perl/apps/input_with_offset.pl
+./t/perl/test.psgi
+./t/perl/test_benchmark.pl
+./t/perl/test_harakiri.psgi
+./t/perl/test_hello.psgi
+./t/perl/test_input_with_offset.pl
+./t/perl/test_post.psgi
+./t/perl/test_sleepy.psgi
+./t/perl/test_streaming.psgi
+./t/pypy
+./t/pypy/t_continulet1.py
+./t/pypy/t_continulet2.py
+./t/python
+./t/python/forcecl.py
+./t/python/manage_script_name
+./t/python/manage_script_name/manage_script_name_test.ini
+./t/python/manage_script_name/test_manage_script_name.py
+./t/python/manage_script_name/useless_app.py
+./t/python/spooler_decorators
+./t/python/spooler_decorators/spooler_decorator_test.ini
+./t/python/spooler_decorators/spooler_decorator_tests.py
+./t/python/spooler_decorators/spooler_handlers.py
+./t/python/testba.py
+./t/ring
+./t/ring/README.md
+./t/ring/config.ini
+./t/ring/project.clj
+./t/ring/src
+./t/ring/src/uwsgi
+./t/ring/src/uwsgi/ring
+./t/ring/src/uwsgi/ring/tests
+./t/ring/src/uwsgi/ring/tests/app.clj
+./t/ring/src/uwsgi/ring/tests/basic.clj
+./t/ring/src/uwsgi/ring/tests/body.clj
+./t/ring/src/uwsgi/ring/tests/simple.clj
+./t/ring/src/uwsgi/ring/tests/upload.clj
+./t/routing
+./t/routing/auth.ini
+./t/routing/errorlimiter.ini
+./t/routing/limiter.ini
+./t/sharedarea
+./t/sharedarea/bigranges.ini
+./t/sharedarea/bigranges.py
+./t/sharedarea/sharedarea_incdec.ini
+./t/sharedarea/sharedarea_incdec.py
+./t/spooler
+./t/spooler/read.py
+./t/spooler/reload.py
+./t/spooler/spooldir
+./t/spooler/spooldir/.gitignore
+./t/webdav
+./t/webdav/carddav.ini
+./t/xslt
+./t/xslt/cd.xml
+./t/xslt/cd.xml.xslt
+./t/xslt/routex.ini
+./tests
+./tests/Responder.pm
+./tests/__init__.py
+./tests/badthread.py
+./tests/badwrites.py
+./tests/cpubound_async.py
+./tests/cpubound_green.py
+./tests/cpubound_stackless.py
+./tests/deadlocks
+./tests/deadlocks/main.py
+./tests/deadlocks/master-nothreads.ini
+./tests/deadlocks/master-singleinterpreter-threads-10workers.ini
+./tests/deadlocks/master-singleinterpreter-threads-1worker.ini
+./tests/deadlocks/master-threads-10workers.ini
+./tests/deadlocks/master-threads-1worker.ini
+./tests/deadlocks/nomaster-threads-10workers.ini
+./tests/deadlocks/nomaster-threads-1worker.ini
+./tests/deadlocks/sitecustomize.py
+./tests/decoratortest.py
+./tests/fileserve_async.py
+./tests/gevent_spool.py
+./tests/gh-deadlocks.sh
+./tests/gh-python.sh
+./tests/gh-rack.sh
+./tests/gh-shared.sh
+./tests/grunter.py
+./tests/harakiri.py
+./tests/iobound_async.py
+./tests/iobound_async_unix.py
+./tests/iobound_green.py
+./tests/logger.py
+./tests/mako_ugreen.py
+./tests/mulefunc.py
+./tests/multiapp.txt
+./tests/myadmin.py
+./tests/pgbound_async.py
+./tests/picazzo.py
+./tests/psycogreen_green.py
+./tests/psycopg2_green.py
+./tests/pump.py
+./tests/queue.py
+./tests/refcount.py
+./tests/rpc.lua
+./tests/rpc.py
+./tests/runningthread.py
+./tests/sendchunked.py
+./tests/sharedarea.py
+./tests/sig.lua
+./tests/signals.py
+./tests/sigwait.py
+./tests/sleeping_async.py
+./tests/sleeping_green.py
+./tests/sleepthreadasync.py
+./tests/slow.py
+./tests/spoolme.py
+./tests/static
+./tests/static/test.txt
+./tests/static/test2.txt
+./tests/staticfile.py
+./tests/streamer.psgi
+./tests/t
+./tests/t/static.pl
+./tests/templates
+./tests/templates/queue.html
+./tests/testapp.py
+./tests/testfilewrapper.py
+./tests/testgevent.py
+./tests/testpy3.py
+./tests/testrpc.py
+./tests/testsignals.py
+./tests/testworkers.py
+./tests/testyieldnone.py
+./tests/threads.py
+./tests/travis.sh
+./tests/ugevent.py
+./tests/web3.py
+./tests/websockets.py
+./tests/websockets_chat.pl
+./tests/websockets_chat.py
+./tests/websockets_chat_async.py
+./tests/websockets_chat_asyncio.py
+./tests/websockets_echo.lua
+./tests/websockets_echo.pl
+./tests/websockets_echo.py
+./tests/websockets_echo.ru
+./tests/werkzeug_app.py
+./uwsgi.gemspec
+./uwsgi.h
+./uwsgi_main.c
+./uwsgiconfig.py
+./uwsgidecorators.py
+./uwsgidsl.rb
+./valgrind
+./valgrind/README
+./valgrind/valgrind-generate-sups.sh
+./vassals
+./vassals/broodlord.ini
+./vassals/cc.ini
+./vassals/multi.xml
+./vhosttest
+./vhosttest/flask001
+./vhosttest/flask001/app1.py
+./vhosttest/flask002
+./vhosttest/flask002/app2.py
+./vhosttest/flask003
+./vhosttest/flask003/app3.py
+./vhosttest/flask004
+./vhosttest/flask004/app4.py
+./vhosttest/flask005
+./vhosttest/flask005/app5.py
+./vhosttest/nginx.conf
+./INSTALLER
+./RECORD
+./.pyproject-builddir
+./.pyproject-builddir/pip-ephem-wheel-cache-z8wzylau
+./.pyproject-builddir/pip-wheel-cqqkyd38
+./.pyproject-builddir/pip-ephem-wheel-cache-nq2lfo6x
+./uWSGI.egg-info
+./uWSGI.egg-info/PKG-INFO
+./uWSGI.egg-info/dependency_links.txt
+./uWSGI.egg-info/top_level.txt
+./uWSGI.egg-info/SOURCES.txt
+./pyproject-wheeldir
+./pyproject-wheeldir/uWSGI-2.0.24-cp311-cp311-linux_x86_64.whl
+./__pycache__
+./__pycache__/uwsgiconfig.cpython-311.pyc
+./build
+./build/lib
+./build/lib/uwsgidecorators.py
+./build/bdist.linux-x86_64
+./uwsgibuild.lastprofile
+./uwsgibuild.log
+./uwsgibuild.lastcflags
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
 Looking in links: /builddir/build/BUILD/uwsgi-2.0.24/pyproject-wheeldir
 Processing ./pyproject-wheeldir/uWSGI-2.0.24-cp311-cp311-linux_x86_64.whl
@@ -776,14 +1792,14 @@ sed: can't read /builddir/build/BUILDROOT/python-uwsgi-2.0.24-1.el9.x86_64/usr/l
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.yvdz1E (%install)
-    Bad exit status from /var/tmp/rpm-tmp.yvdz1E (%install)
+error: Bad exit status from /var/tmp/rpm-tmp.uq5WRa (%install)
+    Bad exit status from /var/tmp/rpm-tmp.uq5WRa (%install)
 Finish: rpmbuild python-uwsgi-2.0.24-1.el9.src.rpm
 Finish: build phase for python-uwsgi-2.0.24-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-uwsgi-2.0.24-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 51 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-uwsgi-2.0.24-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 57 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M b5ed12e5b7fd40e7bd11a6ba9c3e4a46 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.h4uql3p5:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-uwsgi.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 612eca2daffc41e59c6a4ad7f6875507 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.chgystbh:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-uwsgi.spec --nocheck'
 
 Directory walk started
 Directory walk done - 307 packages
