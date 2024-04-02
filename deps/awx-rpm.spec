@@ -12,7 +12,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -75,9 +75,8 @@ BuildRequires: python3.11-bcrypt+typecheck = 4.1.2
 BuildRequires: python3.11-bindep = 2.11.0
 BuildRequires: python3.11-blinker = 1.7.0
 BuildRequires: python3.11-boto3 = 1.34.47
-BuildRequires: python3.11-boto3+crt = 1.34.47
 BuildRequires: python3.11-botocore = 1.34.47
-BuildRequires: python3.11-botocore+crt = 1.34.47
+BuildRequires: python3.11-brotli = 1.1.0
 BuildRequires: python3.11-build = 1.2.1
 BuildRequires: python3.11-cachecontrol = 0.14.0
 BuildRequires: python3.11-cachecontrol+filecache = 0.14.0
@@ -102,6 +101,8 @@ BuildRequires: python3.11-distlib = 0.3.8
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.6
 BuildRequires: python3.11-django-ansible-base = 20240212
+BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240212
+BuildRequires: python3.11-django-ansible-base+rest_filters = 20240212
 BuildRequires: python3.11-django+bcrypt = 4.2.6
 BuildRequires: python3.11-django-cors-headers = 4.3.1
 BuildRequires: python3.11-django-crum = 0.7.9
@@ -128,7 +129,7 @@ BuildRequires: python3.11-fastjsonschema = 2.19.1
 BuildRequires: python3.11-filelock = 3.13.1
 BuildRequires: python3.11-freezegun = 1.4.0
 BuildRequires: python3.11-frozenlist = 1.4.1
-BuildRequires: python3.11-future = 1.0.0
+BuildRequires: python3.11-future = 0.16.0
 BuildRequires: python3.11-gitdb = 4.0.11
 BuildRequires: python3.11-gitpython = 3.1.42
 BuildRequires: python3.11-google-auth = 2.28.1
@@ -301,8 +302,6 @@ BuildRequires: python3.11-xmlsec = 1.3.13
 BuildRequires: python3.11-yarl = 1.9.4
 BuildRequires: python3.11-zipp = 3.17.0
 BuildRequires: python3.11-zope-interface = 6.2
-BuildRequires: python3-django-ansible-base+jwt_consumer = 20240212
-BuildRequires: python3-django-ansible-base+rest_filters = 20240212
 BuildRequires: python3-pyyaml python3-ldap python3-pyasn1 python3-pyparsing python3-resolvelib 
 
 Requires: python3 nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
@@ -342,9 +341,8 @@ Requires: python3.11-bcrypt+typecheck = 4.1.2
 Requires: python3.11-bindep = 2.11.0
 Requires: python3.11-blinker = 1.7.0
 Requires: python3.11-boto3 = 1.34.47
-Requires: python3.11-boto3+crt = 1.34.47
 Requires: python3.11-botocore = 1.34.47
-Requires: python3.11-botocore+crt = 1.34.47
+Requires: python3.11-brotli = 1.1.0
 Requires: python3.11-build = 1.2.1
 Requires: python3.11-cachecontrol = 0.14.0
 Requires: python3.11-cachecontrol+filecache = 0.14.0
@@ -369,6 +367,8 @@ Requires: python3.11-distlib = 0.3.8
 Requires: python3.11-distro = 1.9.0
 Requires: python3.11-django = 4.2.6
 Requires: python3.11-django-ansible-base = 20240212
+Requires: python3.11-django-ansible-base+jwt_consumer = 20240212
+Requires: python3.11-django-ansible-base+rest_filters = 20240212
 Requires: python3.11-django+bcrypt = 4.2.6
 Requires: python3.11-django-cors-headers = 4.3.1
 Requires: python3.11-django-crum = 0.7.9
@@ -395,7 +395,7 @@ Requires: python3.11-fastjsonschema = 2.19.1
 Requires: python3.11-filelock = 3.13.1
 Requires: python3.11-freezegun = 1.4.0
 Requires: python3.11-frozenlist = 1.4.1
-Requires: python3.11-future = 1.0.0
+Requires: python3.11-future = 0.16.0
 Requires: python3.11-gitdb = 4.0.11
 Requires: python3.11-gitpython = 3.1.42
 Requires: python3.11-google-auth = 2.28.1
@@ -568,8 +568,6 @@ Requires: python3.11-xmlsec = 1.3.13
 Requires: python3.11-yarl = 1.9.4
 Requires: python3.11-zipp = 3.17.0
 Requires: python3.11-zope-interface = 6.2
-Requires: python3-django-ansible-base+jwt_consumer = 20240212
-Requires: python3-django-ansible-base+rest_filters = 20240212
 Requires: python3-pyyaml python3-ldap python3-pyasn1 python3-pyparsing python3-resolvelib 
 
 %{?systemd_requires}
@@ -727,6 +725,6 @@ fi
 %endif
 
 %changelog
-* Tue Apr 02 2024 05:13:51 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Tue Apr 02 2024 05:39:15 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
