@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-20240212-1.el9.src.rpm
+The lastest package built was awx-rpm-24.1.0-1.el9.src.rpm
 
-The build completed at Tue Apr  2 05:23:40 PM CEST 2024
+The build completed at Tue Apr  2 05:30:34 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -44,8 +44,8 @@ python3.11-babel-2.14.0-1.el9 | python-babel-2.14.0-1.el9.src.rpm | Built | [Log
 python3.11-bcrypt-4.1.2-1.el9 | python-bcrypt-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-bcrypt-4.1.2-1.el9.src.rpm.log)
 python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | Built | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 python3.11-blinker-1.7.0-1.el9 | python-blinker-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.7.0-1.el9.src.rpm.log)
-python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
-python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
+python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
+python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
@@ -71,7 +71,7 @@ python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Buil
 python3.11-distlib-0.3.8-1.el9 | python-distlib-0.3.8-1.el9.src.rpm | Built | [Log](logs/python-distlib-0.3.8-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.6-1.el9 | python-django-4.2.6-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.6-1.el9.src.rpm.log)
-python3.11-django-ansible-base-20240212-1.el9 | python-django-ansible-base-20240212-1.el9.src.rpm | Built | [Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
+python3.11-django-ansible-base-20240212-1.el9 | python-django-ansible-base-20240212-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
 python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.3.1-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | Built | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3.11-django-debug-toolbar-4.3.0-1.el9 | python-django-debug-toolbar-4.3.0-1.el9.src.rpm | Built | [Log](logs/python-django-debug-toolbar-4.3.0-1.el9.src.rpm.log)
@@ -248,4 +248,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-238 total packages, 236 packages built successfully, 2 packages left to fix
+238 total packages, 233 packages built successfully, 5 packages left to fix
