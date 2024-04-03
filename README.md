@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pathspec-0.12.1-1.el9.src.rpm
+The lastest package built was python-hatchling-1.22.4-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:36:01 PM CEST 2024
+The build completed at Wed Apr  3 04:37:04 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
+[Build Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -101,7 +101,7 @@ python3-gitpython3-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | Built 
 python3-google-auth-2.14.1-1.el9 | python-google-auth-2.14.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.14.1-1.el9.src.rpm.log)
 python3-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3-hatchling-1.21.1-1.el9 | python-hatchling-1.21.1-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.21.1-1.el9.src.rpm.log)
-python3-hatchling-1.22.4-1.el9 | python-hatchling-1.22.4-1.el9.src.rpm | **Missing** | [Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
+python3-hatchling-1.22.4-1.el9 | python-hatchling-1.22.4-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
 python3-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-2.0.0-1.el9.src.rpm.log)
 python3-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
@@ -213,4 +213,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-203 total packages, 190 packages built successfully, 13 packages left to fix
+203 total packages, 191 packages built successfully, 12 packages left to fix
