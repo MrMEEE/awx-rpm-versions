@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.22.4-1.el9.src.rpm
+The lastest package built was python-soupsieve-2.5-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:37:04 PM CEST 2024
+The build completed at Wed Apr  3 04:37:54 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
+[Build Log](logs/python-soupsieve-2.5-1.el9.src.rpm.log)
 ## Package build status for version: 24.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -188,7 +188,7 @@ python3-slack-sdk-3.19.4-1.el9 | python-slack-sdk-3.19.4-1.el9.src.rpm | Built |
 python3-smmap-5.0.0-1.el9 | python-smmap-5.0.0-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.0-1.el9.src.rpm.log)
 python3-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | Built | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
-python3-soupsieve-2.5-1.el9 | python-soupsieve-2.5-1.el9.src.rpm | **Missing** | [Log](logs/python-soupsieve-2.5-1.el9.src.rpm.log)
+python3-soupsieve-2.5-1.el9 | python-soupsieve-2.5-1.el9.src.rpm | Built | [Log](logs/python-soupsieve-2.5-1.el9.src.rpm.log)
 python3-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
@@ -213,4 +213,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-203 total packages, 191 packages built successfully, 12 packages left to fix
+203 total packages, 192 packages built successfully, 11 packages left to fix
