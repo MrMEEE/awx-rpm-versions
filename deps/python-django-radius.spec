@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n django-radius-%{version}
+%autosetup -p1 -n django-radius-develop
 
 
 %generate_buildrequires
