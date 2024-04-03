@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 6%{dist}
+Release: 7%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -620,7 +620,7 @@ rm -rf awx-*
 pip%{python3_pkgversion} install --root=%{buildroot}/ .
 popd
 sed -i "s|/builddir.*.x86_64||g" $RPM_BUILD_ROOT/usr/bin/awx-manage
-pushd %{buildroot}/usr/lib/python3.9/site-packages/
+pushd %{buildroot}/usr/lib/python%{python3_pkgversion}/site-packages/
 for i in `find -type f`; do
 	sed -i "s|/builddir.*.x86_64||g" $i
 done
@@ -675,7 +675,7 @@ mkdir -p %{buildroot}%{service_homedir}/venv
 
 mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
 
-sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python3.9/site-packages/awx/main/utils/external_logging.py
+sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/main/utils/external_logging.py
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
@@ -696,10 +696,7 @@ fi
 
 %files
 %defattr(0644, awx, awx, 0755)
-#%doc nginx.conf.example
 %attr(0755, root, root) /usr/bin/awx-manage
-#%attr(0755, root, root) /opt/rh/rh-python36/root/usr/bin/awx-create-venv
-#/usr/bin/awx-create-venv
 %attr(0755, root, root) /usr/lib/systemd/system/*.service
 %attr(0755, root, root) /usr/lib/python3.9/site-packages/awx*
 %attr(0755, awx, awx) %{_prefix}
@@ -736,6 +733,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 01:22:42 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 08:56:52 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
