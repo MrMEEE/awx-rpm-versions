@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 10%{dist}
+Release: 11%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -132,7 +132,7 @@ BuildRequires: python3.11-fastjsonschema = 2.19.1
 BuildRequires: python3.11-filelock = 3.13.1
 BuildRequires: python3.11-freezegun = 1.4.0
 BuildRequires: python3.11-frozenlist = 1.4.1
-BuildRequires: python3.11-future = 0.16.0
+BuildRequires: python3.11-future = 1.0.0
 BuildRequires: python3.11-gitdb = 4.0.11
 BuildRequires: python3.11-gitpython = 3.1.42
 BuildRequires: python3.11-google-auth = 2.28.1
@@ -402,7 +402,7 @@ Requires: python3.11-fastjsonschema = 2.19.1
 Requires: python3.11-filelock = 3.13.1
 Requires: python3.11-freezegun = 1.4.0
 Requires: python3.11-frozenlist = 1.4.1
-Requires: python3.11-future = 0.16.0
+Requires: python3.11-future = 1.0.0
 Requires: python3.11-gitdb = 4.0.11
 Requires: python3.11-gitpython = 3.1.42
 Requires: python3.11-google-auth = 2.28.1
@@ -724,6 +724,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 11:59:10 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 12:58:28 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
