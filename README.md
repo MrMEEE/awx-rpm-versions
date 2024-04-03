@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cython-0.29.37-1.el9.src.rpm
+The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
 
-The build completed at Thu Apr  4 01:54:46 AM CEST 2024
+The build completed at Thu Apr  4 01:55:30 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
+[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
