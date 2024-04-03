@@ -50,7 +50,35 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/cftp $RPM_BUILD_ROOT/usr/bin/cftp%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/ckeygen $RPM_BUILD_ROOT/usr/bin/ckeygen%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/conch $RPM_BUILD_ROOT/usr/bin/conch%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/mailmail $RPM_BUILD_ROOT/usr/bin/mailmail%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/pyhtmlizer $RPM_BUILD_ROOT/usr/bin/pyhtmlizer%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/tkconch $RPM_BUILD_ROOT/usr/bin/tkconch%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/trial $RPM_BUILD_ROOT/usr/bin/trial%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/twist $RPM_BUILD_ROOT/usr/bin/twist%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/twistd $RPM_BUILD_ROOT/usr/bin/twistd%{python3_pkgversion}
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+sed -i "s|/usr/bin/cftp|/usr/bin/cftp%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/ckeygen|/usr/bin/ckeygen%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/conch|/usr/bin/conch%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/mailmail|/usr/bin/mailmail%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyhtmlizer|/usr/bin/pyhtmlizer%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/tkconch|/usr/bin/tkconch%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/trial|/usr/bin/trial%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/twist|/usr/bin/twist%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/twistd|/usr/bin/twistd%{python3_pkgversion}|g" %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+
 
 
 %check
