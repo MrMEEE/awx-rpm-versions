@@ -49,6 +49,7 @@ Summary:        %{summary}
 mv $RPM_BUILD_ROOT/usr/bin/chardetect $RPM_BUILD_ROOT/usr/bin/chardetect%{python3_pkgversion}
 %endif
 %pyproject_save_files '*' +auto
+sed -i "s|/usr/bin/chardetect|/usr/bin/chardetect%{python3_pkgversion}|g" %{pyproject_files}
 
 
 %check
