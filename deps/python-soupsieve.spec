@@ -1,5 +1,5 @@
 
-%global python3_pkgversion 3.11
+%global python3_pkgversion 3
 
 Name:           python-soupsieve
 Version:        2.5

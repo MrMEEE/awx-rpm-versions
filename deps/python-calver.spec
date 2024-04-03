@@ -1,5 +1,5 @@
 
-%global python3_pkgversion 3.11
+%global python3_pkgversion 3
 
 Name:           python-calver
 Version:        2022.6.26

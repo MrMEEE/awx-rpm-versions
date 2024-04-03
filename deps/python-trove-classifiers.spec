@@ -1,5 +1,5 @@
 
-%global python3_pkgversion 3.11
+%global python3_pkgversion 3
 
 Name:           python-trove-classifiers
 Version:        2024.3.25
