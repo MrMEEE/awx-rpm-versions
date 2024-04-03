@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bs4-0.0.2-1.el9.src.rpm
+The lastest package built was python-beautifulsoup4-4.12.3-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:04:38 PM CEST 2024
+The build completed at Wed Apr  3 04:09:58 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-beautifulsoup4-4.12.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -54,6 +54,7 @@ python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.
 python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
 python3.11-babel-2.14.0-1.el9 | python-babel-2.14.0-1.el9.src.rpm | Built | [Log](logs/python-babel-2.14.0-1.el9.src.rpm.log)
 python3.11-bcrypt-4.1.2-1.el9 | python-bcrypt-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-bcrypt-4.1.2-1.el9.src.rpm.log)
+python3.11-beautifulsoup4-4.12.3-1.el9 | python-beautifulsoup4-4.12.3-1.el9.src.rpm | **Missing** | [Log](logs/python-beautifulsoup4-4.12.3-1.el9.src.rpm.log)
 python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | Built | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 python3.11-blinker-1.7.0-1.el9 | python-blinker-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.7.0-1.el9.src.rpm.log)
 python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
@@ -264,4 +265,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 243 packages built successfully, 11 packages left to fix
+255 total packages, 243 packages built successfully, 12 packages left to fix
