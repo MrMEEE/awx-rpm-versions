@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -666,13 +666,6 @@ cp %{_sourcedir}/awx-rpm-nginx.conf-%{version} %{buildroot}/etc/nginx/conf.d/awx
 # Create Virtualenv folder
 mkdir -p %{buildroot}%{service_homedir}/venv
 
-# Install docs
-#cp %{_sourcedir}/nginx.conf.example ./
-
-# Install VENV Script
-#cp %{_sourcedir}/awx-create-venv $RPM_BUILD_ROOT/opt/rh/rh-python36/root/usr/bin/
-#mkdir -p $RPM_BUILD_ROOT/usr/bin/
-
 mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
 
 sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/main/utils/external_logging.py
@@ -698,7 +691,7 @@ fi
 %defattr(0644, awx, awx, 0755)
 %attr(0755, root, root) /usr/bin/awx-manage
 %attr(0755, root, root) /usr/lib/systemd/system/*.service
-%attr(0755, root, root) /usr/lib/python3.9/site-packages/awx*
+%attr(0755, root, root) /usr/lib/python%{python3_pkgversion}/site-packages/awx*
 %attr(0755, awx, awx) %{_prefix}
 %dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}
 %dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
@@ -733,6 +726,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 08:56:52 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 09:23:25 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
