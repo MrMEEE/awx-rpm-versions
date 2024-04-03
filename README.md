@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.1.0-8.el9.src.rpm
+The lastest package built was python-chardet-5.2.0-1.el9.src.rpm
 
-The build completed at Wed Apr  3 09:48:53 AM CEST 2024
+The build completed at Wed Apr  3 11:35:45 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/awx-rpm-24.1.0-8.el9.src.rpm.log)
+[Build Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
