@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 8%{dist}
+Release: 9%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -202,7 +202,6 @@ BuildRequires: python3.11-parsley = 1.3
 BuildRequires: python3.11-pathspec = 0.12.1
 BuildRequires: python3.11-pbr = 6.0.0
 BuildRequires: python3.11-pexpect = 4.9.0
-BuildRequires: python3.11-pip = 21.2.4
 BuildRequires: python3.11-pkgconfig = 1.5.5
 BuildRequires: python3.11-pkginfo = 1.10.0
 BuildRequires: python3.11-platformdirs = 3.11.0
@@ -309,7 +308,7 @@ BuildRequires: python3.11-xmlsec = 1.3.13
 BuildRequires: python3.11-yarl = 1.9.4
 BuildRequires: python3.11-zipp = 3.17.0
 BuildRequires: python3.11-zope-interface = 6.2
-BuildRequires: python3.11-pyasn1 
+BuildRequires: pyasn1 pip 
 
 Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
@@ -473,7 +472,6 @@ Requires: python3.11-parsley = 1.3
 Requires: python3.11-pathspec = 0.12.1
 Requires: python3.11-pbr = 6.0.0
 Requires: python3.11-pexpect = 4.9.0
-Requires: python3.11-pip = 21.2.4
 Requires: python3.11-pkgconfig = 1.5.5
 Requires: python3.11-pkginfo = 1.10.0
 Requires: python3.11-platformdirs = 3.11.0
@@ -580,7 +578,7 @@ Requires: python3.11-xmlsec = 1.3.13
 Requires: python3.11-yarl = 1.9.4
 Requires: python3.11-zipp = 3.17.0
 Requires: python3.11-zope-interface = 6.2
-Requires: python3.11-pyasn1 
+Requires: pyasn1 pip 
 
 %{?systemd_requires}
 
@@ -726,6 +724,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 09:23:25 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 11:55:58 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 

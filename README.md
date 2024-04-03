@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-distro-1.9.0-1.el9.src.rpm
+The lastest package built was awx-rpm-24.1.0-9.el9.src.rpm
 
-The build completed at Wed Apr  3 11:53:18 AM CEST 2024
+The build completed at Wed Apr  3 11:57:12 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-24.1.0-9.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -18,6 +18,7 @@ awx-rpm-24.1.0-5.el9 | awx-rpm-24.1.0-5.el9.src.rpm | **Missing** | [Log](logs/a
 awx-rpm-24.1.0-6.el9 | awx-rpm-24.1.0-6.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-6.el9.src.rpm.log)
 awx-rpm-24.1.0-7.el9 | awx-rpm-24.1.0-7.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-7.el9.src.rpm.log)
 awx-rpm-24.1.0-8.el9 | awx-rpm-24.1.0-8.el9.src.rpm | Built | [Log](logs/awx-rpm-24.1.0-8.el9.src.rpm.log)
+awx-rpm-24.1.0-9.el9 | awx-rpm-24.1.0-9.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-9.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -172,7 +173,6 @@ python3.11-parsley-1.3-1.el9 | python-parsley-1.3-1.el9.src.rpm | Built | [Log](
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
-python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
@@ -260,4 +260,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-250 total packages, 243 packages built successfully, 7 packages left to fix
+250 total packages, 242 packages built successfully, 8 packages left to fix
