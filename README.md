@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.22.4-1.el9.src.rpm
+The lastest package built was python-trove-classifiers-2024.3.25-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:23:58 PM CEST 2024
+The build completed at Wed Apr  3 04:25:12 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
+[Build Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 ## Package build status for version: 24.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -143,6 +143,7 @@ python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missin
 python3.11-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.1-1.el9 | python-openshift-0.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.1-1.el9.src.rpm.log)
 python3.11-packaging-21.3-1.el9 | python-packaging-21.3-1.el9.src.rpm | **Missing** | [Log](logs/python-packaging-21.3-1.el9.src.rpm.log)
+python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | **Missing** |
 python3.11-pbr-5.11.0-1.el9 | python-pbr-5.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pbr-5.11.0-1.el9.src.rpm.log)
 python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
@@ -193,6 +194,7 @@ python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | 
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.1.0-1.el9 | python-tempora-5.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.1.0-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
+python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.3.3-1.el9 | python-trove-classifiers-2024.3.3-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2024.3.3-1.el9.src.rpm.log)
 python3.11-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | **Missing** | [Log](logs/python-twilio-7.15.3-1.el9.src.rpm.log)
 python3.11-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.0.0-1.el9.src.rpm.log)
@@ -211,4 +213,4 @@ python3.11-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3.11-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-201 total packages, 8 packages built successfully, 193 packages left to fix
+203 total packages, 8 packages built successfully, 195 packages left to fix

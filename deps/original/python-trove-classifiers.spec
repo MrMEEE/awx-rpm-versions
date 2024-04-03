@@ -1,5 +1,8 @@
+
+%global python3_pkgversion 3.11
+
 Name:           python-trove-classifiers
-Version:        2024.3.3
+Version:        2024.3.25
 Release:        %autorelease
 Summary:        Canonical source for classifiers on PyPI (pypi.org).
 
@@ -10,7 +13,8 @@ URL:            https://github.com/pypa/trove-classifiers
 Source:         %{pypi_source trove-classifiers}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+
+BuildRequires:  python%{python3_pkgversion}-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -19,10 +23,10 @@ This is package 'trove-classifiers' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python3-trove-classifiers
+%package -n     python%{python3_pkgversion}-trove-classifiers
 Summary:        %{summary}
 
-%description -n python3-trove-classifiers %_description
+%description -n python%{python3_pkgversion}-trove-classifiers %_description
 
 
 %prep
@@ -48,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-trove-classifiers -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-trove-classifiers -f %{pyproject_files}
 
 
 %changelog
