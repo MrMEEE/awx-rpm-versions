@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-calver-2022.6.26-1.el9.src.rpm
+The lastest package built was python-trove-classifiers-2024.3.25-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:26:43 PM CEST 2024
+The build completed at Wed Apr  3 04:27:39 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
+[Build Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 ## Package build status for version: 24.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -194,7 +194,7 @@ python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | 
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.1.0-1.el9 | python-tempora-5.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.1.0-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
-python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
+python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.3.25-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.3.3-1.el9 | python-trove-classifiers-2024.3.3-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2024.3.3-1.el9.src.rpm.log)
 python3.11-twilio-7.15.3-1.el9 | python-twilio-7.15.3-1.el9.src.rpm | **Missing** | [Log](logs/python-twilio-7.15.3-1.el9.src.rpm.log)
 python3.11-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.0.0-1.el9.src.rpm.log)
@@ -213,4 +213,4 @@ python3.11-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3.11-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-203 total packages, 9 packages built successfully, 194 packages left to fix
+203 total packages, 10 packages built successfully, 193 packages left to fix
