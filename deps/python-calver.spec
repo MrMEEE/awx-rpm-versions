@@ -1,3 +1,6 @@
+
+%global python3_pkgversion 3.11
+
 Name:           python-calver
 Version:        2022.6.26
 Release:        %autorelease
@@ -10,7 +13,8 @@ URL:            https://github.com/di/calver
 Source:         %{pypi_source calver}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+
+BuildRequires:  python%{python3_pkgversion}-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -19,10 +23,10 @@ This is package 'calver' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python3-calver
+%package -n     python%{python3_pkgversion}-calver
 Summary:        %{summary}
 
-%description -n python3-calver %_description
+%description -n python%{python3_pkgversion}-calver %_description
 
 
 %prep
@@ -48,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-calver -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-calver -f %{pyproject_files}
 
 
 %changelog
