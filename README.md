@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-beautifulsoup4-4.12.3-1.el9.src.rpm
+The lastest package built was python-bs4-0.0.2-1.el9.src.rpm
 
-The build completed at Wed Apr  3 04:38:49 PM CEST 2024
+The build completed at Wed Apr  3 04:39:42 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-beautifulsoup4-4.12.3-1.el9.src.rpm.log)
+[Build Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -51,7 +51,7 @@ python3-azure-nspkg-3.0.2-1.el9 | python-azure-nspkg-3.0.2-1.el9.src.rpm | Built
 python3-beautifulsoup4-4.12.3-1.el9 | python-beautifulsoup4-4.12.3-1.el9.src.rpm | Built | [Log](logs/python-beautifulsoup4-4.12.3-1.el9.src.rpm.log)
 python3-boto3-1.26.102-1.el9 | python-boto3-1.26.102-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.26.102-1.el9.src.rpm.log)
 python3-botocore-1.29.102-1.el9 | python-botocore-1.29.102-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.29.102-1.el9.src.rpm.log)
-python3-bs4-0.0.2-1.el9 | python-bs4-0.0.2-1.el9.src.rpm | **Missing** |
+python3-bs4-0.0.2-1.el9 | python-bs4-0.0.2-1.el9.src.rpm | Built | [Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
 python3-build-1.1.1-1.el9 | python-build-1.1.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.1.1-1.el9.src.rpm.log)
 python3-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3-cachetools-5.2.0-1.el9 | python-cachetools-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.2.0-1.el9.src.rpm.log)
@@ -213,4 +213,4 @@ python3-yarl-1.8.1-1.el9 | python-yarl-1.8.1-1.el9.src.rpm | Built | [Log](logs/
 python3-zipp-3.11.0-1.el9 | python-zipp-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.11.0-1.el9.src.rpm.log)
 python3-zope-interface-5.5.2-1.el9 | python-zope-interface-5.5.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-5.5.2-1.el9.src.rpm.log)
 
-203 total packages, 193 packages built successfully, 10 packages left to fix
+203 total packages, 194 packages built successfully, 9 packages left to fix
