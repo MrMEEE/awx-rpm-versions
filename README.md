@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.1.0-13.el9.src.rpm
+The lastest package built was python-bs4-0.0.2-1.el9.src.rpm
 
-The build completed at Wed Apr  3 01:47:22 PM CEST 2024
+The build completed at Wed Apr  3 04:04:38 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-24.1.0-13.el9.src.rpm.log)
+[Build Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -59,6 +59,7 @@ python3.11-blinker-1.7.0-1.el9 | python-blinker-1.7.0-1.el9.src.rpm | Built | [L
 python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
+python3.11-bs4-0.0.2-1.el9 | python-bs4-0.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
 python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
@@ -263,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-253 total packages, 243 packages built successfully, 10 packages left to fix
+254 total packages, 243 packages built successfully, 11 packages left to fix
