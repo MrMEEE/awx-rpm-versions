@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.22.4-1.el9.src.rpm
+The lastest package built was python-jmespath-1.0.1-1.el9.src.rpm
 
-The build completed at Thu Apr  4 01:58:27 AM CEST 2024
+The build completed at Thu Apr  4 01:59:06 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-hatchling-1.22.4-1.el9.src.rpm.log)
+[Build Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -130,7 +130,7 @@ python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm 
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
-python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
+python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | Built | [Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 python3.11-json-log-formatter-0.5.2-1.el9 | python-json-log-formatter-0.5.2-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-0.5.2-1.el9.src.rpm.log)
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-243 total packages, 212 packages built successfully, 31 packages left to fix
+243 total packages, 213 packages built successfully, 30 packages left to fix
