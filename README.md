@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bs4-0.0.2-1.el9.src.rpm
+The lastest package built was 
 
-The build completed at Wed Apr  3 04:13:34 PM CEST 2024
+The build completed at Wed Apr  3 04:18:25 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-bs4-0.0.2-1.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
