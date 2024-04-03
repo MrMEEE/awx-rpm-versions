@@ -1,17 +1,18 @@
 ## Latest build
-The lastest package built was awx-rpm-24.1.0-11.el9.src.rpm
+The lastest package built was python-django-radius-1.5.1-1.el9.src.rpm
 
-The build completed at Wed Apr  3 01:00:15 PM CEST 2024
+The build completed at Wed Apr  3 01:18:58 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-24.1.0-11.el9.src.rpm.log)
+[Build Log](logs/python-django-radius-1.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-receptor-1.4.5-1.el9 | awx-receptor-1.4.5-1.el9.src.rpm | Built |
 awx-rpm-24.1.0-10.el9 | awx-rpm-24.1.0-10.el9.src.rpm | Built | [Log](logs/awx-rpm-24.1.0-10.el9.src.rpm.log)
 awx-rpm-24.1.0-11.el9 | awx-rpm-24.1.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-11.el9.src.rpm.log)
+awx-rpm-24.1.0-12.el9 | awx-rpm-24.1.0-12.el9.src.rpm | **Missing** |
 awx-rpm-24.1.0-1.el9 | awx-rpm-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-1.el9.src.rpm.log)
 awx-rpm-24.1.0-2.el9 | awx-rpm-24.1.0-2.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-2.el9.src.rpm.log)
 awx-rpm-24.1.0-3.el9 | awx-rpm-24.1.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-3.el9.src.rpm.log)
@@ -91,7 +92,7 @@ python3.11-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | Bu
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
-python3.11-django-radius-1.5.0-1.el9 | python-django-radius-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-django-radius-1.5.0-1.el9.src.rpm.log)
+python3.11-django-radius-1.5.1-1.el9 | python-django-radius-1.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-radius-1.5.1-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.14.0-1.el9 | python-djangorestframework-3.14.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-3.14.0-1.el9.src.rpm.log)
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | Built | [Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
@@ -109,8 +110,6 @@ python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-freezegun-1.4.0-1.el9 | python-freezegun-1.4.0-1.el9.src.rpm | Built | [Log](logs/python-freezegun-1.4.0-1.el9.src.rpm.log)
 python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
-python3.11-future-0.16.0-1.el9 | python-future-0.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python-future-0.16.0-1.el9.src.rpm.log)
-python3.11-future-1.0.0-1.el9 | python-future-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-future-1.0.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.11-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
@@ -263,4 +262,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-253 total packages, 243 packages built successfully, 10 packages left to fix
+252 total packages, 241 packages built successfully, 11 packages left to fix

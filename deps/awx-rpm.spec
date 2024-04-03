@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 11%{dist}
+Release: 12%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -115,7 +115,6 @@ BuildRequires: python3.11-django-guid = 3.2.1
 BuildRequires: python3.11-django-oauth-toolkit = 1.7.1
 BuildRequires: python3.11-django-pglocks = 1.0.4
 BuildRequires: python3.11-django-polymorphic = 3.1.0
-BuildRequires: python3.11-django-radius = 1.5.0
 BuildRequires: python3.11-djangorestframework = 3.14.0
 BuildRequires: python3.11-djangorestframework-yaml = 2.0.0
 BuildRequires: python3.11-django-rest-swagger = 2.2.0
@@ -132,7 +131,6 @@ BuildRequires: python3.11-fastjsonschema = 2.19.1
 BuildRequires: python3.11-filelock = 3.13.1
 BuildRequires: python3.11-freezegun = 1.4.0
 BuildRequires: python3.11-frozenlist = 1.4.1
-BuildRequires: python3.11-future = 1.0.0
 BuildRequires: python3.11-gitdb = 4.0.11
 BuildRequires: python3.11-gitpython = 3.1.42
 BuildRequires: python3.11-google-auth = 2.28.1
@@ -385,7 +383,6 @@ Requires: python3.11-django-guid = 3.2.1
 Requires: python3.11-django-oauth-toolkit = 1.7.1
 Requires: python3.11-django-pglocks = 1.0.4
 Requires: python3.11-django-polymorphic = 3.1.0
-Requires: python3.11-django-radius = 1.5.0
 Requires: python3.11-djangorestframework = 3.14.0
 Requires: python3.11-djangorestframework-yaml = 2.0.0
 Requires: python3.11-django-rest-swagger = 2.2.0
@@ -402,7 +399,6 @@ Requires: python3.11-fastjsonschema = 2.19.1
 Requires: python3.11-filelock = 3.13.1
 Requires: python3.11-freezegun = 1.4.0
 Requires: python3.11-frozenlist = 1.4.1
-Requires: python3.11-future = 1.0.0
 Requires: python3.11-gitdb = 4.0.11
 Requires: python3.11-gitpython = 3.1.42
 Requires: python3.11-google-auth = 2.28.1
@@ -724,6 +720,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 12:58:28 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Wed Apr 03 2024 01:08:27 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
