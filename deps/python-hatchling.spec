@@ -1,5 +1,8 @@
+
+%global python3_pkgversion 3.11
+
 Name:           python-hatchling
-Version:        1.21.1
+Version:        1.22.4
 Release:        %autorelease
 Summary:        Modern, extensible Python build backend
 
@@ -10,7 +13,8 @@ URL:            https://hatch.pypa.io/latest/
 Source:         %{pypi_source hatchling}
 
 BuildArch:      noarch
-BuildRequires:  python3-devel
+
+BuildRequires:  python%{python3_pkgversion}-devel
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -19,10 +23,10 @@ This is package 'hatchling' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python3-hatchling
+%package -n     python%{python3_pkgversion}-hatchling
 Summary:        %{summary}
 
-%description -n python3-hatchling %_description
+%description -n python%{python3_pkgversion}-hatchling %_description
 
 
 %prep
@@ -48,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python3-hatchling -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-hatchling -f %{pyproject_files}
 
 
 %changelog
