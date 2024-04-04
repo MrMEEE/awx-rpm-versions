@@ -61,6 +61,8 @@ sed -i "s|/usr/bin/ntlm_example_simple|/usr/bin/ntlm_example_simple%{python3_pkg
 sed -i "/HTTPNtlmAuthHandler.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
 sed -i "/U32.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
 sed -i "/des_c.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/ntlm.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/des_data.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
 
 %check
 
