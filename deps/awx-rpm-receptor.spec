@@ -1,3 +1,4 @@
+%global python3_pkgversion 3.11
 %define  debug_package %{nil}
 
 %define service_user receptor
@@ -14,7 +15,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}.buildroot
 Vendor: Ansible
 Prefix: %{_prefix}
 
-BuildRequires: golang make python3 python3-wheel git
+BuildRequires: golang make python%{python3_pkgversion} python%{python3_pkgversion}-wheel git
 
 %description
 %{summary}
@@ -27,7 +28,7 @@ make build-all
 
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/bin/
-cp ./receptor $RPM_BUILD_ROOT/usr/bin/receptor
+cp ./receptor $RPM_BUILD_ROOT/usr/bin/receptor%{python3_pkgversion}
 
 %pre
 /usr/bin/getent group %{service_group} >/dev/null || /usr/sbin/groupadd --system %{service_group}
@@ -38,8 +39,8 @@ cp ./receptor $RPM_BUILD_ROOT/usr/bin/receptor
 
 %files
 %defattr(0644, receptor, receptor, 0755)
-%attr(0755, receptor, receptor) /usr/bin/receptor
+%attr(0755, receptor, receptor) /usr/bin/receptor%{python3_pkgversion}
 
 %changelog
-* Tue Apr 02 2024 05:10:22 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> $VERSION
+* Thu Apr 04 2024 11:07:09 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> $VERSION
 - New version build: $VERSION

@@ -6,7 +6,7 @@ PartOf=awx.target
 User=awx
 Group=awx
 Environment=PATH=/opt/awx/bin:/bin:/sbin:/usr/bin:/usr/sbin
-ExecStart=/usr/bin/receptor -c /etc/receptor/receptor.conf
+ExecStart=/usr/bin/receptor3.11 -c /etc/receptor/receptor.conf
 Restart=on-failure
 RestartSec=2s
 

@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 13%{dist}
+Release: 14%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -722,6 +722,6 @@ fi
 %endif
 
 %changelog
-* Wed Apr 03 2024 01:22:52 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Thu Apr 04 2024 11:08:00 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
