@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
+The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
 
-The build completed at Thu Apr  4 10:42:16 AM CEST 2024
+The build completed at Thu Apr  4 10:43:06 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -67,7 +67,7 @@ python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built 
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
 python3.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | Built | [Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
-python3.11-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
+python3.11-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | Built | [Log](logs/python-defusedxml-0.7.1-1.el9.src.rpm.log)
 python3.11-distlib-0.3.8-1.el9 | python-distlib-0.3.8-1.el9.src.rpm | Built | [Log](logs/python-distlib-0.3.8-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-243 total packages, 241 packages built successfully, 2 packages left to fix
+243 total packages, 242 packages built successfully, 1 packages left to fix
