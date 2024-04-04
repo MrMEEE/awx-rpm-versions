@@ -57,8 +57,8 @@ mv $RPM_BUILD_ROOT/usr/bin/xbrnetwork-ui $RPM_BUILD_ROOT/usr/bin/xbrnetwork-ui%{
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
 sed -i "s|/usr/bin/wamp|/usr/bin/wamp%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/xbrnetwork|/usr/bin/xbrnetwork%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/xbrnetwork-ui|/usr/bin/xbrnetwork-ui%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/xbrnetworki$|/usr/bin/xbrnetwork%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/xbrnetwork-ui$|/usr/bin/xbrnetwork-ui%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
 

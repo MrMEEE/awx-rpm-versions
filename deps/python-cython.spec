@@ -45,6 +45,7 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
 mv $RPM_BUILD_ROOT/usr/bin/cython $RPM_BUILD_ROOT/usr/bin/cython%{python3_pkgversion}
@@ -56,11 +57,12 @@ mv $RPM_BUILD_ROOT/usr/bin/cythonize $RPM_BUILD_ROOT/usr/bin/cythonize%{python3_
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
-sed -i "s|/usr/bin/cython|/usr/bin/cython%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/cygdb|/usr/bin/cygdb%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/cythonize|/usr/bin/cythonize%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/cython$|/usr/bin/cython%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/cygdb$|/usr/bin/cygdb%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/cythonize$|/usr/bin/cythonize%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
+
 
 
 

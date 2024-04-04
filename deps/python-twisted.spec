@@ -67,15 +67,15 @@ mv $RPM_BUILD_ROOT/usr/bin/twistd $RPM_BUILD_ROOT/usr/bin/twistd%{python3_pkgver
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
-sed -i "s|/usr/bin/cftp|/usr/bin/cftp%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/ckeygen|/usr/bin/ckeygen%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/conch|/usr/bin/conch%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/mailmail|/usr/bin/mailmail%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/pyhtmlizer|/usr/bin/pyhtmlizer%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/tkconch|/usr/bin/tkconch%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/trial|/usr/bin/trial%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/twist|/usr/bin/twist%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/twistd|/usr/bin/twistd%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/cftp$|/usr/bin/cftp%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/ckeygen$|/usr/bin/ckeygen%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/conch$|/usr/bin/conch%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/mailmail$|/usr/bin/mailmail%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/pyhtmlizer$|/usr/bin/pyhtmlizer%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/tkconch$|/usr/bin/tkconch%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/trial$|/usr/bin/trial%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/twist$|/usr/bin/twist%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/twistd$|/usr/bin/twistd%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
 
