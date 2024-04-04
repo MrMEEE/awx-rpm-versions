@@ -58,9 +58,9 @@ sed -i "s|/usr/bin/ntlm_example_extended|/usr/bin/ntlm_example_extended%{python3
 sed -i "s|/usr/bin/ntlm_example_simple|/usr/bin/ntlm_example_simple%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
-find $RPM_BUILD_ROOT
-cat %{pyproject_files}
-
+sed -i "/HTTPNtlmAuthHandler.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/U32.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/des_c.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
 
 %check
 
