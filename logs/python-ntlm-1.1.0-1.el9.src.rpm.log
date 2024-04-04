@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   3.0 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                    73 MB/s | 3.9 MB     00:00    
-https://download.copr.fedorainfracloud.or     [   ===                                  ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.or100% [========================================] 3.6 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              3.6 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream     100% [========================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                      14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [            ===                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           226 kB/s |  28 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                    64 MB/s | 3.9 MB     00:00    
+https://download.copr.fedorainfracloud.or     [   ===                                  ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.or100% [========================================] 4.9 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              4.9 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [            ===                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [                  ===                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            55 kB/s |  28 kB     00:00    
 Dependencies resolved.
 =========================================================================================================================
  Package                     Arch   Version          Repository                                                     Size
@@ -167,7 +167,7 @@ Start: rpmbuild python-ntlm-1.1.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712188800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KlI8Nk
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.RiLBqR
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -181,7 +181,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KlI8Nk
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DvkWBd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.L123tR
 + umask 022
 + cd /builddir/build/BUILD
 + cd python-ntlm-1.1.0
@@ -218,11 +218,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   3.0 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.or     [===                                     ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.or100% [========================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              3.8 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
+https://download.copr.fedorainfracloud.or     [===                                     ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64               12 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            65 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            54 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -269,7 +269,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712188800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xrJIVo
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.eflne7
 + umask 022
 + cd /builddir/build/BUILD
 + cd python-ntlm-1.1.0
@@ -333,11 +333,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/                                                   3.0 MB/s | 3.0 kB     00:00    
-https://download.copr.fedorainfracloud.or     [===                                     ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              8.4 kB/s | 1.5 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
+https://download.copr.fedorainfracloud.or     [===                                     ] ---  B/s |   0  B     --:-- ETAhttps://download.copr.fedorainfracloud.or100% [========================================] 3.8 kB/s | 1.5 kB     00:00 ETAhttps://download.copr.fedorainfracloud.org/results/@copr/PyPI/epel-9-x86_64              3.8 kB/s | 1.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            65 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           288 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -351,7 +351,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712188800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JKBF8S
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P0SpGr
 + umask 022
 + cd /builddir/build/BUILD
 + cd python-ntlm-1.1.0
@@ -406,7 +406,7 @@ removed directory 'python_ntlm-1.1.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.iRzuNT
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.lwOjoT
 + umask 022
 + cd /builddir/build/BUILD
 + cd python-ntlm-1.1.0
@@ -419,15 +419,15 @@ Processing /builddir/build/BUILD/python-ntlm-1.1.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info
-  writing /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/entry_points.txt
-  writing top-level names to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/SOURCES.txt'
-  writing manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-ttilvq7l/python_ntlm-1.1.0.dist-info'
+  creating /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info
+  writing /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/entry_points.txt
+  writing top-level names to /builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/SOURCES.txt'
+  writing manifest file '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-modern-metadata-tt4k9r0r/python_ntlm-1.1.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: python-ntlm
   Building wheel for python-ntlm (pyproject.toml): started
@@ -469,7 +469,7 @@ Building wheels for collected packages: python-ntlm
   Copying python_ntlm.egg-info to build/bdist.linux-x86_64/wheel/python_ntlm-1.1.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/python_ntlm-1.1.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-wheel-5hbzce5d/.tmp-em3tn04l/python_ntlm-1.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir/pip-wheel-j_j69hej/.tmp-jvwoa7i1/python_ntlm-1.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'ntlm/HTTPNtlmAuthHandler.py'
   adding 'ntlm/U32.py'
   adding 'ntlm/__init__.py'
@@ -490,7 +490,7 @@ Successfully built python-ntlm
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.2aVBYi
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.XtVaa2
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-ntlm-1.1.0-1.el9.x86_64 '!=' / ']'
@@ -500,8 +500,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.2aVBYi
 + mkdir /builddir/build/BUILDROOT/python-ntlm-1.1.0-1.el9.x86_64
 + cd python-ntlm-1.1.0
 ++ ls /builddir/build/BUILD/python-ntlm-1.1.0/pyproject-wheeldir/python_ntlm-1.1.0-py3-none-any.whl
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 ++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=python_ntlm==1.1.0
 + TMPDIR=/builddir/build/BUILD/python-ntlm-1.1.0/.pyproject-builddir
 + /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-ntlm-1.1.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/python-ntlm-1.1.0/pyproject-wheeldir python_ntlm==1.1.0
@@ -571,13 +571,13 @@ RPM build errors:
     File not found: /builddir/build/BUILDROOT/python-ntlm-1.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/ntlm/__pycache__/ntlm.cpython-311{,.opt-?}.pyc
 Finish: rpmbuild python-ntlm-1.1.0-1.el9.src.rpm
 Finish: build phase for python-ntlm-1.1.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-ntlm-1.1.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 23 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.1.0/SRPMS/python-ntlm-1.1.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M ea86969082fd4f52a6b4e1e99b87520b -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.__bzj57m:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-ntlm.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 99c9e45630fc4c4ba9262a201327b835 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.nn8p0cgh:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-ntlm.spec --nocheck'
 
 Directory walk started
-Directory walk done - 316 packages
+Directory walk done - 317 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.1.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
