@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rsa-4.9-1.el9.src.rpm
+The lastest package built was python-sqlparse-0.4.4-1.el9.src.rpm
 
-The build completed at Thu Apr  4 02:13:47 AM CEST 2024
+The build completed at Thu Apr  4 02:14:29 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+[Build Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -226,7 +226,7 @@ python3.11-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | Buil
 python3.11-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.1-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | Built | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
-python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
+python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-243 total packages, 224 packages built successfully, 19 packages left to fix
+243 total packages, 225 packages built successfully, 18 packages left to fix
