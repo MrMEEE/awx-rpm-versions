@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.1.0
-Release: 14%{dist}
+Release: 15%{dist}
 Source0: awx-24.1.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -307,7 +307,7 @@ BuildRequires: python3.11-xmlsec = 1.3.13
 BuildRequires: python3.11-yarl = 1.9.4
 BuildRequires: python3.11-zipp = 3.17.0
 BuildRequires: python3.11-zope-interface = 6.2
-BuildRequires: python3.11-pyasn1 python3.11-pip 
+BuildRequires: python3.11-pyasn1 python3.11-pip awx-rpm-manage
 
 Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
@@ -576,7 +576,7 @@ Requires: python3.11-xmlsec = 1.3.13
 Requires: python3.11-yarl = 1.9.4
 Requires: python3.11-zipp = 3.17.0
 Requires: python3.11-zope-interface = 6.2
-Requires: python3.11-pyasn1 python3.11-pip 
+Requires: python3.11-pyasn1 python3.11-pip awx-rpm-manage
 
 %{?systemd_requires}
 
@@ -722,6 +722,6 @@ fi
 %endif
 
 %changelog
-* Thu Apr 04 2024 11:08:00 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
+* Thu Apr 04 2024 01:33:44 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.1.0
 - New version build: 24.1.0
 
