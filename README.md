@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
+The lastest package built was python-uwsgi-2.0.24-1.el9.src.rpm
 
-The build completed at Thu Apr  4 02:17:53 AM CEST 2024
+The build completed at Thu Apr  4 02:19:08 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -242,7 +242,7 @@ python3.11-types-setuptools-69.2.0.20240317-1.el9 | python-types-setuptools-69.2
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.9.0-1.el9.src.rpm.log)
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | Built | [Log](logs/python-uritemplate-4.1.1-1.el9.src.rpm.log)
 python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built | [Log](logs/python-urllib3-1.26.18-1.el9.src.rpm.log)
-python3.11-uwsgi-2.0.24-1.el9 | python-uwsgi-2.0.24-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
+python3.11-uwsgi-2.0.24-1.el9 | python-uwsgi-2.0.24-1.el9.src.rpm | Built | [Log](logs/python-uwsgi-2.0.24-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built | [Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
 python3.11-virtualenv-20.25.1-1.el9 | python-virtualenv-20.25.1-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.25.1-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-243 total packages, 228 packages built successfully, 15 packages left to fix
+243 total packages, 229 packages built successfully, 14 packages left to fix
