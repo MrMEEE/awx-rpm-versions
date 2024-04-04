@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ntlm-1.1.0-1.el9.src.rpm
+The lastest package built was python-pbr-6.0.0-1.el9.src.rpm
 
-The build completed at Thu Apr  4 02:08:43 AM CEST 2024
+The build completed at Thu Apr  4 02:09:27 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -164,7 +164,7 @@ python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | Buil
 python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-23.2-1.el9.src.rpm.log)
 python3.11-parsley-1.3-1.el9 | python-parsley-1.3-1.el9.src.rpm | Built | [Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
-python3.11-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
+python3.11-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-243 total packages, 218 packages built successfully, 25 packages left to fix
+243 total packages, 219 packages built successfully, 24 packages left to fix
