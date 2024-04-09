@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-inflect-7.0.0-1.el9.src.rpm
+The lastest package built was python-inflection-0.5.1-1.el9.src.rpm
 
-The build completed at Wed Apr 10 12:08:30 AM CEST 2024
+The build completed at Wed Apr 10 12:09:00 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -112,7 +112,7 @@ python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/p
 python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
-python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
+python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | **Missing** |
 python3.11-ipython3.11-8.23.0-1.el9 | python-ipython-8.23.0-1.el9.src.rpm | **Missing** |
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 35 packages built successfully, 204 packages left to fix
+239 total packages, 36 packages built successfully, 203 packages left to fix
