@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
+The lastest package built was python-ansible-runner-2.3.6-1.el9.src.rpm
 
-The build completed at Wed Apr 10 01:28:04 AM CEST 2024
+The build completed at Wed Apr 10 01:28:34 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-ansible-builder-3.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-ansible-runner-2.3.6-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
