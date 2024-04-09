@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tempora-5.5.1-1.el9.src.rpm
+The lastest package built was python-tomli-2.0.1-1.el9.src.rpm
 
-The build completed at Wed Apr 10 01:11:56 AM CEST 2024
+The build completed at Wed Apr 10 01:12:28 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
+[Build Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -226,7 +226,7 @@ python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | 
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
-python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | **Missing** |
+python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.4-1.el9 | python-tomlkit-0.12.4-1.el9.src.rpm | **Missing** |
 python3.11-trove-classifiers-2024.3.25-1.el9 | python-trove-classifiers-2024.3.25-1.el9.src.rpm | **Missing** |
 python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 86 packages built successfully, 153 packages left to fix
+239 total packages, 87 packages built successfully, 152 packages left to fix
