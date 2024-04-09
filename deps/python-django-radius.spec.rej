@@ -1,0 +1,29 @@
+--- python-django-radius.spec	2024-04-09 22:55:35.861857495 +0200
++++ python-django-radius.spec	2024-04-03 16:49:15.520211007 +0200
+@@ -2,7 +2,7 @@
+ %global python3_pkgversion 3.11
+ 
+ Name:           python-django-radius
+-Version:        1.5.0
++Version:        1.5.1
+ Release:        %autorelease
+ Summary:        Django authentication backend for RADIUS
+ 
+@@ -10,7 +10,7 @@
+ # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
+ License:        gpl
+ URL:            http://robgolding63.github.com/django-radius/
+-Source:         %{pypi_source django-radius}
++Source:         django-radius-2024.4.3.zip
+ 
+ BuildArch:      noarch
+ 
+@@ -30,7 +30,7 @@
+ 
+ 
+ %prep
+-%autosetup -p1 -n django-radius-%{version}
++%autosetup -p1 -n django-radius-develop
+ 
+ 
+ %generate_buildrequires

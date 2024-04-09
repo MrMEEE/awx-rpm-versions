@@ -12,9 +12,10 @@ License:        gpl
 URL:            https://github.com/dateutil/dateutil
 Source:         %{pypi_source python-dateutil 2.9.0.post0}
 
+Patch: 		dateutil-deps.patch
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-setuptools_scm
 
 
 # Fill in the actual package description to submit package to Fedora
