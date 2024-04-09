@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.1.0-16.el9.src.rpm
+The lastest package built was 
 
-The build completed at Thu Apr  4 02:04:26 PM CEST 2024
+The build completed at Tue Apr  9 10:55:10 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-24.1.0-16.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.1.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,6 +16,10 @@ awx-rpm-24.1.0-14.el9 | awx-rpm-24.1.0-14.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-24.1.0-15.el9 | awx-rpm-24.1.0-15.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.1.0-15.el9.src.rpm.log)
 awx-rpm-24.1.0-16.el9 | awx-rpm-24.1.0-16.el9.src.rpm | Built | [Log](logs/awx-rpm-24.1.0-16.el9.src.rpm.log)
 awx-rpm-24.1.0-8.el9 | awx-rpm-24.1.0-8.el9.src.rpm | Built | [Log](logs/awx-rpm-24.1.0-8.el9.src.rpm.log)
+awx-rpm-manage-1.1.1-1.el9 | awx-rpm-manage-1.1.1-1.el9.src.rpm | **Missing** |
+awx-rpm-manage-1.1.1-2.el9 | awx-rpm-manage-1.1.1-2.el9.src.rpm | Built |
+awx-rpm-manage-1.1.2-3.el9 | awx-rpm-manage-1.1.2-3.el9.src.rpm | Built |
+awx-rpm-manage-1.1.3-4.el9 | awx-rpm-manage-1.1.3-4.el9.src.rpm | Built |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -256,4 +260,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-246 total packages, 245 packages built successfully, 1 packages left to fix
+250 total packages, 248 packages built successfully, 2 packages left to fix
