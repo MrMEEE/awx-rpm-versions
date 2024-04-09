@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-installer-0.7.0-1.el9.src.rpm
+The lastest package built was python-ipython-8.23.0-1.el9.src.rpm
 
-The build completed at Wed Apr 10 12:09:31 AM CEST 2024
+The build completed at Wed Apr 10 12:10:09 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-ipython-8.23.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -114,7 +114,7 @@ python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm 
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
-python3.11-ipython3.11-8.23.0-1.el9 | python-ipython-8.23.0-1.el9.src.rpm | **Missing** |
+python3.11-ipython3.11-8.23.0-1.el9 | python-ipython-8.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ipython-8.23.0-1.el9.src.rpm.log)
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** |
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | **Missing** |
 python3.11-itypes-1.2.0-1.el9 | python-itypes-1.2.0-1.el9.src.rpm | **Missing** |
