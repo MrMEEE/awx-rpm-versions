@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cryptography-41.0.7-1.el9.src.rpm
+The lastest package built was python-cython-0.29.37-1.el9.src.rpm
 
-The build completed at Tue Apr  9 11:40:48 PM CEST 2024
+The build completed at Tue Apr  9 11:42:41 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
+[Build Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -61,7 +61,7 @@ python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing*
 python3.11-coreschema-0.0.4-1.el9 | python-coreschema-0.0.4-1.el9.src.rpm | **Missing** | [Log](logs/python-coreschema-0.0.4-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
-python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | **Missing** |
+python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | Built | [Log](logs/python-cython-0.29.37-1.el9.src.rpm.log)
 python3.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** |
 python3.11-daphne-3.0.2-1.el9 | python-daphne-3.0.2-1.el9.src.rpm | **Missing** |
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 16 packages built successfully, 223 packages left to fix
+239 total packages, 17 packages built successfully, 222 packages left to fix
