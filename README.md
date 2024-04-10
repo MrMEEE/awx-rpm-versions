@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-2.31.0-1.el9.src.rpm
+The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
 
-The build completed at Wed Apr 10 05:03:57 AM CEST 2024
+The build completed at Wed Apr 10 05:04:35 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
