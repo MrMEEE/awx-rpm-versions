@@ -43,7 +43,7 @@ Summary:        %{summary}
 
 
 %build
-sed "%%PYTHON_VER%%|%{python3_pkgversion}" maturin/__init__.py 
+sed -i "s|%%PYTHON_VER%%|%{python3_pkgversion}|g" maturin/__init__.py 
 %pyproject_wheel
 
 
