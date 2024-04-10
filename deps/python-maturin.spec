@@ -11,6 +11,7 @@ Summary:        Build and publish crates with pyo3, rust-cpython and cffi bindin
 License:        gpl
 URL:            https://github.com/pyo3/maturin
 Source:         %{pypi_source maturin}
+Patch:		maturin-pythonver.patch
 
 BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
@@ -42,6 +43,7 @@ Summary:        %{summary}
 
 
 %build
+sed "%%PYTHON_VER%%|%{python3_pkgversion}" maturin/__init__.py 
 %pyproject_wheel
 
 

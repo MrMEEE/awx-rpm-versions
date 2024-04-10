@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was 
+The lastest package built was python-maturin-1.5.1-1.el9.src.rpm
 
-The build completed at Wed Apr 10 06:03:48 PM CEST 2024
+The build completed at Wed Apr 10 11:28:29 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/.log)
+[Build Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
