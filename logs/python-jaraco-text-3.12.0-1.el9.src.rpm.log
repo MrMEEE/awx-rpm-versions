@@ -38,7 +38,7 @@ Start: build phase for python-jaraco-text-3.12.0-1.el9.src.rpm
 Start: build setup for python-jaraco-text-3.12.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1712707200
+setting SOURCE_DATE_EPOCH=1712793600
 Wrote: /builddir/build/SRPMS/python-jaraco-text-3.12.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                         36 MB/s | 297 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [         ===               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================] 7.6 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder            7.6 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                316 kB/s |  38 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                         12 MB/s | 300 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                              12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                           15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [         ===               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [               ===         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 63 kB/s |  38 kB     00:00    
 Dependencies resolved.
 ==============================================================================================
  Package                         Arch       Version               Repository             Size
@@ -179,8 +179,8 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-jaraco-text-3.12.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1712707200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.t3Brcv
+setting SOURCE_DATE_EPOCH=1712793600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.uVeHZP
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -194,7 +194,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.t3Brcv
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.4wuAVC
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LNJeqD
 + umask 022
 + cd /builddir/build/BUILD
 + cd jaraco.text-3.12.0
@@ -229,10 +229,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                              13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri100% [===========================] 118 kB/s |  38 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                 59 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder             11 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                116 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -271,8 +271,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1712707200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ibccGX
+setting SOURCE_DATE_EPOCH=1712793600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fJCTmU
 + umask 022
 + cd /builddir/build/BUILD
 + cd jaraco.text-3.12.0
@@ -311,10 +311,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 60 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 72 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -364,8 +364,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1712707200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Xelqcv
+setting SOURCE_DATE_EPOCH=1712793600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.RlQAx8
 + umask 022
 + cd /builddir/build/BUILD
 + cd jaraco.text-3.12.0
@@ -417,9 +417,9 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder             14 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             15 kB/s | 4.5 kB     00:00    
 Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 72 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -460,8 +460,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1712707200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jegfn0
+setting SOURCE_DATE_EPOCH=1712793600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9NpMAK
 + umask 022
 + cd /builddir/build/BUILD
 + cd jaraco.text-3.12.0
@@ -568,10 +568,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                362 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 61 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -586,10 +586,10 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-jaraco-text-3.12.0-1.el9.src.rpm
 Finish: build phase for python-jaraco-text-3.12.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.2.0/SRPMS/python-jaraco-text-3.12.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.2.0/SRPMS/python-jaraco-text-3.12.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 29 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 3285c4d83c314482be3666775f325a2f -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.uqljdymk:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jaraco-text-3.12.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 0c1387a7f4fc40f982d483e3fc8f05e0 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.q1eg0bkv:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jaraco-text-3.12.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -597,10 +597,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                              19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                           22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder             19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                362 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                           21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder             21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                 61 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -615,7 +615,7 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 291 packages
+Directory walk done - 296 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
