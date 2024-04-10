@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        5.3 MB/s | 302 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [         ===               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [               ===         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 68 kB/s |  38 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                         22 MB/s | 304 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [         ===               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                372 kB/s |  38 kB     00:00    
 Dependencies resolved.
 ==============================================================================================
  Package                         Arch       Version               Repository             Size
@@ -180,7 +180,7 @@ Start: rpmbuild python-requests-2.31.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.CSSLPm
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mX9eAk
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -194,7 +194,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.CSSLPm
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XUXxNe
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pARsUI
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -230,9 +230,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                357 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                 62 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -272,7 +272,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.MBRdEf
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.AVwcI9
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -311,10 +311,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                           14 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder             14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri 41% [===========                ]  52 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                 51 kB/s |  38 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                207 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -355,7 +355,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Q5R5DG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.d5tFgh
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -465,10 +465,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder             10 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                240 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                282 kB/s |  38 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -528,7 +528,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.76Ua4P
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Z0wSsE
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -644,10 +644,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/2     [===                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                        2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                           13 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder             20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                368 kB/s |  38 kB     00:00    
+Red Hat Enterprise Linux -      [===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                              16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux -      [   ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                           19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux -      [      ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - 100% [===========================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder             13 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterpri     [         ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri     [            ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterpri 41% [===========                ]  41 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                 45 kB/s |  38 kB     00:00    
 Package python3.11-pysocks-1.7.1-1.el9.noarch is already installed.
 Package python3.11-chardet-5.2.0-1.el9.noarch is already installed.
 Package python3.11-charset-normalizer-3.3.2-1.el9.x86_64 is already installed.
@@ -667,7 +667,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.T6Zayj
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.a7E4ic
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -774,7 +774,7 @@ removed directory 'requests-2.31.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.aw8AWj
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.XgrnYD
 + umask 022
 + cd /builddir/build/BUILD
 + cd requests-2.31.0
@@ -817,18 +817,18 @@ Processing /builddir/build/BUILD/requests-2.31.0
   !!
     opt = self.warn_dash_deprecation(opt, section)
   running dist_info
-  creating /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info
-  writing /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info
+  writing /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no files found matching 'pytest.ini'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-asp418jl/requests-2.31.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-modern-metadata-0ojuc24g/requests-2.31.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: requests
   Building wheel for requests (pyproject.toml): started
@@ -925,7 +925,7 @@ Building wheels for collected packages: requests
   Copying requests.egg-info to build/bdist.linux-x86_64/wheel/requests-2.31.0-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/requests-2.31.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-wheel-oueufpb3/.tmp-8xrax9ft/requests-2.31.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/requests-2.31.0/.pyproject-builddir/pip-wheel-ayccujjj/.tmp-725k460r/requests-2.31.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'requests/__init__.py'
   adding 'requests/__version__.py'
   adding 'requests/_internal_utils.py'
@@ -957,7 +957,7 @@ Successfully built requests
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.gd3VIT
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.BRpJyF
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64 '!=' / ']'
@@ -991,8 +991,8 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 + sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
 + /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/RECORD --output /builddir/build/BUILD/python-requests-2.31.0-1.el9.x86_64-pyproject-record
-removed '/builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/RECORD'
 + rm -fv /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/RECORD'
 + rm -fv /builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/REQUESTED
 removed '/builddir/build/BUILDROOT/python-requests-2.31.0-1.el9.x86_64/usr/lib/python3.11/site-packages/requests-2.31.0.dist-info/REQUESTED'
 ++ wc -l /builddir/build/BUILD/python-requests-2.31.0-1.el9.x86_64-pyproject-ghost-distinfo
@@ -1040,13 +1040,13 @@ RPM build errors:
     Dependency tokens must begin with alpha-numeric, '_' or '/': *** PYTHON_EXTRAS_NOT_FOUND_ERROR___SEE_STDERR ***
 Finish: rpmbuild python-requests-2.31.0-1.el9.src.rpm
 Finish: build phase for python-requests-2.31.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.2.0/SRPMS/python-requests-2.31.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 28 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.2.0/SRPMS/python-requests-2.31.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 31 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 3acce53fb29544a291f1994e2f1599e6 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.nsbbsdn5:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-requests.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 9fdb816e58dc48e3b5df5b6e6e59c898 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.4ar_ltv8:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-requests.spec --nocheck'
 
 Directory walk started
-Directory walk done - 298 packages
+Directory walk done - 303 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
