@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-nh3-0.2.17-1.el9.src.rpm
+The lastest package built was 
 
-The build completed at Wed Apr 10 06:00:52 PM CEST 2024
+The build completed at Wed Apr 10 06:03:48 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-nh3-0.2.17-1.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
