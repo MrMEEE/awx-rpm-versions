@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
+The lastest package built was python-maturin-1.5.1-1.el9.src.rpm
 
-The build completed at Wed Apr 10 11:34:20 PM CEST 2024
+The build completed at Wed Apr 10 11:42:37 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
+[Build Log](logs/python-maturin-1.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
