@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-20240212-1.el9.src.rpm
+The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
 
-The build completed at Thu Apr 11 12:06:38 AM CEST 2024
+The build completed at Thu Apr 11 12:07:05 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-20240212-1.el9.src.rpm.log)
+[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
