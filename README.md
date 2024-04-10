@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
+The lastest package built was python-readme-renderer-43.0-1.el9.src.rpm
 
-The build completed at Wed Apr 10 05:02:19 AM CEST 2024
+The build completed at Wed Apr 10 05:02:52 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+[Build Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
