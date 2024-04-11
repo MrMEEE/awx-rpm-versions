@@ -2,9 +2,9 @@
 
 Summary: Ansible AWX-RPM Management Tools
 Name: awx-rpm-manage
-Version: 1.0
-Release: 2%{dist}
-Source0: awx-rpm-manage-1.0.tar.gz
+Version: 1.2.0
+Release: 3%{dist}
+Source0: awx-rpm-manage-1.2.0.tar.gz
 License: GPLv3
 Group: AWX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}.buildroot
@@ -23,8 +23,9 @@ Requires: python3
 %build
 
 %install
-mkdir -p $RPM_BUILD_ROOT/usr/bin/
+mkdir -p $RPM_BUILD_ROOT/usr/bin/ $RPM_BUILD_ROOT/usr/share/doc/awx-rpm-manage
 cp awx-rpm-manage $RPM_BUILD_ROOT/usr/bin/awx-rpm-manage
+cp README.md $RPM_BUILD_ROOT/usr/share/doc/awx-rpm-manage/README.md
 
 %pre
 /usr/bin/getent group awx >/dev/null || /usr/sbin/groupadd --system awx
@@ -36,8 +37,9 @@ cp awx-rpm-manage $RPM_BUILD_ROOT/usr/bin/awx-rpm-manage
 %files
 %defattr(0755, awx, awx, 0755)
 /usr/bin/awx-rpm-manage
+/usr/share/doc/awx-rpm-manage/README.md
 
 %changelog
-* Fri Mar 15 2024 11:35:20 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 1.0
-- New version build: 1.0
+* Thu Apr 11 2024 02:39:43 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 1.2.0
+- New version build: 1.2.0
 
