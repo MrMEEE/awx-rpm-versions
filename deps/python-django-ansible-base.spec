@@ -11,6 +11,7 @@ Summary:        Reserved package
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
 Source:         https://github.com/MrMEEE/django-ansible-base/archive/refs/tags/v2024.04.11.tar.gz
+Patch:		django-ansible-base-versionfix.patch
 
 BuildArch:      noarch
 
