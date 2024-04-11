@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was 
 
-The build completed at Wed Apr 10 11:21:45 PM CEST 2024
+The build completed at Thu Apr 11 02:39:25 PM CEST 2024
 
 The build was unsuccessful.
 
@@ -20,6 +20,7 @@ awx-rpm-manage-1.1.1-1.el9 | awx-rpm-manage-1.1.1-1.el9.src.rpm | **Missing** |
 awx-rpm-manage-1.1.1-2.el9 | awx-rpm-manage-1.1.1-2.el9.src.rpm | Built |
 awx-rpm-manage-1.1.2-3.el9 | awx-rpm-manage-1.1.2-3.el9.src.rpm | Built |
 awx-rpm-manage-1.1.3-4.el9 | awx-rpm-manage-1.1.3-4.el9.src.rpm | Built |
+awx-rpm-manage-1.2.0-5.el9 | awx-rpm-manage-1.2.0-5.el9.src.rpm | Built |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -260,4 +261,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-250 total packages, 248 packages built successfully, 2 packages left to fix
+251 total packages, 249 packages built successfully, 2 packages left to fix
