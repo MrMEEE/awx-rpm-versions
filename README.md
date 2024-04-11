@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-2.31.0-1.el9.src.rpm
+The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
 
-The build completed at Thu Apr 11 12:29:31 AM CEST 2024
+The build completed at Thu Apr 11 11:31:51 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -114,7 +114,6 @@ python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm 
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | Built | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
-python3.11-ipython3.11-8.23.0-1.el9 | python-ipython-8.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ipython-8.23.0-1.el9.src.rpm.log)
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | Built | [Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
 python3.11-itypes-1.2.0-1.el9 | python-itypes-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-itypes-1.2.0-1.el9.src.rpm.log)
@@ -224,6 +223,7 @@ python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | Built | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
+python3.11-swagger-spec-validator-3.0.3-1.el9 | python-swagger-spec-validator-3.0.3-1.el9.src.rpm | **Missing** |
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
