@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.2.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-24.2.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -103,9 +103,7 @@ BuildRequires: python3.11-distlib = 0.3.8
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.6
 BuildRequires: python3.11-django-ansible-base = 20240411
-BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240212
 BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240411
-BuildRequires: python3.11-django-ansible-base+rest_filters = 20240212
 BuildRequires: python3.11-django-ansible-base+rest_filters = 20240411
 BuildRequires: python3.11-django-auth-ldap = 4.8.0
 BuildRequires: python3.11-django+bcrypt = 4.2.6
@@ -375,9 +373,7 @@ Requires: python3.11-distlib = 0.3.8
 Requires: python3.11-distro = 1.9.0
 Requires: python3.11-django = 4.2.6
 Requires: python3.11-django-ansible-base = 20240411
-Requires: python3.11-django-ansible-base+jwt_consumer = 20240212
 Requires: python3.11-django-ansible-base+jwt_consumer = 20240411
-Requires: python3.11-django-ansible-base+rest_filters = 20240212
 Requires: python3.11-django-ansible-base+rest_filters = 20240411
 Requires: python3.11-django-auth-ldap = 4.8.0
 Requires: python3.11-django+bcrypt = 4.2.6
@@ -716,6 +712,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Thu Apr 11 2024 01:16:52 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.2.0
+* Thu Apr 11 2024 01:33:11 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.2.0
 - New version build: 24.2.0
 
