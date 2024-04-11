@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-django-ansible-base
-Version:        20240212
+Version:        20240411
 Release:        %autorelease
 Summary:        Reserved package
 
@@ -10,7 +10,7 @@ Summary:        Reserved package
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         https://github.com/ansible/django-ansible-base/releases/download/2024.2.12/django-ansible-base-2024.2.12.tar.gz
+Source:         django-ansible-base-2024.4.11.zip
 
 BuildArch:      noarch
 
