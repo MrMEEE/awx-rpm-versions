@@ -1,14 +1,16 @@
 ## Latest build
-The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
+The lastest package built was awx-rpm-24.2.0-1.el9.src.rpm
 
-The build completed at Thu Apr 11 11:33:51 AM CEST 2024
+The build completed at Thu Apr 11 11:59:08 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-24.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.2.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
+awx-receptor-1.4.5-1.el9 | awx-receptor-1.4.5-1.el9.src.rpm | Built |
+awx-rpm-24.2.0-1.el9 | awx-rpm-24.2.0-1.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.2.0-1.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -249,4 +251,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 239 packages built successfully, 0 packages left to fix
+241 total packages, 240 packages built successfully, 1 packages left to fix
