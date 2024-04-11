@@ -3,7 +3,7 @@
 
 Name:           python-ansible-runner
 Version:        2.3.6
-Release:        %autorelease
+Release:        2
 Summary:        "Consistent Ansible Python API and CLI with container and process isolation runtime capabilities"
 
 # Check if the automatically generated License and its spelling is correct for Fedora
