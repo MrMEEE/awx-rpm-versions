@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                                                    15 MB/s | 309 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         14 kB/s | 4.1 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                                                    36 MB/s | 309 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS        100% [========================================] 5.9 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                        5.9 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            60 kB/s |  23 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            40 kB/s |  23 kB     00:00    
 Dependencies resolved.
 =========================================================================================================================
  Package                                Architecture      Version                     Repository                    Size
@@ -171,23 +171,24 @@ Start: rpmbuild python-django-ansible-base-20240411-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.OodNsC
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.m3Nmxc
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf django-ansible-base-devel
-+ /usr/bin/unzip -qq /builddir/build/SOURCES/django-ansible-base-2024.4.11.zip
++ rm -rf django-ansible-base-2024.04.11
++ /usr/bin/gzip -dc /builddir/build/SOURCES/v2024.04.11.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd django-ansible-base-devel
++ cd django-ansible-base-2024.04.11
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.eF5QSr
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Zpsyew
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-ansible-base-devel
++ cd django-ansible-base-2024.04.11
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -196,14 +197,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.eF5QSr
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ mkdir -p /builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-devel/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-2024.04.11/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -219,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            53 kB/s |  23 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            52 kB/s |  23 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -262,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ec48hH
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P8xbKK
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-ansible-base-devel
++ cd django-ansible-base-2024.04.11
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -274,14 +275,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ec48hH
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ mkdir -p /builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-devel/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-2024.04.11/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
 Handling setuptools>=64 from build-system.requires
 Requirement not satisfied: setuptools>=64
 Handling setuptools_scm>=8 from build-system.requires
@@ -301,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.2.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            45 kB/s |  23 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream     100% [========================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                      15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linu100% [========================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           191 kB/s |  23 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -350,10 +351,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1712793600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uaMiT7
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xCpa9n
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-ansible-base-devel
++ cd django-ansible-base-2024.04.11
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -362,14 +363,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uaMiT7
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ mkdir -p /builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-ansible-base-devel/.pyproject-builddir
++ TMPDIR=/builddir/build/BUILD/django-ansible-base-2024.04.11/.pyproject-builddir
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-devel/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-ansible-base-2024.04.11/pyproject-wheeldir --output /builddir/build/BUILD/python-django-ansible-base-20240411-1.el9.x86_64-pyproject-buildrequires -x rest_filters,jwt_consumer
 Handling setuptools>=64 from build-system.requires
 Requirement satisfied: setuptools>=64
    (installed: setuptools 69.0.2)
@@ -410,7 +411,7 @@ Traceback (most recent call last):
     _version_missing(config)
   File "/usr/lib/python3.11/site-packages/setuptools_scm/_get_version_impl.py", line 112, in _version_missing
     raise LookupError(
-LookupError: setuptools-scm was unable to detect version for /builddir/build/BUILD/django-ansible-base-devel.
+LookupError: setuptools-scm was unable to detect version for /builddir/build/BUILD/django-ansible-base-2024.04.11.
 
 Make sure you're either building from a fully intact git repository or PyPI tarballs. Most other sources (such as GitHub's tarballs, a git checkout without the .git folder) don't contain the necessary metadata and will not work.
 
@@ -418,8 +419,8 @@ For example, if you're using pip, instead of https://github.com/user/proj/archiv
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.uaMiT7 (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.uaMiT7 (%generate_buildrequires)
+error: Bad exit status from /var/tmp/rpm-tmp.xCpa9n (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.xCpa9n (%generate_buildrequires)
 Finish: rpmbuild python-django-ansible-base-20240411-1.el9.src.rpm
 Finish: build phase for python-django-ansible-base-20240411-1.el9.src.rpm
 ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.2.0/SRPMS/python-django-ansible-base-20240411-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 19 seconds

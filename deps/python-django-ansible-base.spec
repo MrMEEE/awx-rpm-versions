@@ -10,7 +10,7 @@ Summary:        Reserved package
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://pypi.org/project/django-ansible-base/
-Source:         django-ansible-base-2024.4.11.zip
+Source:         https://github.com/MrMEEE/django-ansible-base/archive/refs/tags/v2024.04.11.tar.gz
 
 BuildArch:      noarch
 
@@ -31,7 +31,7 @@ Summary:        %{summary}
 %pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base rest_filters,jwt_consumer
 
 %prep
-%autosetup -p1 -n django-ansible-base-devel
+%autosetup -p1 -n django-ansible-base-2024.04.11
 
 
 %generate_buildrequires
