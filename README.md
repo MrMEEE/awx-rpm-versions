@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
 
-The build completed at Wed Apr 24 02:08:23 PM CEST 2024
+The build completed at Wed Apr 24 02:08:54 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
