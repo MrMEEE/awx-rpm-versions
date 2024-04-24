@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
+The lastest package built was python-dulwich-0.22.1-1.el9.src.rpm
 
-The build completed at Wed Apr 24 02:53:51 PM CEST 2024
+The build completed at Wed Apr 24 02:54:32 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
