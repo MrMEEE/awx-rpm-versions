@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-lockfile-0.12.2-1.el9.src.rpm
+The lastest package built was python-markdown-3.5.2-1.el9.src.rpm
 
-The build completed at Wed Apr 24 09:54:33 AM CEST 2024
+The build completed at Wed Apr 24 09:55:14 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
+[Build Log](logs/python-markdown-3.5.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -136,7 +136,7 @@ python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | **Missin
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
-python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | **Missing** |
+python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.5.2-1.el9.src.rpm.log)
 python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
 python3.11-maturin-1.5.1-1.el9 | python-maturin-1.5.1-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 42 packages built successfully, 197 packages left to fix
+239 total packages, 43 packages built successfully, 196 packages left to fix
