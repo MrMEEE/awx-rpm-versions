@@ -32,7 +32,7 @@ Summary:        %{summary}
 %pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base rest_filters,jwt_consumer
 
 %prep
-%autosetup -p1 -n django-ansible-base-2024.04.23
+%autosetup -p1 -n django_ansible_base-2024.4.23
 
 
 %generate_buildrequires
