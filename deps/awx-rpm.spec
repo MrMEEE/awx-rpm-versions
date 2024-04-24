@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.3.0
-Release: 1%{dist}
+Release: 11%{dist}
 Source0: awx-24.3.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -102,6 +102,9 @@ BuildRequires: python3.11-defusedxml = 0.7.1
 BuildRequires: python3.11-distlib = 0.3.8
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.6
+BuildRequires: python3.11-django-ansible-base = 20240423
+BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240423
+BuildRequires: python3.11-django-ansible-base+rest_filters = 20240423
 BuildRequires: python3.11-django-auth-ldap = 4.8.0
 BuildRequires: python3.11-django+bcrypt = 4.2.6
 BuildRequires: python3.11-django-cors-headers = 4.3.1
@@ -369,6 +372,9 @@ Requires: python3.11-defusedxml = 0.7.1
 Requires: python3.11-distlib = 0.3.8
 Requires: python3.11-distro = 1.9.0
 Requires: python3.11-django = 4.2.6
+Requires: python3.11-django-ansible-base = 20240423
+Requires: python3.11-django-ansible-base+jwt_consumer = 20240423
+Requires: python3.11-django-ansible-base+rest_filters = 20240423
 Requires: python3.11-django-auth-ldap = 4.8.0
 Requires: python3.11-django+bcrypt = 4.2.6
 Requires: python3.11-django-cors-headers = 4.3.1
@@ -706,6 +712,45 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Thu Apr 25 2024 12:25:07 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
+* Thu Apr 25 2024 01:02:40 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
 - New version build: 24.3.0
-
+- (HEAD, tag: 24.3.0) Backports previously approved corrections. (#15121)
+- Fix instance peering pagination (#15108)
+- Use $(shell ...) to filter the redis docker volumes
+- Omit using -X when not needed, and don't default to demonstrating -k
+- chore: remove repetitive words (#15101)
+- Fix wsrelay connection leak (#15113)
+- Fixed missing fstring from wsrelay logging (#15094)
+- Support Google credentials on Terraform credentials type
+- Update LDAP/SAML config dump command (#15106)
+- Use released version of django-radius (#15103)
+- Use latest awx-ee in devel CI (#15098)
+- Store molecule debug output to github artifacts (#15107)
+- [RBAC] Update related name to reflect upstream DAB change (#15093)
+- Make custom urls work with RBAC
+- [RBAC] Rename managed role definitions, and move migration logic here (#15087)
+- [RBAC] Fix bug where team could not be given read_role to other team (#15067)
+- [RBAC] Tweaks to reflect what endpoints are deprecated (#15068)
+- Fix missing role membership when giving creator permissions (#15058)
+- AWX Collections for DAB RBAC
+- [RBAC] Fix known issues with backward compatible access_list (#15052)
+- Generalize can_delete solution, use devel DAB (#15009)
+- [RBAC] Fix server error from delete capability of approvals (#15002)
+- [RBAC] Fix migration for created and modified field changes (#14999)
+- Bump migration number for RBAC branch
+- Adopt internal DAB RBAC Permission model (#14994)
+- Minor RBAC test fix (#14982)
+- Use AWX base view to make unauth requests 401 (#14981)
+- [DAB RBAC] Re-implement system auditor as a singleton role in new system (#14963)
+- Bump number of allowed endpoints (#14956)
+- Cache organization child evaluations and remove hacks
+- Cast ObjectRole object_id to int, very wrong, tmp fix
+- Replace role system with permissions-based DB roles
+- Fix failure from DAB (#15102)
+- Implement optional url prefix the Django way
+- Move named url init out of Middleware init
+- Revert accidental line deletion
+- Fix awxkit uploads when re-running promote workflow
+- Allow for manually restarting promote workflow
+- Check galaxy collection with and without redirect
+- Clean the postgres 15 volume (#15083)
