@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                    30 MB/s | 292 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS        100% [========================================] 9.6 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                        9.6 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                    17 MB/s | 292 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream     100% [========================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                      11 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linu     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            57 kB/s |  32 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x     [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                            87 kB/s |  32 kB     00:00    
 Dependencies resolved.
 =========================================================================================================================
  Package                                Architecture      Version                     Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-poetry-plugin-export-1.7.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1713916800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.bd738D
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.XL2iIj
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.bd738D
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pvxoAK
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.RE3YfV
 + umask 022
 + cd /builddir/build/BUILD
 + cd poetry_plugin_export-1.7.1
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linu100% [========================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        13 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           173 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           130 kB/s |  32 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1713916800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dHui1D
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.kKJxQp
 + umask 022
 + cd /builddir/build/BUILD
 + cd poetry_plugin_export-1.7.1
@@ -300,10 +300,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           312 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           301 kB/s |  32 kB     00:00    
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -341,7 +341,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1713916800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.4SzQsd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vn5Xgz
 + umask 022
 + cd /builddir/build/BUILD
 + cd poetry_plugin_export-1.7.1
@@ -388,10 +388,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/        [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS             [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream          [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           317 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linu     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x     [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           172 kB/s |  32 kB     00:00    
 Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -399,15 +399,15 @@ Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 Error: 
  Problem: nothing provides requested (python3.11dist(poetry) < 2~~ with python3.11dist(poetry) >= 1.8)
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 Finish: rpmbuild python-poetry-plugin-export-1.7.1-1.el9.src.rpm
 Finish: build phase for python-poetry-plugin-export-1.7.1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.3.0/SRPMS/python-poetry-plugin-export-1.7.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 22 seconds
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.3.0/SRPMS/python-poetry-plugin-export-1.7.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M e4a49191a70648b0a886a0d18e1caee7 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.og_olevp:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-poetry-plugin-export-1.7.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 9d8b9685041b43f9957d59f8074ef398 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.wkro18vx:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-poetry-plugin-export-1.7.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -415,10 +415,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.3.0/RPMS/                                                   2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                         19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                         20 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                                      22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                        22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                           317 kB/s |  32 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                        20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                           172 kB/s |  32 kB     00:00    
 Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.9.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
@@ -426,9 +426,9 @@ Package python3.11-devel-3.11.5-1.el9_3.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-4.el9_3.1.noarch is already installed.
 Package python3.11-poetry-core-1.9.0-1.el9.noarch is already installed.
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 Error: 
  Problem: nothing provides requested (python3.11dist(poetry) < 2~~ with python3.11dist(poetry) >= 1.8)
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 
 Directory walk started
 Directory walk done - 295 packages
