@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-plugin-export-1.7.1-1.el9.src.rpm
+The lastest package built was python-prometheus-client-0.20.0-1.el9.src.rpm
 
-The build completed at Wed Apr 24 01:34:56 PM CEST 2024
+The build completed at Wed Apr 24 01:35:26 PM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
+[Build Log](logs/python-prometheus-client-0.20.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
