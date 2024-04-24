@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
+The lastest package built was python-django-pglocks-1.0.4-1.el9.src.rpm
 
-The build completed at Wed Apr 24 09:22:29 AM CEST 2024
+The build completed at Wed Apr 24 09:23:02 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -76,7 +76,7 @@ python3.11-django-debug-toolbar-4.3.0-1.el9 | python-django-debug-toolbar-4.3.0-
 python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 python3.11-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
-python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | **Missing** |
+python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** |
 python3.11-django-radius-1.5.1-1.el9 | python-django-radius-1.5.1-1.el9.src.rpm | **Missing** |
 python3.11-djangorestframework-3.14.0-1.el9 | python-djangorestframework-3.14.0-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 20 packages built successfully, 219 packages left to fix
+239 total packages, 21 packages built successfully, 218 packages left to fix
