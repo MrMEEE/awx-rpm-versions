@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-dulwich-0.22.1-1.el9.src.rpm
 
-The build completed at Wed Apr 24 11:57:26 PM CEST 2024
+The build completed at Wed Apr 24 11:58:36 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.0
@@ -88,7 +88,7 @@ python3.11-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
 python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | Built | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
-python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
+python3.11-dulwich-0.22.1-1.el9 | python-dulwich-0.22.1-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.1-1.el9.src.rpm.log)
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 228 packages built successfully, 11 packages left to fix
+239 total packages, 229 packages built successfully, 10 packages left to fix
