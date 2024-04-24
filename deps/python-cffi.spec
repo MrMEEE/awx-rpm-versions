@@ -12,10 +12,10 @@ License:        gpl
 URL:            http://cffi.readthedocs.org
 Source:         %{pypi_source cffi}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  libffi-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
