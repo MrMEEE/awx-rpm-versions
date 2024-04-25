@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.3.0
-Release: 11%{dist}
+Release: 12%{dist}
 Source0: awx-24.3.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -712,7 +712,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Thu Apr 25 2024 01:02:40 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
+* Thu Apr 25 2024 02:33:24 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
 - New version build: 24.3.0
 - (HEAD, tag: 24.3.0) Backports previously approved corrections. (#15121)
 - Fix instance peering pagination (#15108)
