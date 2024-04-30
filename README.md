@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-trove-classifiers-2024.4.10-1.el9.src.rpm
+The lastest package built was python-twilio-8.13.0-1.el9.src.rpm
 
-The build completed at Wed May  1 01:32:14 AM CEST 2024
+The build completed at Wed May  1 01:32:41 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-trove-classifiers-2024.4.10-1.el9.src.rpm.log)
+[Build Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -229,7 +229,7 @@ python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing*
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.4-1.el9 | python-tomlkit-0.12.4-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.4-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.4.10-1.el9 | python-trove-classifiers-2024.4.10-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.4.10-1.el9.src.rpm.log)
-python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | **Missing** |
+python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
 python3.11-twine-5.0.0-1.el9 | python-twine-5.0.0-1.el9.src.rpm | **Missing** |
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** |
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** |
