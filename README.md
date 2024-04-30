@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-asgiref-3.7.2-1.el9.src.rpm
+The lastest package built was python-asn1-2.7.0-1.el9.src.rpm
 
-The build completed at Tue Apr 30 11:36:58 PM CEST 2024
+The build completed at Tue Apr 30 11:37:24 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
+[Build Log](logs/python-asn1-2.7.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -23,7 +23,7 @@ python3.11-ansible-runner-2.3.6-1.el9 | python-ansible-runner-2.3.6-1.el9.src.rp
 python3.11-ansiconv-1.0.0-1.el9 | python-ansiconv-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-ansiconv-1.0.0-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | Built | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3.11-asgiref-3.7.2-1.el9 | python-asgiref-3.7.2-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.7.2-1.el9.src.rpm.log)
-python3.11-asn1-2.7.0-1.el9 | python-asn1-2.7.0-1.el9.src.rpm | **Missing** |
+python3.11-asn1-2.7.0-1.el9 | python-asn1-2.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-asn1-2.7.0-1.el9.src.rpm.log)
 python3.11-asyncpg-0.29.0-1.el9 | python-asyncpg-0.29.0-1.el9.src.rpm | **Missing** |
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | **Missing** |
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** |
