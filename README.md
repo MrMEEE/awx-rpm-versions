@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pytest-8.2.0-1.el9.src.rpm
+The lastest package built was python-pytest-runner-6.0.1-1.el9.src.rpm
 
-The build completed at Wed May  1 01:10:51 AM CEST 2024
+The build completed at Wed May  1 01:11:17 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pytest-8.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -188,7 +188,7 @@ python3.11-pyparsing-3.1.2-1.el9 | python-pyparsing-3.1.2-1.el9.src.rpm | Built 
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
 python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3.11-pytest-8.2.0-1.el9 | python-pytest-8.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pytest-8.2.0-1.el9.src.rpm.log)
-python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | **Missing** |
+python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | **Missing** |
 python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | **Missing** |
 python3.11-rapidfuzz-3.8.1-1.el9 | python-rapidfuzz-3.8.1-1.el9.src.rpm | **Missing** |
