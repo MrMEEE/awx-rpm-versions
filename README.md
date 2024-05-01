@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-4.2.0-1.el9.src.rpm
+The lastest package built was python-django-ansible-base-20240423-1.el9.src.rpm
 
-The build completed at Wed May  1 04:51:54 AM CEST 2024
+The build completed at Wed May  1 04:52:29 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-ansible-base-20240423-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
