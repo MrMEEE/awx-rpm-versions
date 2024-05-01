@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
+The lastest package built was python-social-auth-app-django-5.4.0-1.el9.src.rpm
 
-The build completed at Wed May  1 04:56:09 AM CEST 2024
+The build completed at Wed May  1 04:56:43 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
