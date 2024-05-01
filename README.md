@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msrest-0.7.1-1.el9.src.rpm
+The lastest package built was python-msrestazure-0.6.4-1.el9.src.rpm
 
-The build completed at Wed May  1 04:20:45 AM CEST 2024
+The build completed at Wed May  1 04:21:11 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
+[Build Log](logs/python-msrestazure-0.6.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
