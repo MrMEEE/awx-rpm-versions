@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
+The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
 
-The build completed at Wed May  1 02:06:58 AM CEST 2024
+The build completed at Wed May  1 02:07:33 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
