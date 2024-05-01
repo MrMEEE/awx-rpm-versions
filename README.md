@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-aiohttp-retry-2.8.3-1.el9.src.rpm
+The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
 
-The build completed at Wed May  1 04:31:33 AM CEST 2024
+The build completed at Wed May  1 04:32:04 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
+[Build Log](logs/python-ansible-builder-3.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
