@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-1.8.2-1.el9.src.rpm
+The lastest package built was python-poetry-plugin-export-1.7.1-1.el9.src.rpm
 
-The build completed at Wed May  1 03:40:14 AM CEST 2024
+The build completed at Wed May  1 03:40:44 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-1.8.2-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-plugin-export-1.7.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
