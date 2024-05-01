@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-platformdirs-3.11.0-1.el9.src.rpm
+The lastest package built was python-pluggy-1.5.0-1.el9.src.rpm
 
-The build completed at Wed May  1 02:32:06 AM CEST 2024
+The build completed at Wed May  1 02:32:31 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pluggy-1.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
