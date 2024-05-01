@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msal-1.26.0-1.el9.src.rpm
+The lastest package built was python-msal-extensions-1.1.0-1.el9.src.rpm
 
-The build completed at Wed May  1 02:26:53 AM CEST 2024
+The build completed at Wed May  1 02:27:20 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-msal-1.26.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msal-extensions-1.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
