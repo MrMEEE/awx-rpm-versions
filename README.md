@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daemon-3.0.1-1.el9.src.rpm
+The lastest package built was python-daphne-3.0.2-1.el9.src.rpm
 
-The build completed at Wed May  1 02:01:39 AM CEST 2024
+The build completed at Wed May  1 02:02:13 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-daemon-3.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-daphne-3.0.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
