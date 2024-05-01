@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ansible-runner-2.3.6-1.el9.src.rpm
+The lastest package built was python-attrs-23.2.0-1.el9.src.rpm
 
-The build completed at Wed May  1 02:58:41 AM CEST 2024
+The build completed at Wed May  1 02:59:08 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-ansible-runner-2.3.6-1.el9.src.rpm.log)
+[Build Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.3.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
