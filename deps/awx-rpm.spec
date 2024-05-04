@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.3.1
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-24.3.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -594,6 +594,7 @@ git checkout -f %{version}
 %build
 
 %install
+mkdir translations/
 mv awx/locale/en-us/LC_MESSAGES/django.po translations/
 mv awx/ui/src/locales/en/messages.po translations/
 
@@ -718,7 +719,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Sat May 04 2024 01:54:33 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.1
+* Sat May 04 2024 02:00:34 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.1
 - New version build: 24.3.1
 - (HEAD, tag: 24.3.1, origin/devel, origin/HEAD, devel) Do some aesthetic adjustments to role presentation fields (#15153)
 - Delete deprecated Cypress UI e2e_test.yml (#15155)
