@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.3.0
-Release: 12%{dist}
+Release: 13%{dist}
 Source0: awx-24.3.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -35,6 +35,7 @@ Source8: awx-rpm-nginx.conf-%{version}
 Patch0: awx-patch.patch-%{version}
 License: GPLv3
 Group: AWX
+URL: https://awx.wiki
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}.buildroot
 Vendor: AWX
 Prefix: %{_prefix}
@@ -594,6 +595,10 @@ git checkout -f %{version}
 %build
 
 %install
+mkdir translations/
+mv awx/locale/en-us/LC_MESSAGES/django.po translations/
+mv awx/ui/src/locales/en/messages.po translations/
+
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
 GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
 make ui-next/src
@@ -604,6 +609,10 @@ make ui-release
 
 mkdir -p /var/log/tower
 AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
+
+chmod +x tools/scripts/l18n/post_translation.sh
+./tools/scripts/l18n/post_translation.sh
+
 mkdir -p %{buildroot}%{_prefix}
 for i in `find -type f |grep mappings.wasm`; do
 	echo "Removing $i"
@@ -712,7 +721,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Thu Apr 25 2024 02:33:24 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
+* Thu May 09 2024 04:45:49 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.3.0
 - New version build: 24.3.0
 - (HEAD, tag: 24.3.0) Backports previously approved corrections. (#15121)
 - Fix instance peering pagination (#15108)
