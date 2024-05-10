@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.3.0-13.el9.src.rpm
+The lastest package built was 
 
-The build completed at Thu May  9 05:24:37 PM CEST 2024
+The build completed at Fri May 10 06:19:57 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-24.3.0-13.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.3.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
