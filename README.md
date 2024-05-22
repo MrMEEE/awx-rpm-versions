@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-aiohttp-retry-2.8.3-1.el9.src.rpm
+The lastest package built was python-aioredis-1.3.1-1.el9.src.rpm
 
-The build completed at Thu May 23 01:51:36 AM CEST 2024
+The build completed at Thu May 23 01:52:18 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
+[Build Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -15,7 +15,7 @@ python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [L
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohttp-3.9.3-1.el9 | python-aiohttp-3.9.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
-python3.11-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
+python3.11-aioredis-1.3.1-1.el9 | python-aioredis-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
 python3.11-aiosignal-1.3.1-1.el9 | python-aiosignal-1.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-aiosignal-1.3.1-1.el9.src.rpm.log)
 python3.11-annotated-types-0.6.0-1.el9 | python-annotated-types-0.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-annotated-types-0.6.0-1.el9.src.rpm.log)
 python3.11-ansible-builder-3.0.1-1.el9 | python-ansible-builder-3.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-ansible-builder-3.0.1-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 105 packages built successfully, 134 packages left to fix
+239 total packages, 106 packages built successfully, 133 packages left to fix
