@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-versioneer-0.29-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.26.2-1.el9.src.rpm
 
-The build completed at Thu May 23 01:43:38 AM CEST 2024
+The build completed at Thu May 23 01:44:09 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -241,7 +241,7 @@ python3.11-urllib3-1.26.18-1.el9 | python-urllib3-1.26.18-1.el9.src.rpm | Built 
 python3.11-uwsgi-2.0.25.1-1.el9 | python-uwsgi-2.0.25.1-1.el9.src.rpm | Built | [Log](logs/python-uwsgi-2.0.25.1-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.11-1.el9 | python-uwsgitop-0.11-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.11-1.el9.src.rpm.log)
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built | [Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
-python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | **Missing** |
+python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | **Missing** |
 python3.11-wheel-0.43.0-1.el9 | python-wheel-0.43.0-1.el9.src.rpm | **Missing** |
 python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** |
