@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-txaio-23.1.1-1.el9.src.rpm
+The lastest package built was python-types-psutil-5.9.5.20240516-1.el9.src.rpm
 
-The build completed at Thu May 23 01:38:21 AM CEST 2024
+The build completed at Thu May 23 01:38:54 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-types-psutil-5.9.5.20240516-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -233,7 +233,7 @@ python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | **Missing*
 python3.11-twine-5.1.0-1.el9 | python-twine-5.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.1.0-1.el9.src.rpm.log)
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
-python3.11-types-psutil-5.9.5.20240516-1.el9 | python-types-psutil-5.9.5.20240516-1.el9.src.rpm | **Missing** |
+python3.11-types-psutil-5.9.5.20240516-1.el9 | python-types-psutil-5.9.5.20240516-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-5.9.5.20240516-1.el9.src.rpm.log)
 python3.11-types-setuptools-69.5.0.20240522-1.el9 | python-types-setuptools-69.5.0.20240522-1.el9.src.rpm | **Missing** |
 python3.11-typing-extensions-4.9.0-1.el9 | python-typing-extensions-4.9.0-1.el9.src.rpm | **Missing** |
 python3.11-uritemplate-4.1.1-1.el9 | python-uritemplate-4.1.1-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 92 packages built successfully, 147 packages left to fix
+239 total packages, 93 packages built successfully, 146 packages left to fix
