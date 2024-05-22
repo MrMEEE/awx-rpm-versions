@@ -1,3 +1,11 @@
+## Latest build
+The lastest package built was 
+
+The build completed at Wed May 22 10:40:36 PM CEST 2024
+
+The build was unsuccessful.
+
+[Build Log](logs/.log)
 ## Package build status for version: 23.8.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
