@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-23.6.2-1.el9.src.rpm
+The lastest package built was python-autocommand-2.2.2-1.el9.src.rpm
 
-The build completed at Wed May 22 11:23:30 PM CEST 2024
+The build completed at Wed May 22 11:24:08 PM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,7 +28,7 @@ python3.11-asyncpg-0.29.0-1.el9 | python-asyncpg-0.29.0-1.el9.src.rpm | **Missin
 python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-4.0.3-1.el9.src.rpm.log)
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
-python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | **Missing** |
+python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** |
 python3.11-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | **Missing** |
 python3.11-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | **Missing** |
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-239 total packages, 4 packages built successfully, 235 packages left to fix
+239 total packages, 5 packages built successfully, 234 packages left to fix
