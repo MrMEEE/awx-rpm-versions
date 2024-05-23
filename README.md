@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ansible-builder-3.0.1-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-4.2.0-1.el9.src.rpm
 
-The build completed at Thu May 23 05:39:50 AM CEST 2024
+The build completed at Thu May 23 05:40:35 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-ansible-builder-3.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -34,7 +34,7 @@ python3.11-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | Built | [L
 python3.11-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | Built | [Log](logs/python-azure-common-1.1.28-1.el9.src.rpm.log)
 python3.11-azure-core-1.30.0-1.el9 | python-azure-core-1.30.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.30.0-1.el9.src.rpm.log)
 python3.11-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | Built | [Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
-python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
+python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 223 packages built successfully, 16 packages left to fix
+239 total packages, 224 packages built successfully, 15 packages left to fix
