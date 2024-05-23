@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.4.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-24.4.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -704,7 +704,7 @@ fi
 %dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
 %{service_homedir}/.tower_version
 %dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
-%config %{service_configdir}/settings.py
+%config(noreplace) %{service_configdir}/settings.py
 %config /etc/nginx/conf.d/awx-rpm.conf
 /usr/lib/systemd/system/awx.target
 /etc/receptor
@@ -721,7 +721,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Thu May 23 2024 09:19:50 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.4.0
+* Fri May 24 2024 12:35:18 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.4.0
 - New version build: 24.4.0
 - (HEAD, tag: 24.4.0) Fix up ansible-test sanity checks due to ansible 2.17 release (#15208)
 - Update a few dev requirements (#15203)
