@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-app-django-5.4.0-1.el9.src.rpm
+The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
 
-The build completed at Thu May 23 05:55:02 AM CEST 2024
+The build completed at Thu May 23 05:55:42 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
