@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tacacs-plus-1.0-1.el9.src.rpm
+The lastest package built was python-tempora-5.5.1-1.el9.src.rpm
 
-The build completed at Thu May 23 04:28:54 AM CEST 2024
+The build completed at Thu May 23 04:29:37 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -225,7 +225,7 @@ python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | 
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-swagger-spec-validator-3.0.3-1.el9 | python-swagger-spec-validator-3.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-swagger-spec-validator-3.0.3-1.el9.src.rpm.log)
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-1.0-1.el9.src.rpm.log)
-python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
+python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.5.1-1.el9.src.rpm.log)
 python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](logs/python-tomli-2.0.1-1.el9.src.rpm.log)
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.5.22-1.el9 | python-trove-classifiers-2024.5.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.5.22-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 176 packages built successfully, 63 packages left to fix
+239 total packages, 177 packages built successfully, 62 packages left to fix
