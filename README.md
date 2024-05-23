@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msrestazure-0.6.4-1.el9.src.rpm
+The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
 
-The build completed at Thu May 23 04:10:49 AM CEST 2024
+The build completed at Thu May 23 04:11:27 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-msrestazure-0.6.4-1.el9.src.rpm.log)
+[Build Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
