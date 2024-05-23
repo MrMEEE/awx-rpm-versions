@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-4.2.0-1.el9.src.rpm
 
-The build completed at Thu May 23 03:26:33 AM CEST 2024
+The build completed at Thu May 23 03:27:03 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
