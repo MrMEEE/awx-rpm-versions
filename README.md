@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
+The lastest package built was python-jaraco-logging-3.3.0-1.el9.src.rpm
 
-The build completed at Thu May 23 04:57:31 AM CEST 2024
+The build completed at Thu May 23 04:58:24 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -121,7 +121,7 @@ python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rp
 python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-4.3.0-1.el9 | python-jaraco-context-4.3.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-context-4.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-functools-4.0.0-1.el9.src.rpm.log)
-python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
+python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 191 packages built successfully, 48 packages left to fix
+239 total packages, 192 packages built successfully, 47 packages left to fix
