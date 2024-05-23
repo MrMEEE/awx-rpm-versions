@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-stream-3.0.3-1.el9.src.rpm
+The lastest package built was python-jaraco-text-3.12.0-1.el9.src.rpm
 
-The build completed at Thu May 23 04:05:16 AM CEST 2024
+The build completed at Thu May 23 04:05:55 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
