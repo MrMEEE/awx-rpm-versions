@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jwcrypto-1.5.4-1.el9.src.rpm
+The lastest package built was python-keyring-24.3.1-1.el9.src.rpm
 
-The build completed at Thu May 23 02:39:41 AM CEST 2024
+The build completed at Thu May 23 02:40:18 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jwcrypto-1.5.4-1.el9.src.rpm.log)
+[Build Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
