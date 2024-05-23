@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-adal-1.2.7-1.el9.src.rpm
+The lastest package built was python-aiohttp-3.9.3-1.el9.src.rpm
 
-The build completed at Thu May 23 04:35:57 AM CEST 2024
+The build completed at Thu May 23 04:36:45 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohttp-3.9.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
