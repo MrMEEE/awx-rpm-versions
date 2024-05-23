@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-oauthlib-1.3.1-1.el9.src.rpm
+The lastest package built was python-requirements-parser-0.9.0-1.el9.src.rpm
 
-The build completed at Thu May 23 03:05:00 AM CEST 2024
+The build completed at Thu May 23 03:05:47 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-requirements-parser-0.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -199,7 +199,7 @@ python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | 
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | Built | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
-python3.11-requirements-parser-0.9.0-1.el9 | python-requirements-parser-0.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requirements-parser-0.9.0-1.el9.src.rpm.log)
+python3.11-requirements-parser-0.9.0-1.el9 | python-requirements-parser-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-requirements-parser-0.9.0-1.el9.src.rpm.log)
 python3.11-resolvelib-1.0.1-1.el9 | python-resolvelib-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-resolvelib-1.0.1-1.el9.src.rpm.log)
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-rfc3986-2.0.0-1.el9.src.rpm.log)
 python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rich-13.7.1-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 132 packages built successfully, 107 packages left to fix
+239 total packages, 133 packages built successfully, 106 packages left to fix
