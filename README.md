@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bindep-2.11.0-1.el9.src.rpm
+The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
 
-The build completed at Thu May 23 02:03:36 AM CEST 2024
+The build completed at Thu May 23 02:04:24 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
+[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
