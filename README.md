@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jinja2-3.1.3-1.el9.src.rpm
+The lastest package built was python-jose-3.3.0-1.el9.src.rpm
 
-The build completed at Thu May 23 02:37:07 AM CEST 2024
+The build completed at Thu May 23 02:37:48 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
