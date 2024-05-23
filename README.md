@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-virtualenv-20.26.2-1.el9.src.rpm
+The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
 
-The build completed at Thu May 23 03:15:57 AM CEST 2024
+The build completed at Thu May 23 03:16:56 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
+[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -244,9 +244,9 @@ python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built 
 python3.11-virtualenv-20.26.2-1.el9 | python-virtualenv-20.26.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.26.2-1.el9.src.rpm.log)
 python3.11-websocket-client-1.7.0-1.el9 | python-websocket-client-1.7.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.7.0-1.el9.src.rpm.log)
 python3.11-wheel-0.43.0-1.el9 | python-wheel-0.43.0-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.43.0-1.el9.src.rpm.log)
-python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | Built | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [Log](logs/python-yarl-1.9.4-1.el9.src.rpm.log)
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 135 packages built successfully, 104 packages left to fix
+239 total packages, 136 packages built successfully, 103 packages left to fix
