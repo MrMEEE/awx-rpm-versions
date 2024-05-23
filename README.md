@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-filelock-3.13.1-1.el9.src.rpm
+The lastest package built was python-inflect-7.0.0-1.el9.src.rpm
 
-The build completed at Thu May 23 04:55:01 AM CEST 2024
+The build completed at Thu May 23 04:55:55 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
+[Build Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -111,7 +111,7 @@ python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Buil
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
 python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | Built | [Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
-python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
+python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | Built | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 190 packages built successfully, 49 packages left to fix
+239 total packages, 191 packages built successfully, 48 packages left to fix
