@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-botocore-1.34.47-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
 
-The build completed at Thu May 23 03:31:29 AM CEST 2024
+The build completed at Thu May 23 03:32:02 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
