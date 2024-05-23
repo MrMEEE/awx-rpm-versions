@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
+The lastest package built was python-expandvars-0.12.0-1.el9.src.rpm
 
-The build completed at Thu May 23 03:53:56 AM CEST 2024
+The build completed at Thu May 23 03:54:36 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
+[Build Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -92,7 +92,7 @@ python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [L
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
-python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
+python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.19.1-1.el9 | python-fastjsonschema-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.19.1-1.el9.src.rpm.log)
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-freezegun-1.5.1-1.el9 | python-freezegun-1.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-freezegun-1.5.1-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 152 packages built successfully, 87 packages left to fix
+239 total packages, 153 packages built successfully, 86 packages left to fix
