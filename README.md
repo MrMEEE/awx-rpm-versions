@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyrad-2.4-1.el9.src.rpm
+The lastest package built was python-pytest-8.2.1-1.el9.src.rpm
 
-The build completed at Thu May 23 03:00:30 AM CEST 2024
+The build completed at Thu May 23 03:01:02 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
+[Build Log](logs/python-pytest-8.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
