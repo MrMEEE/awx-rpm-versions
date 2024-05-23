@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
+The lastest package built was python-yarl-1.9.4-1.el9.src.rpm
 
-The build completed at Thu May 23 03:16:56 AM CEST 2024
+The build completed at Thu May 23 03:17:36 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+[Build Log](logs/python-yarl-1.9.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
