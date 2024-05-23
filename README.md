@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-irc-20.3.1-1.el9.src.rpm
+The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
 
-The build completed at Thu May 23 04:56:44 AM CEST 2024
+The build completed at Thu May 23 04:57:31 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
