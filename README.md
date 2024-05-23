@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-swagger-spec-validator-3.0.3-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Thu May 23 05:48:05 AM CEST 2024
+The build completed at Thu May 23 05:48:36 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-swagger-spec-validator-3.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
