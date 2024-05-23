@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
+The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
 
-The build completed at Thu May 23 05:31:45 AM CEST 2024
+The build completed at Thu May 23 05:32:22 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
