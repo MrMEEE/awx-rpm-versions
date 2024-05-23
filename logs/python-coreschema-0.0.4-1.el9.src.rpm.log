@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  5.3 MB/s | 102 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                   21 MB/s | 137 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          322 kB/s |  40 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          297 kB/s |  40 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                                Architecture      Version                    Repository                    Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-coreschema-0.0.4-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1716422400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.2Nl9ah
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.LAlTcl
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.2Nl9ah
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vBTpVq
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KQ1RVW
 + umask 022
 + cd /builddir/build/BUILD
 + cd coreschema-0.0.4
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          339 kB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================] 123 kB/s |  40 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           61 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
@@ -272,7 +272,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1716422400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.AMpyEg
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OA5k1t
 + umask 022
 + cd /builddir/build/BUILD
 + cd coreschema-0.0.4
@@ -337,50 +337,385 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                          305 kB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           76 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(jinja2)'
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-coreschema-0.0.4-1.el9.src.rpm
-Finish: build phase for python-coreschema-0.0.4-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.4.0/SRPMS/python-coreschema-0.0.4-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 5acc629b405f40f6b7a96da2922ad476 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.aix4y6yu:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-coreschema-0.0.4-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+========================================================================================================================
+ Package                        Architecture    Version               Repository                                   Size
+========================================================================================================================
+Installing:
+ [1mpython3.11-jinja2             [m noarch          3.1.3-1.el9           _opt_awxrpmv2_rpmbuilds_2440_RPMS_          310 k
+Installing dependencies:
+ [1mpython3.11-markupsafe         [m x86_64          2.1.5-1.el9           _opt_awxrpmv2_rpmbuilds_2440_RPMS_           29 k
+
+Transaction Summary
+========================================================================================================================
+Install  2 Packages
+
+Total size: 339 k
+Installed size: 1.6 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=============================================                                              ] 1/1  Preparing        :                                                                                                1/1 
+  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [                                                   ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [=                                                  ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [====                                               ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [=============                                      ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [==============                                     ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [====================                               ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [================================                   ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [================================================   ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64 [================================================== ] 1/2  Installing       : python3.11-markupsafe-2.1.5-1.el9.x86_64                                                       1/2 
+  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [                                                       ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=                                                      ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==                                                     ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===                                                    ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [====                                                   ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [======                                                 ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=======                                                ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [========                                               ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=========                                              ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===========                                            ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [============                                           ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=============                                          ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==============                                         ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===============                                        ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=================                                      ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==================                                     ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===================                                    ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [====================                                   ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [======================                                 ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=======================                                ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [========================                               ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=========================                              ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==========================                             ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===========================                            ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [============================                           ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=============================                          ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==============================                         ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===============================                        ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [================================                       ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=================================                      ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==================================                     ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===================================                    ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [====================================                   ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=====================================                  ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [======================================                 ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=======================================                ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [========================================               ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=========================================              ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==========================================             ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [============================================           ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=============================================          ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==============================================         ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===============================================        ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [================================================       ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=================================================      ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [==================================================     ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [===================================================    ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [====================================================   ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [=====================================================  ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch [====================================================== ] 2/2  Installing       : python3.11-jinja2-3.1.3-1.el9.noarch                                                           2/2 
+  Running scriptlet: python3.11-jinja2-3.1.3-1.el9.noarch                                                           2/2 
+  Verifying        : python3.11-jinja2-3.1.3-1.el9.noarch                                                           1/2 
+  Verifying        : python3.11-markupsafe-2.1.5-1.el9.x86_64                                                       2/2 
+Installed products updated.
+
+Installed:
+  python3.11-jinja2-3.1.3-1.el9.noarch                     python3.11-markupsafe-2.1.5-1.el9.x86_64                    
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1716422400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8O3ZzH
++ umask 022
++ cd /builddir/build/BUILD
++ cd coreschema-0.0.4
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing coreschema.egg-info/PKG-INFO
+writing dependency_links to coreschema.egg-info/dependency_links.txt
+writing requirements to coreschema.egg-info/requires.txt
+writing top-level names to coreschema.egg-info/top_level.txt
+reading manifest file 'coreschema.egg-info/SOURCES.txt'
+writing manifest file 'coreschema.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing coreschema.egg-info/PKG-INFO
+writing dependency_links to coreschema.egg-info/dependency_links.txt
+writing requirements to coreschema.egg-info/requires.txt
+writing top-level names to coreschema.egg-info/top_level.txt
+reading manifest file 'coreschema.egg-info/SOURCES.txt'
+writing manifest file 'coreschema.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/coreschema-0.0.4/coreschema-0.0.4.dist-info'
+Handling jinja2 from hook generated metadata: Requires-Dist (coreschema)
+Requirement satisfied: jinja2
+   (installed: jinja2 3.1.3)
++ cat /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv coreschema-0.0.4.dist-info/
+removed 'coreschema-0.0.4.dist-info/top_level.txt'
+removed 'coreschema-0.0.4.dist-info/METADATA'
+removed directory 'coreschema-0.0.4.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-coreschema-0.0.4-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                          305 kB/s |  40 kB     00:00    
+/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           76 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
 Package python3.11-devel-3.11.7-1.el9.x86_64 is already installed.
+Package python3.11-jinja2-3.1.3-1.el9.noarch is already installed.
 Package python3.11-packaging-23.2-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(jinja2)'
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-69.0.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.43.0-1.el9.noarch is already installed.
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1716422400
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.CGzaGK
++ umask 022
++ cd /builddir/build/BUILD
++ cd coreschema-0.0.4
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ '[' -f setup.py ']'
++ echo 'python3.11dist(setuptools) >= 40.8'
++ echo 'python3.11dist(wheel)'
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 40.8 from default build backend
+Requirement satisfied: setuptools >= 40.8
+   (installed: setuptools 69.0.2)
+Handling wheel from default build backend
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running egg_info
+writing coreschema.egg-info/PKG-INFO
+writing dependency_links to coreschema.egg-info/dependency_links.txt
+writing requirements to coreschema.egg-info/requires.txt
+writing top-level names to coreschema.egg-info/top_level.txt
+reading manifest file 'coreschema.egg-info/SOURCES.txt'
+writing manifest file 'coreschema.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.43.0)
+running dist_info
+writing coreschema.egg-info/PKG-INFO
+writing dependency_links to coreschema.egg-info/dependency_links.txt
+writing requirements to coreschema.egg-info/requires.txt
+writing top-level names to coreschema.egg-info/top_level.txt
+reading manifest file 'coreschema.egg-info/SOURCES.txt'
+writing manifest file 'coreschema.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/coreschema-0.0.4/coreschema-0.0.4.dist-info'
+Handling jinja2 from hook generated metadata: Requires-Dist (coreschema)
+Requirement satisfied: jinja2
+   (installed: jinja2 3.1.3)
++ cat /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv coreschema-0.0.4.dist-info/
+removed 'coreschema-0.0.4.dist-info/top_level.txt'
+removed 'coreschema-0.0.4.dist-info/METADATA'
+removed directory 'coreschema-0.0.4.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Xdjd1z
++ umask 022
++ cd /builddir/build/BUILD
++ cd coreschema-0.0.4
++ mkdir -p /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/coreschema-0.0.4
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info
+  writing /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/SOURCES.txt'
+  writing manifest file '/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-modern-metadata-m7dil_ih/coreschema-0.0.4.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: coreschema
+  Building wheel for coreschema (pyproject.toml): started
+  Running command Building wheel for coreschema (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/coreschema
+  copying coreschema/__init__.py -> build/lib/coreschema
+  copying coreschema/compat.py -> build/lib/coreschema
+  copying coreschema/formats.py -> build/lib/coreschema
+  copying coreschema/schemas.py -> build/lib/coreschema
+  copying coreschema/utils.py -> build/lib/coreschema
+  creating build/lib/coreschema/encodings
+  copying coreschema/encodings/__init__.py -> build/lib/coreschema/encodings
+  copying coreschema/encodings/corejson.py -> build/lib/coreschema/encodings
+  copying coreschema/encodings/html.py -> build/lib/coreschema/encodings
+  copying coreschema/encodings/jsonschema.py -> build/lib/coreschema/encodings
+  creating build/lib/coreschema/templates
+  copying coreschema/templates/base.html -> build/lib/coreschema/templates
+  copying coreschema/templates/form.html -> build/lib/coreschema/templates
+  creating build/lib/coreschema/templates/bootstrap3
+  copying coreschema/templates/bootstrap3/form.html -> build/lib/coreschema/templates/bootstrap3
+  creating build/lib/coreschema/templates/bootstrap3/inputs
+  copying coreschema/templates/bootstrap3/inputs/checkbox.html -> build/lib/coreschema/templates/bootstrap3/inputs
+  copying coreschema/templates/bootstrap3/inputs/input.html -> build/lib/coreschema/templates/bootstrap3/inputs
+  copying coreschema/templates/bootstrap3/inputs/select.html -> build/lib/coreschema/templates/bootstrap3/inputs
+  copying coreschema/templates/bootstrap3/inputs/select_multiple.html -> build/lib/coreschema/templates/bootstrap3/inputs
+  copying coreschema/templates/bootstrap3/inputs/textarea.html -> build/lib/coreschema/templates/bootstrap3/inputs
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/coreschema
+  copying build/lib/coreschema/__init__.py -> build/bdist.linux-x86_64/wheel/coreschema
+  copying build/lib/coreschema/compat.py -> build/bdist.linux-x86_64/wheel/coreschema
+  copying build/lib/coreschema/formats.py -> build/bdist.linux-x86_64/wheel/coreschema
+  copying build/lib/coreschema/schemas.py -> build/bdist.linux-x86_64/wheel/coreschema
+  copying build/lib/coreschema/utils.py -> build/bdist.linux-x86_64/wheel/coreschema
+  creating build/bdist.linux-x86_64/wheel/coreschema/encodings
+  copying build/lib/coreschema/encodings/__init__.py -> build/bdist.linux-x86_64/wheel/coreschema/encodings
+  copying build/lib/coreschema/encodings/corejson.py -> build/bdist.linux-x86_64/wheel/coreschema/encodings
+  copying build/lib/coreschema/encodings/html.py -> build/bdist.linux-x86_64/wheel/coreschema/encodings
+  copying build/lib/coreschema/encodings/jsonschema.py -> build/bdist.linux-x86_64/wheel/coreschema/encodings
+  creating build/bdist.linux-x86_64/wheel/coreschema/templates
+  copying build/lib/coreschema/templates/base.html -> build/bdist.linux-x86_64/wheel/coreschema/templates
+  copying build/lib/coreschema/templates/form.html -> build/bdist.linux-x86_64/wheel/coreschema/templates
+  creating build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3
+  copying build/lib/coreschema/templates/bootstrap3/form.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3
+  creating build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  copying build/lib/coreschema/templates/bootstrap3/inputs/checkbox.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  copying build/lib/coreschema/templates/bootstrap3/inputs/input.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  copying build/lib/coreschema/templates/bootstrap3/inputs/select.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  copying build/lib/coreschema/templates/bootstrap3/inputs/select_multiple.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  copying build/lib/coreschema/templates/bootstrap3/inputs/textarea.html -> build/bdist.linux-x86_64/wheel/coreschema/templates/bootstrap3/inputs
+  running install_egg_info
+  running egg_info
+  writing coreschema.egg-info/PKG-INFO
+  writing dependency_links to coreschema.egg-info/dependency_links.txt
+  writing requirements to coreschema.egg-info/requires.txt
+  writing top-level names to coreschema.egg-info/top_level.txt
+  reading manifest file 'coreschema.egg-info/SOURCES.txt'
+  writing manifest file 'coreschema.egg-info/SOURCES.txt'
+  Copying coreschema.egg-info to build/bdist.linux-x86_64/wheel/coreschema-0.0.4-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/coreschema-0.0.4.dist-info/WHEEL
+  creating '/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11/pip-wheel-xop_ioj8/.tmp-kkxc4yuf/coreschema-0.0.4-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'coreschema/__init__.py'
+  adding 'coreschema/compat.py'
+  adding 'coreschema/formats.py'
+  adding 'coreschema/schemas.py'
+  adding 'coreschema/utils.py'
+  adding 'coreschema/encodings/__init__.py'
+  adding 'coreschema/encodings/corejson.py'
+  adding 'coreschema/encodings/html.py'
+  adding 'coreschema/encodings/jsonschema.py'
+  adding 'coreschema/templates/base.html'
+  adding 'coreschema/templates/form.html'
+  adding 'coreschema/templates/bootstrap3/form.html'
+  adding 'coreschema/templates/bootstrap3/inputs/checkbox.html'
+  adding 'coreschema/templates/bootstrap3/inputs/input.html'
+  adding 'coreschema/templates/bootstrap3/inputs/select.html'
+  adding 'coreschema/templates/bootstrap3/inputs/select_multiple.html'
+  adding 'coreschema/templates/bootstrap3/inputs/textarea.html'
+  adding 'coreschema-0.0.4.dist-info/METADATA'
+  adding 'coreschema-0.0.4.dist-info/WHEEL'
+  adding 'coreschema-0.0.4.dist-info/top_level.txt'
+  adding 'coreschema-0.0.4.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for coreschema (pyproject.toml): finished with status 'done'
+  Created wheel for coreschema: filename=coreschema-0.0.4-py3-none-any.whl size=15015 sha256=f74675a9273901ad98cbedab41786f0b47bc598c6d239e915b278280316f51bf
+  Stored in directory: /builddir/.cache/pip/wheels/f3/5e/51/731bf0558ad58c107f7e20dc69e8d8bca0105a80d8596c3c2d
+Successfully built coreschema
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.4Adsxw
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64
++ cd coreschema-0.0.4
+++ ls /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11/coreschema-0.0.4-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=coreschema==0.0.4
++ '[' -z coreschema==0.0.4 ']'
++ TMPDIR=/builddir/build/BUILD/coreschema-0.0.4/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11 coreschema==0.0.4
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/coreschema-0.0.4/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/coreschema-0.0.4-py3-none-any.whl
+Installing collected packages: coreschema
+Successfully installed coreschema-0.0.4
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/RECORD --output /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11/site-packages/coreschema-0.0.4.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-coreschema-0.0.4-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.0.4-1.el9 --unique-debug-suffix -0.0.4-1.el9.x86_64 --unique-debug-src-base python-coreschema-0.0.4-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/coreschema-0.0.4
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-coreschema-0.0.4-1.el9.noarch
+Provides: python3.11-coreschema = 0.0.4-1.el9 python3.11dist(coreschema) = 0.0.4
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(jinja2)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-coreschema-0.0.4-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-coreschema-0.0.4-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-coreschema-0.0.4-1.el9.noarch.rpm
+Finish: rpmbuild python-coreschema-0.0.4-1.el9.src.rpm
+Finish: build phase for python-coreschema-0.0.4-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-v2/rpmbuilds/24.4.0/SRPMS/python-coreschema-0.0.4-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 28 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 151 packages
+Directory walk done - 191 packages
 Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.4.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
