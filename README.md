@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-prometheus-client-0.20.0-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Thu May 23 05:07:24 AM CEST 2024
+The build completed at Thu May 23 05:07:43 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-prometheus-client-0.20.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
