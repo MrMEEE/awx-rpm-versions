@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-scikit-build-0.17.6-1.el9.src.rpm
+The lastest package built was python-service-identity-24.1.0-1.el9.src.rpm
 
-The build completed at Thu May 23 03:07:50 AM CEST 2024
+The build completed at Thu May 23 03:08:23 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
