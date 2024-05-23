@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
+The lastest package built was python-pydantic-core-2.14.1-1.el9.src.rpm
 
-The build completed at Thu May 23 02:53:55 AM CEST 2024
+The build completed at Thu May 23 02:58:31 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -178,7 +178,7 @@ python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rp
 python3.11-pycares-4.4.0-1.el9 | python-pycares-4.4.0-1.el9.src.rpm | Built | [Log](logs/python-pycares-4.4.0-1.el9.src.rpm.log)
 python3.11-pycparser-2.21-1.el9 | python-pycparser-2.21-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.21-1.el9.src.rpm.log)
 python3.11-pydantic-2.5.0-1.el9 | python-pydantic-2.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
-python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
+python3.11-pydantic-core-2.14.1-1.el9 | python-pydantic-core-2.14.1-1.el9.src.rpm | Built | [Log](logs/python-pydantic-core-2.14.1-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pygments-2.18.0-1.el9 | python-pygments-2.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pygments-2.18.0-1.el9.src.rpm.log)
 python3.11-pyhamcrest-2.1.0-1.el9 | python-pyhamcrest-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 128 packages built successfully, 111 packages left to fix
+239 total packages, 129 packages built successfully, 110 packages left to fix
