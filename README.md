@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
+The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
 
-The build completed at Thu May 23 05:51:53 AM CEST 2024
+The build completed at Thu May 23 05:52:56 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -87,7 +87,7 @@ python3.11-django-solo-2.2.0-1.el9 | python-django-solo-2.2.0-1.el9.src.rpm | Bu
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | Built | [Log](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
-python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
+python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | Built | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-239 total packages, 228 packages built successfully, 11 packages left to fix
+239 total packages, 229 packages built successfully, 10 packages left to fix
