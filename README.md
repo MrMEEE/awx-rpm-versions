@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-channels-3.0.5-1.el9.src.rpm
+The lastest package built was python-channels-redis-3.4.1-1.el9.src.rpm
 
-The build completed at Thu May 23 04:47:38 AM CEST 2024
+The build completed at Thu May 23 04:48:10 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-channels-3.0.5-1.el9.src.rpm.log)
+[Build Log](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.4.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
