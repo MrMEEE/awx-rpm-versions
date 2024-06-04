@@ -45,7 +45,11 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/chardetect $RPM_BUILD_ROOT/usr/bin/chardetect%{python3_pkgversion}
+%endif
 %pyproject_save_files '*' +auto
+sed -i "s|/usr/bin/chardetect|/usr/bin/chardetect%{python3_pkgversion}|g" %{pyproject_files}
 
 
 %check

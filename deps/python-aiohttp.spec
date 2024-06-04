@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/aiohttp
 Source:         %{pypi_source aiohttp}
 
-
+BuildArch:      x86_64
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x speedups
+%pyproject_buildrequires
 
 
 %build
