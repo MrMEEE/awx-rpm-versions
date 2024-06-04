@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.4.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-24.4.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -33,6 +33,7 @@ Source32: receptor-worker.conf-%{version}
 Source40: awx-rpm-logo.svg-%{version}
 Source8: awx-rpm-nginx.conf-%{version}
 Patch0: awx-patch.patch-%{version}
+Patch1: awx-rpm-extract-strings.patch-%{version}
 License: GPLv3
 Group: AWX
 URL: https://awx.wiki
@@ -721,7 +722,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Fri May 24 2024 12:35:18 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.4.0
+* Tue Jun 04 2024 02:12:28 PM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.4.0
 - New version build: 24.4.0
 - (HEAD, tag: 24.4.0) Fix up ansible-test sanity checks due to ansible 2.17 release (#15208)
 - Update a few dev requirements (#15203)
