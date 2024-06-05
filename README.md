@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-radius-1.5.1-1.el9.src.rpm
+The lastest package built was python-djangorestframework-3.15.1-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:36:50 AM CEST 2024
+The build completed at Wed Jun  5 02:37:19 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-radius-1.5.1-1.el9.src.rpm.log)
+[Build Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -80,7 +80,7 @@ python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-
 python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-django-pglocks-1.0.4-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 python3.11-django-radius-1.5.1-1.el9 | python-django-radius-1.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-radius-1.5.1-1.el9.src.rpm.log)
-python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-1.el9.src.rpm | **Missing** |
+python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | **Missing** |
 python3.11-django-solo-2.2.0-1.el9 | python-django-solo-2.2.0-1.el9.src.rpm | **Missing** |
