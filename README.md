@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-gitpython-3.1.42-1.el9.src.rpm
+The lastest package built was python-googleapis-common-protos-1.63.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:16:18 AM CEST 2024
+The build completed at Wed Jun  5 05:16:50 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
+[Build Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
