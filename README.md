@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
+The lastest package built was python-jaraco-context-4.3.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:22:44 AM CEST 2024
+The build completed at Wed Jun  5 05:23:13 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-context-4.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
