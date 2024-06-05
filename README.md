@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ldap-3.4.4-1.el9.src.rpm
+The lastest package built was python-lockfile-0.12.2-1.el9.src.rpm
 
-The build completed at Wed Jun  5 03:11:12 AM CEST 2024
+The build completed at Wed Jun  5 03:11:47 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
+[Build Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -137,7 +137,7 @@ python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | **Missin
 python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
 python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-29.0.0-1.el9.src.rpm.log)
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
-python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** |
+python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | **Missing** |
 python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
