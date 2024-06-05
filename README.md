@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
+The lastest package built was python-jsonschema-specifications-2023.12.1-1.el9.src.rpm
 
-The build completed at Wed Jun  5 07:43:55 AM CEST 2024
+The build completed at Wed Jun  5 07:44:29 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
