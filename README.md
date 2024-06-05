@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-deprecated-1.2.14-1.el9.src.rpm
+The lastest package built was python-googleapis-common-protos-1.63.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 08:56:46 AM CEST 2024
+The build completed at Wed Jun  5 08:57:20 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-deprecated-1.2.14-1.el9.src.rpm.log)
+[Build Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
