@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-grpcio-1.62.2-1.el9.src.rpm
+The lastest package built was python-h2-4.1.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:18:10 AM CEST 2024
+The build completed at Wed Jun  5 05:18:46 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-grpcio-1.62.2-1.el9.src.rpm.log)
+[Build Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -102,7 +102,7 @@ python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | 
 python3.11-googleapis-common-protos-1.63.0-1.el9 | python-googleapis-common-protos-1.63.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-grpcio-1.62.2-1.el9 | python-grpcio-1.62.2-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.62.2-1.el9.src.rpm.log)
-python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
+python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.24.2-1.el9 | python-hatchling-1.24.2-1.el9.src.rpm | **Missing** | [Log](logs/python-hatchling-1.24.2-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** | [L
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 117 packages built successfully, 137 packages left to fix
+254 total packages, 118 packages built successfully, 136 packages left to fix
