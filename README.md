@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-core-4.4.2-1.el9.src.rpm
+The lastest package built was python-swagger-spec-validator-3.0.3-1.el9.src.rpm
 
-The build completed at Wed Jun  5 07:11:59 AM CEST 2024
+The build completed at Wed Jun  5 07:12:30 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-swagger-spec-validator-3.0.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
