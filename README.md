@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.0-1.el9.src.rpm
+The lastest package built was python-scikit-build-0.17.6-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:58:00 AM CEST 2024
+The build completed at Wed Jun  5 05:58:30 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
