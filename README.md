@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-blinker-1.8.2-1.el9.src.rpm
+The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:12:19 AM CEST 2024
+The build completed at Wed Jun  5 02:12:55 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-blinker-1.8.2-1.el9.src.rpm.log)
+[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -41,7 +41,7 @@ python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | Built | [Log
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-bcrypt-4.1.3-1.el9.src.rpm.log)
 python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-bindep-2.11.0-1.el9.src.rpm.log)
 python3.11-blinker-1.8.2-1.el9 | python-blinker-1.8.2-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.8.2-1.el9.src.rpm.log)
-python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing** |
+python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | **Missing** |
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** |
