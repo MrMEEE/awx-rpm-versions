@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
+The lastest package built was python-django-polymorphic-3.1.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:09:15 AM CEST 2024
+The build completed at Wed Jun  5 05:09:46 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
