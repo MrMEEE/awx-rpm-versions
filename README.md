@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-classes-3.4.0-1.el9.src.rpm
+The lastest package built was python-jaraco-collections-5.0.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:59:47 AM CEST 2024
+The build completed at Wed Jun  5 03:00:26 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -120,7 +120,7 @@ python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | **Missing** | [L
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
 python3.11-itypes-1.2.0-1.el9 | python-itypes-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-itypes-1.2.0-1.el9.src.rpm.log)
 python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
-python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-4.3.0-1.el9 | python-jaraco-context-4.3.0-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** |
