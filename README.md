@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-sqlparse-0.4.4-1.el9.src.rpm
+The lastest package built was python-string-utils-1.0.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 04:20:05 AM CEST 2024
+The build completed at Wed Jun  5 04:20:42 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
+[Build Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -236,7 +236,7 @@ python3.11-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | Built | [Log](
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.0-1.el9.src.rpm.log)
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-core-4.4.2-1.el9.src.rpm.log)
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.4.4-1.el9.src.rpm.log)
-python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | **Missing** |
+python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-swagger-spec-validator-3.0.3-1.el9 | python-swagger-spec-validator-3.0.3-1.el9.src.rpm | **Missing** |
 python3.11-tacacs-plus-1.0-1.el9 | python-tacacs-plus-1.0-1.el9.src.rpm | **Missing** |
 python3.11-tempora-5.5.1-1.el9 | python-tempora-5.5.1-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 89 packages built successfully, 165 packages left to fix
+254 total packages, 90 packages built successfully, 164 packages left to fix
