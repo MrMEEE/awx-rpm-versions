@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-core-1.30.0-1.el9.src.rpm
+The lastest package built was python-azure-identity-1.15.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:05:52 AM CEST 2024
+The build completed at Wed Jun  5 02:06:31 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-core-1.30.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -32,7 +32,7 @@ python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Miss
 python3.11-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.16.9-1.el9.src.rpm.log)
 python3.11-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | Built | [Log](logs/python-azure-common-1.1.28-1.el9.src.rpm.log)
 python3.11-azure-core-1.30.0-1.el9 | python-azure-core-1.30.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-core-1.30.0-1.el9.src.rpm.log)
-python3.11-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | **Missing** |
+python3.11-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-identity-1.15.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** |
 python3.11-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm | **Missing** |
 python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | **Missing** |
