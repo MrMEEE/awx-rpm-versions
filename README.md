@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-5.1.0-1.el9.src.rpm
+The lastest package built was python-twisted-23.10.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 06:05:07 AM CEST 2024
+The build completed at Wed Jun  5 06:05:23 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twine-5.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
