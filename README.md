@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jmespath-1.0.1-1.el9.src.rpm
+The lastest package built was python-jose-3.3.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 03:05:37 AM CEST 2024
+The build completed at Wed Jun  5 03:06:19 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -129,7 +129,7 @@ python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | 
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.3-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
-python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** |
+python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 python3.11-json-log-formatter-0.5.2-1.el9 | python-json-log-formatter-0.5.2-1.el9.src.rpm | **Missing** |
 python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** |
 python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifications-2023.12.1-1.el9.src.rpm | **Missing** |
