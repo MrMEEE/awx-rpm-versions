@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyproject-hooks-1.1.0-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Wed Jun  5 03:58:25 AM CEST 2024
+The build completed at Wed Jun  5 03:58:41 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -199,7 +199,7 @@ python3.11-pyjwt-2.8.0-1.el9 | python-pyjwt-2.8.0-1.el9.src.rpm | Built | [Log](
 python3.11-pyopenssl-24.0.0-1.el9 | python-pyopenssl-24.0.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.0.0-1.el9.src.rpm.log)
 python3.11-pyparsing-3.1.2-1.el9 | python-pyparsing-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-3.1.2-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.1.0-1.el9 | python-pyproject-hooks-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.1.0-1.el9.src.rpm.log)
-python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
+python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3.11-pytest-8.2.2-1.el9 | python-pytest-8.2.2-1.el9.src.rpm | **Missing** |
 python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | **Missing** |
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | **Missing** |
