@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-build-1.2.1-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:15:22 AM CEST 2024
+The build completed at Wed Jun  5 02:15:55 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -45,7 +45,7 @@ python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | **Missing*
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
-python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** |
+python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | **Missing** |
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | **Missing** |
 python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | **Missing** |
