@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-extensions-3.2.3-1.el9.src.rpm
+The lastest package built was python-django-guid-3.2.1-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:08:15 AM CEST 2024
+The build completed at Wed Jun  5 05:08:42 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
+[Build Log](logs/python-django-guid-3.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
