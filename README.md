@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-text-3.12.0-1.el9.src.rpm
+The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 03:03:42 AM CEST 2024
+The build completed at Wed Jun  5 03:04:22 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -126,7 +126,7 @@ python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.sr
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-stream-3.0.3-1.el9.src.rpm.log)
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
-python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
+python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | **Missing** |
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | **Missing** |
 python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 39 packages built successfully, 215 packages left to fix
+254 total packages, 40 packages built successfully, 214 packages left to fix
