@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rapidfuzz-3.9.3-1.el9.src.rpm
+The lastest package built was python-referencing-0.33.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 07:55:33 AM CEST 2024
+The build completed at Wed Jun  5 07:56:11 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
+[Build Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -209,7 +209,7 @@ python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built 
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 python3.11-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
 python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.0.1-1.el9.src.rpm.log)
-python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
+python3.11-referencing-0.33.0-1.el9 | python-referencing-0.33.0-1.el9.src.rpm | Built | [Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
 python3.11-requests-2.31.0-1.el9 | python-requests-2.31.0-1.el9.src.rpm | Built | [Log](logs/python-requests-2.31.0-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-1.3.1-1.el9 | python-requests-oauthlib-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-1.3.1-1.el9.src.rpm.log)
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 204 packages built successfully, 50 packages left to fix
+254 total packages, 205 packages built successfully, 49 packages left to fix
