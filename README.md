@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-dateutil-2.9.0^post0-1.el9.src.rpm
+The lastest package built was python-deprecated-1.2.14-1.el9.src.rpm
 
-The build completed at Wed Jun  5 05:03:58 AM CEST 2024
+The build completed at Wed Jun  5 05:04:32 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
+[Build Log](logs/python-deprecated-1.2.14-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
