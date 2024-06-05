@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pbr-6.0.0-1.el9.src.rpm
+The lastest package built was python-pexpect-4.9.0-1.el9.src.rpm
 
-The build completed at Wed Jun  5 03:37:16 AM CEST 2024
+The build completed at Wed Jun  5 03:37:43 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -172,7 +172,7 @@ python3.11-packaging-23.2-1.el9 | python-packaging-23.2-1.el9.src.rpm | Built | 
 python3.11-parsley-1.3-1.el9 | python-parsley-1.3-1.el9.src.rpm | Built | [Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
-python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | **Missing** |
+python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** |
 python3.11-pkginfo-1.11.0-1.el9 | python-pkginfo-1.11.0-1.el9.src.rpm | **Missing** |
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** |
