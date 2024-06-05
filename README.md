@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
+The lastest package built was python-dsv-sdk-1.0.4-1.el9.src.rpm
 
-The build completed at Wed Jun  5 02:41:26 AM CEST 2024
+The build completed at Wed Jun  5 02:42:05 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
+[Build Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -88,7 +88,7 @@ python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.
 python3.11-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | Built | [Log](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
 python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
-python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | **Missing** |
+python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | **Missing** |
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** |
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 24 packages built successfully, 230 packages left to fix
+254 total packages, 25 packages built successfully, 229 packages left to fix
