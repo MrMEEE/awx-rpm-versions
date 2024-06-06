@@ -1,14 +1,17 @@
 ## Latest build
-The lastest package built was python-pyzstd-0.16.0-1.el9.src.rpm
+The lastest package built was awx-rpm-24.5.0-1.el9.src.rpm
 
-The build completed at Fri Jun  7 01:00:22 AM CEST 2024
+The build completed at Fri Jun  7 01:44:21 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-24.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
+awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
+awx-rpm-24.5.0-1.el9 | awx-rpm-24.5.0-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.5.0-1.el9.src.rpm.log)
+awx-rpm-manage-1.2.0-1.el9 | awx-rpm-manage-1.2.0-1.el9.src.rpm | **Missing** |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -101,7 +104,6 @@ python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | Built | [Log
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.63.0-1.el9 | python-googleapis-common-protos-1.63.0-1.el9.src.rpm | Built | [Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | Built | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
-python3.11-grpcio-1.62.2-1.el9 | python-grpcio-1.62.2-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.62.2-1.el9.src.rpm.log)
 python3.11-grpcio-1.64.1-1.el9 | python-grpcio-1.64.1-1.el9.src.rpm | Built | [Log](logs/python-grpcio-1.64.1-1.el9.src.rpm.log)
 python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
@@ -265,4 +267,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-255 total packages, 254 packages built successfully, 1 packages left to fix
+257 total packages, 256 packages built successfully, 1 packages left to fix
