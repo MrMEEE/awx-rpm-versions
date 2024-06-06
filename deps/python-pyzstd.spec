@@ -13,6 +13,7 @@ URL:            https://github.com/Rogdham/pyzstd
 Source:         %{pypi_source pyzstd}
 
 
+BuildRequires: python3.11-setuptools
 BuildRequires: python3.11-pip
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
