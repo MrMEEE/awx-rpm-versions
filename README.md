@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-pyzstd-0.16.0-1.el9.src.rpm
 
-The build completed at Fri Jun  7 12:58:33 AM CEST 2024
+The build completed at Fri Jun  7 01:00:22 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
@@ -205,7 +205,7 @@ python3.11-pytest-8.2.2-1.el9 | python-pytest-8.2.2-1.el9.src.rpm | Built | [Log
 python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
-python3.11-pyzstd-0.16.0-1.el9 | python-pyzstd-0.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
+python3.11-pyzstd-0.16.0-1.el9 | python-pyzstd-0.16.0-1.el9.src.rpm | Built | [Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
 python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
 python3.11-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
@@ -265,4 +265,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-255 total packages, 253 packages built successfully, 2 packages left to fix
+255 total packages, 254 packages built successfully, 1 packages left to fix
