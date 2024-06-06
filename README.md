@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-exporter-otlp-1.24.0-1.el9.src.rpm
+The lastest package built was python-pyzstd-0.15.10-1.el9.src.rpm
 
-The build completed at Fri Jun  7 12:43:15 AM CEST 2024
+The build completed at Fri Jun  7 12:46:35 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-exporter-otlp-1.24.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyzstd-0.15.10-1.el9.src.rpm.log)
 ## Package build status for version: 24.5.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

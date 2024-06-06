@@ -33,8 +33,8 @@ Summary:        %{summary}
 %autosetup -p1 -n pyzstd-%{version}
 
 
-%generate_buildrequires
-%pyproject_buildrequires
+#%generate_buildrequires
+#%pyproject_buildrequires
 
 
 %build
