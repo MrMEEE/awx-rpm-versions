@@ -13,6 +13,7 @@ URL:            https://grpc.io
 Source:         %{pypi_source grpcio}
 
 
+BuildRequires: gcc-c++
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
