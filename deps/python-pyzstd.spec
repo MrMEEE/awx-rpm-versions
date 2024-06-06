@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pyzstd
-Version:        0.15.10
+Version:        0.16.0
 Release:        %autorelease
 Summary:        Python bindings to Zstandard (zstd) compression library.
 
