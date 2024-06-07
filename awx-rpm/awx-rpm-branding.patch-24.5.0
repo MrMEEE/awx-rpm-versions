@@ -1,0 +1,21 @@
+diff -uNr awx/awx/ui/public/static/media/default.strings.json awx-branding/awx/ui/public/static/media/default.strings.json
+--- awx/awx/ui/public/static/media/default.strings.json	2024-06-07 02:21:40.143846767 +0200
++++ awx-branding/awx/ui/public/static/media/default.strings.json	2024-06-07 02:22:25.063823994 +0200
+@@ -1,4 +1,4 @@
+ {
+-    "BRAND_NAME": "Ansible AWX",
++    "BRAND_NAME": "AWX-RPM",
+     "PENDO_API_KEY": ""
+ }
+diff -uNr awx/awx/ui_next/Makefile awx-branding/awx/ui_next/Makefile
+--- awx/awx/ui_next/Makefile	2024-06-07 02:20:28.223079968 +0200
++++ awx-branding/awx/ui_next/Makefile	2024-06-07 02:22:52.217623707 +0200
+@@ -10,7 +10,7 @@
+ UI_NEXT_GIT_BRANCH ?= main
+ 
+ ## Product name to display on the UI used in UI_NEXT build process
+-PRODUCT ?= AWX
++PRODUCT ?= AWX-RPM
+ 
+ .PHONY: ui-next
+ ## Default build target of ui-next Makefile, builds ui-next/build

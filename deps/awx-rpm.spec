@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.5.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-24.5.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -34,6 +34,7 @@ Source40: awx-rpm-logo.svg-%{version}
 Source8: awx-rpm-nginx.conf-%{version}
 Patch0: awx-patch.patch-%{version}
 Patch1: awx-rpm-extract-strings.patch-%{version}
+Patch2: awx-rpm-branding.patch-%{version}
 License: GPLv3
 Group: AWX
 URL: https://awx.wiki
@@ -623,6 +624,7 @@ git checkout -f devel
 git checkout -f %{version}
 %patch0 -p0
 %patch1 -p0
+%patch2 -p0
 
 %build
 
@@ -753,7 +755,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Fri Jun 07 2024 01:07:28 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.5.0
+* Fri Jun 07 2024 02:25:03 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.5.0
 - New version build: 24.5.0
 - (HEAD, tag: 24.5.0) fix cve 2024-24680 (#15250)
 - Repin cython due to https://github.com/yaml/pyyaml/pull/702 (#15248)
