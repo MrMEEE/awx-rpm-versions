@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
+The lastest package built was python-click-8.1.7-1.el9.src.rpm
 
-The build completed at Sat Jun 22 05:15:36 AM CEST 2024
+The build completed at Sat Jun 22 05:16:07 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -54,7 +54,7 @@ python3.11-channels-redis-3.4.1-1.el9 | python-channels-redis-3.4.1-1.el9.src.rp
 python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.3.2-1.el9 | python-charset-normalizer-3.3.2-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.3.2-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
-python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | **Missing** |
+python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.7-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** |
 python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing** |
 python3.11-coreschema-0.0.4-1.el9 | python-coreschema-0.0.4-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 14 packages built successfully, 240 packages left to fix
+254 total packages, 15 packages built successfully, 239 packages left to fix
