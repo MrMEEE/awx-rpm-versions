@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-functools-4.0.0-1.el9.src.rpm
+The lastest package built was python-jaraco-logging-3.3.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 06:04:51 AM CEST 2024
+The build completed at Sat Jun 22 06:05:17 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-functools-4.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -123,7 +123,7 @@ python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rp
 python3.11-jaraco-collections-5.0.0-1.el9 | python-jaraco-collections-5.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-collections-5.0.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-4.3.0-1.el9 | python-jaraco-context-4.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-context-4.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-functools-4.0.0-1.el9 | python-jaraco-functools-4.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-functools-4.0.0-1.el9.src.rpm.log)
-python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.3-1.el9 | python-jaraco-stream-3.0.3-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-text-3.12.0-1.el9 | python-jaraco-text-3.12.0-1.el9.src.rpm | **Missing** |
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
