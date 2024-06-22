@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zipp-3.17.0-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 08:37:32 AM CEST 2024
+The build completed at Sat Jun 22 08:37:59 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
