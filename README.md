@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-aiohttp-3.9.5-1.el9.src.rpm
+The lastest package built was python-aiohttp-retry-2.8.3-1.el9.src.rpm
 
-The build completed at Sat Jun 22 09:41:28 AM CEST 2024
+The build completed at Sat Jun 22 09:41:58 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-aiohttp-3.9.5-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
