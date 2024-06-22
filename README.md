@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 10:20:40 AM CEST 2024
+The build completed at Sat Jun 22 10:21:19 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -45,7 +45,7 @@ python3.11-boto3-1.34.47-1.el9 | python-boto3-1.34.47-1.el9.src.rpm | Built | [L
 python3.11-botocore-1.34.47-1.el9 | python-botocore-1.34.47-1.el9.src.rpm | Built | [Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
 python3.11-build-1.2.1-1.el9 | python-build-1.2.1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.1-1.el9.src.rpm.log)
-python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
+python3.11-cachecontrol-0.14.0-1.el9 | python-cachecontrol-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-cachecontrol-0.14.0-1.el9.src.rpm.log)
 python3.11-cachetools-5.3.2-1.el9 | python-cachetools-5.3.2-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.3.2-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-cffi-1.16.0-1.el9 | python-cffi-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.16.0-1.el9.src.rpm.log)
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 226 packages built successfully, 28 packages left to fix
+254 total packages, 227 packages built successfully, 27 packages left to fix
