@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-constantly-23.10.4-1.el9.src.rpm
+The lastest package built was python-coreapi-2.3.3-1.el9.src.rpm
 
-The build completed at Sat Jun 22 07:38:04 AM CEST 2024
+The build completed at Sat Jun 22 07:38:31 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
