@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-automat-22.10.0-1.el9.src.rpm
+The lastest package built was python-azure-core-1.30.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 08:43:02 AM CEST 2024
+The build completed at Sat Jun 22 08:43:34 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-core-1.30.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
