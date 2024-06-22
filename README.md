@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-text-3.12.0-1.el9.src.rpm
+The lastest package built was python-jose-3.3.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 09:12:35 AM CEST 2024
+The build completed at Sat Jun 22 09:13:05 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-text-3.12.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
