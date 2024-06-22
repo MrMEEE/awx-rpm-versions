@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-more-itertools-10.2.0-1.el9.src.rpm
+The lastest package built was python-msal-1.26.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 06:18:56 AM CEST 2024
+The build completed at Sat Jun 22 06:19:22 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msal-1.26.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -144,7 +144,7 @@ python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | Buil
 python3.11-maturin-1.6.0-1.el9 | python-maturin-1.6.0-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.6.0-1.el9.src.rpm.log)
 python3.11-mdurl-0.1.2-1.el9 | python-mdurl-0.1.2-1.el9.src.rpm | Built | [Log](logs/python-mdurl-0.1.2-1.el9.src.rpm.log)
 python3.11-more-itertools-10.2.0-1.el9 | python-more-itertools-10.2.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.2.0-1.el9.src.rpm.log)
-python3.11-msal-1.26.0-1.el9 | python-msal-1.26.0-1.el9.src.rpm | **Missing** |
+python3.11-msal-1.26.0-1.el9 | python-msal-1.26.0-1.el9.src.rpm | **Missing** | [Log](logs/python-msal-1.26.0-1.el9.src.rpm.log)
 python3.11-msal-extensions-1.1.0-1.el9 | python-msal-extensions-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-msgpack-1.0.5-1.el9 | python-msgpack-1.0.5-1.el9.src.rpm | **Missing** |
 python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** |
