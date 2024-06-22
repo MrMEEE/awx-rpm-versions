@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autocommand-2.2.2-1.el9.src.rpm
+The lastest package built was python-automat-22.10.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 04:59:37 AM CEST 2024
+The build completed at Sat Jun 22 05:00:06 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,7 +28,7 @@ python3.11-async-timeout-4.0.3-1.el9 | python-async-timeout-4.0.3-1.el9.src.rpm 
 python3.11-attrs-23.2.0-1.el9 | python-attrs-23.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-23.2.0-1.el9.src.rpm.log)
 python3.11-autobahn-23.6.2-1.el9 | python-autobahn-23.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-23.6.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
-python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** |
+python3.11-automat-22.10.0-1.el9 | python-automat-22.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-22.10.0-1.el9.src.rpm.log)
 python3.11-awscrt-0.16.9-1.el9 | python-awscrt-0.16.9-1.el9.src.rpm | **Missing** |
 python3.11-azure-common-1.1.28-1.el9 | python-azure-common-1.1.28-1.el9.src.rpm | **Missing** |
 python3.11-azure-core-1.30.0-1.el9 | python-azure-core-1.30.0-1.el9.src.rpm | **Missing** |
