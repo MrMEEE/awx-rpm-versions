@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-googleapis-common-protos-1.63.0-1.el9.src.rpm
+The lastest package built was python-google-auth-2.28.1-1.el9.src.rpm
 
-The build completed at Sat Jun 22 05:41:03 AM CEST 2024
+The build completed at Sat Jun 22 05:41:29 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
+[Build Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -100,7 +100,7 @@ python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | **Mi
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | **Missing** | [Log](logs/python-gitdb-4.0.11-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.42-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.63.0-1.el9 | python-googleapis-common-protos-1.63.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.63.0-1.el9.src.rpm.log)
-python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | **Missing** |
+python3.11-google-auth-2.28.1-1.el9 | python-google-auth-2.28.1-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.28.1-1.el9.src.rpm.log)
 python3.11-grpcio-1.64.1-1.el9 | python-grpcio-1.64.1-1.el9.src.rpm | **Missing** |
 python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | **Missing** |
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** |
