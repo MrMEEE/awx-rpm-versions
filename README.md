@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyhamcrest-2.1.0-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Sat Jun 22 09:26:16 AM CEST 2024
+The build completed at Sat Jun 22 09:26:31 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
