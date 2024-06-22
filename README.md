@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-coreschema-0.0.4-1.el9.src.rpm
+The lastest package built was python-crashtest-0.4.1-1.el9.src.rpm
 
-The build completed at Sat Jun 22 05:17:25 AM CEST 2024
+The build completed at Sat Jun 22 05:17:51 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-coreschema-0.0.4-1.el9.src.rpm.log)
+[Build Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -58,7 +58,7 @@ python3.11-click-8.1.7-1.el9 | python-click-8.1.7-1.el9.src.rpm | Built | [Log](
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-coreapi-2.3.3-1.el9 | python-coreapi-2.3.3-1.el9.src.rpm | **Missing** | [Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 python3.11-coreschema-0.0.4-1.el9 | python-coreschema-0.0.4-1.el9.src.rpm | **Missing** | [Log](logs/python-coreschema-0.0.4-1.el9.src.rpm.log)
-python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** |
+python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** |
 python3.11-cython-0.29.37-1.el9 | python-cython-0.29.37-1.el9.src.rpm | **Missing** |
 python3.11-daemon-3.0.1-1.el9 | python-daemon-3.0.1-1.el9.src.rpm | **Missing** |
