@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-exporter-otlp-proto-common-1.24.0-1.el9.src.rpm
+The lastest package built was python-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 06:27:52 AM CEST 2024
+The build completed at Sat Jun 22 06:28:19 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-exporter-otlp-proto-common-1.24.0-1.el9.src.rpm.log)
+[Build Log](logs/python-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -161,7 +161,7 @@ python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Mi
 python3.11-opentelemetry-api-1.24.0-1.el9 | python-opentelemetry-api-1.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-api-1.24.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-1.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-exporter-otlp-1.24.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-proto-common-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-proto-common-1.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-exporter-otlp-proto-common-1.24.0-1.el9.src.rpm.log)
-python3.11-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9.src.rpm | **Missing** |
+python3.11-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-exporter-otlp-proto-grpc-1.24.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-proto-http-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-proto-http-1.24.0-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-instrumentation-0.45~b0-1.el9 | python-opentelemetry-instrumentation-0.45~b0-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-instrumentation-logging-0.45~b0-1.el9 | python-opentelemetry-instrumentation-logging-0.45~b0-1.el9.src.rpm | **Missing** |
