@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-docutils-0.20.1-1.el9.src.rpm
+The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
 
-The build completed at Sat Jun 22 05:34:03 AM CEST 2024
+The build completed at Sat Jun 22 05:34:32 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -87,7 +87,7 @@ python3.11-django-solo-2.2.0-1.el9 | python-django-solo-2.2.0-1.el9.src.rpm | **
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-dm-xmlsec-binding-2.2-1.el9 | python-dm-xmlsec-binding-2.2-1.el9.src.rpm | Built | [Log](logs/python-dm-xmlsec-binding-2.2-1.el9.src.rpm.log)
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.20.1-1.el9.src.rpm.log)
-python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** |
+python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** | [Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | **Missing** |
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | **Missing** |
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | **Missing** |
