@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-cors-headers-4.3.1-1.el9.src.rpm
+The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
 
-The build completed at Sat Jun 22 07:43:27 AM CEST 2024
+The build completed at Sat Jun 22 07:43:52 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-cors-headers-4.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
