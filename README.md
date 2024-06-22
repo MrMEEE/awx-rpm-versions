@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pygments-2.18.0-1.el9.src.rpm
+The lastest package built was python-pyhamcrest-2.1.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 08:22:51 AM CEST 2024
+The build completed at Sat Jun 22 08:23:19 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pygments-2.18.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyhamcrest-2.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
