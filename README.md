@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
+The lastest package built was python-botocore-1.34.47-1.el9.src.rpm
 
-The build completed at Sat Jun 22 08:47:46 AM CEST 2024
+The build completed at Sat Jun 22 08:48:18 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
+[Build Log](logs/python-botocore-1.34.47-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
