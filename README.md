@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-djangorestframework-3.15.1-1.el9.src.rpm
+The lastest package built was python-django-rest-swagger-2.2.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 07:47:06 AM CEST 2024
+The build completed at Sat Jun 22 07:47:32 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-djangorestframework-3.15.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
