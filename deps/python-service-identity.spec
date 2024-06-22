@@ -14,7 +14,7 @@ Source:         %{pypi_source service_identity}
 
 BuildArch:      noarch
 
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel python%{python3_pkgversion}-pyasn1 python%{python3_pkgversion}-pyasn1-modules
 
 
 # Fill in the actual package description to submit package to Fedora
@@ -30,7 +30,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-service-identity dev,docs,idna,mypy,tests
 
 
 %prep
@@ -39,7 +38,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x dev,docs,idna,mypy,tests
+%pyproject_buildrequires
 
 
 %build

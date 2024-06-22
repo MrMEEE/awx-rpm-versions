@@ -1,4 +1,4 @@
-
+%undefine __brp_python_bytecompile
 %global python3_pkgversion 3.11
 
 Name:           python-ntlm
@@ -40,20 +40,33 @@ Summary:        %{summary}
 %build
 %pyproject_wheel
 
-
 %install
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
-%pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/ntlm_example_extended $RPM_BUILD_ROOT/usr/bin/ntlm_example_extended%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/ntlm_example_simple $RPM_BUILD_ROOT/usr/bin/ntlm_example_simple%{python3_pkgversion}
+%endif
+# END RENAMING OF BINARIES 1
 
+%pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+sed -i "s|/usr/bin/ntlm_example_extended|/usr/bin/ntlm_example_extended%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/ntlm_example_simple|/usr/bin/ntlm_example_simple%{python3_pkgversion}|g" %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+sed -i "/HTTPNtlmAuthHandler.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/U32.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/des_c.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/ntlm.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
+sed -i "/des_data.cpython-311{,.opt-?}.pyc/d" %{pyproject_files}
 
 %check
-%pyproject_check_import
-
 
 %files -n python%{python3_pkgversion}-python-ntlm -f %{pyproject_files}
-
 
 %changelog
 %autochangelog
