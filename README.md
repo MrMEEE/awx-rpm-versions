@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hpack-4.0.0-1.el9.src.rpm
+The lastest package built was python-hyperframe-6.0.1-1.el9.src.rpm
 
-The build completed at Sat Jun 22 05:57:22 AM CEST 2024
+The build completed at Sat Jun 22 05:57:52 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-hpack-4.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -108,7 +108,7 @@ python3.11-hatchling-1.24.2-1.el9 | python-hatchling-1.24.2-1.el9.src.rpm | **Mi
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-2.0.0-1.el9.src.rpm.log)
 python3.11-hpack-4.0.0-1.el9 | python-hpack-4.0.0-1.el9.src.rpm | Built | [Log](logs/python-hpack-4.0.0-1.el9.src.rpm.log)
-python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | **Missing** |
+python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | **Missing** |
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | **Missing** |
 python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 32 packages built successfully, 222 packages left to fix
+254 total packages, 33 packages built successfully, 221 packages left to fix
