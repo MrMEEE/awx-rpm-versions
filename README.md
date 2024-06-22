@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-h2-4.1.0-1.el9.src.rpm
+The lastest package built was python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 07:53:49 AM CEST 2024
+The build completed at Sat Jun 22 07:54:15 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
