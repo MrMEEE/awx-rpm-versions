@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-4.2.0-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm
 
-The build completed at Sat Jun 22 08:44:32 AM CEST 2024
+The build completed at Sat Jun 22 08:45:01 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
