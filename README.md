@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-aioredis-1.3.1-1.el9.src.rpm
+The lastest package built was python-aiosignal-1.3.1-1.el9.src.rpm
 
-The build completed at Sat Jun 22 07:25:15 AM CEST 2024
+The build completed at Sat Jun 22 07:25:44 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-aioredis-1.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-aiosignal-1.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
