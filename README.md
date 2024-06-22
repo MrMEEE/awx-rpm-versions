@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyzstd-0.16.0-1.el9.src.rpm
+The lastest package built was python-rapidfuzz-3.9.3-1.el9.src.rpm
 
-The build completed at Sat Jun 22 06:51:20 AM CEST 2024
+The build completed at Sat Jun 22 06:51:57 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -205,7 +205,7 @@ python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm 
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
 python3.11-pyzstd-0.16.0-1.el9 | python-pyzstd-0.16.0-1.el9.src.rpm | Built | [Log](logs/python-pyzstd-0.16.0-1.el9.src.rpm.log)
-python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Missing** |
+python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | **Missing** |
 python3.11-receptorctl-1.4.4-1.el9 | python-receptorctl-1.4.4-1.el9.src.rpm | **Missing** |
 python3.11-redis-5.0.1-1.el9 | python-redis-5.0.1-1.el9.src.rpm | **Missing** |
