@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.6.0
-Release: 1%{dist}
+Release: 2%{dist}
 Source0: awx-24.6.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -105,9 +105,9 @@ BuildRequires: python3.11-deprecated = 1.2.14
 BuildRequires: python3.11-distlib = 0.3.8
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.10
-BuildRequires: python3.11-django-ansible-base = 20240423
-BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240423
-BuildRequires: python3.11-django-ansible-base+rest_filters = 20240423
+BuildRequires: python3.11-django-ansible-base = 20240611
+BuildRequires: python3.11-django-ansible-base+jwt_consumer = 20240611
+BuildRequires: python3.11-django-ansible-base+rest_filters = 20240611
 BuildRequires: python3.11-django-auth-ldap = 4.8.0
 BuildRequires: python3.11-django+bcrypt = 4.2.10
 BuildRequires: python3.11-django-cors-headers = 4.3.1
@@ -390,9 +390,9 @@ Requires: python3.11-deprecated = 1.2.14
 Requires: python3.11-distlib = 0.3.8
 Requires: python3.11-distro = 1.9.0
 Requires: python3.11-django = 4.2.10
-Requires: python3.11-django-ansible-base = 20240423
-Requires: python3.11-django-ansible-base+jwt_consumer = 20240423
-Requires: python3.11-django-ansible-base+rest_filters = 20240423
+Requires: python3.11-django-ansible-base = 20240611
+Requires: python3.11-django-ansible-base+jwt_consumer = 20240611
+Requires: python3.11-django-ansible-base+rest_filters = 20240611
 Requires: python3.11-django-auth-ldap = 4.8.0
 Requires: python3.11-django+bcrypt = 4.2.10
 Requires: python3.11-django-cors-headers = 4.3.1
@@ -755,7 +755,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Sun Jun 23 2024 02:12:38 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.6.0
+* Sun Jun 23 2024 02:29:42 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.6.0
 - New version build: 24.6.0
 - (HEAD, tag: 24.6.0) Fix object-level permission bugs with DAB RBAC system (#15284)
 - Check for admin_role in role_check.py (#15283)
