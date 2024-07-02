@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-20240611-1.el9.src.rpm
+The lastest package built was python-django-auth-ldap-4.8.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:25:38 AM CEST 2024
+The build completed at Wed Jul  3 01:26:09 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-20240611-1.el9.src.rpm.log)
+[Build Log](logs/python-django-auth-ldap-4.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -70,7 +70,7 @@ python3.11-distlib-0.3.8-1.el9 | python-distlib-0.3.8-1.el9.src.rpm | Built | [L
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.10-1.el9 | python-django-4.2.10-1.el9.src.rpm | **Missing** | [Log](logs/python-django-4.2.10-1.el9.src.rpm.log)
 python3.11-django-ansible-base-20240611-1.el9 | python-django-ansible-base-20240611-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-20240611-1.el9.src.rpm.log)
-python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.src.rpm | **Missing** |
+python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-auth-ldap-4.8.0-1.el9.src.rpm.log)
 python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | **Missing** |
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** |
 python3.11-django-debug-toolbar-4.4.2-1.el9 | python-django-debug-toolbar-4.4.2-1.el9.src.rpm | **Missing** |
