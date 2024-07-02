@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.25.0-1.el9.src.rpm
+The lastest package built was python-hatch-vcs-0.4.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:59:26 AM CEST 2024
+The build completed at Wed Jul  3 01:59:55 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatchling-1.25.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -105,7 +105,7 @@ python3.11-grpcio-1.64.1-1.el9 | python-grpcio-1.64.1-1.el9.src.rpm | Built | [L
 python3.11-h2-4.1.0-1.el9 | python-h2-4.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-h2-4.1.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.25.0-1.el9 | python-hatchling-1.25.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatchling-1.25.0-1.el9.src.rpm.log)
-python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
+python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-hiredis-2.0.0-1.el9 | python-hiredis-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-hpack-4.0.0-1.el9 | python-hpack-4.0.0-1.el9.src.rpm | **Missing** |
 python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | **Missing** |
