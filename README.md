@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-keys-4.8.0-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:03:30 AM CEST 2024
+The build completed at Wed Jul  3 01:04:02 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -36,7 +36,7 @@ python3.11-azure-identity-1.15.0-1.el9 | python-azure-identity-1.15.0-1.el9.src.
 python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-certificates-4.7.0-1.el9 | python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-certificates-4.7.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-keys-4.8.0-1.el9 | python-azure-keyvault-keys-4.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-keys-4.8.0-1.el9.src.rpm.log)
-python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | **Missing** |
+python3.11-azure-keyvault-secrets-4.7.0-1.el9 | python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
 python3.11-babel-2.15.0-1.el9 | python-babel-2.15.0-1.el9.src.rpm | **Missing** |
 python3.11-bcrypt-4.1.3-1.el9 | python-bcrypt-4.1.3-1.el9.src.rpm | **Missing** |
 python3.11-bindep-2.11.0-1.el9 | python-bindep-2.11.0-1.el9.src.rpm | **Missing** |
