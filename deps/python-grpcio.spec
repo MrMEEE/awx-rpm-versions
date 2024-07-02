@@ -13,6 +13,7 @@ URL:            https://grpc.io
 Source:         %{pypi_source grpcio}
 
 
+BuildRequires: gcc-c++
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
@@ -30,7 +31,6 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-grpcio protobuf
 
 
 %prep
@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x protobuf
+%pyproject_buildrequires
 
 
 %build
