@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-solo-2.2.0-1.el9.src.rpm
+The lastest package built was python-django-split-settings-1.0.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:33:30 AM CEST 2024
+The build completed at Wed Jul  3 01:33:59 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-solo-2.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -84,7 +84,7 @@ python3.11-djangorestframework-3.15.1-1.el9 | python-djangorestframework-3.15.1-
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-rest-swagger-2.2.0-1.el9 | python-django-rest-swagger-2.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.2.0-1.el9 | python-django-solo-2.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-solo-2.2.0-1.el9.src.rpm.log)
-python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** |
+python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-dm-xmlsec-binding-3.0-1.el9 | python-dm-xmlsec-binding-3.0-1.el9.src.rpm | **Missing** |
 python3.11-docutils-0.20.1-1.el9 | python-docutils-0.20.1-1.el9.src.rpm | **Missing** |
 python3.11-drf-yasg-1.21.7-1.el9 | python-drf-yasg-1.21.7-1.el9.src.rpm | **Missing** |
