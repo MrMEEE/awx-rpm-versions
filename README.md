@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-enum-compat-0.0.3-1.el9.src.rpm
+The lastest package built was python-expandvars-0.12.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:38:48 AM CEST 2024
+The build completed at Wed Jul  3 01:39:16 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -92,7 +92,7 @@ python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [L
 python3.11-dulwich-0.21.7-1.el9 | python-dulwich-0.21.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.21.7-1.el9.src.rpm.log)
 python3.11-ecdsa-0.18.0-1.el9 | python-ecdsa-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.18.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
-python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** |
+python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | **Missing** |
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** |
 python3.11-freezegun-1.5.1-1.el9 | python-freezegun-1.5.1-1.el9.src.rpm | **Missing** |
