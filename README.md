@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-debug-toolbar-4.4.2-1.el9.src.rpm
+The lastest package built was python-django-extensions-3.2.3-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:27:48 AM CEST 2024
+The build completed at Wed Jul  3 01:28:18 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-debug-toolbar-4.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -74,7 +74,7 @@ python3.11-django-auth-ldap-4.8.0-1.el9 | python-django-auth-ldap-4.8.0-1.el9.sr
 python3.11-django-cors-headers-4.3.1-1.el9 | python-django-cors-headers-4.3.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-cors-headers-4.3.1-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3.11-django-debug-toolbar-4.4.2-1.el9 | python-django-debug-toolbar-4.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-debug-toolbar-4.4.2-1.el9.src.rpm.log)
-python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** |
+python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 python3.11-django-guid-3.2.1-1.el9 | python-django-guid-3.2.1-1.el9.src.rpm | **Missing** |
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** |
 python3.11-django-pglocks-1.0.4-1.el9 | python-django-pglocks-1.0.4-1.el9.src.rpm | **Missing** |
