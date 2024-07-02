@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-freezegun-1.5.1-1.el9.src.rpm
+The lastest package built was python-frozenlist-1.4.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 01:40:52 AM CEST 2024
+The build completed at Wed Jul  3 01:41:28 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-freezegun-1.5.1-1.el9.src.rpm.log)
+[Build Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -96,7 +96,7 @@ python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **
 python3.11-fastjsonschema-2.20.0-1.el9 | python-fastjsonschema-2.20.0-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.20.0-1.el9.src.rpm.log)
 python3.11-filelock-3.13.1-1.el9 | python-filelock-3.13.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.13.1-1.el9.src.rpm.log)
 python3.11-freezegun-1.5.1-1.el9 | python-freezegun-1.5.1-1.el9.src.rpm | **Missing** | [Log](logs/python-freezegun-1.5.1-1.el9.src.rpm.log)
-python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | **Missing** |
+python3.11-frozenlist-1.4.1-1.el9 | python-frozenlist-1.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.4.1-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.11-1.el9 | python-gitdb-4.0.11-1.el9.src.rpm | **Missing** |
 python3.11-gitpython3.11-3.1.42-1.el9 | python-gitpython-3.1.42-1.el9.src.rpm | **Missing** |
 python3.11-googleapis-common-protos-1.63.0-1.el9 | python-googleapis-common-protos-1.63.0-1.el9.src.rpm | **Missing** |
