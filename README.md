@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-idna-3.6-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-6.2.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 02:03:26 AM CEST 2024
+The build completed at Wed Jul  3 02:04:00 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-idna-3.6-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -111,7 +111,7 @@ python3.11-hpack-4.0.0-1.el9 | python-hpack-4.0.0-1.el9.src.rpm | Built | [Log](
 python3.11-hyperframe-6.0.1-1.el9 | python-hyperframe-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.0.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.6-1.el9 | python-idna-3.6-1.el9.src.rpm | Built | [Log](logs/python-idna-3.6-1.el9.src.rpm.log)
-python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | **Missing** |
+python3.11-importlib-metadata-6.2.1-1.el9 | python-importlib-metadata-6.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-metadata-6.2.1-1.el9.src.rpm.log)
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | **Missing** |
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | **Missing** |
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
