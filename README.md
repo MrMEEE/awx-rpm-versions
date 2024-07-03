@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm
+The lastest package built was python-boto3-1.34.47-1.el9.src.rpm
 
-The build completed at Wed Jul  3 06:20:15 AM CEST 2024
+The build completed at Wed Jul  3 06:20:48 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-secrets-4.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-boto3-1.34.47-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
