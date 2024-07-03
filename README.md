@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
+The lastest package built was python-coreapi-2.3.3-1.el9.src.rpm
 
-The build completed at Wed Jul  3 05:18:31 AM CEST 2024
+The build completed at Wed Jul  3 05:18:58 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-coreapi-2.3.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
