@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-plugin-export-1.8.0-1.el9.src.rpm
+The lastest package built was python-portalocker-2.8.2-1.el9.src.rpm
 
-The build completed at Wed Jul  3 02:47:14 AM CEST 2024
+The build completed at Wed Jul  3 02:47:43 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -180,7 +180,7 @@ python3.11-pluggy-1.5.0-1.el9 | python-pluggy-1.5.0-1.el9.src.rpm | **Missing** 
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-poetry-plugin-export-1.8.0-1.el9 | python-poetry-plugin-export-1.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
-python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** |
+python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.8.2-1.el9.src.rpm.log)
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | **Missing** |
 python3.11-prometheus-client-0.20.0-1.el9 | python-prometheus-client-0.20.0-1.el9.src.rpm | **Missing** |
 python3.11-protobuf-4.25.3-1.el9 | python-protobuf-4.25.3-1.el9.src.rpm | **Missing** |
