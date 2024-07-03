@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
+The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
 
-The build completed at Wed Jul  3 05:47:17 AM CEST 2024
+The build completed at Wed Jul  3 05:47:44 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
