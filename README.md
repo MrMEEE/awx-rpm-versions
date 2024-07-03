@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-markdown-3.5.2-1.el9.src.rpm
+The lastest package built was python-markdown-it-py-3.0.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 02:20:19 AM CEST 2024
+The build completed at Wed Jul  3 02:20:51 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-markdown-3.5.2-1.el9.src.rpm.log)
+[Build Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -139,7 +139,7 @@ python3.11-kubernetes-29.0.0-1.el9 | python-kubernetes-29.0.0-1.el9.src.rpm | **
 python3.11-ldap-3.4.4-1.el9 | python-ldap-3.4.4-1.el9.src.rpm | Built | [Log](logs/python-ldap-3.4.4-1.el9.src.rpm.log)
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.5.2-1.el9 | python-markdown-3.5.2-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.5.2-1.el9.src.rpm.log)
-python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** |
+python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
 python3.11-markupsafe-2.1.5-1.el9 | python-markupsafe-2.1.5-1.el9.src.rpm | **Missing** |
 python3.11-maturin-1.6.0-1.el9 | python-maturin-1.6.0-1.el9.src.rpm | **Missing** |
 python3.11-mdurl-0.1.2-1.el9 | python-mdurl-0.1.2-1.el9.src.rpm | **Missing** |
