@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.0-1.el9.src.rpm
+The lastest package built was python-scikit-build-0.18.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 03:16:17 AM CEST 2024
+The build completed at Wed Jul  3 03:17:42 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-scikit-build-0.18.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -220,7 +220,7 @@ python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | **Missing** | 
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
-python3.11-scikit-build-0.18.0-1.el9 | python-scikit-build-0.18.0-1.el9.src.rpm | **Missing** |
+python3.11-scikit-build-0.18.0-1.el9 | python-scikit-build-0.18.0-1.el9.src.rpm | **Missing** | [Log](logs/python-scikit-build-0.18.0-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | **Missing** |
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** |
 python3.11-service-identity-24.1.0-1.el9 | python-service-identity-24.1.0-1.el9.src.rpm | **Missing** |
