@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-readme-renderer-43.0-1.el9.src.rpm
+The lastest package built was python-receptorctl-1.4.4-1.el9.src.rpm
 
-The build completed at Wed Jul  3 04:52:01 AM CEST 2024
+The build completed at Wed Jul  3 04:52:41 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-readme-renderer-43.0-1.el9.src.rpm.log)
+[Build Log](logs/python-receptorctl-1.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
