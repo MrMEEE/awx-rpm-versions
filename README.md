@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pluggy-1.5.0-1.el9.src.rpm
+The lastest package built was python-poetry-1.8.3-1.el9.src.rpm
 
-The build completed at Wed Jul  3 02:45:34 AM CEST 2024
+The build completed at Wed Jul  3 02:46:04 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pluggy-1.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -177,7 +177,7 @@ python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Miss
 python3.11-pkginfo-1.11.1-1.el9 | python-pkginfo-1.11.1-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.11.1-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 python3.11-pluggy-1.5.0-1.el9 | python-pluggy-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pluggy-1.5.0-1.el9.src.rpm.log)
-python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** |
+python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
 python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | **Missing** |
 python3.11-poetry-plugin-export-1.8.0-1.el9 | python-poetry-plugin-export-1.8.0-1.el9.src.rpm | **Missing** |
 python3.11-portalocker-2.8.2-1.el9 | python-portalocker-2.8.2-1.el9.src.rpm | **Missing** |
