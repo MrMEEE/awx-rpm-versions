@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rpds-py-0.18.0-1.el9.src.rpm
+The lastest package built was python-rsa-4.9-1.el9.src.rpm
 
-The build completed at Wed Jul  3 03:14:10 AM CEST 2024
+The build completed at Wed Jul  3 03:15:13 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -218,7 +218,7 @@ python3.11-resolvelib-1.0.1-1.el9 | python-resolvelib-1.0.1-1.el9.src.rpm | Buil
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-rfc3986-2.0.0-1.el9.src.rpm.log)
 python3.11-rich-13.7.1-1.el9 | python-rich-13.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-rich-13.7.1-1.el9.src.rpm.log)
 python3.11-rpds-py-0.18.0-1.el9 | python-rpds-py-0.18.0-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.18.0-1.el9.src.rpm.log)
-python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** |
+python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.0-1.el9 | python-s3transfer-0.10.0-1.el9.src.rpm | **Missing** |
 python3.11-scikit-build-0.18.0-1.el9 | python-scikit-build-0.18.0-1.el9.src.rpm | **Missing** |
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 82 packages built successfully, 172 packages left to fix
+254 total packages, 83 packages built successfully, 171 packages left to fix
