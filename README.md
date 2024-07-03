@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-irc-20.3.1-1.el9.src.rpm
+The lastest package built was python-jsonschema-4.21.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 07:16:11 AM CEST 2024
+The build completed at Wed Jul  3 07:16:52 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -131,7 +131,7 @@ python3.11-jinja2-3.1.3-1.el9 | python-jinja2-3.1.3-1.el9.src.rpm | Built | [Log
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-jose-3.3.0-1.el9 | python-jose-3.3.0-1.el9.src.rpm | Built | [Log](logs/python-jose-3.3.0-1.el9.src.rpm.log)
 python3.11-json-log-formatter-0.5.2-1.el9 | python-json-log-formatter-0.5.2-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-0.5.2-1.el9.src.rpm.log)
-python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
+python3.11-jsonschema-4.21.1-1.el9 | python-jsonschema-4.21.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-4.21.1-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2023.12.1-1.el9 | python-jsonschema-specifications-2023.12.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-specifications-2023.12.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.4-1.el9 | python-jwcrypto-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.4-1.el9.src.rpm.log)
 python3.11-keyring-24.3.1-1.el9 | python-keyring-24.3.1-1.el9.src.rpm | Built | [Log](logs/python-keyring-24.3.1-1.el9.src.rpm.log)
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 235 packages built successfully, 19 packages left to fix
+254 total packages, 236 packages built successfully, 18 packages left to fix
