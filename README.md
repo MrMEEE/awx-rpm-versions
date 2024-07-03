@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-slack-sdk-3.27.0-1.el9.src.rpm
+The lastest package built was python-smmap-5.0.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 03:23:46 AM CEST 2024
+The build completed at Wed Jul  3 03:24:17 AM CEST 2024
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-slack-sdk-3.27.0-1.el9.src.rpm.log)
+[Build Log](logs/python-smmap-5.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -232,7 +232,7 @@ python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Bu
 python3.11-simplejson-3.19.2-1.el9 | python-simplejson-3.19.2-1.el9.src.rpm | Built | [Log](logs/python-simplejson-3.19.2-1.el9.src.rpm.log)
 python3.11-six-1.16.0-1.el9 | python-six-1.16.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.16.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.27.0-1.el9 | python-slack-sdk-3.27.0-1.el9.src.rpm | **Missing** | [Log](logs/python-slack-sdk-3.27.0-1.el9.src.rpm.log)
-python3.11-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | **Missing** |
+python3.11-smmap-5.0.1-1.el9 | python-smmap-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.1-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.0-1.el9 | python-social-auth-app-django-5.4.0-1.el9.src.rpm | **Missing** |
 python3.11-social-auth-core-4.4.2-1.el9 | python-social-auth-core-4.4.2-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.4.4-1.el9 | python-sqlparse-0.4.4-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 89 packages built successfully, 165 packages left to fix
+254 total packages, 90 packages built successfully, 164 packages left to fix
