@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-referencing-0.33.0-1.el9.src.rpm
+The lastest package built was python-s3transfer-0.10.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 06:00:46 AM CEST 2024
+The build completed at Wed Jul  3 06:01:21 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-referencing-0.33.0-1.el9.src.rpm.log)
+[Build Log](logs/python-s3transfer-0.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
