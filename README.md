@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
+The lastest package built was python-openapi-codec-1.3.2-1.el9.src.rpm
 
-The build completed at Wed Jul  3 02:34:44 AM CEST 2024
+The build completed at Wed Jul  3 02:35:16 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -156,7 +156,7 @@ python3.11-netaddr-0.8.0-1.el9 | python-netaddr-0.8.0-1.el9.src.rpm | Built | [L
 python3.11-nh3-0.2.17-1.el9 | python-nh3-0.2.17-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.17-1.el9.src.rpm.log)
 python3.11-ntlm-1.1.0-1.el9 | python-ntlm-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-ntlm-1.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
-python3.11-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | **Missing** |
+python3.11-openapi-codec-1.3.2-1.el9 | python-openapi-codec-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openapi-codec-1.3.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-api-1.24.0-1.el9 | python-opentelemetry-api-1.24.0-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-exporter-otlp-1.24.0-1.el9 | python-opentelemetry-exporter-otlp-1.24.0-1.el9.src.rpm | **Missing** |
