@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twilio-8.13.0-1.el9.src.rpm
+The lastest package built was python-twine-5.1.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 06:46:51 AM CEST 2024
+The build completed at Wed Jul  3 06:47:23 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
