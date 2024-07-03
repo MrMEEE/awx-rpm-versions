@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-plugin-export-1.8.0-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Wed Jul  3 07:06:34 AM CEST 2024
+The build completed at Wed Jul  3 07:06:49 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-plugin-export-1.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
