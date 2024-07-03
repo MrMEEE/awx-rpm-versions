@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-channels-redis-3.4.1-1.el9.src.rpm
+The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 06:57:08 AM CEST 2024
+The build completed at Wed Jul  3 06:57:38 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-channels-redis-3.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
