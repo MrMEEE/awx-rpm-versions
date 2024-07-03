@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pytest-runner-6.0.1-1.el9.src.rpm
+The lastest package built was python-rapidfuzz-3.9.3-1.el9.src.rpm
 
-The build completed at Wed Jul  3 05:58:41 AM CEST 2024
+The build completed at Wed Jul  3 05:59:16 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
