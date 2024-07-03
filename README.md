@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-psycopg-3.1.18-1.el9.src.rpm
+The lastest package built was python-pydantic-2.5.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 04:43:41 AM CEST 2024
+The build completed at Wed Jul  3 04:44:12 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-psycopg-3.1.18-1.el9.src.rpm.log)
+[Build Log](logs/python-pydantic-2.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
