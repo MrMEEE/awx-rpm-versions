@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pytz-2024.1-1.el9.src.rpm
+The lastest package built was python-pyyaml-6.0.1-1.el9.src.rpm
 
-The build completed at Wed Jul  3 03:01:08 AM CEST 2024
+The build completed at Wed Jul  3 03:01:52 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -203,7 +203,7 @@ python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** | [Log
 python3.11-pytest-8.2.2-1.el9 | python-pytest-8.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-pytest-8.2.2-1.el9.src.rpm.log)
 python3.11-pytest-runner-6.0.1-1.el9 | python-pytest-runner-6.0.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pytest-runner-6.0.1-1.el9.src.rpm.log)
 python3.11-pytz-2024.1-1.el9 | python-pytz-2024.1-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.1-1.el9.src.rpm.log)
-python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | **Missing** |
+python3.11-pyyaml-6.0.1-1.el9 | python-pyyaml-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.1-1.el9.src.rpm.log)
 python3.11-pyzstd-0.16.0-1.el9 | python-pyzstd-0.16.0-1.el9.src.rpm | **Missing** |
 python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | **Missing** |
 python3.11-readme-renderer-43.0-1.el9 | python-readme-renderer-43.0-1.el9.src.rpm | **Missing** |
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | **Missing** |
 
-254 total packages, 74 packages built successfully, 180 packages left to fix
+254 total packages, 75 packages built successfully, 179 packages left to fix
