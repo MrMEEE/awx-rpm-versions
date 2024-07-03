@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-rest-swagger-2.2.0-1.el9.src.rpm
+The lastest package built was python-django-solo-2.2.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 04:08:08 AM CEST 2024
+The build completed at Wed Jul  3 04:08:37 AM CEST 2024
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-rest-swagger-2.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-django-solo-2.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
