@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-proto-1.24.0-1.el9.src.rpm
+The lastest package built was python-opentelemetry-sdk-1.24.0-1.el9.src.rpm
 
-The build completed at Wed Jul  3 04:37:12 AM CEST 2024
+The build completed at Wed Jul  3 04:37:44 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-proto-1.24.0-1.el9.src.rpm.log)
+[Build Log](logs/python-opentelemetry-sdk-1.24.0-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
