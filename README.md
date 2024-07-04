@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-importlib-resources-6.4.0-1.el9.src.rpm
+The lastest package built was python-drf-yasg-1.21.7-1.el9.src.rpm
 
-The build completed at Thu Jul  4 12:00:43 PM CEST 2024
+The build completed at Thu Jul  4 12:01:23 PM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-importlib-resources-6.4.0-1.el9.src.rpm.log)
+[Build Log](logs/python-drf-yasg-1.21.7-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
