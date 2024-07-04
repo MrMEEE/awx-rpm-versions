@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pkginfo
-Version:        1.11.1
+Version:        1.10.0
 Release:        %autorelease
 Summary:        Query metadata from sdists / bdists / installed packages.
 
