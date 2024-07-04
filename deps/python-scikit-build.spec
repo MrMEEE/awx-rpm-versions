@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-scikit-build
-Version:        0.18.0
+Version:        0.17.6
 Release:        %autorelease
 Summary:        Improved build system generator for Python C/C++/Fortran/Cython extensions
 
@@ -30,6 +30,7 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-scikit-build cov,docs,doctest,test
 
 
 %prep
@@ -38,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires
+%pyproject_buildrequires -x cov,docs,doctest,test
 
 
 %build
