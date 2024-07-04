@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkginfo-1.10.0-1.el9.src.rpm
+The lastest package built was python-twine-5.1.1-1.el9.src.rpm
 
-The build completed at Thu Jul  4 11:36:49 AM CEST 2024
+The build completed at Thu Jul  4 11:37:44 AM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -244,7 +244,7 @@ python3.11-tomli-2.0.1-1.el9 | python-tomli-2.0.1-1.el9.src.rpm | Built | [Log](
 python3.11-tomlkit-0.12.5-1.el9 | python-tomlkit-0.12.5-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.12.5-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2024.7.2-1.el9 | python-trove-classifiers-2024.7.2-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2024.7.2-1.el9.src.rpm.log)
 python3.11-twilio-8.13.0-1.el9 | python-twilio-8.13.0-1.el9.src.rpm | Built | [Log](logs/python-twilio-8.13.0-1.el9.src.rpm.log)
-python3.11-twine-5.1.1-1.el9 | python-twine-5.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
+python3.11-twine-5.1.1-1.el9 | python-twine-5.1.1-1.el9.src.rpm | Built | [Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
 python3.11-twisted-23.10.0-1.el9 | python-twisted-23.10.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-23.10.0-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 python3.11-types-psutil-6.0.0.20240621-1.el9 | python-types-psutil-6.0.0.20240621-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-6.0.0.20240621-1.el9.src.rpm.log)
@@ -264,4 +264,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-254 total packages, 237 packages built successfully, 17 packages left to fix
+254 total packages, 238 packages built successfully, 16 packages left to fix
