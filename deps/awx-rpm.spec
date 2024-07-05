@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 24.6.1
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-24.6.1.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -219,7 +219,7 @@ BuildRequires: python3.11-pathspec = 0.12.1
 BuildRequires: python3.11-pbr = 6.0.0
 BuildRequires: python3.11-pexpect = 4.9.0
 BuildRequires: python3.11-pkgconfig = 1.5.5
-BuildRequires: python3.11-pkginfo = 1.10.0
+BuildRequires: python3.11-pkginfo = 1.11.0
 BuildRequires: python3.11-platformdirs = 3.11.0
 BuildRequires: python3.11-pluggy = 1.5.0
 BuildRequires: python3.11-portalocker = 2.8.2
@@ -505,7 +505,7 @@ Requires: python3.11-pathspec = 0.12.1
 Requires: python3.11-pbr = 6.0.0
 Requires: python3.11-pexpect = 4.9.0
 Requires: python3.11-pkgconfig = 1.5.5
-Requires: python3.11-pkginfo = 1.10.0
+Requires: python3.11-pkginfo = 1.11.0
 Requires: python3.11-platformdirs = 3.11.0
 Requires: python3.11-pluggy = 1.5.0
 Requires: python3.11-portalocker = 2.8.2
@@ -757,7 +757,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Fri Jul 05 2024 01:19:23 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.6.1
+* Fri Jul 05 2024 02:29:01 AM CEST +0200 Martin Juhl <m@rtinjuhl.dk> 24.6.1
 - New version build: 24.6.1
 - (HEAD, tag: 24.6.1) Prevent assigning credential to user of other org (#15296)
 - Add in missing read permissions for organization audit role (#15318)
