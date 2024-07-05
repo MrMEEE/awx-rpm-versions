@@ -1,0 +1,45 @@
+diff -uNr twine-5.1.1-old/PKG-INFO twine-5.1.1/PKG-INFO
+--- twine-5.1.1-old/PKG-INFO	2024-06-26 16:57:42.289044900 +0200
++++ twine-5.1.1/PKG-INFO	2024-07-05 02:14:20.284414489 +0200
+@@ -36,7 +36,7 @@
+ Requires-Dist: keyring>=15.1
+ Requires-Dist: rfc3986>=1.4.0
+ Requires-Dist: rich>=12.0.0
+-Requires-Dist: pkginfo<1.11
++Requires-Dist: pkginfo=<1.11
+ 
+ .. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg
+    :target: https://pypi.org/project/twine
+diff -uNr twine-5.1.1-old/pyproject.toml twine-5.1.1/pyproject.toml
+--- twine-5.1.1-old/pyproject.toml	2024-06-26 16:57:38.000000000 +0200
++++ twine-5.1.1/pyproject.toml	2024-07-05 02:13:04.094370864 +0200
+@@ -41,7 +41,7 @@
+ 	"rich >= 12.0.0",
+ 
+ 	# workaround for #1116
+-	"pkginfo < 1.11",
++	"pkginfo =< 1.11",
+ ]
+ dynamic = ["version"]
+ 
+diff -uNr twine-5.1.1-old/twine.egg-info/PKG-INFO twine-5.1.1/twine.egg-info/PKG-INFO
+--- twine-5.1.1-old/twine.egg-info/PKG-INFO	2024-06-26 16:57:42.000000000 +0200
++++ twine-5.1.1/twine.egg-info/PKG-INFO	2024-07-05 02:14:41.612826385 +0200
+@@ -36,7 +36,7 @@
+ Requires-Dist: keyring>=15.1
+ Requires-Dist: rfc3986>=1.4.0
+ Requires-Dist: rich>=12.0.0
+-Requires-Dist: pkginfo<1.11
++Requires-Dist: pkginfo=<1.11
+ 
+ .. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg
+    :target: https://pypi.org/project/twine
+diff -uNr twine-5.1.1-old/twine.egg-info/requires.txt twine-5.1.1/twine.egg-info/requires.txt
+--- twine-5.1.1-old/twine.egg-info/requires.txt	2024-06-26 16:57:42.000000000 +0200
++++ twine-5.1.1/twine.egg-info/requires.txt	2024-07-05 02:14:52.746563419 +0200
+@@ -7,4 +7,4 @@
+ keyring>=15.1
+ rfc3986>=1.4.0
+ rich>=12.0.0
+-pkginfo<1.11
++pkginfo=<1.11

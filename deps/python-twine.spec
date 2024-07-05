@@ -15,7 +15,7 @@ Source:         %{pypi_source twine}
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-
+Patch: twine-pkginfo-versionfix.patch
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
