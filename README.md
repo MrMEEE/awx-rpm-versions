@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-5.1.1-1.el9.src.rpm
+The lastest package built was awx-rpm-24.6.1-4.el9.src.rpm
 
-The build completed at Fri Jul  5 12:55:42 PM CEST 2024
+The build completed at Fri Jul  5 01:36:13 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-24.6.1-4.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -13,6 +13,7 @@ awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
 awx-rpm-24.6.1-1.el9 | awx-rpm-24.6.1-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-1.el9.src.rpm.log)
 awx-rpm-24.6.1-2.el9 | awx-rpm-24.6.1-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
 awx-rpm-24.6.1-3.el9 | awx-rpm-24.6.1-3.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-3.el9.src.rpm.log)
+awx-rpm-24.6.1-4.el9 | awx-rpm-24.6.1-4.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-4.el9.src.rpm.log)
 awx-rpm-manage-1.2.0-4.el9 | awx-rpm-manage-1.2.0-4.el9.src.rpm | Built |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
@@ -271,4 +272,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-261 total packages, 261 packages built successfully, 0 packages left to fix
+262 total packages, 262 packages built successfully, 0 packages left to fix
