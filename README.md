@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-certifi-2024.7.4-1.el9.src.rpm
+The lastest package built was python-twine-5.1.1-1.el9.src.rpm
 
-The build completed at Fri Jul  5 12:53:38 PM CEST 2024
+The build completed at Fri Jul  5 12:55:42 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/python-certifi-2024.7.4-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
