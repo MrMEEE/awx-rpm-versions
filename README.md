@@ -1,17 +1,18 @@
 ## Latest build
-The lastest package built was awx-rpm-24.6.1-2.el9.src.rpm
+The lastest package built was python-twine-5.1.1-1.el9.src.rpm
 
-The build completed at Fri Jul  5 01:49:00 AM CEST 2024
+The build completed at Fri Jul  5 02:07:58 AM CEST 2024
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
+[Build Log](logs/python-twine-5.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
 awx-rpm-24.6.1-1.el9 | awx-rpm-24.6.1-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-1.el9.src.rpm.log)
 awx-rpm-24.6.1-2.el9 | awx-rpm-24.6.1-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
+awx-rpm-manage-1.2.0-4.el9 | awx-rpm-manage-1.2.0-4.el9.src.rpm | Built |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -178,7 +179,6 @@ python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built 
 python3.11-pbr-6.0.0-1.el9 | python-pbr-6.0.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.0.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.9.0-1.el9 | python-pexpect-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
-python3.11-pkginfo-1.10.0-1.el9 | python-pkginfo-1.10.0-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.10.0-1.el9.src.rpm.log)
 python3.11-platformdirs-3.11.0-1.el9 | python-platformdirs-3.11.0-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-3.11.0-1.el9.src.rpm.log)
 python3.11-pluggy-1.5.0-1.el9 | python-pluggy-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-pluggy-1.5.0-1.el9.src.rpm.log)
 python3.11-poetry-1.8.3-1.el9 | python-poetry-1.8.3-1.el9.src.rpm | Built | [Log](logs/python-poetry-1.8.3-1.el9.src.rpm.log)
