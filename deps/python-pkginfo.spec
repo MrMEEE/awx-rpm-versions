@@ -49,7 +49,17 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+%endif
+# END RENAMING OF BINARIES 2
+
 
 
 %check

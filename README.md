@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-24.6.1-4.el9.src.rpm
+The lastest package built was python-pkginfo-1.11.1-1.el9.src.rpm
 
-The build completed at Fri Jul  5 01:36:13 PM CEST 2024
+The build completed at Thu Oct 17 11:07:30 PM CEST 2024
 
 The build was successful.
 
-[Build Log](logs/awx-rpm-24.6.1-4.el9.src.rpm.log)
+[Build Log](logs/python-pkginfo-1.11.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
