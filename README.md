@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autocommand-2.2.2-1.el9.src.rpm
+The lastest package built was python-automat-24.8.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:01:27 AM CET 2025
+The build completed at Mon Feb 17 12:01:53 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -21,7 +21,7 @@ python3-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | **Missing** | [Log]
 python3-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
 python3-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
-python3-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | **Missing** |
+python3-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 python3-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | **Missing** |
 python3-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm | **Missing** |
 python3-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** |
