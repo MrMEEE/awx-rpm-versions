@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-channels-redis-4.2.1-1.el9.src.rpm
+The lastest package built was python-charset-normalizer-3.4.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:08:29 AM CET 2025
+The build completed at Mon Feb 17 12:09:00 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -35,7 +35,7 @@ python3-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | **Missi
 python3-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 python3-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-4.2.0-1.el9.src.rpm.log)
 python3-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
-python3-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** |
+python3-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | **Missing** |
 python3-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** |
 python3-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** |
