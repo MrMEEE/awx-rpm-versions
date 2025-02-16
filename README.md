@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-adal-1.2.7-1.el9.src.rpm
 
-The build completed at Sun Feb 16 11:41:51 PM CET 2025
+The build completed at Sun Feb 16 11:45:29 PM CET 2025
 
 The build was unsuccessful.
 
@@ -10,7 +10,7 @@ The build was unsuccessful.
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
-python3-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | **Missing** |
+python3-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
 python3-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | **Missing** |
 python3-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** |
 python3-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | **Missing** |
