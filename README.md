@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-isodate-0.7.2-1.el9.src.rpm
+The lastest package built was python-jaraco-collections-5.1.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:55:11 AM CET 2025
+The build completed at Mon Feb 17 12:55:37 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-collections-5.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -76,7 +76,7 @@ python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | 
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-irc-20.5.0-1.el9 | python-irc-20.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-irc-20.5.0-1.el9.src.rpm.log)
 python3.11-isodate-0.7.2-1.el9 | python-isodate-0.7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
-python3.11-jaraco-collections-5.1.0-1.el9 | python-jaraco-collections-5.1.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-collections-5.1.0-1.el9 | python-jaraco-collections-5.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-collections-5.1.0-1.el9.src.rpm.log)
 python3.11-jaraco-context-6.0.1-1.el9 | python-jaraco-context-6.0.1-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-functools-4.1.0-1.el9 | python-jaraco-functools-4.1.0-1.el9.src.rpm | **Missing** |
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** |
