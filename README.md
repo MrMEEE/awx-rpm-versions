@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-keys-4.10.0-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:04:22 AM CET 2025
+The build completed at Mon Feb 17 12:04:53 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-keys-4.10.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -27,7 +27,7 @@ python3-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm
 python3-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 python3-azure-keyvault-certificates-4.9.0-1.el9 | python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm.log)
 python3-azure-keyvault-keys-4.10.0-1.el9 | python-azure-keyvault-keys-4.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-keys-4.10.0-1.el9.src.rpm.log)
-python3-azure-keyvault-secrets-4.9.0-1.el9 | python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm | **Missing** |
+python3-azure-keyvault-secrets-4.9.0-1.el9 | python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm.log)
 python3-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src.rpm | **Missing** |
 python3-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** |
 python3-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** |
