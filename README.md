@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cachetools-5.5.0-1.el9.src.rpm
+The lastest package built was python-cffi-1.17.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:06:57 AM CET 2025
+The build completed at Mon Feb 17 12:07:27 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -32,7 +32,7 @@ python3-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src
 python3-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 python3-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
 python3-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
-python3-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** |
+python3-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 python3-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | **Missing** |
 python3-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** |
 python3-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** |
