@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-gitdb-4.0.12-1.el9.src.rpm
+The lastest package built was python-gitpython-3.1.44-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:48:21 AM CET 2025
+The build completed at Mon Feb 17 12:48:57 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
+[Build Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -63,7 +63,7 @@ python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Bu
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | **Missing** | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
-python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | **Missing** |
+python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-protos-1.66.0-1.el9.src.rpm | **Missing** |
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** |
 python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** |
