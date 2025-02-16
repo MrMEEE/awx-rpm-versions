@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cryptography-41.0.7-1.el9.src.rpm
+The lastest package built was python-cython-3.0.11-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:10:46 AM CET 2025
+The build completed at Mon Feb 17 12:15:50 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
+[Build Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -39,7 +39,7 @@ python3-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.s
 python3-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | **Missing** | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
 python3-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
-python3-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | **Missing** |
+python3-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | **Missing** | [Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
 python3-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** |
 python3-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | **Missing** |
 python3-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | **Missing** |
