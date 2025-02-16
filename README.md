@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-stream-3.0.4-1.el9.src.rpm
+The lastest package built was python-jaraco-text-4.0.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:57:21 AM CET 2025
+The build completed at Mon Feb 17 12:57:46 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-text-4.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -81,7 +81,7 @@ python3.11-jaraco-context-6.0.1-1.el9 | python-jaraco-context-6.0.1-1.el9.src.rp
 python3.11-jaraco-functools-4.1.0-1.el9 | python-jaraco-functools-4.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-functools-4.1.0-1.el9.src.rpm.log)
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.4-1.el9 | python-jaraco-stream-3.0.4-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
-python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | **Missing** |
+python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-4.0.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | **Missing** |
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | **Missing** |
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | **Missing** |
