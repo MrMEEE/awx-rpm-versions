@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daemon-3.1.2-1.el9.src.rpm
+The lastest package built was python-daphne-4.1.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:16:19 AM CET 2025
+The build completed at Mon Feb 17 12:16:49 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
+[Build Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -41,7 +41,7 @@ python3-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **M
 python3-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | **Missing** | [Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
 python3-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
-python3-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | **Missing** |
+python3-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | **Missing** |
 python3-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | **Missing** |
 python3-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | **Missing** |
