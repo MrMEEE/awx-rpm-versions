@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-oauth-toolkit-1.7.1-1.el9.src.rpm
+The lastest package built was python-django-polymorphic-3.1.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:42:55 AM CET 2025
+The build completed at Mon Feb 17 12:43:26 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
+[Build Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -52,7 +52,7 @@ python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.
 python3.11-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm | **Missing** | [Log](logs/python-django-flags-5.0.13-1.el9.src.rpm.log)
 python3.11-django-guid-3.5.0-1.el9 | python-django-guid-3.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-guid-3.5.0-1.el9.src.rpm.log)
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
-python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** |
+python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-1.el9.src.rpm | **Missing** |
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | **Missing** |
