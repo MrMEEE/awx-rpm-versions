@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-extensions-3.2.3-1.el9.src.rpm
+The lastest package built was python-django-flags-5.0.13-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:20:32 AM CET 2025
+The build completed at Mon Feb 17 12:21:03 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
+[Build Log](logs/python-django-flags-5.0.13-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -49,7 +49,7 @@ python3-django-4.2.16-1.el9 | python-django-4.2.16-1.el9.src.rpm | **Missing** |
 python3-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
 python3-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
-python3-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm | **Missing** |
+python3-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm | **Missing** | [Log](logs/python-django-flags-5.0.13-1.el9.src.rpm.log)
 python3-django-guid-3.5.0-1.el9 | python-django-guid-3.5.0-1.el9.src.rpm | **Missing** |
 python3-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** |
 python3-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** |
