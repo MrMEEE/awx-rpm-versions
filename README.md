@@ -1,18 +1,18 @@
 ## Latest build
-The lastest package built was python-aiohttp-3.11.11-1.el9.src.rpm
+The lastest package built was python-aiohttp-retry-2.8.3-1.el9.src.rpm
 
-The build completed at Sun Feb 16 11:56:13 PM CET 2025
+The build completed at Sun Feb 16 11:56:43 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
 python3-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
-python3-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** |
+python3-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | **Missing** |
 python3-ansi2html-1.9.2-1.el9 | python-ansi2html-1.9.2-1.el9.src.rpm | **Missing** |
 python3-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** |
