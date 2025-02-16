@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hiredis-3.1.0-1.el9.src.rpm
+The lastest package built was python-hyperlink-21.0.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:51:02 AM CET 2025
+The build completed at Mon Feb 17 12:51:39 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -68,7 +68,7 @@ python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-prot
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
-python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | **Missing** |
+python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | **Missing** |
 python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | **Missing** |
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | **Missing** |
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** |
 
-158 total packages, 9 packages built successfully, 149 packages left to fix
+158 total packages, 10 packages built successfully, 148 packages left to fix
