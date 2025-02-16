@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-attrs-24.3.0-1.el9.src.rpm
+The lastest package built was python-autobahn-24.4.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:00:01 AM CET 2025
+The build completed at Mon Feb 17 12:00:48 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -19,7 +19,7 @@ python3-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | *
 python3-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
 python3-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
 python3-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
-python3-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | **Missing** |
+python3-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | **Missing** |
 python3-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | **Missing** |
 python3-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | **Missing** |
