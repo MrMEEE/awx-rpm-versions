@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-importlib-resources-6.5.2-1.el9.src.rpm
+The lastest package built was python-incremental-24.7.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:53:02 AM CET 2025
+The build completed at Mon Feb 17 12:53:47 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
+[Build Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -72,7 +72,7 @@ python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Buil
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | **Missing** | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
 python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
-python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | **Missing** |
+python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | Built | [Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | **Missing** |
 python3.11-irc-20.5.0-1.el9 | python-irc-20.5.0-1.el9.src.rpm | **Missing** |
 python3.11-isodate-0.7.2-1.el9 | python-isodate-0.7.2-1.el9.src.rpm | **Missing** |
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** |
 
-158 total packages, 10 packages built successfully, 148 packages left to fix
+158 total packages, 11 packages built successfully, 147 packages left to fix
