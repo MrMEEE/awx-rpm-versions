@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-google-auth-2.37.0-1.el9.src.rpm
+The lastest package built was python-grpcio-1.69.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:49:51 AM CET 2025
+The build completed at Mon Feb 17 12:50:24 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
+[Build Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -66,7 +66,7 @@ python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | **Missing** 
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-protos-1.66.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.66.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
-python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** |
+python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | **Missing** |
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | **Missing** |
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | **Missing** |
