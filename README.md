@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-enum-compat-0.0.3-1.el9.src.rpm
+The lastest package built was python-filelock-3.16.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:46:56 AM CET 2025
+The build completed at Mon Feb 17 12:47:23 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -60,7 +60,7 @@ python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
-python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** |
+python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** |
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | **Missing** |
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | **Missing** |
