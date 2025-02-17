@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-botocore-1.35.96-1.el9.src.rpm
+The lastest package built was python-cffi-1.17.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:53:22 AM CET 2025
+The build completed at Mon Feb 17 01:53:53 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
+[Build Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
