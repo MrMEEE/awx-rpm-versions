@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-psutil-6.1.1-1.el9.src.rpm
+The lastest package built was python-psycopg-3.2.3-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:18:50 AM CET 2025
+The build completed at Mon Feb 17 01:19:21 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -122,7 +122,7 @@ python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el
 python3.11-propcache-0.2.1-1.el9 | python-propcache-0.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-propcache-0.2.1-1.el9.src.rpm.log)
 python3.11-protobuf-5.29.3-1.el9 | python-protobuf-5.29.3-1.el9.src.rpm | Built | [Log](logs/python-protobuf-5.29.3-1.el9.src.rpm.log)
 python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
-python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | **Missing** |
+python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | **Missing** |
 python3.11-pyasn1-0.6.1-1.el9 | python-pyasn1-0.6.1-1.el9.src.rpm | **Missing** |
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | **Missing** |
