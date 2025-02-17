@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-irc-20.5.0-1.el9.src.rpm
+The lastest package built was python-isodate-0.7.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 03:24:48 AM CET 2025
+The build completed at Mon Feb 17 03:25:22 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-irc-20.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
