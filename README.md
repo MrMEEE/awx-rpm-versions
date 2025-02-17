@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
+The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:08:19 AM CET 2025
+The build completed at Mon Feb 17 01:08:46 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -101,7 +101,7 @@ python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** 
 python3.11-msrestazure-0.6.4^post1-1.el9 | python-msrestazure-0.6.4^post1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrestazure-0.6.4^post1-1.el9.src.rpm.log)
 python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
-python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** |
+python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-exporter-otlp-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-1.29.0-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9.src.rpm | **Missing** |
