@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-markupsafe-3.0.2-1.el9.src.rpm
+The lastest package built was python-maturin-1.8.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:03:30 AM CET 2025
+The build completed at Mon Feb 17 01:04:11 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -92,7 +92,7 @@ python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | **Missing** | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markupsafe-3.0.2-1.el9 | python-markupsafe-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
-python3.11-maturin-1.8.1-1.el9 | python-maturin-1.8.1-1.el9.src.rpm | **Missing** |
+python3.11-maturin-1.8.1-1.el9 | python-maturin-1.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
 python3.11-more-itertools-10.5.0-1.el9 | python-more-itertools-10.5.0-1.el9.src.rpm | **Missing** |
 python3.11-msal-1.31.1-1.el9 | python-msal-1.31.1-1.el9.src.rpm | **Missing** |
 python3.11-msal-extensions-1.2.0-1.el9 | python-msal-extensions-1.2.0-1.el9.src.rpm | **Missing** |
