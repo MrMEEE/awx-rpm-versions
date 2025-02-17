@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-4.23.0-1.el9.src.rpm
+The lastest package built was python-jsonschema-specifications-2024.10.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 12:59:49 AM CET 2025
+The build completed at Mon Feb 17 01:00:21 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-4.23.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -86,7 +86,7 @@ python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | **Missing** 
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-1.1-1.el9.src.rpm.log)
 python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.23.0-1.el9.src.rpm.log)
-python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | **Missing** |
+python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.6-1.el9 | python-jwcrypto-1.5.6-1.el9.src.rpm | **Missing** |
 python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **Missing** |
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** |
