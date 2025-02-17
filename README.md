@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cryptography-41.0.7-1.el9.src.rpm
+The lastest package built was python-daemon-3.1.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:56:38 AM CET 2025
+The build completed at Mon Feb 17 01:57:04 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
+[Build Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
