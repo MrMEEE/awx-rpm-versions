@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-frozenlist-1.5.0-1.el9.src.rpm
+The lastest package built was python-gitpython-3.1.44-1.el9.src.rpm
 
-The build completed at Mon Feb 17 03:20:27 AM CET 2025
+The build completed at Mon Feb 17 03:21:07 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
