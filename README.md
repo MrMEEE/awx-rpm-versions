@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-asgiref-3.8.1-1.el9.src.rpm
+The lastest package built was python-asn1-2.7.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:46:51 AM CET 2025
+The build completed at Mon Feb 17 01:47:26 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
+[Build Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -17,7 +17,7 @@ python3.11-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | **Miss
 python3.11-ansi2html-1.9.2-1.el9 | python-ansi2html-1.9.2-1.el9.src.rpm | **Missing** | [Log](logs/python-ansi2html-1.9.2-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3.11-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
-python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
+python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
 python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-158 total packages, 35 packages built successfully, 123 packages left to fix
+158 total packages, 36 packages built successfully, 122 packages left to fix
