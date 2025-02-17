@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-backports-tarfile-1.2.0-1.el9.src.rpm
+The lastest package built was python-boto3-1.35.96-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:52:19 AM CET 2025
+The build completed at Mon Feb 17 01:52:49 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
