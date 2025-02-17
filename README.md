@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-sdk-1.29.0-1.el9.src.rpm
+The lastest package built was python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:12:48 AM CET 2025
+The build completed at Mon Feb 17 01:13:15 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-sdk-1.29.0-1.el9.src.rpm.log)
+[Build Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -111,7 +111,7 @@ python3.11-opentelemetry-instrumentation-0.50~b0-1.el9 | python-opentelemetry-in
 python3.11-opentelemetry-instrumentation-logging-0.50~b0-1.el9 | python-opentelemetry-instrumentation-logging-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-instrumentation-logging-0.50~b0-1.el9.src.rpm.log)
 python3.11-opentelemetry-proto-1.29.0-1.el9 | python-opentelemetry-proto-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-proto-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-sdk-1.29.0-1.el9.src.rpm.log)
-python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** |
+python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | **Missing** |
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | **Missing** |
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | **Missing** |
