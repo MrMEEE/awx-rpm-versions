@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pip-21.2.4-1.el9.src.rpm
+The lastest package built was python-pkgconfig-1.5.5-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:15:28 AM CET 2025
+The build completed at Mon Feb 17 01:15:54 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
+[Build Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -116,7 +116,7 @@ python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | 
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
-python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** |
+python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | **Missing** |
 python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el9.src.rpm | **Missing** |
 python3.11-propcache-0.2.1-1.el9 | python-propcache-0.2.1-1.el9.src.rpm | **Missing** |
