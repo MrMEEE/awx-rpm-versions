@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-idna-3.10-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-8.5.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 03:23:21 AM CET 2025
+The build completed at Mon Feb 17 03:23:50 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-idna-3.10-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
