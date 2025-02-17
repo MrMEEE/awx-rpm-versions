@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-2.32.3-1.el9.src.rpm
+The lastest package built was python-requests-oauthlib-2.0.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:28:13 AM CET 2025
+The build completed at Mon Feb 17 01:28:39 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-requests-2.32.3-1.el9.src.rpm.log)
+[Build Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -138,7 +138,7 @@ python3.11-receptorctl-1.5.2-1.el9 | python-receptorctl-1.5.2-1.el9.src.rpm | **
 python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 python3.11-referencing-0.35.1-1.el9 | python-referencing-0.35.1-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.35.1-1.el9.src.rpm.log)
 python3.11-requests-2.32.3-1.el9 | python-requests-2.32.3-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-2.32.3-1.el9.src.rpm.log)
-python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.src.rpm | **Missing** |
+python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** |
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** |
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | **Missing** |
