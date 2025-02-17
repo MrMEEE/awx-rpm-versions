@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-service-identity-24.2.0-1.el9.src.rpm
+The lastest package built was python-setuptools-70.3.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:31:06 AM CET 2025
+The build completed at Mon Feb 17 01:31:36 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-setuptools-70.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -144,7 +144,7 @@ python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** | [Log](lo
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
-python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** |
+python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-70.3.0-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | **Missing** |
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | **Missing** |
 python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | **Missing** |
