@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-maturin-1.8.1-1.el9.src.rpm
+The lastest package built was python-msal-1.31.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 03:37:31 AM CET 2025
+The build completed at Mon Feb 17 03:38:38 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
+[Build Log](logs/python-msal-1.31.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
