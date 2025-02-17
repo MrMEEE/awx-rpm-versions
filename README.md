@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-markupsafe-3.0.2-1.el9.src.rpm
+The lastest package built was python-maturin-1.8.1-1.el9.src.rpm
 
-The build completed at Mon Feb 17 03:35:19 AM CET 2025
+The build completed at Mon Feb 17 03:37:31 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
