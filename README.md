@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-kubernetes-31.0.0-1.el9.src.rpm
+The lastest package built was python-lockfile-0.12.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 02:19:05 AM CET 2025
+The build completed at Mon Feb 17 02:19:41 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -89,7 +89,7 @@ python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | **
 python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.6-1.el9 | python-jwcrypto-1.5.6-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.6-1.el9.src.rpm.log)
 python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
-python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | **Missing** | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
+python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | **Missing** | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markupsafe-3.0.2-1.el9 | python-markupsafe-3.0.2-1.el9.src.rpm | **Missing** | [Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
 python3.11-maturin-1.8.1-1.el9 | python-maturin-1.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-158 total packages, 38 packages built successfully, 120 packages left to fix
+158 total packages, 39 packages built successfully, 119 packages left to fix
