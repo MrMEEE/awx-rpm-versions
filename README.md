@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-setuptools-scm-8.1.0-1.el9.src.rpm
+The lastest package built was python-six-1.17.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:32:37 AM CET 2025
+The build completed at Mon Feb 17 01:33:07 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-six-1.17.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -147,7 +147,7 @@ python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.
 python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-70.3.0-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-rust-1.10.2-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
-python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | **Missing** |
+python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.17.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | **Missing** |
 python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | **Missing** |
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** |
 
-158 total packages, 27 packages built successfully, 131 packages left to fix
+158 total packages, 28 packages built successfully, 130 packages left to fix
