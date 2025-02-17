@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msrestazure-0.6.4^post1-1.el9.src.rpm
+The lastest package built was python-multidict-6.1.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:07:07 AM CET 2025
+The build completed at Mon Feb 17 01:07:52 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-msrestazure-0.6.4^post1-1.el9.src.rpm.log)
+[Build Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -99,7 +99,7 @@ python3.11-msal-extensions-1.2.0-1.el9 | python-msal-extensions-1.2.0-1.el9.src.
 python3.11-msgpack-1.1.0-1.el9 | python-msgpack-1.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-msgpack-1.1.0-1.el9.src.rpm.log)
 python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
 python3.11-msrestazure-0.6.4^post1-1.el9 | python-msrestazure-0.6.4^post1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrestazure-0.6.4^post1-1.el9.src.rpm.log)
-python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | **Missing** |
+python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** |
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** |
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | **Missing** |
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** |
 
-158 total packages, 15 packages built successfully, 143 packages left to fix
+158 total packages, 16 packages built successfully, 142 packages left to fix
