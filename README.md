@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.4-1.el9.src.rpm
+The lastest package built was python-semantic-version-2.10.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 02:42:41 AM CET 2025
+The build completed at Mon Feb 17 02:43:13 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
