@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.4-1.el9.src.rpm
+The lastest package built was python-semantic-version-2.10.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:30:12 AM CET 2025
+The build completed at Mon Feb 17 01:30:39 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -142,7 +142,7 @@ python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
-python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** |
+python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.src.rpm | **Missing** |
 python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** |
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | **Missing** |
