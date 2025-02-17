@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tempora-5.8.0-1.el9.src.rpm
+The lastest package built was python-twilio-9.4.2-1.el9.src.rpm
 
-The build completed at Mon Feb 17 04:09:11 AM CET 2025
+The build completed at Mon Feb 17 04:09:43 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
