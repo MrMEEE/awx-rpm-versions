@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyopenssl-24.3.0-1.el9.src.rpm
+The lastest package built was python-pyparsing-2.4.6-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:23:25 AM CET 2025
+The build completed at Mon Feb 17 01:23:56 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -130,7 +130,7 @@ python3.11-pycparser-2.22-1.el9 | python-pycparser-2.22-1.el9.src.rpm | Built | 
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
-python3.11-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | **Missing** |
+python3.11-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | **Missing** |
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | **Missing** |
 python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | **Missing** |
@@ -168,4 +168,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** |
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** |
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** |
 
-158 total packages, 25 packages built successfully, 133 packages left to fix
+158 total packages, 26 packages built successfully, 132 packages left to fix
