@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-service-identity-24.2.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-setuptools-70.3.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-service-identity-24.2.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-setuptools-70.3.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-service-identity-24.2.0-1.el9.src.rpm
-Start: build setup for python-service-identity-24.2.0-1.el9.src.rpm
+Start: build phase for python-setuptools-70.3.0-1.el9.src.rpm
+Start: build setup for python-setuptools-70.3.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Wrote: /builddir/build/SRPMS/python-service-identity-24.2.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-setuptools-70.3.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,12 +47,12 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         7.0 MB/s |  40 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  50 kB/s |  35 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [                     ===                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                        ===                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 44% [===================                        ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 37% [===============-                           ] 1.7 MB/s | 8.5 MB     00:08 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  16 MB/s |  23 MB     00:01    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                          12 MB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 44% [===================                        ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  48 kB/s |  35 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                     ===                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 44% [===================                        ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 33% [==============-                            ] 1.6 MB/s | 7.8 MB     00:09 ETAExtra Packages for Enterprise Linux 9 - x86_ 51% [======================                     ] 2.3 MB/s |  12 MB     00:04 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  13 MB/s |  23 MB     00:01    
 Dependencies resolved.
 ===============================================================================================================================
  Package                                 Architecture       Version                        Repository                     Size
@@ -165,31 +165,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch                
 
 Complete!
-Finish: build setup for python-service-identity-24.2.0-1.el9.src.rpm
+Finish: build setup for python-setuptools-70.3.0-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-service-identity-24.2.0-1.el9.src.rpm
+Start: rpmbuild python-setuptools-70.3.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ROJhMs
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.j7FjOg
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf service_identity-24.2.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/service_identity-24.2.0.tar.gz
++ rm -rf setuptools-70.3.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/setuptools-70.3.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd service_identity-24.2.0
++ cd setuptools-70.3.0
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9yKVps
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YewjGN
 + umask 022
 + cd /builddir/build/BUILD
-+ cd service_identity-24.2.0
++ cd setuptools-70.3.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -198,21 +198,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.9yKVps
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/service_identity-24.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/setuptools-70.3.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/service_identity-24.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/setuptools-70.3.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/service_identity-24.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-service-identity-24.2.0-1.el9.x86_64-3.11-pyproject-buildrequires -x dev,docs,idna,mypy,tests
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/setuptools-70.3.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-setuptools-70.3.0-1.el9.x86_64-3.11-pyproject-buildrequires -x doc,test
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-service-identity-24.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-setuptools-70.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-service-identity-24.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-setuptools-70.3.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -221,11 +221,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  76 kB/s |  35 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 44% [===================                        ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 29% [============-                              ] 1.4 MB/s | 6.9 MB     00:11 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  16 MB/s |  23 MB     00:01    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream        100% [===========================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                            13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B100% [===========================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  70 kB/s |  35 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_  6% [==-                                        ] 4.3 MB/s | 1.3 MB     00:04 ETAExtra Packages for Enterprise Linux 9 - x86_ 99% [==========================================-] 8.4 MB/s |  23 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  19 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -265,10 +265,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.stwbGe
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.nAcHEV
 + umask 022
 + cd /builddir/build/BUILD
-+ cd service_identity-24.2.0
++ cd setuptools-70.3.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -277,27 +277,152 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.stwbGe
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/service_identity-24.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/setuptools-70.3.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/service_identity-24.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/setuptools-70.3.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/service_identity-24.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-service-identity-24.2.0-1.el9.x86_64-3.11-pyproject-buildrequires -x dev,docs,idna,mypy,tests
-Handling hatchling from build-system.requires
-Requirement not satisfied: hatchling
-Handling hatch-vcs from build-system.requires
-Requirement not satisfied: hatch-vcs
-Handling hatch-fancy-pypi-readme from build-system.requires
-Requirement not satisfied: hatch-fancy-pypi-readme
-Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-service-identity-24.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv '*.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/setuptools-70.3.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-setuptools-70.3.0-1.el9.x86_64-3.11-pyproject-buildrequires -x doc,test
+/builddir/build/BUILD/setuptools-70.3.0/setuptools/config/pyprojecttoml.py:70: _ExperimentalConfiguration: `[tool.distutils]` in `pyproject.toml` is still *experimental* and likely to change in future releases.
+  config = read_configuration(filepath, True, ignore_option_errors, dist)
+running egg_info
+writing setuptools.egg-info/PKG-INFO
+writing dependency_links to setuptools.egg-info/dependency_links.txt
+writing entry points to setuptools.egg-info/entry_points.txt
+writing requirements to setuptools.egg-info/requires.txt
+writing top-level names to setuptools.egg-info/top_level.txt
+reading manifest file 'setuptools.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.py' under directory 'tests'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.conf' under directory 'docs'
+warning: no files found matching '*.css' under directory 'docs'
+warning: no files found matching '*.css_t' under directory 'docs'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching 'indexsidebar.html' under directory 'docs'
+warning: no files found matching 'msvc-build-launcher.cmd'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'setuptools.egg-info/SOURCES.txt'
+/builddir/build/BUILD/setuptools-70.3.0/setuptools/config/pyprojecttoml.py:70: _ExperimentalConfiguration: `[tool.distutils]` in `pyproject.toml` is still *experimental* and likely to change in future releases.
+  config = read_configuration(filepath, True, ignore_option_errors, dist)
+running dist_info
+writing setuptools.egg-info/PKG-INFO
+writing dependency_links to setuptools.egg-info/dependency_links.txt
+writing entry points to setuptools.egg-info/entry_points.txt
+writing requirements to setuptools.egg-info/requires.txt
+writing top-level names to setuptools.egg-info/top_level.txt
+reading manifest file 'setuptools.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.py' under directory 'tests'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.conf' under directory 'docs'
+warning: no files found matching '*.css' under directory 'docs'
+warning: no files found matching '*.css_t' under directory 'docs'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching 'indexsidebar.html' under directory 'docs'
+warning: no files found matching 'msvc-build-launcher.cmd'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'setuptools.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/setuptools-70.3.0/setuptools-70.3.0.dist-info'
+Handling sphinx >=3.5 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx >=3.5 ; extra == 'doc'
+Handling jaraco.packaging >=9.3 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.packaging >=9.3 ; extra == 'doc'
+Handling rst.linker >=1.9 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: rst.linker >=1.9 ; extra == 'doc'
+Handling furo ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: furo ; extra == 'doc'
+Handling sphinx-lint ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx-lint ; extra == 'doc'
+Handling jaraco.tidelift >=1.4 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.tidelift >=1.4 ; extra == 'doc'
+Handling pygments-github-lexers ==0.0.5 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pygments-github-lexers ==0.0.5 ; extra == 'doc'
+Handling sphinx-favicon ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx-favicon ; extra == 'doc'
+Handling sphinx-inline-tabs ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx-inline-tabs ; extra == 'doc'
+Handling sphinx-reredirects ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx-reredirects ; extra == 'doc'
+Handling sphinxcontrib-towncrier ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinxcontrib-towncrier ; extra == 'doc'
+Handling sphinx-notfound-page <2,>=1 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: sphinx-notfound-page <2,>=1 ; extra == 'doc'
+Handling pyproject-hooks !=1.1 ; extra == 'doc' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pyproject-hooks !=1.1 ; extra == 'doc'
+Handling pytest !=8.1.*,>=6 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest !=8.1.*,>=6 ; extra == 'test'
+Handling pytest-checkdocs >=2.4 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-checkdocs >=2.4 ; extra == 'test'
+Handling pytest-cov ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-cov ; extra == 'test'
+Handling pytest-mypy ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-mypy ; extra == 'test'
+Handling pytest-enabler >=2.2 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-enabler >=2.2 ; extra == 'test'
+Handling virtualenv >=13.0.0 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: virtualenv >=13.0.0 ; extra == 'test'
+Handling wheel ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: wheel ; extra == 'test'
+Handling pip >=19.1 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement satisfied: pip >=19.1 ; extra == 'test'
+   (installed: pip 22.3.1)
+Handling packaging >=23.2 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement satisfied: packaging >=23.2 ; extra == 'test'
+   (installed: packaging 24.2)
+Handling jaraco.envs >=2.2 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.envs >=2.2 ; extra == 'test'
+Handling pytest-xdist >=3 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-xdist >=3 ; extra == 'test'
+Handling jaraco.path >=3.2.0 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.path >=3.2.0 ; extra == 'test'
+Handling build[virtualenv] >=1.0.3 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: build[virtualenv] >=1.0.3 ; extra == 'test'
+Handling filelock >=3.4.0 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: filelock >=3.4.0 ; extra == 'test'
+Handling ini2toml[lite] >=0.14 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: ini2toml[lite] >=0.14 ; extra == 'test'
+Handling tomli-w >=1.0.0 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: tomli-w >=1.0.0 ; extra == 'test'
+Handling pytest-timeout ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-timeout ; extra == 'test'
+Handling pytest-home >=0.5 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-home >=0.5 ; extra == 'test'
+Handling mypy ==1.10.0 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: mypy ==1.10.0 ; extra == 'test'
+Handling tomli ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: tomli ; extra == 'test'
+Handling importlib-metadata ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: importlib-metadata ; extra == 'test'
+Handling pytest-subprocess ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-subprocess ; extra == 'test'
+Handling pyproject-hooks !=1.1 ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pyproject-hooks !=1.1 ; extra == 'test'
+Handling jaraco.test ; extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.test ; extra == 'test'
+Handling jaraco.develop >=7.21 ; (python_version >= "3.9" and sys_platform != "cygwin") and extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: jaraco.develop >=7.21 ; (python_version >= "3.9" and sys_platform != "cygwin") and extra == 'test'
+Handling pytest-ruff >=0.3.2 ; (sys_platform != "cygwin") and extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-ruff >=0.3.2 ; (sys_platform != "cygwin") and extra == 'test'
+Handling pytest-perf ; (sys_platform != "cygwin") and extra == 'test' from hook generated metadata: Requires-Dist (setuptools)
+Requirement not satisfied: pytest-perf ; (sys_platform != "cygwin") and extra == 'test'
++ cat /builddir/build/BUILD/python-setuptools-70.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv setuptools-70.3.0.dist-info/
+removed 'setuptools-70.3.0.dist-info/entry_points.txt'
+removed 'setuptools-70.3.0.dist-info/top_level.txt'
+removed 'setuptools-70.3.0.dist-info/METADATA'
+removed 'setuptools-70.3.0.dist-info/LICENSE'
+removed directory 'setuptools-70.3.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-service-identity-24.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-setuptools-70.3.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -306,27 +431,61 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  66 kB/s |  35 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_  0% [                                           ] 415 kB/s | 126 kB     00:52 ETAExtra Packages for Enterprise Linux 9 - x86_ 78% [=================================-         ] 4.0 MB/s |  18 MB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  19 MB/s |  23 MB     00:01    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B100% [===========================================] 8.5 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                             8.5 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  60 kB/s |  35 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_  1% [-                                          ] 1.1 MB/s | 338 kB     00:19 ETAExtra Packages for Enterprise Linux 9 - x86_ 84% [====================================       ] 4.8 MB/s |  19 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  19 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
-No matching package to install: 'python3.11dist(hatch-vcs)'
-No matching package to install: 'python3.11dist(hatchling)'
+No matching package to install: 'python3.11dist(build) >= 1.0.3'
+No matching package to install: 'python3.11dist(build[virtualenv]) >= 1.0.3'
+No matching package to install: 'python3.11dist(filelock) >= 3.4'
+No matching package to install: 'python3.11dist(furo)'
+No matching package to install: 'python3.11dist(importlib-metadata)'
+No matching package to install: 'python3.11dist(ini2toml) >= 0.14'
+No matching package to install: 'python3.11dist(ini2toml[lite]) >= 0.14'
+No matching package to install: 'python3.11dist(jaraco-develop) >= 7.21'
+No matching package to install: 'python3.11dist(jaraco-envs) >= 2.2'
+No matching package to install: 'python3.11dist(jaraco-packaging) >= 9.3'
+No matching package to install: 'python3.11dist(jaraco-path) >= 3.2'
+No matching package to install: 'python3.11dist(jaraco-test)'
+No matching package to install: 'python3.11dist(jaraco-tidelift) >= 1.4'
+No matching package to install: 'python3.11dist(mypy) = 1.10'
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(pygments-github-lexers) = 0.0.5'
+No matching package to install: 'python3.11dist(pytest-checkdocs) >= 2.4'
+No matching package to install: 'python3.11dist(pytest-cov)'
+No matching package to install: 'python3.11dist(pytest-enabler) >= 2.2'
+No matching package to install: 'python3.11dist(pytest-home) >= 0.5'
+No matching package to install: 'python3.11dist(pytest-mypy)'
+No matching package to install: 'python3.11dist(pytest-perf)'
+No matching package to install: 'python3.11dist(pytest-ruff) >= 0.3.2'
+No matching package to install: 'python3.11dist(pytest-subprocess)'
+No matching package to install: 'python3.11dist(pytest-timeout)'
+No matching package to install: 'python3.11dist(pytest-xdist) >= 3'
+No matching package to install: 'python3.11dist(rst-linker) >= 1.9'
+No matching package to install: 'python3.11dist(sphinx) >= 3.5'
+No matching package to install: 'python3.11dist(sphinx-favicon)'
+No matching package to install: 'python3.11dist(sphinx-inline-tabs)'
+No matching package to install: 'python3.11dist(sphinx-lint)'
+No matching package to install: 'python3.11dist(sphinx-reredirects)'
+No matching package to install: 'python3.11dist(sphinxcontrib-towncrier)'
+No matching package to install: 'python3.11dist(tomli)'
+No matching package to install: 'python3.11dist(tomli-w) >= 1'
+No matching package to install: 'python3.11dist(virtualenv) >= 13'
 Not all dependencies satisfied
 Error: Some packages could not be found.
-Finish: rpmbuild python-service-identity-24.2.0-1.el9.src.rpm
-Finish: build phase for python-service-identity-24.2.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-service-identity-24.2.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 22 seconds
+Finish: rpmbuild python-setuptools-70.3.0-1.el9.src.rpm
+Finish: build phase for python-setuptools-70.3.0-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-setuptools-70.3.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 9c010348901845398aab8817a9d8ab04 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.7rzjemat:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-service-identity-24.2.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 8917eaa4faa34da88ec6f8f0f9af6116 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.h5dtnw46:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-setuptools-70.3.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -334,19 +493,53 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  66 kB/s |  35 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                             8.5 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  60 kB/s |  35 kB     00:00    
 Extra Packages for Enterprise Linux 9 - x86_64                                                  19 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(hatch-fancy-pypi-readme)'
-No matching package to install: 'python3.11dist(hatch-vcs)'
-No matching package to install: 'python3.11dist(hatchling)'
+No matching package to install: 'python3.11dist(build) >= 1.0.3'
+No matching package to install: 'python3.11dist(build[virtualenv]) >= 1.0.3'
+No matching package to install: 'python3.11dist(filelock) >= 3.4'
+No matching package to install: 'python3.11dist(furo)'
+No matching package to install: 'python3.11dist(importlib-metadata)'
+No matching package to install: 'python3.11dist(ini2toml) >= 0.14'
+No matching package to install: 'python3.11dist(ini2toml[lite]) >= 0.14'
+No matching package to install: 'python3.11dist(jaraco-develop) >= 7.21'
+No matching package to install: 'python3.11dist(jaraco-envs) >= 2.2'
+No matching package to install: 'python3.11dist(jaraco-packaging) >= 9.3'
+No matching package to install: 'python3.11dist(jaraco-path) >= 3.2'
+No matching package to install: 'python3.11dist(jaraco-test)'
+No matching package to install: 'python3.11dist(jaraco-tidelift) >= 1.4'
+No matching package to install: 'python3.11dist(mypy) = 1.10'
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(pygments-github-lexers) = 0.0.5'
+No matching package to install: 'python3.11dist(pytest-checkdocs) >= 2.4'
+No matching package to install: 'python3.11dist(pytest-cov)'
+No matching package to install: 'python3.11dist(pytest-enabler) >= 2.2'
+No matching package to install: 'python3.11dist(pytest-home) >= 0.5'
+No matching package to install: 'python3.11dist(pytest-mypy)'
+No matching package to install: 'python3.11dist(pytest-perf)'
+No matching package to install: 'python3.11dist(pytest-ruff) >= 0.3.2'
+No matching package to install: 'python3.11dist(pytest-subprocess)'
+No matching package to install: 'python3.11dist(pytest-timeout)'
+No matching package to install: 'python3.11dist(pytest-xdist) >= 3'
+No matching package to install: 'python3.11dist(rst-linker) >= 1.9'
+No matching package to install: 'python3.11dist(sphinx) >= 3.5'
+No matching package to install: 'python3.11dist(sphinx-favicon)'
+No matching package to install: 'python3.11dist(sphinx-inline-tabs)'
+No matching package to install: 'python3.11dist(sphinx-lint)'
+No matching package to install: 'python3.11dist(sphinx-reredirects)'
+No matching package to install: 'python3.11dist(sphinxcontrib-towncrier)'
+No matching package to install: 'python3.11dist(tomli)'
+No matching package to install: 'python3.11dist(tomli-w) >= 1'
+No matching package to install: 'python3.11dist(virtualenv) >= 13'
 Not all dependencies satisfied
 Error: Some packages could not be found.
 
