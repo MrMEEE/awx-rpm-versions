@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-msal-extensions-1.2.0-1.el9.src.rpm
+The lastest package built was python-msgpack-1.1.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 02:22:43 AM CET 2025
+The build completed at Mon Feb 17 02:23:18 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-msal-extensions-1.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-msgpack-1.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
