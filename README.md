@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-sdk-1.29.0-1.el9.src.rpm
+The lastest package built was python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 02:29:55 AM CET 2025
+The build completed at Mon Feb 17 02:30:30 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-sdk-1.29.0-1.el9.src.rpm.log)
+[Build Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
