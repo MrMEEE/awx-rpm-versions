@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jwcrypto-1.5.6-1.el9.src.rpm
+The lastest package built was python-kubernetes-31.0.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 02:18:38 AM CET 2025
+The build completed at Mon Feb 17 02:19:05 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jwcrypto-1.5.6-1.el9.src.rpm.log)
+[Build Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
