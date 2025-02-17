@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-yarl-1.18.3-1.el9.src.rpm
+The lastest package built was python-zipp-3.21.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 04:12:54 AM CET 2025
+The build completed at Mon Feb 17 04:13:24 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-yarl-1.18.3-1.el9.src.rpm.log)
+[Build Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
