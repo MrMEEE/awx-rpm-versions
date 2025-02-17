@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pbr-6.1.0-1.el9.src.rpm
+The lastest package built was python-pexpect-4.7.0-1.el9.src.rpm
 
-The build completed at Mon Feb 17 01:14:18 AM CET 2025
+The build completed at Mon Feb 17 01:14:44 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -114,7 +114,7 @@ python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
-python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | **Missing** |
+python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | **Missing** |
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** |
 python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | **Missing** |
