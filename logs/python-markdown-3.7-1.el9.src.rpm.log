@@ -46,12 +46,13 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         6.0 MB/s |  39 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         526 kB/s | 3.0 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         1.5 MB/s |  40 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 33% [==============-                            ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  52 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream        100% [===========================================] 9.8 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                           9.8 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              26 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  32 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_100% [===========================================]  45 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 50% [=====================-                     ] 2.4 MB/s |  12 MB     00:04 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  16 MB/s |  23 MB     00:01    
 Dependencies resolved.
 ===============================================================================================================================
  Package                                 Architecture       Version                        Repository                     Size
@@ -171,7 +172,7 @@ Start: rpmbuild python-markdown-3.7-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.qorhJb
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.GBxKmc
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +186,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.qorhJb
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Coa3p9
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PcyPiq
 + umask 022
 + cd /builddir/build/BUILD
 + cd markdown-3.7
@@ -220,10 +221,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               23 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            26 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 33% [==============-                            ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  53 kB/s |  46 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  32 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 22% [=========-                                 ]  17 MB/s | 5.2 MB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  21 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,7 +265,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.CydHLu
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.OX93i0
 + umask 022
 + cd /builddir/build/BUILD
 + cd markdown-3.7
@@ -299,11 +301,12 @@ Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================] 8.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                              8.4 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream        100% [===========================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                            15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  99 kB/s |  46 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         373 kB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            25 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              27 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_100% [===========================================]  46 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  46 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 16% [=======                                    ]  12 MB/s | 3.6 MB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_ 85% [====================================-      ]  15 MB/s |  20 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 96% [=========================================  ]  14 MB/s |  22 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 97% [=========================================- ]  13 MB/s |  22 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 97% [========================================== ]  13 MB/s |  23 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_ 99% [==========================================-]  12 MB/s |  23 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                 9.9 MB/s |  23 MB     00:02    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -342,7 +345,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.E5bRF4
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.MfhfM4
 + umask 022
 + cd /builddir/build/BUILD
 + cd markdown-3.7
@@ -396,10 +399,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               11 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B100% [===========================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              12 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  74 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               24 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            27 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              27 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_100% [===========================================]  46 kB/s |  17 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  46 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_  0% [                                           ] 135 kB/s |  41 kB     02:41 ETAExtra Packages for Enterprise Linux 9 - x86_ 55% [=======================-                   ] 2.7 MB/s |  13 MB     00:03 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  17 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -438,7 +442,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739750400
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fvL5Yj
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.o85xfO
 + umask 022
 + cd /builddir/build/BUILD
 + cd markdown-3.7
@@ -532,10 +536,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream        100% [===========================================] 9.7 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                           9.7 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  81 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              27 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  34 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 18% [========                                   ]  15 MB/s | 4.4 MB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_ 80% [==================================-        ]  16 MB/s |  19 MB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  20 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -556,10 +561,10 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 Finish: rpmbuild python-markdown-3.7-1.el9.src.rpm
 Finish: build phase for python-markdown-3.7-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-markdown-3.7-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 32 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-markdown-3.7-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 1 minutes 7 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 229898ddeeff4722b95760e5cf44cdd6 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.lm9edrjl:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-markdown-3.7-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 2f580c0f745446d2ac736d1414a190b5 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.6e68ta5n:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-markdown-3.7-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -567,10 +572,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                           9.7 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  81 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                                            24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                              27 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  34 kB/s |  17 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                                  20 MB/s |  23 MB     00:01    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -591,7 +597,7 @@ Not all dependencies satisfied
 Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 51 packages
+Directory walk done - 52 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
