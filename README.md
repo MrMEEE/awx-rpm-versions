@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-24.4.2-1.el9.src.rpm
+The lastest package built was python-automat-24.8.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:41:15 PM CET 2025
+The build completed at Tue Feb 18 01:41:45 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -69,6 +69,7 @@ python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-prot
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
+python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | **Missing** |
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | **Missing** | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
@@ -171,4 +172,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-161 total packages, 56 packages built successfully, 105 packages left to fix
+162 total packages, 56 packages built successfully, 106 packages left to fix
