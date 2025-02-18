@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.3.2-1.el9.src.rpm
+The lastest package built was python-expandvars-0.12.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:32:51 PM CET 2025
+The build completed at Tue Feb 18 03:33:25 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -66,7 +66,7 @@ python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
-python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** |
+python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
