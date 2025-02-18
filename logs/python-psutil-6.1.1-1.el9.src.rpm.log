@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.5 MB/s |  52 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    79 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            13 MB/s |  64 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 8.8 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                8.8 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              10 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 34% [============                        ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    50 kB/s |  45 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                            Architecture  Version                         Repository                Size
@@ -228,13 +228,13 @@ Start: rpmbuild python-psutil-6.1.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.zFTIMq
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.4sUOsZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf psutil-6.1.1
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/psutil-6.1.1.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd psutil-6.1.1
@@ -242,7 +242,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.zFTIMq
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7SdNjA
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KYtMMF
 + umask 022
 + cd /builddir/build/BUILD
 + cd psutil-6.1.1
@@ -261,7 +261,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7SdNjA
 + TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires -x dev,test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -277,10 +277,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    75 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    87 kB/s |  45 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -321,7 +321,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.2GVr3u
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.K4ihVM
 + umask 022
 + cd /builddir/build/BUILD
 + cd psutil-6.1.1
@@ -340,7 +340,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.2GVr3u
 + TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires -x dev,test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=43 from build-system.requires
 Requirement not satisfied: setuptools>=43
 Exiting dependency generation pass: build backend
@@ -358,10 +358,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    75 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 34% [============                        ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                   102 kB/s |  45 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -373,14 +373,14 @@ Dependencies resolved.
  Package                      Architecture  Version              Repository                                 Size
 =================================================================================================================
 Installing:
- [1mpython3.11-setuptools       [m noarch        70.3.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        1.3 M
+ [1mpython3.11-setuptools       [m noarch        75.8.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        2.2 M
 
 Transaction Summary
 =================================================================================================================
 Install  1 Package
 
-Total size: 1.3 M
-Installed size: 7.8 M
+Total size: 2.2 M
+Installed size: 11 M
 Downloading Packages:
 Running transaction check
 Transaction check succeeded.
@@ -388,19 +388,19 @@ Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :                                                                                         1/1 
-  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [                                           ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=                                          ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==                                         ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===                                        ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====                                       ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====                                      ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======                                     ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======                                    ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========                                   ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========                                  ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========                                 ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========                                ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============                               ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============                              ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============                             ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============                            ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================                           ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================                          ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================                         ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================                        ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================                       ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================                      ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================                     ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================                    ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================                   ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================                  ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========================                 ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========================                ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============================               ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============================              ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============================             ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============================            ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================================           ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================================          ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================================         ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================================        ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================================       ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================================      ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================================     ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================================    ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================   ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================================  ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================== ] 1/1  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch                                               1/1 
-  Running scriptlet: python3.11-setuptools-70.3.0-1.el9.noarch                                               1/1 
-  Verifying        : python3.11-setuptools-70.3.0-1.el9.noarch                                               1/1 
+  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 1/1  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/1 
+  Running scriptlet: python3.11-setuptools-75.8.0-1.el9.noarch                                               1/1 
+  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/1 
 Installed products updated.
 
 Installed:
-  python3.11-setuptools-70.3.0-1.el9.noarch                                                                      
+  python3.11-setuptools-75.8.0-1.el9.noarch                                                                      
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3rZIrT
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.V4VFtX
 + umask 022
 + cd /builddir/build/BUILD
 + cd psutil-6.1.1
@@ -419,10 +419,10 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3rZIrT
 + TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires -x dev,test
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=43 from build-system.requires
 Requirement satisfied: setuptools>=43
-   (installed: setuptools 70.3.0)
+   (installed: setuptools 75.8.0)
 running egg_info
 writing psutil.egg-info/PKG-INFO
 writing dependency_links to psutil.egg-info/dependency_links.txt
@@ -432,12 +432,8 @@ reading manifest file 'psutil.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
 adding license file 'LICENSE'
 writing manifest file 'psutil.egg-info/SOURCES.txt'
-creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir
-creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir/build
-creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir/build/BUILD
-creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir/build/BUILD/psutil-6.1.1
-creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
-cc -c /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmp7wpq640o.c -o /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpwv4dxin6/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmp7wpq640o.o
+creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpglflwf2k/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
+cc -c /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpzvhogq0y.c -o /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpglflwf2k/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpzvhogq0y.o
 running dist_info
 writing psutil.egg-info/PKG-INFO
 writing dependency_links to psutil.egg-info/dependency_links.txt
@@ -448,52 +444,173 @@ reading manifest template 'MANIFEST.in'
 adding license file 'LICENSE'
 writing manifest file 'psutil.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/psutil-6.1.1/psutil-6.1.1.dist-info'
-Handling abi3audit ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: abi3audit ; extra == 'dev'
-Handling black ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: black ; extra == 'dev'
-Handling check-manifest ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: check-manifest ; extra == 'dev'
-Handling coverage ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: coverage ; extra == 'dev'
-Handling packaging ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement satisfied: packaging ; extra == 'dev'
-   (installed: packaging 24.2)
-Handling pylint ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pylint ; extra == 'dev'
-Handling pyperf ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pyperf ; extra == 'dev'
-Handling pypinfo ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pypinfo ; extra == 'dev'
-Handling pytest-cov ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pytest-cov ; extra == 'dev'
-Handling requests ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: requests ; extra == 'dev'
-Handling rstcheck ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: rstcheck ; extra == 'dev'
-Handling ruff ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: ruff ; extra == 'dev'
-Handling sphinx ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: sphinx ; extra == 'dev'
-Handling sphinx-rtd-theme ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: sphinx-rtd-theme ; extra == 'dev'
-Handling toml-sort ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: toml-sort ; extra == 'dev'
-Handling twine ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: twine ; extra == 'dev'
-Handling virtualenv ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: virtualenv ; extra == 'dev'
-Handling vulture ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: vulture ; extra == 'dev'
-Handling wheel ; extra == 'dev' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: wheel ; extra == 'dev'
-Handling pytest ; extra == 'test' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pytest ; extra == 'test'
-Handling pytest-xdist ; extra == 'test' from hook generated metadata: Requires-Dist (psutil)
-Requirement not satisfied: pytest-xdist ; extra == 'test'
-Handling setuptools ; extra == 'test' from hook generated metadata: Requires-Dist (psutil)
-Requirement satisfied: setuptools ; extra == 'test'
-   (installed: setuptools 70.3.0)
+Handling abi3audit; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: abi3audit; extra == "dev"
+Handling black; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: black; extra == "dev"
+Handling check-manifest; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: check-manifest; extra == "dev"
+Handling coverage; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: coverage; extra == "dev"
+Handling packaging; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: packaging; extra == "dev"
+Handling pylint; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pylint; extra == "dev"
+Handling pyperf; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pyperf; extra == "dev"
+Handling pypinfo; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pypinfo; extra == "dev"
+Handling pytest-cov; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest-cov; extra == "dev"
+Handling requests; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: requests; extra == "dev"
+Handling rstcheck; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: rstcheck; extra == "dev"
+Handling ruff; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: ruff; extra == "dev"
+Handling sphinx; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: sphinx; extra == "dev"
+Handling sphinx_rtd_theme; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: sphinx_rtd_theme; extra == "dev"
+Handling toml-sort; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: toml-sort; extra == "dev"
+Handling twine; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: twine; extra == "dev"
+Handling virtualenv; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: virtualenv; extra == "dev"
+Handling vulture; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: vulture; extra == "dev"
+Handling wheel; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: wheel; extra == "dev"
+Handling pytest; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest; extra == "test"
+Handling pytest-xdist; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest-xdist; extra == "test"
+Handling setuptools; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: setuptools; extra == "test"
++ cat /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv psutil-6.1.1.dist-info/
+removed 'psutil-6.1.1.dist-info/top_level.txt'
+removed 'psutil-6.1.1.dist-info/METADATA'
+removed 'psutil-6.1.1.dist-info/LICENSE'
+removed directory 'psutil-6.1.1.dist-info/'
++ RPM_EC=0
+++ jobs -p
+Wrote: /builddir/build/SRPMS/python-psutil-6.1.1-1.el9.buildreqs.nosrc.rpm
++ exit 0
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 8.2 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                8.2 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              12 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================] 9.4 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                               9.4 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    94 kB/s |  45 kB     00:00    
+Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739836800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Nockeg
++ umask 022
++ cd /builddir/build/BUILD
++ cd psutil-6.1.1
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=43 from build-system.requires
+Requirement satisfied: setuptools>=43
+   (installed: setuptools 75.8.0)
+running egg_info
+writing psutil.egg-info/PKG-INFO
+writing dependency_links to psutil.egg-info/dependency_links.txt
+writing requirements to psutil.egg-info/requires.txt
+writing top-level names to psutil.egg-info/top_level.txt
+reading manifest file 'psutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'psutil.egg-info/SOURCES.txt'
+creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpt728c6n0/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
+cc -c /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmp4teg0m4t.c -o /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmpt728c6n0/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/tmp4teg0m4t.o
+running dist_info
+writing psutil.egg-info/PKG-INFO
+writing dependency_links to psutil.egg-info/dependency_links.txt
+writing requirements to psutil.egg-info/requires.txt
+writing top-level names to psutil.egg-info/top_level.txt
+reading manifest file 'psutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'psutil.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/psutil-6.1.1/psutil-6.1.1.dist-info'
+Handling abi3audit; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: abi3audit; extra == "dev"
+Handling black; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: black; extra == "dev"
+Handling check-manifest; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: check-manifest; extra == "dev"
+Handling coverage; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: coverage; extra == "dev"
+Handling packaging; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: packaging; extra == "dev"
+Handling pylint; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pylint; extra == "dev"
+Handling pyperf; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pyperf; extra == "dev"
+Handling pypinfo; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pypinfo; extra == "dev"
+Handling pytest-cov; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest-cov; extra == "dev"
+Handling requests; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: requests; extra == "dev"
+Handling rstcheck; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: rstcheck; extra == "dev"
+Handling ruff; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: ruff; extra == "dev"
+Handling sphinx; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: sphinx; extra == "dev"
+Handling sphinx_rtd_theme; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: sphinx_rtd_theme; extra == "dev"
+Handling toml-sort; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: toml-sort; extra == "dev"
+Handling twine; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: twine; extra == "dev"
+Handling virtualenv; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: virtualenv; extra == "dev"
+Handling vulture; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: vulture; extra == "dev"
+Handling wheel; extra == "dev" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: wheel; extra == "dev"
+Handling pytest; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest; extra == "test"
+Handling pytest-xdist; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: pytest-xdist; extra == "test"
+Handling setuptools; extra == "test" from hook generated metadata: Requires-Dist (psutil)
+Ignoring alien requirement: setuptools; extra == "test"
 + cat /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv psutil-6.1.1.dist-info/
 removed 'psutil-6.1.1.dist-info/top_level.txt'
@@ -503,93 +620,261 @@ removed directory 'psutil-6.1.1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-psutil-6.1.1-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 34% [============                        ]  42 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    98 kB/s |  45 kB     00:00    
-Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(abi3audit)'
-No matching package to install: 'python3.11dist(black)'
-No matching package to install: 'python3.11dist(check-manifest)'
-No matching package to install: 'python3.11dist(coverage)'
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pylint)'
-No matching package to install: 'python3.11dist(pyperf)'
-No matching package to install: 'python3.11dist(pypinfo)'
-No matching package to install: 'python3.11dist(pytest-cov)'
-No matching package to install: 'python3.11dist(pytest-xdist)'
-No matching package to install: 'python3.11dist(rstcheck)'
-No matching package to install: 'python3.11dist(ruff)'
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(sphinx)'
-No matching package to install: 'python3.11dist(sphinx-rtd-theme)'
-No matching package to install: 'python3.11dist(toml-sort)'
-No matching package to install: 'python3.11dist(twine)'
-No matching package to install: 'python3.11dist(virtualenv)'
-No matching package to install: 'python3.11dist(vulture)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.EI0PMr
++ umask 022
++ cd /builddir/build/BUILD
++ cd psutil-6.1.1
++ mkdir -p /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/psutil-6.1.1
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info
+  writing /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-modern-metadata-981qhgst/psutil-6.1.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: psutil
+  Building wheel for psutil (pyproject.toml): started
+  Running command Building wheel for psutil (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/__init__.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_common.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_compat.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_psaix.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_psbsd.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_pslinux.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_psosx.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_psposix.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_pssunos.py -> build/lib.linux-x86_64-cpython-311/psutil
+  copying psutil/_pswindows.py -> build/lib.linux-x86_64-cpython-311/psutil
+  creating build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/__init__.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/__main__.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_aix.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_bsd.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_connections.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_contracts.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_linux.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_memleaks.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_misc.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_osx.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_posix.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_process.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_process_all.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_sunos.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_system.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_testutils.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_unicode.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  copying psutil/tests/test_windows.py -> build/lib.linux-x86_64-cpython-311/psutil/tests
+  running build_ext
+  building 'psutil._psutil_linux' extension
+  creating build/temp.linux-x86_64-cpython-311/psutil
+  creating build/temp.linux-x86_64-cpython-311/psutil/arch/linux
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/_psutil_common.c -o build/temp.linux-x86_64-cpython-311/psutil/_psutil_common.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/_psutil_linux.c -o build/temp.linux-x86_64-cpython-311/psutil/_psutil_linux.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/_psutil_posix.c -o build/temp.linux-x86_64-cpython-311/psutil/_psutil_posix.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/arch/linux/disk.c -o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/disk.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/arch/linux/mem.c -o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/mem.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/arch/linux/net.c -o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/net.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/arch/linux/proc.c -o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/proc.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/arch/linux/users.c -o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/users.o
+  gcc -shared -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection build/temp.linux-x86_64-cpython-311/psutil/_psutil_common.o build/temp.linux-x86_64-cpython-311/psutil/_psutil_linux.o build/temp.linux-x86_64-cpython-311/psutil/_psutil_posix.o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/disk.o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/mem.o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/net.o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/proc.o build/temp.linux-x86_64-cpython-311/psutil/arch/linux/users.o -L/usr/lib64 -o build/lib.linux-x86_64-cpython-311/psutil/_psutil_linux.abi3.so
+  building 'psutil._psutil_posix' extension
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/_psutil_common.c -o build/temp.linux-x86_64-cpython-311/psutil/_psutil_common.o
+  gcc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPSUTIL_POSIX=1 -DPSUTIL_SIZEOF_PID_T=4 -DPSUTIL_VERSION=611 -DPy_LIMITED_API=0x03060000 -DPSUTIL_LINUX=1 -I/usr/include/python3.11 -c psutil/_psutil_posix.c -o build/temp.linux-x86_64-cpython-311/psutil/_psutil_posix.o
+  gcc -shared -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection build/temp.linux-x86_64-cpython-311/psutil/_psutil_common.o build/temp.linux-x86_64-cpython-311/psutil/_psutil_posix.o -L/usr/lib64 -o build/lib.linux-x86_64-cpython-311/psutil/_psutil_posix.abi3.so
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/__init__.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_common.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_compat.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psaix.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psbsd.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_pslinux.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psosx.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psposix.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_pssunos.py -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_pswindows.py -> build/bdist.linux-x86_64/wheel/./psutil
+  creating build/bdist.linux-x86_64/wheel/psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/__init__.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/__main__.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_aix.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_bsd.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_connections.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_contracts.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_linux.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_memleaks.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_misc.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_osx.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_posix.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_process.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_process_all.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_sunos.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_system.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_testutils.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_unicode.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/tests/test_windows.py -> build/bdist.linux-x86_64/wheel/./psutil/tests
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psutil_linux.abi3.so -> build/bdist.linux-x86_64/wheel/./psutil
+  copying build/lib.linux-x86_64-cpython-311/psutil/_psutil_posix.abi3.so -> build/bdist.linux-x86_64/wheel/./psutil
+  running install_egg_info
+  running egg_info
+  writing psutil.egg-info/PKG-INFO
+  writing dependency_links to psutil.egg-info/dependency_links.txt
+  writing requirements to psutil.egg-info/requires.txt
+  writing top-level names to psutil.egg-info/top_level.txt
+  reading manifest file 'psutil.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'psutil.egg-info/SOURCES.txt'
+  Copying psutil.egg-info to build/bdist.linux-x86_64/wheel/./psutil-6.1.1-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/psutil-6.1.1.dist-info/WHEEL
+  creating '/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11/pip-wheel-xfvrhuf_/.tmp-wprrj2bm/psutil-6.1.1-cp36-abi3-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'psutil/__init__.py'
+  adding 'psutil/_common.py'
+  adding 'psutil/_compat.py'
+  adding 'psutil/_psaix.py'
+  adding 'psutil/_psbsd.py'
+  adding 'psutil/_pslinux.py'
+  adding 'psutil/_psosx.py'
+  adding 'psutil/_psposix.py'
+  adding 'psutil/_pssunos.py'
+  adding 'psutil/_psutil_linux.abi3.so'
+  adding 'psutil/_psutil_posix.abi3.so'
+  adding 'psutil/_pswindows.py'
+  adding 'psutil/tests/__init__.py'
+  adding 'psutil/tests/__main__.py'
+  adding 'psutil/tests/test_aix.py'
+  adding 'psutil/tests/test_bsd.py'
+  adding 'psutil/tests/test_connections.py'
+  adding 'psutil/tests/test_contracts.py'
+  adding 'psutil/tests/test_linux.py'
+  adding 'psutil/tests/test_memleaks.py'
+  adding 'psutil/tests/test_misc.py'
+  adding 'psutil/tests/test_osx.py'
+  adding 'psutil/tests/test_posix.py'
+  adding 'psutil/tests/test_process.py'
+  adding 'psutil/tests/test_process_all.py'
+  adding 'psutil/tests/test_sunos.py'
+  adding 'psutil/tests/test_system.py'
+  adding 'psutil/tests/test_testutils.py'
+  adding 'psutil/tests/test_unicode.py'
+  adding 'psutil/tests/test_windows.py'
+  adding 'psutil-6.1.1.dist-info/LICENSE'
+  adding 'psutil-6.1.1.dist-info/METADATA'
+  adding 'psutil-6.1.1.dist-info/WHEEL'
+  adding 'psutil-6.1.1.dist-info/top_level.txt'
+  adding 'psutil-6.1.1.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for psutil (pyproject.toml): finished with status 'done'
+  Created wheel for psutil: filename=psutil-6.1.1-cp36-abi3-linux_x86_64.whl size=286914 sha256=9bd0476092151fda8953f6b853dd0f1b8b9dbdfc89a0ea2c22d4d228cfe74f90
+  Stored in directory: /builddir/.cache/pip/wheels/73/72/02/0e27866efc2f6f943ce67ea07cc7272a44e31d3de94c0f7511
+Successfully built psutil
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.PUUbbE
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64
++ cd psutil-6.1.1
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ ls /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11/psutil-6.1.1-cp36-abi3-linux_x86_64.whl
++ specifier=psutil==6.1.1
++ '[' -z psutil==6.1.1 ']'
++ TMPDIR=/builddir/build/BUILD/psutil-6.1.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11 psutil==6.1.1
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/psutil-6.1.1/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/psutil-6.1.1-cp36-abi3-linux_x86_64.whl
+Installing collected packages: psutil
+Successfully installed psutil-6.1.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib64/python3.11/site-packages")
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/RECORD --output /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/RECORD'
+removed '/builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/REQUESTED'
++ rm -fv /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil-6.1.1.dist-info/REQUESTED
+++ cut -f1 '-d '
+++ wc -l /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-psutil-6.1.1-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 6.1.1-1.el9 --unique-debug-suffix -6.1.1-1.el9.x86_64 --unique-debug-src-base python-psutil-6.1.1-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/psutil-6.1.1
+extracting debug info from /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil/_psutil_linux.abi3.so
+extracting debug info from /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11/site-packages/psutil/_psutil_posix.abi3.so
+original debug info size: 156kB, size after compression: 136kB
+/usr/bin/sepdebugcrcfix: Updated 2 CRC32s, 0 CRC32s did match.
+129 blocks
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib64/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64/usr/lib/debug/usr/lib64/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-psutil-6.1.1-1.el9.x86_64
+Provides: python3.11-psutil = 6.1.1-1.el9 python3.11-psutil(x86-64) = 6.1.1-1.el9 python3.11dist(psutil) = 6.1.1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.4)(64bit) libc.so.6(GLIBC_2.6)(64bit) libc.so.6(GLIBC_2.7)(64bit) python(abi) = 3.11 rtld(GNU_HASH)
+Processing files: python-psutil-debugsource-6.1.1-1.el9.x86_64
+Provides: python-psutil-debugsource = 6.1.1-1.el9 python-psutil-debugsource(x86-64) = 6.1.1-1.el9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: python3.11-psutil-debuginfo-6.1.1-1.el9.x86_64
+Provides: debuginfo(build-id) = 43fd667093ca76be059cd01c6fa794e2844bba01 debuginfo(build-id) = f7c46543c69a2b2bbef0b3a0a1c9114202053edb python3.11-psutil-debuginfo = 6.1.1-1.el9 python3.11-psutil-debuginfo(x86-64) = 6.1.1-1.el9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: python-psutil-debugsource(x86-64) = 6.1.1-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-psutil-6.1.1-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-psutil-6.1.1-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python-psutil-debugsource-6.1.1-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/python3.11-psutil-debuginfo-6.1.1-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/python3.11-psutil-6.1.1-1.el9.x86_64.rpm
 Finish: rpmbuild python-psutil-6.1.1-1.el9.src.rpm
 Finish: build phase for python-psutil-6.1.1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-psutil-6.1.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-psutil-6.1.1-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 38 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 080ee8cc1d42422facf314b194472b85 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.0h5lr6ba:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-psutil-6.1.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    98 kB/s |  45 kB     00:00    
-Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(abi3audit)'
-No matching package to install: 'python3.11dist(black)'
-No matching package to install: 'python3.11dist(check-manifest)'
-No matching package to install: 'python3.11dist(coverage)'
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pylint)'
-No matching package to install: 'python3.11dist(pyperf)'
-No matching package to install: 'python3.11dist(pypinfo)'
-No matching package to install: 'python3.11dist(pytest-cov)'
-No matching package to install: 'python3.11dist(pytest-xdist)'
-No matching package to install: 'python3.11dist(rstcheck)'
-No matching package to install: 'python3.11dist(ruff)'
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(sphinx)'
-No matching package to install: 'python3.11dist(sphinx-rtd-theme)'
-No matching package to install: 'python3.11dist(toml-sort)'
-No matching package to install: 'python3.11dist(twine)'
-No matching package to install: 'python3.11dist(virtualenv)'
-No matching package to install: 'python3.11dist(vulture)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Finish: run
 Directory walk started
-Directory walk done - 72 packages
+Directory walk done - 91 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)

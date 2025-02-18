@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-mypy-1.15.0-1.el9.src.rpm
+The lastest package built was python-psutil-6.1.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:23:49 PM CET 2025
+The build completed at Tue Feb 18 02:25:14 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
+[Build Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -135,7 +135,7 @@ python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | 
 python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-prometheus-client-0.21.1-1.el9.src.rpm.log)
 python3.11-propcache-0.2.1-1.el9 | python-propcache-0.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-propcache-0.2.1-1.el9.src.rpm.log)
 python3.11-protobuf-5.29.3-1.el9 | python-protobuf-5.29.3-1.el9.src.rpm | Built | [Log](logs/python-protobuf-5.29.3-1.el9.src.rpm.log)
-python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
+python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | Built | [Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
 python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.4.1-1.el9.src.rpm.log)
@@ -186,4 +186,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-176 total packages, 65 packages built successfully, 111 packages left to fix
+176 total packages, 66 packages built successfully, 110 packages left to fix
