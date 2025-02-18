@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-orjson-3.10.15-1.el9.src.rpm
+The lastest package built was python-pkgconfig-1.5.5-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:58:11 PM CET 2025
+The build completed at Tue Feb 18 03:58:45 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-orjson-3.10.15-1.el9.src.rpm.log)
+[Build Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -130,7 +130,7 @@ python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | 
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
-python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
+python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-poetry-core-2.1.1-1.el9 | python-poetry-core-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-2.1.1-1.el9.src.rpm.log)
 python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.10.1-1.el9.src.rpm.log)
 python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-prometheus-client-0.21.1-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 84 packages built successfully, 95 packages left to fix
+179 total packages, 85 packages built successfully, 94 packages left to fix
