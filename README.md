@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-24.4.2-1.el9.src.rpm
+The lastest package built was python-automat-24.8.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 04:17:51 PM CET 2025
+The build completed at Tue Feb 18 04:18:22 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
