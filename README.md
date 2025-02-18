@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm
+The lastest package built was python-backports-tarfile-1.2.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:44:53 PM CET 2025
+The build completed at Tue Feb 18 01:45:31 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -32,6 +32,7 @@ python3.11-azure-keyvault-secrets-4.9.0-1.el9 | python-azure-keyvault-secrets-4.
 python3.11-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
 python3.11-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 python3.11-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
+python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | **Missing** |
 python3.11-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
@@ -174,4 +175,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-164 total packages, 56 packages built successfully, 108 packages left to fix
+165 total packages, 56 packages built successfully, 109 packages left to fix
