@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-setuptools_scm-8.1.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 11:01:58 AM CET 2025
+The build completed at Tue Feb 18 11:04:11 AM CET 2025
 
 The build was unsuccessful.
 

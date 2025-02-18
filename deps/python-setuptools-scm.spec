@@ -1,7 +1,7 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-setuptools_scm
+Name:           python-setuptools-scm
 Version:        8.1.0
 Release:        %autorelease
 Summary:        the blessed package to manage your versions by scm tags
@@ -19,22 +19,22 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'setuptools-scm' generated automatically by pyp2spec.}
+This is package 'setuptools_scm' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-setuptools_scm
+%package -n     python%{python3_pkgversion}-setuptools-scm
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-setuptools_scm %_description
+%description -n python%{python3_pkgversion}-setuptools-scm %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-setuptools_scm toml
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-setuptools-scm toml
 
 
 %prep
-%autosetup -p1 -n setuptools-scm-%{version}
+%autosetup -p1 -n setuptools_scm-%{version}
 
 
 %generate_buildrequires
@@ -57,7 +57,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-setuptools_scm -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-setuptools-scm -f %{pyproject_files}
 
 
 %changelog
