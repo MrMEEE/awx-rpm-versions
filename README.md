@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zipp-3.21.0-1.el9.src.rpm
+The lastest package built was python-importlib-metadata-8.5.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:47:37 PM CET 2025
+The build completed at Tue Feb 18 02:48:22 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
+[Build Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -81,7 +81,7 @@ python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built 
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | **Missing** | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
-python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
+python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | Built | [Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | **Missing** | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
 python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | Built | [Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
@@ -191,4 +191,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-181 total packages, 71 packages built successfully, 110 packages left to fix
+181 total packages, 72 packages built successfully, 109 packages left to fix
