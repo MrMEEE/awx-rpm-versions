@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-crum-0.7.9-1.el9.src.rpm
+The lastest package built was python-django-extensions-3.2.3-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:22:46 PM CET 2025
+The build completed at Tue Feb 18 01:23:12 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
+[Build Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
