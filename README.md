@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rsa-4.9-1.el9.src.rpm
+The lastest package built was python-s3transfer-0.10.4-1.el9.src.rpm
 
-The build completed at Tue Feb 18 04:05:45 PM CET 2025
+The build completed at Tue Feb 18 04:06:18 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+[Build Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
