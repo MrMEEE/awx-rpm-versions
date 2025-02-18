@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-google-auth-2.37.0-1.el9.src.rpm
+The lastest package built was python-graphviz-0.20.3-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:36:01 PM CET 2025
+The build completed at Tue Feb 18 03:36:29 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
+[Build Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -73,7 +73,7 @@ python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-protos-1.66.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.66.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
-python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | **Missing** |
+python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | **Missing** | [Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
 python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
