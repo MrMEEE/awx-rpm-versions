@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/aio-libs/frozenlist
 Source:         %{pypi_source frozenlist}
 
-
+Patch:          frozenlist-deterministic.patch
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
