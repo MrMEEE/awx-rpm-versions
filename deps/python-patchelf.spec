@@ -14,7 +14,7 @@ Source:         %{pypi_source patchelf}
 
 BuildArch:      noarch
 
-BuildRequires: ninja
+BuildRequires: ninja-build
 BuildRequires: cmake
 BuildRequires:  python%{python3_pkgversion}-devel
 
