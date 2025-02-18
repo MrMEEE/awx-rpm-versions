@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-patchelf-0.17.2.1-1.el9.src.rpm
+The lastest package built was python-maturin-1.8.2-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:59:30 PM CET 2025
+The build completed at Tue Feb 18 03:06:31 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-patchelf-0.17.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-maturin-1.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -103,7 +103,6 @@ python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | **Missing** | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markupsafe-3.0.2-1.el9 | python-markupsafe-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
-python3.11-maturin-1.8.1-1.el9 | python-maturin-1.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.8.1-1.el9.src.rpm.log)
 python3.11-maturin-1.8.2-1.el9 | python-maturin-1.8.2-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.8.2-1.el9.src.rpm.log)
 python3.11-more-itertools-10.5.0-1.el9 | python-more-itertools-10.5.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.5.0-1.el9.src.rpm.log)
 python3.11-msal-1.31.1-1.el9 | python-msal-1.31.1-1.el9.src.rpm | **Missing** | [Log](logs/python-msal-1.31.1-1.el9.src.rpm.log)
@@ -128,7 +127,6 @@ python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-orjson-3.10.15-1.el9 | python-orjson-3.10.15-1.el9.src.rpm | **Missing** | [Log](logs/python-orjson-3.10.15-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
-python3.11-patchelf-0.17.2.1-1.el9 | python-patchelf-0.17.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-patchelf-0.17.2.1-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
@@ -191,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-181 total packages, 72 packages built successfully, 109 packages left to fix
+179 total packages, 72 packages built successfully, 107 packages left to fix
