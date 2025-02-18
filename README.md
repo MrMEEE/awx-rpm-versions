@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.4-1.el9.src.rpm
+The lastest package built was python-semantic-version-2.10.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 12:05:30 PM CET 2025
+The build completed at Tue Feb 18 12:05:59 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -140,7 +140,7 @@ python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | **Missing** | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
-python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | **Missing** | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
+python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
 python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
 python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-70.3.0-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-rust-1.10.2-1.el9.src.rpm.log)
@@ -167,4 +167,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-157 total packages, 47 packages built successfully, 110 packages left to fix
+157 total packages, 48 packages built successfully, 109 packages left to fix
