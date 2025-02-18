@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-propcache-0.2.1-1.el9.src.rpm
+The lastest package built was python-psycopg-3.2.3-1.el9.src.rpm
 
-The build completed at Tue Feb 18 04:00:22 PM CET 2025
+The build completed at Tue Feb 18 04:01:03 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-propcache-0.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -137,7 +137,7 @@ python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el
 python3.11-propcache-0.2.1-1.el9 | python-propcache-0.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-propcache-0.2.1-1.el9.src.rpm.log)
 python3.11-protobuf-5.29.3-1.el9 | python-protobuf-5.29.3-1.el9.src.rpm | Built | [Log](logs/python-protobuf-5.29.3-1.el9.src.rpm.log)
 python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | Built | [Log](logs/python-psutil-6.1.1-1.el9.src.rpm.log)
-python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
+python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | Built | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.4.1-1.el9.src.rpm.log)
 python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | **Missing** |
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 86 packages built successfully, 93 packages left to fix
+179 total packages, 87 packages built successfully, 92 packages left to fix
