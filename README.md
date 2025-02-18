@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-setuptools_scm-8.1.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 11:04:11 AM CET 2025
+The build completed at Tue Feb 18 11:06:39 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-setuptools_scm-8.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
@@ -146,7 +146,7 @@ python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.
 python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
 python3.11-setuptools-70.3.0-1.el9 | python-setuptools-70.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-70.3.0-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-rust-1.10.2-1.el9.src.rpm.log)
-python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
+python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
 python3.11-setuptools_scm-8.1.0-1.el9 | python-setuptools_scm-8.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools_scm-8.1.0-1.el9.src.rpm.log)
 python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.17.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | **Missing** | [Log](logs/python-slack-sdk-3.34.0-1.el9.src.rpm.log)
@@ -169,4 +169,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-159 total packages, 41 packages built successfully, 118 packages left to fix
+159 total packages, 42 packages built successfully, 117 packages left to fix

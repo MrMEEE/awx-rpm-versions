@@ -1,7 +1,7 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-setuptools-scm
+Name:           python-setuptools_scm
 Version:        8.1.0
 Release:        %autorelease
 Summary:        the blessed package to manage your versions by scm tags
@@ -19,7 +19,7 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'setuptools_scm' generated automatically by pyp2spec.}
+This is package 'setuptools-scm' generated automatically by pyp2spec.}
 
 %description %_description
 
