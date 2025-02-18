@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-mypy-1.15.0-1.el9.src.rpm
+The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:51:12 PM CET 2025
+The build completed at Tue Feb 18 03:51:40 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
+[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
