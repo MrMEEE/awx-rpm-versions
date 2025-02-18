@@ -1,17 +1,17 @@
 ## Latest build
-The lastest package built was python-aiodns-3.2.0-1.el9.src.rpm
+The lastest package built was python-aiohappyeyeballs-2.4.4-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:53:49 PM CET 2025
+The build completed at Tue Feb 18 01:54:23 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
-python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
+python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
 python3.11-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3.11-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-aiosignal-1.3.2-1.el9.src.rpm.log)
@@ -133,6 +133,7 @@ python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | **Missing** 
 python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.4.1-1.el9.src.rpm.log)
+python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | **Missing** |
 python3.11-pycparser-2.22-1.el9 | python-pycparser-2.22-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.22-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
@@ -177,4 +178,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-167 total packages, 57 packages built successfully, 110 packages left to fix
+168 total packages, 58 packages built successfully, 110 packages left to fix
