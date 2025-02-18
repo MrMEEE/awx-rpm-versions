@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-charset-normalizer-3.4.1-1.el9.src.rpm
+The lastest package built was python-constantly-23.10.4-1.el9.src.rpm
 
-The build completed at Tue Feb 18 05:21:42 PM CET 2025
+The build completed at Tue Feb 18 05:22:11 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
