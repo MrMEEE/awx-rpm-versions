@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-psycopg-3.2.3-1.el9.src.rpm
+The lastest package built was python-pycares-4.5.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 04:01:03 PM CET 2025
+The build completed at Tue Feb 18 04:02:04 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
+[Build Log](logs/python-pycares-4.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -140,7 +140,7 @@ python3.11-psutil-6.1.1-1.el9 | python-psutil-6.1.1-1.el9.src.rpm | Built | [Log
 python3.11-psycopg-3.2.3-1.el9 | python-psycopg-3.2.3-1.el9.src.rpm | Built | [Log](logs/python-psycopg-3.2.3-1.el9.src.rpm.log)
 python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-ptyprocess-0.7.0-1.el9.src.rpm.log)
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.4.1-1.el9.src.rpm.log)
-python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | **Missing** |
+python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | Built | [Log](logs/python-pycares-4.5.0-1.el9.src.rpm.log)
 python3.11-pycparser-2.22-1.el9 | python-pycparser-2.22-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.22-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 87 packages built successfully, 92 packages left to fix
+179 total packages, 88 packages built successfully, 91 packages left to fix
