@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm
+The lastest package built was python-mypy-1.15.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:14:05 PM CET 2025
+The build completed at Tue Feb 18 02:15:12 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -35,6 +35,7 @@ python3.11-bcrypt-4.2.1-1.el9 | python-bcrypt-4.2.1-1.el9.src.rpm | **Missing** 
 python3.11-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 python3.11-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
+python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | **Missing** |
 python3.11-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
@@ -110,6 +111,7 @@ python3.11-msgpack-1.1.0-1.el9 | python-msgpack-1.1.0-1.el9.src.rpm | Built | [L
 python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
 python3.11-msrestazure-0.6.4^post1-1.el9 | python-msrestazure-0.6.4^post1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrestazure-0.6.4^post1-1.el9.src.rpm.log)
 python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
+python3.11-mypy-1.15.0-1.el9 | python-mypy-1.15.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
@@ -181,4 +183,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-171 total packages, 62 packages built successfully, 109 packages left to fix
+173 total packages, 62 packages built successfully, 111 packages left to fix
