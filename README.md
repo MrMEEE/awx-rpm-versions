@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cffi-1.17.1-1.el9.src.rpm
+The lastest package built was python-channels-4.2.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:47:32 PM CET 2025
+The build completed at Tue Feb 18 01:48:02 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
+[Build Log](logs/python-channels-4.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -63,6 +63,7 @@ python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
+python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **Missing** |
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
@@ -175,4 +176,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-165 total packages, 56 packages built successfully, 109 packages left to fix
+166 total packages, 56 packages built successfully, 110 packages left to fix
