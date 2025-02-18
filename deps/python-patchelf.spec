@@ -14,6 +14,7 @@ Source:         %{pypi_source patchelf}
 
 BuildArch:      noarch
 
+BuildRequires: automake
 BuildRequires: autoconf
 BuildRequires: gcc-c++
 BuildRequires: gcc
