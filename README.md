@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-scikit-build-0.18.1-1.el9.src.rpm
+The lastest package built was python-patchelf-0.17.2.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:45:04 PM CET 2025
+The build completed at Tue Feb 18 02:45:42 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-scikit-build-0.18.1-1.el9.src.rpm.log)
+[Build Log](logs/python-patchelf-0.17.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
