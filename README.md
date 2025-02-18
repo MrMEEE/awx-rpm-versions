@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jaraco-logging-3.3.0-1.el9.src.rpm
+The lastest package built was python-jaraco-stream-3.0.4-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:40:56 PM CET 2025
+The build completed at Tue Feb 18 03:41:35 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -91,7 +91,7 @@ python3.11-jaraco-collections-5.1.0-1.el9 | python-jaraco-collections-5.1.0-1.el
 python3.11-jaraco-context-6.0.1-1.el9 | python-jaraco-context-6.0.1-1.el9.src.rpm | Built | [Log](logs/python-jaraco-context-6.0.1-1.el9.src.rpm.log)
 python3.11-jaraco-functools-4.1.0-1.el9 | python-jaraco-functools-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-functools-4.1.0-1.el9.src.rpm.log)
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
-python3.11-jaraco-stream-3.0.4-1.el9 | python-jaraco-stream-3.0.4-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
+python3.11-jaraco-stream-3.0.4-1.el9 | python-jaraco-stream-3.0.4-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
 python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jaraco-text-4.0.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 78 packages built successfully, 101 packages left to fix
+179 total packages, 79 packages built successfully, 100 packages left to fix
