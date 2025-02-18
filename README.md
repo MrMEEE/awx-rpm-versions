@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-propcache-0.2.1-1.el9.src.rpm
+The lastest package built was python-pyopenssl-24.3.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 04:55:24 PM CET 2025
+The build completed at Tue Feb 18 04:55:55 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-propcache-0.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
