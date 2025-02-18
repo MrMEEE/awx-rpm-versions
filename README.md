@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-attrs-24.3.0-1.el9.src.rpm
+The lastest package built was python-autobahn-24.4.2-1.el9.src.rpm
 
-The build completed at Tue Feb 18 11:15:33 AM CET 2025
+The build completed at Tue Feb 18 11:16:00 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -115,7 +115,6 @@ python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemet
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
-python3.11-pip-21.2.4-1.el9 | python-pip-21.2.4-1.el9.src.rpm | Built | [Log](logs/python-pip-21.2.4-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
 python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | **Missing** | [Log](logs/python-portalocker-2.10.1-1.el9.src.rpm.log)
 python3.11-prometheus-client-0.21.1-1.el9 | python-prometheus-client-0.21.1-1.el9.src.rpm | **Missing** | [Log](logs/python-prometheus-client-0.21.1-1.el9.src.rpm.log)
@@ -168,4 +167,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-158 total packages, 44 packages built successfully, 114 packages left to fix
+157 total packages, 43 packages built successfully, 114 packages left to fix
