@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm
+The lastest package built was python-orjson-3.10.15-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:57:38 PM CET 2025
+The build completed at Tue Feb 18 03:58:11 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
+[Build Log](logs/python-orjson-3.10.15-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
