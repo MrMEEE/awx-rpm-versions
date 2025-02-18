@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatchling-1.27.0-1.el9.src.rpm
+The lastest package built was python-trove-classifiers-2025.1.15.22-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:31:35 PM CET 2025
+The build completed at Tue Feb 18 01:32:50 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
+[Build Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -114,6 +114,7 @@ python3.11-opentelemetry-proto-1.29.0-1.el9 | python-opentelemetry-proto-1.29.0-
 python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-sdk-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
+python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | **Missing** |
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
@@ -153,6 +154,7 @@ python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | Built | [Log](
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | **Missing** | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
+python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.1.15.22-1.el9.src.rpm | **Missing** | [Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
 python3.11-tss-sdk-1.2.3-1.el9 | python-tss-sdk-1.2.3-1.el9.src.rpm | Built | [Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
 python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
@@ -168,4 +170,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-158 total packages, 52 packages built successfully, 106 packages left to fix
+160 total packages, 52 packages built successfully, 108 packages left to fix
