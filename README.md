@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-scikit-build-0.18.1-1.el9.src.rpm
+The lastest package built was python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:33:35 PM CET 2025
+The build completed at Tue Feb 18 02:34:39 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-scikit-build-0.18.1-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
