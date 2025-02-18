@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            10 MB/s |  59 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    96 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            18 MB/s |  69 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  47 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                            Architecture  Version                         Repository                Size
@@ -241,7 +241,7 @@ Start: rpmbuild python-cryptography-41.0.7-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.895xWq
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.MQKRrZ
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -255,7 +255,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.895xWq
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.MjY8vU
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Bwd6St
 + umask 022
 + cd /builddir/build/BUILD
 + cd cryptography-41.0.7
@@ -290,10 +290,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                12 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    77 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 8.1 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             8.1 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  47 kB     00:00    
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -336,7 +336,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PXjE4o
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.a9AYqx
 + umask 022
 + cd /builddir/build/BUILD
 + cd cryptography-41.0.7
@@ -379,10 +379,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 9.6 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             9.6 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    78 kB/s |  47 kB     00:00    
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -397,7 +397,7 @@ Dependencies resolved.
 =================================================================================================================
 Installing:
  [1mpython3.11-cffi                 [m x86_64      1.15.1-1.el9         appstream                               315 k
- [1mpython3.11-setuptools           [m noarch      70.3.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_      1.3 M
+ [1mpython3.11-setuptools           [m noarch      75.8.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_      2.2 M
  [1mpython3.11-setuptools-rust      [m noarch      1.10.2-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_       62 k
  [1mpython3.11-wheel                [m noarch      0.45.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_      158 k
 Installing dependencies:
@@ -408,8 +408,8 @@ Transaction Summary
 =================================================================================================================
 Install  6 Packages
 
-Total size: 2.1 M
-Installed size: 12 M
+Total size: 3.0 M
+Installed size: 15 M
 Downloading Packages:
 [SKIPPED] python3.11-cffi-1.15.1-1.el9.x86_64.rpm: Already downloaded                                           
 Running transaction check
@@ -418,7 +418,7 @@ Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :  [=============                                                                       ] 1/1  Preparing        :  [===========================                                                         ] 1/1  Preparing        :  [==========================================                                          ] 1/1  Preparing        :  [=======================================================                             ] 1/1  Preparing        :  [=====================================================================               ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [                                           ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=                                          ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==                                         ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===                                        ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====                                       ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====                                      ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======                                     ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======                                    ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========                                   ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========                                  ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========                                 ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========                                ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============                               ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============                              ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============                             ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============                            ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================                           ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================                          ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================                         ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================                        ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================                       ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================                      ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================                     ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================                    ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================                   ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================                  ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========================                 ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========================                ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============================               ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============================              ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============================             ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============================            ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================================           ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================================          ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================================         ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================================        ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================================       ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================================      ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================================     ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================================    ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================   ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================================  ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================== ] 1/6  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch                                               1/6 
+  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 1/6  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/6 
   Installing       : python3.11-semantic-version-2.10.0-1.el9.n [                                          ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [==                                        ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [=========                                 ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [===============                           ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [======================                    ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [=============================             ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [====================================      ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [=======================================   ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [========================================  ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.n [========================================= ] 2/6  Installing       : python3.11-semantic-version-2.10.0-1.el9.noarch                                         2/6 
   Installing       : python3.11-pycparser-2.22-1.el9.noarch [                                              ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=                                             ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==                                            ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===                                           ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [====                                          ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=====                                         ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=======                                       ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [========                                      ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=========                                     ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==========                                    ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===========                                   ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [============                                  ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=============                                 ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==============                                ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===============                               ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [================                              ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=================                             ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==================                            ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===================                           ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [====================                          ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=====================                         ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [======================                        ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=======================                       ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [========================                      ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=========================                     ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==========================                    ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===========================                   ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [============================                  ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=============================                 ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==============================                ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===============================               ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [================================              ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=================================             ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [==================================            ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===================================           ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [====================================          ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [======================================        ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=======================================       ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [========================================      ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [=========================================     ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [===========================================   ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [============================================  ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch [============================================= ] 3/6  Installing       : python3.11-pycparser-2.22-1.el9.noarch                                                  3/6 
   Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [                                                 ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=                                                ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==                                               ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===                                              ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=====                                            ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [======                                           ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=======                                          ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [========                                         ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=========                                        ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==========                                       ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===========                                      ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [============                                     ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=============                                    ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==============                                   ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===============                                  ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=================                                ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==================                               ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===================                              ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [====================                             ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=====================                            ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [======================                           ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=======================                          ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [========================                         ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=========================                        ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==========================                       ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===========================                      ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=============================                    ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===============================                  ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [================================                 ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=================================                ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==================================               ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===================================              ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [====================================             ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [======================================           ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=======================================          ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [========================================         ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=========================================        ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==========================================       ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [============================================     ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [=============================================    ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [==============================================   ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [===============================================  ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64 [================================================ ] 4/6  Installing       : python3.11-cffi-1.15.1-1.el9.x86_64                                                     4/6 
@@ -427,7 +427,7 @@ Running transaction
   Running scriptlet: python3.11-wheel-0.45.1-1.el9.noarch                                                    6/6 
   Verifying        : python3.11-pycparser-2.22-1.el9.noarch                                                  1/6 
   Verifying        : python3.11-semantic-version-2.10.0-1.el9.noarch                                         2/6 
-  Verifying        : python3.11-setuptools-70.3.0-1.el9.noarch                                               3/6 
+  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               3/6 
   Verifying        : python3.11-setuptools-rust-1.10.2-1.el9.noarch                                          4/6 
   Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    5/6 
   Verifying        : python3.11-cffi-1.15.1-1.el9.x86_64                                                     6/6 
@@ -435,14 +435,14 @@ Installed products updated.
 
 Installed:
   python3.11-cffi-1.15.1-1.el9.x86_64                        python3.11-pycparser-2.22-1.el9.noarch              
-  python3.11-semantic-version-2.10.0-1.el9.noarch            python3.11-setuptools-70.3.0-1.el9.noarch           
+  python3.11-semantic-version-2.10.0-1.el9.noarch            python3.11-setuptools-75.8.0-1.el9.noarch           
   python3.11-setuptools-rust-1.10.2-1.el9.noarch             python3.11-wheel-0.45.1-1.el9.noarch                
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Iv668D
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KQGXcR
 + umask 022
 + cd /builddir/build/BUILD
 + cd cryptography-41.0.7
@@ -464,7 +464,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Iv668D
 + /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cryptography-41.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cryptography-41.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.0.0 from build-system.requires
 Requirement satisfied: setuptools>=61.0.0
-   (installed: setuptools 70.3.0)
+   (installed: setuptools 75.8.0)
 Handling wheel from build-system.requires
 Requirement satisfied: wheel
    (installed: wheel 0.45.1)
@@ -523,45 +523,45 @@ adding license file 'LICENSE.APACHE'
 adding license file 'LICENSE.BSD'
 writing manifest file 'cryptography.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/cryptography-41.0.7/cryptography-41.0.7.dist-info'
-Handling cffi >=1.12 from hook generated metadata: Requires-Dist (cryptography)
-Requirement satisfied: cffi >=1.12
+Handling cffi>=1.12 from hook generated metadata: Requires-Dist (cryptography)
+Requirement satisfied: cffi>=1.12
    (installed: cffi 1.15.1)
-Handling sphinx >=5.3.0 ; extra == 'docs' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinx >=5.3.0 ; extra == 'docs'
-Handling sphinx-rtd-theme >=1.1.1 ; extra == 'docs' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinx-rtd-theme >=1.1.1 ; extra == 'docs'
-Handling pyenchant >=1.6.11 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pyenchant >=1.6.11 ; extra == 'docstest'
-Handling twine >=1.12.0 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: twine >=1.12.0 ; extra == 'docstest'
-Handling sphinxcontrib-spelling >=4.0.1 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinxcontrib-spelling >=4.0.1 ; extra == 'docstest'
-Handling nox ; extra == 'nox' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: nox ; extra == 'nox'
-Handling black ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: black ; extra == 'pep8test'
-Handling ruff ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: ruff ; extra == 'pep8test'
-Handling mypy ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: mypy ; extra == 'pep8test'
-Handling check-sdist ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: check-sdist ; extra == 'pep8test'
-Handling build ; extra == 'sdist' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: build ; extra == 'sdist'
-Handling bcrypt >=3.1.5 ; extra == 'ssh' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: bcrypt >=3.1.5 ; extra == 'ssh'
-Handling pytest >=6.2.0 ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest >=6.2.0 ; extra == 'test'
-Handling pytest-benchmark ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-benchmark ; extra == 'test'
-Handling pytest-cov ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-cov ; extra == 'test'
-Handling pytest-xdist ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-xdist ; extra == 'test'
-Handling pretend ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pretend ; extra == 'test'
-Handling pytest-randomly ; extra == 'test-randomorder' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-randomly ; extra == 'test-randomorder'
+Handling bcrypt>=3.1.5; extra == "ssh" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: bcrypt>=3.1.5; extra == "ssh"
+Handling nox; extra == "nox" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: nox; extra == "nox"
+Handling pytest>=6.2.0; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest>=6.2.0; extra == "test"
+Handling pytest-benchmark; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-benchmark; extra == "test"
+Handling pytest-cov; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-cov; extra == "test"
+Handling pytest-xdist; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-xdist; extra == "test"
+Handling pretend; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pretend; extra == "test"
+Handling pytest-randomly; extra == "test-randomorder" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-randomly; extra == "test-randomorder"
+Handling sphinx>=5.3.0; extra == "docs" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinx>=5.3.0; extra == "docs"
+Handling sphinx-rtd-theme>=1.1.1; extra == "docs" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinx-rtd-theme>=1.1.1; extra == "docs"
+Handling pyenchant>=1.6.11; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pyenchant>=1.6.11; extra == "docstest"
+Handling twine>=1.12.0; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: twine>=1.12.0; extra == "docstest"
+Handling sphinxcontrib-spelling>=4.0.1; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinxcontrib-spelling>=4.0.1; extra == "docstest"
+Handling build; extra == "sdist" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: build; extra == "sdist"
+Handling black; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: black; extra == "pep8test"
+Handling ruff; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: ruff; extra == "pep8test"
+Handling mypy; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: mypy; extra == "pep8test"
+Handling check-sdist; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: check-sdist; extra == "pep8test"
 + cat /builddir/build/BUILD/python-cryptography-41.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv cryptography-41.0.7.dist-info/
 removed 'cryptography-41.0.7.dist-info/top_level.txt'
@@ -582,10 +582,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                12 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                   102 kB/s |  47 kB     00:00    
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -594,7 +594,7 @@ Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-cffi-1.15.1-1.el9.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-rust-1.10.2-1.el9.noarch is already installed.
 Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
 Package rust-1.79.0-3.el9_5.x86_64 is already installed.
@@ -604,7 +604,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DlXVNm
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fG4QfJ
 + umask 022
 + cd /builddir/build/BUILD
 + cd cryptography-41.0.7
@@ -626,7 +626,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.DlXVNm
 + /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cryptography-41.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cryptography-41.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.0.0 from build-system.requires
 Requirement satisfied: setuptools>=61.0.0
-   (installed: setuptools 70.3.0)
+   (installed: setuptools 75.8.0)
 Handling wheel from build-system.requires
 Requirement satisfied: wheel
    (installed: wheel 0.45.1)
@@ -683,45 +683,45 @@ adding license file 'LICENSE.APACHE'
 adding license file 'LICENSE.BSD'
 writing manifest file 'cryptography.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/cryptography-41.0.7/cryptography-41.0.7.dist-info'
-Handling cffi >=1.12 from hook generated metadata: Requires-Dist (cryptography)
-Requirement satisfied: cffi >=1.12
+Handling cffi>=1.12 from hook generated metadata: Requires-Dist (cryptography)
+Requirement satisfied: cffi>=1.12
    (installed: cffi 1.15.1)
-Handling sphinx >=5.3.0 ; extra == 'docs' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinx >=5.3.0 ; extra == 'docs'
-Handling sphinx-rtd-theme >=1.1.1 ; extra == 'docs' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinx-rtd-theme >=1.1.1 ; extra == 'docs'
-Handling pyenchant >=1.6.11 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pyenchant >=1.6.11 ; extra == 'docstest'
-Handling twine >=1.12.0 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: twine >=1.12.0 ; extra == 'docstest'
-Handling sphinxcontrib-spelling >=4.0.1 ; extra == 'docstest' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: sphinxcontrib-spelling >=4.0.1 ; extra == 'docstest'
-Handling nox ; extra == 'nox' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: nox ; extra == 'nox'
-Handling black ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: black ; extra == 'pep8test'
-Handling ruff ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: ruff ; extra == 'pep8test'
-Handling mypy ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: mypy ; extra == 'pep8test'
-Handling check-sdist ; extra == 'pep8test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: check-sdist ; extra == 'pep8test'
-Handling build ; extra == 'sdist' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: build ; extra == 'sdist'
-Handling bcrypt >=3.1.5 ; extra == 'ssh' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: bcrypt >=3.1.5 ; extra == 'ssh'
-Handling pytest >=6.2.0 ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest >=6.2.0 ; extra == 'test'
-Handling pytest-benchmark ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-benchmark ; extra == 'test'
-Handling pytest-cov ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-cov ; extra == 'test'
-Handling pytest-xdist ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-xdist ; extra == 'test'
-Handling pretend ; extra == 'test' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pretend ; extra == 'test'
-Handling pytest-randomly ; extra == 'test-randomorder' from hook generated metadata: Requires-Dist (cryptography)
-Ignoring alien requirement: pytest-randomly ; extra == 'test-randomorder'
+Handling bcrypt>=3.1.5; extra == "ssh" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: bcrypt>=3.1.5; extra == "ssh"
+Handling nox; extra == "nox" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: nox; extra == "nox"
+Handling pytest>=6.2.0; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest>=6.2.0; extra == "test"
+Handling pytest-benchmark; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-benchmark; extra == "test"
+Handling pytest-cov; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-cov; extra == "test"
+Handling pytest-xdist; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-xdist; extra == "test"
+Handling pretend; extra == "test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pretend; extra == "test"
+Handling pytest-randomly; extra == "test-randomorder" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pytest-randomly; extra == "test-randomorder"
+Handling sphinx>=5.3.0; extra == "docs" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinx>=5.3.0; extra == "docs"
+Handling sphinx-rtd-theme>=1.1.1; extra == "docs" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinx-rtd-theme>=1.1.1; extra == "docs"
+Handling pyenchant>=1.6.11; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: pyenchant>=1.6.11; extra == "docstest"
+Handling twine>=1.12.0; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: twine>=1.12.0; extra == "docstest"
+Handling sphinxcontrib-spelling>=4.0.1; extra == "docstest" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: sphinxcontrib-spelling>=4.0.1; extra == "docstest"
+Handling build; extra == "sdist" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: build; extra == "sdist"
+Handling black; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: black; extra == "pep8test"
+Handling ruff; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: ruff; extra == "pep8test"
+Handling mypy; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: mypy; extra == "pep8test"
+Handling check-sdist; extra == "pep8test" from hook generated metadata: Requires-Dist (cryptography)
+Ignoring alien requirement: check-sdist; extra == "pep8test"
 + cat /builddir/build/BUILD/python-cryptography-41.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv cryptography-41.0.7.dist-info/
 removed 'cryptography-41.0.7.dist-info/top_level.txt'
@@ -733,7 +733,7 @@ removed directory 'cryptography-41.0.7.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.TXFFri
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Q77cVU
 + umask 022
 + cd /builddir/build/BUILD
 + cd cryptography-41.0.7
@@ -746,13 +746,13 @@ Processing /builddir/build/BUILD/cryptography-41.0.7
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info
-  writing /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info
+  writing /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no files found matching '*.c' under directory 'src/_cffi_src'
   warning: no files found matching '*.h' under directory 'src/_cffi_src'
@@ -769,8 +769,8 @@ Processing /builddir/build/BUILD/cryptography-41.0.7
   adding license file 'LICENSE'
   adding license file 'LICENSE.APACHE'
   adding license file 'LICENSE.BSD'
-  writing manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-sdcxg4ak/cryptography-41.0.7.dist-info'
+  writing manifest file '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/pip-modern-metadata-_0lxspfv/cryptography-41.0.7.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: cryptography
   Building wheel for cryptography (pyproject.toml): started
@@ -778,8 +778,6 @@ Building wheels for collected packages: cryptography
   running bdist_wheel
   running build
   running build_py
-  creating build
-  creating build/lib.linux-x86_64-cpython-311
   creating build/lib.linux-x86_64-cpython-311/cryptography
   copying src/cryptography/__about__.py -> build/lib.linux-x86_64-cpython-311/cryptography
   copying src/cryptography/__init__.py -> build/lib.linux-x86_64-cpython-311/cryptography
@@ -913,101 +911,104 @@ Building wheels for collected packages: cryptography
   running build_rust
       Updating crates.io index
    Downloading crates ...
-    Downloaded memoffset v0.8.0
-    Downloaded foreign-types-shared v0.1.1
-    Downloaded indoc v1.0.9
-    Downloaded aliasable v0.1.3
-    Downloaded lock_api v0.4.9
-    Downloaded windows-targets v0.42.2
-    Downloaded asn1_derive v0.15.2
-    Downloaded parking_lot v0.12.1
-    Downloaded foreign-types v0.3.2
     Downloaded cfg-if v1.0.0
-    Downloaded Inflector v0.11.4
-    Downloaded pem v1.1.1
-    Downloaded bitflags v1.3.2
-    Downloaded autocfg v1.1.0
+    Downloaded asn1_derive v0.15.2
     Downloaded openssl-macros v0.1.1
-    Downloaded pkg-config v0.3.27
-    Downloaded proc-macro-error v1.0.4
-    Downloaded pyo3-build-config v0.18.3
-    Downloaded parking_lot_core v0.9.7
-    Downloaded version_check v0.9.4
+    Downloaded pem v1.1.1
     Downloaded proc-macro-error-attr v1.0.4
-    Downloaded smallvec v1.10.0
-    Downloaded pyo3-macros v0.18.3
-    Downloaded redox_syscall v0.2.16
+    Downloaded Inflector v0.11.4
+    Downloaded pyo3-build-config v0.18.3
+    Downloaded foreign-types-shared v0.1.1
     Downloaded pyo3-macros-backend v0.18.3
-    Downloaded unindent v0.1.11
-    Downloaded scopeguard v1.1.0
+    Downloaded parking_lot_core v0.9.7
+    Downloaded windows-targets v0.42.2
+    Downloaded pyo3-macros v0.18.3
+    Downloaded foreign-types v0.3.2
+    Downloaded aliasable v0.1.3
+    Downloaded target-lexicon v0.12.7
+    Downloaded memoffset v0.8.0
     Downloaded ouroboros v0.15.6
-    Downloaded quote v1.0.28
+    Downloaded pkg-config v0.3.27
+    Downloaded scopeguard v1.1.0
+    Downloaded version_check v0.9.4
     Downloaded asn1 v0.15.2
-    Downloaded pyo3-ffi v0.18.3
-    Downloaded bitflags v2.4.1
+    Downloaded ouroboros_macro v0.15.6
+    Downloaded indoc v1.0.9
+    Downloaded autocfg v1.1.0
+    Downloaded bitflags v1.3.2
+    Downloaded once_cell v1.17.2
+    Downloaded lock_api v0.4.9
+    Downloaded unindent v0.1.11
+    Downloaded smallvec v1.10.0
+    Downloaded proc-macro-error v1.0.4
+    Downloaded quote v1.0.28
     Downloaded unicode-ident v1.0.9
+    Downloaded redox_syscall v0.2.16
+    Downloaded bitflags v2.4.1
+    Downloaded parking_lot v0.12.1
+    Downloaded pyo3-ffi v0.18.3
     Downloaded proc-macro2 v1.0.64
     Downloaded cc v1.0.79
+    Downloaded openssl-sys v0.9.96
     Downloaded base64 v0.13.1
-    Downloaded libc v0.2.144
     Downloaded vcpkg v0.2.15
-    Downloaded syn v2.0.18
     Downloaded syn v1.0.109
+    Downloaded syn v2.0.18
+    Downloaded openssl v0.10.60
     Downloaded windows_x86_64_gnullvm v0.42.2
     Downloaded windows_aarch64_gnullvm v0.42.2
     Downloaded pyo3 v0.18.3
-    Downloaded windows_x86_64_msvc v0.42.2
+    Downloaded libc v0.2.144
     Downloaded windows_aarch64_msvc v0.42.2
+    Downloaded windows_x86_64_msvc v0.42.2
     Downloaded windows_i686_msvc v0.42.2
     Downloaded windows_x86_64_gnu v0.42.2
     Downloaded windows_i686_gnu v0.42.2
     Downloaded windows-sys v0.45.0
-    Downloaded openssl v0.10.60
-    Downloaded ouroboros_macro v0.15.6
-    Downloaded target-lexicon v0.12.7
-    Downloaded once_cell v1.17.2
-    Downloaded openssl-sys v0.9.96
   cargo rustc --lib --message-format=json-render-diagnostics --manifest-path src/rust/Cargo.toml --release -v --features pyo3/extension-module --crate-type cdylib --
      Compiling proc-macro2 v1.0.64
-     Compiling unicode-ident v1.0.9
-     Compiling quote v1.0.28
-     Compiling target-lexicon v0.12.7
-       Running `rustc --crate-name unicode_ident --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-ident-1.0.9/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=4f7fa1998df32b0e -C extra-filename=-4f7fa1998df32b0e --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.64/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="proc-macro"' -C metadata=909059b6fb485125 -C extra-filename=-909059b6fb485125 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/proc-macro2-909059b6fb485125 -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
-       Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.28/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="proc-macro"' -C metadata=d580766d45c6ca2d -C extra-filename=-d580766d45c6ca2d --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/quote-d580766d45c6ca2d -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
+     Compiling quote v1.0.28
+     Compiling unicode-ident v1.0.9
+     Compiling target-lexicon v0.12.7
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.7/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=6234b2160e53adac -C extra-filename=-6234b2160e53adac --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/target-lexicon-6234b2160e53adac -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
+       Running `rustc --crate-name unicode_ident --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-ident-1.0.9/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=4f7fa1998df32b0e -C extra-filename=-4f7fa1998df32b0e --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
+       Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.28/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="proc-macro"' -C metadata=d580766d45c6ca2d -C extra-filename=-d580766d45c6ca2d --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/quote-d580766d45c6ca2d -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
      Compiling cc v1.0.79
        Running `rustc --crate-name cc --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cc-1.0.79/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=dd8b7e87c30488d4 -C extra-filename=-dd8b7e87c30488d4 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/quote-d580766d45c6ca2d/build-script-build`
-     Compiling vcpkg v0.2.15
-       Running `rustc --crate-name vcpkg --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/vcpkg-0.2.15/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=fc40f1d92a5a9a15 -C extra-filename=-fc40f1d92a5a9a15 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
+     Compiling pkg-config v0.3.27
+       Running `rustc --crate-name pkg_config --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkg-config-0.3.27/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=ff143b4ae77164fc -C extra-filename=-ff143b4ae77164fc --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/proc-macro2-909059b6fb485125/build-script-build`
        Running `rustc --crate-name proc_macro2 --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.64/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="proc-macro"' -C metadata=67b78033c3fcea88 -C extra-filename=-67b78033c3fcea88 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern unicode_ident=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libunicode_ident-4f7fa1998df32b0e.rmeta --cap-lints allow --cfg wrap_proc_macro`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/target-lexicon-6234b2160e53adac/build-script-build`
        Running `rustc --crate-name target_lexicon --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.7/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' -C metadata=52c68f87d51d9fa3 -C extra-filename=-52c68f87d51d9fa3 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow --cfg 'feature="rust_1_40"'`
        Running `rustc --crate-name quote --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.28/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="proc-macro"' -C metadata=d5e5bc29c659e781 -C extra-filename=-d5e5bc29c659e781 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern proc_macro2=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libproc_macro2-67b78033c3fcea88.rmeta --cap-lints allow`
-     Compiling pkg-config v0.3.27
-       Running `rustc --crate-name pkg_config --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pkg-config-0.3.27/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=ff143b4ae77164fc -C extra-filename=-ff143b4ae77164fc --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
+     Compiling vcpkg v0.2.15
+       Running `rustc --crate-name vcpkg --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/vcpkg-0.2.15/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=fc40f1d92a5a9a15 -C extra-filename=-fc40f1d92a5a9a15 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
      Compiling libc v0.2.144
        Running `rustc --crate-name build_script_build --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.144/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=8b155f2476ad2654 -C extra-filename=-8b155f2476ad2654 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/libc-8b155f2476ad2654 -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
      Compiling pyo3-build-config v0.18.3
        Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.18.3/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="abi3-py310"' --cfg 'feature="abi3-py311"' --cfg 'feature="abi3-py37"' --cfg 'feature="abi3-py38"' --cfg 'feature="abi3-py39"' --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' -C metadata=3c0e72264d254183 -C extra-filename=-3c0e72264d254183 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/pyo3-build-config-3c0e72264d254183 -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern target_lexicon=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libtarget_lexicon-52c68f87d51d9fa3.rlib --cap-lints allow`
-     Compiling syn v1.0.109
-       Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-1.0.109/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --cfg 'feature="quote"' -C metadata=e020c323729b96d4 -C extra-filename=-e020c323729b96d4 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/syn-e020c323729b96d4 -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/libc-8b155f2476ad2654/build-script-build`
      Compiling autocfg v1.1.0
        Running `rustc --crate-name autocfg --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.1.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=81af58304a05051e -C extra-filename=-81af58304a05051e --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
-     Compiling openssl-sys v0.9.96
-       Running `rustc --crate-name build_script_main --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/openssl-sys-0.9.96/build/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=70acf044f8dfdfee -C extra-filename=-70acf044f8dfdfee --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/openssl-sys-70acf044f8dfdfee -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern cc=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libcc-dd8b7e87c30488d4.rlib --extern pkg_config=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libpkg_config-ff143b4ae77164fc.rlib --extern vcpkg=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libvcpkg-fc40f1d92a5a9a15.rlib --cap-lints allow`
+     Compiling syn v1.0.109
+       Running `rustc --crate-name build_script_build --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-1.0.109/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --cfg 'feature="quote"' -C metadata=e020c323729b96d4 -C extra-filename=-e020c323729b96d4 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/syn-e020c323729b96d4 -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/syn-e020c323729b96d4/build-script-build`
        Running `rustc --crate-name libc --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.144/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no -C overflow-checks=on --cfg 'feature="default"' --cfg 'feature="std"' -C metadata=36f5bbf1037168d9 -C extra-filename=-36f5bbf1037168d9 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow --cfg freebsd11 --cfg libc_priv_mod_use --cfg libc_union --cfg libc_const_size_of --cfg libc_align --cfg libc_int128 --cfg libc_core_cvoid --cfg libc_packedN --cfg libc_cfg_target_vendor --cfg libc_non_exhaustive --cfg libc_long_array --cfg libc_ptr_addr_of --cfg libc_underscore_const_names --cfg libc_const_extern_fn`
-     Compiling version_check v0.9.4
-       Running `rustc --crate-name version_check --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=9e67d50697e02f8e -C extra-filename=-9e67d50697e02f8e --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
      Compiling once_cell v1.17.2
        Running `rustc --crate-name once_cell --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/once_cell-1.17.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' -C metadata=c682923044eebd87 -C extra-filename=-c682923044eebd87 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
-       Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/openssl-sys-70acf044f8dfdfee/build-script-main`
+     Compiling openssl-sys v0.9.96
+       Running `rustc --crate-name build_script_main --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/openssl-sys-0.9.96/build/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=70acf044f8dfdfee -C extra-filename=-70acf044f8dfdfee --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/openssl-sys-70acf044f8dfdfee -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern cc=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libcc-dd8b7e87c30488d4.rlib --extern pkg_config=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libpkg_config-ff143b4ae77164fc.rlib --extern vcpkg=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libvcpkg-fc40f1d92a5a9a15.rlib --cap-lints allow`
+     Compiling version_check v0.9.4
+       Running `rustc --crate-name version_check --edition=2015 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on -C metadata=9e67d50697e02f8e -C extra-filename=-9e67d50697e02f8e --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --cap-lints allow`
        Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/pyo3-build-config-3c0e72264d254183/build-script-build`
+       Running `rustc --crate-name pyo3_build_config --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.18.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="abi3"' --cfg 'feature="abi3-py310"' --cfg 'feature="abi3-py311"' --cfg 'feature="abi3-py37"' --cfg 'feature="abi3-py38"' --cfg 'feature="abi3-py39"' --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' -C metadata=b14ebd572bc666fa -C extra-filename=-b14ebd572bc666fa --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern once_cell=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libonce_cell-c682923044eebd87.rmeta --extern target_lexicon=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libtarget_lexicon-52c68f87d51d9fa3.rmeta --cap-lints allow`
        Running `rustc --crate-name syn --edition=2018 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-1.0.109/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --cfg 'feature="quote"' -C metadata=29a439291038f102 -C extra-filename=-29a439291038f102 --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern proc_macro2=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libproc_macro2-67b78033c3fcea88.rmeta --extern quote=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libquote-d5e5bc29c659e781.rmeta --extern unicode_ident=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libunicode_ident-4f7fa1998df32b0e.rmeta --cap-lints allow --cfg syn_disable_nightly_tests`
+     Compiling syn v2.0.18
+       Running `rustc --crate-name syn --edition=2021 /builddir/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-2.0.18/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off -C overflow-checks=on --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --cfg 'feature="quote"' -C metadata=8779fe281781881c -C extra-filename=-8779fe281781881c --out-dir /builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps -C strip=debuginfo -L dependency=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps --extern proc_macro2=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libproc_macro2-67b78033c3fcea88.rmeta --extern quote=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libquote-d5e5bc29c659e781.rmeta --extern unicode_ident=/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/deps/libunicode_ident-4f7fa1998df32b0e.rmeta --cap-lints allow`
+       Running `/builddir/build/BUILD/cryptography-41.0.7/src/rust/target/release/build/openssl-sys-70acf044f8dfdfee/build-script-main`
   error: failed to run custom build command for `openssl-sys v0.9.96`
 
   Caused by:
@@ -1095,7 +1096,7 @@ Building wheels for collected packages: cryptography
       Python: 3.11.9
       platform: Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.34
       pip: 22.3.1
-      setuptools: 70.3.0
+      setuptools: 75.8.0
       setuptools_rust: 1.10.2
       rustc: 1.79.0 (129f3b996 2024-06-10) (Red Hat 1.79.0-3.el9_5)
       =============================DEBUG ASSISTANCE=============================
@@ -1108,26 +1109,26 @@ Building wheels for collected packages: cryptography
   ╰─> See above for output.
   
   note: This error originates from a subprocess, and is likely not a problem with pip.
-  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/tmp39fzljku
+  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/cryptography-41.0.7/.pyproject-builddir-3.11/tmp9sdhmesu
   cwd: /builddir/build/BUILD/cryptography-41.0.7
   Building wheel for cryptography (pyproject.toml): finished with status 'error'
   ERROR: Failed building wheel for cryptography
 Failed to build cryptography
 ERROR: Failed to build one or more wheels
-error: Bad exit status from /var/tmp/rpm-tmp.TXFFri (%build)
-    Bad exit status from /var/tmp/rpm-tmp.TXFFri (%build)
 
 
 RPM build errors:
+error: Bad exit status from /var/tmp/rpm-tmp.Q77cVU (%build)
+    Bad exit status from /var/tmp/rpm-tmp.Q77cVU (%build)
 Finish: rpmbuild python-cryptography-41.0.7-1.el9.src.rpm
 Finish: build phase for python-cryptography-41.0.7-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cryptography-41.0.7-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 43 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cryptography-41.0.7-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 44 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M d0883a2b4a3841e18dbef7f86b2f52c3 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.qlequc8v:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-cryptography.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M cc35a65cbddd4f179a76f364abc2902f -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.dmyp4z82:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-cryptography.spec --nocheck'
 
 Directory walk started
-Directory walk done - 83 packages
+Directory walk done - 98 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
