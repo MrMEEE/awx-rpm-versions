@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-maturin-1.7.8-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:55:30 AM CET 2025
+The build completed at Wed Feb 19 12:59:55 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
@@ -103,7 +103,7 @@ python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markupsafe-3.0.2-1.el9 | python-markupsafe-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
-python3.11-maturin-1.7.8-1.el9 | python-maturin-1.7.8-1.el9.src.rpm | **Missing** | [Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
+python3.11-maturin-1.7.8-1.el9 | python-maturin-1.7.8-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
 python3.11-more-itertools-10.5.0-1.el9 | python-more-itertools-10.5.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.5.0-1.el9.src.rpm.log)
 python3.11-msal-1.31.1-1.el9 | python-msal-1.31.1-1.el9.src.rpm | Built | [Log](logs/python-msal-1.31.1-1.el9.src.rpm.log)
 python3.11-msal-extensions-1.2.0-1.el9 | python-msal-extensions-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-msal-extensions-1.2.0-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 101 packages built successfully, 78 packages left to fix
+179 total packages, 102 packages built successfully, 77 packages left to fix
