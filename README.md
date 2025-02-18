@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-importlib-metadata-8.5.0-1.el9.src.rpm
+The lastest package built was python-zipp-3.21.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:46:40 PM CET 2025
+The build completed at Tue Feb 18 02:47:37 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -188,7 +188,7 @@ python3.11-websocket-client-1.8.0-1.el9 | python-websocket-client-1.8.0-1.el9.sr
 python3.11-wheel-0.45.1-1.el9 | python-wheel-0.45.1-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.45.1-1.el9.src.rpm.log)
 python3.11-wrapt-1.17.0-1.el9 | python-wrapt-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-wrapt-1.17.0-1.el9.src.rpm.log)
 python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | [Log](logs/python-yarl-1.18.3-1.el9.src.rpm.log)
-python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
+python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-181 total packages, 70 packages built successfully, 111 packages left to fix
+181 total packages, 71 packages built successfully, 110 packages left to fix
