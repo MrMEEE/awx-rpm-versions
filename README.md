@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyyaml-6.0.2-1.el9.src.rpm
+The lastest package built was python-pyzstd-0.16.2-1.el9.src.rpm
 
-The build completed at Tue Feb 18 12:00:18 PM CET 2025
+The build completed at Tue Feb 18 12:01:27 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
+[Build Log](logs/python-pyzstd-0.16.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -131,7 +131,7 @@ python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | **Mi
 python3.11-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.2-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
-python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | **Missing** | [Log](logs/python-pyzstd-0.16.2-1.el9.src.rpm.log)
+python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | Built | [Log](logs/python-pyzstd-0.16.2-1.el9.src.rpm.log)
 python3.11-receptorctl-1.5.2-1.el9 | python-receptorctl-1.5.2-1.el9.src.rpm | **Missing** | [Log](logs/python-receptorctl-1.5.2-1.el9.src.rpm.log)
 python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 python3.11-referencing-0.35.1-1.el9 | python-referencing-0.35.1-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.35.1-1.el9.src.rpm.log)
@@ -167,4 +167,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-157 total packages, 45 packages built successfully, 112 packages left to fix
+157 total packages, 46 packages built successfully, 111 packages left to fix

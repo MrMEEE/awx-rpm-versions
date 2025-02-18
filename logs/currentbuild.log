@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyyaml-6.0.2-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyzstd-0.16.2-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyyaml-6.0.2-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyzstd-0.16.2-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-pyyaml-6.0.2-1.el9.src.rpm
-Start: build setup for python-pyyaml-6.0.2-1.el9.src.rpm
+Start: build phase for python-pyzstd-0.16.2-1.el9.src.rpm
+Start: build setup for python-pyzstd-0.16.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Wrote: /builddir/build/SRPMS/python-pyyaml-6.0.2-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           8.5 MB/s |  44 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            12 MB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 35% [============-                       ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    51 kB/s |  44 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                            Architecture  Version                         Repository                Size
@@ -221,31 +221,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-pyyaml-6.0.2-1.el9.src.rpm
+Finish: build setup for python-pyzstd-0.16.2-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-pyyaml-6.0.2-1.el9.src.rpm
+Start: rpmbuild python-pyzstd-0.16.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.I3crqe
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.MqPy61
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf pyyaml-6.0.2
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/pyyaml-6.0.2.tar.gz
++ rm -rf pyzstd-0.16.2
++ /usr/bin/gzip -dc /builddir/build/SOURCES/pyzstd-0.16.2.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd pyyaml-6.0.2
++ cd pyzstd-0.16.2
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jfxlq4
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.PPauif
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pyyaml-6.0.2
++ cd pyzstd-0.16.2
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -254,21 +254,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jfxlq4
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pyyaml-6.0.2-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -277,10 +277,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    76 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    77 kB/s |  44 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -321,10 +321,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QmQlE2
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.TCSGAq
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pyyaml-6.0.2
++ cd pyzstd-0.16.2
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -333,158 +333,23 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QmQlE2
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement not satisfied: setuptools
-Handling wheel from build-system.requires
-Requirement not satisfied: wheel
-Handling Cython; python_version < '3.13' from build-system.requires
-Requirement not satisfied: Cython; python_version < '3.13'
-Handling Cython>=3.0; python_version >= '3.13' from build-system.requires
-Ignoring alien requirement: Cython>=3.0; python_version >= '3.13'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=64,<74 from build-system.requires
+Requirement not satisfied: setuptools>=64,<74
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pyyaml-6.0.2-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           925 kB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    92 kB/s |  44 kB     00:00    
-Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                      Architecture  Version              Repository                                 Size
-=================================================================================================================
-Installing:
- [1mpython3.11-cython           [m x86_64        3.0.11-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        3.6 M
- [1mpython3.11-setuptools       [m noarch        65.5.1-3.el9         appstream                                 1.7 M
- [1mpython3.11-wheel            [m noarch        0.45.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        158 k
-
-Transaction Summary
-=================================================================================================================
-Install  3 Packages
-
-Total size: 5.4 M
-Installed size: 27 M
-Downloading Packages:
-[SKIPPED] python3.11-setuptools-65.5.1-3.el9.noarch.rpm: Already downloaded                                     
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Preparing        :  [===========================                                                         ] 1/1  Preparing        :  [=======================================================                             ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [                                           ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=                                          ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==                                         ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===                                        ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====                                       ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====                                      ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======                                     ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======                                    ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========                                   ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========                                  ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========                                 ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========                                ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============                               ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============                              ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============                             ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============                            ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================                           ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================                          ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================                         ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================                        ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================                       ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================                      ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================                     ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================                    ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================                   ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================                  ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================                 ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================                ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================               ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================              ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================             ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================            ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================           ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================          ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================         ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================================        ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================================       ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================================      ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================================     ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================================    ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================   ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================================  ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================== ] 1/3  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch                                               1/3 
-  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 2/3  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    2/3 
-  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [                                               ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=                                              ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==                                             ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===                                            ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [====                                           ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=====                                          ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [======                                         ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=======                                        ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [========                                       ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=========                                      ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==========                                     ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===========                                    ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [============                                   ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=============                                  ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==============                                 ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===============                                ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [================                               ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=================                              ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==================                             ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===================                            ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [====================                           ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=====================                          ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [======================                         ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=======================                        ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [========================                       ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=========================                      ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==========================                     ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===========================                    ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [============================                   ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=============================                  ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==============================                 ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===============================                ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [================================               ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=================================              ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==================================             ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===================================            ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [====================================           ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=====================================          ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [======================================         ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=======================================        ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [========================================       ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=========================================      ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [==========================================     ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [===========================================    ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [============================================   ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [=============================================  ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64 [============================================== ] 3/3  Installing       : python3.11-cython-3.0.11-1.el9.x86_64                                                   3/3 
-  Running scriptlet: python3.11-cython-3.0.11-1.el9.x86_64                                                   3/3 
-  Verifying        : python3.11-cython-3.0.11-1.el9.x86_64                                                   1/3 
-  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    2/3 
-  Verifying        : python3.11-setuptools-65.5.1-3.el9.noarch                                               3/3 
-Installed products updated.
-
-Installed:
-  python3.11-cython-3.0.11-1.el9.x86_64                 python3.11-setuptools-65.5.1-3.el9.noarch                
-  python3.11-wheel-0.45.1-1.el9.noarch                 
-
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1qXsTo
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd pyyaml-6.0.2
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 65.5.1)
-Handling wheel from build-system.requires
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-Handling Cython; python_version < '3.13' from build-system.requires
-Requirement satisfied: Cython; python_version < '3.13'
-   (installed: Cython 3.0.11)
-Handling Cython>=3.0; python_version >= '3.13' from build-system.requires
-Ignoring alien requirement: Cython>=3.0; python_version >= '3.13'
-running egg_info
-writing lib/PyYAML.egg-info/PKG-INFO
-writing dependency_links to lib/PyYAML.egg-info/dependency_links.txt
-writing top-level names to lib/PyYAML.egg-info/top_level.txt
-No `pyyaml_build_config` setting found.
-cythoning yaml/_yaml.pyx to yaml/_yaml.c
-/usr/lib64/python3.11/site-packages/Cython/Compiler/Main.py:381: FutureWarning: Cython directive 'language_level' not set, using '3str' for now (Py3). This has changed from earlier releases! File: /builddir/build/BUILD/pyyaml-6.0.2/yaml/_yaml.pxd
-  tree = Parsing.p_module(s, pxd, full_module_name)
-reading manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'README'
-adding license file 'LICENSE'
-writing manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
-Handling wheel from get_requires_for_build_wheel
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running dist_info
-creating PyYAML.egg-info
-writing PyYAML.egg-info/PKG-INFO
-writing dependency_links to PyYAML.egg-info/dependency_links.txt
-writing top-level names to PyYAML.egg-info/top_level.txt
-writing manifest file 'PyYAML.egg-info/SOURCES.txt'
-No `pyyaml_build_config` setting found.
-skipping 'yaml/_yaml.c' Cython extension (up-to-date)
-reading manifest file 'PyYAML.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'README'
-adding license file 'LICENSE'
-writing manifest file 'PyYAML.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/pyyaml-6.0.2/PyYAML-6.0.2.dist-info'
-+ cat /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv PyYAML-6.0.2.dist-info/
-removed 'PyYAML-6.0.2.dist-info/top_level.txt'
-removed 'PyYAML-6.0.2.dist-info/METADATA'
-removed 'PyYAML-6.0.2.dist-info/LICENSE'
-removed directory 'PyYAML-6.0.2.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-pyyaml-6.0.2-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -493,29 +358,53 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    77 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 3.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                3.4 kB/s | 4.1 kB     00:01    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  44 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-cython-3.0.11-1.el9.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
 Dependencies resolved.
-Nothing to do.
+=================================================================================================================
+ Package                            Architecture        Version                     Repository              Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-setuptools             [m noarch              65.5.1-3.el9                appstream              1.7 M
+
+Transaction Summary
+=================================================================================================================
+Install  1 Package
+
+Total size: 1.7 M
+Installed size: 8.5 M
+Downloading Packages:
+[SKIPPED] python3.11-setuptools-65.5.1-3.el9.noarch.rpm: Already downloaded                                     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [                                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=                                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==                                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===                                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====                                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====                                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======                                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======                                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========                                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========                                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========                                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========                                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============                               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============                              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============                             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============                            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================                           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================                          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================                         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================                        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================                       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================                      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================                     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================                    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================                   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================                  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==========================                 ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===========================                ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [============================               ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=============================              ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==============================             ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===============================            ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [================================           ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=================================          ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [==================================         ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [===================================        ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [====================================       ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=====================================      ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [======================================     ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=======================================    ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================   ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [=========================================  ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch [========================================== ] 1/1  Installing       : python3.11-setuptools-65.5.1-3.el9.noarch                                               1/1 
+  Running scriptlet: python3.11-setuptools-65.5.1-3.el9.noarch                                               1/1 
+  Verifying        : python3.11-setuptools-65.5.1-3.el9.noarch                                               1/1 
+Installed products updated.
+
+Installed:
+  python3.11-setuptools-65.5.1-3.el9.noarch                                                                      
+
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5saupB
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vQpwtS
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pyyaml-6.0.2
++ cd pyzstd-0.16.2
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -524,244 +413,421 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5saupB
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=64,<74 from build-system.requires
+Requirement satisfied: setuptools>=64,<74
    (installed: setuptools 65.5.1)
-Handling wheel from build-system.requires
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-Handling Cython; python_version < '3.13' from build-system.requires
-Requirement satisfied: Cython; python_version < '3.13'
-   (installed: Cython 3.0.11)
-Handling Cython>=3.0; python_version >= '3.13' from build-system.requires
-Ignoring alien requirement: Cython>=3.0; python_version >= '3.13'
 running egg_info
-writing lib/PyYAML.egg-info/PKG-INFO
-writing dependency_links to lib/PyYAML.egg-info/dependency_links.txt
-writing top-level names to lib/PyYAML.egg-info/top_level.txt
-No `pyyaml_build_config` setting found.
-skipping 'yaml/_yaml.c' Cython extension (up-to-date)
-reading manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
+writing pyzstd.egg-info/PKG-INFO
+writing dependency_links to pyzstd.egg-info/dependency_links.txt
+writing top-level names to pyzstd.egg-info/top_level.txt
+reading manifest file 'pyzstd.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'README'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
 adding license file 'LICENSE'
-writing manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
+writing manifest file 'pyzstd.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement not satisfied: wheel
+Exiting dependency generation pass: get_requires_for_build_wheel
++ cat /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv '*.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                12 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  44 kB     00:00    
+Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
+Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Dependencies resolved.
+=================================================================================================================
+ Package                  Architecture   Version                Repository                                  Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-wheel        [m noarch         0.45.1-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_         158 k
+
+Transaction Summary
+=================================================================================================================
+Install  1 Package
+
+Total size: 158 k
+Installed size: 576 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+  Running scriptlet: python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+Installed products updated.
+
+Installed:
+  python3.11-wheel-0.45.1-1.el9.noarch                                                                           
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739836800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.UH4ROn
++ umask 022
++ cd /builddir/build/BUILD
++ cd pyzstd-0.16.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=64,<74 from build-system.requires
+Requirement satisfied: setuptools>=64,<74
+   (installed: setuptools 65.5.1)
+running egg_info
+writing pyzstd.egg-info/PKG-INFO
+writing dependency_links to pyzstd.egg-info/dependency_links.txt
+writing top-level names to pyzstd.egg-info/top_level.txt
+reading manifest file 'pyzstd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'pyzstd.egg-info/SOURCES.txt'
 Handling wheel from get_requires_for_build_wheel
 Requirement satisfied: wheel
    (installed: wheel 0.45.1)
 running dist_info
-writing PyYAML.egg-info/PKG-INFO
-writing dependency_links to PyYAML.egg-info/dependency_links.txt
-writing top-level names to PyYAML.egg-info/top_level.txt
-No `pyyaml_build_config` setting found.
-skipping 'yaml/_yaml.c' Cython extension (up-to-date)
-reading manifest file 'PyYAML.egg-info/SOURCES.txt'
+writing pyzstd.egg-info/PKG-INFO
+writing dependency_links to pyzstd.egg-info/dependency_links.txt
+writing top-level names to pyzstd.egg-info/top_level.txt
+reading manifest file 'pyzstd.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'README'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
 adding license file 'LICENSE'
-writing manifest file 'PyYAML.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/pyyaml-6.0.2/PyYAML-6.0.2.dist-info'
-+ cat /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv PyYAML-6.0.2.dist-info/
-removed 'PyYAML-6.0.2.dist-info/top_level.txt'
-removed 'PyYAML-6.0.2.dist-info/METADATA'
-removed 'PyYAML-6.0.2.dist-info/LICENSE'
-removed directory 'PyYAML-6.0.2.dist-info/'
+writing manifest file 'pyzstd.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/pyzstd-0.16.2/pyzstd-0.16.2.dist-info'
++ cat /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv pyzstd-0.16.2.dist-info/
+removed 'pyzstd-0.16.2.dist-info/top_level.txt'
+removed 'pyzstd-0.16.2.dist-info/METADATA'
+removed 'pyzstd-0.16.2.dist-info/LICENSE'
+removed directory 'pyzstd-0.16.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Kjn20W
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 6.9 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             6.9 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================] 9.8 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                               9.8 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 35% [============-                       ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    64 kB/s |  44 kB     00:00    
+Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
+Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739836800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.k01flM
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pyyaml-6.0.2
-+ mkdir -p /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
++ cd pyzstd-0.16.2
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/pyyaml-6.0.2
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=64,<74 from build-system.requires
+Requirement satisfied: setuptools>=64,<74
+   (installed: setuptools 65.5.1)
+running egg_info
+writing pyzstd.egg-info/PKG-INFO
+writing dependency_links to pyzstd.egg-info/dependency_links.txt
+writing top-level names to pyzstd.egg-info/top_level.txt
+reading manifest file 'pyzstd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'pyzstd.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.45.1)
+running dist_info
+writing pyzstd.egg-info/PKG-INFO
+writing dependency_links to pyzstd.egg-info/dependency_links.txt
+writing top-level names to pyzstd.egg-info/top_level.txt
+reading manifest file 'pyzstd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'pyzstd.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/pyzstd-0.16.2/pyzstd-0.16.2.dist-info'
++ cat /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv pyzstd-0.16.2.dist-info/
+removed 'pyzstd-0.16.2.dist-info/top_level.txt'
+removed 'pyzstd-0.16.2.dist-info/METADATA'
+removed 'pyzstd-0.16.2.dist-info/LICENSE'
+removed directory 'pyzstd-0.16.2.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.FGS8z2
++ umask 022
++ cd /builddir/build/BUILD
++ cd pyzstd-0.16.2
++ mkdir -p /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/pyzstd-0.16.2
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info
-  writing /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/SOURCES.txt'
-  No `pyyaml_build_config` setting found.
-  skipping 'yaml/_yaml.c' Cython extension (up-to-date)
-  reading manifest file '/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info
+  writing /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'README'
+  warning: no previously-included files matching '__pycache__' found under directory '*'
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-modern-metadata-eev3e27c/PyYAML-6.0.2.dist-info'
+  writing manifest file '/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-modern-metadata-r2xwwjv4/pyzstd-0.16.2.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: PyYAML
-  Building wheel for PyYAML (pyproject.toml): started
-  Running command Building wheel for PyYAML (pyproject.toml)
+Building wheels for collected packages: pyzstd
+  Building wheel for pyzstd (pyproject.toml): started
+  Running command Building wheel for pyzstd (pyproject.toml)
   running bdist_wheel
   running build
   running build_py
   creating build
   creating build/lib.linux-x86_64-cpython-311
-  creating build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/__init__.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/composer.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/constructor.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/cyaml.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/dumper.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/emitter.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/error.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/events.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/loader.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/nodes.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/parser.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/reader.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/representer.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/resolver.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/scanner.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/serializer.py -> build/lib.linux-x86_64-cpython-311/yaml
-  copying lib/yaml/tokens.py -> build/lib.linux-x86_64-cpython-311/yaml
-  creating build/lib.linux-x86_64-cpython-311/_yaml
-  copying lib/_yaml/__init__.py -> build/lib.linux-x86_64-cpython-311/_yaml
+  creating build/lib.linux-x86_64-cpython-311/pyzstd
+  copying src/__init__.py -> build/lib.linux-x86_64-cpython-311/pyzstd
+  copying src/__main__.py -> build/lib.linux-x86_64-cpython-311/pyzstd
+  copying src/seekable_zstdfile.py -> build/lib.linux-x86_64-cpython-311/pyzstd
+  copying src/zstdfile.py -> build/lib.linux-x86_64-cpython-311/pyzstd
+  creating build/lib.linux-x86_64-cpython-311/pyzstd/c
+  copying src/c/__init__.py -> build/lib.linux-x86_64-cpython-311/pyzstd/c
+  copying src/__init__.pyi -> build/lib.linux-x86_64-cpython-311/pyzstd
+  copying src/py.typed -> build/lib.linux-x86_64-cpython-311/pyzstd
   running build_ext
-  No `pyyaml_build_config` setting found.
-  skipping 'yaml/_yaml.c' Cython extension (up-to-date)
-  BUILDING CYTHON EXT; self.include_dirs=['/usr/include/python3.11'] self.library_dirs=['/usr/lib64'] self.define=None
-  building 'yaml._yaml' extension
+  +--------------------------------------------+
+  |             Pyzstd build config            |
+  +-------------------------+------------------+
+  | Pyzstd version          | 0.16.2           |
+  +-------------------------+------------------+
+  | Implementation          | C                |
+  +-------------------------+------------------+
+  | Link to zstd library    | Statically link  |
+  +-------------------------+------------------+
+  | Enable AVX2/BMI2        | False            |
+  +-------------------------+------------------+
+  | Debug build             | False            |
+  +-------------------------+------------------+
+  | Warning as error        | False            |
+  +-------------------------+------------------+
+  building 'pyzstd.c._zstd' extension
   creating build/temp.linux-x86_64-cpython-311
-  creating build/temp.linux-x86_64-cpython-311/yaml
-  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -I/usr/include/python3.11 -c yaml/_yaml.c -o build/temp.linux-x86_64-cpython-311/yaml/_yaml.o
-  In file included from yaml/_yaml.c:1222:
-  yaml/_yaml.h:2:10: fatal error: yaml.h: No such file or directory
-      2 | #include <yaml.h>
-        |          ^~~~~~~~
-  compilation terminated.
-  Error compiling module, falling back to pure Python
+  creating build/temp.linux-x86_64-cpython-311/src
+  creating build/temp.linux-x86_64-cpython-311/src/bin_ext
+  creating build/temp.linux-x86_64-cpython-311/zstd
+  creating build/temp.linux-x86_64-cpython-311/zstd/lib
+  creating build/temp.linux-x86_64-cpython-311/zstd/lib/common
+  creating build/temp.linux-x86_64-cpython-311/zstd/lib/compress
+  creating build/temp.linux-x86_64-cpython-311/zstd/lib/decompress
+  creating build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c src/bin_ext/pyzstd.c -o build/temp.linux-x86_64-cpython-311/src/bin_ext/pyzstd.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/debug.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/debug.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/entropy_common.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/entropy_common.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/error_private.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/error_private.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/fse_decompress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/fse_decompress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/pool.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/pool.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/threading.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/threading.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/xxhash.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/xxhash.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/common/zstd_common.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/common/zstd_common.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/fse_compress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/fse_compress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/hist.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/hist.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/huf_compress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/huf_compress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_compress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_compress_literals.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_literals.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_compress_sequences.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_sequences.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_compress_superblock.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_superblock.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_double_fast.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_double_fast.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_fast.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_fast.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_lazy.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_lazy.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_ldm.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_ldm.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstd_opt.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_opt.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/compress/zstdmt_compress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstdmt_compress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/decompress/huf_decompress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/huf_decompress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/decompress/huf_decompress_amd64.S -o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/huf_decompress_amd64.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/decompress/zstd_ddict.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_ddict.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/decompress/zstd_decompress.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_decompress.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/decompress/zstd_decompress_block.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_decompress_block.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/dictBuilder/cover.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/cover.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/dictBuilder/divsufsort.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/divsufsort.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/dictBuilder/fastcover.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/fastcover.o -g0 -flto
+  gcc -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fstack-protector-strong -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -D_GNU_SOURCE -fPIC -fwrapv -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -DPYZSTD_STATIC_LINK -DZSTD_MULTITHREAD -Izstd/lib -Izstd/lib/common -Izstd/lib/dictBuilder -I/usr/include/python3.11 -c zstd/lib/dictBuilder/zdict.c -o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/zdict.o -g0 -flto
+  gcc -shared -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -g -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection build/temp.linux-x86_64-cpython-311/src/bin_ext/pyzstd.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/debug.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/entropy_common.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/error_private.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/fse_decompress.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/pool.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/threading.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/xxhash.o build/temp.linux-x86_64-cpython-311/zstd/lib/common/zstd_common.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/fse_compress.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/hist.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/huf_compress.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_literals.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_sequences.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_compress_superblock.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_double_fast.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_fast.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_lazy.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_ldm.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstd_opt.o build/temp.linux-x86_64-cpython-311/zstd/lib/compress/zstdmt_compress.o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/huf_decompress.o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/huf_decompress_amd64.o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_ddict.o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_decompress.o build/temp.linux-x86_64-cpython-311/zstd/lib/decompress/zstd_decompress_block.o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/cover.o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/divsufsort.o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/fastcover.o build/temp.linux-x86_64-cpython-311/zstd/lib/dictBuilder/zdict.o -L/usr/lib64 -o build/lib.linux-x86_64-cpython-311/pyzstd/c/_zstd.cpython-311-x86_64-linux-gnu.so -g0 -flto
   installing to build/bdist.linux-x86_64/wheel
   running install
   running install_lib
   creating build/bdist.linux-x86_64
   creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/__init__.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/composer.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/constructor.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/cyaml.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/dumper.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/emitter.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/error.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/events.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/loader.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/nodes.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/parser.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/reader.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/representer.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/resolver.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/scanner.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/serializer.py -> build/bdist.linux-x86_64/wheel/yaml
-  copying build/lib.linux-x86_64-cpython-311/yaml/tokens.py -> build/bdist.linux-x86_64/wheel/yaml
-  creating build/bdist.linux-x86_64/wheel/_yaml
-  copying build/lib.linux-x86_64-cpython-311/_yaml/__init__.py -> build/bdist.linux-x86_64/wheel/_yaml
+  creating build/bdist.linux-x86_64/wheel/pyzstd
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/__init__.py -> build/bdist.linux-x86_64/wheel/pyzstd
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/__main__.py -> build/bdist.linux-x86_64/wheel/pyzstd
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/seekable_zstdfile.py -> build/bdist.linux-x86_64/wheel/pyzstd
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/zstdfile.py -> build/bdist.linux-x86_64/wheel/pyzstd
+  creating build/bdist.linux-x86_64/wheel/pyzstd/c
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/c/__init__.py -> build/bdist.linux-x86_64/wheel/pyzstd/c
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/c/_zstd.cpython-311-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/wheel/pyzstd/c
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/__init__.pyi -> build/bdist.linux-x86_64/wheel/pyzstd
+  copying build/lib.linux-x86_64-cpython-311/pyzstd/py.typed -> build/bdist.linux-x86_64/wheel/pyzstd
   running install_egg_info
   running egg_info
-  writing lib/PyYAML.egg-info/PKG-INFO
-  writing dependency_links to lib/PyYAML.egg-info/dependency_links.txt
-  writing top-level names to lib/PyYAML.egg-info/top_level.txt
-  reading manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
+  writing pyzstd.egg-info/PKG-INFO
+  writing dependency_links to pyzstd.egg-info/dependency_links.txt
+  writing top-level names to pyzstd.egg-info/top_level.txt
+  reading manifest file 'pyzstd.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'README'
+  warning: no previously-included files matching '__pycache__' found under directory '*'
   adding license file 'LICENSE'
-  writing manifest file 'lib/PyYAML.egg-info/SOURCES.txt'
-  Copying lib/PyYAML.egg-info to build/bdist.linux-x86_64/wheel/PyYAML-6.0.2-py3.11.egg-info
+  writing manifest file 'pyzstd.egg-info/SOURCES.txt'
+  Copying pyzstd.egg-info to build/bdist.linux-x86_64/wheel/pyzstd-0.16.2-py3.11.egg-info
   running install_scripts
-  creating build/bdist.linux-x86_64/wheel/PyYAML-6.0.2.dist-info/WHEEL
-  creating '/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11/pip-wheel-_xa11c4_/tmp6l67eh0l/PyYAML-6.0.2-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding '_yaml/__init__.py'
-  adding 'yaml/__init__.py'
-  adding 'yaml/composer.py'
-  adding 'yaml/constructor.py'
-  adding 'yaml/cyaml.py'
-  adding 'yaml/dumper.py'
-  adding 'yaml/emitter.py'
-  adding 'yaml/error.py'
-  adding 'yaml/events.py'
-  adding 'yaml/loader.py'
-  adding 'yaml/nodes.py'
-  adding 'yaml/parser.py'
-  adding 'yaml/reader.py'
-  adding 'yaml/representer.py'
-  adding 'yaml/resolver.py'
-  adding 'yaml/scanner.py'
-  adding 'yaml/serializer.py'
-  adding 'yaml/tokens.py'
-  adding 'PyYAML-6.0.2.dist-info/LICENSE'
-  adding 'PyYAML-6.0.2.dist-info/METADATA'
-  adding 'PyYAML-6.0.2.dist-info/WHEEL'
-  adding 'PyYAML-6.0.2.dist-info/top_level.txt'
-  adding 'PyYAML-6.0.2.dist-info/RECORD'
+  creating build/bdist.linux-x86_64/wheel/pyzstd-0.16.2.dist-info/WHEEL
+  creating '/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11/pip-wheel-_fw92st6/tmpf3h6_kws/pyzstd-0.16.2-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'pyzstd/__init__.py'
+  adding 'pyzstd/__init__.pyi'
+  adding 'pyzstd/__main__.py'
+  adding 'pyzstd/py.typed'
+  adding 'pyzstd/seekable_zstdfile.py'
+  adding 'pyzstd/zstdfile.py'
+  adding 'pyzstd/c/__init__.py'
+  adding 'pyzstd/c/_zstd.cpython-311-x86_64-linux-gnu.so'
+  adding 'pyzstd-0.16.2.dist-info/LICENSE'
+  adding 'pyzstd-0.16.2.dist-info/METADATA'
+  adding 'pyzstd-0.16.2.dist-info/WHEEL'
+  adding 'pyzstd-0.16.2.dist-info/top_level.txt'
+  adding 'pyzstd-0.16.2.dist-info/RECORD'
   removing build/bdist.linux-x86_64/wheel
-  Building wheel for PyYAML (pyproject.toml): finished with status 'done'
-  Created wheel for PyYAML: filename=PyYAML-6.0.2-cp311-cp311-linux_x86_64.whl size=45362 sha256=2d206d55fe2600fde7d90983ad31a56e5b2804643b459e52770026fdbaa1ba5c
-  Stored in directory: /builddir/.cache/pip/wheels/c7/e2/c1/01cd3fc9e09ed81be886e7ee99bcf9f4041758760974e07dd0
-Successfully built PyYAML
+  Building wheel for pyzstd (pyproject.toml): finished with status 'done'
+  Created wheel for pyzstd: filename=pyzstd-0.16.2-cp311-cp311-linux_x86_64.whl size=357561 sha256=6b73c56c1f831ff5d28d903aa749a2c030bc7b4368b82cdf5c06d6a49f61382f
+  Stored in directory: /builddir/.cache/pip/wheels/82/01/f6/6eeaa02fb257f206889cf3df286edc7a3d61be79b37492f689
+Successfully built pyzstd
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.yxuwQU
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.NCvBlr
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64
++ '[' /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64
-+ cd pyyaml-6.0.2
-++ ls /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11/PyYAML-6.0.2-cp311-cp311-linux_x86_64.whl
++ mkdir /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64
++ cd pyzstd-0.16.2
+++ ls /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11/pyzstd-0.16.2-cp311-cp311-linux_x86_64.whl
 ++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=PyYAML==6.0.2
-+ '[' -z PyYAML==6.0.2 ']'
-+ TMPDIR=/builddir/build/BUILD/pyyaml-6.0.2/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11 PyYAML==6.0.2
++ specifier=pyzstd==0.16.2
++ '[' -z pyzstd==0.16.2 ']'
++ TMPDIR=/builddir/build/BUILD/pyzstd-0.16.2/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11 pyzstd==0.16.2
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/pyyaml-6.0.2/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/PyYAML-6.0.2-cp311-cp311-linux_x86_64.whl
-Installing collected packages: PyYAML
-Successfully installed PyYAML-6.0.2
+Looking in links: /builddir/build/BUILD/pyzstd-0.16.2/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/pyzstd-0.16.2-cp311-cp311-linux_x86_64.whl
+Installing collected packages: pyzstd
+Successfully installed pyzstd-0.16.2
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ '[' -d /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 + site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
 + site_dirs+=("/usr/lib64/python3.11/site-packages")
 + for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/INSTALLER
++ for distinfo in /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/RECORD --output /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-record
-removed '/builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/RECORD
-+ rm -fv /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/PyYAML-6.0.2.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/RECORD --output /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11/site-packages/pyzstd-0.16.2.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-pyyaml-6.0.2-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-pyzstd-0.16.2-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
 + /usr/lib/rpm/brp-compress
@@ -770,18 +836,18 @@ removed '/builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/py
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64/usr/lib64/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64/usr/lib64/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-pyyaml-6.0.2-1.el9.x86_64
-Provides: python3.11-pyyaml = 6.0.2-1.el9 python3.11-pyyaml(x86-64) = 6.0.2-1.el9 python3.11dist(pyyaml) = 6.0.2
+Processing files: python3.11-pyzstd-0.16.2-1.el9.x86_64
+Provides: python3.11-pyzstd = 0.16.2-1.el9 python3.11-pyzstd(x86-64) = 0.16.2-1.el9 python3.11dist(pyzstd) = 0.16.2
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-pyyaml-6.0.2-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-pyyaml-6.0.2-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-pyyaml-6.0.2-1.el9.x86_64.rpm
-Finish: rpmbuild python-pyyaml-6.0.2-1.el9.src.rpm
-Finish: build phase for python-pyyaml-6.0.2-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyyaml-6.0.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 36 seconds
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.14)(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3.2)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.34)(64bit) libc.so.6(GLIBC_2.4)(64bit) python(abi) = 3.11 rtld(GNU_HASH)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-pyzstd-0.16.2-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-pyzstd-0.16.2-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-pyzstd-0.16.2-1.el9.x86_64.rpm
+Finish: rpmbuild python-pyzstd-0.16.2-1.el9.src.rpm
+Finish: build phase for python-pyzstd-0.16.2-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pyzstd-0.16.2-1.el9.src.rpm) Config(epel-9-x86_64) 1 minutes 0 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
