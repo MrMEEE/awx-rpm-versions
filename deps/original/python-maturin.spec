@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-maturin
-Version:        1.8.2
+Version:        1.7.8
 Release:        %autorelease
 Summary:        Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages
 
