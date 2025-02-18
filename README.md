@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-djangorestframework-3.15.2-1.el9.src.rpm
+The lastest package built was python-djangorestframework-yaml-2.0.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:31:10 PM CET 2025
+The build completed at Tue Feb 18 03:31:47 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
+[Build Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -60,7 +60,7 @@ python3.11-django-guid-3.5.0-1.el9 | python-django-guid-3.5.0-1.el9.src.rpm | **
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
-python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
+python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 73 packages built successfully, 106 packages left to fix
+179 total packages, 74 packages built successfully, 105 packages left to fix
