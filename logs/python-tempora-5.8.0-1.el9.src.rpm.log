@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            15 MB/s |  52 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    79 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           3.0 MB/s |  82 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              10 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  47 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-tempora-5.8.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.WcupMV
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.QzkCt5
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.WcupMV
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3cKgEN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xvKVsK
 + umask 022
 + cd /builddir/build/BUILD
 + cd tempora-5.8.0
@@ -204,7 +204,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3cKgEN
 + TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x check,cover,doc,enabler,test,type
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -221,9 +221,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    79 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FhF9FI
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xc71tV
 + umask 022
 + cd /builddir/build/BUILD
 + cd tempora-5.8.0
@@ -282,7 +282,7 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.FhF9FI
 + TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x check,cover,doc,enabler,test,type
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.2 from build-system.requires
 Requirement not satisfied: setuptools>=61.2
 Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
@@ -302,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                   101 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -316,7 +316,7 @@ Dependencies resolved.
  Package                             Arch        Version           Repository                               Size
 =================================================================================================================
 Installing:
- [1mpython3.11-setuptools              [m noarch      70.3.0-1.el9      _opt_awxrpmng_rpmbuilds_3000_RPMS_      1.3 M
+ [1mpython3.11-setuptools              [m noarch      75.8.0-1.el9      _opt_awxrpmng_rpmbuilds_3000_RPMS_      2.2 M
  [1mpython3.11-setuptools-scm          [m noarch      8.1.0-1.el9       _opt_awxrpmng_rpmbuilds_3000_RPMS_      101 k
  [1mpython3.11-setuptools-scm+toml     [m noarch      8.1.0-1.el9       _opt_awxrpmng_rpmbuilds_3000_RPMS_      7.4 k
 
@@ -324,8 +324,8 @@ Transaction Summary
 =================================================================================================================
 Install  3 Packages
 
-Total size: 1.4 M
-Installed size: 8.1 M
+Total size: 2.3 M
+Installed size: 12 M
 Downloading Packages:
 Running transaction check
 Transaction check succeeded.
@@ -333,24 +333,24 @@ Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :  [===========================                                                         ] 1/1  Preparing        :  [=======================================================                             ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [                                           ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=                                          ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==                                         ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===                                        ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====                                       ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====                                      ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======                                     ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======                                    ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========                                   ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========                                  ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========                                 ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========                                ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============                               ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============                              ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============                             ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============                            ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================                           ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================                          ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================                         ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================                        ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================                       ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================                      ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================                     ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================                    ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================                   ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================                  ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==========================                 ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===========================                ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [============================               ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=============================              ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==============================             ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===============================            ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [================================           ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=================================          ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [==================================         ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [===================================        ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [====================================       ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=====================================      ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [======================================     ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=======================================    ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================   ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [=========================================  ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch [========================================== ] 1/3  Installing       : python3.11-setuptools-70.3.0-1.el9.noarch                                               1/3 
+  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/3 
   Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [                                          ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=                                         ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==                                        ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===                                       ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====                                      ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====                                     ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======                                   ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========                                  ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=========                                 ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==========                                ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===========                               ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==============                            ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [================                          ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=================                         ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==================                        ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===================                       ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====================                      ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====================                     ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [======================                    ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======================                   ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================                  ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=========================                 ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==========================                ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===========================               ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [============================              ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=============================             ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==============================            ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===============================           ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=================================         ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==================================        ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===================================       ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====================================      ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====================================     ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [======================================    ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======================================   ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================================  ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================================= ] 2/3  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noarch                                            2/3 
   Installing       : python3.11-setuptools-scm+toml-8.1.0-1.el9 [                                          ] 3/3  Installing       : python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch                                       3/3 
   Running scriptlet: python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch                                       3/3 
-  Verifying        : python3.11-setuptools-70.3.0-1.el9.noarch                                               1/3 
+  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/3 
   Verifying        : python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch                                       2/3 
   Verifying        : python3.11-setuptools-scm-8.1.0-1.el9.noarch                                            3/3 
 Installed products updated.
 
 Installed:
-  python3.11-setuptools-70.3.0-1.el9.noarch                 python3.11-setuptools-scm-8.1.0-1.el9.noarch        
+  python3.11-setuptools-75.8.0-1.el9.noarch                 python3.11-setuptools-scm-8.1.0-1.el9.noarch        
   python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch        
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.b0h4du
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Qraep0
 + umask 022
 + cd /builddir/build/BUILD
 + cd tempora-5.8.0
@@ -369,10 +369,10 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.b0h4du
 + TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires -x check,cover,doc,enabler,test,type
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools>=61.2 from build-system.requires
 Requirement satisfied: setuptools>=61.2
-   (installed: setuptools 70.3.0)
+   (installed: setuptools 75.8.0)
 Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
 Requirement satisfied: setuptools_scm[toml]>=3.4.1
    (installed: setuptools_scm 8.1.0)
@@ -396,42 +396,43 @@ reading manifest file 'tempora.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
 writing manifest file 'tempora.egg-info/SOURCES.txt'
 creating '/builddir/build/BUILD/tempora-5.8.0/tempora-5.8.0.dist-info'
-Handling jaraco.functools >=1.20 from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: jaraco.functools >=1.20
+Handling jaraco.functools>=1.20 from hook generated metadata: Requires-Dist (tempora)
+Requirement satisfied: jaraco.functools>=1.20
+   (installed: jaraco.functools 4.0.1)
 Handling python-dateutil from hook generated metadata: Requires-Dist (tempora)
 Requirement not satisfied: python-dateutil
-Handling pytest-checkdocs >=2.4 ; extra == 'check' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-checkdocs >=2.4 ; extra == 'check'
-Handling pytest-ruff >=0.2.1 ; (sys_platform != "cygwin") and extra == 'check' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-ruff >=0.2.1 ; (sys_platform != "cygwin") and extra == 'check'
-Handling pytest-cov ; extra == 'cover' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-cov ; extra == 'cover'
-Handling sphinx >=3.5 ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: sphinx >=3.5 ; extra == 'doc'
-Handling jaraco.packaging >=9.3 ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: jaraco.packaging >=9.3 ; extra == 'doc'
-Handling rst.linker >=1.9 ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: rst.linker >=1.9 ; extra == 'doc'
-Handling furo ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: furo ; extra == 'doc'
-Handling sphinx-lint ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: sphinx-lint ; extra == 'doc'
-Handling jaraco.tidelift >=1.4 ; extra == 'doc' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: jaraco.tidelift >=1.4 ; extra == 'doc'
-Handling pytest-enabler >=2.2 ; extra == 'enabler' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-enabler >=2.2 ; extra == 'enabler'
-Handling pytest !=8.1.*,>=6 ; extra == 'test' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest !=8.1.*,>=6 ; extra == 'test'
-Handling pytest-freezer ; extra == 'test' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-freezer ; extra == 'test'
-Handling tzdata ; (platform_system == "Windows") and extra == 'test' from hook generated metadata: Requires-Dist (tempora)
-Ignoring alien requirement: tzdata ; (platform_system == "Windows") and extra == 'test'
-Handling backports.zoneinfo ; (python_version < "3.9") and extra == 'test' from hook generated metadata: Requires-Dist (tempora)
-Ignoring alien requirement: backports.zoneinfo ; (python_version < "3.9") and extra == 'test'
-Handling pytest-mypy ; extra == 'type' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: pytest-mypy ; extra == 'type'
-Handling types-python-dateutil ; extra == 'type' from hook generated metadata: Requires-Dist (tempora)
-Requirement not satisfied: types-python-dateutil ; extra == 'type'
+Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
+Handling pytest-freezer; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-freezer; extra == "test"
+Handling backports.zoneinfo; python_version < "3.9" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: backports.zoneinfo; python_version < "3.9" and extra == "test"
+Handling tzdata; platform_system == "Windows" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: tzdata; platform_system == "Windows" and extra == "test"
+Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx>=3.5; extra == "doc"
+Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
+Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
+Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: furo; extra == "doc"
+Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx-lint; extra == "doc"
+Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
+Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
+Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
+Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-cov; extra == "cover"
+Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
+Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-mypy; extra == "type"
+Handling types-python-dateutil; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: types-python-dateutil; extra == "type"
 + cat /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv tempora-5.8.0.dist-info/
 removed 'tempora-5.8.0.dist-info/entry_points.txt'
@@ -451,78 +452,432 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(furo)'
-No matching package to install: 'python3.11dist(jaraco-functools) >= 1.20'
-No matching package to install: 'python3.11dist(jaraco-packaging) >= 9.3'
-No matching package to install: 'python3.11dist(jaraco-tidelift) >= 1.4'
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-checkdocs) >= 2.4'
-No matching package to install: 'python3.11dist(pytest-cov)'
-No matching package to install: 'python3.11dist(pytest-enabler) >= 2.2'
-No matching package to install: 'python3.11dist(pytest-freezer)'
-No matching package to install: 'python3.11dist(pytest-mypy)'
-No matching package to install: 'python3.11dist(pytest-ruff) >= 0.2.1'
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(rst-linker) >= 1.9'
 Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(sphinx) >= 3.5'
-No matching package to install: 'python3.11dist(sphinx-lint)'
-No matching package to install: 'python3.11dist(types-python-dateutil)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-tempora-5.8.0-1.el9.src.rpm
-Finish: build phase for python-tempora-5.8.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-tempora-5.8.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 25 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 4f29b7333574447497fdd7042b080f55 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ur9q8e2l:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-tempora-5.8.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+=================================================================================================================
+ Package                         Arch       Version                 Repository                              Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-jaraco-functools    [m noarch     4.1.0-1.el9             _opt_awxrpmng_rpmbuilds_3000_RPMS_      23 k
+ [1mpython3.11-python-dateutil     [m noarch     2.9.0^post0-1.el9       _opt_awxrpmng_rpmbuilds_3000_RPMS_     316 k
+Installing dependencies:
+ [1mpython3.11-more-itertools      [m noarch     10.5.0-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_     112 k
+ [1mpython3.11-six                 [m noarch     1.17.0-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_      33 k
+
+Transaction Summary
+=================================================================================================================
+Install  4 Packages
+
+Total size: 483 k
+Installed size: 1.6 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [=====================                                                               ] 1/1  Preparing        :  [==========================================                                          ] 1/1  Preparing        :  [===============================================================                     ] 1/1  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-six-1.17.0-1.el9.noarch [                                                  ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [=                                                 ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [==                                                ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [=====================                             ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [======================                            ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [=========================================         ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch [================================================= ] 1/4  Installing       : python3.11-six-1.17.0-1.el9.noarch                                                      1/4 
+  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [                                          ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==                                        ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====                                      ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [======                                    ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [=======                                   ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==========                                ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [============                              ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==============                            ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [================                          ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==================                        ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====================                      ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [======================                    ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [========================                  ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==========================                ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [============================              ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==============================            ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [================================          ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==================================        ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [===================================       ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====================================      ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [=======================================   ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [========================================= ] 2/4  Installing       : python3.11-more-itertools-10.5.0-1.el9.noarch                                           2/4 
+  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [                                          ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [==                                        ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [============                              ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [==============                            ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [============================              ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.no [========================================= ] 3/4  Installing       : python3.11-jaraco-functools-4.1.0-1.el9.noarch                                          3/4 
+  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [                                          ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=                                         ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==                                        ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [====                                      ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=====                                     ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=======                                   ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=========                                 ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==========                                ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [============                              ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=============                             ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==============                            ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [===============                           ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=================                         ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==================                        ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [===================                       ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=====================                     ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [======================                    ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=======================                   ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=========================                 ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==========================                ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [============================              ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=============================             ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==============================            ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [===============================           ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [================================          ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [==================================        ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [===================================       ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [====================================      ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [======================================    ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [=======================================   ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [========================================  ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.e [========================================= ] 4/4  Installing       : python3.11-python-dateutil-2.9.0^post0-1.el9.noarch                                     4/4 
+  Running scriptlet: python3.11-python-dateutil-2.9.0^post0-1.el9.noarch                                     4/4 
+  Verifying        : python3.11-jaraco-functools-4.1.0-1.el9.noarch                                          1/4 
+  Verifying        : python3.11-more-itertools-10.5.0-1.el9.noarch                                           2/4 
+  Verifying        : python3.11-python-dateutil-2.9.0^post0-1.el9.noarch                                     3/4 
+  Verifying        : python3.11-six-1.17.0-1.el9.noarch                                                      4/4 
+Installed products updated.
+
+Installed:
+  python3.11-jaraco-functools-4.1.0-1.el9.noarch             python3.11-more-itertools-10.5.0-1.el9.noarch       
+  python3.11-python-dateutil-2.9.0^post0-1.el9.noarch        python3.11-six-1.17.0-1.el9.noarch                  
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739836800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.R32LhC
++ umask 022
++ cd /builddir/build/BUILD
++ cd tempora-5.8.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=61.2 from build-system.requires
+Requirement satisfied: setuptools>=61.2
+   (installed: setuptools 75.8.0)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.1.0)
+   (extras are currently not checked)
+running egg_info
+writing tempora.egg-info/PKG-INFO
+writing dependency_links to tempora.egg-info/dependency_links.txt
+writing entry points to tempora.egg-info/entry_points.txt
+writing requirements to tempora.egg-info/requires.txt
+writing top-level names to tempora.egg-info/top_level.txt
+reading manifest file 'tempora.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'tempora.egg-info/SOURCES.txt'
+running dist_info
+writing tempora.egg-info/PKG-INFO
+writing dependency_links to tempora.egg-info/dependency_links.txt
+writing entry points to tempora.egg-info/entry_points.txt
+writing requirements to tempora.egg-info/requires.txt
+writing top-level names to tempora.egg-info/top_level.txt
+reading manifest file 'tempora.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'tempora.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/tempora-5.8.0/tempora-5.8.0.dist-info'
+Handling jaraco.functools>=1.20 from hook generated metadata: Requires-Dist (tempora)
+Requirement satisfied: jaraco.functools>=1.20
+   (installed: jaraco.functools 4.1.0)
+Handling python-dateutil from hook generated metadata: Requires-Dist (tempora)
+Requirement satisfied: python-dateutil
+   (installed: python-dateutil 2.9.0.post0)
+Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
+Handling pytest-freezer; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-freezer; extra == "test"
+Handling backports.zoneinfo; python_version < "3.9" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: backports.zoneinfo; python_version < "3.9" and extra == "test"
+Handling tzdata; platform_system == "Windows" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: tzdata; platform_system == "Windows" and extra == "test"
+Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx>=3.5; extra == "doc"
+Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
+Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
+Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: furo; extra == "doc"
+Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx-lint; extra == "doc"
+Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
+Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
+Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
+Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-cov; extra == "cover"
+Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
+Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-mypy; extra == "type"
+Handling types-python-dateutil; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: types-python-dateutil; extra == "type"
++ cat /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv tempora-5.8.0.dist-info/
+removed 'tempora-5.8.0.dist-info/entry_points.txt'
+removed 'tempora-5.8.0.dist-info/top_level.txt'
+removed 'tempora-5.8.0.dist-info/METADATA'
+removed 'tempora-5.8.0.dist-info/LICENSE'
+removed directory 'tempora-5.8.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-tempora-5.8.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    83 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-No matching package to install: 'python3.11dist(furo)'
-No matching package to install: 'python3.11dist(jaraco-functools) >= 1.20'
-No matching package to install: 'python3.11dist(jaraco-packaging) >= 9.3'
-No matching package to install: 'python3.11dist(jaraco-tidelift) >= 1.4'
+Package python3.11-jaraco-functools-4.1.0-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(pytest-checkdocs) >= 2.4'
-No matching package to install: 'python3.11dist(pytest-cov)'
-No matching package to install: 'python3.11dist(pytest-enabler) >= 2.2'
-No matching package to install: 'python3.11dist(pytest-freezer)'
-No matching package to install: 'python3.11dist(pytest-mypy)'
-No matching package to install: 'python3.11dist(pytest-ruff) >= 0.2.1'
-Package python3.11-setuptools-70.3.0-1.el9.noarch is already installed.
+Package python3.11-python-dateutil-2.9.0^post0-1.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(rst-linker) >= 1.9'
 Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(sphinx) >= 3.5'
-No matching package to install: 'python3.11dist(sphinx-lint)'
-No matching package to install: 'python3.11dist(types-python-dateutil)'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739836800
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KVEQKo
++ umask 022
++ cd /builddir/build/BUILD
++ cd tempora-5.8.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=61.2 from build-system.requires
+Requirement satisfied: setuptools>=61.2
+   (installed: setuptools 75.8.0)
+Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
+Requirement satisfied: setuptools_scm[toml]>=3.4.1
+   (installed: setuptools_scm 8.1.0)
+   (extras are currently not checked)
+running egg_info
+writing tempora.egg-info/PKG-INFO
+writing dependency_links to tempora.egg-info/dependency_links.txt
+writing entry points to tempora.egg-info/entry_points.txt
+writing requirements to tempora.egg-info/requires.txt
+writing top-level names to tempora.egg-info/top_level.txt
+reading manifest file 'tempora.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'tempora.egg-info/SOURCES.txt'
+running dist_info
+writing tempora.egg-info/PKG-INFO
+writing dependency_links to tempora.egg-info/dependency_links.txt
+writing entry points to tempora.egg-info/entry_points.txt
+writing requirements to tempora.egg-info/requires.txt
+writing top-level names to tempora.egg-info/top_level.txt
+reading manifest file 'tempora.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'tempora.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/tempora-5.8.0/tempora-5.8.0.dist-info'
+Handling jaraco.functools>=1.20 from hook generated metadata: Requires-Dist (tempora)
+Requirement satisfied: jaraco.functools>=1.20
+   (installed: jaraco.functools 4.1.0)
+Handling python-dateutil from hook generated metadata: Requires-Dist (tempora)
+Requirement satisfied: python-dateutil
+   (installed: python-dateutil 2.9.0.post0)
+Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
+Handling pytest-freezer; extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-freezer; extra == "test"
+Handling backports.zoneinfo; python_version < "3.9" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: backports.zoneinfo; python_version < "3.9" and extra == "test"
+Handling tzdata; platform_system == "Windows" and extra == "test" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: tzdata; platform_system == "Windows" and extra == "test"
+Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx>=3.5; extra == "doc"
+Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
+Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
+Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: furo; extra == "doc"
+Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: sphinx-lint; extra == "doc"
+Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
+Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
+Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
+Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-cov; extra == "cover"
+Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
+Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: pytest-mypy; extra == "type"
+Handling types-python-dateutil; extra == "type" from hook generated metadata: Requires-Dist (tempora)
+Ignoring alien requirement: types-python-dateutil; extra == "type"
++ cat /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv tempora-5.8.0.dist-info/
+removed 'tempora-5.8.0.dist-info/entry_points.txt'
+removed 'tempora-5.8.0.dist-info/top_level.txt'
+removed 'tempora-5.8.0.dist-info/METADATA'
+removed 'tempora-5.8.0.dist-info/LICENSE'
+removed directory 'tempora-5.8.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.lVIO7d
++ umask 022
++ cd /builddir/build/BUILD
++ cd tempora-5.8.0
++ mkdir -p /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/tempora-5.8.0
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info
+  writing /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-modern-metadata-k1i_c8on/tempora-5.8.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: tempora
+  Building wheel for tempora (pyproject.toml): started
+  Running command Building wheel for tempora (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/tempora
+  copying tempora/__init__.py -> build/lib/tempora
+  copying tempora/schedule.py -> build/lib/tempora
+  copying tempora/timing.py -> build/lib/tempora
+  copying tempora/utc.py -> build/lib/tempora
+  running egg_info
+  writing tempora.egg-info/PKG-INFO
+  writing dependency_links to tempora.egg-info/dependency_links.txt
+  writing entry points to tempora.egg-info/entry_points.txt
+  writing requirements to tempora.egg-info/requires.txt
+  writing top-level names to tempora.egg-info/top_level.txt
+  reading manifest file 'tempora.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file 'tempora.egg-info/SOURCES.txt'
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/tempora
+  copying build/lib/tempora/__init__.py -> build/bdist.linux-x86_64/wheel/./tempora
+  copying build/lib/tempora/schedule.py -> build/bdist.linux-x86_64/wheel/./tempora
+  copying build/lib/tempora/timing.py -> build/bdist.linux-x86_64/wheel/./tempora
+  copying build/lib/tempora/utc.py -> build/bdist.linux-x86_64/wheel/./tempora
+  running install_egg_info
+  Copying tempora.egg-info to build/bdist.linux-x86_64/wheel/./tempora-5.8.0-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/tempora-5.8.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11/pip-wheel-95odiles/.tmp-inx3g2oo/tempora-5.8.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'tempora/__init__.py'
+  adding 'tempora/schedule.py'
+  adding 'tempora/timing.py'
+  adding 'tempora/utc.py'
+  adding 'tempora-5.8.0.dist-info/LICENSE'
+  adding 'tempora-5.8.0.dist-info/METADATA'
+  adding 'tempora-5.8.0.dist-info/WHEEL'
+  adding 'tempora-5.8.0.dist-info/entry_points.txt'
+  adding 'tempora-5.8.0.dist-info/top_level.txt'
+  adding 'tempora-5.8.0.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for tempora (pyproject.toml): finished with status 'done'
+  Created wheel for tempora: filename=tempora-5.8.0-py3-none-any.whl size=14373 sha256=8270dda78fc568291a807b8360438fd3b9343de349ba41079109aa6785ded297
+  Stored in directory: /builddir/.cache/pip/wheels/6c/bf/c3/b390abf0a5228a7f07e4bbee685818dc4b8c83b32bf9645b95
+Successfully built tempora
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.yBcV8v
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64
++ cd tempora-5.8.0
+++ ls /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11/tempora-5.8.0-py3-none-any.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
++ specifier=tempora==5.8.0
++ '[' -z tempora==5.8.0 ']'
++ TMPDIR=/builddir/build/BUILD/tempora-5.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11 tempora==5.8.0
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/tempora-5.8.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/tempora-5.8.0-py3-none-any.whl
+Installing collected packages: tempora
+  Creating /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin/calc-prorate to 755
+Successfully installed tempora-5.8.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin ']'
++ '[' -z sP ']'
++ shebang_flags=-kasP
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin/calc-prorate
+/builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin/calc-prorate: updating
++ rm -rfv /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/RECORD --output /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/tempora-5.8.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-tempora-5.8.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 5.8.0-1.el9 --unique-debug-suffix -5.8.0-1.el9.x86_64 --unique-debug-src-base python-tempora-5.8.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/tempora-5.8.0
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-tempora-5.8.0-1.el9.noarch
+Provides: python3.11-tempora = 5.8.0-1.el9 python3.11dist(tempora) = 5.8
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/python3.11 python(abi) = 3.11 python3.11dist(jaraco-functools) >= 1.20 python3.11dist(python-dateutil)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-tempora-5.8.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-tempora-5.8.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-tempora-5.8.0-1.el9.noarch.rpm
+Finish: rpmbuild python-tempora-5.8.0-1.el9.src.rpm
+Finish: build phase for python-tempora-5.8.0-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-tempora-5.8.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 72 packages
+Directory walk done - 119 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
