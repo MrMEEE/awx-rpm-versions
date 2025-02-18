@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-orjson
-Version:        3.10.15
+Version:        3.10.13
 Release:        %autorelease
 Summary:        Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/orjson/
+URL:            https://github.com/ijl/orjson
 Source:         %{pypi_source orjson}
 
 
