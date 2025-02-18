@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-sqlparse-0.5.3-1.el9.src.rpm
+The lastest package built was python-tempora-5.8.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 12:08:37 PM CET 2025
+The build completed at Tue Feb 18 12:09:09 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
+[Build Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
