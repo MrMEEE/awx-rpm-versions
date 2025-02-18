@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-trove-classifiers-2025.1.15.22-1.el9.src.rpm
+The lastest package built was python-pathspec-0.12.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 01:34:23 PM CET 2025
+The build completed at Tue Feb 18 01:35:38 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
+[Build Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -115,7 +115,7 @@ python3.11-opentelemetry-proto-1.29.0-1.el9 | python-opentelemetry-proto-1.29.0-
 python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-sdk-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
-python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | **Missing** |
+python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | **Missing** | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
@@ -171,4 +171,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-161 total packages, 54 packages built successfully, 107 packages left to fix
+161 total packages, 55 packages built successfully, 106 packages left to fix
