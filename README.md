@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm
+The lastest package built was python-azure-keyvault-keys-4.10.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 11:18:35 AM CET 2025
+The build completed at Tue Feb 18 11:19:06 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-keyvault-keys-4.10.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
