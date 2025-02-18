@@ -13,6 +13,8 @@ URL:            https://pypi.org/project/orjson/
 Source:         %{pypi_source orjson}
 
 
+BuildRequires: cargo
+BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
