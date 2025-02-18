@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/pyo3/maturin
 Source:         %{pypi_source maturin}
 
-BuildArch:      noarch
+BuildArch:      x86_64
 
 BuildRequires: cargo
 BuildRequires: rust
