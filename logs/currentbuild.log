@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pkgconfig-1.5.5-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-portalocker-2.10.1-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pkgconfig-1.5.5-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-portalocker-2.10.1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-pkgconfig-1.5.5-1.el9.src.rpm
-Start: build setup for python-pkgconfig-1.5.5-1.el9.src.rpm
+Start: build phase for python-portalocker-2.10.1-1.el9.src.rpm
+Start: build setup for python-portalocker-2.10.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Wrote: /builddir/build/SRPMS/python-pkgconfig-1.5.5-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-portalocker-2.10.1-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            11 MB/s |  77 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    84 kB/s |  47 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           3.4 MB/s |  78 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                24 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 67% [========================            ]  95 kB/s |  32 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    48 kB/s |  47 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-pkgconfig-1.5.5-1.el9.src.rpm
+Finish: build setup for python-portalocker-2.10.1-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-pkgconfig-1.5.5-1.el9.src.rpm
+Start: rpmbuild python-portalocker-2.10.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.IgfXM9
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.jywJI6
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf pkgconfig-1.5.5
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/pkgconfig-1.5.5.tar.gz
++ rm -rf portalocker-2.10.1
++ /usr/bin/gzip -dc /builddir/build/SOURCES/portalocker-2.10.1.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd pkgconfig-1.5.5
++ cd portalocker-2.10.1
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.w1GyzG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P8wwRr
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pkgconfig-1.5.5
++ cd portalocker-2.10.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.w1GyzG
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pkgconfig-1.5.5-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-portalocker-2.10.1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    84 kB/s |  47 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XhlFVN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1s5u5w
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pkgconfig-1.5.5
++ cd portalocker-2.10.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,23 +275,25 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.XhlFVN
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling poetry_core>=1.0.0 from build-system.requires
-Requirement not satisfied: poetry_core>=1.0.0
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement not satisfied: setuptools
+Handling setuptools-scm from build-system.requires
+Requirement not satisfied: setuptools-scm
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pkgconfig-1.5.5-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-portalocker-2.10.1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -300,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    80 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -311,40 +313,43 @@ Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Dependencies resolved.
 =================================================================================================================
- Package                       Architecture  Version             Repository                                 Size
+ Package                         Architecture Version             Repository                                Size
 =================================================================================================================
 Installing:
- [1mpython3.11-poetry-core       [m noarch        2.1.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        719 k
+ [1mpython3.11-setuptools          [m noarch       75.8.0-1.el9        _opt_awxrpmng_rpmbuilds_3000_RPMS_       2.2 M
+ [1mpython3.11-setuptools-scm      [m noarch       8.1.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_       101 k
 
 Transaction Summary
 =================================================================================================================
-Install  1 Package
+Install  2 Packages
 
-Total size: 719 k
-Installed size: 3.3 M
+Total size: 2.3 M
+Installed size: 12 M
 Downloading Packages:
 Running transaction check
 Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
-  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [                                           ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=                                          ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==                                         ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===                                        ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [====                                       ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=====                                      ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [======                                     ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=======                                    ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [========                                   ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=========                                  ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==========                                 ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===========                                ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [============                               ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=============                              ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==============                             ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===============                            ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [================                           ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=================                          ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==================                         ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===================                        ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [====================                       ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=====================                      ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [======================                     ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=======================                    ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [========================                   ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=========================                  ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==========================                 ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===========================                ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [============================               ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=============================              ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==============================             ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===============================            ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [================================           ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=================================          ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [==================================         ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [===================================        ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [====================================       ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=====================================      ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [======================================     ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=======================================    ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [========================================   ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [=========================================  ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch [========================================== ] 1/1  Installing       : python3.11-poetry-core-2.1.1-1.el9.noarch                                               1/1 
-  Running scriptlet: python3.11-poetry-core-2.1.1-1.el9.noarch                                               1/1 
-  Verifying        : python3.11-poetry-core-2.1.1-1.el9.noarch                                               1/1 
+  Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 1/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/2 
+  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [                                          ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=                                         ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==                                        ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===                                       ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====                                      ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====                                     ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======                                   ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========                                  ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=========                                 ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==========                                ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===========                               ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==============                            ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [================                          ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=================                         ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==================                        ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===================                       ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====================                      ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====================                     ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [======================                    ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======================                   ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================                  ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=========================                 ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==========================                ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===========================               ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [============================              ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=============================             ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==============================            ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===============================           ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=================================         ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [==================================        ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [===================================       ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [====================================      ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=====================================     ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [======================================    ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [=======================================   ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================================  ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noar [========================================= ] 2/2  Installing       : python3.11-setuptools-scm-8.1.0-1.el9.noarch                                            2/2 
+  Running scriptlet: python3.11-setuptools-scm-8.1.0-1.el9.noarch                                            2/2 
+  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/2 
+  Verifying        : python3.11-setuptools-scm-8.1.0-1.el9.noarch                                            2/2 
 Installed products updated.
 
 Installed:
-  python3.11-poetry-core-2.1.1-1.el9.noarch                                                                      
+  python3.11-setuptools-75.8.0-1.el9.noarch             python3.11-setuptools-scm-8.1.0-1.el9.noarch            
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sgUyoV
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.kxsuFi
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pkgconfig-1.5.5
++ cd portalocker-2.10.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -353,28 +358,69 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sgUyoV
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling poetry_core>=1.0.0 from build-system.requires
-Requirement satisfied: poetry_core>=1.0.0
-   (installed: poetry_core 2.1.1)
-The "poetry.dev-dependencies" section is deprecated and will be removed in a future version. Use "poetry.group.dev.dependencies" instead.
-+ cat /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv pkgconfig-1.5.5.dist-info/
-removed 'pkgconfig-1.5.5.dist-info/WHEEL'
-removed 'pkgconfig-1.5.5.dist-info/METADATA'
-removed 'pkgconfig-1.5.5.dist-info/LICENSE'
-removed directory 'pkgconfig-1.5.5.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 75.8.0)
+Handling setuptools-scm from build-system.requires
+Requirement satisfied: setuptools-scm
+   (installed: setuptools-scm 8.1.0)
+running egg_info
+writing portalocker.egg-info/PKG-INFO
+writing dependency_links to portalocker.egg-info/dependency_links.txt
+writing requirements to portalocker.egg-info/requires.txt
+writing top-level names to portalocker.egg-info/top_level.txt
+reading manifest file 'portalocker.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'portalocker.egg-info/SOURCES.txt'
+running dist_info
+writing portalocker.egg-info/PKG-INFO
+writing dependency_links to portalocker.egg-info/dependency_links.txt
+writing requirements to portalocker.egg-info/requires.txt
+writing top-level names to portalocker.egg-info/top_level.txt
+reading manifest file 'portalocker.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'portalocker.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/portalocker-2.10.1/portalocker-2.10.1.dist-info'
+Handling pywin32>=226; platform_system == "Windows" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pywin32>=226; platform_system == "Windows"
+Handling sphinx>=1.7.1; extra == "docs" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: sphinx>=1.7.1; extra == "docs"
+Handling pytest>=5.4.1; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest>=5.4.1; extra == "tests"
+Handling pytest-cov>=2.8.1; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-cov>=2.8.1; extra == "tests"
+Handling pytest-timeout>=2.1.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-timeout>=2.1.0; extra == "tests"
+Handling sphinx>=6.0.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: sphinx>=6.0.0; extra == "tests"
+Handling pytest-mypy>=0.8.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-mypy>=0.8.0; extra == "tests"
+Handling types-redis; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: types-redis; extra == "tests"
+Handling redis; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: redis; extra == "tests"
+Handling redis; extra == "redis" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: redis; extra == "redis"
++ cat /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv portalocker-2.10.1.dist-info/
+removed 'portalocker-2.10.1.dist-info/top_level.txt'
+removed 'portalocker-2.10.1.dist-info/METADATA'
+removed 'portalocker-2.10.1.dist-info/LICENSE'
+removed directory 'portalocker-2.10.1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pkgconfig-1.5.5-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-portalocker-2.10.1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -383,26 +429,27 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                   102 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    83 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-poetry-core-2.1.1-1.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
 Dependencies resolved.
 Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.iYqeJO
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.bu3sqq
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pkgconfig-1.5.5
++ cd portalocker-2.10.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -411,98 +458,205 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.iYqeJO
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling poetry_core>=1.0.0 from build-system.requires
-Requirement satisfied: poetry_core>=1.0.0
-   (installed: poetry_core 2.1.1)
-The "poetry.dev-dependencies" section is deprecated and will be removed in a future version. Use "poetry.group.dev.dependencies" instead.
-+ cat /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv pkgconfig-1.5.5.dist-info/
-removed 'pkgconfig-1.5.5.dist-info/WHEEL'
-removed 'pkgconfig-1.5.5.dist-info/METADATA'
-removed 'pkgconfig-1.5.5.dist-info/LICENSE'
-removed directory 'pkgconfig-1.5.5.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools from build-system.requires
+Requirement satisfied: setuptools
+   (installed: setuptools 75.8.0)
+Handling setuptools-scm from build-system.requires
+Requirement satisfied: setuptools-scm
+   (installed: setuptools-scm 8.1.0)
+running egg_info
+writing portalocker.egg-info/PKG-INFO
+writing dependency_links to portalocker.egg-info/dependency_links.txt
+writing requirements to portalocker.egg-info/requires.txt
+writing top-level names to portalocker.egg-info/top_level.txt
+reading manifest file 'portalocker.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'portalocker.egg-info/SOURCES.txt'
+running dist_info
+writing portalocker.egg-info/PKG-INFO
+writing dependency_links to portalocker.egg-info/dependency_links.txt
+writing requirements to portalocker.egg-info/requires.txt
+writing top-level names to portalocker.egg-info/top_level.txt
+reading manifest file 'portalocker.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'portalocker.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/portalocker-2.10.1/portalocker-2.10.1.dist-info'
+Handling pywin32>=226; platform_system == "Windows" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pywin32>=226; platform_system == "Windows"
+Handling sphinx>=1.7.1; extra == "docs" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: sphinx>=1.7.1; extra == "docs"
+Handling pytest>=5.4.1; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest>=5.4.1; extra == "tests"
+Handling pytest-cov>=2.8.1; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-cov>=2.8.1; extra == "tests"
+Handling pytest-timeout>=2.1.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-timeout>=2.1.0; extra == "tests"
+Handling sphinx>=6.0.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: sphinx>=6.0.0; extra == "tests"
+Handling pytest-mypy>=0.8.0; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: pytest-mypy>=0.8.0; extra == "tests"
+Handling types-redis; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: types-redis; extra == "tests"
+Handling redis; extra == "tests" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: redis; extra == "tests"
+Handling redis; extra == "redis" from hook generated metadata: Requires-Dist (portalocker)
+Ignoring alien requirement: redis; extra == "redis"
++ cat /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv portalocker-2.10.1.dist-info/
+removed 'portalocker-2.10.1.dist-info/top_level.txt'
+removed 'portalocker-2.10.1.dist-info/METADATA'
+removed 'portalocker-2.10.1.dist-info/LICENSE'
+removed directory 'portalocker-2.10.1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.UzccRY
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.1ygf0z
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pkgconfig-1.5.5
-+ mkdir -p /builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
++ cd portalocker-2.10.1
++ mkdir -p /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/pkgconfig-1.5.5
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/portalocker-2.10.1
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
-  The "poetry.dev-dependencies" section is deprecated and will be removed in a future version. Use "poetry.group.dev.dependencies" instead.
+  running dist_info
+  creating /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info
+  writing /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-modern-metadata-7pgyhy03/portalocker-2.10.1.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: pkgconfig
-  Building wheel for pkgconfig (pyproject.toml): started
-  Running command Building wheel for pkgconfig (pyproject.toml)
-  The "poetry.dev-dependencies" section is deprecated and will be removed in a future version. Use "poetry.group.dev.dependencies" instead.
-  Building wheel for pkgconfig (pyproject.toml): finished with status 'done'
-  Created wheel for pkgconfig: filename=pkgconfig-1.5.5-py3-none-any.whl size=6757 sha256=138d2b9a69f62670d5fd9e9d04427eb75e79b25a20992fbb8a594b6fe1a50f34
-  Stored in directory: /builddir/.cache/pip/wheels/65/1b/f4/16264485ec92ccd7796ddf34d7c7bd5fbd3dbe42cc7d3b4adf
-Successfully built pkgconfig
+Building wheels for collected packages: portalocker
+  Building wheel for portalocker (pyproject.toml): started
+  Running command Building wheel for portalocker (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/portalocker
+  copying portalocker/__about__.py -> build/lib/portalocker
+  copying portalocker/__init__.py -> build/lib/portalocker
+  copying portalocker/__main__.py -> build/lib/portalocker
+  copying portalocker/constants.py -> build/lib/portalocker
+  copying portalocker/exceptions.py -> build/lib/portalocker
+  copying portalocker/portalocker.py -> build/lib/portalocker
+  copying portalocker/redis.py -> build/lib/portalocker
+  copying portalocker/utils.py -> build/lib/portalocker
+  copying portalocker/py.typed -> build/lib/portalocker
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/portalocker
+  copying build/lib/portalocker/__about__.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/__init__.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/__main__.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/constants.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/exceptions.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/portalocker.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/redis.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/utils.py -> build/bdist.linux-x86_64/wheel/./portalocker
+  copying build/lib/portalocker/py.typed -> build/bdist.linux-x86_64/wheel/./portalocker
+  running install_egg_info
+  running egg_info
+  writing portalocker.egg-info/PKG-INFO
+  writing dependency_links to portalocker.egg-info/dependency_links.txt
+  writing requirements to portalocker.egg-info/requires.txt
+  writing top-level names to portalocker.egg-info/top_level.txt
+  reading manifest file 'portalocker.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'portalocker.egg-info/SOURCES.txt'
+  Copying portalocker.egg-info to build/bdist.linux-x86_64/wheel/./portalocker-2.10.1-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/portalocker-2.10.1.dist-info/WHEEL
+  creating '/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11/pip-wheel-4nby5ncy/.tmp-n_w9uwxu/portalocker-2.10.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'portalocker/__about__.py'
+  adding 'portalocker/__init__.py'
+  adding 'portalocker/__main__.py'
+  adding 'portalocker/constants.py'
+  adding 'portalocker/exceptions.py'
+  adding 'portalocker/portalocker.py'
+  adding 'portalocker/py.typed'
+  adding 'portalocker/redis.py'
+  adding 'portalocker/utils.py'
+  adding 'portalocker-2.10.1.dist-info/LICENSE'
+  adding 'portalocker-2.10.1.dist-info/METADATA'
+  adding 'portalocker-2.10.1.dist-info/WHEEL'
+  adding 'portalocker-2.10.1.dist-info/top_level.txt'
+  adding 'portalocker-2.10.1.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for portalocker (pyproject.toml): finished with status 'done'
+  Created wheel for portalocker: filename=portalocker-2.10.1-py3-none-any.whl size=18423 sha256=989af75ee5c010763e3965e330ee351228cb1d1f8be78e85d0146ea2bdea9042
+  Stored in directory: /builddir/.cache/pip/wheels/d0/ef/c8/841e16423b3c997013078800cef5eeee9ebdd3af8883c03d75
+Successfully built portalocker
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.SIR7tv
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.hZwpHX
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64
++ '[' /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64
-+ cd pkgconfig-1.5.5
-++ ls /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11/pkgconfig-1.5.5-py3-none-any.whl
++ mkdir /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64
++ cd portalocker-2.10.1
 ++ xargs basename --multiple
+++ ls /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11/portalocker-2.10.1-py3-none-any.whl
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=pkgconfig==1.5.5
-+ '[' -z pkgconfig==1.5.5 ']'
-+ TMPDIR=/builddir/build/BUILD/pkgconfig-1.5.5/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11 pkgconfig==1.5.5
++ specifier=portalocker==2.10.1
++ '[' -z portalocker==2.10.1 ']'
++ TMPDIR=/builddir/build/BUILD/portalocker-2.10.1/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11 portalocker==2.10.1
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/pkgconfig-1.5.5/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/pkgconfig-1.5.5-py3-none-any.whl
-Installing collected packages: pkgconfig
-Successfully installed pkgconfig-1.5.5
+Looking in links: /builddir/build/BUILD/portalocker-2.10.1/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/portalocker-2.10.1-py3-none-any.whl
+Installing collected packages: portalocker
+Successfully installed portalocker-2.10.1
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ '[' -d /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 + site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
 + site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
 + for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/INSTALLER
++ for distinfo in /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/RECORD --output /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11/site-packages/pkgconfig-1.5.5.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/RECORD --output /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11/site-packages/portalocker-2.10.1.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-pkgconfig-1.5.5-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.5.5-1.el9 --unique-debug-suffix -1.5.5-1.el9.x86_64 --unique-debug-src-base python-pkgconfig-1.5.5-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/pkgconfig-1.5.5
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-portalocker-2.10.1-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2.10.1-1.el9 --unique-debug-suffix -2.10.1-1.el9.x86_64 --unique-debug-src-base python-portalocker-2.10.1-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/portalocker-2.10.1
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
@@ -510,18 +664,18 @@ find: 'debug': No such file or directory
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64/usr/lib/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64/usr/lib/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-pkgconfig-1.5.5-1.el9.noarch
-Provides: python3.11-pkgconfig = 1.5.5-1.el9 python3.11dist(pkgconfig) = 1.5.5
+Processing files: python3.11-portalocker-2.10.1-1.el9.noarch
+Provides: python3.11-portalocker = 2.10.1-1.el9 python3.11dist(portalocker) = 2.10.1
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires: python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-pkgconfig-1.5.5-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-pkgconfig-1.5.5-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-pkgconfig-1.5.5-1.el9.noarch.rpm
-Finish: rpmbuild python-pkgconfig-1.5.5-1.el9.src.rpm
-Finish: build phase for python-pkgconfig-1.5.5-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pkgconfig-1.5.5-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-portalocker-2.10.1-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-portalocker-2.10.1-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-portalocker-2.10.1-1.el9.noarch.rpm
+Finish: rpmbuild python-portalocker-2.10.1-1.el9.src.rpm
+Finish: build phase for python-portalocker-2.10.1-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-portalocker-2.10.1-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
