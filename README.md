@@ -1,15 +1,15 @@
 ## Latest build
-The lastest package built was python-dateutil-2.9.0^post0-1.el9.src.rpm
+The lastest package built was python-adal-1.2.7-1.el9.src.rpm
 
-The build completed at Tue Feb 18 11:10:21 AM CET 2025
+The build completed at Tue Feb 18 11:11:19 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
+[Build Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
+python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
 python3.11-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
@@ -169,4 +169,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-159 total packages, 44 packages built successfully, 115 packages left to fix
+159 total packages, 45 packages built successfully, 114 packages left to fix
