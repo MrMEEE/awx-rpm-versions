@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-markdown-3.7-1.el9.src.rpm
+The lastest package built was python-maturin-1.8.2-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:44:47 PM CET 2025
+The build completed at Tue Feb 18 03:48:32 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-maturin-1.8.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
