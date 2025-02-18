@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-expandvars-0.12.0-1.el9.src.rpm
+The lastest package built was python-filelock-3.16.1-1.el9.src.rpm
 
-The build completed at Tue Feb 18 05:32:07 PM CET 2025
+The build completed at Tue Feb 18 05:32:40 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
+[Build Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
