@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-functools-4.1.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-logging-3.3.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-functools-4.1.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-logging-3.3.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-jaraco-functools-4.1.0-1.el9.src.rpm
-Start: build setup for python-jaraco-functools-4.1.0-1.el9.src.rpm
+Start: build phase for python-jaraco-logging-3.3.0-1.el9.src.rpm
+Start: build setup for python-jaraco-logging-3.3.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-jaraco-logging-3.3.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -48,10 +48,10 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            14 MB/s |  71 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    83 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  47 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-jaraco-functools-4.1.0-1.el9.src.rpm
+Finish: build setup for python-jaraco-logging-3.3.0-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-jaraco-functools-4.1.0-1.el9.src.rpm
+Start: rpmbuild python-jaraco-logging-3.3.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KcB7cT
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.P9VTs2
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf jaraco_functools-4.1.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/jaraco_functools-4.1.0.tar.gz
++ rm -rf jaraco.logging-3.3.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/jaraco.logging-3.3.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd jaraco_functools-4.1.0
++ cd jaraco.logging-3.3.0
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YjPk2Z
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.2crxSu
 + umask 022
 + cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
++ cd jaraco.logging-3.3.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YjPk2Z
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco.logging-3.3.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.buildreqs.nosrc.rpm
 + exit 0
+Wrote: /builddir/build/SRPMS/python-jaraco-logging-3.3.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                   103 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 8.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                8.4 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                   102 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.09pXpp
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.6aI4oS
 + umask 022
 + cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
++ cd jaraco.logging-3.3.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,25 +275,25 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.09pXpp
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools>=61.2 from build-system.requires
-Requirement not satisfied: setuptools>=61.2
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco.logging-3.3.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement not satisfied: setuptools>=56
 Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
 Requirement not satisfied: setuptools_scm[toml]>=3.4.1
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-jaraco-logging-3.3.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -302,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    81 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                   104 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -350,10 +350,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.B2XyxE
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3nFtMf
 + umask 022
 + cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
++ cd jaraco.logging-3.3.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -362,77 +362,74 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.B2XyxE
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/jaraco.logging-3.3.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools>=61.2 from build-system.requires
-Requirement satisfied: setuptools>=61.2
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco.logging-3.3.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=56 from build-system.requires
+Requirement satisfied: setuptools>=56
    (installed: setuptools 75.8.0)
 Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
 Requirement satisfied: setuptools_scm[toml]>=3.4.1
    (installed: setuptools_scm 8.1.0)
    (extras are currently not checked)
 running egg_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
+writing jaraco.logging.egg-info/PKG-INFO
+writing dependency_links to jaraco.logging.egg-info/dependency_links.txt
+writing requirements to jaraco.logging.egg-info/requires.txt
+writing top-level names to jaraco.logging.egg-info/top_level.txt
+reading manifest file 'jaraco.logging.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
+writing manifest file 'jaraco.logging.egg-info/SOURCES.txt'
 running dist_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
+writing jaraco.logging.egg-info/PKG-INFO
+writing dependency_links to jaraco.logging.egg-info/dependency_links.txt
+writing requirements to jaraco.logging.egg-info/requires.txt
+writing top-level names to jaraco.logging.egg-info/top_level.txt
+reading manifest file 'jaraco.logging.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/jaraco_functools-4.1.0/jaraco.functools-4.1.0.dist-info'
-Handling more_itertools from hook generated metadata: Requires-Dist (jaraco.functools)
-Requirement satisfied: more_itertools
-   (installed: more_itertools 10.3.0)
-Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
-Handling jaraco.classes; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.classes; extra == "test"
-Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx>=3.5; extra == "doc"
-Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
-Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
-Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: furo; extra == "doc"
-Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx-lint; extra == "doc"
-Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
-Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
-Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
-Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-cov; extra == "cover"
-Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
-Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-mypy; extra == "type"
-+ cat /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv jaraco.functools-4.1.0.dist-info/
-removed 'jaraco.functools-4.1.0.dist-info/top_level.txt'
-removed 'jaraco.functools-4.1.0.dist-info/METADATA'
-removed 'jaraco.functools-4.1.0.dist-info/LICENSE'
-removed directory 'jaraco.functools-4.1.0.dist-info/'
+writing manifest file 'jaraco.logging.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/jaraco.logging-3.3.0/jaraco.logging-3.3.0.dist-info'
+Handling tempora from hook generated metadata: Requires-Dist (jaraco.logging)
+Requirement not satisfied: tempora
+Handling pytest>=6; extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest>=6; extra == "testing"
+Handling pytest-checkdocs>=2.4; extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "testing"
+Handling pytest-cov; extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest-cov; extra == "testing"
+Handling pytest-mypy; platform_python_implementation != "PyPy" and extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest-mypy; platform_python_implementation != "PyPy" and extra == "testing"
+Handling pytest-enabler>=2.2; extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest-enabler>=2.2; extra == "testing"
+Handling pytest-ruff>=0.2.1; extra == "testing" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: pytest-ruff>=0.2.1; extra == "testing"
+Handling sphinx>=3.5; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: sphinx>=3.5; extra == "docs"
+Handling sphinx<7.2.5; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: sphinx<7.2.5; extra == "docs"
+Handling jaraco.packaging>=9.3; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: jaraco.packaging>=9.3; extra == "docs"
+Handling rst.linker>=1.9; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: rst.linker>=1.9; extra == "docs"
+Handling furo; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: furo; extra == "docs"
+Handling sphinx-lint; extra == "docs" from hook generated metadata: Requires-Dist (jaraco.logging)
+Ignoring alien requirement: sphinx-lint; extra == "docs"
++ cat /builddir/build/BUILD/python-jaraco-logging-3.3.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv jaraco.logging-3.3.0.dist-info/
+removed 'jaraco.logging-3.3.0.dist-info/top_level.txt'
+removed 'jaraco.logging-3.3.0.dist-info/METADATA'
+removed 'jaraco.logging-3.3.0.dist-info/LICENSE'
+removed directory 'jaraco.logging-3.3.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-jaraco-logging-3.3.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -441,10 +438,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    73 kB/s |  47 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 33% [============                        ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                   105 kB/s |  47 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -453,367 +450,35 @@ Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                         Architecture Version             Repository                                Size
-=================================================================================================================
-Installing:
- [1mpython3.11-more-itertools      [m noarch       10.5.0-1.el9        _opt_awxrpmng_rpmbuilds_3000_RPMS_       112 k
-
-Transaction Summary
-=================================================================================================================
-Install  1 Package
-
-Total size: 112 k
-Installed size: 670 k
-Downloading Packages:
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [                                          ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==                                        ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====                                      ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [======                                    ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [=======                                   ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==========                                ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [============                              ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==============                            ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [================                          ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==================                        ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====================                      ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [======================                    ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [========================                  ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==========================                ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [============================              ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==============================            ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [================================          ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [==================================        ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [===================================       ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [====================================      ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [=======================================   ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noa [========================================= ] 1/1  Installing       : python3.11-more-itertools-10.5.0-1.el9.noarch                                           1/1 
-  Running scriptlet: python3.11-more-itertools-10.5.0-1.el9.noarch                                           1/1 
-  Verifying        : python3.11-more-itertools-10.5.0-1.el9.noarch                                           1/1 
-Installed products updated.
-
-Installed:
-  python3.11-more-itertools-10.5.0-1.el9.noarch                                                                  
-
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.I5ihOD
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools>=61.2 from build-system.requires
-Requirement satisfied: setuptools>=61.2
-   (installed: setuptools 75.8.0)
-Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
-Requirement satisfied: setuptools_scm[toml]>=3.4.1
-   (installed: setuptools_scm 8.1.0)
-   (extras are currently not checked)
-running egg_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-running dist_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/jaraco_functools-4.1.0/jaraco.functools-4.1.0.dist-info'
-Handling more_itertools from hook generated metadata: Requires-Dist (jaraco.functools)
-Requirement satisfied: more_itertools
-   (installed: more_itertools 10.5.0)
-Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
-Handling jaraco.classes; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.classes; extra == "test"
-Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx>=3.5; extra == "doc"
-Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
-Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
-Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: furo; extra == "doc"
-Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx-lint; extra == "doc"
-Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
-Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
-Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
-Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-cov; extra == "cover"
-Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
-Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-mypy; extra == "type"
-+ cat /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv jaraco.functools-4.1.0.dist-info/
-removed 'jaraco.functools-4.1.0.dist-info/top_level.txt'
-removed 'jaraco.functools-4.1.0.dist-info/METADATA'
-removed 'jaraco.functools-4.1.0.dist-info/LICENSE'
-removed directory 'jaraco.functools-4.1.0.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                   103 kB/s |  47 kB     00:00    
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-more-itertools-10.5.0-1.el9.noarch is already installed.
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
-Dependencies resolved.
-Nothing to do.
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.VAGYXL
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools>=61.2 from build-system.requires
-Requirement satisfied: setuptools>=61.2
-   (installed: setuptools 75.8.0)
-Handling setuptools_scm[toml]>=3.4.1 from build-system.requires
-Requirement satisfied: setuptools_scm[toml]>=3.4.1
-   (installed: setuptools_scm 8.1.0)
-   (extras are currently not checked)
-running egg_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-running dist_info
-writing jaraco.functools.egg-info/PKG-INFO
-writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-writing requirements to jaraco.functools.egg-info/requires.txt
-writing top-level names to jaraco.functools.egg-info/top_level.txt
-reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-adding license file 'LICENSE'
-writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/jaraco_functools-4.1.0/jaraco.functools-4.1.0.dist-info'
-Handling more_itertools from hook generated metadata: Requires-Dist (jaraco.functools)
-Requirement satisfied: more_itertools
-   (installed: more_itertools 10.5.0)
-Handling pytest!=8.1.*,>=6; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest!=8.1.*,>=6; extra == "test"
-Handling jaraco.classes; extra == "test" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.classes; extra == "test"
-Handling sphinx>=3.5; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx>=3.5; extra == "doc"
-Handling jaraco.packaging>=9.3; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.packaging>=9.3; extra == "doc"
-Handling rst.linker>=1.9; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: rst.linker>=1.9; extra == "doc"
-Handling furo; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: furo; extra == "doc"
-Handling sphinx-lint; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: sphinx-lint; extra == "doc"
-Handling jaraco.tidelift>=1.4; extra == "doc" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: jaraco.tidelift>=1.4; extra == "doc"
-Handling pytest-checkdocs>=2.4; extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-checkdocs>=2.4; extra == "check"
-Handling pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-ruff>=0.2.1; sys_platform != "cygwin" and extra == "check"
-Handling pytest-cov; extra == "cover" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-cov; extra == "cover"
-Handling pytest-enabler>=2.2; extra == "enabler" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-enabler>=2.2; extra == "enabler"
-Handling pytest-mypy; extra == "type" from hook generated metadata: Requires-Dist (jaraco.functools)
-Ignoring alien requirement: pytest-mypy; extra == "type"
-+ cat /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv jaraco.functools-4.1.0.dist-info/
-removed 'jaraco.functools-4.1.0.dist-info/top_level.txt'
-removed 'jaraco.functools-4.1.0.dist-info/METADATA'
-removed 'jaraco.functools-4.1.0.dist-info/LICENSE'
-removed directory 'jaraco.functools-4.1.0.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.MDCmOS
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd jaraco_functools-4.1.0
-+ mkdir -p /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/jaraco_functools-4.1.0
-  Preparing metadata (pyproject.toml): started
-  Running command Preparing metadata (pyproject.toml)
-  running dist_info
-  creating /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info
-  writing /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/SOURCES.txt'
-  adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-modern-metadata-502fssjm/jaraco.functools-4.1.0.dist-info'
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: jaraco.functools
-  Building wheel for jaraco.functools (pyproject.toml): started
-  Running command Building wheel for jaraco.functools (pyproject.toml)
-  running bdist_wheel
-  running build
-  running build_py
-  creating build/lib/jaraco/functools
-  copying jaraco/functools/__init__.py -> build/lib/jaraco/functools
-  running egg_info
-  writing jaraco.functools.egg-info/PKG-INFO
-  writing dependency_links to jaraco.functools.egg-info/dependency_links.txt
-  writing requirements to jaraco.functools.egg-info/requires.txt
-  writing top-level names to jaraco.functools.egg-info/top_level.txt
-  reading manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-  adding license file 'LICENSE'
-  writing manifest file 'jaraco.functools.egg-info/SOURCES.txt'
-  copying jaraco/functools/__init__.pyi -> build/lib/jaraco/functools
-  copying jaraco/functools/py.typed -> build/lib/jaraco/functools
-  installing to build/bdist.linux-x86_64/wheel
-  running install
-  running install_lib
-  creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/jaraco
-  creating build/bdist.linux-x86_64/wheel/jaraco/functools
-  copying build/lib/jaraco/functools/__init__.py -> build/bdist.linux-x86_64/wheel/./jaraco/functools
-  copying build/lib/jaraco/functools/__init__.pyi -> build/bdist.linux-x86_64/wheel/./jaraco/functools
-  copying build/lib/jaraco/functools/py.typed -> build/bdist.linux-x86_64/wheel/./jaraco/functools
-  running install_egg_info
-  Copying jaraco.functools.egg-info to build/bdist.linux-x86_64/wheel/./jaraco.functools-4.1.0-py3.11.egg-info
-  running install_scripts
-  creating build/bdist.linux-x86_64/wheel/jaraco.functools-4.1.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11/pip-wheel-kz7yoo70/.tmp-nsmjv1g7/jaraco.functools-4.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'jaraco/functools/__init__.py'
-  adding 'jaraco/functools/__init__.pyi'
-  adding 'jaraco/functools/py.typed'
-  adding 'jaraco.functools-4.1.0.dist-info/LICENSE'
-  adding 'jaraco.functools-4.1.0.dist-info/METADATA'
-  adding 'jaraco.functools-4.1.0.dist-info/WHEEL'
-  adding 'jaraco.functools-4.1.0.dist-info/top_level.txt'
-  adding 'jaraco.functools-4.1.0.dist-info/RECORD'
-  removing build/bdist.linux-x86_64/wheel
-  Building wheel for jaraco.functools (pyproject.toml): finished with status 'done'
-  Created wheel for jaraco.functools: filename=jaraco.functools-4.1.0-py3-none-any.whl size=10178 sha256=953d7b900f9bb9c9728227a477500b29c76e6ab3b4082c723ec4c690bda29989
-  Stored in directory: /builddir/.cache/pip/wheels/c6/48/a8/af62d2ffc37a3f07b7eacaed14642289a4db0d3da52667ccf8
-Successfully built jaraco.functools
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.r8juOd
-+ umask 022
-+ cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64
-+ mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64
-+ cd jaraco_functools-4.1.0
-++ ls /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11/jaraco.functools-4.1.0-py3-none-any.whl
-++ xargs basename --multiple
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=jaraco.functools==4.1.0
-+ '[' -z jaraco.functools==4.1.0 ']'
-+ TMPDIR=/builddir/build/BUILD/jaraco_functools-4.1.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11 jaraco.functools==4.1.0
-Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/jaraco_functools-4.1.0/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/jaraco.functools-4.1.0-py3-none-any.whl
-Installing collected packages: jaraco.functools
-Successfully installed jaraco.functools-4.1.0
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-+ site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
-+ for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/INSTALLER
-+ PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/RECORD --output /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/jaraco.functools-4.1.0.dist-info/REQUESTED'
-++ cut -f1 '-d '
-++ wc -l /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-+ lines=1
-+ '[' 1 -ne 1 ']'
-+ RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-jaraco-functools-4.1.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 4.1.0-1.el9 --unique-debug-suffix -4.1.0-1.el9.x86_64 --unique-debug-src-base python-jaraco-functools-4.1.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/jaraco_functools-4.1.0
-find: 'debug': No such file or directory
-+ /usr/lib/rpm/check-buildroot
-+ /usr/lib/rpm/redhat/brp-ldconfig
-+ /usr/lib/rpm/brp-compress
-+ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
-+ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
-+ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
-+ /usr/lib/rpm/brp-python-hardlink
-+ /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-jaraco-functools-4.1.0-1.el9.noarch
-Provides: python3.11-jaraco-functools = 4.1.0-1.el9 python3.11dist(jaraco-functools) = 4.1 python3.11dist(jaraco.functools) = 4.1
-Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: python(abi) = 3.11 python3.11dist(more-itertools)
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-jaraco-functools-4.1.0-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-jaraco-functools-4.1.0-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-jaraco-functools-4.1.0-1.el9.noarch.rpm
-Finish: rpmbuild python-jaraco-functools-4.1.0-1.el9.src.rpm
-Finish: build phase for python-jaraco-functools-4.1.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-functools-4.1.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 32 seconds
+No matching package to install: 'python3.11dist(tempora)'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+Finish: rpmbuild python-jaraco-logging-3.3.0-1.el9.src.rpm
+Finish: build phase for python-jaraco-logging-3.3.0-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-jaraco-logging-3.3.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 23 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-Finish: run
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M 7fe0139e91db4fe58e0f769a5f06a2fe -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.pd48uy_b:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-jaraco-logging-3.3.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                   105 kB/s |  47 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(tempora)'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+
