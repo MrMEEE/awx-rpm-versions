@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-cors-headers-4.6.0-1.el9.src.rpm
+The lastest package built was python-argon2-cffi-23.1.0-1.el9.src.rpm
 
-The build completed at Tue Feb 18 02:11:09 PM CET 2025
+The build completed at Tue Feb 18 02:12:22 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
+[Build Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,7 +16,7 @@ python3.11-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | **Miss
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | **Missing** | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3.11-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-aiosignal-1.3.2-1.el9.src.rpm.log)
 python3.11-ansi2html-1.9.2-1.el9 | python-ansi2html-1.9.2-1.el9.src.rpm | **Missing** | [Log](logs/python-ansi2html-1.9.2-1.el9.src.rpm.log)
-python3.11-argon2-cffi-23.1.0-1.el9 | python-argon2-cffi-23.1.0-1.el9.src.rpm | **Missing** |
+python3.11-argon2-cffi-23.1.0-1.el9 | python-argon2-cffi-23.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3.11-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
 python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
