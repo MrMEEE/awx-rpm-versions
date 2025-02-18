@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-frozenlist-1.5.0-1.el9.src.rpm
+The lastest package built was python-gitpython-3.1.44-1.el9.src.rpm
 
-The build completed at Tue Feb 18 03:34:28 PM CET 2025
+The build completed at Tue Feb 18 03:35:07 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
+[Build Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -70,7 +70,7 @@ python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | **
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
-python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | **Missing** | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
+python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
 python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-protos-1.66.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.66.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | **Missing** |
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 74 packages built successfully, 105 packages left to fix
+179 total packages, 75 packages built successfully, 104 packages left to fix
