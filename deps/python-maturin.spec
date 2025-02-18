@@ -14,6 +14,8 @@ Source:         %{pypi_source maturin}
 
 BuildArch:      noarch
 
+BuildRequires: cargo
+BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
 
 
