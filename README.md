@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-requests-oauthlib-2.0.0-1.el9.src.rpm
+The lastest package built was python-rpds-py-0.22.3-1.el9.src.rpm
 
-The build completed at Wed Feb 19 04:18:39 AM CET 2025
+The build completed at Wed Feb 19 04:19:11 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
