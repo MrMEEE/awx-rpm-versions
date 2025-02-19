@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-anyio-4.8.0-1.el9.src.rpm
+The lastest package built was python-sniffio-1.3.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 09:51:42 AM CET 2025
+The build completed at Wed Feb 19 09:53:30 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-anyio-4.8.0-1.el9.src.rpm.log)
+[Build Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -177,6 +177,7 @@ python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | **
 python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.17.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | **Missing** | [Log](logs/python-slack-sdk-3.34.0-1.el9.src.rpm.log)
 python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.2-1.el9.src.rpm.log)
+python3.11-sniffio-1.3.1-1.el9 | python-sniffio-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | **Missing** | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
@@ -203,4 +204,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
 
-193 total packages, 127 packages built successfully, 66 packages left to fix
+194 total packages, 128 packages built successfully, 66 packages left to fix
