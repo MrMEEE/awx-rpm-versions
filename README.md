@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-4.2.16-1.el9.src.rpm
+The lastest package built was python-asgiref-3.8.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 10:38:45 AM CET 2025
+The build completed at Wed Feb 19 10:39:36 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
+[Build Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -20,7 +20,7 @@ python3.11-anyio-4.8.0-1.el9 | python-anyio-4.8.0-1.el9.src.rpm | Built | [Log](
 python3.11-argon2-cffi-23.1.0-1.el9 | python-argon2-cffi-23.1.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
 python3.11-argon2-cffi-bindings-21.2.0-1.el9 | python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
-python3.11-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
+python3.11-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
 python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
 python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
@@ -206,4 +206,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
 
-196 total packages, 134 packages built successfully, 62 packages left to fix
+196 total packages, 135 packages built successfully, 61 packages left to fix
