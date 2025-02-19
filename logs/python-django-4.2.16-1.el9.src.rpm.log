@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            16 MB/s | 138 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                             3.2 kB/s | 4.5 kB     00:01    
-Red Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  28 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            30 MB/s | 138 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    52 kB/s |  28 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -180,7 +180,7 @@ Start: rpmbuild python-django-4.2.16-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ytDkLI
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.2CfTrN
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -2605,45 +2605,6 @@ recursedown('./django/contrib/sessions/locale/mn/LC_MESSAGES')
 recursedown('./django/contrib/sessions/locale/mr')
 recursedown('./django/contrib/sessions/locale/mr/LC_MESSAGES')
 recursedown('./django/contrib/sessions/locale/ms')
-recursedown('./django/contrib/sessions/locale/ms/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/my')
-recursedown('./django/contrib/sessions/locale/my/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/nb')
-recursedown('./django/contrib/sessions/locale/nb/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/ne')
-recursedown('./django/contrib/sessions/locale/ne/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/nl')
-recursedown('./django/contrib/sessions/locale/nl/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/nn')
-recursedown('./django/contrib/sessions/locale/nn/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/os')
-recursedown('./django/contrib/sessions/locale/os/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/pa')
-recursedown('./django/contrib/sessions/locale/pa/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/pl')
-recursedown('./django/contrib/sessions/locale/pl/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/pt')
-recursedown('./django/contrib/sessions/locale/pt/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/pt_BR')
-recursedown('./django/contrib/sessions/locale/pt_BR/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/ro')
-recursedown('./django/contrib/sessions/locale/ro/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/ru')
-recursedown('./django/contrib/sessions/locale/ru/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sk')
-recursedown('./django/contrib/sessions/locale/sk/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sl')
-recursedown('./django/contrib/sessions/locale/sl/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sq')
-recursedown('./django/contrib/sessions/locale/sq/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sr')
-recursedown('./django/contrib/sessions/locale/sr/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sr_Latn')
-recursedown('./django/contrib/sessions/locale/sr_Latn/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sv')
-recursedown('./django/contrib/sessions/locale/sv/LC_MESSAGES')
-recursedown('./django/contrib/sessions/locale/sw')
-recursedown('./django/contrib/sessions/locale/sw/LC_MESSAGES')
 ./django/contrib/gis/db/backends/spatialite/operations.py: no change
 ./django/contrib/gis/db/backends/spatialite/schema.py: no change
 ./django/contrib/gis/db/models/__init__.py: no change
@@ -2797,6 +2758,45 @@ recursedown('./django/contrib/sessions/locale/sw/LC_MESSAGES')
 ./django/contrib/sessions/migrations/__init__.py: no change
 ./django/contrib/sitemaps/__init__.py: no change
 ./django/contrib/sitemaps/apps.py: no change
+recursedown('./django/contrib/sessions/locale/ms/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/my')
+recursedown('./django/contrib/sessions/locale/my/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/nb')
+recursedown('./django/contrib/sessions/locale/nb/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/ne')
+recursedown('./django/contrib/sessions/locale/ne/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/nl')
+recursedown('./django/contrib/sessions/locale/nl/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/nn')
+recursedown('./django/contrib/sessions/locale/nn/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/os')
+recursedown('./django/contrib/sessions/locale/os/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/pa')
+recursedown('./django/contrib/sessions/locale/pa/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/pl')
+recursedown('./django/contrib/sessions/locale/pl/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/pt')
+recursedown('./django/contrib/sessions/locale/pt/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/pt_BR')
+recursedown('./django/contrib/sessions/locale/pt_BR/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/ro')
+recursedown('./django/contrib/sessions/locale/ro/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/ru')
+recursedown('./django/contrib/sessions/locale/ru/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sk')
+recursedown('./django/contrib/sessions/locale/sk/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sl')
+recursedown('./django/contrib/sessions/locale/sl/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sq')
+recursedown('./django/contrib/sessions/locale/sq/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sr')
+recursedown('./django/contrib/sessions/locale/sr/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sr_Latn')
+recursedown('./django/contrib/sessions/locale/sr_Latn/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sv')
+recursedown('./django/contrib/sessions/locale/sv/LC_MESSAGES')
+recursedown('./django/contrib/sessions/locale/sw')
+recursedown('./django/contrib/sessions/locale/sw/LC_MESSAGES')
 recursedown('./django/contrib/sessions/locale/ta')
 recursedown('./django/contrib/sessions/locale/ta/LC_MESSAGES')
 recursedown('./django/contrib/sessions/locale/te')
@@ -3035,15 +3035,6 @@ recursedown('./django/core')
 recursedown('./django/core/cache')
 recursedown('./django/core/cache/backends')
 recursedown('./django/core/checks')
-recursedown('./django/core/checks/compatibility')
-recursedown('./django/core/checks/security')
-recursedown('./django/core/files')
-recursedown('./django/core/files/storage')
-recursedown('./django/core/handlers')
-recursedown('./django/core/mail')
-recursedown('./django/core/mail/backends')
-recursedown('./django/core/management')
-recursedown('./django/core/management/commands')
 ./django/contrib/sitemaps/views.py: no change
 ./django/contrib/sitemaps/management/__init__.py: no change
 ./django/contrib/sitemaps/management/commands/__init__.py: no change
@@ -3391,6 +3382,15 @@ recursedown('./django/core/management/commands')
 ./django/utils/deconstruct.py: no change
 ./django/utils/decorators.py: no change
 ./django/utils/deprecation.py: no change
+recursedown('./django/core/checks/compatibility')
+recursedown('./django/core/checks/security')
+recursedown('./django/core/files')
+recursedown('./django/core/files/storage')
+recursedown('./django/core/handlers')
+recursedown('./django/core/mail')
+recursedown('./django/core/mail/backends')
+recursedown('./django/core/management')
+recursedown('./django/core/management/commands')
 recursedown('./django/core/serializers')
 recursedown('./django/core/servers')
 recursedown('./django/db')
@@ -3510,6 +3510,8 @@ recursedown('./tests/admin_scripts/another_app_waiting_migration')
 recursedown('./tests/admin_scripts/another_app_waiting_migration/migrations')
 recursedown('./tests/admin_scripts/app_raising_messages')
 recursedown('./tests/admin_scripts/app_raising_warning')
+recursedown('./tests/admin_scripts/app_waiting_migration')
+recursedown('./tests/admin_scripts/app_waiting_migration/migrations')
 ./django/utils/duration.py: no change
 ./django/utils/encoding.py: no change
 ./django/utils/feedgenerator.py: no change
@@ -3669,92 +3671,6 @@ recursedown('./tests/admin_scripts/app_raising_warning')
 ./tests/admin_utils/__init__.py: no change
 ./tests/admin_utils/admin.py: no change
 ./tests/admin_utils/models.py: no change
-recursedown('./tests/admin_scripts/app_waiting_migration')
-recursedown('./tests/admin_scripts/app_waiting_migration/migrations')
-recursedown('./tests/admin_scripts/app_with_import')
-recursedown('./tests/admin_scripts/broken_app')
-recursedown('./tests/admin_scripts/complex_app')
-recursedown('./tests/admin_scripts/complex_app/admin')
-recursedown('./tests/admin_scripts/complex_app/management')
-recursedown('./tests/admin_scripts/complex_app/management/commands')
-recursedown('./tests/admin_scripts/complex_app/models')
-recursedown('./tests/admin_scripts/custom_templates')
-recursedown('./tests/admin_scripts/custom_templates/app_template')
-recursedown('./tests/admin_scripts/custom_templates/project_template')
-recursedown('./tests/admin_scripts/custom_templates/project_template/.hidden')
-recursedown('./tests/admin_scripts/custom_templates/project_template/additional_dir')
-recursedown('./tests/admin_scripts/custom_templates/project_template/project_name')
-recursedown('./tests/admin_scripts/management')
-recursedown('./tests/admin_scripts/management/commands')
-recursedown('./tests/admin_scripts/simple_app')
-recursedown('./tests/admin_scripts/simple_app/management')
-recursedown('./tests/admin_scripts/simple_app/management/commands')
-recursedown('./tests/admin_utils')
-recursedown('./tests/admin_views')
-recursedown('./tests/admin_views/templates')
-recursedown('./tests/admin_views/templates/admin')
-recursedown('./tests/admin_views/templates/admin/admin_views')
-recursedown('./tests/admin_views/templates/admin/admin_views/article')
-recursedown('./tests/admin_widgets')
-recursedown('./tests/aggregation')
-recursedown('./tests/aggregation_regress')
-recursedown('./tests/annotations')
-recursedown('./tests/app_loading')
-recursedown('./tests/app_loading/eggs')
-recursedown('./tests/app_loading/not_installed')
-recursedown('./tests/apps')
-recursedown('./tests/apps/namespace_package_base')
-recursedown('./tests/apps/namespace_package_base/nsapp')
-recursedown('./tests/apps/namespace_package_other_base')
-recursedown('./tests/apps/namespace_package_other_base/nsapp')
-recursedown('./tests/apps/no_config_app')
-recursedown('./tests/apps/one_config_app')
-recursedown('./tests/apps/two_configs_app')
-recursedown('./tests/apps/two_configs_one_default_app')
-recursedown('./tests/apps/two_default_configs_app')
-recursedown('./tests/asgi')
-recursedown('./tests/asgi/project')
-recursedown('./tests/asgi/project/static')
-recursedown('./tests/async')
-recursedown('./tests/auth_tests')
-recursedown('./tests/auth_tests/fixtures')
-recursedown('./tests/auth_tests/models')
-recursedown('./tests/auth_tests/templates')
-recursedown('./tests/auth_tests/templates/context_processors')
-recursedown('./tests/auth_tests/templates/registration')
-recursedown('./tests/backends')
-recursedown('./tests/backends/base')
-recursedown('./tests/backends/base/app_unmigrated')
-recursedown('./tests/backends/base/app_unmigrated/migrations')
-recursedown('./tests/backends/mysql')
-recursedown('./tests/backends/oracle')
-recursedown('./tests/backends/postgresql')
-recursedown('./tests/backends/sqlite')
-recursedown('./tests/base')
-recursedown('./tests/bash_completion')
-recursedown('./tests/bash_completion/management')
-recursedown('./tests/bash_completion/management/commands')
-recursedown('./tests/basic')
-recursedown('./tests/builtin_server')
-recursedown('./tests/bulk_create')
-recursedown('./tests/cache')
-recursedown('./tests/check_framework')
-recursedown('./tests/check_framework/template_test_apps')
-recursedown('./tests/check_framework/template_test_apps/different_tags_app')
-recursedown('./tests/check_framework/template_test_apps/different_tags_app/templatetags')
-recursedown('./tests/check_framework/template_test_apps/same_tags_app_1')
-recursedown('./tests/check_framework/template_test_apps/same_tags_app_1/templatetags')
-recursedown('./tests/check_framework/template_test_apps/same_tags_app_2')
-recursedown('./tests/check_framework/template_test_apps/same_tags_app_2/templatetags')
-recursedown('./tests/check_framework/urls')
-recursedown('./tests/check_framework/urls/path_compatibility')
-recursedown('./tests/conditional_processing')
-recursedown('./tests/constraints')
-recursedown('./tests/contenttypes_tests')
-recursedown('./tests/contenttypes_tests/operations_migrations')
-recursedown('./tests/context_processors')
-recursedown('./tests/context_processors/templates')
-recursedown('./tests/context_processors/templates/context_processors')
 ./tests/admin_utils/test_logentry.py: no change
 ./tests/admin_utils/tests.py: no change
 ./tests/admin_utils/urls.py: no change
@@ -3925,6 +3841,180 @@ recursedown('./tests/context_processors/templates/context_processors')
 ./tests/cache/closeable_cache.py: no change
 ./tests/cache/liberal_backend.py: no change
 ./tests/cache/models.py: no change
+recursedown('./tests/admin_scripts/app_with_import')
+recursedown('./tests/admin_scripts/broken_app')
+recursedown('./tests/admin_scripts/complex_app')
+recursedown('./tests/admin_scripts/complex_app/admin')
+recursedown('./tests/admin_scripts/complex_app/management')
+recursedown('./tests/admin_scripts/complex_app/management/commands')
+recursedown('./tests/admin_scripts/complex_app/models')
+recursedown('./tests/admin_scripts/custom_templates')
+recursedown('./tests/admin_scripts/custom_templates/app_template')
+recursedown('./tests/admin_scripts/custom_templates/project_template')
+recursedown('./tests/admin_scripts/custom_templates/project_template/.hidden')
+recursedown('./tests/admin_scripts/custom_templates/project_template/additional_dir')
+recursedown('./tests/admin_scripts/custom_templates/project_template/project_name')
+recursedown('./tests/admin_scripts/management')
+recursedown('./tests/admin_scripts/management/commands')
+recursedown('./tests/admin_scripts/simple_app')
+recursedown('./tests/admin_scripts/simple_app/management')
+recursedown('./tests/admin_scripts/simple_app/management/commands')
+recursedown('./tests/admin_utils')
+recursedown('./tests/admin_views')
+recursedown('./tests/admin_views/templates')
+recursedown('./tests/admin_views/templates/admin')
+recursedown('./tests/admin_views/templates/admin/admin_views')
+recursedown('./tests/admin_views/templates/admin/admin_views/article')
+recursedown('./tests/admin_widgets')
+recursedown('./tests/aggregation')
+recursedown('./tests/aggregation_regress')
+recursedown('./tests/annotations')
+recursedown('./tests/app_loading')
+recursedown('./tests/app_loading/eggs')
+recursedown('./tests/app_loading/not_installed')
+recursedown('./tests/apps')
+recursedown('./tests/apps/namespace_package_base')
+recursedown('./tests/apps/namespace_package_base/nsapp')
+recursedown('./tests/apps/namespace_package_other_base')
+recursedown('./tests/apps/namespace_package_other_base/nsapp')
+recursedown('./tests/apps/no_config_app')
+recursedown('./tests/apps/one_config_app')
+recursedown('./tests/apps/two_configs_app')
+recursedown('./tests/apps/two_configs_one_default_app')
+recursedown('./tests/apps/two_default_configs_app')
+recursedown('./tests/asgi')
+recursedown('./tests/asgi/project')
+recursedown('./tests/asgi/project/static')
+recursedown('./tests/async')
+recursedown('./tests/auth_tests')
+recursedown('./tests/auth_tests/fixtures')
+recursedown('./tests/auth_tests/models')
+recursedown('./tests/auth_tests/templates')
+recursedown('./tests/auth_tests/templates/context_processors')
+recursedown('./tests/auth_tests/templates/registration')
+recursedown('./tests/backends')
+recursedown('./tests/backends/base')
+recursedown('./tests/backends/base/app_unmigrated')
+recursedown('./tests/backends/base/app_unmigrated/migrations')
+recursedown('./tests/backends/mysql')
+recursedown('./tests/backends/oracle')
+recursedown('./tests/backends/postgresql')
+recursedown('./tests/backends/sqlite')
+recursedown('./tests/base')
+recursedown('./tests/bash_completion')
+recursedown('./tests/bash_completion/management')
+recursedown('./tests/bash_completion/management/commands')
+recursedown('./tests/basic')
+recursedown('./tests/builtin_server')
+recursedown('./tests/bulk_create')
+recursedown('./tests/cache')
+recursedown('./tests/check_framework')
+recursedown('./tests/check_framework/template_test_apps')
+recursedown('./tests/check_framework/template_test_apps/different_tags_app')
+recursedown('./tests/check_framework/template_test_apps/different_tags_app/templatetags')
+recursedown('./tests/check_framework/template_test_apps/same_tags_app_1')
+recursedown('./tests/check_framework/template_test_apps/same_tags_app_1/templatetags')
+recursedown('./tests/check_framework/template_test_apps/same_tags_app_2')
+recursedown('./tests/check_framework/template_test_apps/same_tags_app_2/templatetags')
+recursedown('./tests/check_framework/urls')
+recursedown('./tests/check_framework/urls/path_compatibility')
+recursedown('./tests/conditional_processing')
+recursedown('./tests/constraints')
+recursedown('./tests/contenttypes_tests')
+recursedown('./tests/contenttypes_tests/operations_migrations')
+recursedown('./tests/context_processors')
+recursedown('./tests/context_processors/templates')
+recursedown('./tests/context_processors/templates/context_processors')
+recursedown('./tests/csrf_tests')
+recursedown('./tests/custom_columns')
+recursedown('./tests/custom_lookups')
+recursedown('./tests/custom_managers')
+recursedown('./tests/custom_methods')
+recursedown('./tests/custom_migration_operations')
+recursedown('./tests/custom_pk')
+recursedown('./tests/datatypes')
+recursedown('./tests/dates')
+recursedown('./tests/datetimes')
+recursedown('./tests/db_functions')
+recursedown('./tests/db_functions/comparison')
+recursedown('./tests/db_functions/datetime')
+recursedown('./tests/db_functions/math')
+recursedown('./tests/db_functions/migrations')
+recursedown('./tests/db_functions/text')
+recursedown('./tests/db_functions/window')
+recursedown('./tests/db_typecasts')
+recursedown('./tests/db_utils')
+recursedown('./tests/dbshell')
+recursedown('./tests/decorators')
+recursedown('./tests/defer')
+recursedown('./tests/defer_regress')
+recursedown('./tests/delete')
+recursedown('./tests/delete_regress')
+recursedown('./tests/deprecation')
+recursedown('./tests/dispatch')
+recursedown('./tests/distinct_on_fields')
+recursedown('./tests/empty')
+recursedown('./tests/empty/no_models')
+recursedown('./tests/empty_models')
+recursedown('./tests/expressions')
+recursedown('./tests/expressions_case')
+recursedown('./tests/expressions_window')
+recursedown('./tests/extra_regress')
+recursedown('./tests/field_deconstruction')
+recursedown('./tests/field_defaults')
+recursedown('./tests/field_subclassing')
+recursedown('./tests/file_storage')
+recursedown('./tests/file_uploads')
+recursedown('./tests/files')
+recursedown('./tests/filtered_relation')
+recursedown('./tests/fixtures')
+recursedown('./tests/fixtures/fixtures')
+recursedown('./tests/fixtures_model_package')
+recursedown('./tests/fixtures_model_package/fixtures')
+recursedown('./tests/fixtures_model_package/models')
+recursedown('./tests/fixtures_regress')
+recursedown('./tests/fixtures_regress/fixtures')
+recursedown('./tests/fixtures_regress/fixtures_1')
+recursedown('./tests/fixtures_regress/fixtures_1/inner')
+recursedown('./tests/fixtures_regress/fixtures_2')
+recursedown('./tests/flatpages_tests')
+recursedown('./tests/flatpages_tests/templates')
+recursedown('./tests/flatpages_tests/templates/flatpages')
+recursedown('./tests/flatpages_tests/templates/registration')
+recursedown('./tests/force_insert_update')
+recursedown('./tests/foreign_object')
+recursedown('./tests/foreign_object/models')
+recursedown('./tests/forms_tests')
+recursedown('./tests/forms_tests/field_tests')
+recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir')
+recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/c')
+recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/c/f')
+recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/h')
+recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/j')
+recursedown('./tests/forms_tests/jinja2')
+recursedown('./tests/forms_tests/jinja2/forms_tests')
+recursedown('./tests/forms_tests/templates')
+recursedown('./tests/forms_tests/templates/forms_tests')
+recursedown('./tests/forms_tests/templatetags')
+recursedown('./tests/forms_tests/tests')
+recursedown('./tests/forms_tests/tests/filepath_test_files')
+recursedown('./tests/forms_tests/tests/filepath_test_files/directory')
+recursedown('./tests/forms_tests/widget_tests')
+recursedown('./tests/from_db_value')
+recursedown('./tests/generic_inline_admin')
+recursedown('./tests/generic_relations')
+recursedown('./tests/generic_relations_regress')
+recursedown('./tests/generic_views')
+recursedown('./tests/generic_views/jinja2')
+recursedown('./tests/generic_views/jinja2/generic_views')
+recursedown('./tests/generic_views/templates')
+recursedown('./tests/generic_views/templates/generic_views')
+recursedown('./tests/generic_views/templates/registration')
+recursedown('./tests/get_earliest_or_latest')
+recursedown('./tests/get_object_or_404')
+recursedown('./tests/get_or_create')
+recursedown('./tests/gis_tests')
+recursedown('./tests/gis_tests/data')
 ./tests/cache/tests.py: no change
 ./tests/cache/tests_async.py: no change
 ./tests/check_framework/__init__.py: no change
@@ -4072,124 +4162,6 @@ recursedown('./tests/context_processors/templates/context_processors')
 ./tests/db_functions/math/test_round.py: no change
 ./tests/db_functions/math/test_sign.py: no change
 ./tests/db_functions/math/test_sin.py: no change
-recursedown('./tests/csrf_tests')
-recursedown('./tests/custom_columns')
-recursedown('./tests/custom_lookups')
-recursedown('./tests/custom_managers')
-recursedown('./tests/custom_methods')
-recursedown('./tests/custom_migration_operations')
-recursedown('./tests/custom_pk')
-recursedown('./tests/datatypes')
-recursedown('./tests/dates')
-recursedown('./tests/datetimes')
-recursedown('./tests/db_functions')
-recursedown('./tests/db_functions/comparison')
-recursedown('./tests/db_functions/datetime')
-recursedown('./tests/db_functions/math')
-recursedown('./tests/db_functions/migrations')
-recursedown('./tests/db_functions/text')
-recursedown('./tests/db_functions/window')
-recursedown('./tests/db_typecasts')
-recursedown('./tests/db_utils')
-recursedown('./tests/dbshell')
-recursedown('./tests/decorators')
-recursedown('./tests/defer')
-recursedown('./tests/defer_regress')
-recursedown('./tests/delete')
-recursedown('./tests/delete_regress')
-recursedown('./tests/deprecation')
-recursedown('./tests/dispatch')
-recursedown('./tests/distinct_on_fields')
-recursedown('./tests/empty')
-recursedown('./tests/empty/no_models')
-recursedown('./tests/empty_models')
-recursedown('./tests/expressions')
-recursedown('./tests/expressions_case')
-recursedown('./tests/expressions_window')
-recursedown('./tests/extra_regress')
-recursedown('./tests/field_deconstruction')
-recursedown('./tests/field_defaults')
-recursedown('./tests/field_subclassing')
-recursedown('./tests/file_storage')
-recursedown('./tests/file_uploads')
-recursedown('./tests/files')
-recursedown('./tests/filtered_relation')
-recursedown('./tests/fixtures')
-recursedown('./tests/fixtures/fixtures')
-recursedown('./tests/fixtures_model_package')
-recursedown('./tests/fixtures_model_package/fixtures')
-recursedown('./tests/fixtures_model_package/models')
-recursedown('./tests/fixtures_regress')
-recursedown('./tests/fixtures_regress/fixtures')
-recursedown('./tests/fixtures_regress/fixtures_1')
-recursedown('./tests/fixtures_regress/fixtures_1/inner')
-recursedown('./tests/fixtures_regress/fixtures_2')
-recursedown('./tests/flatpages_tests')
-recursedown('./tests/flatpages_tests/templates')
-recursedown('./tests/flatpages_tests/templates/flatpages')
-recursedown('./tests/flatpages_tests/templates/registration')
-recursedown('./tests/force_insert_update')
-recursedown('./tests/foreign_object')
-recursedown('./tests/foreign_object/models')
-recursedown('./tests/forms_tests')
-recursedown('./tests/forms_tests/field_tests')
-recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir')
-recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/c')
-recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/c/f')
-recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/h')
-recursedown('./tests/forms_tests/field_tests/filepathfield_test_dir/j')
-recursedown('./tests/forms_tests/jinja2')
-recursedown('./tests/forms_tests/jinja2/forms_tests')
-recursedown('./tests/forms_tests/templates')
-recursedown('./tests/forms_tests/templates/forms_tests')
-recursedown('./tests/forms_tests/templatetags')
-recursedown('./tests/forms_tests/tests')
-recursedown('./tests/forms_tests/tests/filepath_test_files')
-recursedown('./tests/forms_tests/tests/filepath_test_files/directory')
-recursedown('./tests/forms_tests/widget_tests')
-recursedown('./tests/from_db_value')
-recursedown('./tests/generic_inline_admin')
-recursedown('./tests/generic_relations')
-recursedown('./tests/generic_relations_regress')
-recursedown('./tests/generic_views')
-recursedown('./tests/generic_views/jinja2')
-recursedown('./tests/generic_views/jinja2/generic_views')
-recursedown('./tests/generic_views/templates')
-recursedown('./tests/generic_views/templates/generic_views')
-recursedown('./tests/generic_views/templates/registration')
-recursedown('./tests/get_earliest_or_latest')
-recursedown('./tests/get_object_or_404')
-recursedown('./tests/get_or_create')
-recursedown('./tests/gis_tests')
-recursedown('./tests/gis_tests/data')
-recursedown('./tests/gis_tests/data/ch-city')
-recursedown('./tests/gis_tests/data/cities')
-recursedown('./tests/gis_tests/data/counties')
-recursedown('./tests/gis_tests/data/gas_lines')
-recursedown('./tests/gis_tests/data/has_nulls')
-recursedown('./tests/gis_tests/data/interstates')
-recursedown('./tests/gis_tests/data/invalid')
-recursedown('./tests/gis_tests/data/rasters')
-recursedown('./tests/gis_tests/data/test_point')
-recursedown('./tests/gis_tests/data/test_poly')
-recursedown('./tests/gis_tests/data/test_vrt')
-recursedown('./tests/gis_tests/distapp')
-recursedown('./tests/gis_tests/distapp/fixtures')
-recursedown('./tests/gis_tests/gdal_tests')
-recursedown('./tests/gis_tests/geo3d')
-recursedown('./tests/gis_tests/geoadmin')
-recursedown('./tests/gis_tests/geoadmin_deprecated')
-recursedown('./tests/gis_tests/geoapp')
-recursedown('./tests/gis_tests/geoapp/fixtures')
-recursedown('./tests/gis_tests/geogapp')
-recursedown('./tests/gis_tests/geogapp/fixtures')
-recursedown('./tests/gis_tests/geos_tests')
-recursedown('./tests/gis_tests/gis_migrations')
-recursedown('./tests/gis_tests/gis_migrations/migrations')
-recursedown('./tests/gis_tests/inspectapp')
-recursedown('./tests/gis_tests/layermap')
-recursedown('./tests/gis_tests/rasterapp')
-recursedown('./tests/gis_tests/rasterapp/migrations')
 ./tests/db_functions/math/test_sqrt.py: no change
 ./tests/db_functions/math/test_tan.py: no change
 ./tests/db_functions/migrations/0001_setup_extensions.py: no change
@@ -4507,6 +4479,34 @@ recursedown('./tests/gis_tests/rasterapp/migrations')
 ./tests/gis_tests/geoapp/tests.py: no change
 ./tests/gis_tests/geoapp/urls.py: no change
 ./tests/gis_tests/geogapp/__init__.py: no change
+recursedown('./tests/gis_tests/data/ch-city')
+recursedown('./tests/gis_tests/data/cities')
+recursedown('./tests/gis_tests/data/counties')
+recursedown('./tests/gis_tests/data/gas_lines')
+recursedown('./tests/gis_tests/data/has_nulls')
+recursedown('./tests/gis_tests/data/interstates')
+recursedown('./tests/gis_tests/data/invalid')
+recursedown('./tests/gis_tests/data/rasters')
+recursedown('./tests/gis_tests/data/test_point')
+recursedown('./tests/gis_tests/data/test_poly')
+recursedown('./tests/gis_tests/data/test_vrt')
+recursedown('./tests/gis_tests/distapp')
+recursedown('./tests/gis_tests/distapp/fixtures')
+recursedown('./tests/gis_tests/gdal_tests')
+recursedown('./tests/gis_tests/geo3d')
+recursedown('./tests/gis_tests/geoadmin')
+recursedown('./tests/gis_tests/geoadmin_deprecated')
+recursedown('./tests/gis_tests/geoapp')
+recursedown('./tests/gis_tests/geoapp/fixtures')
+recursedown('./tests/gis_tests/geogapp')
+recursedown('./tests/gis_tests/geogapp/fixtures')
+recursedown('./tests/gis_tests/geos_tests')
+recursedown('./tests/gis_tests/gis_migrations')
+recursedown('./tests/gis_tests/gis_migrations/migrations')
+recursedown('./tests/gis_tests/inspectapp')
+recursedown('./tests/gis_tests/layermap')
+recursedown('./tests/gis_tests/rasterapp')
+recursedown('./tests/gis_tests/rasterapp/migrations')
 recursedown('./tests/gis_tests/relatedapp')
 recursedown('./tests/gis_tests/relatedapp/fixtures')
 recursedown('./tests/handlers')
@@ -4704,6 +4704,94 @@ recursedown('./tests/migrations/test_migrations_empty')
 recursedown('./tests/migrations/test_migrations_fake_split_initial')
 recursedown('./tests/migrations/test_migrations_first')
 recursedown('./tests/migrations/test_migrations_initial_false')
+recursedown('./tests/migrations/test_migrations_manual_porting')
+recursedown('./tests/migrations/test_migrations_namespace_package')
+recursedown('./tests/migrations/test_migrations_no_ancestor')
+recursedown('./tests/migrations/test_migrations_no_changes')
+recursedown('./tests/migrations/test_migrations_no_default')
+recursedown('./tests/migrations/test_migrations_no_init')
+recursedown('./tests/migrations/test_migrations_no_operations')
+recursedown('./tests/migrations/test_migrations_non_atomic')
+recursedown('./tests/migrations/test_migrations_noop')
+recursedown('./tests/migrations/test_migrations_order')
+recursedown('./tests/migrations/test_migrations_plan')
+recursedown('./tests/migrations/test_migrations_private')
+recursedown('./tests/migrations/test_migrations_run_before')
+recursedown('./tests/migrations/test_migrations_squashed')
+recursedown('./tests/migrations/test_migrations_squashed_complex')
+recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps')
+recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps/app1')
+recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps/app2')
+recursedown('./tests/migrations/test_migrations_squashed_erroneous')
+recursedown('./tests/migrations/test_migrations_squashed_extra')
+recursedown('./tests/migrations/test_migrations_squashed_no_replaces')
+recursedown('./tests/migrations/test_migrations_squashed_ref_squashed')
+recursedown('./tests/migrations/test_migrations_squashed_ref_squashed/app1')
+recursedown('./tests/migrations/test_migrations_squashed_ref_squashed/app2')
+recursedown('./tests/migrations/test_migrations_unmigdep')
+recursedown('./tests/migrations2')
+recursedown('./tests/migrations2/test_migrations_2')
+recursedown('./tests/migrations2/test_migrations_2_first')
+recursedown('./tests/migrations2/test_migrations_2_no_deps')
+recursedown('./tests/model_enums')
+recursedown('./tests/model_fields')
+recursedown('./tests/model_forms')
+recursedown('./tests/model_formsets')
+recursedown('./tests/model_formsets_regress')
+recursedown('./tests/model_indexes')
+recursedown('./tests/model_inheritance')
+recursedown('./tests/model_inheritance_regress')
+recursedown('./tests/model_meta')
+recursedown('./tests/model_options')
+recursedown('./tests/model_options/models')
+recursedown('./tests/model_package')
+recursedown('./tests/model_package/models')
+recursedown('./tests/model_regress')
+recursedown('./tests/model_utils')
+recursedown('./tests/modeladmin')
+recursedown('./tests/multiple_database')
+recursedown('./tests/multiple_database/fixtures')
+recursedown('./tests/mutually_referential')
+recursedown('./tests/nested_foreign_keys')
+recursedown('./tests/no_models')
+recursedown('./tests/null_fk')
+recursedown('./tests/null_fk_ordering')
+recursedown('./tests/null_queries')
+recursedown('./tests/one_to_one')
+recursedown('./tests/or_lookups')
+recursedown('./tests/order_with_respect_to')
+recursedown('./tests/ordering')
+recursedown('./tests/pagination')
+recursedown('./tests/postgres_tests')
+recursedown('./tests/postgres_tests/array_default_migrations')
+recursedown('./tests/postgres_tests/array_index_migrations')
+recursedown('./tests/postgres_tests/migrations')
+recursedown('./tests/prefetch_related')
+recursedown('./tests/project_template')
+recursedown('./tests/properties')
+recursedown('./tests/proxy_model_inheritance')
+recursedown('./tests/proxy_model_inheritance/app1')
+recursedown('./tests/proxy_model_inheritance/app2')
+recursedown('./tests/proxy_models')
+recursedown('./tests/proxy_models/fixtures')
+recursedown('./tests/queries')
+recursedown('./tests/queryset_pickle')
+recursedown('./tests/raw_query')
+recursedown('./tests/redirects_tests')
+recursedown('./tests/requests_tests')
+recursedown('./tests/requirements')
+recursedown('./tests/reserved_names')
+recursedown('./tests/resolve_url')
+recursedown('./tests/responses')
+recursedown('./tests/reverse_lookup')
+recursedown('./tests/save_delete_hooks')
+recursedown('./tests/schema')
+recursedown('./tests/select_for_update')
+recursedown('./tests/select_related')
+recursedown('./tests/select_related_onetoone')
+recursedown('./tests/select_related_regress')
+recursedown('./tests/serializers')
+recursedown('./tests/serializers/models')
 ./tests/gis_tests/geogapp/models.py: no change
 ./tests/gis_tests/geogapp/tests.py: no change
 ./tests/gis_tests/geos_tests/__init__.py: no change
@@ -5251,237 +5339,6 @@ recursedown('./tests/migrations/test_migrations_initial_false')
 ./tests/postgres_tests/__init__.py: no change
 ./tests/postgres_tests/fields.py: no change
 ./tests/postgres_tests/integration_settings.py: no change
-recursedown('./tests/migrations/test_migrations_manual_porting')
-recursedown('./tests/migrations/test_migrations_namespace_package')
-recursedown('./tests/migrations/test_migrations_no_ancestor')
-recursedown('./tests/migrations/test_migrations_no_changes')
-recursedown('./tests/migrations/test_migrations_no_default')
-recursedown('./tests/migrations/test_migrations_no_init')
-recursedown('./tests/migrations/test_migrations_no_operations')
-recursedown('./tests/migrations/test_migrations_non_atomic')
-recursedown('./tests/migrations/test_migrations_noop')
-recursedown('./tests/migrations/test_migrations_order')
-recursedown('./tests/migrations/test_migrations_plan')
-recursedown('./tests/migrations/test_migrations_private')
-recursedown('./tests/migrations/test_migrations_run_before')
-recursedown('./tests/migrations/test_migrations_squashed')
-recursedown('./tests/migrations/test_migrations_squashed_complex')
-recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps')
-recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps/app1')
-recursedown('./tests/migrations/test_migrations_squashed_complex_multi_apps/app2')
-recursedown('./tests/migrations/test_migrations_squashed_erroneous')
-recursedown('./tests/migrations/test_migrations_squashed_extra')
-recursedown('./tests/migrations/test_migrations_squashed_no_replaces')
-recursedown('./tests/migrations/test_migrations_squashed_ref_squashed')
-recursedown('./tests/migrations/test_migrations_squashed_ref_squashed/app1')
-recursedown('./tests/migrations/test_migrations_squashed_ref_squashed/app2')
-recursedown('./tests/migrations/test_migrations_unmigdep')
-recursedown('./tests/migrations2')
-recursedown('./tests/migrations2/test_migrations_2')
-recursedown('./tests/migrations2/test_migrations_2_first')
-recursedown('./tests/migrations2/test_migrations_2_no_deps')
-recursedown('./tests/model_enums')
-recursedown('./tests/model_fields')
-recursedown('./tests/model_forms')
-recursedown('./tests/model_formsets')
-recursedown('./tests/model_formsets_regress')
-recursedown('./tests/model_indexes')
-recursedown('./tests/model_inheritance')
-recursedown('./tests/model_inheritance_regress')
-recursedown('./tests/model_meta')
-recursedown('./tests/model_options')
-recursedown('./tests/model_options/models')
-recursedown('./tests/model_package')
-recursedown('./tests/model_package/models')
-recursedown('./tests/model_regress')
-recursedown('./tests/model_utils')
-recursedown('./tests/modeladmin')
-recursedown('./tests/multiple_database')
-recursedown('./tests/multiple_database/fixtures')
-recursedown('./tests/mutually_referential')
-recursedown('./tests/nested_foreign_keys')
-recursedown('./tests/no_models')
-recursedown('./tests/null_fk')
-recursedown('./tests/null_fk_ordering')
-recursedown('./tests/null_queries')
-recursedown('./tests/one_to_one')
-recursedown('./tests/or_lookups')
-recursedown('./tests/order_with_respect_to')
-recursedown('./tests/ordering')
-recursedown('./tests/pagination')
-recursedown('./tests/postgres_tests')
-recursedown('./tests/postgres_tests/array_default_migrations')
-recursedown('./tests/postgres_tests/array_index_migrations')
-recursedown('./tests/postgres_tests/migrations')
-recursedown('./tests/prefetch_related')
-recursedown('./tests/project_template')
-recursedown('./tests/properties')
-recursedown('./tests/proxy_model_inheritance')
-recursedown('./tests/proxy_model_inheritance/app1')
-recursedown('./tests/proxy_model_inheritance/app2')
-recursedown('./tests/proxy_models')
-recursedown('./tests/proxy_models/fixtures')
-recursedown('./tests/queries')
-recursedown('./tests/queryset_pickle')
-recursedown('./tests/raw_query')
-recursedown('./tests/redirects_tests')
-recursedown('./tests/requests_tests')
-recursedown('./tests/requirements')
-recursedown('./tests/reserved_names')
-recursedown('./tests/resolve_url')
-recursedown('./tests/responses')
-recursedown('./tests/reverse_lookup')
-recursedown('./tests/save_delete_hooks')
-recursedown('./tests/schema')
-recursedown('./tests/select_for_update')
-recursedown('./tests/select_related')
-recursedown('./tests/select_related_onetoone')
-recursedown('./tests/select_related_regress')
-recursedown('./tests/serializers')
-recursedown('./tests/serializers/models')
-recursedown('./tests/servers')
-recursedown('./tests/servers/another_app')
-recursedown('./tests/servers/another_app/static')
-recursedown('./tests/servers/another_app/static/another_app')
-recursedown('./tests/servers/fixtures')
-recursedown('./tests/servers/media')
-recursedown('./tests/servers/static')
-recursedown('./tests/sessions_tests')
-recursedown('./tests/settings_tests')
-recursedown('./tests/shell')
-recursedown('./tests/shortcuts')
-recursedown('./tests/shortcuts/jinja2')
-recursedown('./tests/shortcuts/jinja2/shortcuts')
-recursedown('./tests/shortcuts/templates')
-recursedown('./tests/shortcuts/templates/shortcuts')
-recursedown('./tests/signals')
-recursedown('./tests/signed_cookies_tests')
-recursedown('./tests/signing')
-recursedown('./tests/sitemaps_tests')
-recursedown('./tests/sitemaps_tests/templates')
-recursedown('./tests/sitemaps_tests/urls')
-recursedown('./tests/sites_framework')
-recursedown('./tests/sites_framework/migrations')
-recursedown('./tests/sites_tests')
-recursedown('./tests/staticfiles_tests')
-recursedown('./tests/staticfiles_tests/apps')
-recursedown('./tests/staticfiles_tests/apps/no_label')
-recursedown('./tests/staticfiles_tests/apps/no_label/static')
-recursedown('./tests/staticfiles_tests/apps/test')
-recursedown('./tests/staticfiles_tests/apps/test/otherdir')
-recursedown('./tests/staticfiles_tests/apps/test/static')
-recursedown('./tests/staticfiles_tests/apps/test/static/test')
-recursedown('./tests/staticfiles_tests/apps/test/static/test/vendor')
-recursedown('./tests/staticfiles_tests/project')
-recursedown('./tests/staticfiles_tests/project/documents')
-recursedown('./tests/staticfiles_tests/project/documents/cached')
-recursedown('./tests/staticfiles_tests/project/documents/cached/css')
-recursedown('./tests/staticfiles_tests/project/documents/cached/css/fonts')
-recursedown('./tests/staticfiles_tests/project/documents/cached/css/img')
-recursedown('./tests/staticfiles_tests/project/documents/cached/img')
-recursedown('./tests/staticfiles_tests/project/documents/nested')
-recursedown('./tests/staticfiles_tests/project/documents/nested/css')
-recursedown('./tests/staticfiles_tests/project/documents/nested/js')
-recursedown('./tests/staticfiles_tests/project/documents/subdir')
-recursedown('./tests/staticfiles_tests/project/documents/test')
-recursedown('./tests/staticfiles_tests/project/faulty')
-recursedown('./tests/staticfiles_tests/project/loop')
-recursedown('./tests/staticfiles_tests/project/pathlib')
-recursedown('./tests/staticfiles_tests/project/prefixed')
-recursedown('./tests/staticfiles_tests/project/site_media')
-recursedown('./tests/staticfiles_tests/project/site_media/media')
-recursedown('./tests/staticfiles_tests/project/site_media/static')
-recursedown('./tests/staticfiles_tests/urls')
-recursedown('./tests/str')
-recursedown('./tests/string_lookup')
-recursedown('./tests/swappable_models')
-recursedown('./tests/syndication_tests')
-recursedown('./tests/syndication_tests/templates')
-recursedown('./tests/syndication_tests/templates/syndication')
-recursedown('./tests/template_backends')
-recursedown('./tests/template_backends/apps')
-recursedown('./tests/template_backends/apps/good')
-recursedown('./tests/template_backends/apps/good/templatetags')
-recursedown('./tests/template_backends/apps/good/templatetags/subpackage')
-recursedown('./tests/template_backends/apps/importerror')
-recursedown('./tests/template_backends/apps/importerror/templatetags')
-recursedown('./tests/template_backends/forbidden')
-recursedown('./tests/template_backends/forbidden/template_backends')
-recursedown('./tests/template_backends/jinja2')
-recursedown('./tests/template_backends/jinja2/template_backends')
-recursedown('./tests/template_backends/template_strings')
-recursedown('./tests/template_backends/template_strings/template_backends')
-recursedown('./tests/template_backends/templates')
-recursedown('./tests/template_backends/templates/template_backends')
-recursedown('./tests/template_loader')
-recursedown('./tests/template_loader/template_strings')
-recursedown('./tests/template_loader/template_strings/template_loader')
-recursedown('./tests/template_loader/templates')
-recursedown('./tests/template_loader/templates/template_loader')
-recursedown('./tests/template_tests')
-recursedown('./tests/template_tests/eggs')
-recursedown('./tests/template_tests/filter_tests')
-recursedown('./tests/template_tests/jinja2')
-recursedown('./tests/template_tests/jinja2/template_tests')
-recursedown('./tests/template_tests/other_templates')
-recursedown('./tests/template_tests/other_templates/priority')
-recursedown('./tests/template_tests/recursive_templates')
-recursedown('./tests/template_tests/recursive_templates/fs')
-recursedown('./tests/template_tests/recursive_templates/fs2')
-recursedown('./tests/template_tests/recursive_templates/fs3')
-recursedown('./tests/template_tests/relative_templates')
-recursedown('./tests/template_tests/relative_templates/dir1')
-recursedown('./tests/template_tests/relative_templates/dir1/dir2')
-recursedown('./tests/template_tests/syntax_tests')
-recursedown('./tests/template_tests/syntax_tests/i18n')
-recursedown('./tests/template_tests/templates')
-recursedown('./tests/template_tests/templates/first')
-recursedown('./tests/template_tests/templates/priority')
-recursedown('./tests/template_tests/templates/second')
-recursedown('./tests/template_tests/templates/template_tests')
-recursedown('./tests/template_tests/templatetags')
-recursedown('./tests/template_tests/templatetags/subpackage')
-recursedown('./tests/templates')
-recursedown('./tests/templates/comments')
-recursedown('./tests/templates/custom_admin')
-recursedown('./tests/templates/views')
-recursedown('./tests/test_client')
-recursedown('./tests/test_client_regress')
-recursedown('./tests/test_client_regress/bad_templates')
-recursedown('./tests/test_client_regress/templates')
-recursedown('./tests/test_exceptions')
-recursedown('./tests/test_runner')
-recursedown('./tests/test_runner_apps')
-recursedown('./tests/test_runner_apps/buffer')
-recursedown('./tests/test_runner_apps/databases')
-recursedown('./tests/test_runner_apps/failures')
-recursedown('./tests/test_runner_apps/sample')
-recursedown('./tests/test_runner_apps/sample/tests')
-recursedown('./tests/test_runner_apps/simple')
-recursedown('./tests/test_runner_apps/tagged')
-recursedown('./tests/test_utils')
-recursedown('./tests/test_utils/fixtures')
-recursedown('./tests/test_utils/templates')
-recursedown('./tests/test_utils/templates/template_used')
-recursedown('./tests/timezones')
-recursedown('./tests/transaction_hooks')
-recursedown('./tests/transactions')
-recursedown('./tests/unmanaged_models')
-recursedown('./tests/update')
-recursedown('./tests/update_only_fields')
-recursedown('./tests/urlpatterns')
-recursedown('./tests/urlpatterns_reverse')
-recursedown('./tests/urlpatterns_reverse/translations')
-recursedown('./tests/urlpatterns_reverse/translations/locale')
-recursedown('./tests/urlpatterns_reverse/translations/locale/de')
-recursedown('./tests/urlpatterns_reverse/translations/locale/de/LC_MESSAGES')
-recursedown('./tests/urlpatterns_reverse/translations/locale/fr')
-recursedown('./tests/urlpatterns_reverse/translations/locale/fr/LC_MESSAGES')
-recursedown('./tests/user_commands')
-recursedown('./tests/user_commands/eggs')
-recursedown('./tests/user_commands/management')
-recursedown('./tests/user_commands/management/commands')
-recursedown('./tests/utils_tests')
 ./tests/postgres_tests/models.py: no change
 ./tests/postgres_tests/test_aggregates.py: no change
 ./tests/postgres_tests/test_apps.py: no change
@@ -5795,6 +5652,233 @@ recursedown('./tests/utils_tests')
 ./tests/template_tests/syntax_tests/test_basic.py: no change
 ./tests/template_tests/syntax_tests/test_builtins.py: no change
 ./tests/template_tests/syntax_tests/test_cache.py: no change
+recursedown('./tests/servers')
+recursedown('./tests/servers/another_app')
+recursedown('./tests/servers/another_app/static')
+recursedown('./tests/servers/another_app/static/another_app')
+recursedown('./tests/servers/fixtures')
+recursedown('./tests/servers/media')
+recursedown('./tests/servers/static')
+recursedown('./tests/sessions_tests')
+recursedown('./tests/settings_tests')
+recursedown('./tests/shell')
+recursedown('./tests/shortcuts')
+recursedown('./tests/shortcuts/jinja2')
+recursedown('./tests/shortcuts/jinja2/shortcuts')
+recursedown('./tests/shortcuts/templates')
+recursedown('./tests/shortcuts/templates/shortcuts')
+recursedown('./tests/signals')
+recursedown('./tests/signed_cookies_tests')
+recursedown('./tests/signing')
+recursedown('./tests/sitemaps_tests')
+recursedown('./tests/sitemaps_tests/templates')
+recursedown('./tests/sitemaps_tests/urls')
+recursedown('./tests/sites_framework')
+recursedown('./tests/sites_framework/migrations')
+recursedown('./tests/sites_tests')
+recursedown('./tests/staticfiles_tests')
+recursedown('./tests/staticfiles_tests/apps')
+recursedown('./tests/staticfiles_tests/apps/no_label')
+recursedown('./tests/staticfiles_tests/apps/no_label/static')
+recursedown('./tests/staticfiles_tests/apps/test')
+recursedown('./tests/staticfiles_tests/apps/test/otherdir')
+recursedown('./tests/staticfiles_tests/apps/test/static')
+recursedown('./tests/staticfiles_tests/apps/test/static/test')
+recursedown('./tests/staticfiles_tests/apps/test/static/test/vendor')
+recursedown('./tests/staticfiles_tests/project')
+recursedown('./tests/staticfiles_tests/project/documents')
+recursedown('./tests/staticfiles_tests/project/documents/cached')
+recursedown('./tests/staticfiles_tests/project/documents/cached/css')
+recursedown('./tests/staticfiles_tests/project/documents/cached/css/fonts')
+recursedown('./tests/staticfiles_tests/project/documents/cached/css/img')
+recursedown('./tests/staticfiles_tests/project/documents/cached/img')
+recursedown('./tests/staticfiles_tests/project/documents/nested')
+recursedown('./tests/staticfiles_tests/project/documents/nested/css')
+recursedown('./tests/staticfiles_tests/project/documents/nested/js')
+recursedown('./tests/staticfiles_tests/project/documents/subdir')
+recursedown('./tests/staticfiles_tests/project/documents/test')
+recursedown('./tests/staticfiles_tests/project/faulty')
+recursedown('./tests/staticfiles_tests/project/loop')
+recursedown('./tests/staticfiles_tests/project/pathlib')
+recursedown('./tests/staticfiles_tests/project/prefixed')
+recursedown('./tests/staticfiles_tests/project/site_media')
+recursedown('./tests/staticfiles_tests/project/site_media/media')
+recursedown('./tests/staticfiles_tests/project/site_media/static')
+recursedown('./tests/staticfiles_tests/urls')
+recursedown('./tests/str')
+recursedown('./tests/string_lookup')
+recursedown('./tests/swappable_models')
+recursedown('./tests/syndication_tests')
+recursedown('./tests/syndication_tests/templates')
+recursedown('./tests/syndication_tests/templates/syndication')
+recursedown('./tests/template_backends')
+recursedown('./tests/template_backends/apps')
+recursedown('./tests/template_backends/apps/good')
+recursedown('./tests/template_backends/apps/good/templatetags')
+recursedown('./tests/template_backends/apps/good/templatetags/subpackage')
+recursedown('./tests/template_backends/apps/importerror')
+recursedown('./tests/template_backends/apps/importerror/templatetags')
+recursedown('./tests/template_backends/forbidden')
+recursedown('./tests/template_backends/forbidden/template_backends')
+recursedown('./tests/template_backends/jinja2')
+recursedown('./tests/template_backends/jinja2/template_backends')
+recursedown('./tests/template_backends/template_strings')
+recursedown('./tests/template_backends/template_strings/template_backends')
+recursedown('./tests/template_backends/templates')
+recursedown('./tests/template_backends/templates/template_backends')
+recursedown('./tests/template_loader')
+recursedown('./tests/template_loader/template_strings')
+recursedown('./tests/template_loader/template_strings/template_loader')
+recursedown('./tests/template_loader/templates')
+recursedown('./tests/template_loader/templates/template_loader')
+recursedown('./tests/template_tests')
+recursedown('./tests/template_tests/eggs')
+recursedown('./tests/template_tests/filter_tests')
+recursedown('./tests/template_tests/jinja2')
+recursedown('./tests/template_tests/jinja2/template_tests')
+recursedown('./tests/template_tests/other_templates')
+recursedown('./tests/template_tests/other_templates/priority')
+recursedown('./tests/template_tests/recursive_templates')
+recursedown('./tests/template_tests/recursive_templates/fs')
+recursedown('./tests/template_tests/recursive_templates/fs2')
+recursedown('./tests/template_tests/recursive_templates/fs3')
+recursedown('./tests/template_tests/relative_templates')
+recursedown('./tests/template_tests/relative_templates/dir1')
+recursedown('./tests/template_tests/relative_templates/dir1/dir2')
+recursedown('./tests/template_tests/syntax_tests')
+recursedown('./tests/template_tests/syntax_tests/i18n')
+recursedown('./tests/template_tests/templates')
+recursedown('./tests/template_tests/templates/first')
+recursedown('./tests/template_tests/templates/priority')
+recursedown('./tests/template_tests/templates/second')
+recursedown('./tests/template_tests/templates/template_tests')
+recursedown('./tests/template_tests/templatetags')
+recursedown('./tests/template_tests/templatetags/subpackage')
+recursedown('./tests/templates')
+recursedown('./tests/templates/comments')
+recursedown('./tests/templates/custom_admin')
+recursedown('./tests/templates/views')
+recursedown('./tests/test_client')
+recursedown('./tests/test_client_regress')
+recursedown('./tests/test_client_regress/bad_templates')
+recursedown('./tests/test_client_regress/templates')
+recursedown('./tests/test_exceptions')
+recursedown('./tests/test_runner')
+recursedown('./tests/test_runner_apps')
+recursedown('./tests/test_runner_apps/buffer')
+recursedown('./tests/test_runner_apps/databases')
+recursedown('./tests/test_runner_apps/failures')
+recursedown('./tests/test_runner_apps/sample')
+recursedown('./tests/test_runner_apps/sample/tests')
+recursedown('./tests/test_runner_apps/simple')
+recursedown('./tests/test_runner_apps/tagged')
+recursedown('./tests/test_utils')
+recursedown('./tests/test_utils/fixtures')
+recursedown('./tests/test_utils/templates')
+recursedown('./tests/test_utils/templates/template_used')
+recursedown('./tests/timezones')
+recursedown('./tests/transaction_hooks')
+recursedown('./tests/transactions')
+recursedown('./tests/unmanaged_models')
+recursedown('./tests/update')
+recursedown('./tests/update_only_fields')
+recursedown('./tests/urlpatterns')
+recursedown('./tests/urlpatterns_reverse')
+recursedown('./tests/urlpatterns_reverse/translations')
+recursedown('./tests/urlpatterns_reverse/translations/locale')
+recursedown('./tests/urlpatterns_reverse/translations/locale/de')
+recursedown('./tests/urlpatterns_reverse/translations/locale/de/LC_MESSAGES')
+recursedown('./tests/urlpatterns_reverse/translations/locale/fr')
+recursedown('./tests/urlpatterns_reverse/translations/locale/fr/LC_MESSAGES')
+recursedown('./tests/user_commands')
+recursedown('./tests/user_commands/eggs')
+recursedown('./tests/user_commands/management')
+recursedown('./tests/user_commands/management/commands')
+recursedown('./tests/utils_tests')
+recursedown('./tests/utils_tests/archives')
+recursedown('./tests/utils_tests/eggs')
+recursedown('./tests/utils_tests/files')
+recursedown('./tests/utils_tests/test_module')
+recursedown('./tests/utils_tests/test_module/child_module')
+recursedown('./tests/utils_tests/traversal_archives')
+recursedown('./tests/validation')
+recursedown('./tests/validators')
+recursedown('./tests/version')
+recursedown('./tests/view_tests')
+recursedown('./tests/view_tests/app0')
+recursedown('./tests/view_tests/app0/locale')
+recursedown('./tests/view_tests/app0/locale/en')
+recursedown('./tests/view_tests/app0/locale/en/LC_MESSAGES')
+recursedown('./tests/view_tests/app1')
+recursedown('./tests/view_tests/app1/locale')
+recursedown('./tests/view_tests/app1/locale/fr')
+recursedown('./tests/view_tests/app1/locale/fr/LC_MESSAGES')
+recursedown('./tests/view_tests/app2')
+recursedown('./tests/view_tests/app2/locale')
+recursedown('./tests/view_tests/app2/locale/fr')
+recursedown('./tests/view_tests/app2/locale/fr/LC_MESSAGES')
+recursedown('./tests/view_tests/app3')
+recursedown('./tests/view_tests/app3/locale')
+recursedown('./tests/view_tests/app3/locale/es_AR')
+recursedown('./tests/view_tests/app3/locale/es_AR/LC_MESSAGES')
+recursedown('./tests/view_tests/app4')
+recursedown('./tests/view_tests/app4/locale')
+recursedown('./tests/view_tests/app4/locale/es_AR')
+recursedown('./tests/view_tests/app4/locale/es_AR/LC_MESSAGES')
+recursedown('./tests/view_tests/app5')
+recursedown('./tests/view_tests/app5/locale')
+recursedown('./tests/view_tests/app5/locale/fr')
+recursedown('./tests/view_tests/app5/locale/fr/LC_MESSAGES')
+recursedown('./tests/view_tests/custom_locale_path')
+recursedown('./tests/view_tests/custom_locale_path/es')
+recursedown('./tests/view_tests/custom_locale_path/es/LC_MESSAGES')
+recursedown('./tests/view_tests/custom_locale_path/es_MX')
+recursedown('./tests/view_tests/custom_locale_path/es_MX/LC_MESSAGES')
+recursedown('./tests/view_tests/locale')
+recursedown('./tests/view_tests/locale/de')
+recursedown('./tests/view_tests/locale/de/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/en_GB')
+recursedown('./tests/view_tests/locale/en_GB/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/es')
+recursedown('./tests/view_tests/locale/es/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/fr')
+recursedown('./tests/view_tests/locale/fr/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/nl')
+recursedown('./tests/view_tests/locale/nl/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/pt')
+recursedown('./tests/view_tests/locale/pt/LC_MESSAGES')
+recursedown('./tests/view_tests/locale/ru')
+recursedown('./tests/view_tests/locale/ru/LC_MESSAGES')
+recursedown('./tests/view_tests/media')
+recursedown('./tests/view_tests/media/subdir')
+recursedown('./tests/view_tests/templates')
+recursedown('./tests/view_tests/templates/debug')
+recursedown('./tests/view_tests/templatetags')
+recursedown('./tests/view_tests/tests')
+recursedown('./tests/wsgi')
+recursedown('./tests/xor_lookups')
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /builddir/build/BUILD
++ cd Django-4.2.16
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/Django-4.2.16/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-buildrequires -x argon2,bcrypt
 ./tests/template_tests/syntax_tests/test_comment.py: no change
 ./tests/template_tests/syntax_tests/test_cycle.py: no change
 ./tests/template_tests/syntax_tests/test_debug.py: no change
@@ -6084,91 +6168,7 @@ recursedown('./tests/utils_tests')
 ./tests/xor_lookups/__init__.py: no change
 ./tests/xor_lookups/models.py: no change
 ./tests/xor_lookups/tests.py: no change
-recursedown('./tests/utils_tests/archives')
-recursedown('./tests/utils_tests/eggs')
-recursedown('./tests/utils_tests/files')
-recursedown('./tests/utils_tests/test_module')
-recursedown('./tests/utils_tests/test_module/child_module')
-recursedown('./tests/utils_tests/traversal_archives')
-recursedown('./tests/validation')
-recursedown('./tests/validators')
-recursedown('./tests/version')
-recursedown('./tests/view_tests')
-recursedown('./tests/view_tests/app0')
-recursedown('./tests/view_tests/app0/locale')
-recursedown('./tests/view_tests/app0/locale/en')
-recursedown('./tests/view_tests/app0/locale/en/LC_MESSAGES')
-recursedown('./tests/view_tests/app1')
-recursedown('./tests/view_tests/app1/locale')
-recursedown('./tests/view_tests/app1/locale/fr')
-recursedown('./tests/view_tests/app1/locale/fr/LC_MESSAGES')
-recursedown('./tests/view_tests/app2')
-recursedown('./tests/view_tests/app2/locale')
-recursedown('./tests/view_tests/app2/locale/fr')
-recursedown('./tests/view_tests/app2/locale/fr/LC_MESSAGES')
-recursedown('./tests/view_tests/app3')
-recursedown('./tests/view_tests/app3/locale')
-recursedown('./tests/view_tests/app3/locale/es_AR')
-recursedown('./tests/view_tests/app3/locale/es_AR/LC_MESSAGES')
-recursedown('./tests/view_tests/app4')
-recursedown('./tests/view_tests/app4/locale')
-recursedown('./tests/view_tests/app4/locale/es_AR')
-recursedown('./tests/view_tests/app4/locale/es_AR/LC_MESSAGES')
-recursedown('./tests/view_tests/app5')
-recursedown('./tests/view_tests/app5/locale')
-recursedown('./tests/view_tests/app5/locale/fr')
-recursedown('./tests/view_tests/app5/locale/fr/LC_MESSAGES')
-recursedown('./tests/view_tests/custom_locale_path')
-recursedown('./tests/view_tests/custom_locale_path/es')
-recursedown('./tests/view_tests/custom_locale_path/es/LC_MESSAGES')
-recursedown('./tests/view_tests/custom_locale_path/es_MX')
-recursedown('./tests/view_tests/custom_locale_path/es_MX/LC_MESSAGES')
-recursedown('./tests/view_tests/locale')
-recursedown('./tests/view_tests/locale/de')
-recursedown('./tests/view_tests/locale/de/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/en_GB')
-recursedown('./tests/view_tests/locale/en_GB/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/es')
-recursedown('./tests/view_tests/locale/es/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/fr')
-recursedown('./tests/view_tests/locale/fr/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/nl')
-recursedown('./tests/view_tests/locale/nl/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/pt')
-recursedown('./tests/view_tests/locale/pt/LC_MESSAGES')
-recursedown('./tests/view_tests/locale/ru')
-recursedown('./tests/view_tests/locale/ru/LC_MESSAGES')
-recursedown('./tests/view_tests/media')
-recursedown('./tests/view_tests/media/subdir')
-recursedown('./tests/view_tests/templates')
-recursedown('./tests/view_tests/templates/debug')
-recursedown('./tests/view_tests/templatetags')
-recursedown('./tests/view_tests/tests')
-recursedown('./tests/wsgi')
-recursedown('./tests/xor_lookups')
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd Django-4.2.16
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/Django-4.2.16/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-buildrequires -x argon2,bcrypt
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.efRZrl
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.eNEahF
 Import error: No module named 'packaging'
 + cat /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
@@ -6184,10 +6184,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    77 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                13 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    57 kB/s |  28 kB     00:00    
 Package python3-devel-3.9.21-1.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -6228,7 +6228,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QCQUEz
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gf9odE
 + umask 022
 + cd /builddir/build/BUILD
 + cd Django-4.2.16
@@ -6265,10 +6265,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 6.8 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                6.8 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    57 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    54 kB/s |  28 kB     00:00    
 Package python3-devel-3.9.21-1.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -6307,7 +6307,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.y7d5bB
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jDlSyh
 + umask 022
 + cd /builddir/build/BUILD
 + cd Django-4.2.16
@@ -6392,10 +6392,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    76 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    41 kB/s |  28 kB     00:00    
 Package python3-devel-3.9.21-1.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -6458,7 +6458,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fIx7iM
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.lSXBgp
 + umask 022
 + cd /builddir/build/BUILD
 + cd Django-4.2.16
@@ -6547,10 +6547,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  28 kB     00:00    
 Package python3.11-asgiref-3.8.1-1.el9.noarch is already installed.
 Package python3-devel-3.9.21-1.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -6568,7 +6568,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.UyRFaN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.alTvOb
 + umask 022
 + cd /builddir/build/BUILD
 + cd Django-4.2.16
@@ -6648,7 +6648,7 @@ removed directory 'Django-4.2.16.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.4vsVRb
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.DWk7Z2
 + umask 022
 + cd /builddir/build/BUILD
 + cd Django-4.2.16
@@ -6661,21 +6661,21 @@ Processing /builddir/build/BUILD/Django-4.2.16
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info
-  writing /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/entry_points.txt
-  writing requirements to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info
+  writing /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no previously-included files matching '__pycache__' found anywhere in distribution
   adding license file 'LICENSE'
   adding license file 'LICENSE.python'
   adding license file 'AUTHORS'
-  writing manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-0u379o5i/Django-4.2.16.dist-info'
+  writing manifest file '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-modern-metadata-kezsyubr/Django-4.2.16.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: Django
   Building wheel for Django (pyproject.toml): started
@@ -65225,7 +65225,7 @@ Building wheels for collected packages: Django
   Copying Django.egg-info to build/bdist.linux-x86_64/wheel/./Django-4.2.16-py3.11.egg-info
   running install_scripts
   creating build/bdist.linux-x86_64/wheel/Django-4.2.16.dist-info/WHEEL
-  creating '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-wheel-rxcl1y37/.tmp-q9mr2hu1/Django-4.2.16-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11/pip-wheel-xot9oc5i/.tmp-sr8h96y0/Django-4.2.16-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'django/__init__.py'
   adding 'django/__main__.py'
   adding 'django/shortcuts.py'
@@ -68855,7 +68855,7 @@ Successfully built Django
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.3L9vS8
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.dSTMVU
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64 '!=' / ']'
@@ -68865,8 +68865,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.3L9vS8
 + mkdir /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64
 + cd Django-4.2.16
 ++ ls /builddir/build/BUILD/Django-4.2.16/pyproject-wheeldir-3.11/Django-4.2.16-py3-none-any.whl
-++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
 + specifier=Django==4.2.16
 + '[' -z Django==4.2.16 ']'
 + TMPDIR=/builddir/build/BUILD/Django-4.2.16/.pyproject-builddir-3.11
@@ -68907,29 +68907,20 @@ removed '/builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/lib/pyt
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
 + /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-django-4.2.16-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 4.2.16-1.el9 --unique-debug-suffix -4.2.16-1.el9.x86_64 --unique-debug-src-base python-django-4.2.16-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/Django-4.2.16
-find: 'debug': No such file or directory
-+ /usr/lib/rpm/check-buildroot
-+ /usr/lib/rpm/redhat/brp-ldconfig
-+ /usr/lib/rpm/brp-compress
-+ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
-+ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
-+ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/lib/python3.11 using python3.11
-+ /usr/lib/rpm/brp-python-hardlink
-+ /usr/lib/rpm/redhat/brp-mangle-shebangs
-*** ERROR: ambiguous python shebang in /usr/lib/python3.11/site-packages/django/conf/project_template/manage.py-tpl: #!/usr/bin/env python. Change it to python3 (or python2) explicitly.
++ pathfix.py -pni '/usr/bin/python3.11 -sP' /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/lib64/python3.11/site-packages /builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/bin/django-admin
+/builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/lib64/python3.11/site-packages: cannot open: FileNotFoundError(2, 'No such file or directory')
+/builddir/build/BUILDROOT/python-django-4.2.16-1.el9.x86_64/usr/bin/django-admin: no change
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.3L9vS8 (%install)
-    Bad exit status from /var/tmp/rpm-tmp.3L9vS8 (%install)
+error: Bad exit status from /var/tmp/rpm-tmp.dSTMVU (%install)
+    Bad exit status from /var/tmp/rpm-tmp.dSTMVU (%install)
 Finish: rpmbuild python-django-4.2.16-1.el9.src.rpm
 Finish: build phase for python-django-4.2.16-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-4.2.16-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 52 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-4.2.16-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 49 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 6db4211e1e494e90bf463c8bcdb09380 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.5ie71oek:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-django.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 75df90318ad540beb9b8337744e040e7 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.xttpt9wf:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-django.spec --nocheck'
 
 Directory walk started
 Directory walk done - 183 packages
