@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-mypy-1.15.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.2.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 09:38:23 AM CET 2025
+The build completed at Wed Feb 19 09:39:10 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
