@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.28-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.29.2-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:16:49 PM CET 2025
+The build completed at Wed Feb 19 12:17:20 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.29.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -198,7 +198,7 @@ python3.11-urllib3-2.3.0-1.el9 | python-urllib3-2.3.0-1.el9.src.rpm | **Missing*
 python3.11-uv-0.6.1-1.el9 | python-uv-0.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-uv-0.6.1-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.28-1.el9 | python-uwsgi-2.0.28-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.12-1.el9 | python-uwsgitop-0.12-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.12-1.el9.src.rpm.log)
-python3.11-virtualenv-20.29.2-1.el9 | python-virtualenv-20.29.2-1.el9.src.rpm | **Missing** |
+python3.11-virtualenv-20.29.2-1.el9 | python-virtualenv-20.29.2-1.el9.src.rpm | **Missing** | [Log](logs/python-virtualenv-20.29.2-1.el9.src.rpm.log)
 python3.11-websocket-client-1.8.0-1.el9 | python-websocket-client-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.8.0-1.el9.src.rpm.log)
 python3.11-wheel-0.45.1-1.el9 | python-wheel-0.45.1-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.45.1-1.el9.src.rpm.log)
 python3.11-wrapt-1.17.0-1.el9 | python-wrapt-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-wrapt-1.17.0-1.el9.src.rpm.log)
