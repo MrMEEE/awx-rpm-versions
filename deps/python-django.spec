@@ -14,6 +14,7 @@ Source:         %{pypi_source Django}
 
 BuildArch:      noarch
 
+BuildRequires: /usr/bin/pathfix.py
 BuildRequires:  python%{python3_pkgversion}-devel
 
 
@@ -34,7 +35,9 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n Django-%{version}
+autosetup -p1 -n Django-%{version}
+pathfix.py -pni "%{__python3} %{py3_shbang_opts}" .
+
 
 
 %generate_buildrequires
