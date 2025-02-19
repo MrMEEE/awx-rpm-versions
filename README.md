@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-sniffio-1.3.1-1.el9.src.rpm
+The lastest package built was python-anyio-4.8.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 09:53:30 AM CET 2025
+The build completed at Wed Feb 19 09:54:11 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
+[Build Log](logs/python-anyio-4.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -16,7 +16,7 @@ python3.11-aiohttp-3.11.11-1.el9 | python-aiohttp-3.11.11-1.el9.src.rpm | Built 
 python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm | Built | [Log](logs/python-aiohttp-retry-2.8.3-1.el9.src.rpm.log)
 python3.11-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | Built | [Log](logs/python-aiosignal-1.3.2-1.el9.src.rpm.log)
 python3.11-ansi2html-1.9.2-1.el9 | python-ansi2html-1.9.2-1.el9.src.rpm | Built | [Log](logs/python-ansi2html-1.9.2-1.el9.src.rpm.log)
-python3.11-anyio-4.8.0-1.el9 | python-anyio-4.8.0-1.el9.src.rpm | **Missing** | [Log](logs/python-anyio-4.8.0-1.el9.src.rpm.log)
+python3.11-anyio-4.8.0-1.el9 | python-anyio-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-anyio-4.8.0-1.el9.src.rpm.log)
 python3.11-argon2-cffi-23.1.0-1.el9 | python-argon2-cffi-23.1.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
 python3.11-argon2-cffi-bindings-21.2.0-1.el9 | python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm.log)
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | **Missing** | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
@@ -204,4 +204,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
 
-194 total packages, 128 packages built successfully, 66 packages left to fix
+194 total packages, 129 packages built successfully, 65 packages left to fix

@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-sniffio-1.3.1-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-anyio-4.8.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-sniffio-1.3.1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-anyio-4.8.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-sniffio-1.3.1-1.el9.src.rpm
-Start: build setup for python-sniffio-1.3.1-1.el9.src.rpm
+Start: build phase for python-anyio-4.8.0-1.el9.src.rpm
+Start: build setup for python-anyio-4.8.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Wrote: /builddir/build/SRPMS/python-sniffio-1.3.1-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            18 MB/s | 133 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS         [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    48 kB/s |  28 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            20 MB/s | 134 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 8.6 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                8.6 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    57 kB/s |  28 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-sniffio-1.3.1-1.el9.src.rpm
+Finish: build setup for python-anyio-4.8.0-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-sniffio-1.3.1-1.el9.src.rpm
+Start: rpmbuild python-anyio-4.8.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.fT7gbu
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.egpih9
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf sniffio-1.3.1
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/sniffio-1.3.1.tar.gz
++ rm -rf anyio-4.8.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/anyio-4.8.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd sniffio-1.3.1
++ cd anyio-4.8.0
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dzbemh
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.CayDp9
 + umask 022
 + cd /builddir/build/BUILD
-+ cd sniffio-1.3.1
++ cd anyio-4.8.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.dzbemh
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-sniffio-1.3.1-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GpOyqM
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.64j9zo
 + umask 022
 + cd /builddir/build/BUILD
-+ cd sniffio-1.3.1
++ cd anyio-4.8.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,25 +275,25 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GpOyqM
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools >= 64 from build-system.requires
 Requirement not satisfied: setuptools >= 64
 Handling setuptools_scm >= 6.4 from build-system.requires
 Requirement not satisfied: setuptools_scm >= 6.4
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-sniffio-1.3.1-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -302,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -346,10 +346,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LDOVXn
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ue0nba
 + umask 022
 + cd /builddir/build/BUILD
-+ cd sniffio-1.3.1
++ cd anyio-4.8.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -358,14 +358,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LDOVXn
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools >= 64 from build-system.requires
 Requirement satisfied: setuptools >= 64
    (installed: setuptools 75.8.0)
@@ -373,40 +373,74 @@ Handling setuptools_scm >= 6.4 from build-system.requires
 Requirement satisfied: setuptools_scm >= 6.4
    (installed: setuptools_scm 8.1.0)
 running egg_info
-writing sniffio.egg-info/PKG-INFO
-writing dependency_links to sniffio.egg-info/dependency_links.txt
-writing top-level names to sniffio.egg-info/top_level.txt
-reading manifest file 'sniffio.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-no previously-included directories found matching 'docs/build'
+writing src/anyio.egg-info/PKG-INFO
+writing dependency_links to src/anyio.egg-info/dependency_links.txt
+writing entry points to src/anyio.egg-info/entry_points.txt
+writing requirements to src/anyio.egg-info/requires.txt
+writing top-level names to src/anyio.egg-info/top_level.txt
+reading manifest file 'src/anyio.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-adding license file 'LICENSE.APACHE2'
-adding license file 'LICENSE.MIT'
-writing manifest file 'sniffio.egg-info/SOURCES.txt'
+writing manifest file 'src/anyio.egg-info/SOURCES.txt'
 running dist_info
-writing sniffio.egg-info/PKG-INFO
-writing dependency_links to sniffio.egg-info/dependency_links.txt
-writing top-level names to sniffio.egg-info/top_level.txt
-reading manifest file 'sniffio.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-no previously-included directories found matching 'docs/build'
+creating anyio.egg-info
+writing anyio.egg-info/PKG-INFO
+writing dependency_links to anyio.egg-info/dependency_links.txt
+writing entry points to anyio.egg-info/entry_points.txt
+writing requirements to anyio.egg-info/requires.txt
+writing top-level names to anyio.egg-info/top_level.txt
+writing manifest file 'anyio.egg-info/SOURCES.txt'
+reading manifest file 'anyio.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-adding license file 'LICENSE.APACHE2'
-adding license file 'LICENSE.MIT'
-writing manifest file 'sniffio.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/sniffio-1.3.1/sniffio-1.3.1.dist-info'
-+ cat /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv sniffio-1.3.1.dist-info/
-removed 'sniffio-1.3.1.dist-info/top_level.txt'
-removed 'sniffio-1.3.1.dist-info/METADATA'
-removed 'sniffio-1.3.1.dist-info/LICENSE'
-removed 'sniffio-1.3.1.dist-info/LICENSE.APACHE2'
-removed 'sniffio-1.3.1.dist-info/LICENSE.MIT'
-removed directory 'sniffio-1.3.1.dist-info/'
+writing manifest file 'anyio.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/anyio-4.8.0/anyio-4.8.0.dist-info'
+Handling exceptiongroup>=1.0.2; python_version < "3.11" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.0.2; python_version < "3.11"
+Handling idna>=2.8 from hook generated metadata: Requires-Dist (anyio)
+Requirement not satisfied: idna>=2.8
+Handling sniffio>=1.1 from hook generated metadata: Requires-Dist (anyio)
+Requirement not satisfied: sniffio>=1.1
+Handling typing_extensions>=4.5; python_version < "3.13" from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: typing_extensions>=4.5; python_version < "3.13"
+   (installed: typing_extensions 4.12.2)
+Handling trio>=0.26.1; extra == "trio" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trio>=0.26.1; extra == "trio"
+Handling anyio[trio]; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: anyio[trio]; extra == "test"
+Handling coverage[toml]>=7; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: coverage[toml]>=7; extra == "test"
+Handling exceptiongroup>=1.2.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.2.0; extra == "test"
+Handling hypothesis>=4.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: hypothesis>=4.0; extra == "test"
+Handling psutil>=5.9; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: psutil>=5.9; extra == "test"
+Handling pytest>=7.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: pytest>=7.0; extra == "test"
+Handling trustme; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trustme; extra == "test"
+Handling truststore>=0.9.1; python_version >= "3.10" and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: truststore>=0.9.1; python_version >= "3.10" and extra == "test"
+Handling uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test"
+Handling packaging; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: packaging; extra == "doc"
+Handling Sphinx~=7.4; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: Sphinx~=7.4; extra == "doc"
+Handling sphinx_rtd_theme; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx_rtd_theme; extra == "doc"
+Handling sphinx-autodoc-typehints>=1.2.0; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx-autodoc-typehints>=1.2.0; extra == "doc"
++ cat /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv anyio-4.8.0.dist-info/
+removed 'anyio-4.8.0.dist-info/entry_points.txt'
+removed 'anyio-4.8.0.dist-info/top_level.txt'
+removed 'anyio-4.8.0.dist-info/METADATA'
+removed 'anyio-4.8.0.dist-info/LICENSE'
+removed directory 'anyio-4.8.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-sniffio-1.3.1-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -415,10 +449,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -427,15 +461,48 @@ Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
 Dependencies resolved.
-Nothing to do.
+=================================================================================================================
+ Package                           Arch        Version             Repository                               Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-idna                  [m noarch      3.10-1.el9          _opt_awxrpmng_rpmbuilds_3000_RPMS_      115 k
+ [1mpython3.11-sniffio               [m noarch      1.3.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_       21 k
+ [1mpython3.11-typing-extensions     [m noarch      4.12.2-1.el9        _opt_awxrpmng_rpmbuilds_3000_RPMS_       83 k
+
+Transaction Summary
+=================================================================================================================
+Install  3 Packages
+
+Total size: 218 k
+Installed size: 1.1 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [===========================                                                         ] 1/1  Preparing        :  [=======================================================                             ] 1/1  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [                                          ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [==                                        ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [=====                                     ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [========                                  ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [===========                               ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [=============                             ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [================                          ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [===================                       ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [======================                    ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [==========================                ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [===========================               ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [============================              ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [=============================             ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [================================          ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [===================================       ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [======================================    ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9. [========================================= ] 1/3  Installing       : python3.11-typing-extensions-4.12.2-1.el9.noarch                                        1/3 
+  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [                                               ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [==============                                 ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [===============                                ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [====================                           ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [=====================                          ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [========================                       ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [=========================                      ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [===============================                ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [====================================           ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [=======================================        ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [========================================       ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [=========================================      ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [=============================================  ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch [============================================== ] 2/3  Installing       : python3.11-sniffio-1.3.1-1.el9.noarch                                                   2/3 
+  Installing       : python3.11-idna-3.10-1.el9.noarch [                                                   ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=                                                  ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [==                                                 ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [====                                               ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=======                                            ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [========                                           ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [===========                                        ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=============                                      ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [================                                   ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [==================                                 ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=====================                              ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=======================                            ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [==========================                         ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [===========================                        ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [============================                       ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=============================                      ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [================================                   ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [==================================                 ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=====================================              ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [========================================           ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [==========================================         ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [=============================================      ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [================================================   ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch [================================================== ] 3/3  Installing       : python3.11-idna-3.10-1.el9.noarch                                                       3/3 
+  Running scriptlet: python3.11-idna-3.10-1.el9.noarch                                                       3/3 
+  Verifying        : python3.11-idna-3.10-1.el9.noarch                                                       1/3 
+  Verifying        : python3.11-sniffio-1.3.1-1.el9.noarch                                                   2/3 
+  Verifying        : python3.11-typing-extensions-4.12.2-1.el9.noarch                                        3/3 
+Installed products updated.
+
+Installed:
+  python3.11-idna-3.10-1.el9.noarch                            python3.11-sniffio-1.3.1-1.el9.noarch            
+  python3.11-typing-extensions-4.12.2-1.el9.noarch            
+
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yGGnyi
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sqclYQ
 + umask 022
 + cd /builddir/build/BUILD
-+ cd sniffio-1.3.1
++ cd anyio-4.8.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -444,14 +511,14 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.yGGnyi
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools >= 64 from build-system.requires
 Requirement satisfied: setuptools >= 64
    (installed: setuptools 75.8.0)
@@ -459,175 +526,435 @@ Handling setuptools_scm >= 6.4 from build-system.requires
 Requirement satisfied: setuptools_scm >= 6.4
    (installed: setuptools_scm 8.1.0)
 running egg_info
-writing sniffio.egg-info/PKG-INFO
-writing dependency_links to sniffio.egg-info/dependency_links.txt
-writing top-level names to sniffio.egg-info/top_level.txt
-reading manifest file 'sniffio.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-no previously-included directories found matching 'docs/build'
+writing src/anyio.egg-info/PKG-INFO
+writing dependency_links to src/anyio.egg-info/dependency_links.txt
+writing entry points to src/anyio.egg-info/entry_points.txt
+writing requirements to src/anyio.egg-info/requires.txt
+writing top-level names to src/anyio.egg-info/top_level.txt
+reading manifest file 'src/anyio.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-adding license file 'LICENSE.APACHE2'
-adding license file 'LICENSE.MIT'
-writing manifest file 'sniffio.egg-info/SOURCES.txt'
+writing manifest file 'src/anyio.egg-info/SOURCES.txt'
 running dist_info
-writing sniffio.egg-info/PKG-INFO
-writing dependency_links to sniffio.egg-info/dependency_links.txt
-writing top-level names to sniffio.egg-info/top_level.txt
-reading manifest file 'sniffio.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-no previously-included directories found matching 'docs/build'
+writing anyio.egg-info/PKG-INFO
+writing dependency_links to anyio.egg-info/dependency_links.txt
+writing entry points to anyio.egg-info/entry_points.txt
+writing requirements to anyio.egg-info/requires.txt
+writing top-level names to anyio.egg-info/top_level.txt
+reading manifest file 'anyio.egg-info/SOURCES.txt'
 adding license file 'LICENSE'
-adding license file 'LICENSE.APACHE2'
-adding license file 'LICENSE.MIT'
-writing manifest file 'sniffio.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/sniffio-1.3.1/sniffio-1.3.1.dist-info'
-+ cat /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv sniffio-1.3.1.dist-info/
-removed 'sniffio-1.3.1.dist-info/top_level.txt'
-removed 'sniffio-1.3.1.dist-info/METADATA'
-removed 'sniffio-1.3.1.dist-info/LICENSE'
-removed 'sniffio-1.3.1.dist-info/LICENSE.APACHE2'
-removed 'sniffio-1.3.1.dist-info/LICENSE.MIT'
-removed directory 'sniffio-1.3.1.dist-info/'
+writing manifest file 'anyio.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/anyio-4.8.0/anyio-4.8.0.dist-info'
+Handling exceptiongroup>=1.0.2; python_version < "3.11" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.0.2; python_version < "3.11"
+Handling idna>=2.8 from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: idna>=2.8
+   (installed: idna 3.10)
+Handling sniffio>=1.1 from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: sniffio>=1.1
+   (installed: sniffio 1.3.1)
+Handling typing_extensions>=4.5; python_version < "3.13" from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: typing_extensions>=4.5; python_version < "3.13"
+   (installed: typing_extensions 4.12.2)
+Handling trio>=0.26.1; extra == "trio" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trio>=0.26.1; extra == "trio"
+Handling anyio[trio]; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: anyio[trio]; extra == "test"
+Handling coverage[toml]>=7; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: coverage[toml]>=7; extra == "test"
+Handling exceptiongroup>=1.2.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.2.0; extra == "test"
+Handling hypothesis>=4.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: hypothesis>=4.0; extra == "test"
+Handling psutil>=5.9; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: psutil>=5.9; extra == "test"
+Handling pytest>=7.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: pytest>=7.0; extra == "test"
+Handling trustme; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trustme; extra == "test"
+Handling truststore>=0.9.1; python_version >= "3.10" and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: truststore>=0.9.1; python_version >= "3.10" and extra == "test"
+Handling uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test"
+Handling packaging; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: packaging; extra == "doc"
+Handling Sphinx~=7.4; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: Sphinx~=7.4; extra == "doc"
+Handling sphinx_rtd_theme; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx_rtd_theme; extra == "doc"
+Handling sphinx-autodoc-typehints>=1.2.0; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx-autodoc-typehints>=1.2.0; extra == "doc"
++ cat /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv anyio-4.8.0.dist-info/
+removed 'anyio-4.8.0.dist-info/entry_points.txt'
+removed 'anyio-4.8.0.dist-info/top_level.txt'
+removed 'anyio-4.8.0.dist-info/METADATA'
+removed 'anyio-4.8.0.dist-info/LICENSE'
+removed directory 'anyio-4.8.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.mXOWlA
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 6.5 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                6.5 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    41 kB/s |  28 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-idna-3.10-1.el9.noarch is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
+Package python3.11-sniffio-1.3.1-1.el9.noarch is already installed.
+Package python3.11-typing-extensions-4.12.2-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739923200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ChnRqR
 + umask 022
 + cd /builddir/build/BUILD
-+ cd sniffio-1.3.1
-+ mkdir -p /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
++ cd anyio-4.8.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
++ echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/sniffio-1.3.1
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 64 from build-system.requires
+Requirement satisfied: setuptools >= 64
+   (installed: setuptools 75.8.0)
+Handling setuptools_scm >= 6.4 from build-system.requires
+Requirement satisfied: setuptools_scm >= 6.4
+   (installed: setuptools_scm 8.1.0)
+running egg_info
+writing src/anyio.egg-info/PKG-INFO
+writing dependency_links to src/anyio.egg-info/dependency_links.txt
+writing entry points to src/anyio.egg-info/entry_points.txt
+writing requirements to src/anyio.egg-info/requires.txt
+writing top-level names to src/anyio.egg-info/top_level.txt
+reading manifest file 'src/anyio.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/anyio.egg-info/SOURCES.txt'
+running dist_info
+writing anyio.egg-info/PKG-INFO
+writing dependency_links to anyio.egg-info/dependency_links.txt
+writing entry points to anyio.egg-info/entry_points.txt
+writing requirements to anyio.egg-info/requires.txt
+writing top-level names to anyio.egg-info/top_level.txt
+reading manifest file 'anyio.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'anyio.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/anyio-4.8.0/anyio-4.8.0.dist-info'
+Handling exceptiongroup>=1.0.2; python_version < "3.11" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.0.2; python_version < "3.11"
+Handling idna>=2.8 from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: idna>=2.8
+   (installed: idna 3.10)
+Handling sniffio>=1.1 from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: sniffio>=1.1
+   (installed: sniffio 1.3.1)
+Handling typing_extensions>=4.5; python_version < "3.13" from hook generated metadata: Requires-Dist (anyio)
+Requirement satisfied: typing_extensions>=4.5; python_version < "3.13"
+   (installed: typing_extensions 4.12.2)
+Handling trio>=0.26.1; extra == "trio" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trio>=0.26.1; extra == "trio"
+Handling anyio[trio]; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: anyio[trio]; extra == "test"
+Handling coverage[toml]>=7; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: coverage[toml]>=7; extra == "test"
+Handling exceptiongroup>=1.2.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: exceptiongroup>=1.2.0; extra == "test"
+Handling hypothesis>=4.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: hypothesis>=4.0; extra == "test"
+Handling psutil>=5.9; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: psutil>=5.9; extra == "test"
+Handling pytest>=7.0; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: pytest>=7.0; extra == "test"
+Handling trustme; extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: trustme; extra == "test"
+Handling truststore>=0.9.1; python_version >= "3.10" and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: truststore>=0.9.1; python_version >= "3.10" and extra == "test"
+Handling uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: uvloop>=0.21; (platform_python_implementation == "CPython" and platform_system != "Windows" and python_version < "3.14") and extra == "test"
+Handling packaging; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: packaging; extra == "doc"
+Handling Sphinx~=7.4; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: Sphinx~=7.4; extra == "doc"
+Handling sphinx_rtd_theme; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx_rtd_theme; extra == "doc"
+Handling sphinx-autodoc-typehints>=1.2.0; extra == "doc" from hook generated metadata: Requires-Dist (anyio)
+Ignoring alien requirement: sphinx-autodoc-typehints>=1.2.0; extra == "doc"
++ cat /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv anyio-4.8.0.dist-info/
+removed 'anyio-4.8.0.dist-info/entry_points.txt'
+removed 'anyio-4.8.0.dist-info/top_level.txt'
+removed 'anyio-4.8.0.dist-info/METADATA'
+removed 'anyio-4.8.0.dist-info/LICENSE'
+removed directory 'anyio-4.8.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.kooduI
++ umask 022
++ cd /builddir/build/BUILD
++ cd anyio-4.8.0
++ mkdir -p /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/anyio-4.8.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info
-  writing /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  no previously-included directories found matching 'docs/build'
+  creating /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info
+  writing /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/entry_points.txt
+  writing requirements to /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/SOURCES.txt'
   adding license file 'LICENSE'
-  adding license file 'LICENSE.APACHE2'
-  adding license file 'LICENSE.MIT'
-  writing manifest file '/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-modern-metadata-nhb4f9uh/sniffio-1.3.1.dist-info'
+  writing manifest file '/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-modern-metadata-br8n2051/anyio-4.8.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: sniffio
-  Building wheel for sniffio (pyproject.toml): started
-  Running command Building wheel for sniffio (pyproject.toml)
+Building wheels for collected packages: anyio
+  Building wheel for anyio (pyproject.toml): started
+  Running command Building wheel for anyio (pyproject.toml)
   running bdist_wheel
   running build
   running build_py
-  creating build/lib/sniffio
-  copying sniffio/__init__.py -> build/lib/sniffio
-  copying sniffio/_impl.py -> build/lib/sniffio
-  copying sniffio/_version.py -> build/lib/sniffio
-  creating build/lib/sniffio/_tests
-  copying sniffio/_tests/__init__.py -> build/lib/sniffio/_tests
-  copying sniffio/_tests/test_sniffio.py -> build/lib/sniffio/_tests
+  creating build/lib/anyio
+  copying src/anyio/__init__.py -> build/lib/anyio
+  copying src/anyio/from_thread.py -> build/lib/anyio
+  copying src/anyio/lowlevel.py -> build/lib/anyio
+  copying src/anyio/pytest_plugin.py -> build/lib/anyio
+  copying src/anyio/to_interpreter.py -> build/lib/anyio
+  copying src/anyio/to_process.py -> build/lib/anyio
+  copying src/anyio/to_thread.py -> build/lib/anyio
+  creating build/lib/anyio/_backends
+  copying src/anyio/_backends/__init__.py -> build/lib/anyio/_backends
+  copying src/anyio/_backends/_asyncio.py -> build/lib/anyio/_backends
+  copying src/anyio/_backends/_trio.py -> build/lib/anyio/_backends
+  creating build/lib/anyio/_core
+  copying src/anyio/_core/__init__.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_asyncio_selector_thread.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_eventloop.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_exceptions.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_fileio.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_resources.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_signals.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_sockets.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_streams.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_subprocesses.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_synchronization.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_tasks.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_testing.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_typedattr.py -> build/lib/anyio/_core
+  creating build/lib/anyio/abc
+  copying src/anyio/abc/__init__.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_eventloop.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_resources.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_sockets.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_streams.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_subprocesses.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_tasks.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_testing.py -> build/lib/anyio/abc
+  creating build/lib/anyio/streams
+  copying src/anyio/streams/__init__.py -> build/lib/anyio/streams
+  copying src/anyio/streams/buffered.py -> build/lib/anyio/streams
+  copying src/anyio/streams/file.py -> build/lib/anyio/streams
+  copying src/anyio/streams/memory.py -> build/lib/anyio/streams
+  copying src/anyio/streams/stapled.py -> build/lib/anyio/streams
+  copying src/anyio/streams/text.py -> build/lib/anyio/streams
+  copying src/anyio/streams/tls.py -> build/lib/anyio/streams
   running egg_info
-  writing sniffio.egg-info/PKG-INFO
-  writing dependency_links to sniffio.egg-info/dependency_links.txt
-  writing top-level names to sniffio.egg-info/top_level.txt
-  reading manifest file 'sniffio.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  no previously-included directories found matching 'docs/build'
+  writing src/anyio.egg-info/PKG-INFO
+  writing dependency_links to src/anyio.egg-info/dependency_links.txt
+  writing entry points to src/anyio.egg-info/entry_points.txt
+  writing requirements to src/anyio.egg-info/requires.txt
+  writing top-level names to src/anyio.egg-info/top_level.txt
+  reading manifest file 'src/anyio.egg-info/SOURCES.txt'
   adding license file 'LICENSE'
-  adding license file 'LICENSE.APACHE2'
-  adding license file 'LICENSE.MIT'
-  writing manifest file 'sniffio.egg-info/SOURCES.txt'
-  copying sniffio/py.typed -> build/lib/sniffio
+  writing manifest file 'src/anyio.egg-info/SOURCES.txt'
+  copying src/anyio/py.typed -> build/lib/anyio
   installing to build/bdist.linux-x86_64/wheel
   running install
   running install_lib
   creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/sniffio
-  copying build/lib/sniffio/__init__.py -> build/bdist.linux-x86_64/wheel/./sniffio
-  copying build/lib/sniffio/_impl.py -> build/bdist.linux-x86_64/wheel/./sniffio
-  copying build/lib/sniffio/_version.py -> build/bdist.linux-x86_64/wheel/./sniffio
-  creating build/bdist.linux-x86_64/wheel/sniffio/_tests
-  copying build/lib/sniffio/_tests/__init__.py -> build/bdist.linux-x86_64/wheel/./sniffio/_tests
-  copying build/lib/sniffio/_tests/test_sniffio.py -> build/bdist.linux-x86_64/wheel/./sniffio/_tests
-  copying build/lib/sniffio/py.typed -> build/bdist.linux-x86_64/wheel/./sniffio
+  creating build/bdist.linux-x86_64/wheel/anyio
+  copying build/lib/anyio/__init__.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/from_thread.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/lowlevel.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/pytest_plugin.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/to_interpreter.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/to_process.py -> build/bdist.linux-x86_64/wheel/./anyio
+  copying build/lib/anyio/to_thread.py -> build/bdist.linux-x86_64/wheel/./anyio
+  creating build/bdist.linux-x86_64/wheel/anyio/_backends
+  copying build/lib/anyio/_backends/__init__.py -> build/bdist.linux-x86_64/wheel/./anyio/_backends
+  copying build/lib/anyio/_backends/_asyncio.py -> build/bdist.linux-x86_64/wheel/./anyio/_backends
+  copying build/lib/anyio/_backends/_trio.py -> build/bdist.linux-x86_64/wheel/./anyio/_backends
+  creating build/bdist.linux-x86_64/wheel/anyio/_core
+  copying build/lib/anyio/_core/__init__.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_asyncio_selector_thread.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_eventloop.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_exceptions.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_fileio.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_resources.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_signals.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_sockets.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_streams.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_subprocesses.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_synchronization.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_tasks.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_testing.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_typedattr.py -> build/bdist.linux-x86_64/wheel/./anyio/_core
+  creating build/bdist.linux-x86_64/wheel/anyio/abc
+  copying build/lib/anyio/abc/__init__.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_eventloop.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_resources.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_sockets.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_streams.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_subprocesses.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_tasks.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_testing.py -> build/bdist.linux-x86_64/wheel/./anyio/abc
+  creating build/bdist.linux-x86_64/wheel/anyio/streams
+  copying build/lib/anyio/streams/__init__.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/buffered.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/file.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/memory.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/stapled.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/text.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/tls.py -> build/bdist.linux-x86_64/wheel/./anyio/streams
+  copying build/lib/anyio/py.typed -> build/bdist.linux-x86_64/wheel/./anyio
   running install_egg_info
-  Copying sniffio.egg-info to build/bdist.linux-x86_64/wheel/./sniffio-1.3.1-py3.11.egg-info
+  Copying src/anyio.egg-info to build/bdist.linux-x86_64/wheel/./anyio-4.8.0-py3.11.egg-info
   running install_scripts
-  creating build/bdist.linux-x86_64/wheel/sniffio-1.3.1.dist-info/WHEEL
-  creating '/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11/pip-wheel-evtmc7wv/.tmp-in5hn8b3/sniffio-1.3.1-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'sniffio/__init__.py'
-  adding 'sniffio/_impl.py'
-  adding 'sniffio/_version.py'
-  adding 'sniffio/py.typed'
-  adding 'sniffio/_tests/__init__.py'
-  adding 'sniffio/_tests/test_sniffio.py'
-  adding 'sniffio-1.3.1.dist-info/LICENSE'
-  adding 'sniffio-1.3.1.dist-info/LICENSE.APACHE2'
-  adding 'sniffio-1.3.1.dist-info/LICENSE.MIT'
-  adding 'sniffio-1.3.1.dist-info/METADATA'
-  adding 'sniffio-1.3.1.dist-info/WHEEL'
-  adding 'sniffio-1.3.1.dist-info/top_level.txt'
-  adding 'sniffio-1.3.1.dist-info/RECORD'
+  creating build/bdist.linux-x86_64/wheel/anyio-4.8.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11/pip-wheel-sprtobt_/.tmp-xdmgzlam/anyio-4.8.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'anyio/__init__.py'
+  adding 'anyio/from_thread.py'
+  adding 'anyio/lowlevel.py'
+  adding 'anyio/py.typed'
+  adding 'anyio/pytest_plugin.py'
+  adding 'anyio/to_interpreter.py'
+  adding 'anyio/to_process.py'
+  adding 'anyio/to_thread.py'
+  adding 'anyio/_backends/__init__.py'
+  adding 'anyio/_backends/_asyncio.py'
+  adding 'anyio/_backends/_trio.py'
+  adding 'anyio/_core/__init__.py'
+  adding 'anyio/_core/_asyncio_selector_thread.py'
+  adding 'anyio/_core/_eventloop.py'
+  adding 'anyio/_core/_exceptions.py'
+  adding 'anyio/_core/_fileio.py'
+  adding 'anyio/_core/_resources.py'
+  adding 'anyio/_core/_signals.py'
+  adding 'anyio/_core/_sockets.py'
+  adding 'anyio/_core/_streams.py'
+  adding 'anyio/_core/_subprocesses.py'
+  adding 'anyio/_core/_synchronization.py'
+  adding 'anyio/_core/_tasks.py'
+  adding 'anyio/_core/_testing.py'
+  adding 'anyio/_core/_typedattr.py'
+  adding 'anyio/abc/__init__.py'
+  adding 'anyio/abc/_eventloop.py'
+  adding 'anyio/abc/_resources.py'
+  adding 'anyio/abc/_sockets.py'
+  adding 'anyio/abc/_streams.py'
+  adding 'anyio/abc/_subprocesses.py'
+  adding 'anyio/abc/_tasks.py'
+  adding 'anyio/abc/_testing.py'
+  adding 'anyio/streams/__init__.py'
+  adding 'anyio/streams/buffered.py'
+  adding 'anyio/streams/file.py'
+  adding 'anyio/streams/memory.py'
+  adding 'anyio/streams/stapled.py'
+  adding 'anyio/streams/text.py'
+  adding 'anyio/streams/tls.py'
+  adding 'anyio-4.8.0.dist-info/LICENSE'
+  adding 'anyio-4.8.0.dist-info/METADATA'
+  adding 'anyio-4.8.0.dist-info/WHEEL'
+  adding 'anyio-4.8.0.dist-info/entry_points.txt'
+  adding 'anyio-4.8.0.dist-info/top_level.txt'
+  adding 'anyio-4.8.0.dist-info/RECORD'
   removing build/bdist.linux-x86_64/wheel
-  Building wheel for sniffio (pyproject.toml): finished with status 'done'
-  Created wheel for sniffio: filename=sniffio-1.3.1-py3-none-any.whl size=10203 sha256=08c8873ffe1bf6d4f1b1f36af9d99f170b83fab63fd377f3b3305730d4d52f2c
-  Stored in directory: /builddir/.cache/pip/wheels/7f/21/53/37be20ab739d7b08e02929e7e20819953d32617ff441fbf386
-Successfully built sniffio
+  Building wheel for anyio (pyproject.toml): finished with status 'done'
+  Created wheel for anyio: filename=anyio-4.8.0-py3-none-any.whl size=96041 sha256=8c2cc352fad8bfaa6ece80d2dfb501fe01d3ac7eb72082319d72d2d577b7b0bc
+  Stored in directory: /builddir/.cache/pip/wheels/f0/f6/7d/8f6a0bc83b171db3d883d2325c1458fbdf4d80983c7f0ec429
+Successfully built anyio
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.ILEQIh
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.BBhtbD
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64
++ '[' /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64
-+ cd sniffio-1.3.1
-++ ls /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11/sniffio-1.3.1-py3-none-any.whl
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ mkdir /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64
++ cd anyio-4.8.0
+++ ls /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11/anyio-4.8.0-py3-none-any.whl
 ++ xargs basename --multiple
-+ specifier=sniffio==1.3.1
-+ '[' -z sniffio==1.3.1 ']'
-+ TMPDIR=/builddir/build/BUILD/sniffio-1.3.1/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11 sniffio==1.3.1
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=anyio==4.8.0
++ '[' -z anyio==4.8.0 ']'
++ TMPDIR=/builddir/build/BUILD/anyio-4.8.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11 anyio==4.8.0
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/sniffio-1.3.1/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/sniffio-1.3.1-py3-none-any.whl
-Installing collected packages: sniffio
-Successfully installed sniffio-1.3.1
+Looking in links: /builddir/build/BUILD/anyio-4.8.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/anyio-4.8.0-py3-none-any.whl
+Installing collected packages: anyio
+Successfully installed anyio-4.8.0
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ '[' -d /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 + site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
 + site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
 + for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/INSTALLER
++ for distinfo in /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/RECORD --output /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11/site-packages/sniffio-1.3.1.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/RECORD --output /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11/site-packages/anyio-4.8.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-sniffio-1.3.1-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.3.1-1.el9 --unique-debug-suffix -1.3.1-1.el9.x86_64 --unique-debug-src-base python-sniffio-1.3.1-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/sniffio-1.3.1
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-anyio-4.8.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 4.8.0-1.el9 --unique-debug-suffix -4.8.0-1.el9.x86_64 --unique-debug-src-base python-anyio-4.8.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/anyio-4.8.0
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
@@ -635,18 +962,18 @@ find: 'debug': No such file or directory
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64/usr/lib/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-sniffio-1.3.1-1.el9.noarch
-Provides: python3.11-sniffio = 1.3.1-1.el9 python3.11dist(sniffio) = 1.3.1
+Processing files: python3.11-anyio-4.8.0-1.el9.noarch
+Provides: python3.11-anyio = 4.8.0-1.el9 python3.11dist(anyio) = 4.8
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-sniffio-1.3.1-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-sniffio-1.3.1-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-sniffio-1.3.1-1.el9.noarch.rpm
-Finish: rpmbuild python-sniffio-1.3.1-1.el9.src.rpm
-Finish: build phase for python-sniffio-1.3.1-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-sniffio-1.3.1-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
+Requires: python(abi) = 3.11 python3.11dist(idna) >= 2.8 python3.11dist(sniffio) >= 1.1 python3.11dist(typing-extensions) >= 4.5
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-anyio-4.8.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-anyio-4.8.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-anyio-4.8.0-1.el9.noarch.rpm
+Finish: rpmbuild python-anyio-4.8.0-1.el9.src.rpm
+Finish: build phase for python-anyio-4.8.0-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-anyio-4.8.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 30 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
