@@ -13,6 +13,7 @@ URL:            https://github.com/awslabs/aws-crt-python
 Source:         %{pypi_source awscrt}
 
 
+BuildRequires: cmake
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
