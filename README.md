@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm
+The lastest package built was python-orjson-3.10.13-1.el9.src.rpm
 
-The build completed at Wed Feb 19 03:29:40 AM CET 2025
+The build completed at Wed Feb 19 03:30:49 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm.log)
+[Build Log](logs/python-orjson-3.10.13-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
