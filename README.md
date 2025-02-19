@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-oauthlib-3.2.2-1.el9.src.rpm
+The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
 
-The build completed at Wed Feb 19 04:12:25 AM CET 2025
+The build completed at Wed Feb 19 04:12:52 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
