@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-httpx-0.28.1-1.el9.src.rpm
+The lastest package built was python-httpcore-1.0.7-1.el9.src.rpm
 
-The build completed at Wed Feb 19 10:01:00 AM CET 2025
+The build completed at Wed Feb 19 10:02:38 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
+[Build Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -83,6 +83,7 @@ python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
+python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | **Missing** | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | Built | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
@@ -204,4 +205,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
 
-194 total packages, 130 packages built successfully, 64 packages left to fix
+195 total packages, 130 packages built successfully, 65 packages left to fix
