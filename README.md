@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.28-1.el9.src.rpm
+The lastest package built was python-virtualenv-20.29.2-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:41:25 PM CET 2025
+The build completed at Wed Feb 19 12:42:00 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
+[Build Log](logs/python-virtualenv-20.29.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
