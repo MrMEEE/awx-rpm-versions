@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-mypy-1.15.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 09:37:20 AM CET 2025
+The build completed at Wed Feb 19 09:38:23 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
@@ -112,7 +112,7 @@ python3.11-msgpack-1.1.0-1.el9 | python-msgpack-1.1.0-1.el9.src.rpm | Built | [L
 python3.11-msrest-0.7.1-1.el9 | python-msrest-0.7.1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrest-0.7.1-1.el9.src.rpm.log)
 python3.11-msrestazure-0.6.4^post1-1.el9 | python-msrestazure-0.6.4^post1-1.el9.src.rpm | **Missing** | [Log](logs/python-msrestazure-0.6.4^post1-1.el9.src.rpm.log)
 python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
-python3.11-mypy-1.15.0-1.el9 | python-mypy-1.15.0-1.el9.src.rpm | **Missing** | [Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
+python3.11-mypy-1.15.0-1.el9 | python-mypy-1.15.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
@@ -190,4 +190,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | Built | [Log](
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-180 total packages, 125 packages built successfully, 55 packages left to fix
+180 total packages, 126 packages built successfully, 54 packages left to fix
