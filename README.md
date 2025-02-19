@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-grpcio-tools-1.70.0-1.el9.src.rpm
+The lastest package built was python-grpcio-1.70.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:56:59 AM CET 2025
+The build completed at Thu Feb 20 12:58:43 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-grpcio-tools-1.70.0-1.el9.src.rpm.log)
+[Build Log](logs/python-grpcio-1.70.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -79,7 +79,7 @@ python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | 
 python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-protos-1.66.0-1.el9.src.rpm | **Missing** | [Log](logs/python-googleapis-common-protos-1.66.0-1.el9.src.rpm.log)
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | Built | [Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
-python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
+python3.11-grpcio-1.70.0-1.el9 | python-grpcio-1.70.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.70.0-1.el9.src.rpm.log)
 python3.11-grpcio-tools-1.70.0-1.el9 | python-grpcio-tools-1.70.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-tools-1.70.0-1.el9.src.rpm.log)
 python3.11-h11-0.14.0-1.el9 | python-h11-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-h11-0.14.0-1.el9.src.rpm.log)
 python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)

@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-grpcio
-Version:        1.69.0
+Version:        1.70.0
 Release:        %autorelease
 Summary:        HTTP/2-based RPC framework
 
