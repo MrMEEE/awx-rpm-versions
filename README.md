@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-argon2-cffi-23.1.0-1.el9.src.rpm
+The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
 
-The build completed at Wed Feb 19 02:26:49 AM CET 2025
+The build completed at Wed Feb 19 02:27:17 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
