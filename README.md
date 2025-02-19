@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daphne-4.1.2-1.el9.src.rpm
+The lastest package built was python-django-cors-headers-4.6.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 11:53:32 AM CET 2025
+The build completed at Wed Feb 19 11:54:13 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
+[Build Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -56,7 +56,7 @@ python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rp
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.16-1.el9 | python-django-4.2.16-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
-python3.11-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
+python3.11-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | **Missing** | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | **Missing** | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
 python3.11-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm | **Missing** | [Log](logs/python-django-flags-5.0.13-1.el9.src.rpm.log)
@@ -207,4 +207,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
 
-197 total packages, 138 packages built successfully, 59 packages left to fix
+197 total packages, 139 packages built successfully, 58 packages left to fix
