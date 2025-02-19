@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-maturin-1.7.8-1.el9.src.rpm
+The lastest package built was python-aiohttp-3.11.11-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:59:55 AM CET 2025
+The build completed at Wed Feb 19 01:41:46 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
