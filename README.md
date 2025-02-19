@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zope-interface-7.2-1.el9.src.rpm
+The lastest package built was python-zstandard-0.23.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:17:58 PM CET 2025
+The build completed at Wed Feb 19 12:18:29 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
+[Build Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -205,6 +205,6 @@ python3.11-wrapt-1.17.0-1.el9 | python-wrapt-1.17.0-1.el9.src.rpm | Built | [Log
 python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | Built | [Log](logs/python-yarl-1.18.3-1.el9.src.rpm.log)
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
-python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** |
+python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
 197 total packages, 148 packages built successfully, 49 packages left to fix
