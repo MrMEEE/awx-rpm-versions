@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-4.2.16-1.el9.src.rpm
+The lastest package built was python-sqlparse-0.5.3-1.el9.src.rpm
 
-The build completed at Wed Feb 19 10:06:28 AM CET 2025
+The build completed at Wed Feb 19 10:09:52 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
+[Build Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
