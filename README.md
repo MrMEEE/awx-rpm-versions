@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-sqlparse-0.5.3-1.el9.src.rpm
+The lastest package built was python-twilio-9.4.2-1.el9.src.rpm
 
-The build completed at Wed Feb 19 03:42:50 AM CET 2025
+The build completed at Wed Feb 19 03:44:20 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
+[Build Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -173,7 +173,7 @@ python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | 
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.1.15.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
 python3.11-tss-sdk-1.2.3-1.el9 | python-tss-sdk-1.2.3-1.el9.src.rpm | Built | [Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
-python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | **Missing** | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
+python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | Built | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 python3.11-types-psutil-7.0.0.20250218-1.el9 | python-types-psutil-7.0.0.20250218-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-7.0.0.20250218-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | Built | [Log](
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 120 packages built successfully, 59 packages left to fix
+179 total packages, 121 packages built successfully, 58 packages left to fix
