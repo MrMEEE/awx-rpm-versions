@@ -35,8 +35,9 @@ Summary:        %{summary}
 
 
 %prep
-autosetup -p1 -n Django-%{version}
+%autosetup -p1 -n Django-%{version}
 pathfix.py -pni "%{__python3} %{py3_shbang_opts}" .
+
 
 
 
