@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-automat-24.8.1-1.el9.src.rpm
+The lastest package built was python-azure-core-1.32.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 03:05:22 AM CET 2025
+The build completed at Wed Feb 19 03:06:09 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
+[Build Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -24,7 +24,7 @@ python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | Built | [Log
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
-python3.11-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
+python3.11-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
 python3.11-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-identity-1.19.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-certificates-4.9.0-1.el9 | python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm | **Missing** | [Log](logs/python-azure-keyvault-certificates-4.9.0-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | Built | [Log](
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 114 packages built successfully, 65 packages left to fix
+179 total packages, 115 packages built successfully, 64 packages left to fix
