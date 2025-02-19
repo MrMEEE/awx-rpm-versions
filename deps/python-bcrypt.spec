@@ -1,3 +1,4 @@
+%global debug_package %{nil}
 
 %global python3_pkgversion 3.11
 
@@ -13,6 +14,8 @@ URL:            https://pypi.org/project/bcrypt/
 Source:         %{pypi_source bcrypt}
 
 
+BuildRequires: cargo
+BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
