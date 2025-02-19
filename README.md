@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-expandvars-0.12.0-1.el9.src.rpm
+The lastest package built was python-filelock-3.16.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 01:59:33 AM CET 2025
+The build completed at Wed Feb 19 02:00:08 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
+[Build Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -67,7 +67,7 @@ python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [L
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
-python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | **Missing** | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
+python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | **Missing** | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
@@ -189,4 +189,4 @@ python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | **Missing** | 
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 
-179 total packages, 103 packages built successfully, 76 packages left to fix
+179 total packages, 104 packages built successfully, 75 packages left to fix
