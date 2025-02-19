@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-djangorestframework-3.15.2-1.el9.src.rpm
+The lastest package built was python-django-solo-2.4.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 03:20:27 AM CET 2025
+The build completed at Wed Feb 19 03:21:01 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
+[Build Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
