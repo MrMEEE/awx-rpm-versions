@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.3.2-1.el9.src.rpm
+The lastest package built was python-googleapis-common-protos-1.66.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 04:37:08 AM CET 2025
+The build completed at Wed Feb 19 04:37:35 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-googleapis-common-protos-1.66.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
