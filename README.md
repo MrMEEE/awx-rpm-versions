@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zope-interface-7.2-1.el9.src.rpm
+The lastest package built was python-aiohttp-3.11.11-1.el9.src.rpm
 
-The build completed at Wed Feb 19 02:24:30 AM CET 2025
+The build completed at Wed Feb 19 02:25:10 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
+[Build Log](logs/python-aiohttp-3.11.11-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
