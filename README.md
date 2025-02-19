@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-prometheus-client-0.21.1-1.el9.src.rpm
+The lastest package built was python-pyopenssl-24.3.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 02:52:55 AM CET 2025
+The build completed at Wed Feb 19 02:53:27 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-prometheus-client-0.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
