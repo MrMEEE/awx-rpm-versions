@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-certifi-2025.1.31-1.el9.src.rpm
+The lastest package built was python-httpx-0.28.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 10:00:21 AM CET 2025
+The build completed at Wed Feb 19 10:01:00 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-certifi-2025.1.31-1.el9.src.rpm.log)
+[Build Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
