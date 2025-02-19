@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-h11-0.14.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-h11-0.14.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-h11-0.14.0-1.el9.src.rpm
-Start: build setup for python-h11-0.14.0-1.el9.src.rpm
+Start: build phase for python-httpcore-1.0.7-1.el9.src.rpm
+Start: build setup for python-httpcore-1.0.7-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Wrote: /builddir/build/SRPMS/python-h11-0.14.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            27 MB/s | 135 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            27 MB/s | 136 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    35 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    42 kB/s |  28 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-h11-0.14.0-1.el9.src.rpm
+Finish: build setup for python-httpcore-1.0.7-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-h11-0.14.0-1.el9.src.rpm
+Start: rpmbuild python-httpcore-1.0.7-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.31zagY
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ckPhIl
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf h11-0.14.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/h11-0.14.0.tar.gz
++ rm -rf httpcore-1.0.7
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/httpcore-1.0.7.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd h11-0.14.0
++ cd httpcore-1.0.7
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.70qaQB
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8le8Dr
 + umask 022
 + cd /builddir/build/BUILD
-+ cd h11-0.14.0
++ cd httpcore-1.0.7
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.70qaQB
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-h11-0.14.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  49 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    41 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.EvlqHO
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tmbw6s
 + umask 022
 + cd /builddir/build/BUILD
-+ cd h11-0.14.0
++ cd httpcore-1.0.7
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,25 +275,136 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.EvlqHO
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools >= 40.8 from default build backend
-Requirement not satisfied: setuptools >= 40.8
-Handling wheel from default build backend
-Requirement not satisfied: wheel
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement not satisfied: hatchling
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement not satisfied: hatch-fancy-pypi-readme
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-h11-0.14.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    55 kB/s |  28 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Dependencies resolved.
+=================================================================================================================
+ Package                              Arch     Version                Repository                            Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-hatch-fancy-pypi-readme  [m noarch   24.1.0-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_    26 k
+ [1mpython3.11-hatchling                [m noarch   1.27.0-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_   183 k
+Installing dependencies:
+ [1mpython3.11-pathspec                 [m noarch   0.12.1-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_    54 k
+ [1mpython3.11-pluggy                   [m noarch   1.0.0-2.el9            codeready-builder                     47 k
+ [1mpython3.11-trove-classifiers        [m noarch   2025.1.15.22-1.el9     _opt_awxrpmng_rpmbuilds_3000_RPMS_    24 k
+
+Transaction Summary
+=================================================================================================================
+Install  5 Packages
+
+Total size: 334 k
+Installed size: 1.0 M
+Downloading Packages:
+[SKIPPED] python3.11-pluggy-1.0.0-2.el9.noarch.rpm: Already downloaded                                          
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [================                                                                    ] 1/1  Preparing        :  [=================================                                                   ] 1/1  Preparing        :  [==================================================                                  ] 1/1  Preparing        :  [===================================================================                 ] 1/1  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [                                                ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=                                               ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==                                              ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [========                                        ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=============                                   ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=====================                           ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [============================                    ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==============================                  ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [===============================                 ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [================================                ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [====================================            ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=========================================       ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==========================================      ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [===========================================     ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [============================================    ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=============================================   ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [==============================================  ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch [=============================================== ] 1/5  Installing       : python3.11-pluggy-1.0.0-2.el9.noarch                                                    1/5 
+  Installing       : python3.11-trove-classifiers-2025.1.15.22- [                                          ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [=====                                     ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [======                                    ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [====================                      ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [========================                  ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [=========================                 ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [=======================================   ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22- [========================================= ] 2/5  Installing       : python3.11-trove-classifiers-2025.1.15.22-1.el9.noarch                                  2/5 
+  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [                                             ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [====                                         ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=========                                    ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===========                                  ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=============                                ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==============                               ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==================                           ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===================                          ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [======================                       ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===========================                  ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [============================                 ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=============================                ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==============================               ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===============================              ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===================================          ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=========================================    ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [============================================ ] 3/5  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch                                                 3/5 
+  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [                                            ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=                                           ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [===                                         ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [====                                        ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=====                                       ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [======                                      ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=======                                     ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=========                                   ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [==========                                  ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [============                                ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [==============                              ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [================                            ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=================                           ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [==================                          ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [===================                         ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [====================                        ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [======================                      ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=======================                     ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=========================                   ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [===========================                 ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [============================                ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=============================               ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [===============================             ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [================================            ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=================================           ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [===================================         ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=====================================       ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=======================================     ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [========================================    ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=========================================   ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [==========================================  ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch [=========================================== ] 4/5  Installing       : python3.11-hatchling-1.27.0-1.el9.noarch                                                4/5 
+  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [                                          ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [==                                        ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [===                                       ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=====                                     ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=======                                   ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=========                                 ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [============                              ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [===============                           ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [================                          ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=================                         ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [==================                        ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=====================                     ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [======================                    ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=======================                   ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [==========================                ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [==============================            ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [===============================           ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [====================================      ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [=======================================   ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0- [========================================= ] 5/5  Installing       : python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch                                  5/5 
+  Running scriptlet: python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch                                  5/5 
+  Verifying        : python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch                                  1/5 
+  Verifying        : python3.11-hatchling-1.27.0-1.el9.noarch                                                2/5 
+  Verifying        : python3.11-pathspec-0.12.1-1.el9.noarch                                                 3/5 
+  Verifying        : python3.11-trove-classifiers-2025.1.15.22-1.el9.noarch                                  4/5 
+  Verifying        : python3.11-pluggy-1.0.0-2.el9.noarch                                                    5/5 
+Installed products updated.
+
+Installed:
+  python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch         python3.11-hatchling-1.27.0-1.el9.noarch        
+  python3.11-pathspec-0.12.1-1.el9.noarch                        python3.11-pluggy-1.0.0-2.el9.noarch            
+  python3.11-trove-classifiers-2025.1.15.22-1.el9.noarch        
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739923200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xLmvuW
++ umask 022
++ cd /builddir/build/BUILD
++ cd httpcore-1.0.7
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.27.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling certifi from hook generated metadata: Requires-Dist (httpcore)
+Requirement not satisfied: certifi
+Handling h11<0.15,>=0.13 from hook generated metadata: Requires-Dist (httpcore)
+Requirement not satisfied: h11<0.15,>=0.13
+Handling anyio<5.0,>=4.0; extra == 'asyncio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: anyio<5.0,>=4.0; extra == 'asyncio'
+Handling h2<5,>=3; extra == 'http2' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: h2<5,>=3; extra == 'http2'
+Handling socksio==1.*; extra == 'socks' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: socksio==1.*; extra == 'socks'
+Handling trio<1.0,>=0.22.0; extra == 'trio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: trio<1.0,>=0.22.0; extra == 'trio'
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv httpcore-1.0.7.dist-info/
+removed 'httpcore-1.0.7.dist-info/METADATA'
+removed directory 'httpcore-1.0.7.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -303,28 +414,30 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  49 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    43 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
+Package python3.11-hatchling-1.27.0-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Dependencies resolved.
 =================================================================================================================
- Package                      Architecture  Version              Repository                                 Size
+ Package                   Architecture  Version                 Repository                                 Size
 =================================================================================================================
 Installing:
- [1mpython3.11-setuptools       [m noarch        75.8.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        2.2 M
- [1mpython3.11-wheel            [m noarch        0.45.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        158 k
+ [1mpython3.11-certifi       [m noarch        2025.1.31-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        163 k
+ [1mpython3.11-h11           [m noarch        0.14.0-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_        127 k
 
 Transaction Summary
 =================================================================================================================
 Install  2 Packages
 
-Total size: 2.3 M
-Installed size: 12 M
+Total size: 290 k
+Installed size: 909 k
 Downloading Packages:
 Running transaction check
 Transaction check succeeded.
@@ -332,24 +445,24 @@ Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/2 
-  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
-  Running scriptlet: python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
-  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/2 
-  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    2/2 
+  Installing       : python3.11-h11-0.14.0-1.el9.noarch [                                                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==                                                ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [====                                              ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====                                             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [======                                            ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=======                                           ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========                                          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========                                         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==========                                        ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===========                                       ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============                                      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==============                                    ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============                                   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================                                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=================                                 ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==================                                ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===================                               ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [====================                              ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====================                             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========================                          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========================                         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============================                      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==============================                    ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============================                   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=================================                 ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===================================               ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====================================             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [======================================            ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========================================          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========================================         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============================================      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=============================================     ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============================================   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================================  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================================= ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch                                                      1/2 
+  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [                                           ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=====                                      ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=========                                  ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [==============                             ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [==================                         ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=======================                    ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [===========================                ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [===============================            ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [====================================       ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [========================================   ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=========================================  ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [========================================== ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch                                               2/2 
+  Running scriptlet: python3.11-certifi-2025.1.31-1.el9.noarch                                               2/2 
+  Verifying        : python3.11-certifi-2025.1.31-1.el9.noarch                                               1/2 
+  Verifying        : python3.11-h11-0.14.0-1.el9.noarch                                                      2/2 
 Installed products updated.
 
 Installed:
-  python3.11-setuptools-75.8.0-1.el9.noarch                 python3.11-wheel-0.45.1-1.el9.noarch                
+  python3.11-certifi-2025.1.31-1.el9.noarch                  python3.11-h11-0.14.0-1.el9.noarch                 
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5YjN4y
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QtJHPb
 + umask 022
 + cd /builddir/build/BUILD
-+ cd h11-0.14.0
++ cd httpcore-1.0.7
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -358,55 +471,42 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5YjN4y
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running egg_info
-writing h11.egg-info/PKG-INFO
-writing dependency_links to h11.egg-info/dependency_links.txt
-writing requirements to h11.egg-info/requires.txt
-writing top-level names to h11.egg-info/top_level.txt
-reading manifest file 'h11.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'tiny-client-demo.py'
-no previously-included directories found matching 'docs/build'
-adding license file 'LICENSE.txt'
-writing manifest file 'h11.egg-info/SOURCES.txt'
-running dist_info
-writing h11.egg-info/PKG-INFO
-writing dependency_links to h11.egg-info/dependency_links.txt
-writing requirements to h11.egg-info/requires.txt
-writing top-level names to h11.egg-info/top_level.txt
-reading manifest file 'h11.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'tiny-client-demo.py'
-no previously-included directories found matching 'docs/build'
-adding license file 'LICENSE.txt'
-writing manifest file 'h11.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/h11-0.14.0/h11-0.14.0.dist-info'
-Handling typing_extensions; python_version < "3.8" from hook generated metadata: Requires-Dist (h11)
-Ignoring alien requirement: typing_extensions; python_version < "3.8"
-+ cat /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv h11-0.14.0.dist-info/
-removed 'h11-0.14.0.dist-info/top_level.txt'
-removed 'h11-0.14.0.dist-info/METADATA'
-removed 'h11-0.14.0.dist-info/LICENSE.txt'
-removed directory 'h11-0.14.0.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.27.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling certifi from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: certifi
+   (installed: certifi 2025.1.31)
+Handling h11<0.15,>=0.13 from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: h11<0.15,>=0.13
+   (installed: h11 0.14.0)
+Handling anyio<5.0,>=4.0; extra == 'asyncio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: anyio<5.0,>=4.0; extra == 'asyncio'
+Handling h2<5,>=3; extra == 'http2' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: h2<5,>=3; extra == 'http2'
+Handling socksio==1.*; extra == 'socks' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: socksio==1.*; extra == 'socks'
+Handling trio<1.0,>=0.22.0; extra == 'trio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: trio<1.0,>=0.22.0; extra == 'trio'
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv httpcore-1.0.7.dist-info/
+removed 'httpcore-1.0.7.dist-info/METADATA'
+removed directory 'httpcore-1.0.7.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-h11-0.14.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -415,27 +515,29 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    75 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    58 kB/s |  28 kB     00:00    
+Package python3.11-h11-0.14.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-certifi-2025.1.31-1.el9.noarch is already installed.
+Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
+Package python3.11-hatchling-1.27.0-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
 Dependencies resolved.
 Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QeDxMn
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zjybZr
 + umask 022
 + cd /builddir/build/BUILD
-+ cd h11-0.14.0
++ cd httpcore-1.0.7
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -444,285 +546,110 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QeDxMn
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running egg_info
-writing h11.egg-info/PKG-INFO
-writing dependency_links to h11.egg-info/dependency_links.txt
-writing requirements to h11.egg-info/requires.txt
-writing top-level names to h11.egg-info/top_level.txt
-reading manifest file 'h11.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'tiny-client-demo.py'
-no previously-included directories found matching 'docs/build'
-adding license file 'LICENSE.txt'
-writing manifest file 'h11.egg-info/SOURCES.txt'
-running dist_info
-writing h11.egg-info/PKG-INFO
-writing dependency_links to h11.egg-info/dependency_links.txt
-writing requirements to h11.egg-info/requires.txt
-writing top-level names to h11.egg-info/top_level.txt
-reading manifest file 'h11.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-warning: no files found matching 'tiny-client-demo.py'
-no previously-included directories found matching 'docs/build'
-adding license file 'LICENSE.txt'
-writing manifest file 'h11.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/h11-0.14.0/h11-0.14.0.dist-info'
-Handling typing_extensions; python_version < "3.8" from hook generated metadata: Requires-Dist (h11)
-Ignoring alien requirement: typing_extensions; python_version < "3.8"
-+ cat /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv h11-0.14.0.dist-info/
-removed 'h11-0.14.0.dist-info/top_level.txt'
-removed 'h11-0.14.0.dist-info/METADATA'
-removed 'h11-0.14.0.dist-info/LICENSE.txt'
-removed directory 'h11-0.14.0.dist-info/'
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.27.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling certifi from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: certifi
+   (installed: certifi 2025.1.31)
+Handling h11<0.15,>=0.13 from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: h11<0.15,>=0.13
+   (installed: h11 0.14.0)
+Handling anyio<5.0,>=4.0; extra == 'asyncio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: anyio<5.0,>=4.0; extra == 'asyncio'
+Handling h2<5,>=3; extra == 'http2' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: h2<5,>=3; extra == 'http2'
+Handling socksio==1.*; extra == 'socks' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: socksio==1.*; extra == 'socks'
+Handling trio<1.0,>=0.22.0; extra == 'trio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: trio<1.0,>=0.22.0; extra == 'trio'
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv httpcore-1.0.7.dist-info/
+removed 'httpcore-1.0.7.dist-info/METADATA'
+removed directory 'httpcore-1.0.7.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.WPs1hJ
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.TMXSry
 + umask 022
 + cd /builddir/build/BUILD
-+ cd h11-0.14.0
-+ mkdir -p /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
++ cd httpcore-1.0.7
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/h11-0.14.0
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/httpcore-1.0.7
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
-  running dist_info
-  creating /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info
-  writing /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'tiny-client-demo.py'
-  no previously-included directories found matching 'docs/build'
-  adding license file 'LICENSE.txt'
-  writing manifest file '/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-modern-metadata-m1ehnbf1/h11-0.14.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: h11
-  Building wheel for h11 (pyproject.toml): started
-  Running command Building wheel for h11 (pyproject.toml)
-  running bdist_wheel
-  running build
-  running build_py
-  creating build/lib/h11
-  copying h11/__init__.py -> build/lib/h11
-  copying h11/_abnf.py -> build/lib/h11
-  copying h11/_connection.py -> build/lib/h11
-  copying h11/_events.py -> build/lib/h11
-  copying h11/_headers.py -> build/lib/h11
-  copying h11/_readers.py -> build/lib/h11
-  copying h11/_receivebuffer.py -> build/lib/h11
-  copying h11/_state.py -> build/lib/h11
-  copying h11/_util.py -> build/lib/h11
-  copying h11/_version.py -> build/lib/h11
-  copying h11/_writers.py -> build/lib/h11
-  creating build/lib/h11/tests
-  copying h11/tests/__init__.py -> build/lib/h11/tests
-  copying h11/tests/helpers.py -> build/lib/h11/tests
-  copying h11/tests/test_against_stdlib_http.py -> build/lib/h11/tests
-  copying h11/tests/test_connection.py -> build/lib/h11/tests
-  copying h11/tests/test_events.py -> build/lib/h11/tests
-  copying h11/tests/test_headers.py -> build/lib/h11/tests
-  copying h11/tests/test_helpers.py -> build/lib/h11/tests
-  copying h11/tests/test_io.py -> build/lib/h11/tests
-  copying h11/tests/test_receivebuffer.py -> build/lib/h11/tests
-  copying h11/tests/test_state.py -> build/lib/h11/tests
-  copying h11/tests/test_util.py -> build/lib/h11/tests
-  running egg_info
-  writing h11.egg-info/PKG-INFO
-  writing dependency_links to h11.egg-info/dependency_links.txt
-  writing requirements to h11.egg-info/requires.txt
-  writing top-level names to h11.egg-info/top_level.txt
-  reading manifest file 'h11.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'tiny-client-demo.py'
-  no previously-included directories found matching 'docs/build'
-  adding license file 'LICENSE.txt'
-  writing manifest file 'h11.egg-info/SOURCES.txt'
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'h11.tests.data' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'h11.tests.data' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'h11.tests.data' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'h11.tests.data' to be distributed and are
-          already explicitly excluding 'h11.tests.data' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  copying h11/py.typed -> build/lib/h11
-  creating build/lib/h11/tests/data
-  copying h11/tests/data/test-file -> build/lib/h11/tests/data
-  installing to build/bdist.linux-x86_64/wheel
-  running install
-  running install_lib
-  creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/h11
-  copying build/lib/h11/__init__.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_abnf.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_connection.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_events.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_headers.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_readers.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_receivebuffer.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_state.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_util.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_version.py -> build/bdist.linux-x86_64/wheel/./h11
-  copying build/lib/h11/_writers.py -> build/bdist.linux-x86_64/wheel/./h11
-  creating build/bdist.linux-x86_64/wheel/h11/tests
-  copying build/lib/h11/tests/__init__.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/helpers.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_against_stdlib_http.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_connection.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_events.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_headers.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_helpers.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_io.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_receivebuffer.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_state.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  copying build/lib/h11/tests/test_util.py -> build/bdist.linux-x86_64/wheel/./h11/tests
-  creating build/bdist.linux-x86_64/wheel/h11/tests/data
-  copying build/lib/h11/tests/data/test-file -> build/bdist.linux-x86_64/wheel/./h11/tests/data
-  copying build/lib/h11/py.typed -> build/bdist.linux-x86_64/wheel/./h11
-  running install_egg_info
-  Copying h11.egg-info to build/bdist.linux-x86_64/wheel/./h11-0.14.0-py3.11.egg-info
-  running install_scripts
-  creating build/bdist.linux-x86_64/wheel/h11-0.14.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11/pip-wheel-goghzot2/.tmp-a1k0tt_t/h11-0.14.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'h11/__init__.py'
-  adding 'h11/_abnf.py'
-  adding 'h11/_connection.py'
-  adding 'h11/_events.py'
-  adding 'h11/_headers.py'
-  adding 'h11/_readers.py'
-  adding 'h11/_receivebuffer.py'
-  adding 'h11/_state.py'
-  adding 'h11/_util.py'
-  adding 'h11/_version.py'
-  adding 'h11/_writers.py'
-  adding 'h11/py.typed'
-  adding 'h11/tests/__init__.py'
-  adding 'h11/tests/helpers.py'
-  adding 'h11/tests/test_against_stdlib_http.py'
-  adding 'h11/tests/test_connection.py'
-  adding 'h11/tests/test_events.py'
-  adding 'h11/tests/test_headers.py'
-  adding 'h11/tests/test_helpers.py'
-  adding 'h11/tests/test_io.py'
-  adding 'h11/tests/test_receivebuffer.py'
-  adding 'h11/tests/test_state.py'
-  adding 'h11/tests/test_util.py'
-  adding 'h11/tests/data/test-file'
-  adding 'h11-0.14.0.dist-info/LICENSE.txt'
-  adding 'h11-0.14.0.dist-info/METADATA'
-  adding 'h11-0.14.0.dist-info/WHEEL'
-  adding 'h11-0.14.0.dist-info/top_level.txt'
-  adding 'h11-0.14.0.dist-info/RECORD'
-  removing build/bdist.linux-x86_64/wheel
-  Building wheel for h11 (pyproject.toml): finished with status 'done'
-  Created wheel for h11: filename=h11-0.14.0-py3-none-any.whl size=58311 sha256=ce434641ca93781c4c5d1ceef218ae3f2dccfc7e69daa1efecec8b56696ce1d7
-  Stored in directory: /builddir/.cache/pip/wheels/3b/d4/58/82c4ac99eec1c75f5c64e2e27de17ff52dfdb4d1bd931d74de
-Successfully built h11
+Building wheels for collected packages: httpcore
+  Building wheel for httpcore (pyproject.toml): started
+  Running command Building wheel for httpcore (pyproject.toml)
+  Building wheel for httpcore (pyproject.toml): finished with status 'done'
+  Created wheel for httpcore: filename=httpcore-1.0.7-py3-none-any.whl size=78571 sha256=9f94c753f872fbf2074ee822fb7072e6e8a1050de6567be4b2f1639f09739865
+  Stored in directory: /builddir/.cache/pip/wheels/80/56/2b/65731595e945a47f0ccd2296aefa4133c4b841ed7b20b21a2c
+Successfully built httpcore
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.2idqJR
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.dzlCnv
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64
++ '[' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64
-+ cd h11-0.14.0
-++ ls /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11/h11-0.14.0-py3-none-any.whl
-++ xargs basename --multiple
++ mkdir /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
++ cd httpcore-1.0.7
+++ ls /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11/httpcore-1.0.7-py3-none-any.whl
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=h11==0.14.0
-+ '[' -z h11==0.14.0 ']'
-+ TMPDIR=/builddir/build/BUILD/h11-0.14.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11 h11==0.14.0
+++ xargs basename --multiple
++ specifier=httpcore==1.0.7
++ '[' -z httpcore==1.0.7 ']'
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 httpcore==1.0.7
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/h11-0.14.0/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/h11-0.14.0-py3-none-any.whl
-Installing collected packages: h11
-Successfully installed h11-0.14.0
+Looking in links: /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/httpcore-1.0.7-py3-none-any.whl
+Installing collected packages: httpcore
+Successfully installed httpcore-1.0.7
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 + site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
 + site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
 + for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/h11-0.14.0.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/INSTALLER
++ for distinfo in /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/RECORD --output /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11/site-packages/h11-0.14.0.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
 + RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-h11-0.14.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.14.0-1.el9 --unique-debug-suffix -0.14.0-1.el9.x86_64 --unique-debug-src-base python-h11-0.14.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/h11-0.14.0
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.0.7-1.el9 --unique-debug-suffix -1.0.7-1.el9.x86_64 --unique-debug-src-base python-httpcore-1.0.7-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/httpcore-1.0.7
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
@@ -730,18 +657,18 @@ find: 'debug': No such file or directory
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-h11-0.14.0-1.el9.noarch
-Provides: python3.11-h11 = 0.14.0-1.el9 python3.11dist(h11) = 0.14
+Processing files: python3.11-httpcore-1.0.7-1.el9.noarch
+Provides: python3.11-httpcore = 1.0.7-1.el9 python3.11dist(httpcore) = 1.0.7
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-h11-0.14.0-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-h11-0.14.0-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-h11-0.14.0-1.el9.noarch.rpm
-Finish: rpmbuild python-h11-0.14.0-1.el9.src.rpm
-Finish: build phase for python-h11-0.14.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-h11-0.14.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
+Requires: (python3.11dist(h11) < 0.15 with python3.11dist(h11) >= 0.13) python(abi) = 3.11 python3.11dist(certifi)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-httpcore-1.0.7-1.el9.noarch.rpm
+Finish: rpmbuild python-httpcore-1.0.7-1.el9.src.rpm
+Finish: build phase for python-httpcore-1.0.7-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 28 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run

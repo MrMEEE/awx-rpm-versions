@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            28 MB/s | 135 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [               ===                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [                  ===               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [                     ===            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================] 4.5 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                               886  B/s | 4.5 kB     00:05    
-Extra Packages for Enterprise Linux 9     [                        ===         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                           ===      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                              ===   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            27 MB/s | 136 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    42 kB/s |  28 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -171,13 +171,13 @@ Start: rpmbuild python-httpcore-1.0.7-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hwAxhv
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.ckPhIl
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf httpcore-1.0.7
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/httpcore-1.0.7.tar.gz
 + /usr/bin/tar -xof -
++ /usr/bin/gzip -dc /builddir/build/SOURCES/httpcore-1.0.7.tar.gz
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd httpcore-1.0.7
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hwAxhv
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.NTxG2c
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8le8Dr
 + umask 022
 + cd /builddir/build/BUILD
 + cd httpcore-1.0.7
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                9.9 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                               3.7 kB/s | 4.5 kB     00:01    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                     ===            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [====================                ]  46 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    39 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.kUMDNJ
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tmbw6s
 + umask 022
 + cd /builddir/build/BUILD
 + cd httpcore-1.0.7
@@ -302,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    76 kB/s |  28 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    55 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -359,7 +359,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uoqllU
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xLmvuW
 + umask 022
 + cd /builddir/build/BUILD
 + cd httpcore-1.0.7
@@ -414,9 +414,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 4.5 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             1.4 kB/s | 4.5 kB     00:03    
-Red Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  50 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    43 kB/s |  28 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 55% [===================-                ]  49 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    43 kB/s |  28 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -424,39 +424,256 @@ Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already instal
 Package python3.11-hatchling-1.27.0-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Error: 
- Problem: nothing provides requested (python3.11dist(h11) < 0.15~~ with python3.11dist(h11) >= 0.13)
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
-Finish: rpmbuild python-httpcore-1.0.7-1.el9.src.rpm
-Finish: build phase for python-httpcore-1.0.7-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 31 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 7fa0e9fdba3d4f7686cf1568cbf489d3 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.1jdkfsi1:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+=================================================================================================================
+ Package                   Architecture  Version                 Repository                                 Size
+=================================================================================================================
+Installing:
+ [1mpython3.11-certifi       [m noarch        2025.1.31-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        163 k
+ [1mpython3.11-h11           [m noarch        0.14.0-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_        127 k
+
+Transaction Summary
+=================================================================================================================
+Install  2 Packages
+
+Total size: 290 k
+Installed size: 909 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-h11-0.14.0-1.el9.noarch [                                                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==                                                ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [====                                              ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====                                             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [======                                            ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=======                                           ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========                                          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========                                         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==========                                        ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===========                                       ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============                                      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==============                                    ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============                                   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================                                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=================                                 ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==================                                ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===================                               ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [====================                              ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====================                             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========================                          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========================                         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============================                      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [==============================                    ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============================                   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================                  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=================================                 ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===================================               ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=====================================             ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [======================================            ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [========================================          ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=========================================         ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [============================================      ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [=============================================     ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [===============================================   ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================================  ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch [================================================= ] 1/2  Installing       : python3.11-h11-0.14.0-1.el9.noarch                                                      1/2 
+  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [                                           ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=====                                      ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=========                                  ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [==============                             ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [==================                         ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=======================                    ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [===========================                ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [===============================            ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [====================================       ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [========================================   ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [=========================================  ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch [========================================== ] 2/2  Installing       : python3.11-certifi-2025.1.31-1.el9.noarch                                               2/2 
+  Running scriptlet: python3.11-certifi-2025.1.31-1.el9.noarch                                               2/2 
+  Verifying        : python3.11-certifi-2025.1.31-1.el9.noarch                                               1/2 
+  Verifying        : python3.11-h11-0.14.0-1.el9.noarch                                                      2/2 
+Installed products updated.
+
+Installed:
+  python3.11-certifi-2025.1.31-1.el9.noarch                  python3.11-h11-0.14.0-1.el9.noarch                 
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739923200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QtJHPb
++ umask 022
++ cd /builddir/build/BUILD
++ cd httpcore-1.0.7
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.27.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling certifi from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: certifi
+   (installed: certifi 2025.1.31)
+Handling h11<0.15,>=0.13 from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: h11<0.15,>=0.13
+   (installed: h11 0.14.0)
+Handling anyio<5.0,>=4.0; extra == 'asyncio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: anyio<5.0,>=4.0; extra == 'asyncio'
+Handling h2<5,>=3; extra == 'http2' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: h2<5,>=3; extra == 'http2'
+Handling socksio==1.*; extra == 'socks' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: socksio==1.*; extra == 'socks'
+Handling trio<1.0,>=0.22.0; extra == 'trio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: trio<1.0,>=0.22.0; extra == 'trio'
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv httpcore-1.0.7.dist-info/
+removed 'httpcore-1.0.7.dist-info/METADATA'
+removed directory 'httpcore-1.0.7.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                             1.4 kB/s | 4.5 kB     00:03    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    43 kB/s |  28 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    58 kB/s |  28 kB     00:00    
+Package python3.11-h11-0.14.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-certifi-2025.1.31-1.el9.noarch is already installed.
 Package python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9.noarch is already installed.
 Package python3.11-hatchling-1.27.0-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Error: 
- Problem: nothing provides requested (python3.11dist(h11) < 0.15~~ with python3.11dist(h11) >= 0.13)
-(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
-
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1739923200
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zjybZr
++ umask 022
++ cd /builddir/build/BUILD
++ cd httpcore-1.0.7
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling hatchling from build-system.requires
+Requirement satisfied: hatchling
+   (installed: hatchling 1.27.0)
+Handling hatch-fancy-pypi-readme from build-system.requires
+Requirement satisfied: hatch-fancy-pypi-readme
+   (installed: hatch-fancy-pypi-readme 24.1.0)
+Handling certifi from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: certifi
+   (installed: certifi 2025.1.31)
+Handling h11<0.15,>=0.13 from hook generated metadata: Requires-Dist (httpcore)
+Requirement satisfied: h11<0.15,>=0.13
+   (installed: h11 0.14.0)
+Handling anyio<5.0,>=4.0; extra == 'asyncio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: anyio<5.0,>=4.0; extra == 'asyncio'
+Handling h2<5,>=3; extra == 'http2' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: h2<5,>=3; extra == 'http2'
+Handling socksio==1.*; extra == 'socks' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: socksio==1.*; extra == 'socks'
+Handling trio<1.0,>=0.22.0; extra == 'trio' from hook generated metadata: Requires-Dist (httpcore)
+Ignoring alien requirement: trio<1.0,>=0.22.0; extra == 'trio'
++ cat /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv httpcore-1.0.7.dist-info/
+removed 'httpcore-1.0.7.dist-info/METADATA'
+removed directory 'httpcore-1.0.7.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.TMXSry
++ umask 022
++ cd /builddir/build/BUILD
++ cd httpcore-1.0.7
++ mkdir -p /builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/httpcore-1.0.7
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: httpcore
+  Building wheel for httpcore (pyproject.toml): started
+  Running command Building wheel for httpcore (pyproject.toml)
+  Building wheel for httpcore (pyproject.toml): finished with status 'done'
+  Created wheel for httpcore: filename=httpcore-1.0.7-py3-none-any.whl size=78571 sha256=9f94c753f872fbf2074ee822fb7072e6e8a1050de6567be4b2f1639f09739865
+  Stored in directory: /builddir/.cache/pip/wheels/80/56/2b/65731595e945a47f0ccd2296aefa4133c4b841ed7b20b21a2c
+Successfully built httpcore
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.dzlCnv
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
++ cd httpcore-1.0.7
+++ ls /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11/httpcore-1.0.7-py3-none-any.whl
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
+++ xargs basename --multiple
++ specifier=httpcore==1.0.7
++ '[' -z httpcore==1.0.7 ']'
++ TMPDIR=/builddir/build/BUILD/httpcore-1.0.7/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11 httpcore==1.0.7
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/httpcore-1.0.7/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/httpcore-1.0.7-py3-none-any.whl
+Installing collected packages: httpcore
+Successfully installed httpcore-1.0.7
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD --output /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11/site-packages/httpcore-1.0.7.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-httpcore-1.0.7-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.0.7-1.el9 --unique-debug-suffix -1.0.7-1.el9.x86_64 --unique-debug-src-base python-httpcore-1.0.7-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/httpcore-1.0.7
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-httpcore-1.0.7-1.el9.noarch
+Provides: python3.11-httpcore = 1.0.7-1.el9 python3.11dist(httpcore) = 1.0.7
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: (python3.11dist(h11) < 0.15 with python3.11dist(h11) >= 0.13) python(abi) = 3.11 python3.11dist(certifi)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-httpcore-1.0.7-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-httpcore-1.0.7-1.el9.noarch.rpm
+Finish: rpmbuild python-httpcore-1.0.7-1.el9.src.rpm
+Finish: build phase for python-httpcore-1.0.7-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-httpcore-1.0.7-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 28 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 178 packages
+Directory walk done - 180 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
