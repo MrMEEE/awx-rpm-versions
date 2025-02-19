@@ -36,7 +36,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n Django-%{version}
-pathfix.py -pni "%{__python3} %{py3_shbang_opts}" . *.py-*
+pathfix.py -pni "%{__python3} %{py3_shbang_opts}" . django/conf/project_template/manage.py-tpl
 
 
 %generate_buildrequires
