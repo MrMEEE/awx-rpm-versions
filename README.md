@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-bcrypt-4.2.1-1.el9.src.rpm
+The lastest package built was python-hatch-1.14.0-1.el9.src.rpm
 
-The build completed at Wed Feb 19 09:41:45 AM CET 2025
+The build completed at Wed Feb 19 09:42:34 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-bcrypt-4.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -76,7 +76,7 @@ python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-prot
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | Built | [Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
 python3.11-grpcio-1.69.0-1.el9 | python-grpcio-1.69.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.69.0-1.el9.src.rpm.log)
-python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** |
+python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
