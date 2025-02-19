@@ -53,8 +53,8 @@ pathfix.py -pni "%{__python3} %{py3_shbang_opts}" .
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 %pyproject_save_files '*' +auto
-pathfix.py -pni "%{__python3} %{py3_shbang_opts}" %{buildroot}%{python3_sitearch} %{buildroot}%{_bindir}/*
-pathfix.py -pni "%{__python2} %{py2_shbang_opts}" %{buildroot}%{python2_sitearch}
+pathfix.py -pni "%{__python3} %{py3_shbang_opts}" %{buildroot} %{buildroot}%{_bindir}/*
+pathfix.py -pni "%{__python2} %{py2_shbang_opts}" %{buildroot}
 
 %check
 %pyproject_check_import
