@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm
+The lastest package built was python-bcrypt-4.2.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 03:09:32 AM CET 2025
+The build completed at Wed Feb 19 03:10:13 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-bcrypt-4.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
