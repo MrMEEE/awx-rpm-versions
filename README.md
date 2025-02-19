@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-urllib3-2.3.0-1.el9.src.rpm
+The lastest package built was python-uv-0.6.1-1.el9.src.rpm
 
-The build completed at Wed Feb 19 12:15:54 PM CET 2025
+The build completed at Wed Feb 19 12:16:21 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-urllib3-2.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-uv-0.6.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -195,7 +195,7 @@ python3.11-types-psutil-7.0.0.20250218-1.el9 | python-types-psutil-7.0.0.2025021
 python3.11-types-setuptools-75.8.0.20250210-1.el9 | python-types-setuptools-75.8.0.20250210-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-75.8.0.20250210-1.el9.src.rpm.log)
 python3.11-typing-extensions-4.12.2-1.el9 | python-typing-extensions-4.12.2-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.12.2-1.el9.src.rpm.log)
 python3.11-urllib3-2.3.0-1.el9 | python-urllib3-2.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-urllib3-2.3.0-1.el9.src.rpm.log)
-python3.11-uv-0.6.1-1.el9 | python-uv-0.6.1-1.el9.src.rpm | **Missing** |
+python3.11-uv-0.6.1-1.el9 | python-uv-0.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-uv-0.6.1-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.28-1.el9 | python-uwsgi-2.0.28-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.12-1.el9 | python-uwsgitop-0.12-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.12-1.el9.src.rpm.log)
 python3.11-virtualenv-20.29.2-1.el9 | python-virtualenv-20.29.2-1.el9.src.rpm | **Missing** |
