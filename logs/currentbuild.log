@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-flags-5.0.13-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-guid-3.5.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-flags-5.0.13-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-guid-3.5.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-django-flags-5.0.13-1.el9.src.rpm
-Start: build setup for python-django-flags-5.0.13-1.el9.src.rpm
+Start: build phase for python-django-guid-3.5.0-1.el9.src.rpm
+Start: build setup for python-django-guid-3.5.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-django-guid-3.5.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            27 MB/s | 186 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              16 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    67 kB/s |  40 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            32 MB/s | 188 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  40 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-django-flags-5.0.13-1.el9.src.rpm
+Finish: build setup for python-django-guid-3.5.0-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-django-flags-5.0.13-1.el9.src.rpm
+Start: rpmbuild python-django-guid-3.5.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.XM841r
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.VEhScS
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf django-flags-5.0.13
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/django-flags-5.0.13.tar.gz
++ rm -rf django_guid-3.5.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/django_guid-3.5.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd django-flags-5.0.13
++ cd django_guid-3.5.0
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KbwUCG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.kkVQQ8
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
++ cd django_guid-3.5.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.KbwUCG
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/django_guid-3.5.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/django_guid-3.5.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django_guid-3.5.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-guid-3.5.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-django-guid-3.5.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-django-guid-3.5.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -221,9 +221,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 39% [==============                      ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    45 kB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                               8.1 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WgVB41
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.BEbYXW
 + umask 022
 + cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
++ cd django_guid-3.5.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,29 +275,23 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WgVB41
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/django_guid-3.5.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/django_guid-3.5.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement not satisfied: setuptools
-Handling wheel from build-system.requires
-Requirement not satisfied: wheel
-Handling setuptools >= 40.8 from default build backend
-Requirement not satisfied: setuptools >= 40.8
-Handling wheel from default build backend
-Requirement not satisfied: wheel
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django_guid-3.5.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-guid-3.5.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling poetry>=0.12 from build-system.requires
+Requirement not satisfied: poetry>=0.12
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-django-guid-3.5.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-django-guid-3.5.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -306,724 +300,41 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    66 kB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                      Architecture  Version              Repository                                 Size
-=================================================================================================================
-Installing:
- [1mpython3.11-setuptools       [m noarch        75.8.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        2.2 M
- [1mpython3.11-wheel            [m noarch        0.45.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        158 k
-
-Transaction Summary
-=================================================================================================================
-Install  2 Packages
-
-Total size: 2.3 M
-Installed size: 12 M
-Downloading Packages:
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/2 
-  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
-  Running scriptlet: python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
-  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/2 
-  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    2/2 
-Installed products updated.
-
-Installed:
-  python3.11-setuptools-75.8.0-1.el9.noarch                 python3.11-wheel-0.45.1-1.el9.noarch                
-
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.V4J1cR
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 75.8.0)
-Handling wheel from build-system.requires
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running egg_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-running dist_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/django-flags-5.0.13/django_flags-5.0.13.dist-info'
-Handling Django>=2.2 from hook generated metadata: Requires-Dist (django-flags)
-Requirement not satisfied: Django>=2.2
-Handling coverage>=3.7.0; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: coverage>=3.7.0; extra == "testing"
-Handling django-debug-toolbar<4,>=3.2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: django-debug-toolbar<4,>=3.2; extra == "testing"
-Handling jinja2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: jinja2; extra == "testing"
-Handling mkdocs>=0.17; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs>=0.17; extra == "docs"
-Handling mkdocs-rtd-dropdown>=0.0.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs-rtd-dropdown>=0.0.11; extra == "docs"
-Handling pymdown-extensions>=4.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: pymdown-extensions>=4.11; extra == "docs"
-+ cat /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv django_flags-5.0.13.dist-info/
-removed 'django_flags-5.0.13.dist-info/top_level.txt'
-removed 'django_flags-5.0.13.dist-info/METADATA'
-removed 'django_flags-5.0.13.dist-info/LICENSE'
-removed directory 'django_flags-5.0.13.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                13 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    65 kB/s |  40 kB     00:00    
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                    Architecture  Version                Repository                                 Size
-=================================================================================================================
-Installing:
- [1mpython3.11-django         [m noarch        4.2.16-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_        5.6 M
-Installing dependencies:
- [1mpython3.11-asgiref        [m noarch        3.8.1-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_         54 k
- [1mpython3.11-sqlparse       [m noarch        0.5.3-1.el9            _opt_awxrpmng_rpmbuilds_3000_RPMS_        106 k
-
-Transaction Summary
-=================================================================================================================
-Install  3 Packages
-
-Total size: 5.8 M
-Installed size: 30 M
-Downloading Packages:
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Preparing        :  [===========================                                                         ] 1/1  Preparing        :  [=======================================================                             ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [                                              ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=                                             ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=====                                         ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=========                                     ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [==========                                    ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [===========                                   ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [============                                  ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=============                                 ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [==============                                ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [===============                               ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [================                              ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=================                             ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=====================                         ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [======================                        ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [========================                      ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=========================                     ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [==========================                    ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [===========================                   ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [============================                  ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [================================              ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=================================             ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [==================================            ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [===================================           ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [======================================        ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=======================================       ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [========================================      ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [=========================================     ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [==========================================    ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch [============================================= ] 1/3  Installing       : python3.11-sqlparse-0.5.3-1.el9.noarch                                                  1/3 
-  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [                                               ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [===                                            ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=====                                          ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [======                                         ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=======                                        ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [========                                       ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=========                                      ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [===========                                    ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=================                              ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [==================                             ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [====================                           ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [======================                         ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=======================                        ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [========================                       ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [==========================                     ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=============================                  ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [====================================           ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=====================================          ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [=======================================        ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [========================================       ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [============================================   ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch [============================================== ] 2/3  Installing       : python3.11-asgiref-3.8.1-1.el9.noarch                                                   2/3 
-  Installing       : python3.11-django-4.2.16-1.el9.noarch [                                               ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=                                              ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==                                             ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===                                            ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [====                                           ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=====                                          ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [======                                         ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=======                                        ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [========                                       ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=========                                      ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==========                                     ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===========                                    ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [============                                   ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=============                                  ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==============                                 ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===============                                ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [================                               ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=================                              ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==================                             ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===================                            ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [====================                           ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=====================                          ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [======================                         ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=======================                        ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [========================                       ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=========================                      ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==========================                     ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===========================                    ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [============================                   ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=============================                  ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==============================                 ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===============================                ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [================================               ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=================================              ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==================================             ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===================================            ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [====================================           ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=====================================          ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [======================================         ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=======================================        ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [========================================       ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=========================================      ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [==========================================     ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [===========================================    ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [============================================   ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [=============================================  ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch [============================================== ] 3/3  Installing       : python3.11-django-4.2.16-1.el9.noarch                                                   3/3 
-  Running scriptlet: python3.11-django-4.2.16-1.el9.noarch                                                   3/3 
-  Verifying        : python3.11-asgiref-3.8.1-1.el9.noarch                                                   1/3 
-  Verifying        : python3.11-django-4.2.16-1.el9.noarch                                                   2/3 
-  Verifying        : python3.11-sqlparse-0.5.3-1.el9.noarch                                                  3/3 
-Installed products updated.
-
-Installed:
-  python3.11-asgiref-3.8.1-1.el9.noarch                   python3.11-django-4.2.16-1.el9.noarch                 
-  python3.11-sqlparse-0.5.3-1.el9.noarch                 
-
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.loo2OQ
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 75.8.0)
-Handling wheel from build-system.requires
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running egg_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-running dist_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/django-flags-5.0.13/django_flags-5.0.13.dist-info'
-Handling Django>=2.2 from hook generated metadata: Requires-Dist (django-flags)
-Requirement satisfied: Django>=2.2
-   (installed: Django 4.2.16)
-Handling coverage>=3.7.0; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: coverage>=3.7.0; extra == "testing"
-Handling django-debug-toolbar<4,>=3.2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: django-debug-toolbar<4,>=3.2; extra == "testing"
-Handling jinja2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: jinja2; extra == "testing"
-Handling mkdocs>=0.17; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs>=0.17; extra == "docs"
-Handling mkdocs-rtd-dropdown>=0.0.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs-rtd-dropdown>=0.0.11; extra == "docs"
-Handling pymdown-extensions>=4.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: pymdown-extensions>=4.11; extra == "docs"
-+ cat /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv django_flags-5.0.13.dist-info/
-removed 'django_flags-5.0.13.dist-info/top_level.txt'
-removed 'django_flags-5.0.13.dist-info/METADATA'
-removed 'django_flags-5.0.13.dist-info/LICENSE'
-removed directory 'django_flags-5.0.13.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
-No matches found for the following disable plugin patterns: local, spacewalk, versionlock
-Updating Subscription Management repositories.
-Unable to read consumer identity
-
-This system is not registered with an entitlement server. You can use subscription-manager to register.
-
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    46 kB/s |  40 kB     00:00    
-Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
-Package python3.11-django-4.2.16-1.el9.noarch is already installed.
-Package python3.11-packaging-24.2-1.el9.noarch is already installed.
-Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
-Dependencies resolved.
-Nothing to do.
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739923200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.A2v82k
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools from build-system.requires
-Requirement satisfied: setuptools
-   (installed: setuptools 75.8.0)
-Handling wheel from build-system.requires
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
-running egg_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-running dist_info
-writing django_flags.egg-info/PKG-INFO
-writing dependency_links to django_flags.egg-info/dependency_links.txt
-writing requirements to django_flags.egg-info/requires.txt
-writing top-level names to django_flags.egg-info/top_level.txt
-reading manifest file 'django_flags.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-adding license file 'LICENSE'
-writing manifest file 'django_flags.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/django-flags-5.0.13/django_flags-5.0.13.dist-info'
-Handling Django>=2.2 from hook generated metadata: Requires-Dist (django-flags)
-Requirement satisfied: Django>=2.2
-   (installed: Django 4.2.16)
-Handling coverage>=3.7.0; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: coverage>=3.7.0; extra == "testing"
-Handling django-debug-toolbar<4,>=3.2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: django-debug-toolbar<4,>=3.2; extra == "testing"
-Handling jinja2; extra == "testing" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: jinja2; extra == "testing"
-Handling mkdocs>=0.17; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs>=0.17; extra == "docs"
-Handling mkdocs-rtd-dropdown>=0.0.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: mkdocs-rtd-dropdown>=0.0.11; extra == "docs"
-Handling pymdown-extensions>=4.11; extra == "docs" from hook generated metadata: Requires-Dist (django-flags)
-Ignoring alien requirement: pymdown-extensions>=4.11; extra == "docs"
-+ cat /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv django_flags-5.0.13.dist-info/
-removed 'django_flags-5.0.13.dist-info/top_level.txt'
-removed 'django_flags-5.0.13.dist-info/METADATA'
-removed 'django_flags-5.0.13.dist-info/LICENSE'
-removed directory 'django_flags-5.0.13.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.2tCFie
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd django-flags-5.0.13
-+ mkdir -p /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/django-flags-5.0.13
-  Preparing metadata (pyproject.toml): started
-  Running command Preparing metadata (pyproject.toml)
-  running dist_info
-  creating /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info
-  writing /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/dependency_links.txt
-  writing requirements to /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/requires.txt
-  writing top-level names to /builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-modern-metadata-xdli53zi/django_flags-5.0.13.dist-info'
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: django-flags
-  Building wheel for django-flags (pyproject.toml): started
-  Running command Building wheel for django-flags (pyproject.toml)
-  running bdist_wheel
-  running build
-  running build_py
-  creating build/lib/flags
-  copying flags/__init__.py -> build/lib/flags
-  copying flags/admin.py -> build/lib/flags
-  copying flags/apps.py -> build/lib/flags
-  copying flags/checks.py -> build/lib/flags
-  copying flags/decorators.py -> build/lib/flags
-  copying flags/forms.py -> build/lib/flags
-  copying flags/jinja2tags.py -> build/lib/flags
-  copying flags/middleware.py -> build/lib/flags
-  copying flags/models.py -> build/lib/flags
-  copying flags/panels.py -> build/lib/flags
-  copying flags/sources.py -> build/lib/flags
-  copying flags/state.py -> build/lib/flags
-  copying flags/urls.py -> build/lib/flags
-  copying flags/utils.py -> build/lib/flags
-  copying flags/views.py -> build/lib/flags
-  creating build/lib/flags/conditions
-  copying flags/conditions/__init__.py -> build/lib/flags/conditions
-  copying flags/conditions/conditions.py -> build/lib/flags/conditions
-  copying flags/conditions/registry.py -> build/lib/flags/conditions
-  copying flags/conditions/validators.py -> build/lib/flags/conditions
-  creating build/lib/flags/management
-  copying flags/management/__init__.py -> build/lib/flags/management
-  creating build/lib/flags/migrations
-  copying flags/migrations/0012_replace_migrations_for_wagtail_independence.py -> build/lib/flags/migrations
-  copying flags/migrations/0013_add_required_field.py -> build/lib/flags/migrations
-  copying flags/migrations/__init__.py -> build/lib/flags/migrations
-  creating build/lib/flags/templatetags
-  copying flags/templatetags/__init__.py -> build/lib/flags/templatetags
-  copying flags/templatetags/feature_flags.py -> build/lib/flags/templatetags
-  copying flags/templatetags/flags_debug.py -> build/lib/flags/templatetags
-  creating build/lib/flags/tests
-  copying flags/tests/__init__.py -> build/lib/flags/tests
-  copying flags/tests/settings.py -> build/lib/flags/tests
-  copying flags/tests/test_admin.py -> build/lib/flags/tests
-  copying flags/tests/test_checks.py -> build/lib/flags/tests
-  copying flags/tests/test_conditions_conditions.py -> build/lib/flags/tests
-  copying flags/tests/test_conditions_registry.py -> build/lib/flags/tests
-  copying flags/tests/test_conditions_validators.py -> build/lib/flags/tests
-  copying flags/tests/test_decorators.py -> build/lib/flags/tests
-  copying flags/tests/test_forms.py -> build/lib/flags/tests
-  copying flags/tests/test_jinja2tags.py -> build/lib/flags/tests
-  copying flags/tests/test_management_commands_disable_flag.py -> build/lib/flags/tests
-  copying flags/tests/test_management_commands_enable_flag.py -> build/lib/flags/tests
-  copying flags/tests/test_middleware.py -> build/lib/flags/tests
-  copying flags/tests/test_models.py -> build/lib/flags/tests
-  copying flags/tests/test_panels.py -> build/lib/flags/tests
-  copying flags/tests/test_sources.py -> build/lib/flags/tests
-  copying flags/tests/test_state.py -> build/lib/flags/tests
-  copying flags/tests/test_templatetags_feature_flags.py -> build/lib/flags/tests
-  copying flags/tests/test_templatetags_flags_debug.py -> build/lib/flags/tests
-  copying flags/tests/test_urls.py -> build/lib/flags/tests
-  copying flags/tests/test_views.py -> build/lib/flags/tests
-  creating build/lib/flags/management/commands
-  copying flags/management/commands/__init__.py -> build/lib/flags/management/commands
-  copying flags/management/commands/disable_flag.py -> build/lib/flags/management/commands
-  copying flags/management/commands/enable_flag.py -> build/lib/flags/management/commands
-  creating build/lib/flags/tests/testapp
-  copying flags/tests/testapp/__init__.py -> build/lib/flags/tests/testapp
-  copying flags/tests/testapp/apps.py -> build/lib/flags/tests/testapp
-  copying flags/tests/testapp/models.py -> build/lib/flags/tests/testapp
-  creating build/lib/flags/tests/testapp/migrations
-  copying flags/tests/testapp/migrations/0001_initial.py -> build/lib/flags/tests/testapp/migrations
-  copying flags/tests/testapp/migrations/__init__.py -> build/lib/flags/tests/testapp/migrations
-  running egg_info
-  writing django_flags.egg-info/PKG-INFO
-  writing dependency_links to django_flags.egg-info/dependency_links.txt
-  writing requirements to django_flags.egg-info/requires.txt
-  writing top-level names to django_flags.egg-info/top_level.txt
-  reading manifest file 'django_flags.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  adding license file 'LICENSE'
-  writing manifest file 'django_flags.egg-info/SOURCES.txt'
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'flags.templates.flags.panels' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'flags.templates.flags.panels' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'flags.templates.flags.panels' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'flags.templates.flags.panels' to be distributed and are
-          already explicitly excluding 'flags.templates.flags.panels' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  creating build/lib/flags/templates/flags/panels
-  copying flags/templates/flags/panels/flag_checks.html -> build/lib/flags/templates/flags/panels
-  copying flags/templates/flags/panels/flags.html -> build/lib/flags/templates/flags/panels
-  installing to build/bdist.linux-x86_64/wheel
-  running install
-  running install_lib
-  creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/flags
-  copying build/lib/flags/__init__.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/admin.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/apps.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/checks.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/decorators.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/forms.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/jinja2tags.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/middleware.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/models.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/panels.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/sources.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/state.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/urls.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/utils.py -> build/bdist.linux-x86_64/wheel/./flags
-  copying build/lib/flags/views.py -> build/bdist.linux-x86_64/wheel/./flags
-  creating build/bdist.linux-x86_64/wheel/flags/conditions
-  copying build/lib/flags/conditions/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/conditions
-  copying build/lib/flags/conditions/conditions.py -> build/bdist.linux-x86_64/wheel/./flags/conditions
-  copying build/lib/flags/conditions/registry.py -> build/bdist.linux-x86_64/wheel/./flags/conditions
-  copying build/lib/flags/conditions/validators.py -> build/bdist.linux-x86_64/wheel/./flags/conditions
-  creating build/bdist.linux-x86_64/wheel/flags/management
-  copying build/lib/flags/management/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/management
-  creating build/bdist.linux-x86_64/wheel/flags/management/commands
-  copying build/lib/flags/management/commands/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/management/commands
-  copying build/lib/flags/management/commands/disable_flag.py -> build/bdist.linux-x86_64/wheel/./flags/management/commands
-  copying build/lib/flags/management/commands/enable_flag.py -> build/bdist.linux-x86_64/wheel/./flags/management/commands
-  creating build/bdist.linux-x86_64/wheel/flags/migrations
-  copying build/lib/flags/migrations/0012_replace_migrations_for_wagtail_independence.py -> build/bdist.linux-x86_64/wheel/./flags/migrations
-  copying build/lib/flags/migrations/0013_add_required_field.py -> build/bdist.linux-x86_64/wheel/./flags/migrations
-  copying build/lib/flags/migrations/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/migrations
-  creating build/bdist.linux-x86_64/wheel/flags/templatetags
-  copying build/lib/flags/templatetags/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/templatetags
-  copying build/lib/flags/templatetags/feature_flags.py -> build/bdist.linux-x86_64/wheel/./flags/templatetags
-  copying build/lib/flags/templatetags/flags_debug.py -> build/bdist.linux-x86_64/wheel/./flags/templatetags
-  creating build/bdist.linux-x86_64/wheel/flags/tests
-  copying build/lib/flags/tests/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/settings.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_admin.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_checks.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_conditions_conditions.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_conditions_registry.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_conditions_validators.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_decorators.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_forms.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_jinja2tags.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_management_commands_disable_flag.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_management_commands_enable_flag.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_middleware.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_models.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_panels.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_sources.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_state.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_templatetags_feature_flags.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_templatetags_flags_debug.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_urls.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  copying build/lib/flags/tests/test_views.py -> build/bdist.linux-x86_64/wheel/./flags/tests
-  creating build/bdist.linux-x86_64/wheel/flags/tests/testapp
-  copying build/lib/flags/tests/testapp/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/tests/testapp
-  copying build/lib/flags/tests/testapp/apps.py -> build/bdist.linux-x86_64/wheel/./flags/tests/testapp
-  copying build/lib/flags/tests/testapp/models.py -> build/bdist.linux-x86_64/wheel/./flags/tests/testapp
-  creating build/bdist.linux-x86_64/wheel/flags/tests/testapp/migrations
-  copying build/lib/flags/tests/testapp/migrations/0001_initial.py -> build/bdist.linux-x86_64/wheel/./flags/tests/testapp/migrations
-  copying build/lib/flags/tests/testapp/migrations/__init__.py -> build/bdist.linux-x86_64/wheel/./flags/tests/testapp/migrations
-  creating build/bdist.linux-x86_64/wheel/flags/templates
-  creating build/bdist.linux-x86_64/wheel/flags/templates/flags
-  creating build/bdist.linux-x86_64/wheel/flags/templates/flags/panels
-  copying build/lib/flags/templates/flags/panels/flag_checks.html -> build/bdist.linux-x86_64/wheel/./flags/templates/flags/panels
-  copying build/lib/flags/templates/flags/panels/flags.html -> build/bdist.linux-x86_64/wheel/./flags/templates/flags/panels
-  running install_egg_info
-  Copying django_flags.egg-info to build/bdist.linux-x86_64/wheel/./django_flags-5.0.13-py3.11.egg-info
-  running install_scripts
-  creating build/bdist.linux-x86_64/wheel/django_flags-5.0.13.dist-info/WHEEL
-  creating '/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11/pip-wheel-b9hoyd_y/.tmp-us0xc2n5/django_flags-5.0.13-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'flags/__init__.py'
-  adding 'flags/admin.py'
-  adding 'flags/apps.py'
-  adding 'flags/checks.py'
-  adding 'flags/decorators.py'
-  adding 'flags/forms.py'
-  adding 'flags/jinja2tags.py'
-  adding 'flags/middleware.py'
-  adding 'flags/models.py'
-  adding 'flags/panels.py'
-  adding 'flags/sources.py'
-  adding 'flags/state.py'
-  adding 'flags/urls.py'
-  adding 'flags/utils.py'
-  adding 'flags/views.py'
-  adding 'flags/conditions/__init__.py'
-  adding 'flags/conditions/conditions.py'
-  adding 'flags/conditions/registry.py'
-  adding 'flags/conditions/validators.py'
-  adding 'flags/management/__init__.py'
-  adding 'flags/management/commands/__init__.py'
-  adding 'flags/management/commands/disable_flag.py'
-  adding 'flags/management/commands/enable_flag.py'
-  adding 'flags/migrations/0012_replace_migrations_for_wagtail_independence.py'
-  adding 'flags/migrations/0013_add_required_field.py'
-  adding 'flags/migrations/__init__.py'
-  adding 'flags/templates/flags/panels/flag_checks.html'
-  adding 'flags/templates/flags/panels/flags.html'
-  adding 'flags/templatetags/__init__.py'
-  adding 'flags/templatetags/feature_flags.py'
-  adding 'flags/templatetags/flags_debug.py'
-  adding 'flags/tests/__init__.py'
-  adding 'flags/tests/settings.py'
-  adding 'flags/tests/test_admin.py'
-  adding 'flags/tests/test_checks.py'
-  adding 'flags/tests/test_conditions_conditions.py'
-  adding 'flags/tests/test_conditions_registry.py'
-  adding 'flags/tests/test_conditions_validators.py'
-  adding 'flags/tests/test_decorators.py'
-  adding 'flags/tests/test_forms.py'
-  adding 'flags/tests/test_jinja2tags.py'
-  adding 'flags/tests/test_management_commands_disable_flag.py'
-  adding 'flags/tests/test_management_commands_enable_flag.py'
-  adding 'flags/tests/test_middleware.py'
-  adding 'flags/tests/test_models.py'
-  adding 'flags/tests/test_panels.py'
-  adding 'flags/tests/test_sources.py'
-  adding 'flags/tests/test_state.py'
-  adding 'flags/tests/test_templatetags_feature_flags.py'
-  adding 'flags/tests/test_templatetags_flags_debug.py'
-  adding 'flags/tests/test_urls.py'
-  adding 'flags/tests/test_views.py'
-  adding 'flags/tests/testapp/__init__.py'
-  adding 'flags/tests/testapp/apps.py'
-  adding 'flags/tests/testapp/models.py'
-  adding 'flags/tests/testapp/migrations/0001_initial.py'
-  adding 'flags/tests/testapp/migrations/__init__.py'
-  adding 'django_flags-5.0.13.dist-info/LICENSE'
-  adding 'django_flags-5.0.13.dist-info/METADATA'
-  adding 'django_flags-5.0.13.dist-info/WHEEL'
-  adding 'django_flags-5.0.13.dist-info/top_level.txt'
-  adding 'django_flags-5.0.13.dist-info/RECORD'
-  removing build/bdist.linux-x86_64/wheel
-  Building wheel for django-flags (pyproject.toml): finished with status 'done'
-  Created wheel for django-flags: filename=django_flags-5.0.13-py3-none-any.whl size=42427 sha256=b2ecb74cc181de702197e089c36f902152da5662bef553f39b0c62399c7b1519
-  Stored in directory: /builddir/.cache/pip/wheels/26/b2/3a/008b28a635e4f10bfbe78b59d73fd5f8c0bbd857f79a69e293
-Successfully built django-flags
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.3biK95
-+ umask 022
-+ cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64
-+ mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64
-+ cd django-flags-5.0.13
-++ ls /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11/django_flags-5.0.13-py3-none-any.whl
-++ xargs basename --multiple
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=django_flags==5.0.13
-+ '[' -z django_flags==5.0.13 ']'
-+ TMPDIR=/builddir/build/BUILD/django-flags-5.0.13/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11 django_flags==5.0.13
-Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/django-flags-5.0.13/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/django_flags-5.0.13-py3-none-any.whl
-Installing collected packages: django_flags
-Successfully installed django_flags-5.0.13
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/bin ']'
-+ rm -f /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-+ site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
-+ for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/INSTALLER
-+ PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/RECORD --output /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11/site-packages/django_flags-5.0.13.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-++ cut -f1 '-d '
-+ lines=1
-+ '[' 1 -ne 1 ']'
-+ RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-django-flags-5.0.13-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 5.0.13-1.el9 --unique-debug-suffix -5.0.13-1.el9.x86_64 --unique-debug-src-base python-django-flags-5.0.13-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/django-flags-5.0.13
-find: 'debug': No such file or directory
-+ /usr/lib/rpm/check-buildroot
-+ /usr/lib/rpm/redhat/brp-ldconfig
-+ /usr/lib/rpm/brp-compress
-+ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
-+ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
-+ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64/usr/lib/python3.11 using python3.11
-+ /usr/lib/rpm/brp-python-hardlink
-+ /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-django-flags-5.0.13-1.el9.noarch
-Provides: python3.11-django-flags = 5.0.13-1.el9 python3.11dist(django-flags) = 5.0.13
-Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: python(abi) = 3.11 python3.11dist(django) >= 2.2
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-django-flags-5.0.13-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-django-flags-5.0.13-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-django-flags-5.0.13-1.el9.noarch.rpm
-Finish: rpmbuild python-django-flags-5.0.13-1.el9.src.rpm
-Finish: build phase for python-django-flags-5.0.13-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-flags-5.0.13-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
+No matching package to install: 'python3.11dist(poetry) >= 0.12'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+Finish: rpmbuild python-django-guid-3.5.0-1.el9.src.rpm
+Finish: build phase for python-django-guid-3.5.0-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-django-guid-3.5.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 18 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-Finish: run
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M e2ff0d19fed74db6907932d06c49c4f5 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv._xdkcslg:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-django-guid-3.5.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  40 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(poetry) >= 0.12'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+
