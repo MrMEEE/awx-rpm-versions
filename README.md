@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pbs-installer-2025.2.12-1.el9.src.rpm
+The lastest package built was python-pkginfo-1.12.1.2-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:59:11 PM CET 2025
+The build completed at Thu Feb 20 12:59:43 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pbs-installer-2025.2.12-1.el9.src.rpm.log)
+[Build Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
