@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cffi-1.17.1-1.el9.src.rpm
+The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:04:25 AM CET 2025
+The build completed at Thu Feb 20 11:07:12 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
+[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -46,6 +46,7 @@ python3.11-certifi-2025.1.31-1.el9 | python-certifi-2025.1.31-1.el9.src.rpm | Bu
 python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 python3.11-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-channels-4.2.0-1.el9.src.rpm.log)
 python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
+python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | **Missing** |
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
@@ -224,4 +225,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-214 total packages, 181 packages built successfully, 33 packages left to fix
+215 total packages, 181 packages built successfully, 34 packages left to fix

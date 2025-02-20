@@ -1,17 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-daphne
-Version:        4.1.2
+Name:           python-chardet
+Version:        5.2.0
 Release:        %autorelease
-Summary:        Django ASGI (HTTP/WebSocket) server
+Summary:        Universal encoding detector for Python 3
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/django/daphne
-Source:         %{pypi_source daphne}
-Patch:		daphne-deps.patch
+URL:            https://github.com/chardet/chardet
+Source:         %{pypi_source chardet}
 
 BuildArch:      noarch
 
@@ -20,25 +19,21 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'daphne' generated automatically by pyp2spec.}
+This is package 'chardet' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-daphne
+%package -n     python%{python3_pkgversion}-chardet
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-daphne %_description
-
-# For official Fedora packages, review which extras should be actually packaged
-# See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
+%description -n python%{python3_pkgversion}-chardet %_description
 
 
 %prep
-%autosetup -p1 -n daphne-%{version}
+%autosetup -p1 -n chardet-%{version}
 
 
 %generate_buildrequires
-# Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
 
@@ -57,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-daphne -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-chardet -f %{pyproject_files}
 
 
 %changelog
