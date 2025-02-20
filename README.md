@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rfc3986-2.0.0-1.el9.src.rpm
+The lastest package built was python-id-1.5.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:27:09 AM CET 2025
+The build completed at Thu Feb 20 10:27:46 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-rfc3986-2.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-id-1.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -89,7 +89,7 @@ python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [L
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | Built | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
-python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | **Missing** |
+python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-id-1.5.0-1.el9.src.rpm.log)
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | Built | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
 python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | Built | [Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | Built | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
@@ -216,4 +216,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-206 total packages, 164 packages built successfully, 42 packages left to fix
+206 total packages, 165 packages built successfully, 41 packages left to fix
