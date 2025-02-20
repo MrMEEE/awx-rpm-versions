@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-installer-0.7.0-1.el9.src.rpm
+The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:00:19 PM CET 2025
+The build completed at Thu Feb 20 01:00:54 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -81,7 +81,7 @@ python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Bu
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | **Missing** |
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
-python3.11-findpython3.11-0.6.2-1.el9 | python-findpython-0.6.2-1.el9.src.rpm | **Missing** |
+python3.11-findpython3.11-0.6.2-1.el9 | python-findpython-0.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
