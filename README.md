@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-6.1.0-1.el9.src.rpm
+The lastest package built was python-nh3-0.2.20-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:42:36 AM CET 2025
+The build completed at Thu Feb 20 10:45:44 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -129,7 +129,7 @@ python3.11-msrestazure-0.6.4^post1-1.el9 | python-msrestazure-0.6.4^post1-1.el9.
 python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-multidict-6.1.0-1.el9.src.rpm.log)
 python3.11-mypy-1.15.0-1.el9 | python-mypy-1.15.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.15.0-1.el9.src.rpm.log)
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
-python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | **Missing** | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
+python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
@@ -221,4 +221,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-211 total packages, 170 packages built successfully, 41 packages left to fix
+211 total packages, 171 packages built successfully, 40 packages left to fix
