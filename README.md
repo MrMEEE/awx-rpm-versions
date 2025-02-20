@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-opentelemetry-exporter-otlp-proto-grpc-1.29.0-1.el9.src.rpm
+The lastest package built was python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 02:00:53 AM CET 2025
+The build completed at Thu Feb 20 02:01:41 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-opentelemetry-exporter-otlp-proto-grpc-1.29.0-1.el9.src.rpm.log)
+[Build Log](logs/python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -129,7 +129,7 @@ python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el
 python3.11-opentelemetry-exporter-otlp-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-exporter-otlp-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-proto-grpc-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-grpc-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-exporter-otlp-proto-grpc-1.29.0-1.el9.src.rpm.log)
-python3.11-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm | **Missing** | [Log](logs/python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm.log)
+python3.11-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-exporter-otlp-proto-http-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-instrumentation-0.50~b0-1.el9 | python-opentelemetry-instrumentation-0.50~b0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-instrumentation-0.50~b0-1.el9.src.rpm.log)
 python3.11-opentelemetry-instrumentation-logging-0.50~b0-1.el9 | python-opentelemetry-instrumentation-logging-0.50~b0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-instrumentation-logging-0.50~b0-1.el9.src.rpm.log)
 python3.11-opentelemetry-proto-1.29.0-1.el9 | python-opentelemetry-proto-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-proto-1.29.0-1.el9.src.rpm.log)
@@ -208,4 +208,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-198 total packages, 157 packages built successfully, 41 packages left to fix
+198 total packages, 158 packages built successfully, 40 packages left to fix
