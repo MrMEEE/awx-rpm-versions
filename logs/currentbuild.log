@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pbr-6.1.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-prometheus-client-0.21.1-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pbr-6.1.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-prometheus-client-0.21.1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-pbr-6.1.0-1.el9.src.rpm
-Start: build setup for python-pbr-6.1.0-1.el9.src.rpm
+Start: build phase for python-prometheus-client-0.21.1-1.el9.src.rpm
+Start: build setup for python-prometheus-client-0.21.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Wrote: /builddir/build/SRPMS/python-pbr-6.1.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-prometheus-client-0.21.1-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           6.0 MB/s | 200 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            32 MB/s | 201 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    67 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    60 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch         
 
 Complete!
-Finish: build setup for python-pbr-6.1.0-1.el9.src.rpm
+Finish: build setup for python-prometheus-client-0.21.1-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-pbr-6.1.0-1.el9.src.rpm
+Start: rpmbuild python-prometheus-client-0.21.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.UAkkkQ
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KN3LdV
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf pbr-6.1.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/pbr-6.1.0.tar.gz
++ rm -rf prometheus_client-0.21.1
++ /usr/bin/gzip -dc /builddir/build/SOURCES/prometheus_client-0.21.1.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd pbr-6.1.0
++ cd prometheus_client-0.21.1
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tvlvvC
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.oRBhCW
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pbr-6.1.0
++ cd prometheus_client-0.21.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -199,21 +199,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tvlvvC
 + echo 'python3.11dist(wheel)'
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/prometheus_client-0.21.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/prometheus_client-0.21.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/prometheus_client-0.21.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-prometheus-client-0.21.1-1.el9.x86_64-3.11-pyproject-buildrequires -x twisted
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-prometheus-client-0.21.1-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pbr-6.1.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-prometheus-client-0.21.1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 8.6 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             8.6 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -273,10 +273,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.llxgTd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.g2X2qS
 + umask 022
 + cd /builddir/build/BUILD
-+ cd pbr-6.1.0
++ cd prometheus_client-0.21.1
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -287,89 +287,62 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.llxgTd
 + echo 'python3.11dist(wheel)'
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/prometheus_client-0.21.1/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/prometheus_client-0.21.1/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/prometheus_client-0.21.1/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-prometheus-client-0.21.1-1.el9.x86_64-3.11-pyproject-buildrequires -x twisted
 Handling setuptools >= 40.8 from default build backend
 Requirement satisfied: setuptools >= 40.8
    (installed: setuptools 75.8.0)
 Handling wheel from default build backend
 Requirement satisfied: wheel
    (installed: wheel 0.38.4)
-/usr/lib/python3.11/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
-!!
-
-        ********************************************************************************
-        Please avoid running ``setup.py`` and ``easy_install``.
-        Instead, use pypa/build, pypa/installer or other
-        standards-based tools.
-
-        See https://github.com/pypa/setuptools/issues/917 for details.
-        ********************************************************************************
-
-!!
-  easy_install.initialize_options(self)
-/usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:79: SetuptoolsDeprecationWarning: setup.py install is deprecated.
-!!
-
-        ********************************************************************************
-        Please avoid running ``setup.py`` directly.
-        Instead, use pypa/build, pypa/installer or other
-        standards-based tools.
-
-        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
-        ********************************************************************************
-
-!!
-  self.initialize_options()
-/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'test_suite'
   warnings.warn(msg)
 running egg_info
-writing pbr.egg-info/PKG-INFO
-writing dependency_links to pbr.egg-info/dependency_links.txt
-writing entry points to pbr.egg-info/entry_points.txt
-writing top-level names to pbr.egg-info/top_level.txt
-[pbr] Reusing existing SOURCES.txt
+writing prometheus_client.egg-info/PKG-INFO
+writing dependency_links to prometheus_client.egg-info/dependency_links.txt
+writing requirements to prometheus_client.egg-info/requires.txt
+writing top-level names to prometheus_client.egg-info/top_level.txt
+reading manifest file 'prometheus_client.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+no previously-included directories found matching '__pycache__'
+no previously-included directories found matching '*/__pycache__'
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'prometheus_client.egg-info/SOURCES.txt'
 running dist_info
-writing pbr.egg-info/PKG-INFO
-writing dependency_links to pbr.egg-info/dependency_links.txt
-writing entry points to pbr.egg-info/entry_points.txt
-writing top-level names to pbr.egg-info/top_level.txt
-[pbr] Reusing existing SOURCES.txt
-creating '/builddir/build/BUILD/pbr-6.1.0/pbr-6.1.0.dist-info'
-/usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:124: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
-!!
-
-        ********************************************************************************
-        With Python 2.7 end-of-life, support for building universal wheels
-        (i.e., wheels that support both Python 2 and Python 3)
-        is being obviated.
-        Please discontinue using this option, or if you still need it,
-        file an issue with pypa/setuptools describing your use case.
-
-        By 2025-Aug-30, you need to update your project and remove deprecated calls
-        or your builds will no longer be supported.
-        ********************************************************************************
-
-!!
-  self.finalize_options()
-+ cat /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv pbr-6.1.0.dist-info/
-removed 'pbr-6.1.0.dist-info/entry_points.txt'
-removed 'pbr-6.1.0.dist-info/top_level.txt'
-removed 'pbr-6.1.0.dist-info/METADATA'
-removed 'pbr-6.1.0.dist-info/LICENSE'
-removed 'pbr-6.1.0.dist-info/AUTHORS'
-removed directory 'pbr-6.1.0.dist-info/'
+writing prometheus_client.egg-info/PKG-INFO
+writing dependency_links to prometheus_client.egg-info/dependency_links.txt
+writing requirements to prometheus_client.egg-info/requires.txt
+writing top-level names to prometheus_client.egg-info/top_level.txt
+reading manifest file 'prometheus_client.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+no previously-included directories found matching '__pycache__'
+no previously-included directories found matching '*/__pycache__'
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'prometheus_client.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/prometheus_client-0.21.1/prometheus_client-0.21.1.dist-info'
+Handling twisted; extra == "twisted" from hook generated metadata: Requires-Dist (prometheus_client)
+Requirement not satisfied: twisted; extra == "twisted"
++ cat /builddir/build/BUILD/python-prometheus-client-0.21.1-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv prometheus_client-0.21.1.dist-info/
+removed 'prometheus_client-0.21.1.dist-info/top_level.txt'
+removed 'prometheus_client-0.21.1.dist-info/METADATA'
+removed 'prometheus_client-0.21.1.dist-info/LICENSE'
+removed 'prometheus_client-0.21.1.dist-info/NOTICE'
+removed directory 'prometheus_client-0.21.1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-pbr-6.1.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-prometheus-client-0.21.1-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -378,10 +351,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================] 8.7 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                               8.7 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    45 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -389,766 +362,34 @@ Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
 Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
-Dependencies resolved.
-Nothing to do.
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fZOobL
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd pbr-6.1.0
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ '[' -f setup.py ']'
-+ echo 'python3.11dist(setuptools) >= 40.8'
-+ echo 'python3.11dist(wheel)'
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling setuptools >= 40.8 from default build backend
-Requirement satisfied: setuptools >= 40.8
-   (installed: setuptools 75.8.0)
-Handling wheel from default build backend
-Requirement satisfied: wheel
-   (installed: wheel 0.38.4)
-/usr/lib/python3.11/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
-!!
-
-        ********************************************************************************
-        Please avoid running ``setup.py`` and ``easy_install``.
-        Instead, use pypa/build, pypa/installer or other
-        standards-based tools.
-
-        See https://github.com/pypa/setuptools/issues/917 for details.
-        ********************************************************************************
-
-!!
-  easy_install.initialize_options(self)
-/usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:79: SetuptoolsDeprecationWarning: setup.py install is deprecated.
-!!
-
-        ********************************************************************************
-        Please avoid running ``setup.py`` directly.
-        Instead, use pypa/build, pypa/installer or other
-        standards-based tools.
-
-        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
-        ********************************************************************************
-
-!!
-  self.initialize_options()
-/usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
-  warnings.warn(msg)
-running egg_info
-writing pbr.egg-info/PKG-INFO
-writing dependency_links to pbr.egg-info/dependency_links.txt
-writing entry points to pbr.egg-info/entry_points.txt
-writing top-level names to pbr.egg-info/top_level.txt
-[pbr] Reusing existing SOURCES.txt
-running dist_info
-writing pbr.egg-info/PKG-INFO
-writing dependency_links to pbr.egg-info/dependency_links.txt
-writing entry points to pbr.egg-info/entry_points.txt
-writing top-level names to pbr.egg-info/top_level.txt
-[pbr] Reusing existing SOURCES.txt
-creating '/builddir/build/BUILD/pbr-6.1.0/pbr-6.1.0.dist-info'
-/usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:124: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
-!!
-
-        ********************************************************************************
-        With Python 2.7 end-of-life, support for building universal wheels
-        (i.e., wheels that support both Python 2 and Python 3)
-        is being obviated.
-        Please discontinue using this option, or if you still need it,
-        file an issue with pypa/setuptools describing your use case.
-
-        By 2025-Aug-30, you need to update your project and remove deprecated calls
-        or your builds will no longer be supported.
-        ********************************************************************************
-
-!!
-  self.finalize_options()
-+ cat /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv pbr-6.1.0.dist-info/
-removed 'pbr-6.1.0.dist-info/entry_points.txt'
-removed 'pbr-6.1.0.dist-info/top_level.txt'
-removed 'pbr-6.1.0.dist-info/METADATA'
-removed 'pbr-6.1.0.dist-info/LICENSE'
-removed 'pbr-6.1.0.dist-info/AUTHORS'
-removed directory 'pbr-6.1.0.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Sa9keb
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd pbr-6.1.0
-+ mkdir -p /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/pbr-6.1.0
-  Preparing metadata (pyproject.toml): started
-  Running command Preparing metadata (pyproject.toml)
-  /usr/lib/python3.11/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
-  !!
-
-          ********************************************************************************
-          Please avoid running ``setup.py`` and ``easy_install``.
-          Instead, use pypa/build, pypa/installer or other
-          standards-based tools.
-
-          See https://github.com/pypa/setuptools/issues/917 for details.
-          ********************************************************************************
-
-  !!
-    easy_install.initialize_options(self)
-  /usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:79: SetuptoolsDeprecationWarning: setup.py install is deprecated.
-  !!
-
-          ********************************************************************************
-          Please avoid running ``setup.py`` directly.
-          Instead, use pypa/build, pypa/installer or other
-          standards-based tools.
-
-          See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
-          ********************************************************************************
-
-  !!
-    self.initialize_options()
-  /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
-    warnings.warn(msg)
-  running dist_info
-  creating /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info
-  writing /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/entry_points.txt
-  writing top-level names to /builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/top_level.txt
-  [pbr] Processing SOURCES.txt
-  writing manifest file '/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/SOURCES.txt'
-  warning: no previously-included files found matching '.gitignore'
-  warning: no previously-included files found matching '.gitreview'
-  warning: no previously-included files matching '*.pyc' found anywhere in distribution
-  adding license file 'LICENSE'
-  adding license file 'AUTHORS'
-  writing manifest file '/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-modern-metadata-d4zkorsd/pbr-6.1.0.dist-info'
-  /usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:124: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
-  !!
-
-          ********************************************************************************
-          With Python 2.7 end-of-life, support for building universal wheels
-          (i.e., wheels that support both Python 2 and Python 3)
-          is being obviated.
-          Please discontinue using this option, or if you still need it,
-          file an issue with pypa/setuptools describing your use case.
-
-          By 2025-Aug-30, you need to update your project and remove deprecated calls
-          or your builds will no longer be supported.
-          ********************************************************************************
-
-  !!
-    self.finalize_options()
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: pbr
-  Building wheel for pbr (pyproject.toml): started
-  Running command Building wheel for pbr (pyproject.toml)
-  /usr/lib/python3.11/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
-  !!
-
-          ********************************************************************************
-          Please avoid running ``setup.py`` and ``easy_install``.
-          Instead, use pypa/build, pypa/installer or other
-          standards-based tools.
-
-          See https://github.com/pypa/setuptools/issues/917 for details.
-          ********************************************************************************
-
-  !!
-    easy_install.initialize_options(self)
-  /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
-    warnings.warn(msg)
-  running bdist_wheel
-  /usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:124: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
-  !!
-
-          ********************************************************************************
-          With Python 2.7 end-of-life, support for building universal wheels
-          (i.e., wheels that support both Python 2 and Python 3)
-          is being obviated.
-          Please discontinue using this option, or if you still need it,
-          file an issue with pypa/setuptools describing your use case.
-
-          By 2025-Aug-30, you need to update your project and remove deprecated calls
-          or your builds will no longer be supported.
-          ********************************************************************************
-
-  !!
-    self.finalize_options()
-  running build
-  running build_py
-  creating build/lib/pbr/cmd
-  copying pbr/cmd/__init__.py -> build/lib/pbr/cmd
-  copying pbr/cmd/main.py -> build/lib/pbr/cmd
-  creating build/lib/pbr/hooks
-  copying pbr/hooks/__init__.py -> build/lib/pbr/hooks
-  copying pbr/hooks/backwards.py -> build/lib/pbr/hooks
-  copying pbr/hooks/base.py -> build/lib/pbr/hooks
-  copying pbr/hooks/commands.py -> build/lib/pbr/hooks
-  copying pbr/hooks/files.py -> build/lib/pbr/hooks
-  copying pbr/hooks/metadata.py -> build/lib/pbr/hooks
-  creating build/lib/pbr/tests
-  copying pbr/tests/__init__.py -> build/lib/pbr/tests
-  copying pbr/tests/base.py -> build/lib/pbr/tests
-  copying pbr/tests/test_commands.py -> build/lib/pbr/tests
-  copying pbr/tests/test_core.py -> build/lib/pbr/tests
-  copying pbr/tests/test_files.py -> build/lib/pbr/tests
-  copying pbr/tests/test_hooks.py -> build/lib/pbr/tests
-  copying pbr/tests/test_integration.py -> build/lib/pbr/tests
-  copying pbr/tests/test_packaging.py -> build/lib/pbr/tests
-  copying pbr/tests/test_pbr_json.py -> build/lib/pbr/tests
-  copying pbr/tests/test_setup.py -> build/lib/pbr/tests
-  copying pbr/tests/test_util.py -> build/lib/pbr/tests
-  copying pbr/tests/test_version.py -> build/lib/pbr/tests
-  copying pbr/tests/test_wsgi.py -> build/lib/pbr/tests
-  copying pbr/tests/util.py -> build/lib/pbr/tests
-  copying pbr/__init__.py -> build/lib/pbr
-  copying pbr/build.py -> build/lib/pbr
-  copying pbr/core.py -> build/lib/pbr
-  copying pbr/extra_files.py -> build/lib/pbr
-  copying pbr/find_package.py -> build/lib/pbr
-  copying pbr/git.py -> build/lib/pbr
-  copying pbr/options.py -> build/lib/pbr
-  copying pbr/packaging.py -> build/lib/pbr
-  copying pbr/pbr_json.py -> build/lib/pbr
-  copying pbr/sphinxext.py -> build/lib/pbr
-  copying pbr/testr_command.py -> build/lib/pbr
-  copying pbr/util.py -> build/lib/pbr
-  copying pbr/version.py -> build/lib/pbr
-  running egg_info
-  writing pbr.egg-info/PKG-INFO
-  writing dependency_links to pbr.egg-info/dependency_links.txt
-  writing entry points to pbr.egg-info/entry_points.txt
-  writing top-level names to pbr.egg-info/top_level.txt
-  [pbr] Reusing existing SOURCES.txt
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage.data_files' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage.data_files' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage.data_files' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage.data_files' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage.data_files' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage.doc.source' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage.doc.source' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage.doc.source' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage.doc.source' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage.doc.source' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage.pbr_testpackage' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage.pbr_testpackage' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage.pbr_testpackage' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage.pbr_testpackage' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage.pbr_testpackage' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage.pbr_testpackage.package_data' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage.pbr_testpackage.package_data' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage.pbr_testpackage.package_data' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage.pbr_testpackage.package_data' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage.pbr_testpackage.package_data' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  /usr/lib/python3.11/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'pbr.tests.testpackage.src' is absent from the `packages` configuration.
-  !!
-
-          ********************************************************************************
-          ############################
-          # Package would be ignored #
-          ############################
-          Python recognizes 'pbr.tests.testpackage.src' as an importable package[^1],
-          but it is absent from setuptools' `packages` configuration.
-
-          This leads to an ambiguous overall configuration. If you want to distribute this
-          package, please make sure that 'pbr.tests.testpackage.src' is explicitly added
-          to the `packages` configuration field.
-
-          Alternatively, you can also rely on setuptools' discovery methods
-          (for example by using `find_namespace_packages(...)`/`find_namespace:`
-          instead of `find_packages(...)`/`find:`).
-
-          You can read more about "package discovery" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
-
-          If you don't want 'pbr.tests.testpackage.src' to be distributed and are
-          already explicitly excluding 'pbr.tests.testpackage.src' via
-          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
-          you can try to use `exclude_package_data`, or `include-package-data=False` in
-          combination with a more fine grained `package-data` configuration.
-
-          You can read more about "package data files" on setuptools documentation page:
-
-          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
-
-
-          [^1]: For Python, any directory (with suitable naming) can be imported,
-                even if it does not contain any `.py` files.
-                On the other hand, currently there is no concept of package data
-                directory, all directories are treated like packages.
-          ********************************************************************************
-
-  !!
-    check.warn(importable)
-  creating build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/CHANGES.txt -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/LICENSE.txt -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/MANIFEST.in -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/README.txt -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/extra-file.txt -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/git-extra-file.txt -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/setup.cfg -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/setup.py -> build/lib/pbr/tests/testpackage
-  copying pbr/tests/testpackage/test-requirements.txt -> build/lib/pbr/tests/testpackage
-  creating build/lib/pbr/tests/testpackage/data_files
-  copying pbr/tests/testpackage/data_files/a.txt -> build/lib/pbr/tests/testpackage/data_files
-  copying pbr/tests/testpackage/data_files/b.txt -> build/lib/pbr/tests/testpackage/data_files
-  copying pbr/tests/testpackage/data_files/c.rst -> build/lib/pbr/tests/testpackage/data_files
-  creating build/lib/pbr/tests/testpackage/doc/source
-  copying pbr/tests/testpackage/doc/source/conf.py -> build/lib/pbr/tests/testpackage/doc/source
-  copying pbr/tests/testpackage/doc/source/index.rst -> build/lib/pbr/tests/testpackage/doc/source
-  copying pbr/tests/testpackage/doc/source/installation.rst -> build/lib/pbr/tests/testpackage/doc/source
-  copying pbr/tests/testpackage/doc/source/usage.rst -> build/lib/pbr/tests/testpackage/doc/source
-  creating build/lib/pbr/tests/testpackage/pbr_testpackage
-  copying pbr/tests/testpackage/pbr_testpackage/__init__.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
-  copying pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
-  copying pbr/tests/testpackage/pbr_testpackage/cmd.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
-  copying pbr/tests/testpackage/pbr_testpackage/extra.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
-  copying pbr/tests/testpackage/pbr_testpackage/wsgi.py -> build/lib/pbr/tests/testpackage/pbr_testpackage
-  creating build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
-  copying pbr/tests/testpackage/pbr_testpackage/package_data/1.txt -> build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
-  copying pbr/tests/testpackage/pbr_testpackage/package_data/2.txt -> build/lib/pbr/tests/testpackage/pbr_testpackage/package_data
-  creating build/lib/pbr/tests/testpackage/src
-  copying pbr/tests/testpackage/src/testext.c -> build/lib/pbr/tests/testpackage/src
-  installing to build/bdist.linux-x86_64/wheel
-  running install
-  [pbr] Generating AUTHORS
-  [pbr] AUTHORS complete (0.0s)
-  running install_lib
-  creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/pbr
-  creating build/bdist.linux-x86_64/wheel/pbr/cmd
-  copying build/lib/pbr/cmd/__init__.py -> build/bdist.linux-x86_64/wheel/./pbr/cmd
-  copying build/lib/pbr/cmd/main.py -> build/bdist.linux-x86_64/wheel/./pbr/cmd
-  creating build/bdist.linux-x86_64/wheel/pbr/hooks
-  copying build/lib/pbr/hooks/__init__.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  copying build/lib/pbr/hooks/backwards.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  copying build/lib/pbr/hooks/base.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  copying build/lib/pbr/hooks/commands.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  copying build/lib/pbr/hooks/files.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  copying build/lib/pbr/hooks/metadata.py -> build/bdist.linux-x86_64/wheel/./pbr/hooks
-  creating build/bdist.linux-x86_64/wheel/pbr/tests
-  copying build/lib/pbr/tests/__init__.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/base.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_commands.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_core.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_files.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_hooks.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_integration.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_packaging.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_pbr_json.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_setup.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_util.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_version.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/test_wsgi.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  copying build/lib/pbr/tests/util.py -> build/bdist.linux-x86_64/wheel/./pbr/tests
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/CHANGES.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/LICENSE.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/MANIFEST.in -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/README.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/extra-file.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/git-extra-file.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/setup.cfg -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/setup.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  copying build/lib/pbr/tests/testpackage/test-requirements.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/data_files
-  copying build/lib/pbr/tests/testpackage/data_files/a.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/data_files
-  copying build/lib/pbr/tests/testpackage/data_files/b.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/data_files
-  copying build/lib/pbr/tests/testpackage/data_files/c.rst -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/data_files
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/doc/source
-  copying build/lib/pbr/tests/testpackage/doc/source/conf.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/doc/source
-  copying build/lib/pbr/tests/testpackage/doc/source/index.rst -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/doc/source
-  copying build/lib/pbr/tests/testpackage/doc/source/installation.rst -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/doc/source
-  copying build/lib/pbr/tests/testpackage/doc/source/usage.rst -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/doc/source
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/__init__.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/cmd.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/extra.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/wsgi.py -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/pbr_testpackage/package_data
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/package_data/1.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage/package_data
-  copying build/lib/pbr/tests/testpackage/pbr_testpackage/package_data/2.txt -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/pbr_testpackage/package_data
-  creating build/bdist.linux-x86_64/wheel/pbr/tests/testpackage/src
-  copying build/lib/pbr/tests/testpackage/src/testext.c -> build/bdist.linux-x86_64/wheel/./pbr/tests/testpackage/src
-  copying build/lib/pbr/__init__.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/build.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/core.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/extra_files.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/find_package.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/git.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/options.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/packaging.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/pbr_json.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/sphinxext.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/testr_command.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/util.py -> build/bdist.linux-x86_64/wheel/./pbr
-  copying build/lib/pbr/version.py -> build/bdist.linux-x86_64/wheel/./pbr
-  running install_egg_info
-  Copying pbr.egg-info to build/bdist.linux-x86_64/wheel/./pbr-6.1.0-py3.11.egg-info
-  running install_scripts
-  creating build/bdist.linux-x86_64/wheel/pbr-6.1.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11/pip-wheel-t3f5ox_r/.tmp-f6uzejmk/pbr-6.1.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'pbr/__init__.py'
-  adding 'pbr/build.py'
-  adding 'pbr/core.py'
-  adding 'pbr/extra_files.py'
-  adding 'pbr/find_package.py'
-  adding 'pbr/git.py'
-  adding 'pbr/options.py'
-  adding 'pbr/packaging.py'
-  adding 'pbr/pbr_json.py'
-  adding 'pbr/sphinxext.py'
-  adding 'pbr/testr_command.py'
-  adding 'pbr/util.py'
-  adding 'pbr/version.py'
-  adding 'pbr/cmd/__init__.py'
-  adding 'pbr/cmd/main.py'
-  adding 'pbr/hooks/__init__.py'
-  adding 'pbr/hooks/backwards.py'
-  adding 'pbr/hooks/base.py'
-  adding 'pbr/hooks/commands.py'
-  adding 'pbr/hooks/files.py'
-  adding 'pbr/hooks/metadata.py'
-  adding 'pbr/tests/__init__.py'
-  adding 'pbr/tests/base.py'
-  adding 'pbr/tests/test_commands.py'
-  adding 'pbr/tests/test_core.py'
-  adding 'pbr/tests/test_files.py'
-  adding 'pbr/tests/test_hooks.py'
-  adding 'pbr/tests/test_integration.py'
-  adding 'pbr/tests/test_packaging.py'
-  adding 'pbr/tests/test_pbr_json.py'
-  adding 'pbr/tests/test_setup.py'
-  adding 'pbr/tests/test_util.py'
-  adding 'pbr/tests/test_version.py'
-  adding 'pbr/tests/test_wsgi.py'
-  adding 'pbr/tests/util.py'
-  adding 'pbr/tests/testpackage/CHANGES.txt'
-  adding 'pbr/tests/testpackage/LICENSE.txt'
-  adding 'pbr/tests/testpackage/MANIFEST.in'
-  adding 'pbr/tests/testpackage/README.txt'
-  adding 'pbr/tests/testpackage/extra-file.txt'
-  adding 'pbr/tests/testpackage/git-extra-file.txt'
-  adding 'pbr/tests/testpackage/setup.cfg'
-  adding 'pbr/tests/testpackage/setup.py'
-  adding 'pbr/tests/testpackage/test-requirements.txt'
-  adding 'pbr/tests/testpackage/data_files/a.txt'
-  adding 'pbr/tests/testpackage/data_files/b.txt'
-  adding 'pbr/tests/testpackage/data_files/c.rst'
-  adding 'pbr/tests/testpackage/doc/source/conf.py'
-  adding 'pbr/tests/testpackage/doc/source/index.rst'
-  adding 'pbr/tests/testpackage/doc/source/installation.rst'
-  adding 'pbr/tests/testpackage/doc/source/usage.rst'
-  adding 'pbr/tests/testpackage/pbr_testpackage/__init__.py'
-  adding 'pbr/tests/testpackage/pbr_testpackage/_setup_hooks.py'
-  adding 'pbr/tests/testpackage/pbr_testpackage/cmd.py'
-  adding 'pbr/tests/testpackage/pbr_testpackage/extra.py'
-  adding 'pbr/tests/testpackage/pbr_testpackage/wsgi.py'
-  adding 'pbr/tests/testpackage/pbr_testpackage/package_data/1.txt'
-  adding 'pbr/tests/testpackage/pbr_testpackage/package_data/2.txt'
-  adding 'pbr/tests/testpackage/src/testext.c'
-  adding 'pbr-6.1.0.dist-info/AUTHORS'
-  adding 'pbr-6.1.0.dist-info/LICENSE'
-  adding 'pbr-6.1.0.dist-info/METADATA'
-  adding 'pbr-6.1.0.dist-info/WHEEL'
-  adding 'pbr-6.1.0.dist-info/entry_points.txt'
-  adding 'pbr-6.1.0.dist-info/top_level.txt'
-  adding 'pbr-6.1.0.dist-info/RECORD'
-  removing build/bdist.linux-x86_64/wheel
-  Building wheel for pbr (pyproject.toml): finished with status 'done'
-  Created wheel for pbr: filename=pbr-6.1.0-py2.py3-none-any.whl size=108559 sha256=c88fca8c1a1ee1d207d815ceb6b8cf0de8226bcc5610f685791fa316c8c2589e
-  Stored in directory: /builddir/.cache/pip/wheels/68/88/dc/be2b5ece5b6e36dbfe62e26b519dea735b378b8d7e26789763
-Successfully built pbr
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.navdDH
-+ umask 022
-+ cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64
-+ mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64
-+ cd pbr-6.1.0
-++ ls /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11/pbr-6.1.0-py2.py3-none-any.whl
-++ xargs basename --multiple
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=pbr==6.1.0
-+ '[' -z pbr==6.1.0 ']'
-+ TMPDIR=/builddir/build/BUILD/pbr-6.1.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11 pbr==6.1.0
-Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/pbr-6.1.0/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/pbr-6.1.0-py2.py3-none-any.whl
-Installing collected packages: pbr
-  Creating /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin
-  changing mode of /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/pbr to 755
-Successfully installed pbr-6.1.0
-WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin ']'
-+ '[' -z sP ']'
-+ shebang_flags=-kasP
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/pbr
-/builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/pbr: updating
-+ rm -rfv /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/__pycache__
-+ rm -f /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-+ site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
-+ for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/INSTALLER
-+ PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/RECORD --output /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11/site-packages/pbr-6.1.0.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
-++ cut -f1 '-d '
-+ lines=1
-+ '[' 1 -ne 1 ']'
-+ mv /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/pbr /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/bin/pbr3.11
-+ RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ sed -i 's|/usr/bin/pbr$|/usr/bin/pbr3.11|g' /builddir/build/BUILD/python-pbr-6.1.0-1.el9.x86_64-3.11-pyproject-files
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 6.1.0-1.el9 --unique-debug-suffix -6.1.0-1.el9.x86_64 --unique-debug-src-base python-pbr-6.1.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/pbr-6.1.0
-find: 'debug': No such file or directory
-+ /usr/lib/rpm/check-buildroot
-+ /usr/lib/rpm/redhat/brp-ldconfig
-+ /usr/lib/rpm/brp-compress
-+ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
-+ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
-+ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
-+ /usr/lib/rpm/brp-python-hardlink
-+ /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-pbr-6.1.0-1.el9.noarch
-Provides: python3.11-pbr = 6.1.0-1.el9 python3.11dist(pbr) = 6.1
-Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
-Requires: /usr/bin/python3.11 python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-pbr-6.1.0-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-pbr-6.1.0-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-pbr-6.1.0-1.el9.noarch.rpm
-Finish: rpmbuild python-pbr-6.1.0-1.el9.src.rpm
-Finish: build phase for python-pbr-6.1.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-pbr-6.1.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 22 seconds
+No matching package to install: 'python3.11dist(twisted)'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+Finish: rpmbuild python-prometheus-client-0.21.1-1.el9.src.rpm
+Finish: build phase for python-prometheus-client-0.21.1-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-prometheus-client-0.21.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 19 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-Finish: run
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M 544dfaa6eb3143afbb74fca177405c35 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.36h9rw7w:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-prometheus-client-0.21.1-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  39 kB     00:00    
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
+No matching package to install: 'python3.11dist(twisted)'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+
