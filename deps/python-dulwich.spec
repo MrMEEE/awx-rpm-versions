@@ -13,6 +13,7 @@ URL:            https://www.dulwich.io/
 Source:         %{pypi_source dulwich}
 
 
+BuildRequires: python3.11-urllib3
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 
