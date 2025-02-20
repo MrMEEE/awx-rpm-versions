@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-2.1.1-1.el9.src.rpm
+The lastest package built was python-ansible-builder-3.1.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:59:49 PM CET 2025
+The build completed at Thu Feb 20 02:02:11 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-poetry-2.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-ansible-builder-3.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
