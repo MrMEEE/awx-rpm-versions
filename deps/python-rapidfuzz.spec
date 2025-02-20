@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-rapidfuzz
-Version:        3.11.0
+Version:        3.10.1
 Release:        %autorelease
 Summary:        rapid fuzzy string matching
 
