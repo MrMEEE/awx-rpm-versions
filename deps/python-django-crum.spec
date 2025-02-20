@@ -11,6 +11,7 @@ Summary:        Django middleware to capture current request and user.
 License:        gpl
 URL:            https://github.com/ninemoreminutes/django-crum/
 Source:         %{pypi_source django-crum}
+Patch:		django-crum-deps.patch
 
 BuildArch:      noarch
 
@@ -30,6 +31,7 @@ Summary:        %{summary}
 
 
 %prep
+
 %autosetup -p1 -n django-crum-%{version}
 
 
