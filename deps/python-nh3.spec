@@ -13,6 +13,8 @@ URL:            https://pypi.org/project/nh3/
 Source:         %{pypi_source nh3}
 
 
+BuildRequires: cargo
+BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 

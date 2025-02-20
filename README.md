@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-nh3-0.2.20-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:39:05 AM CET 2025
+The build completed at Thu Feb 20 10:40:36 AM CET 2025
 
 The build was unsuccessful.
 
@@ -68,7 +68,7 @@ python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
-python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | **Missing** |
+python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | **Missing** | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
