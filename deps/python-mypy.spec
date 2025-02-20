@@ -3,7 +3,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-mypy
-Version:        1.14.0
+Version:        1.14.1
 Release:        %autorelease
 Summary:        Optional static typing for Python
 
