@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-rapidfuzz
-Version:        3.10.1
+Version:        3.12.1
 Release:        %autorelease
 Summary:        rapid fuzzy string matching
 
@@ -37,7 +37,7 @@ Summary:        %{summary}
 %autosetup -p1 -n rapidfuzz-%{version}
 
 
-%generate_buildrequires
+#%generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
 %pyproject_buildrequires
 
