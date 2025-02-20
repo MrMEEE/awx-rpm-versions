@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
+The lastest package built was python-bindep-2.12.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 02:30:09 PM CET 2025
+The build completed at Thu Feb 20 02:30:44 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
+[Build Log](logs/python-bindep-2.12.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -36,7 +36,7 @@ python3.11-azure-keyvault-keys-4.10.0-1.el9 | python-azure-keyvault-keys-4.10.0-
 python3.11-azure-keyvault-secrets-4.9.0-1.el9 | python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-secrets-4.9.0-1.el9.src.rpm.log)
 python3.11-backports-tarfile-1.2.0-1.el9 | python-backports-tarfile-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-backports-tarfile-1.2.0-1.el9.src.rpm.log)
 python3.11-bcrypt-4.2.1-1.el9 | python-bcrypt-4.2.1-1.el9.src.rpm | Built | [Log](logs/python-bcrypt-4.2.1-1.el9.src.rpm.log)
-python3.11-bindep-2.12.0-1.el9 | python-bindep-2.12.0-1.el9.src.rpm | **Missing** |
+python3.11-bindep-2.12.0-1.el9 | python-bindep-2.12.0-1.el9.src.rpm | **Missing** | [Log](logs/python-bindep-2.12.0-1.el9.src.rpm.log)
 python3.11-blinker-1.9.0-1.el9 | python-blinker-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-blinker-1.9.0-1.el9.src.rpm.log)
 python3.11-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 python3.11-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
