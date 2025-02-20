@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-mypy-1.14.1-1.el9.src.rpm
+The lastest package built was python-ninja-1.11.1.3-1.el9.src.rpm
 
-The build completed at Thu Feb 20 02:20:20 PM CET 2025
+The build completed at Thu Feb 20 02:20:57 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-mypy-1.14.1-1.el9.src.rpm.log)
+[Build Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
