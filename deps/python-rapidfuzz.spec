@@ -13,6 +13,7 @@ URL:            https://github.com/rapidfuzz/RapidFuzz
 Source:         %{pypi_source rapidfuzz}
 
 
+BuildRequires: python3.11-scikit-build-core
 BuildRequires: python3.11-pip
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
