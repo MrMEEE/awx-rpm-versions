@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-versioneer-0.29-1.el9.src.rpm
+The lastest package built was python-constantly-23.10.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:56:29 AM CET 2025
+The build completed at Thu Feb 20 10:57:33 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
+[Build Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -48,7 +48,7 @@ python3.11-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | Built | 
 python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
-python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
+python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | Built | [Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
 python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
@@ -223,4 +223,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-213 total packages, 177 packages built successfully, 36 packages left to fix
+213 total packages, 178 packages built successfully, 35 packages left to fix
