@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-autobahn-24.4.2-1.el9.src.rpm
+The lastest package built was python-automat-24.8.1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:54:54 AM CET 2025
+The build completed at Thu Feb 20 11:55:29 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -26,7 +26,7 @@ python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | Built | [Log](lo
 python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
-python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | **Missing** | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
+python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | Built | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 python3.11-awscrt-0.22.4-1.el9 | python-awscrt-0.22.4-1.el9.src.rpm | **Missing** |
 python3.11-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
 python3.11-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm | Built | [Log](logs/python-azure-identity-1.19.0-1.el9.src.rpm.log)
@@ -226,4 +226,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-216 total packages, 159 packages built successfully, 57 packages left to fix
+216 total packages, 160 packages built successfully, 56 packages left to fix
