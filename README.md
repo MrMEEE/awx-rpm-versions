@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-fastjsonschema-2.21.1-1.el9.src.rpm
+The lastest package built was python-dulwich-0.22.7-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:01:24 PM CET 2025
+The build completed at Thu Feb 20 01:02:17 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-fastjsonschema-2.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-dulwich-0.22.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -75,7 +75,7 @@ python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Bu
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | **Missing** | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
-python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | **Missing** |
+python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | **Missing** | [Log](logs/python-dulwich-0.22.7-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
