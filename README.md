@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-botocore-1.35.96-1.el9.src.rpm
+The lastest package built was python-build-1.2.2^post1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:59:38 AM CET 2025
+The build completed at Thu Feb 20 12:00:18 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
+[Build Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -40,7 +40,7 @@ python3.11-blinker-1.9.0-1.el9 | python-blinker-1.9.0-1.el9.src.rpm | Built | [L
 python3.11-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 python3.11-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
-python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | **Missing** | [Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
+python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
 python3.11-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-certifi-2025.1.31-1.el9 | python-certifi-2025.1.31-1.el9.src.rpm | Built | [Log](logs/python-certifi-2025.1.31-1.el9.src.rpm.log)
@@ -226,4 +226,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-216 total packages, 161 packages built successfully, 55 packages left to fix
+216 total packages, 162 packages built successfully, 54 packages left to fix
