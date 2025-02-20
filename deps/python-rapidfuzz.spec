@@ -1,15 +1,15 @@
-
+%global debug_package %{nil}
 %global python3_pkgversion 3.11
 
 Name:           python-rapidfuzz
-Version:        3.12.1
+Version:        3.9.3
 Release:        %autorelease
 Summary:        rapid fuzzy string matching
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/RapidFuzz/
+URL:            https://github.com/rapidfuzz/RapidFuzz
 Source:         %{pypi_source rapidfuzz}
 
 
