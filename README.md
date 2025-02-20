@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-6.1.0-1.el9.src.rpm
+The lastest package built was python-setuptools-twine-0.1.3-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:48:51 AM CET 2025
+The build completed at Thu Feb 20 10:49:43 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -189,7 +189,7 @@ python3.11-setuptools-75.8.0-1.el9 | python-setuptools-75.8.0-1.el9.src.rpm | Bu
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-rust-1.10.2-1.el9.src.rpm.log)
 python3.11-setuptools-scm-8.1.0-1.el9 | python-setuptools-scm-8.1.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-scm-8.1.0-1.el9.src.rpm.log)
 python3.11-setuptools_scm-8.1.0-1.el9 | python-setuptools_scm-8.1.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools_scm-8.1.0-1.el9.src.rpm.log)
-python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
+python3.11-setuptools-twine-0.1.3-1.el9 | python-setuptools-twine-0.1.3-1.el9.src.rpm | Built | [Log](logs/python-setuptools-twine-0.1.3-1.el9.src.rpm.log)
 python3.11-shellingham-1.5.4-1.el9 | python-shellingham-1.5.4-1.el9.src.rpm | Built | [Log](logs/python-shellingham-1.5.4-1.el9.src.rpm.log)
 python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-six-1.17.0-1.el9.src.rpm.log)
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | **Missing** | [Log](logs/python-slack-sdk-3.34.0-1.el9.src.rpm.log)
@@ -222,4 +222,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-212 total packages, 174 packages built successfully, 38 packages left to fix
+212 total packages, 175 packages built successfully, 37 packages left to fix
