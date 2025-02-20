@@ -14,6 +14,7 @@ Source:         %{pypi_source cmake}
 
 BuildArch:      noarch
 
+BuildRequires: make
 BuildRequires:  python%{python3_pkgversion}-devel
 
 

@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-cmake-3.31.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:35:36 PM CET 2025
+The build completed at Thu Feb 20 01:37:10 PM CET 2025
 
 The build was unsuccessful.
 
@@ -141,7 +141,7 @@ python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built 
 python3.11-mypy-1.14.1-1.el9 | python-mypy-1.14.1-1.el9.src.rpm | **Missing** |
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
-python3.11-ninja-1.11.1.3-1.el9 | python-ninja-1.11.1.3-1.el9.src.rpm | **Missing** |
+python3.11-ninja-1.11.1.3-1.el9 | python-ninja-1.11.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
