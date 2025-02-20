@@ -43,6 +43,7 @@ Summary:        %{summary}
 
 
 %build
+touch README.md
 %pyproject_wheel
 
 
