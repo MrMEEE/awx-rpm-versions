@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-awscrt
-Version:        0.23.10
+Version:        0.22.4
 Release:        %autorelease
 Summary:        A common runtime for AWS Python projects
 
