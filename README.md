@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-awscrt-0.22.4-1.el9.src.rpm
+The lastest package built was python-boto3-1.35.96-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:58:30 AM CET 2025
+The build completed at Thu Feb 20 11:59:03 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-awscrt-0.22.4-1.el9.src.rpm.log)
+[Build Log](logs/python-boto3-1.35.96-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

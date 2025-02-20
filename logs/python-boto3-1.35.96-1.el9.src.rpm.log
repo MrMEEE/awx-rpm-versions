@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            43 MB/s | 259 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  34 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            29 MB/s | 189 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 82% [=============================-      ]  87 kB/s |  32 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-boto3-1.35.96-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.PAvFfQ
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.iKDUmq
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.PAvFfQ
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.l82LZp
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.hbqtNC
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto3-1.35.96
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  34 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rBBwj6
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Ni9obq
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto3-1.35.96
@@ -302,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 46% [================-                   ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    48 kB/s |  34 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    44 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -317,36 +317,37 @@ Dependencies resolved.
 =================================================================================================================
 Installing:
  [1mpython3.11-setuptools       [m noarch        75.8.0-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        2.2 M
- [1mpython3.11-wheel            [m noarch        0.45.1-1.el9         _opt_awxrpmng_rpmbuilds_3000_RPMS_        158 k
+ [1mpython3.11-wheel            [m noarch        0.38.4-3.el9         appstream                                 109 k
 
 Transaction Summary
 =================================================================================================================
 Install  2 Packages
 
 Total size: 2.3 M
-Installed size: 12 M
+Installed size: 11 M
 Downloading Packages:
+[SKIPPED] python3.11-wheel-0.38.4-3.el9.noarch.rpm: Already downloaded                                          
 Running transaction check
 Transaction check succeeded.
 Running transaction test
 Transaction test succeeded.
 Running transaction
   Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 1/2  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/2 
+  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [                                                ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====                                            ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========                                       ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========                                     ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==============                                  ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=================                               ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================                             ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================                            ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================                          ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=======================                         ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================                       ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================                     ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================                    ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [==============================                  ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===============================                 ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [================================                ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===================================             ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [====================================            ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=====================================           ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [======================================          ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [========================================        ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=========================================       ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [===========================================     ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [============================================    ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch [=============================================== ] 1/2  Installing       : python3.11-wheel-0.38.4-3.el9.noarch                                                    1/2 
   Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                 ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================               ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================              ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================             ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================            ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================           ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================          ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================         ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================        ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================       ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================      ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================     ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================    ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================   ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================  ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================== ] 2/2  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
   Running scriptlet: python3.11-setuptools-75.8.0-1.el9.noarch                                               2/2 
   Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                               1/2 
-  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    2/2 
+  Verifying        : python3.11-wheel-0.38.4-3.el9.noarch                                                    2/2 
 Installed products updated.
 
 Installed:
-  python3.11-setuptools-75.8.0-1.el9.noarch                 python3.11-wheel-0.45.1-1.el9.noarch                
+  python3.11-setuptools-75.8.0-1.el9.noarch                 python3.11-wheel-0.38.4-3.el9.noarch                
 
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.epOH1D
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7VevWu
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto3-1.35.96
@@ -371,7 +372,7 @@ Requirement satisfied: setuptools >= 40.8
    (installed: setuptools 75.8.0)
 Handling wheel from default build backend
 Requirement satisfied: wheel
-   (installed: wheel 0.45.1)
+   (installed: wheel 0.38.4)
 running egg_info
 writing boto3.egg-info/PKG-INFO
 writing dependency_links to boto3.egg-info/dependency_links.txt
@@ -420,17 +421,17 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    71 kB/s |  34 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9100% [====================================]  95 kB/s |  39 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
 Error: 
  Problem 1: nothing provides requested (python3.11dist(botocore) < 1.36~~ with python3.11dist(botocore) >= 1.35.96)
  Problem 2: nothing provides requested (python3.11dist(botocore) < 2~a0 with python3.11dist(botocore) >= 1.21)
@@ -442,7 +443,7 @@ Finish: build phase for python-boto3-1.35.96-1.el9.src.rpm
 ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-boto3-1.35.96-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 6d83238d3a744f2b97ea6de4f490a0a7 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.wi8nt9w1:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-boto3-1.35.96-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 69acb9e6a2f14b7295e80fe0749d8777 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.bsplcim6:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-boto3-1.35.96-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -450,17 +451,17 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    71 kB/s |  34 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    53 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
 Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
-Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
+Package python3.11-wheel-0.38.4-3.el9.noarch is already installed.
 Error: 
  Problem 1: nothing provides requested (python3.11dist(botocore) < 1.36~~ with python3.11dist(botocore) >= 1.35.96)
  Problem 2: nothing provides requested (python3.11dist(botocore) < 2~a0 with python3.11dist(botocore) >= 1.21)
@@ -469,7 +470,7 @@ Error:
 (try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 
 Directory walk started
-Directory walk done - 246 packages
+Directory walk done - 222 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
