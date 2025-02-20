@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-scikit-build-core-0.10.7-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:46:34 PM CET 2025
+The build completed at Thu Feb 20 01:48:41 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-scikit-build-core-0.10.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
