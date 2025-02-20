@@ -1,0 +1,10 @@
+diff -uNr slack_sdk-3.34.0/pyproject.toml slack_sdk-3.34.0-new/pyproject.toml
+--- slack_sdk-3.34.0/pyproject.toml	2024-12-17 17:25:02.000000000 +0100
++++ slack_sdk-3.34.0-new/pyproject.toml	2025-02-20 10:50:31.245306950 +0100
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["setuptools", "pytest-runner"]
++requires = ["setuptools"]
+ build-backend = "setuptools.build_meta"
+ 
+ [project]

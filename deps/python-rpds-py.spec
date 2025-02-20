@@ -13,6 +13,8 @@ URL:            https://github.com/crate-py/rpds
 Source:         %{pypi_source rpds_py}
 
 
+BuildRequires: cargo
+BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
 

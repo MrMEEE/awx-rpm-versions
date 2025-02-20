@@ -11,6 +11,7 @@ Summary:        The Slack API Platform SDK for Python
 License:        gpl
 URL:            https://github.com/slackapi/python-slack-sdk
 Source:         %{pypi_source slack_sdk}
+Patch:		slack-sdk-deps.patch
 
 BuildArch:      noarch
 
