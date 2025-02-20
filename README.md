@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pygments-2.19.1-1.el9.src.rpm
+The lastest package built was python-rich-13.9.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:22:45 AM CET 2025
+The build completed at Thu Feb 20 10:23:25 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pygments-2.19.1-1.el9.src.rpm.log)
+[Build Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -172,7 +172,7 @@ python3.11-referencing-0.35.1-1.el9 | python-referencing-0.35.1-1.el9.src.rpm | 
 python3.11-requests-2.32.3-1.el9 | python-requests-2.32.3-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-2.32.3-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | **Missing** |
-python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | **Missing** | [Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
+python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | Built | [Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | **Missing** | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
@@ -216,4 +216,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-206 total packages, 162 packages built successfully, 44 packages left to fix
+206 total packages, 163 packages built successfully, 43 packages left to fix
