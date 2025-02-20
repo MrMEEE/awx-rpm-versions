@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-rich-13.9.4-1.el9.src.rpm
+The lastest package built was python-keyring-25.6.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:23:25 AM CET 2025
+The build completed at Thu Feb 20 10:26:39 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
+[Build Log](logs/python-keyring-25.6.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
