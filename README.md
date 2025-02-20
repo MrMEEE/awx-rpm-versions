@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-2.1.1-1.el9.src.rpm
+The lastest package built was python-crashtest-0.4.1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:04:00 PM CET 2025
+The build completed at Thu Feb 20 01:07:21 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-poetry-2.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -53,6 +53,7 @@ python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
+python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | Built | [Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
 python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
@@ -182,6 +183,7 @@ python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.2-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
 python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | Built | [Log](logs/python-pyzstd-0.16.2-1.el9.src.rpm.log)
+python3.11-rapidfuzz-3.12.1-1.el9 | python-rapidfuzz-3.12.1-1.el9.src.rpm | **Missing** |
 python3.11-readme-renderer-44.0-1.el9 | python-readme-renderer-44.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-44.0-1.el9.src.rpm.log)
 python3.11-receptorctl-1.5.2-1.el9 | python-receptorctl-1.5.2-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.5.2-1.el9.src.rpm.log)
 python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
@@ -236,4 +238,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-226 total packages, 189 packages built successfully, 37 packages left to fix
+228 total packages, 190 packages built successfully, 38 packages left to fix
