@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyopenssl-24.3.0-1.el9.src.rpm
+The lastest package built was python-redis-5.2.1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 02:26:46 AM CET 2025
+The build completed at Thu Feb 20 02:27:13 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
