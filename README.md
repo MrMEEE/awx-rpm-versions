@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-secretstorage-3.3.3-1.el9.src.rpm
+The lastest package built was python-jeepney-0.8.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:30:43 AM CET 2025
+The build completed at Thu Feb 20 10:31:16 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
+[Build Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -104,7 +104,7 @@ python3.11-jaraco-functools-4.1.0-1.el9 | python-jaraco-functools-4.1.0-1.el9.sr
 python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-logging-3.3.0-1.el9.src.rpm.log)
 python3.11-jaraco-stream-3.0.4-1.el9 | python-jaraco-stream-3.0.4-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
 python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-text-4.0.0-1.el9.src.rpm.log)
-python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | **Missing** |
+python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-1.1-1.el9.src.rpm.log)
@@ -219,4 +219,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-209 total packages, 165 packages built successfully, 44 packages left to fix
+209 total packages, 166 packages built successfully, 43 packages left to fix
