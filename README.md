@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-4.2.16-1.el9.src.rpm
+The lastest package built was python-django-guid-3.5.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:44:41 PM CET 2025
+The build completed at Thu Feb 20 12:45:11 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
+[Build Log](logs/python-django-guid-3.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
