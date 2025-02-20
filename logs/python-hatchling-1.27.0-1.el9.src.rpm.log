@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-hatchling-1.27.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-hatchling-1.27.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -38,7 +38,7 @@ Start: build phase for python-hatchling-1.27.0-1.el9.src.rpm
 Start: build setup for python-hatchling-1.27.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
+setting SOURCE_DATE_EPOCH=1740009600
 Wrote: /builddir/build/SRPMS/python-hatchling-1.27.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            12 MB/s |  53 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 34% [============                        ]  52 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            24 MB/s | 195 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    72 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -170,8 +170,8 @@ Finish: Outputting list of installed packages
 Start: rpmbuild python-hatchling-1.27.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8MuIbZ
+setting SOURCE_DATE_EPOCH=1740009600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.pBDhwR
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.8MuIbZ
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.m5GhRd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.TLQpe8
 + umask 022
 + cd /builddir/build/BUILD
 + cd hatchling-1.27.0
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 34% [============                        ]  42 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    99 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                13 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -262,8 +262,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8YhO3F
+setting SOURCE_DATE_EPOCH=1740009600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GkGrNB
 + umask 022
 + cd /builddir/build/BUILD
 + cd hatchling-1.27.0
@@ -309,10 +309,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    73 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    85 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -358,8 +358,8 @@ Installed:
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Gc7sDa
+setting SOURCE_DATE_EPOCH=1740009600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.L9W6wN
 + umask 022
 + cd /builddir/build/BUILD
 + cd hatchling-1.27.0
@@ -423,10 +423,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9100% [====================================] 114 kB/s |  45 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    63 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================] 3.8 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                             3.8 kB/s | 4.5 kB     00:01    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  43 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    85 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -441,8 +441,8 @@ Nothing to do.
 Complete!
 Building target platforms: x86_64
 Building for target x86_64
-setting SOURCE_DATE_EPOCH=1739836800
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.P8xMU7
+setting SOURCE_DATE_EPOCH=1740009600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.j5g2k3
 + umask 022
 + cd /builddir/build/BUILD
 + cd hatchling-1.27.0
@@ -497,7 +497,7 @@ removed directory 'hatchling-1.27.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.cG0QuX
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.B701OA
 + umask 022
 + cd /builddir/build/BUILD
 + cd hatchling-1.27.0
@@ -514,13 +514,13 @@ Building wheels for collected packages: hatchling
   Building wheel for hatchling (pyproject.toml): started
   Running command Building wheel for hatchling (pyproject.toml)
   Building wheel for hatchling (pyproject.toml): finished with status 'done'
-  Created wheel for hatchling: filename=hatchling-1.27.0-py3-none-any.whl size=75794 sha256=a7080717c4a234799563d8103fdf6e082f3e92812ad3cd83c25c581d454f30d8
+  Created wheel for hatchling: filename=hatchling-1.27.0-py3-none-any.whl size=75794 sha256=7bf60f20632376ceeccd9798d1d28fd31d129d24298662c7081e74e8e048fc51
   Stored in directory: /builddir/.cache/pip/wheels/08/4a/5c/2358fe10aa1e221016fe73182e9b706000c5081c304c0f23ec
 Successfully built hatchling
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.10dON4
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.APEMFC
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64 '!=' / ']'
@@ -529,8 +529,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.10dON4
 + mkdir -p /builddir/build/BUILDROOT
 + mkdir /builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64
 + cd hatchling-1.27.0
-++ xargs basename --multiple
 ++ ls /builddir/build/BUILD/hatchling-1.27.0/pyproject-wheeldir-3.11/hatchling-1.27.0-py3-none-any.whl
+++ xargs basename --multiple
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=hatchling==1.27.0
 + '[' -z hatchling==1.27.0 ']'
@@ -570,8 +570,10 @@ removed '/builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64/usr/lib/
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
++ mv /builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64/usr/bin/hatchling /builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64/usr/bin/hatchling3.11
 + RPM_PERCENTAGES_COUNT=8
 + /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-hatchling-1.27.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-hatchling-1.27.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-hatchling-1.27.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-hatchling-1.27.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ sed -i 's|/usr/bin/hatchling$|/usr/bin/hatchling3.11|g' /builddir/build/BUILD/python-hatchling-1.27.0-1.el9.x86_64-3.11-pyproject-files
 + /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.27.0-1.el9 --unique-debug-suffix -1.27.0-1.el9.x86_64 --unique-debug-src-base python-hatchling-1.27.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/hatchling-1.27.0
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
@@ -596,12 +598,12 @@ INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-hatchling-1.27.0-1.el9.
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 76 packages
+Directory walk done - 226 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
 Pool finished
-INFO: mock.py version 5.5 starting (python version = 3.9.18, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --clean
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins

@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm
+The lastest package built was python-hatchling-1.27.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:12:13 PM CET 2025
+The build completed at Thu Feb 20 12:12:48 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -87,7 +87,7 @@ python3.11-grpcio-1.70.0-1.el9 | python-grpcio-1.70.0-1.el9.src.rpm | Built | [L
 python3.11-h11-0.14.0-1.el9 | python-h11-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-h11-0.14.0-1.el9.src.rpm.log)
 python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
-python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
+python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
 python3.11-hatch-vcs-0.4.0-1.el9 | python-hatch-vcs-0.4.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-vcs-0.4.0-1.el9.src.rpm.log)
 python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-hiredis-3.1.0-1.el9.src.rpm.log)
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
@@ -226,4 +226,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-216 total packages, 163 packages built successfully, 53 packages left to fix
+216 total packages, 164 packages built successfully, 52 packages left to fix
