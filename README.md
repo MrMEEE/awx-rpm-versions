@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
+The lastest package built was python-automat-24.8.1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:45:36 AM CET 2025
+The build completed at Thu Feb 20 01:46:07 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
+[Build Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
