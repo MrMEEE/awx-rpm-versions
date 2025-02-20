@@ -1,0 +1,57 @@
+diff -uNr botocore-1.35.96/botocore.egg-info/PKG-INFO botocore-1.35.96-new/botocore.egg-info/PKG-INFO
+--- botocore-1.35.96/botocore.egg-info/PKG-INFO	2025-01-09 20:05:02.000000000 +0100
++++ botocore-1.35.96-new/botocore.egg-info/PKG-INFO	2025-02-20 14:12:22.461989345 +0100
+@@ -27,7 +27,7 @@
+ Requires-Dist: urllib3<1.27,>=1.25.4; python_version < "3.10"
+ Requires-Dist: urllib3!=2.2.0,<3,>=1.25.4; python_version >= "3.10"
+ Provides-Extra: crt
+-Requires-Dist: awscrt==0.22.0; extra == "crt"
++Requires-Dist: awscrt>=0.22.0; extra == "crt"
+ 
+ botocore
+ ========
+diff -uNr botocore-1.35.96/botocore.egg-info/requires.txt botocore-1.35.96-new/botocore.egg-info/requires.txt
+--- botocore-1.35.96/botocore.egg-info/requires.txt	2025-01-09 20:05:02.000000000 +0100
++++ botocore-1.35.96-new/botocore.egg-info/requires.txt	2025-02-20 14:12:22.461989345 +0100
+@@ -8,4 +8,4 @@
+ urllib3!=2.2.0,<3,>=1.25.4
+ 
+ [crt]
+-awscrt==0.22.0
++awscrt>=0.22.0
+diff -uNr botocore-1.35.96/PKG-INFO botocore-1.35.96-new/PKG-INFO
+--- botocore-1.35.96/PKG-INFO	2025-01-09 20:05:03.373191400 +0100
++++ botocore-1.35.96-new/PKG-INFO	2025-02-20 14:12:26.566145658 +0100
+@@ -27,7 +27,7 @@
+ Requires-Dist: urllib3<1.27,>=1.25.4; python_version < "3.10"
+ Requires-Dist: urllib3!=2.2.0,<3,>=1.25.4; python_version >= "3.10"
+ Provides-Extra: crt
+-Requires-Dist: awscrt==0.22.0; extra == "crt"
++Requires-Dist: awscrt>=0.22.0; extra == "crt"
+ 
+ botocore
+ ========
+diff -uNr botocore-1.35.96/setup.cfg botocore-1.35.96-new/setup.cfg
+--- botocore-1.35.96/setup.cfg	2025-01-09 20:05:03.377191300 +0100
++++ botocore-1.35.96-new/setup.cfg	2025-02-20 14:12:12.601613800 +0100
+@@ -9,7 +9,7 @@
+ 	urllib3>=1.25.4,!=2.2.0,<3; python_version>="3.10"
+ 
+ [options.extras_require]
+-crt = awscrt==0.22.0
++crt = awscrt>=0.22.0
+ 
+ [egg_info]
+ tag_build = 
+diff -uNr botocore-1.35.96/setup.py botocore-1.35.96-new/setup.py
+--- botocore-1.35.96/setup.py	2025-01-09 20:01:56.000000000 +0100
++++ botocore-1.35.96-new/setup.py	2025-02-20 14:12:12.601613800 +0100
+@@ -33,7 +33,7 @@
+ ]
+ 
+ extras_require = {
+-    'crt': ['awscrt==0.22.0'],
++    'crt': ['awscrt>=0.22.0'],
+ }
+ 
+ setup(
