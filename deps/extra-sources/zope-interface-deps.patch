@@ -1,0 +1,12 @@
+diff -uNr zope.interface-7.2/pyproject.toml zope.interface-7.2-new/pyproject.toml
+--- zope.interface-7.2/pyproject.toml	2024-11-28 09:45:25.000000000 +0100
++++ zope.interface-7.2-new/pyproject.toml	2025-02-20 10:59:48.510589840 +0100
+@@ -3,7 +3,7 @@
+ # https://github.com/zopefoundation/meta/tree/master/config/c-code
+ 
+ [build-system]
+-requires = ["setuptools < 74"]
++requires = ["setuptools"]
+ build-backend = "setuptools.build_meta"
+ 
+ [tool.coverage.run]
