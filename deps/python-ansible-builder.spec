@@ -1,36 +1,36 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-charset-normalizer
-Version:        3.4.1
+Name:           python-ansible-builder
+Version:        3.1.0
 Release:        %autorelease
-Summary:        The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+Summary:        "A tool for building Ansible Execution Environments"
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://pypi.org/project/charset-normalizer/
-Source:         %{pypi_source charset_normalizer}
+URL:            https://ansible-builder.readthedocs.io
+Source:         %{pypi_source ansible_builder}
 
+BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
-BuildRequires:  gcc
 
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'charset-normalizer' generated automatically by pyp2spec.}
+This is package 'ansible-builder' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-charset-normalizer
+%package -n     python%{python3_pkgversion}-ansible-builder
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-charset-normalizer %_description
+%description -n python%{python3_pkgversion}-ansible-builder %_description
 
 
 %prep
-%autosetup -p1 -n charset_normalizer-%{version}
+%autosetup -p1 -n ansible_builder-%{version}
 
 
 %generate_buildrequires
@@ -45,20 +45,18 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
-
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
-mv $RPM_BUILD_ROOT/usr/bin/normalizer $RPM_BUILD_ROOT/usr/bin/normalizer%{python3_pkgversion}
+mv $RPM_BUILD_ROOT/usr/bin/ansible-builder $RPM_BUILD_ROOT/usr/bin/ansible-builder%{python3_pkgversion}
 %endif
 # END RENAMING OF BINARIES 1
 
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
-sed -i "s|/usr/bin/normalizer$|/usr/bin/normalizer%{python3_pkgversion}|g" %{pyproject_files}
+sed -i "s|/usr/bin/ansible-builder$|/usr/bin/ansible-builder%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
-
 
 
 
@@ -66,7 +64,7 @@ sed -i "s|/usr/bin/normalizer$|/usr/bin/normalizer%{python3_pkgversion}|g" %{pyp
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-charset-normalizer -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-ansible-builder -f %{pyproject_files}
 
 
 %changelog

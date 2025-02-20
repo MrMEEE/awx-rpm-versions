@@ -52,7 +52,21 @@ pathfix.py -pni "%{__python3} %{py3_shbang_opts}" . django/conf/project_template
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+mv $RPM_BUILD_ROOT/usr/bin/django-admin $RPM_BUILD_ROOT/usr/bin/django-admin%{python3_pkgversion}
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+sed -i "s|/usr/bin/django-admin$|/usr/bin/django-admin%{python3_pkgversion}|g" %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+
+
 pathfix.py -pni "%{__python3} %{py3_shbang_opts}" %{buildroot} %{buildroot}%{_bindir}/*
 pathfix.py -pni "%{__python2} %{py2_shbang_opts}" %{buildroot}
 
