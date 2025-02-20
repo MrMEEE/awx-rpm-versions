@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkginfo-1.12.1.2-1.el9.src.rpm
+The lastest package built was python-installer-0.7.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:59:43 PM CET 2025
+The build completed at Thu Feb 20 01:00:19 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
+[Build Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -104,7 +104,7 @@ python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | Built | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
 python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | Built | [Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
-python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | **Missing** |
+python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-irc-20.5.0-1.el9 | python-irc-20.5.0-1.el9.src.rpm | Built | [Log](logs/python-irc-20.5.0-1.el9.src.rpm.log)
 python3.11-isodate-0.7.2-1.el9 | python-isodate-0.7.2-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
 python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
@@ -236,4 +236,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-226 total packages, 186 packages built successfully, 40 packages left to fix
+226 total packages, 187 packages built successfully, 39 packages left to fix
