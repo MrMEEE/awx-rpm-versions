@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                   36 MB/s | 225 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -  34% [=============-                          ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           53 kB/s |  45 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                   37 MB/s | 225 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           97 kB/s |  45 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                              Architecture    Version                          Repository                  Size
@@ -241,7 +241,7 @@ Start: rpmbuild python-uv-0.6.1-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hOtNxi
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.PjL5hy
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -255,7 +255,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.hOtNxi
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8dj0F0
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ecwstL
 + umask 022
 + cd /builddir/build/BUILD
 + cd uv-0.6.1
@@ -290,10 +290,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           50 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS       100% [========================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                        13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -  34% [=============-                          ]  42 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           97 kB/s |  45 kB     00:00    
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -335,7 +335,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xrsDiE
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.daWfWn
 + umask 022
 + cd /builddir/build/BUILD
 + cd uv-0.6.1
@@ -372,10 +372,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - 100% [========================================] 138 kB/s |  45 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                           44 kB/s |  45 kB     00:01    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           80 kB/s |  45 kB     00:00    
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -415,7 +415,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.phjvFt
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.5O197n
 + umask 022
 + cd /builddir/build/BUILD
 + cd uv-0.6.1
@@ -443,482 +443,482 @@ Requirement satisfied: maturin>=1.0,<2.0
     Updating git repository `https://github.com/charliermarsh/rs-async-zip`
     Updating git repository `https://github.com/astral-sh/tl.git`
  Downloading crates ...
-  Downloaded adler2 v2.0.0
-  Downloaded async-compression v0.4.18
-  Downloaded percent-encoding v2.3.1
-  Downloaded deadpool-runtime v0.1.4
-  Downloaded doc-comment v0.3.3
-  Downloaded pathdiff v0.2.3
-  Downloaded parking_lot v0.12.3
-  Downloaded clap_complete_command v0.6.1
-  Downloaded path-slash v0.2.1
-  Downloaded parking_lot_core v0.8.6
-  Downloaded parking v2.2.1
-  Downloaded equivalent v1.0.1
-  Downloaded parking_lot_core v0.9.10
-  Downloaded paste v1.0.15
-  Downloaded parking_lot v0.11.2
-  Downloaded async-trait v0.1.86
-  Downloaded owo-colors v4.1.0
-  Downloaded async-channel v2.3.1
-  Downloaded assert-json-diff v2.0.2
-  Downloaded autocfg v1.4.0
-  Downloaded async_http_range_reader v0.9.1
-  Downloaded cfg-if v1.0.0
-  Downloaded byteorder v1.5.0
-  Downloaded anstyle-query v1.1.2
-  Downloaded form_urlencoded v1.2.1
-  Downloaded charset v0.1.5
-  Downloaded backon v1.3.0
-  Downloaded ctrlc v3.4.5
-  Downloaded plain v0.2.3
-  Downloaded foldhash v0.1.4
-  Downloaded rand_chacha v0.3.1
-  Downloaded quoted_printable v0.5.1
-  Downloaded rand_core v0.6.4
-  Downloaded reqwest-retry v0.7.0
-  Downloaded rancor v0.1.0
-  Downloaded quinn-udp v0.5.9
-  Downloaded bisection v0.1.0
-  Downloaded ptr_meta v0.3.0
-  Downloaded ptr_meta_derive v0.3.0
-  Downloaded platform-info v2.0.5
-  Downloaded quote v1.0.38
-  Downloaded pest v2.7.15
-  Downloaded reqwest-middleware v0.4.0
-  Downloaded redox_syscall v0.5.8
-  Downloaded either v1.13.0
-  Downloaded data-encoding v2.8.0
-  Downloaded dunce v1.0.5
-  Downloaded colorchoice v1.0.3
   Downloaded anstyle-wincon v3.0.7
-  Downloaded bytecheck_derive v0.8.1
-  Downloaded block-buffer v0.10.4
-  Downloaded dirs-sys v0.4.1
-  Downloaded crossbeam-deque v0.8.6
+  Downloaded anstyle-parse v0.2.6
+  Downloaded anstyle-query v1.1.2
+  Downloaded adler2 v2.0.0
+  Downloaded anstream v0.6.18
+  Downloaded option-ext v0.2.0
+  Downloaded openssl-probe v0.1.6
+  Downloaded clap_complete_command v0.6.1
+  Downloaded overload v0.1.1
+  Downloaded futures-channel v0.3.31
+  Downloaded pin-utils v0.1.0
+  Downloaded once_cell v1.20.2
+  Downloaded equivalent v1.0.1
+  Downloaded addr2line v0.24.2
+  Downloaded deadpool-runtime v0.1.4
+  Downloaded pathdiff v0.2.3
+  Downloaded scopeguard v1.2.0
+  Downloaded rust-netrc v0.1.2
+  Downloaded percent-encoding v2.3.1
+  Downloaded difflib v0.4.0
+  Downloaded scroll_derive v0.12.0
+  Downloaded async_http_range_reader v0.9.1
+  Downloaded ptr_meta v0.3.0
+  Downloaded etcetera v0.8.0
+  Downloaded paste v1.0.15
+  Downloaded errno v0.3.10
+  Downloaded plain v0.2.3
+  Downloaded clap_lex v0.7.4
+  Downloaded atomic-waker v1.1.2
+  Downloaded fs2 v0.4.3
   Downloaded fs-err v3.1.0
-  Downloaded rand v0.8.5
-  Downloaded reflink-copy v0.1.23
-  Downloaded filetime v0.2.25
-  Downloaded crypto-common v0.1.6
+  Downloaded parking v2.2.1
+  Downloaded either v1.13.0
+  Downloaded ppv-lite86 v0.2.20
+  Downloaded fnv v1.0.7
+  Downloaded reqwest-middleware v0.4.0
+  Downloaded rand_core v0.6.4
+  Downloaded path-slash v0.2.1
+  Downloaded portable-atomic-util v0.2.4
+  Downloaded rand_chacha v0.3.1
+  Downloaded bisection v0.1.0
+  Downloaded event-listener-strategy v0.5.3
+  Downloaded anstyle v1.0.10
+  Downloaded ctrlc v3.4.5
+  Downloaded redox_users v0.4.6
+  Downloaded foldhash v0.1.4
   Downloaded encoding_rs_io v0.1.7
   Downloaded concurrent-queue v2.5.0
-  Downloaded cmake v0.1.53
-  Downloaded core-foundation v0.10.0
-  Downloaded fastrand v2.3.0
-  Downloaded etcetera v0.8.0
-  Downloaded event-listener-strategy v0.5.3
-  Downloaded assert_fs v1.1.2
-  Downloaded assert_cmd v2.0.16
-  Downloaded arcstr v1.2.0
-  Downloaded clap_derive v4.5.28
-  Downloaded shell-escape v0.1.5
-  Downloaded atomic-waker v1.1.2
-  Downloaded dirs v5.0.1
-  Downloaded difflib v0.4.0
-  Downloaded pkg-config v0.3.31
-  Downloaded rkyv_derive v0.8.10
-  Downloaded redox_users v0.4.6
-  Downloaded fnv v1.0.7
-  Downloaded fs2 v0.4.3
-  Downloaded env_home v0.1.0
-  Downloaded float-cmp v0.10.0
-  Downloaded bytecheck v0.8.1
-  Downloaded erased-serde v0.4.5
-  Downloaded scroll_derive v0.12.0
-  Downloaded console v0.15.10
-  Downloaded bzip2 v0.4.4
-  Downloaded dotenvy v0.15.7
-  Downloaded deadpool v0.10.0
-  Downloaded core-foundation-sys v0.8.7
-  Downloaded clap_lex v0.7.4
-  Downloaded csv-core v0.1.11
-  Downloaded rmp v0.8.14
-  Downloaded redox_syscall v0.2.16
-  Downloaded anstream v0.6.18
-  Downloaded crc32fast v1.4.2
-  Downloaded rust-netrc v0.1.2
-  Downloaded once_cell v1.20.2
-  Downloaded clap v4.5.29
-  Downloaded configparser v3.1.0
-  Downloaded clap_complete_nushell v4.5.5
-  Downloaded crossbeam-epoch v0.9.18
-  Downloaded fixedbitset v0.5.7
-  Downloaded dyn-clone v1.0.17
-  Downloaded event-listener v5.4.0
-  Downloaded dashmap v6.1.0
-  Downloaded displaydoc v0.2.5
-  Downloaded encode_unicode v1.0.0
-  Downloaded same-file v1.0.6
-  Downloaded schemars_derive v0.8.21
-  Downloaded rend v0.5.2
-  Downloaded rustc-hash v2.1.1
-  Downloaded crossbeam-utils v0.8.21
-  Downloaded rmp-serde v1.3.0
-  Downloaded clap_complete v4.5.44
-  Downloaded seahash v4.1.0
-  Downloaded bitflags v2.8.0
-  Downloaded cargo-util v0.2.17
-  Downloaded allocator-api2 v0.2.21
-  Downloaded futures v0.3.31
-  Downloaded pin-utils v0.1.0
-  Downloaded astral-tokio-tar v0.5.1
-  Downloaded addr2line v0.24.2
-  Downloaded bytes v1.9.0
-  Downloaded digest v0.10.7
-  Downloaded scopeguard v1.2.0
-  Downloaded predicates-tree v1.0.12
+  Downloaded dunce v1.0.5
   Downloaded serde-untagged v0.1.6
-  Downloaded scoped-tls v1.0.1
-  Downloaded cc v1.2.11
-  Downloaded bumpalo v3.17.0
-  Downloaded bitflags v1.3.2
-  Downloaded errno v0.3.10
-  Downloaded anyhow v1.0.95
-  Downloaded boxcar v0.2.9
-  Downloaded shlex v1.3.0
-  Downloaded flate2 v1.0.35
-  Downloaded ppv-lite86 v0.2.20
-  Downloaded base64 v0.22.1
-  Downloaded rustc-demangle v0.1.24
-  Downloaded cpufeatures v0.2.17
-  Downloaded anstyle v1.0.10
-  Downloaded anstyle-parse v0.2.6
-  Downloaded futures-channel v0.3.31
-  Downloaded cfg_aliases v0.2.1
-  Downloaded serde_urlencoded v0.7.1
+  Downloaded reqwest-retry v0.7.0
+  Downloaded fastrand v2.3.0
+  Downloaded quoted_printable v0.5.1
   Downloaded rustversion v1.0.19
-  Downloaded quinn v0.11.6
+  Downloaded cfg_aliases v0.2.1
+  Downloaded crypto-common v0.1.6
+  Downloaded predicates-tree v1.0.12
   Downloaded serde_spanned v0.6.8
-  Downloaded pest_generator v2.7.15
-  Downloaded self-replace v1.5.0
-  Downloaded aho-corasick v1.1.3
-  Downloaded clap_builder v4.5.29
-  Downloaded rustls-pemfile v2.2.0
-  Downloaded pin-project-lite v0.2.16
+  Downloaded doc-comment v0.3.3
+  Downloaded env_home v0.1.0
+  Downloaded crc32fast v1.4.2
+  Downloaded dyn-clone v1.0.17
+  Downloaded bytecheck_derive v0.8.1
+  Downloaded ptr_meta_derive v0.3.0
+  Downloaded dotenvy v0.15.7
+  Downloaded autocfg v1.4.0
+  Downloaded configparser v3.1.0
+  Downloaded dashmap v6.1.0
   Downloaded predicates-core v1.0.9
-  Downloaded sha2 v0.10.8
+  Downloaded platform-info v2.0.5
+  Downloaded pin-project-lite v0.2.16
+  Downloaded parking_lot_core v0.8.6
+  Downloaded rkyv_derive v0.8.10
   Downloaded retry-policies v0.4.0
-  Downloaded pin-project v1.1.8
-  Downloaded regex-automata v0.1.10
-  Downloaded priority-queue v2.1.1
-  Downloaded ryu v1.0.19
-  Downloaded proc-macro2 v1.0.93
-  Downloaded shellexpand v3.1.0
-  Downloaded serde_derive_internals v0.29.1
-  Downloaded security-framework-sys v2.14.0
-  Downloaded schannel v0.1.27
-  Downloaded rustls-native-certs v0.8.1
-  Downloaded schemars v0.8.21
-  Downloaded rayon v1.10.0
-  Downloaded rayon-core v1.12.1
-  Downloaded windows-result v0.2.0
-  Downloaded portable-atomic-util v0.2.4
-  Downloaded pest_meta v2.7.15
-  Downloaded scroll v0.12.0
-  Downloaded quinn-proto v0.11.9
-  Downloaded rustls-pki-types v1.11.0
-  Downloaded serde_derive v1.0.217
-  Downloaded pest_derive v2.7.15
-  Downloaded bstr v1.11.3
+  Downloaded pest_generator v2.7.15
   Downloaded pin-project-internal v1.1.8
-  Downloaded windows-implement v0.58.0
-  Downloaded security-framework v3.2.0
+  Downloaded erased-serde v0.4.5
+  Downloaded owo-colors v4.1.0
+  Downloaded rend v0.5.2
+  Downloaded quote v1.0.38
   Downloaded predicates v3.1.3
-  Downloaded serde v1.0.217
-  Downloaded yoke v0.7.5
-  Downloaded sharded-slab v0.1.7
-  Downloaded libredox v0.1.3
-  Downloaded zeroize v1.8.1
+  Downloaded core-foundation-sys v0.8.7
+  Downloaded rmp v0.8.14
+  Downloaded async-trait v0.1.86
+  Downloaded pkg-config v0.3.31
+  Downloaded data-encoding v2.8.0
+  Downloaded dirs v5.0.1
+  Downloaded schemars_derive v0.8.21
+  Downloaded xattr v1.4.0
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded quinn-udp v0.5.9
+  Downloaded rustls-pemfile v2.2.0
+  Downloaded cargo-util v0.2.17
+  Downloaded redox_syscall v0.2.16
+  Downloaded serde_derive_internals v0.29.1
+  Downloaded encode_unicode v1.0.0
+  Downloaded rustc-demangle v0.1.24
+  Downloaded bitflags v2.8.0
+  Downloaded reflink-copy v0.1.23
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded event-listener v5.4.0
+  Downloaded same-file v1.0.6
+  Downloaded scoped-tls v1.0.1
+  Downloaded self-replace v1.5.0
+  Downloaded fixedbitset v0.5.7
+  Downloaded scroll v0.12.0
+  Downloaded pest_meta v2.7.15
+  Downloaded security-framework-sys v2.14.0
+  Downloaded rustc-hash v2.1.1
+  Downloaded rancor v0.1.0
+  Downloaded csv-core v0.1.11
+  Downloaded pin-project v1.1.8
+  Downloaded ryu v1.0.19
+  Downloaded pest_derive v2.7.15
+  Downloaded bytes v1.9.0
+  Downloaded astral-tokio-tar v0.5.1
+  Downloaded float-cmp v0.10.0
+  Downloaded parking_lot_core v0.9.10
+  Downloaded seahash v4.1.0
+  Downloaded byteorder v1.5.0
+  Downloaded proc-macro2 v1.0.93
+  Downloaded which v7.0.2
+  Downloaded zstd-safe v7.2.1
+  Downloaded parking_lot v0.11.2
+  Downloaded priority-queue v2.1.1
+  Downloaded rmp-serde v1.3.0
+  Downloaded rustls-native-certs v0.8.1
+  Downloaded zerocopy-derive v0.7.35
+  Downloaded windows-registry v0.2.0
+  Downloaded parking_lot v0.12.3
+  Downloaded clap v4.5.29
+  Downloaded clap_complete v4.5.44
+  Downloaded crossbeam-utils v0.8.21
+  Downloaded anyhow v1.0.95
+  Downloaded base64 v0.22.1
+  Downloaded allocator-api2 v0.2.21
+  Downloaded arcstr v1.2.0
+  Downloaded serde_derive v1.0.217
+  Downloaded rustls-pki-types v1.11.0
+  Downloaded lazy_static v1.5.0
+  Downloaded libz-rs-sys v0.4.1
+  Downloaded schemars v0.8.21
+  Downloaded schannel v0.1.27
+  Downloaded futures v0.3.31
+  Downloaded redox_syscall v0.5.8
   Downloaded procfs v0.17.0
-  Downloaded procfs-core v0.17.0
-  Downloaded futures-task v0.3.31
+  Downloaded try-lock v0.2.5
+  Downloaded console v0.15.10
+  Downloaded block-buffer v0.10.4
   Downloaded want v0.3.1
+  Downloaded form_urlencoded v1.2.1
+  Downloaded windows-strings v0.3.0
+  Downloaded crossbeam-deque v0.8.6
+  Downloaded nu-ansi-term v0.46.0
+  Downloaded rayon-core v1.12.1
+  Downloaded serde v1.0.217
+  Downloaded quinn v0.11.6
+  Downloaded icu_locid_transform v1.5.0
+  Downloaded http-body v1.0.1
+  Downloaded instant v0.1.13
+  Downloaded jiff-tzdb-platform v0.1.2
+  Downloaded backtrace v0.3.74
+  Downloaded rand v0.8.5
+  Downloaded tinystr v0.7.6
+  Downloaded idna_adapter v1.2.0
+  Downloaded futures-lite v2.6.0
+  Downloaded temp-env v0.3.6
+  Downloaded untrusted v0.9.0
+  Downloaded wasm-timer v0.2.5
+  Downloaded windows-strings v0.1.0
   Downloaded zerofrom-derive v0.1.5
-  Downloaded futures-sink v0.3.31
-  Downloaded ipnet v2.11.0
+  Downloaded target-lexicon v0.13.2
+  Downloaded security-framework v3.2.0
+  Downloaded procfs-core v0.17.0
+  Downloaded icu_locid_transform_data v1.5.0
+  Downloaded test-case-macros v3.3.1
+  Downloaded shellexpand v3.1.0
+  Downloaded mime_guess v2.0.5
   Downloaded tracing-test v0.2.5
-  Downloaded rkyv v0.8.10
-  Downloaded icu_provider v1.5.0
+  Downloaded test-case-core v3.3.1
+  Downloaded normalize-line-endings v0.3.0
+  Downloaded linked-hash-map v0.5.6
+  Downloaded sha2 v0.10.8
+  Downloaded tempfile v3.17.0
+  Downloaded tracing-attributes v0.1.28
+  Downloaded spin v0.9.8
+  Downloaded smawk v0.3.2
+  Downloaded icu_provider_macros v1.5.0
+  Downloaded generator v0.8.4
+  Downloaded wasm-streams v0.4.2
+  Downloaded wasi v0.11.0+wasi-snapshot-preview1
+  Downloaded futures-core v0.3.31
+  Downloaded zerofrom v0.1.5
+  Downloaded tower-service v0.3.3
+  Downloaded tracing-tree v0.4.0
+  Downloaded nanoid v0.4.0
+  Downloaded test-log-macros v0.2.17
+  Downloaded miette-derive v7.5.0
+  Downloaded aho-corasick v1.1.3
+  Downloaded zstd v0.13.2
+  Downloaded xz2 v0.1.7
+  Downloaded windows-core v0.59.0
+  Downloaded writeable v0.5.5
+  Downloaded write16 v1.0.0
+  Downloaded windows-interface v0.59.0
+  Downloaded winapi-util v0.1.9
+  Downloaded shell-escape v0.1.5
+  Downloaded tokio-stream v0.1.17
+  Downloaded sys-info v0.9.1
+  Downloaded home v0.5.11
+  Downloaded futures-executor v0.3.31
+  Downloaded globset v0.4.15
   Downloaded utf16_iter v1.0.5
-  Downloaded reqwest v0.12.12
+  Downloaded tower-layer v0.3.3
+  Downloaded sync_wrapper v1.0.2
+  Downloaded windows-targets v0.48.5
+  Downloaded http-content-range v0.2.1
+  Downloaded unscanny v0.1.0
+  Downloaded thiserror-impl v1.0.69
+  Downloaded stable_deref_trait v1.2.0
+  Downloaded windows-core v0.58.0
+  Downloaded wasm-bindgen-backend v0.2.100
+  Downloaded getrandom v0.2.15
+  Downloaded toml_datetime v0.6.8
+  Downloaded windows-result v0.3.0
   Downloaded lock_api v0.4.12
   Downloaded html-escape v0.2.13
-  Downloaded globset v0.4.15
-  Downloaded http-body v1.0.1
-  Downloaded windows-registry v0.2.0
-  Downloaded wasm-bindgen-shared v0.2.100
-  Downloaded walkdir v2.5.0
-  Downloaded regex v1.11.1
-  Downloaded serde_json v1.0.138
-  Downloaded mimalloc v0.1.43
-  Downloaded supports-color v3.0.2
-  Downloaded log v0.4.25
-  Downloaded tokio-stream v0.1.17
-  Downloaded try-lock v0.2.5
-  Downloaded futures-core v0.3.31
-  Downloaded http-body-util v0.1.2
-  Downloaded supports-hyperlinks v3.1.0
-  Downloaded home v0.5.11
-  Downloaded unicode-linebreak v0.1.5
-  Downloaded hyper-util v0.1.10
-  Downloaded indexmap v2.7.1
-  Downloaded tracing-test-macro v0.2.5
-  Downloaded hex v0.4.3
-  Downloaded globwalk v0.9.1
-  Downloaded tower-layer v0.3.3
-  Downloaded simdutf8 v0.1.5
-  Downloaded gloo-timers v0.3.0
-  Downloaded thiserror v1.0.69
-  Downloaded is_terminal_polyfill v1.70.1
-  Downloaded tempfile v3.17.0
-  Downloaded temp-env v0.3.6
-  Downloaded miow v0.6.0
-  Downloaded test-case-macros v3.3.1
-  Downloaded stable_deref_trait v1.2.0
-  Downloaded miniz_oxide v0.8.3
-  Downloaded typeid v1.0.2
-  Downloaded windows-core v0.58.0
-  Downloaded tokio-macros v2.5.0
-  Downloaded winreg v0.53.0
-  Downloaded textwrap v0.16.1
-  Downloaded sync_wrapper v1.0.2
-  Downloaded zerovec v0.10.4
-  Downloaded tinyvec v1.8.1
-  Downloaded number_prefix v0.4.0
-  Downloaded windows-interface v0.59.0
-  Downloaded is_ci v1.2.0
-  Downloaded generator v0.8.4
-  Downloaded test-log v0.2.17
-  Downloaded windows-targets v0.53.0
-  Downloaded icu_collections v1.5.0
-  Downloaded zerovec-derive v0.10.3
-  Downloaded similar v2.7.0
-  Downloaded jobserver v0.1.32
-  Downloaded strsim v0.11.1
-  Downloaded spin v0.9.8
-  Downloaded generic-array v0.14.7
-  Downloaded http-content-range v0.2.1
-  Downloaded jiff-tzdb v0.1.2
-  Downloaded nanoid v0.4.0
-  Downloaded signal-hook-registry v1.4.2
-  Downloaded http v1.2.0
-  Downloaded tracing v0.1.41
-  Downloaded slab v0.4.9
-  Downloaded wasm-streams v0.4.2
-  Downloaded wasm-bindgen-macro-support v0.2.100
-  Downloaded url v2.5.4
-  Downloaded rustls-webpki v0.102.8
-  Downloaded num_cpus v1.16.0
-  Downloaded libz-rs-sys v0.4.1
-  Downloaded wit-bindgen-rt v0.33.0
-  Downloaded portable-atomic v1.10.0
-  Downloaded icu_locid_transform v1.5.0
-  Downloaded uuid v1.12.1
-  Downloaded toml_datetime v0.6.8
-  Downloaded thiserror-impl v1.0.69
-  Downloaded typenum v1.17.0
-  Downloaded matchers v0.1.0
-  Downloaded tracing-tree v0.4.0
-  Downloaded indicatif v0.17.11
-  Downloaded mio v1.0.3
-  Downloaded windows-result v0.3.0
-  Downloaded hashbrown v0.15.2
-  Downloaded write16 v1.0.0
-  Downloaded wiremock v0.6.2
-  Downloaded zip v0.6.6
-  Downloaded miette v7.5.0
-  Downloaded regex-syntax v0.6.29
-  Downloaded regex-syntax v0.8.5
-  Downloaded rustls v0.23.22
-  Downloaded tower v0.5.2
-  Downloaded rustix v0.38.44
-  Downloaded zerocopy v0.7.35
-  Downloaded wasi v0.13.3+wasi-0.2.2
-  Downloaded idna v1.0.3
-  Downloaded winnow v0.7.0
-  Downloaded winsafe v0.0.22
-  Downloaded regex-automata v0.4.9
-  Downloaded libmimalloc-sys v0.1.39
-  Downloaded zlib-rs v0.4.1
-  Downloaded munge v0.4.1
-  Downloaded linked-hash-map v0.5.6
-  Downloaded synstructure v0.13.1
-  Downloaded openssl-probe v0.1.6
-  Downloaded thiserror-impl v2.0.11
-  Downloaded unscanny v0.1.0
-  Downloaded bzip2-sys v0.1.11+1.0.8
-  Downloaded untrusted v0.9.0
-  Downloaded wasm-bindgen v0.2.100
-  Downloaded indoc v2.0.5
-  Downloaded hermit-abi v0.3.9
-  Downloaded heck v0.5.0
-  Downloaded sys-info v0.9.1
-  Downloaded zerocopy-derive v0.7.35
-  Downloaded test-log-macros v0.2.17
-  Downloaded smawk v0.3.2
-  Downloaded petgraph v0.7.1
-  Downloaded smallvec v1.14.0
-  Downloaded munge_macro v0.4.1
-  Downloaded object v0.36.7
-  Downloaded thiserror v2.0.11
-  Downloaded utf8-width v0.1.7
-  Downloaded futures-lite v2.6.0
-  Downloaded icu_normalizer_data v1.5.0
-  Downloaded md-5 v0.10.6
-  Downloaded writeable v0.5.5
-  Downloaded xattr v1.4.0
-  Downloaded glob v0.3.2
-  Downloaded futures-macro v0.3.31
-  Downloaded windows-strings v0.3.0
-  Downloaded winapi-util v0.1.9
-  Downloaded web-time v1.1.0
-  Downloaded instant v0.1.13
-  Downloaded httpdate v1.0.3
-  Downloaded wait-timeout v0.2.0
-  Downloaded tracing-core v0.1.33
-  Downloaded tinystr v0.7.6
-  Downloaded termtree v0.5.1
-  Downloaded overload v0.1.1
-  Downloaded tokio-socks v0.5.2
-  Downloaded insta v1.42.1
-  Downloaded jiff-tzdb-platform v0.1.2
-  Downloaded ucd-trie v0.1.7
-  Downloaded windows-interface v0.58.0
-  Downloaded mime_guess v2.0.5
-  Downloaded itertools v0.13.0
-  Downloaded nu-ansi-term v0.46.0
-  Downloaded mailparse v0.16.0
-  Downloaded wasi v0.11.0+wasi-snapshot-preview1
-  Downloaded yoke-derive v0.7.5
-  Downloaded toml v0.8.20
-  Downloaded windows_aarch64_gnullvm v0.52.6
-  Downloaded wasm-bindgen-backend v0.2.100
-  Downloaded winsafe v0.0.19
-  Downloaded tokio-util v0.7.13
-  Downloaded mime v0.3.17
-  Downloaded icu_properties v1.5.1
-  Downloaded windows_x86_64_gnu v0.48.5
-  Downloaded windows-implement v0.59.0
-  Downloaded windows-registry v0.4.0
-  Downloaded wasm-timer v0.2.5
-  Downloaded icu_provider_macros v1.5.0
-  Downloaded utf8_iter v1.0.4
-  Downloaded junction v1.2.0
-  Downloaded windows-targets v0.48.5
-  Downloaded idna_adapter v1.2.0
-  Downloaded windows-strings v0.1.0
-  Downloaded windows_aarch64_msvc v0.48.5
-  Downloaded nu-ansi-term v0.50.1
-  Downloaded zstd-safe v7.2.1
-  Downloaded tower-service v0.3.3
-  Downloaded zerofrom v0.1.5
-  Downloaded tar v0.4.43
-  Downloaded loom v0.7.2
-  Downloaded tokio-rustls v0.26.1
-  Downloaded libz-ng-sys v1.1.16
-  Downloaded csv v1.3.1
-  Downloaded which v7.0.2
-  Downloaded wasm-bindgen-macro v0.2.100
-  Downloaded socket2 v0.5.8
-  Downloaded itoa v1.0.14
-  Downloaded tinyvec_macros v0.1.1
-  Downloaded zstd v0.13.2
-  Downloaded unicase v2.8.1
-  Downloaded valuable v0.1.1
-  Downloaded terminal_size v0.4.1
-  Downloaded target-lexicon v0.13.2
-  Downloaded test-case v3.3.1
-  Downloaded option-ext v0.2.0
-  Downloaded windows_x86_64_gnullvm v0.53.0
-  Downloaded os_str_bytes v6.6.1
-  Downloaded version_check v0.9.5
-  Downloaded windows_aarch64_msvc v0.52.6
-  Downloaded wasm-bindgen-futures v0.4.50
-  Downloaded utf8parse v0.2.2
-  Downloaded lazy_static v1.5.0
-  Downloaded getrandom v0.3.1
-  Downloaded normalize-line-endings v0.3.0
-  Downloaded litemap v0.7.4
-  Downloaded tracing-serde v0.2.0
-  Downloaded futures-executor v0.3.31
-  Downloaded windows-targets v0.52.6
-  Downloaded windows-core v0.59.0
-  Downloaded thread_local v1.1.8
-  Downloaded tikv-jemallocator v0.6.0
-  Downloaded supports-unicode v3.0.0
-  Downloaded icu_locid v1.5.0
-  Downloaded itertools v0.14.0
-  Downloaded subtle v2.6.1
+  Downloaded regex-automata v0.1.10
+  Downloaded flate2 v1.0.35
   Downloaded icu_normalizer v1.5.0
+  Downloaded windows-registry v0.4.0
+  Downloaded yoke v0.7.5
+  Downloaded test-case v3.3.1
+  Downloaded version_check v0.9.5
+  Downloaded number_prefix v0.4.0
+  Downloaded subtle v2.6.1
+  Downloaded thread_local v1.1.8
+  Downloaded wait-timeout v0.2.0
+  Downloaded cc v1.2.11
+  Downloaded socket2 v0.5.8
+  Downloaded http-body-util v0.1.2
+  Downloaded pest v2.7.15
+  Downloaded num_cpus v1.16.0
   Downloaded tracing-log v0.2.0
-  Downloaded futures-io v0.3.31
-  Downloaded icu_locid_transform_data v1.5.0
-  Downloaded tracing-attributes v0.1.28
-  Downloaded js-sys v0.3.77
-  Downloaded xz2 v0.1.7
-  Downloaded getrandom v0.2.15
-  Downloaded unicode-ident v1.0.16
-  Downloaded miette-derive v7.5.0
-  Downloaded windows_i686_gnullvm v0.52.6
-  Downloaded num-traits v0.2.19
-  Downloaded memmap2 v0.9.5
+  Downloaded thiserror v1.0.69
   Downloaded memchr v2.7.4
-  Downloaded hyper-rustls v0.27.5
-  Downloaded toml_edit v0.22.24
-  Downloaded httparse v1.10.0
-  Downloaded hyper v1.6.0
   Downloaded ignore v0.4.23
-  Downloaded test-case-core v3.3.1
-  Downloaded h2 v0.4.7
-  Downloaded icu_properties_data v1.5.0
-  Downloaded unicode-width v0.1.14
-  Downloaded tracing-subscriber v0.3.19
+  Downloaded async-compression v0.4.18
+  Downloaded getrandom v0.3.1
+  Downloaded supports-color v3.0.2
+  Downloaded insta v1.42.1
+  Downloaded toml v0.8.20
+  Downloaded jobserver v0.1.32
+  Downloaded wasm-bindgen-macro v0.2.100
+  Downloaded tinyvec_macros v0.1.1
+  Downloaded miniz_oxide v0.8.3
+  Downloaded portable-atomic v1.10.0
+  Downloaded valuable v0.1.1
+  Downloaded supports-hyperlinks v3.1.0
+  Downloaded windows-interface v0.58.0
+  Downloaded junction v1.2.0
+  Downloaded mimalloc v0.1.43
+  Downloaded serde_json v1.0.138
+  Downloaded gloo-timers v0.3.0
+  Downloaded hyper-rustls v0.27.5
+  Downloaded uuid v1.12.1
+  Downloaded bumpalo v3.17.0
+  Downloaded tokio-macros v2.5.0
+  Downloaded unicode-linebreak v0.1.5
+  Downloaded jiff-tzdb v0.1.2
+  Downloaded log v0.4.25
+  Downloaded hex v0.4.3
+  Downloaded glob v0.3.2
+  Downloaded filetime v0.2.25
+  Downloaded sharded-slab v0.1.7
+  Downloaded md-5 v0.10.6
+  Downloaded matchers v0.1.0
+  Downloaded miow v0.6.0
+  Downloaded httpdate v1.0.3
+  Downloaded indoc v2.0.5
+  Downloaded cpufeatures v0.2.17
+  Downloaded utf8-width v0.1.7
+  Downloaded boxcar v0.2.9
+  Downloaded digest v0.10.7
+  Downloaded core-foundation v0.10.0
+  Downloaded url v2.5.4
+  Downloaded loom v0.7.2
+  Downloaded async-channel v2.3.1
+  Downloaded yoke-derive v0.7.5
+  Downloaded rkyv v0.8.10
+  Downloaded js-sys v0.3.77
+  Downloaded os_str_bytes v6.6.1
+  Downloaded wit-bindgen-rt v0.33.0
+  Downloaded mime v0.3.17
+  Downloaded cmake v0.1.53
+  Downloaded signal-hook-registry v1.4.2
+  Downloaded clap_complete_nushell v4.5.5
+  Downloaded reqwest v0.12.12
+  Downloaded windows-targets v0.52.6
+  Downloaded rayon v1.10.0
+  Downloaded winnow v0.7.0
+  Downloaded assert_cmd v2.0.16
+  Downloaded deadpool v0.10.0
+  Downloaded bitflags v1.3.2
+  Downloaded unicode-ident v1.0.16
+  Downloaded charset v0.1.5
+  Downloaded memmap2 v0.9.5
+  Downloaded colorchoice v1.0.3
+  Downloaded displaydoc v0.2.5
+  Downloaded backon v1.3.0
+  Downloaded http v1.2.0
+  Downloaded shlex v1.3.0
+  Downloaded bytecheck v0.8.1
+  Downloaded is_ci v1.2.0
+  Downloaded unicase v2.8.1
+  Downloaded tracing-serde v0.2.0
+  Downloaded heck v0.5.0
+  Downloaded cfg-if v1.0.0
+  Downloaded is_terminal_polyfill v1.70.1
+  Downloaded assert-json-diff v2.0.2
+  Downloaded dirs-sys v0.4.1
+  Downloaded ipnet v2.11.0
+  Downloaded assert_fs v1.1.2
+  Downloaded icu_provider v1.5.0
+  Downloaded termtree v0.5.1
+  Downloaded wasm-bindgen-futures v0.4.50
+  Downloaded futures-task v0.3.31
+  Downloaded terminal_size v0.4.1
+  Downloaded hermit-abi v0.3.9
+  Downloaded rustls-webpki v0.102.8
+  Downloaded clap_builder v4.5.29
+  Downloaded ucd-trie v0.1.7
+  Downloaded icu_properties v1.5.1
+  Downloaded itertools v0.14.0
+  Downloaded zip v0.6.6
+  Downloaded quinn-proto v0.11.9
+  Downloaded utf8parse v0.2.2
+  Downloaded miette v7.5.0
+  Downloaded tower v0.5.2
+  Downloaded windows-implement v0.59.0
+  Downloaded windows-implement v0.58.0
+  Downloaded simdutf8 v0.1.5
+  Downloaded tracing-core v0.1.33
+  Downloaded wiremock v0.6.2
+  Downloaded toml_edit v0.22.24
+  Downloaded futures-io v0.3.31
+  Downloaded regex v1.11.1
+  Downloaded num-traits v0.2.19
+  Downloaded mailparse v0.16.0
+  Downloaded itertools v0.13.0
+  Downloaded thiserror v2.0.11
+  Downloaded hashbrown v0.15.2
+  Downloaded windows-result v0.2.0
+  Downloaded idna v1.0.3
+  Downloaded regex-syntax v0.6.29
   Downloaded futures-util v0.3.31
-  Downloaded windows_i686_msvc v0.53.0
-  Downloaded hashbrown v0.14.5
-  Downloaded jiff v0.2.1
-  Downloaded goblin v0.9.3
-  Downloaded backtrace v0.3.74
-  Downloaded webpki-roots v0.26.8
+  Downloaded textwrap v0.16.1
+  Downloaded zlib-rs v0.4.1
+  Downloaded tikv-jemallocator v0.6.0
+  Downloaded wasm-bindgen-shared v0.2.100
+  Downloaded tar v0.4.43
+  Downloaded wasm-bindgen-macro-support v0.2.100
+  Downloaded nu-ansi-term v0.50.1
+  Downloaded regex-syntax v0.8.5
+  Downloaded h2 v0.4.7
+  Downloaded futures-sink v0.3.31
+  Downloaded rustls v0.23.22
+  Downloaded hyper v1.6.0
+  Downloaded futures-macro v0.3.31
+  Downloaded tracing-test-macro v0.2.5
+  Downloaded tracing-subscriber v0.3.19
   Downloaded gimli v0.31.1
-  Downloaded unicode-width v0.2.0
-  Downloaded syn v2.0.98
-  Downloaded windows_aarch64_gnullvm v0.48.5
-  Downloaded windows_i686_gnu v0.53.0
-  Downloaded windows_aarch64_gnullvm v0.53.0
-  Downloaded web-sys v0.3.77
-  Downloaded windows_x86_64_gnullvm v0.48.5
-  Downloaded windows_i686_msvc v0.52.6
-  Downloaded libc v0.2.169
-  Downloaded windows_x86_64_gnu v0.53.0
-  Downloaded encoding_rs v0.8.35
-  Downloaded zstd-sys v2.0.13+zstd.1.5.6
-  Downloaded windows_i686_gnullvm v0.53.0
-  Downloaded windows_i686_gnu v0.52.6
-  Downloaded windows_i686_gnu v0.48.5
+  Downloaded thiserror-impl v2.0.11
+  Downloaded zerovec-derive v0.10.3
+  Downloaded itoa v1.0.14
+  Downloaded supports-unicode v3.0.0
+  Downloaded tokio-socks v0.5.2
+  Downloaded windows-targets v0.53.0
+  Downloaded litemap v0.7.4
   Downloaded nix v0.29.0
-  Downloaded windows_aarch64_msvc v0.53.0
-  Downloaded windows_x86_64_msvc v0.52.6
-  Downloaded windows_i686_msvc v0.48.5
-  Downloaded tikv-jemalloc-sys v0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
-  Downloaded winapi v0.3.9
-  Downloaded lzma-sys v0.1.20
-  Downloaded ring v0.17.8
-  Downloaded spdx v0.10.8
-  Downloaded linux-raw-sys v0.4.15
-  Downloaded tokio v1.43.0
-  Downloaded windows_x86_64_msvc v0.48.5
-  Downloaded windows_x86_64_gnu v0.52.6
+  Downloaded similar v2.7.0
+  Downloaded web-time v1.1.0
+  Downloaded munge_macro v0.4.1
+  Downloaded strsim v0.11.1
+  Downloaded libmimalloc-sys v0.1.39
+  Downloaded icu_normalizer_data v1.5.0
+  Downloaded typeid v1.0.2
+  Downloaded slab v0.4.9
+  Downloaded wasm-bindgen v0.2.100
+  Downloaded unicode-width v0.2.0
+  Downloaded tinyvec v1.8.1
+  Downloaded walkdir v2.5.0
+  Downloaded globwalk v0.9.1
+  Downloaded generic-array v0.14.7
+  Downloaded libredox v0.1.3
+  Downloaded zeroize v1.8.1
+  Downloaded tokio-rustls v0.26.1
+  Downloaded utf8_iter v1.0.4
+  Downloaded synstructure v0.13.1
+  Downloaded indexmap v2.7.1
+  Downloaded windows_i686_gnullvm v0.52.6
+  Downloaded munge v0.4.1
+  Downloaded unicode-width v0.1.14
+  Downloaded httparse v1.10.0
+  Downloaded smallvec v1.14.0
+  Downloaded tracing v0.1.41
+  Downloaded typenum v1.17.0
+  Downloaded icu_locid v1.5.0
+  Downloaded winreg v0.53.0
+  Downloaded indicatif v0.17.11
+  Downloaded hyper-util v0.1.10
+  Downloaded icu_collections v1.5.0
+  Downloaded zerovec v0.10.4
+  Downloaded bstr v1.11.3
+  Downloaded wasi v0.13.3+wasi-0.2.2
+  Downloaded clap_derive v4.5.28
+  Downloaded goblin v0.9.3
+  Downloaded test-log v0.2.17
+  Downloaded object v0.36.7
+  Downloaded mio v1.0.3
+  Downloaded icu_properties_data v1.5.0
+  Downloaded bzip2 v0.4.4
+  Downloaded hashbrown v0.14.5
+  Downloaded regex-automata v0.4.9
+  Downloaded zerocopy v0.7.35
+  Downloaded windows_x86_64_gnullvm v0.48.5
+  Downloaded petgraph v0.7.1
+  Downloaded webpki-roots v0.26.8
+  Downloaded web-sys v0.3.77
+  Downloaded syn v2.0.98
+  Downloaded windows_aarch64_msvc v0.48.5
+  Downloaded tokio-util v0.7.13
   Downloaded windows_x86_64_msvc v0.53.0
-  Downloaded windows-sys v0.59.0
+  Downloaded lzma-sys v0.1.20
   Downloaded windows_x86_64_gnullvm v0.52.6
+  Downloaded windows_x86_64_gnu v0.48.5
+  Downloaded windows_x86_64_msvc v0.52.6
+  Downloaded windows_aarch64_msvc v0.53.0
+  Downloaded libz-ng-sys v1.1.16
+  Downloaded windows_i686_msvc v0.53.0
+  Downloaded windows_x86_64_gnu v0.52.6
+  Downloaded windows_i686_gnu v0.52.6
+  Downloaded winsafe v0.0.19
+  Downloaded tokio v1.43.0
+  Downloaded rustix v0.38.44
+  Downloaded bzip2-sys v0.1.11+1.0.8
+  Downloaded linux-raw-sys v0.4.15
+  Downloaded windows-sys v0.59.0
+  Downloaded ring v0.17.8
+  Downloaded jiff v0.2.1
+  Downloaded windows_aarch64_gnullvm v0.52.6
+  Downloaded windows_aarch64_gnullvm v0.48.5
+  Downloaded winsafe v0.0.22
+  Downloaded windows_x86_64_msvc v0.48.5
+  Downloaded windows_aarch64_gnullvm v0.53.0
+  Downloaded csv v1.3.1
+  Downloaded windows_i686_gnullvm v0.53.0
+  Downloaded windows_aarch64_msvc v0.52.6
+  Downloaded zstd-sys v2.0.13+zstd.1.5.6
+  Downloaded windows_i686_msvc v0.48.5
+  Downloaded windows_x86_64_gnullvm v0.53.0
+  Downloaded windows_i686_gnu v0.53.0
+  Downloaded windows_i686_gnu v0.48.5
+  Downloaded tikv-jemalloc-sys v0.6.0+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7
+  Downloaded spdx v0.10.8
+  Downloaded libc v0.2.169
+  Downloaded windows_i686_msvc v0.52.6
+  Downloaded winapi v0.3.9
+  Downloaded encoding_rs v0.8.35
+  Downloaded windows_x86_64_gnu v0.53.0
   Downloaded windows-sys v0.52.0
   Downloaded windows-sys v0.48.0
   Downloaded winapi-x86_64-pc-windows-gnu v0.4.0
   Downloaded winapi-i686-pc-windows-gnu v0.4.0
-  Downloaded windows v0.58.0
   Downloaded windows v0.59.0
+  Downloaded windows v0.58.0
 📦 Including license file "/builddir/build/BUILD/uv-0.6.1/LICENSE-APACHE"
 📦 Including license file "/builddir/build/BUILD/uv-0.6.1/LICENSE-MIT"
 🍹 Building a mixed python/rust project
@@ -948,9 +948,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           77 kB/s |  45 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     17 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           73 kB/s |  45 kB     00:00    
 Package python3.11-maturin-1.7.8-1.el9.x86_64 is already installed.
 Package cargo-1.79.0-3.el9_5.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -965,7 +965,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.x48vNw
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pWBGjl
 + umask 022
 + cd /builddir/build/BUILD
 + cd uv-0.6.1
@@ -1007,7 +1007,7 @@ removed directory 'uv-0.6.1.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.S216ps
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.KHtJwf
 + umask 022
 + cd /builddir/build/BUILD
 + cd uv-0.6.1
@@ -1026,7 +1026,7 @@ Processing /builddir/build/BUILD/uv-0.6.1
   📡 Using build options bindings from pyproject.toml
   uv-0.6.1.dist-info
   Checking for Rust toolchain....
-  Running `maturin pep517 write-dist-info --metadata-directory /builddir/build/BUILD/uv-0.6.1/.pyproject-builddir-3.11/pip-modern-metadata-jp5ud543 --interpreter /usr/bin/python3.11`
+  Running `maturin pep517 write-dist-info --metadata-directory /builddir/build/BUILD/uv-0.6.1/.pyproject-builddir-3.11/pip-modern-metadata-r_9s94b9 --interpreter /usr/bin/python3.11`
   Preparing metadata (pyproject.toml): finished with status 'done'
 Building wheels for collected packages: uv
   Building wheel for uv (pyproject.toml): started
@@ -1106,23 +1106,23 @@ Building wheels for collected packages: uv
   ╰─> See above for output.
   
   note: This error originates from a subprocess, and is likely not a problem with pip.
-  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/uv-0.6.1/.pyproject-builddir-3.11/tmptk9q6ehz
-  Building wheel for uv (pyproject.toml): finished with status 'error'
+  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/uv-0.6.1/.pyproject-builddir-3.11/tmpv9j7hqad
   cwd: /builddir/build/BUILD/uv-0.6.1
-Failed to build uv
+  Building wheel for uv (pyproject.toml): finished with status 'error'
   ERROR: Failed building wheel for uv
+Failed to build uv
 ERROR: Failed to build one or more wheels
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.S216ps (%build)
-    Bad exit status from /var/tmp/rpm-tmp.S216ps (%build)
+error: Bad exit status from /var/tmp/rpm-tmp.KHtJwf (%build)
+    Bad exit status from /var/tmp/rpm-tmp.KHtJwf (%build)
 Finish: rpmbuild python-uv-0.6.1-1.el9.src.rpm
 Finish: build phase for python-uv-0.6.1-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-uv-0.6.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 49 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-uv-0.6.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 51 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M a730566780f54a14aa4c9180ca3b1c52 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.8cqqz0rk:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-uv.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 5fdab506bf04404bae64bda7e5f9270d -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.r9mu_xv3:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-uv.spec --nocheck'
 
 Directory walk started
 Directory walk done - 219 packages
