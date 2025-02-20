@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-poetry-2.1.1-1.el9.src.rpm
+The lastest package built was python-pbs-installer-2025.2.12-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:51:13 PM CET 2025
+The build completed at Thu Feb 20 12:56:24 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-poetry-2.1.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pbs-installer-2025.2.12-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -41,6 +41,7 @@ python3.11-boto3-1.35.96-1.el9 | python-boto3-1.35.96-1.el9.src.rpm | **Missing*
 python3.11-botocore-1.35.96-1.el9 | python-botocore-1.35.96-1.el9.src.rpm | **Missing** | [Log](logs/python-botocore-1.35.96-1.el9.src.rpm.log)
 python3.11-brotli-1.1.0-1.el9 | python-brotli-1.1.0-1.el9.src.rpm | Built | [Log](logs/python-brotli-1.1.0-1.el9.src.rpm.log)
 python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | Built | [Log](logs/python-build-1.2.2^post1-1.el9.src.rpm.log)
+python3.11-cachecontrol-0.14.2-1.el9 | python-cachecontrol-0.14.2-1.el9.src.rpm | **Missing** |
 python3.11-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-certifi-2025.1.31-1.el9 | python-certifi-2025.1.31-1.el9.src.rpm | Built | [Log](logs/python-certifi-2025.1.31-1.el9.src.rpm.log)
@@ -49,6 +50,7 @@ python3.11-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | Built | 
 python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
 python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
+python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** |
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
@@ -73,10 +75,13 @@ python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Bu
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | **Missing** | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
+python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | **Missing** |
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
+python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | **Missing** |
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
+python3.11-findpython3.11-0.6.2-1.el9 | python-findpython-0.6.2-1.el9.src.rpm | **Missing** |
 python3.11-frozenlist-1.5.0-1.el9 | python-frozenlist-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-frozenlist-1.5.0-1.el9.src.rpm.log)
 python3.11-gitdb-4.0.12-1.el9 | python-gitdb-4.0.12-1.el9.src.rpm | Built | [Log](logs/python-gitdb-4.0.12-1.el9.src.rpm.log)
 python3.11-gitpython3.11-3.1.44-1.el9 | python-gitpython-3.1.44-1.el9.src.rpm | Built | [Log](logs/python-gitpython-3.1.44-1.el9.src.rpm.log)
@@ -99,6 +104,7 @@ python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | Built | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
 python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | Built | [Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
+python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | **Missing** |
 python3.11-irc-20.5.0-1.el9 | python-irc-20.5.0-1.el9.src.rpm | Built | [Log](logs/python-irc-20.5.0-1.el9.src.rpm.log)
 python3.11-isodate-0.7.2-1.el9 | python-isodate-0.7.2-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
 python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
@@ -149,8 +155,10 @@ python3.11-orjson-3.10.13-1.el9 | python-orjson-3.10.13-1.el9.src.rpm | Built | 
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
+python3.11-pbs-installer-2025.2.12-1.el9 | python-pbs-installer-2025.2.12-1.el9.src.rpm | **Missing** | [Log](logs/python-pbs-installer-2025.2.12-1.el9.src.rpm.log)
 python3.11-pexpect-4.7.0-1.el9 | python-pexpect-4.7.0-1.el9.src.rpm | Built | [Log](logs/python-pexpect-4.7.0-1.el9.src.rpm.log)
 python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built | [Log](logs/python-pkgconfig-1.5.5-1.el9.src.rpm.log)
+python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | **Missing** |
 python3.11-platformdirs-4.3.6-1.el9 | python-platformdirs-4.3.6-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-4.3.6-1.el9.src.rpm.log)
 python3.11-poetry-2.1.1-1.el9 | python-poetry-2.1.1-1.el9.src.rpm | **Missing** | [Log](logs/python-poetry-2.1.1-1.el9.src.rpm.log)
 python3.11-poetry-core-2.1.1-1.el9 | python-poetry-core-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-2.1.1-1.el9.src.rpm.log)
@@ -227,4 +235,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-217 total packages, 183 packages built successfully, 34 packages left to fix
+225 total packages, 183 packages built successfully, 42 packages left to fix
