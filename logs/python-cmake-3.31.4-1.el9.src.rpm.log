@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            34 MB/s | 249 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady      [            ===                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                10 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [                  ===               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    59 kB/s |  39 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            11 MB/s | 254 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 9.1 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                9.1 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    73 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                            Architecture  Version                         Repository                Size
@@ -228,7 +228,7 @@ Start: rpmbuild python-cmake-3.31.4-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.MdsIrM
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.xlGkbS
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -242,7 +242,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.MdsIrM
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.G2xEKG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Tkeid2
 + umask 022
 + cd /builddir/build/BUILD
 + cd cmake-3.31.4
@@ -277,10 +277,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 8.1 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                8.1 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    44 kB/s |  39 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package make-1:4.3-8.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -322,7 +322,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.7Vya7L
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1frAod
 + umask 022
 + cd /builddir/build/BUILD
 + cd cmake-3.31.4
@@ -359,10 +359,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    86 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  10 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 10 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  39 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package make-1:4.3-8.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -370,100 +370,26 @@ Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                           Arch        Version             Repository                               Size
-=================================================================================================================
-Installing:
- [1mpython3.11-scikit-build-core     [m noarch      0.10.7-1.el9        _opt_awxrpmng_rpmbuilds_3000_RPMS_      283 k
-Installing dependencies:
- [1mpython3.11-pathspec              [m noarch      0.12.1-1.el9        _opt_awxrpmng_rpmbuilds_3000_RPMS_       54 k
-
-Transaction Summary
-=================================================================================================================
-Install  2 Packages
-
-Total size: 336 k
-Installed size: 1.4 M
-Downloading Packages:
-Running transaction check
-Transaction check succeeded.
-Running transaction test
-Transaction test succeeded.
-Running transaction
-  Preparing        :  [==========================================                                          ] 1/1  Preparing        :                                                                                         1/1 
-  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [                                             ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [====                                         ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=========                                    ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===========                                  ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=============                                ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==============                               ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==================                           ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===================                          ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [======================                       ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===========================                  ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [============================                 ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=============================                ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [==============================               ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===============================              ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [===================================          ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [=========================================    ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch [============================================ ] 1/2  Installing       : python3.11-pathspec-0.12.1-1.el9.noarch                                                 1/2 
-  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [                                          ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=                                         ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==                                        ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===                                       ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [====                                      ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=====                                     ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [======                                    ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=======                                   ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [========                                  ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=========                                 ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==========                                ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===========                               ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [============                              ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=============                             ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==============                            ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===============                           ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [================                          ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=================                         ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==================                        ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===================                       ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [====================                      ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=====================                     ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [======================                    ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=======================                   ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [========================                  ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=========================                 ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==========================                ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===========================               ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [============================              ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=============================             ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==============================            ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===============================           ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [================================          ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=================================         ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [==================================        ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [===================================       ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [====================================      ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=====================================     ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [======================================    ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [=======================================   ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [========================================  ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9. [========================================= ] 2/2  Installing       : python3.11-scikit-build-core-0.10.7-1.el9.noarch                                        2/2 
-  Running scriptlet: python3.11-scikit-build-core-0.10.7-1.el9.noarch                                        2/2 
-  Verifying        : python3.11-pathspec-0.12.1-1.el9.noarch                                                 1/2 
-  Verifying        : python3.11-scikit-build-core-0.10.7-1.el9.noarch                                        2/2 
-Installed products updated.
-
-Installed:
-  python3.11-pathspec-0.12.1-1.el9.noarch            python3.11-scikit-build-core-0.10.7-1.el9.noarch           
-
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.c4u5zx
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd cmake-3.31.4
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.31.4/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.31.4-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling scikit-build-core>=0.10 from build-system.requires
-Requirement satisfied: scikit-build-core>=0.10
-   (installed: scikit-build-core 0.10.7)
-*** scikit-build-core 0.10.7 (metadata_wheel)
-Handling importlib_metadata>=1.4; python_version < "3.8" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: importlib_metadata>=1.4; python_version < "3.8"
-Handling coverage>=4.2; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: coverage>=4.2; extra == "test"
-Handling pytest>=3.0.3; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: pytest>=3.0.3; extra == "test"
-Handling pytest-cov>=2.4.0; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: pytest-cov>=2.4.0; extra == "test"
-+ cat /builddir/build/BUILD/python-cmake-3.31.4-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv cmake-3.31.4.dist-info/
-removed 'cmake-3.31.4.dist-info/METADATA'
-removed 'cmake-3.31.4.dist-info/WHEEL'
-removed 'cmake-3.31.4.dist-info/entry_points.txt'
-removed 'cmake-3.31.4.dist-info/licenses/LICENSE_Apache_20'
-removed 'cmake-3.31.4.dist-info/licenses/LICENSE_BSD_3'
-removed 'cmake-3.31.4.dist-info/licenses/AUTHORS.rst'
-removed directory 'cmake-3.31.4.dist-info/licenses'
-removed directory 'cmake-3.31.4.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Wrote: /builddir/build/SRPMS/python-cmake-3.31.4-1.el9.buildreqs.nosrc.rpm
-INFO: Going to install missing dynamic buildrequires
+No matching package to install: 'python3.11dist(scikit-build-core) >= 0.10'
+Not all dependencies satisfied
+Error: Some packages could not be found.
+Finish: rpmbuild python-cmake-3.31.4-1.el9.src.rpm
+Finish: build phase for python-cmake-3.31.4-1.el9.src.rpm
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cmake-3.31.4-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M d5901d76c9584b61a3b3edde00da1951 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.84tki6_8:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-cmake-3.31.4-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                10 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    70 kB/s |  39 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 10 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    56 kB/s |  39 kB     00:00    
 Package gcc-11.5.0-5.el9_5.x86_64 is already installed.
 Package make-1:4.3-8.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -471,132 +397,12 @@ Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Package python3.11-scikit-build-core-0.10.7-1.el9.noarch is already installed.
-Dependencies resolved.
-Nothing to do.
-Complete!
-Building target platforms: x86_64
-Building for target x86_64
-setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.pbDlR4
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd cmake-3.31.4
-+ echo pyproject-rpm-macros
-+ echo python3.11-devel
-+ echo 'python3.11dist(pip) >= 19'
-+ echo 'python3.11dist(packaging)'
-+ '[' -f pyproject.toml ']'
-+ true
-+ rm -rfv '*.dist-info/'
-+ '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ echo -n
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ RPM_TOXENV=py311
-+ HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/cmake-3.31.4/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-cmake-3.31.4-1.el9.x86_64-3.11-pyproject-buildrequires
-Handling scikit-build-core>=0.10 from build-system.requires
-Requirement satisfied: scikit-build-core>=0.10
-   (installed: scikit-build-core 0.10.7)
-*** scikit-build-core 0.10.7 (metadata_wheel)
-Handling importlib_metadata>=1.4; python_version < "3.8" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: importlib_metadata>=1.4; python_version < "3.8"
-Handling coverage>=4.2; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: coverage>=4.2; extra == "test"
-Handling pytest>=3.0.3; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: pytest>=3.0.3; extra == "test"
-Handling pytest-cov>=2.4.0; extra == "test" from hook generated metadata: Requires-Dist (cmake)
-Ignoring alien requirement: pytest-cov>=2.4.0; extra == "test"
-+ cat /builddir/build/BUILD/python-cmake-3.31.4-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv cmake-3.31.4.dist-info/
-removed 'cmake-3.31.4.dist-info/METADATA'
-removed 'cmake-3.31.4.dist-info/WHEEL'
-removed 'cmake-3.31.4.dist-info/entry_points.txt'
-removed 'cmake-3.31.4.dist-info/licenses/LICENSE_Apache_20'
-removed 'cmake-3.31.4.dist-info/licenses/LICENSE_BSD_3'
-removed 'cmake-3.31.4.dist-info/licenses/AUTHORS.rst'
-removed directory 'cmake-3.31.4.dist-info/licenses'
-removed directory 'cmake-3.31.4.dist-info/'
-+ RPM_EC=0
-++ jobs -p
-+ exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.L8imkt
-+ umask 022
-+ cd /builddir/build/BUILD
-+ cd cmake-3.31.4
-+ mkdir -p /builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
-+ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/cmake-3.31.4/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/cmake-3.31.4
-  Preparing metadata (pyproject.toml): started
-  Running command Preparing metadata (pyproject.toml)
-  *** scikit-build-core 0.10.7 (metadata_wheel)
-  Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: cmake
-  Building wheel for cmake (pyproject.toml): started
-  Running command Building wheel for cmake (pyproject.toml)
-  ---------------------------------------------
-  CMake 3.31.4, Copyright 2000-2024 Kitware, Inc. and Contributors
-  C compiler on this system is: cc -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection
-  ---------------------------------------------
-  Error when bootstrapping CMake:
-  Cannot find a C++ compiler that supports both C++11 and the specified C++ flags.
-  Please specify one using environment variable CXX.
-  The C++ flags are "".
-  They can be changed using the environment variable CXXFLAGS.
-  See cmake_bootstrap.log for compilers attempted.
-  ---------------------------------------------
-  Log of errors: /builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11/tmpqs5fxf33/cmake-3.31.4/Bootstrap.cmk/cmake_bootstrap.log
-  ---------------------------------------------
-  Traceback (most recent call last):
-    File "/usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 351, in <module>
-      main()
-    File "/usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 333, in main
-      json_out['return_val'] = hook(**hook_input['kwargs'])
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "/usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 249, in build_wheel
-      return _build_backend().build_wheel(wheel_directory, config_settings,
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "/builddir/build/BUILD/cmake-3.31.4/_build_backend/backend.py", line 156, in build_wheel
-      cmake_path = _bootstrap_build(temp_path, config_settings)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "/builddir/build/BUILD/cmake-3.31.4/_build_backend/backend.py", line 127, in _bootstrap_build
-      subprocess.run([bootstrap_path, *bootstrap_args], env=env, check=True)
-    File "/usr/lib64/python3.11/subprocess.py", line 571, in run
-      raise CalledProcessError(retcode, process.args,
-  subprocess.CalledProcessError: Command '[PosixPath('/builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11/tmpqs5fxf33/cmake-3.31.4/bootstrap'), '--prefix=/builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11/tmpqs5fxf33/cmake-install', '--no-qt-gui', '--no-debugger', '--parallel={parallel}', '--', '-DBUILD_TESTING=OFF', '-DBUILD_CursesDialog:BOOL=OFF']' returned non-zero exit status 7.
-  error: subprocess-exited-with-error
-  
-  × Building wheel for cmake (pyproject.toml) did not run successfully.
-  │ exit code: 1
-  ╰─> See above for output.
-  
-  note: This error originates from a subprocess, and is likely not a problem with pip.
-  full command: /usr/bin/python3.11 /usr/lib/python3.11/site-packages/pip/_vendor/pep517/in_process/_in_process.py build_wheel /builddir/build/BUILD/cmake-3.31.4/.pyproject-builddir-3.11/tmp5edn9okc
-  cwd: /builddir/build/BUILD/cmake-3.31.4
-  Building wheel for cmake (pyproject.toml): finished with status 'error'
-  ERROR: Failed building wheel for cmake
-Failed to build cmake
-ERROR: Failed to build one or more wheels
-error: Bad exit status from /var/tmp/rpm-tmp.L8imkt (%build)
-
-
-RPM build errors:
-    Bad exit status from /var/tmp/rpm-tmp.L8imkt (%build)
-Finish: rpmbuild python-cmake-3.31.4-1.el9.src.rpm
-Finish: build phase for python-cmake-3.31.4-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cmake-3.31.4-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 36 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 07a9fd07a3f84f56b8c83d352917f4d3 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.fbdlkxzn:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-cmake.spec --nocheck'
+No matching package to install: 'python3.11dist(scikit-build-core) >= 0.10'
+Not all dependencies satisfied
+Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 261 packages
+Directory walk done - 264 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
