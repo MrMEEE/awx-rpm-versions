@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-charset-normalizer-3.4.1-1.el9.src.rpm
+The lastest package built was python-cmake-3.31.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 03:50:53 PM CET 2025
+The build completed at Thu Feb 20 03:51:27 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python-cmake-3.31.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
