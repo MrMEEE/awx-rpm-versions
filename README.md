@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-scikit-build-core-0.10.7-1.el9.src.rpm
+The lastest package built was python-cmake-3.31.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:34:09 PM CET 2025
+The build completed at Thu Feb 20 01:35:36 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-scikit-build-core-0.10.7-1.el9.src.rpm.log)
+[Build Log](logs/python-cmake-3.31.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -52,6 +52,7 @@ python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [L
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
+python3.11-cmake-3.31.4-1.el9 | python-cmake-3.31.4-1.el9.src.rpm | **Missing** | [Log](logs/python-cmake-3.31.4-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | **Missing** | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
@@ -140,6 +141,7 @@ python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built 
 python3.11-mypy-1.14.1-1.el9 | python-mypy-1.14.1-1.el9.src.rpm | **Missing** |
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
+python3.11-ninja-1.11.1.3-1.el9 | python-ninja-1.11.1.3-1.el9.src.rpm | **Missing** |
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
@@ -239,4 +241,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-229 total packages, 192 packages built successfully, 37 packages left to fix
+231 total packages, 192 packages built successfully, 39 packages left to fix
