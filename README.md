@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-6.1.0-1.el9.src.rpm
+The lastest package built was python-rich-13.9.4-1.el9.src.rpm
 
-The build completed at Thu Feb 20 10:01:06 AM CET 2025
+The build completed at Thu Feb 20 10:09:05 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -89,6 +89,7 @@ python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [L
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | Built | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
+python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | **Missing** |
 python3.11-idna-3.10-1.el9 | python-idna-3.10-1.el9.src.rpm | Built | [Log](logs/python-idna-3.10-1.el9.src.rpm.log)
 python3.11-importlib-metadata-8.5.0-1.el9 | python-importlib-metadata-8.5.0-1.el9.src.rpm | Built | [Log](logs/python-importlib-metadata-8.5.0-1.el9.src.rpm.log)
 python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.el9.src.rpm | Built | [Log](logs/python-importlib-resources-6.5.2-1.el9.src.rpm.log)
@@ -161,11 +162,13 @@ python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.2-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
 python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | Built | [Log](logs/python-pyzstd-0.16.2-1.el9.src.rpm.log)
+python3.11-readme-renderer-44.0-1.el9 | python-readme-renderer-44.0-1.el9.src.rpm | **Missing** |
 python3.11-receptorctl-1.5.2-1.el9 | python-receptorctl-1.5.2-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.5.2-1.el9.src.rpm.log)
 python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 python3.11-referencing-0.35.1-1.el9 | python-referencing-0.35.1-1.el9.src.rpm | **Missing** | [Log](logs/python-referencing-0.35.1-1.el9.src.rpm.log)
 python3.11-requests-2.32.3-1.el9 | python-requests-2.32.3-1.el9.src.rpm | **Missing** | [Log](logs/python-requests-2.32.3-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
+python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | **Missing** |
 python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | **Missing** | [Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
@@ -210,4 +213,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-200 total packages, 159 packages built successfully, 41 packages left to fix
+203 total packages, 159 packages built successfully, 44 packages left to fix
