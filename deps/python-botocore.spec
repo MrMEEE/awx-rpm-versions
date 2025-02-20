@@ -11,6 +11,7 @@ Summary:        Low-level, data-driven core of boto 3.
 License:        gpl
 URL:            https://github.com/boto/botocore
 Source:         %{pypi_source botocore}
+Patch:		botocore-deps.patch
 
 BuildArch:      noarch
 
