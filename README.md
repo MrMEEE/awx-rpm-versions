@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twisted-24.11.0-1.el9.src.rpm
+The lastest package built was python-cffi-1.17.1-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:03:25 AM CET 2025
+The build completed at Thu Feb 20 11:04:25 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
+[Build Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -43,7 +43,7 @@ python3.11-build-1.2.2^post1-1.el9 | python-build-1.2.2^post1-1.el9.src.rpm | Bu
 python3.11-cachetools-5.5.0-1.el9 | python-cachetools-5.5.0-1.el9.src.rpm | Built | [Log](logs/python-cachetools-5.5.0-1.el9.src.rpm.log)
 python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Built | [Log](logs/python-calver-2022.6.26-1.el9.src.rpm.log)
 python3.11-certifi-2025.1.31-1.el9 | python-certifi-2025.1.31-1.el9.src.rpm | Built | [Log](logs/python-certifi-2025.1.31-1.el9.src.rpm.log)
-python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | **Missing** | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
+python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 python3.11-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-channels-4.2.0-1.el9.src.rpm.log)
 python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
@@ -55,6 +55,7 @@ python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** 
 python3.11-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
+python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | **Missing** |
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.16-1.el9 | python-django-4.2.16-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
 python3.11-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
@@ -223,4 +224,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-213 total packages, 180 packages built successfully, 33 packages left to fix
+214 total packages, 181 packages built successfully, 33 packages left to fix
