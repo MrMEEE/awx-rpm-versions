@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-grpcio-1.70.0-1.el9.src.rpm
+The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:58:43 AM CET 2025
+The build completed at Thu Feb 20 01:05:03 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-grpcio-1.70.0-1.el9.src.rpm.log)
+[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -80,7 +80,6 @@ python3.11-googleapis-common-protos-1.66.0-1.el9 | python-googleapis-common-prot
 python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | **Missing** | [Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
 python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | Built | [Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
 python3.11-grpcio-1.70.0-1.el9 | python-grpcio-1.70.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-1.70.0-1.el9.src.rpm.log)
-python3.11-grpcio-tools-1.70.0-1.el9 | python-grpcio-tools-1.70.0-1.el9.src.rpm | **Missing** | [Log](logs/python-grpcio-tools-1.70.0-1.el9.src.rpm.log)
 python3.11-h11-0.14.0-1.el9 | python-h11-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-h11-0.14.0-1.el9.src.rpm.log)
 python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
@@ -209,4 +208,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | **Missing** | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-199 total packages, 148 packages built successfully, 51 packages left to fix
+198 total packages, 148 packages built successfully, 50 packages left to fix
