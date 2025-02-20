@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-prometheus-client-0.21.1-1.el9.src.rpm
+The lastest package built was python-pygerduty-0.38.3-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:22:05 PM CET 2025
+The build completed at Thu Feb 20 12:22:38 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-prometheus-client-0.21.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -163,7 +163,7 @@ python3.11-ptyprocess-0.7.0-1.el9 | python-ptyprocess-0.7.0-1.el9.src.rpm | Buil
 python3.11-pyasn1-modules-0.4.1-1.el9 | python-pyasn1-modules-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-pyasn1-modules-0.4.1-1.el9.src.rpm.log)
 python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | Built | [Log](logs/python-pycares-4.5.0-1.el9.src.rpm.log)
 python3.11-pycparser-2.22-1.el9 | python-pycparser-2.22-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.22-1.el9.src.rpm.log)
-python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | **Missing** | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
+python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pygments-2.19.1-1.el9 | python-pygments-2.19.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pygments-2.19.1-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
@@ -226,4 +226,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-216 total packages, 170 packages built successfully, 46 packages left to fix
+216 total packages, 171 packages built successfully, 45 packages left to fix
