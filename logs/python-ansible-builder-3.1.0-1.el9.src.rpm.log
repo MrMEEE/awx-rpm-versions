@@ -47,10 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 7.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                7.3 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              13 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    75 kB/s |  39 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            31 MB/s | 218 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 7.5 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                7.5 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    67 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -170,7 +171,7 @@ Start: rpmbuild python-ansible-builder-3.1.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Sgo5gq
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.EJaLjs
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -184,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Sgo5gq
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WoGZwN
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.u7yS39
 + umask 022
 + cd /builddir/build/BUILD
 + cd ansible_builder-3.1.0
@@ -219,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    65 kB/s |  39 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  44 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    87 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -262,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.xRkxwk
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.fOnz4R
 + umask 022
 + cd /builddir/build/BUILD
 + cd ansible_builder-3.1.0
@@ -301,10 +302,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================] 7.7 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                               7.7 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    67 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                21 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    64 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -350,7 +351,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.008zZn
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.wXBBJq
 + umask 022
 + cd /builddir/build/BUILD
 + cd ansible_builder-3.1.0
@@ -407,10 +408,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    44 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 21 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    69 kB/s |  39 kB     00:00    
 Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
@@ -430,18 +431,137 @@ Transaction Summary
 =================================================================================================================
 Install  1 Package
 
-Total download size: 158 k
+Total size: 158 k
 Installed size: 576 k
 Downloading Packages:
-Error opening /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/python3.11-wheel-0.45.1-1.el9.noarch.rpm: No such file or directory
-Package "python3.11-wheel-0.45.1-1.el9.noarch" from local repository "_opt_awxrpmng_rpmbuilds_3000_RPMS_" has incorrect checksum
-Error: Some packages from local repository have incorrect checksum
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                         1/1 
+  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [                                                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==                                              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====                                            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======                                          ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======                                         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========                                       ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========                                      ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========                                     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============                                    ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============                                  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============                                 ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================                                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================                               ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================                              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================                             ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================                            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================                           ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [======================                          ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================                         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [========================                        ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=========================                       ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================                     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [============================                    ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================                   ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================                  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===============================                 ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [================================                ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=================================               ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==================================              ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===================================             ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [====================================            ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=====================================           ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=======================================         ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==========================================      ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [===========================================     ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================   ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [==============================================  ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch [=============================================== ] 1/1  Installing       : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+  Running scriptlet: python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+  Verifying        : python3.11-wheel-0.45.1-1.el9.noarch                                                    1/1 
+Installed products updated.
+
+Installed:
+  python3.11-wheel-0.45.1-1.el9.noarch                                                                           
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1740009600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.H3L6JC
++ umask 022
++ cd /builddir/build/BUILD
++ cd ansible_builder-3.1.0
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/ansible_builder-3.1.0/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/ansible_builder-3.1.0/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/ansible_builder-3.1.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-ansible-builder-3.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools>=45, <=70.0.0 from build-system.requires
+Requirement satisfied: setuptools>=45, <=70.0.0
+   (installed: setuptools 65.5.1)
+Handling setuptools-scm[toml]>=6.2, <=8.1.0 from build-system.requires
+Requirement satisfied: setuptools-scm[toml]>=6.2, <=8.1.0
+   (installed: setuptools-scm 8.1.0)
+   (extras are currently not checked)
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:312: UserWarning: git archive did not support describe output
+  warnings.warn("git archive did not support describe output")
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:331: UserWarning: unprocessed git archival found (no export subst applied)
+  warnings.warn("unprocessed git archival found (no export subst applied)")
+running egg_info
+writing src/ansible_builder.egg-info/PKG-INFO
+writing dependency_links to src/ansible_builder.egg-info/dependency_links.txt
+writing entry points to src/ansible_builder.egg-info/entry_points.txt
+writing requirements to src/ansible_builder.egg-info/requires.txt
+writing top-level names to src/ansible_builder.egg-info/top_level.txt
+reading manifest file 'src/ansible_builder.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'src/ansible_builder.egg-info/SOURCES.txt'
+Handling wheel from get_requires_for_build_wheel
+Requirement satisfied: wheel
+   (installed: wheel 0.45.1)
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:312: UserWarning: git archive did not support describe output
+  warnings.warn("git archive did not support describe output")
+/usr/lib/python3.11/site-packages/setuptools_scm/git.py:331: UserWarning: unprocessed git archival found (no export subst applied)
+  warnings.warn("unprocessed git archival found (no export subst applied)")
+running dist_info
+creating ansible_builder.egg-info
+writing ansible_builder.egg-info/PKG-INFO
+writing dependency_links to ansible_builder.egg-info/dependency_links.txt
+writing entry points to ansible_builder.egg-info/entry_points.txt
+writing requirements to ansible_builder.egg-info/requires.txt
+writing top-level names to ansible_builder.egg-info/top_level.txt
+writing manifest file 'ansible_builder.egg-info/SOURCES.txt'
+reading manifest file 'ansible_builder.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'ansible_builder.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/ansible_builder-3.1.0/ansible_builder-3.1.0.dist-info'
+Handling PyYAML from hook generated metadata: Requires-Dist (ansible-builder)
+Requirement not satisfied: PyYAML
+Handling bindep from hook generated metadata: Requires-Dist (ansible-builder)
+Requirement not satisfied: bindep
+Handling jsonschema from hook generated metadata: Requires-Dist (ansible-builder)
+Requirement not satisfied: jsonschema
+Handling packaging from hook generated metadata: Requires-Dist (ansible-builder)
+Requirement satisfied: packaging
+   (installed: packaging 24.2)
++ cat /builddir/build/BUILD/python-ansible-builder-3.1.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv ansible_builder-3.1.0.dist-info/
+removed 'ansible_builder-3.1.0.dist-info/entry_points.txt'
+removed 'ansible_builder-3.1.0.dist-info/top_level.txt'
+removed 'ansible_builder-3.1.0.dist-info/METADATA'
+removed 'ansible_builder-3.1.0.dist-info/LICENSE.md'
+removed directory 'ansible_builder-3.1.0.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-ansible-builder-3.1.0-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
+No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    46 kB/s |  39 kB     00:00    
+Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
+Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
+Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
+Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+No matching package to install: 'python3.11dist(bindep)'
+No matching package to install: 'python3.11dist(jsonschema)'
+Package python3.11-packaging-24.2-1.el9.noarch is already installed.
+Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
+Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
 Finish: rpmbuild python-ansible-builder-3.1.0-1.el9.src.rpm
 Finish: build phase for python-ansible-builder-3.1.0-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-ansible-builder-3.1.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 27 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-ansible-builder-3.1.0-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 48ac89d155244b69a088c0684a94c5ff -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.35h0pdvu:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-ansible-builder-3.1.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+ # /usr/bin/systemd-nspawn -q -M 8dbb4b29256545459b52b2edb495e953 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.ogldp8y8:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-ansible-builder-3.1.0-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -449,38 +569,26 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                15 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    44 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              15 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    46 kB/s |  39 kB     00:00    
 Package python3.11-setuptools-65.5.1-3.el9.noarch is already installed.
 Package python3.11-setuptools-scm-8.1.0-1.el9.noarch is already installed.
 Package python3.11-setuptools-scm+toml-8.1.0-1.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+No matching package to install: 'python3.11dist(bindep)'
+No matching package to install: 'python3.11dist(jsonschema)'
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-Dependencies resolved.
-=================================================================================================================
- Package                  Architecture   Version                Repository                                  Size
-=================================================================================================================
-Installing:
- [1mpython3.11-wheel        [m noarch         0.45.1-1.el9           _opt_awxrpmng_rpmbuilds_3000_RPMS_         158 k
-
-Transaction Summary
-=================================================================================================================
-Install  1 Package
-
-Total download size: 158 k
-Installed size: 576 k
-Downloading Packages:
-Error opening /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/python3.11-wheel-0.45.1-1.el9.noarch.rpm: No such file or directory
-Package "python3.11-wheel-0.45.1-1.el9.noarch" from local repository "_opt_awxrpmng_rpmbuilds_3000_RPMS_" has incorrect checksum
-Error: Some packages from local repository have incorrect checksum
+Package python3.11-wheel-0.45.1-1.el9.noarch is already installed.
+Not all dependencies satisfied
+Error: Some packages could not be found.
 
 Directory walk started
-Directory walk done - 217 packages
+Directory walk done - 250 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
