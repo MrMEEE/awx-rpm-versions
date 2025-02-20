@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-cleo-2.1.0-1.el9.src.rpm
+The lastest package built was python-cachecontrol-0.14.2-1.el9.src.rpm
 
-The build completed at Thu Feb 20 01:19:08 PM CET 2025
+The build completed at Thu Feb 20 01:19:48 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-cachecontrol-0.14.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

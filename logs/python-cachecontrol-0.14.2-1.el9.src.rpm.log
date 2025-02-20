@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            40 MB/s | 245 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 41% [==============-                     ]  48 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    57 kB/s |  39 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            28 MB/s | 249 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [         ===                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                11 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [               ===                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    66 kB/s |  39 kB     00:00    
 Dependencies resolved.
 =================================================================================================================
  Package                              Architecture    Version                   Repository                  Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-cachecontrol-0.14.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.83bBzQ
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.nH5nu6
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.83bBzQ
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Yu9OrI
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ypb9aL
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 13 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    68 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    42 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.8LOfhX
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.H7saco
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -300,10 +300,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    61 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  11 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              11 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                13 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 40% [==============-                     ]  51 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                    48 kB/s |  39 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -342,7 +342,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.uik6HY
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.zB2qvj
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -419,10 +419,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    68 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================]  11 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                 11 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              14 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                14 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    66 kB/s |  39 kB     00:00    
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -493,7 +493,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Txsb4t
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3rDSV1
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -573,10 +573,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS     [===                                 ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                           2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    74 kB/s |  39 kB     00:00    
+Red Hat Enterprise Linux - BaseOS         [===                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS    100% [====================================] 3.4 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                3.4 kB/s | 4.1 kB     00:01    
+Red Hat Enterprise Linux - AppStream      [   ===                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                              12 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady      [      ===                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady 100% [====================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                12 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9     [         ===                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9     [            ===                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    75 kB/s |  39 kB     00:00    
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package python3.11-msgpack-1.1.0-1.el9.x86_64 is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
@@ -592,7 +592,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740009600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.I0BlGF
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Bf8731
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -663,7 +663,7 @@ removed directory 'cachecontrol-0.14.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.KsCusF
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Mcwp5W
 + umask 022
 + cd /builddir/build/BUILD
 + cd cachecontrol-0.14.2
@@ -686,7 +686,7 @@ Successfully built CacheControl
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.K06Uft
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.OTuoKd
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-cachecontrol-0.14.2-1.el9.x86_64 '!=' / ']'
@@ -696,8 +696,8 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.K06Uft
 + mkdir /builddir/build/BUILDROOT/python-cachecontrol-0.14.2-1.el9.x86_64
 + cd cachecontrol-0.14.2
 ++ ls /builddir/build/BUILD/cachecontrol-0.14.2/pyproject-wheeldir-3.11/cachecontrol-0.14.2-py3-none-any.whl
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 ++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=cachecontrol==0.14.2
 + '[' -z cachecontrol==0.14.2 ']'
 + TMPDIR=/builddir/build/BUILD/cachecontrol-0.14.2/.pyproject-builddir-3.11
@@ -765,11 +765,11 @@ Wrote: /builddir/build/RPMS/python3.11-cachecontrol+filecache-0.14.2-1.el9.noarc
 Wrote: /builddir/build/RPMS/python3.11-cachecontrol-0.14.2-1.el9.noarch.rpm
 Finish: rpmbuild python-cachecontrol-0.14.2-1.el9.src.rpm
 Finish: build phase for python-cachecontrol-0.14.2-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cachecontrol-0.14.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 29 seconds
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-cachecontrol-0.14.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 31 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 258 packages
+Directory walk done - 261 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
