@@ -14,6 +14,7 @@ Source:         %{pypi_source uwsgi}
 
 BuildArch:      noarch
 
+BuildRequires: gcc
 BuildRequires:  python%{python3_pkgversion}-devel
 
 
