@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-s3transfer-0.10.4-1.el9.src.rpm
+The lastest package built was python-service-identity-24.2.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 12:27:57 PM CET 2025
+The build completed at Thu Feb 20 12:28:24 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
+[Build Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
