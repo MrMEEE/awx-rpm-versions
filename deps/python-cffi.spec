@@ -15,7 +15,7 @@ Source:         %{pypi_source cffi}
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
-
+BuildRequires:  libffi-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:

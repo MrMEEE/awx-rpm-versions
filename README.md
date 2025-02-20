@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-zope-interface-7.2-1.el9.src.rpm
+The lastest package built was python-twisted-24.11.0-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:01:45 AM CET 2025
+The build completed at Thu Feb 20 11:03:25 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
+[Build Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -204,7 +204,7 @@ python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.
 python3.11-tss-sdk-1.2.3-1.el9 | python-tss-sdk-1.2.3-1.el9.src.rpm | Built | [Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
 python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | Built | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 python3.11-twine-6.1.0-1.el9 | python-twine-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
-python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | **Missing** | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
+python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
 python3.11-txaio-23.1.1-1.el9 | python-txaio-23.1.1-1.el9.src.rpm | Built | [Log](logs/python-txaio-23.1.1-1.el9.src.rpm.log)
 python3.11-types-psutil-7.0.0.20250218-1.el9 | python-types-psutil-7.0.0.20250218-1.el9.src.rpm | Built | [Log](logs/python-types-psutil-7.0.0.20250218-1.el9.src.rpm.log)
 python3.11-types-setuptools-75.8.0.20250210-1.el9 | python-types-setuptools-75.8.0.20250210-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-75.8.0.20250210-1.el9.src.rpm.log)
@@ -223,4 +223,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-213 total packages, 179 packages built successfully, 34 packages left to fix
+213 total packages, 180 packages built successfully, 33 packages left to fix
