@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-daphne-4.1.2-1.el9.src.rpm
+The lastest package built was python-distlib-0.3.9-1.el9.src.rpm
 
-The build completed at Thu Feb 20 11:11:50 AM CET 2025
+The build completed at Thu Feb 20 11:12:24 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
+[Build Log](logs/python-distlib-0.3.9-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -56,7 +56,7 @@ python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** 
 python3.11-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
-python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | **Missing** |
+python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | Built | [Log](logs/python-distlib-0.3.9-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.16-1.el9 | python-django-4.2.16-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
 python3.11-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
@@ -225,4 +225,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-215 total packages, 181 packages built successfully, 34 packages left to fix
+215 total packages, 182 packages built successfully, 33 packages left to fix

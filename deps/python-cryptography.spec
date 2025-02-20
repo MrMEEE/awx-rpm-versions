@@ -13,6 +13,7 @@ URL:            https://pypi.org/project/cryptography/
 Source:         %{pypi_source cryptography}
 
 
+BuildRequires: openssl-devel
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc rust cargo
 
