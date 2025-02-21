@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-maturin-1.7.8-1.el9.src.rpm
+The lastest package built was python-uv-0.6.1-1.el9.src.rpm
 
-The build completed at Fri Feb 21 10:52:17 AM CET 2025
+The build completed at Fri Feb 21 10:54:09 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
+[Build Log](logs/python-uv-0.6.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
