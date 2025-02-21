@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jsonschema-specifications-2024.10.1-1.el9.src.rpm
+The lastest package built was python-ansible-builder-3.1.0-1.el9.src.rpm
 
-The build completed at Fri Feb 21 01:48:09 PM CET 2025
+The build completed at Fri Feb 21 01:48:46 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
+[Build Log](logs/python-ansible-builder-3.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
