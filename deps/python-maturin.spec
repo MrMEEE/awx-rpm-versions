@@ -34,6 +34,13 @@ Summary:        %{summary}
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 
+%post
+echo "Adding Alternative"
+alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
+
+%pre
+echo "Removing Alternative"
+alternatives --remove maturin /usr/bin/maturin3.11
 
 %prep
 %autosetup -p1 -n maturin-%{version}
@@ -46,13 +53,6 @@ Summary:        %{summary}
 
 %build
 %pyproject_wheel
-
-
-%post
-alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
-
-%preun
-alternatives --remove maturin /usr/bin/maturin3.11
 
 %install
 %pyproject_install
