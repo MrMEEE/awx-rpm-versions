@@ -11,7 +11,7 @@ Summary:        The Real First Universal Charset Detector. Open, modern and acti
 License:        gpl
 URL:            https://pypi.org/project/charset-normalizer/
 Source:         %{pypi_source charset_normalizer}
-
+Patch:		charset-normalizer-deps.patch
 
 BuildRequires:  python%{python3_pkgversion}-devel
 BuildRequires:  gcc
