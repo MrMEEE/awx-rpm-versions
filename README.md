@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-google-auth-2.37.0-1.el9.src.rpm
+The lastest package built was python-h2-4.2.0-1.el9.src.rpm
 
-The build completed at Fri Feb 21 12:12:01 PM CET 2025
+The build completed at Fri Feb 21 12:12:39 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
+[Build Log](logs/python-h2-4.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -93,7 +93,7 @@ python3.11-google-auth-2.37.0-1.el9 | python-google-auth-2.37.0-1.el9.src.rpm | 
 python3.11-graphviz-0.20.3-1.el9 | python-graphviz-0.20.3-1.el9.src.rpm | Built | [Log](logs/python-graphviz-0.20.3-1.el9.src.rpm.log)
 python3.11-grpcio-1.70.0-1.el9 | python-grpcio-1.70.0-1.el9.src.rpm | Built | [Log](logs/python-grpcio-1.70.0-1.el9.src.rpm.log)
 python3.11-h11-0.14.0-1.el9 | python-h11-0.14.0-1.el9.src.rpm | Built | [Log](logs/python-h11-0.14.0-1.el9.src.rpm.log)
-python3.11-h2-4.2.0-1.el9 | python-h2-4.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python-h2-4.2.0-1.el9.src.rpm.log)
+python3.11-h2-4.2.0-1.el9 | python-h2-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-h2-4.2.0-1.el9.src.rpm.log)
 python3.11-hatch-1.14.0-1.el9 | python-hatch-1.14.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 python3.11-hatch-fancy-pypi-readme-24.1.0-1.el9 | python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm | Built | [Log](logs/python-hatch-fancy-pypi-readme-24.1.0-1.el9.src.rpm.log)
 python3.11-hatchling-1.27.0-1.el9 | python-hatchling-1.27.0-1.el9.src.rpm | Built | [Log](logs/python-hatchling-1.27.0-1.el9.src.rpm.log)
@@ -244,4 +244,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-234 total packages, 206 packages built successfully, 28 packages left to fix
+234 total packages, 207 packages built successfully, 27 packages left to fix
