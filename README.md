@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-redis-5.2.1-1.el9.src.rpm
 
-The build completed at Fri Feb 21 02:18:46 PM CET 2025
+The build completed at Fri Feb 21 02:21:54 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
@@ -194,7 +194,7 @@ python3.11-pyzstd-0.16.2-1.el9 | python-pyzstd-0.16.2-1.el9.src.rpm | Built | [L
 python3.11-rapidfuzz-3.9.3-1.el9 | python-rapidfuzz-3.9.3-1.el9.src.rpm | Built | [Log](logs/python-rapidfuzz-3.9.3-1.el9.src.rpm.log)
 python3.11-readme-renderer-44.0-1.el9 | python-readme-renderer-44.0-1.el9.src.rpm | Built | [Log](logs/python-readme-renderer-44.0-1.el9.src.rpm.log)
 python3.11-receptorctl-1.5.2-1.el9 | python-receptorctl-1.5.2-1.el9.src.rpm | Built | [Log](logs/python-receptorctl-1.5.2-1.el9.src.rpm.log)
-python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
+python3.11-redis-5.2.1-1.el9 | python-redis-5.2.1-1.el9.src.rpm | Built | [Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
 python3.11-referencing-0.35.1-1.el9 | python-referencing-0.35.1-1.el9.src.rpm | Built | [Log](logs/python-referencing-0.35.1-1.el9.src.rpm.log)
 python3.11-requests-2.32.3-1.el9 | python-requests-2.32.3-1.el9.src.rpm | Built | [Log](logs/python-requests-2.32.3-1.el9.src.rpm.log)
 python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-oauthlib-2.0.0-1.el9.src.rpm.log)
@@ -246,4 +246,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-236 total packages, 218 packages built successfully, 18 packages left to fix
+236 total packages, 219 packages built successfully, 17 packages left to fix
