@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-uv
-Version:        0.6.1
+Version:        0.2.30
 Release:        %autorelease
 Summary:        An extremely fast Python package and project manager, written in Rust.
 
