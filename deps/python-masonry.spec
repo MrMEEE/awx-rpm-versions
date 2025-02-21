@@ -31,7 +31,7 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n masonry-%{version}
-
+touch README.rst
 
 %generate_buildrequires
 %pyproject_buildrequires
@@ -39,7 +39,6 @@ Summary:        %{summary}
 
 %build
 %pyproject_wheel
-touch README.rst
 
 %install
 %pyproject_install
