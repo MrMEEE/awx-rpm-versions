@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-google-auth-2.37.0-1.el9.src.rpm
+The lastest package built was python-kubernetes-31.0.0-1.el9.src.rpm
 
-The build completed at Fri Feb 21 02:25:30 PM CET 2025
+The build completed at Fri Feb 21 02:26:22 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-google-auth-2.37.0-1.el9.src.rpm.log)
+[Build Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -129,7 +129,7 @@ python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | Bu
 python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
 python3.11-jwcrypto-1.5.6-1.el9 | python-jwcrypto-1.5.6-1.el9.src.rpm | Built | [Log](logs/python-jwcrypto-1.5.6-1.el9.src.rpm.log)
 python3.11-keyring-25.6.0-1.el9 | python-keyring-25.6.0-1.el9.src.rpm | Built | [Log](logs/python-keyring-25.6.0-1.el9.src.rpm.log)
-python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
+python3.11-kubernetes-31.0.0-1.el9 | python-kubernetes-31.0.0-1.el9.src.rpm | Built | [Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
 python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built | [Log](logs/python-lockfile-0.12.2-1.el9.src.rpm.log)
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | Built | [Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
@@ -247,4 +247,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-237 total packages, 221 packages built successfully, 16 packages left to fix
+237 total packages, 222 packages built successfully, 15 packages left to fix
