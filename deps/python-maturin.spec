@@ -48,16 +48,16 @@ Summary:        %{summary}
 %pyproject_wheel
 
 
-%install
-%pyproject_install
-# For official Fedora packages, including files with '*' +auto is not allowed
-# Replace it with a list of relevant Python modules/globs and list extra files in %%files
-
 %post
 alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
 
 %preun
 alternatives --remove maturin /usr/bin/maturin3.11
+
+%install
+%pyproject_install
+# For official Fedora packages, including files with '*' +auto is not allowed
+# Replace it with a list of relevant Python modules/globs and list extra files in %%files
 
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
@@ -71,9 +71,6 @@ mv $RPM_BUILD_ROOT/usr/bin/maturin $RPM_BUILD_ROOT/usr/bin/maturin%{python3_pkgv
 sed -i "s|/usr/bin/maturin$|/usr/bin/maturin%{python3_pkgversion}|g" %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
-
-
-
 
 %check
 %pyproject_check_import
