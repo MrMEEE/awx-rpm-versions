@@ -31,13 +31,13 @@ Summary:        %{summary}
 
 %prep
 %autosetup -p1 -n masonry-%{version}
-touch README.rst
 
 %generate_buildrequires
 %pyproject_buildrequires
 
 
 %build
+touch README.rst
 %pyproject_wheel
 
 %install
