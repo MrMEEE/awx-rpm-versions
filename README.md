@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-jinja2-3.1.5-1.el9.src.rpm
+The lastest package built was python-parsley-1.3-1.el9.src.rpm
 
-The build completed at Fri Feb 21 01:41:06 PM CET 2025
+The build completed at Fri Feb 21 01:46:52 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
+[Build Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -161,6 +161,7 @@ python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-orjson-3.10.13-1.el9 | python-orjson-3.10.13-1.el9.src.rpm | Built | [Log](logs/python-orjson-3.10.13-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
+python3.11-parsley-1.3-1.el9 | python-parsley-1.3-1.el9.src.rpm | Built | [Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
 python3.11-pbs-installer-2025.2.12-1.el9 | python-pbs-installer-2025.2.12-1.el9.src.rpm | Built | [Log](logs/python-pbs-installer-2025.2.12-1.el9.src.rpm.log)
@@ -245,4 +246,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-235 total packages, 213 packages built successfully, 22 packages left to fix
+236 total packages, 214 packages built successfully, 22 packages left to fix
