@@ -34,11 +34,11 @@ Summary:        %{summary}
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 
-%post
+%post -n python%{python3_pkgversion}-maturin
 echo "Adding Alternative"
 alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
 
-%pre
+%pre -n python%{python3_pkgversion}-maturin
 echo "Removing Alternative"
 alternatives --remove maturin /usr/bin/maturin3.11
 
