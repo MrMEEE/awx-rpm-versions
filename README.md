@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-redis-5.2.1-1.el9.src.rpm
+The lastest package built was python-ninja-1.11.1.3-1.el9.src.rpm
 
-The build completed at Fri Feb 21 02:21:54 PM CET 2025
+The build completed at Fri Feb 21 02:22:34 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
