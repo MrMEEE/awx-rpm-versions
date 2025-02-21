@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-h2-4.2.0-1.el9.src.rpm
+The lastest package built was python-hatch-1.14.0-1.el9.src.rpm
 
-The build completed at Fri Feb 21 12:12:39 PM CET 2025
+The build completed at Fri Feb 21 12:13:11 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-h2-4.2.0-1.el9.src.rpm.log)
+[Build Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
