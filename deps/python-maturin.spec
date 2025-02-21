@@ -72,6 +72,11 @@ sed -i "s|/usr/bin/maturin$|/usr/bin/maturin%{python3_pkgversion}|g" %{pyproject
 %check
 %pyproject_check_import
 
+%post
+alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
+
+%preun
+alternatives --remove maturin /usr/bin/maturin3.11
 
 %files -n python%{python3_pkgversion}-maturin -f %{pyproject_files}
 
