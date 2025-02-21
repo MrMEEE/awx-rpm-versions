@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-rpds-py-0.22.3-1.el9.src.rpm
 
-The build completed at Fri Feb 21 01:01:30 PM CET 2025
+The build completed at Fri Feb 21 01:02:56 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
@@ -199,7 +199,7 @@ python3.11-requests-oauthlib-2.0.0-1.el9 | python-requests-oauthlib-2.0.0-1.el9.
 python3.11-requests-toolbelt-1.0.0-1.el9 | python-requests-toolbelt-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-requests-toolbelt-1.0.0-1.el9.src.rpm.log)
 python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-rfc3986-2.0.0-1.el9.src.rpm.log)
 python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | Built | [Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
-python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | **Missing** | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
+python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
@@ -244,4 +244,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-234 total packages, 208 packages built successfully, 26 packages left to fix
+234 total packages, 209 packages built successfully, 25 packages left to fix
