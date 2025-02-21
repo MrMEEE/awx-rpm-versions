@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %build
 %pyproject_wheel
-
+touch README.rst
 
 %install
 %pyproject_install
