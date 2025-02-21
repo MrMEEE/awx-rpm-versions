@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-babel-2.17.0-1.el9.src.rpm
+The lastest package built was python-jinja2-3.1.5-1.el9.src.rpm
 
-The build completed at Fri Feb 21 01:40:28 PM CET 2025
+The build completed at Fri Feb 21 01:41:06 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-babel-2.17.0-1.el9.src.rpm.log)
+[Build Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -122,7 +122,7 @@ python3.11-jaraco-logging-3.3.0-1.el9 | python-jaraco-logging-3.3.0-1.el9.src.rp
 python3.11-jaraco-stream-3.0.4-1.el9 | python-jaraco-stream-3.0.4-1.el9.src.rpm | Built | [Log](logs/python-jaraco-stream-3.0.4-1.el9.src.rpm.log)
 python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-text-4.0.0-1.el9.src.rpm.log)
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
-python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | **Missing** | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
+python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-1.1-1.el9.src.rpm.log)
 python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jsonschema-4.23.0-1.el9.src.rpm.log)
@@ -245,4 +245,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-235 total packages, 212 packages built successfully, 23 packages left to fix
+235 total packages, 213 packages built successfully, 22 packages left to fix
