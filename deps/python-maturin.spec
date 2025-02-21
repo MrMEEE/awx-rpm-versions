@@ -53,6 +53,12 @@ Summary:        %{summary}
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 
+%post
+alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
+
+%preun
+alternatives --remove maturin /usr/bin/maturin3.11
+
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
 mv $RPM_BUILD_ROOT/usr/bin/maturin $RPM_BUILD_ROOT/usr/bin/maturin%{python3_pkgversion}
@@ -71,12 +77,6 @@ sed -i "s|/usr/bin/maturin$|/usr/bin/maturin%{python3_pkgversion}|g" %{pyproject
 
 %check
 %pyproject_check_import
-
-%post
-alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
-
-%preun
-alternatives --remove maturin /usr/bin/maturin3.11
 
 %files -n python%{python3_pkgversion}-maturin -f %{pyproject_files}
 
