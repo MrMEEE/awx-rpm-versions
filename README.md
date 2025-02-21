@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-referencing-0.35.1-1.el9.src.rpm
+The lastest package built was python-charset-normalizer-3.4.1-1.el9.src.rpm
 
-The build completed at Fri Feb 21 01:06:03 PM CET 2025
+The build completed at Fri Feb 21 01:31:36 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-referencing-0.35.1-1.el9.src.rpm.log)
+[Build Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
