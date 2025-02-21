@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.3.2-1.el9.src.rpm
+The lastest package built was python-masonry-0.1.2-1.el9.src.rpm
 
-The build completed at Fri Feb 21 12:27:20 PM CET 2025
+The build completed at Fri Feb 21 12:50:46 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-masonry-0.1.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -133,6 +133,7 @@ python3.11-lockfile-0.12.2-1.el9 | python-lockfile-0.12.2-1.el9.src.rpm | Built 
 python3.11-markdown-3.7-1.el9 | python-markdown-3.7-1.el9.src.rpm | Built | [Log](logs/python-markdown-3.7-1.el9.src.rpm.log)
 python3.11-markdown-it-py-3.0.0-1.el9 | python-markdown-it-py-3.0.0-1.el9.src.rpm | Built | [Log](logs/python-markdown-it-py-3.0.0-1.el9.src.rpm.log)
 python3.11-markupsafe-3.0.2-1.el9 | python-markupsafe-3.0.2-1.el9.src.rpm | Built | [Log](logs/python-markupsafe-3.0.2-1.el9.src.rpm.log)
+python3.11-masonry-0.1.2-1.el9 | python-masonry-0.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-masonry-0.1.2-1.el9.src.rpm.log)
 python3.11-maturin-1.7.8-1.el9 | python-maturin-1.7.8-1.el9.src.rpm | Built | [Log](logs/python-maturin-1.7.8-1.el9.src.rpm.log)
 python3.11-mdurl-0.1.2-1.el9 | python-mdurl-0.1.2-1.el9.src.rpm | Built | [Log](logs/python-mdurl-0.1.2-1.el9.src.rpm.log)
 python3.11-more-itertools-10.5.0-1.el9 | python-more-itertools-10.5.0-1.el9.src.rpm | Built | [Log](logs/python-more-itertools-10.5.0-1.el9.src.rpm.log)
@@ -244,4 +245,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-234 total packages, 208 packages built successfully, 26 packages left to fix
+235 total packages, 208 packages built successfully, 27 packages left to fix
