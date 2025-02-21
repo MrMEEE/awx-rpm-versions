@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-priority-1.3.0-1.el9.src.rpm
+The lastest package built was python-twisted-24.11.0-1.el9.src.rpm
 
-The build completed at Fri Feb 21 02:49:20 PM CET 2025
+The build completed at Fri Feb 21 02:50:32 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
+[Build Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
