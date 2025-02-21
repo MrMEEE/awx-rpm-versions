@@ -35,12 +35,14 @@ Summary:        %{summary}
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
 
 %post -n python%{python3_pkgversion}-maturin
-echo "Adding Alternative"
+if [[ "$1" ==  "1" ]]; then
 alternatives --install /usr/bin/maturin maturin /usr/bin/maturin3.11 10
+fi
 
-%pre -n python%{python3_pkgversion}-maturin
-echo "Removing Alternative"
+%preun -n python%{python3_pkgversion}-maturin
+if [[ "$1" ==  "0" ]]; then
 alternatives --remove maturin /usr/bin/maturin3.11
+fi
 
 %prep
 %autosetup -p1 -n maturin-%{version}
