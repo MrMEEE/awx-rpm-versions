@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-kubernetes-31.0.0-1.el9.src.rpm
+The lastest package built was python-openshift-0.13.2-1.el9.src.rpm
 
-The build completed at Fri Feb 21 02:26:22 PM CET 2025
+The build completed at Fri Feb 21 02:26:59 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-kubernetes-31.0.0-1.el9.src.rpm.log)
+[Build Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -148,7 +148,7 @@ python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.
 python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
 python3.11-ninja-1.11.1.3-1.el9 | python-ninja-1.11.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
-python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | **Missing** | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
+python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-exporter-otlp-1.29.0-1.el9.src.rpm.log)
 python3.11-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9 | python-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-exporter-otlp-proto-common-1.29.0-1.el9.src.rpm.log)
@@ -247,4 +247,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-237 total packages, 222 packages built successfully, 15 packages left to fix
+237 total packages, 223 packages built successfully, 14 packages left to fix
