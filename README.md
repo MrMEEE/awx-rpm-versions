@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-docutils-0.21.2-1.el9.src.rpm
+The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
 
-The build completed at Sun Feb 23 09:31:36 PM CET 2025
+The build completed at Sun Feb 23 09:32:06 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
+[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
