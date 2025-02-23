@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ninja-1.11.1.3-1.el9.src.rpm
+The lastest package built was python-twine-6.1.0-1.el9.src.rpm
 
-The build completed at Sun Feb 23 06:43:04 PM CET 2025
+The build completed at Sun Feb 23 06:43:34 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
+[Build Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
