@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-asciichartpy-1.5.25-1.el9.src.rpm
+The lastest package built was python-async-timeout-5.0.1-1.el9.src.rpm
 
-The build completed at Mon Feb 24 10:17:50 AM CET 2025
+The build completed at Mon Feb 24 10:19:15 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
+[Build Log](logs/python-async-timeout-5.0.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -23,6 +23,7 @@ python3.11-argon2-cffi-bindings-21.2.0-1.el9 | python-argon2-cffi-bindings-21.2.
 python3.11-asciichartpy-1.5.25-1.el9 | python-asciichartpy-1.5.25-1.el9.src.rpm | Built | [Log](logs/python-asciichartpy-1.5.25-1.el9.src.rpm.log)
 python3.11-asgiref-3.8.1-1.el9 | python-asgiref-3.8.1-1.el9.src.rpm | Built | [Log](logs/python-asgiref-3.8.1-1.el9.src.rpm.log)
 python3.11-asn1-2.7.1-1.el9 | python-asn1-2.7.1-1.el9.src.rpm | Built | [Log](logs/python-asn1-2.7.1-1.el9.src.rpm.log)
+python3.11-async-timeout-5.0.1-1.el9 | python-async-timeout-5.0.1-1.el9.src.rpm | Built | [Log](logs/python-async-timeout-5.0.1-1.el9.src.rpm.log)
 python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-attrs-24.3.0-1.el9.src.rpm.log)
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
@@ -248,4 +249,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-238 total packages, 227 packages built successfully, 11 packages left to fix
+239 total packages, 228 packages built successfully, 11 packages left to fix
