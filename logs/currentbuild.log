@@ -47,11 +47,13 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                     43 MB/s | 332 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          19 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       25 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [         ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         26 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [               ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [                  ===                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             41 kB/s |  36 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                     48 MB/s | 335 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                 17% [===========                                                      ] 1.3 kB/s | 714  B     00:02 ETARed Hat Enterprise Linux - BaseOS                                                                                                         7.7 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                100% [=================================================================] 8.8 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                  0% [                                                                 ] 8.8 kB/s |   0  B     00:00 ETARed Hat Enterprise Linux - BaseOS                                 14% [=========                                                        ] 1.1 MB/s | 5.6 MB     00:30 ETARed Hat Enterprise Linux - BaseOS                                 51% [=================================-                               ] 4.1 MB/s |  21 MB     00:04 ETARed Hat Enterprise Linux - BaseOS                                100% [=================================================================] 7.2 MB/s |  40 MB     00:00 ETARed Hat Enterprise Linux - BaseOS                                  0% [                                                                 ] 7.2 MB/s |   0  B     00:05 ETARed Hat Enterprise Linux - BaseOS                                 88% [=========================================================-       ]  15 MB/s |  40 MB     00:00 ETARed Hat Enterprise Linux - BaseOS                                 93% [============================================================-    ]  14 MB/s |  43 MB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                          12 MB/s |  46 MB     00:03    
+Red Hat Enterprise Linux - AppStream                                  [         ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [            ===                                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                  [               ===                                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                              26% [=================                                                ]  39 MB/s |  13 MB     00:00 ETARed Hat Enterprise Linux - AppStream                              73% [===============================================-                 ]  42 MB/s |  37 MB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                       30 MB/s |  50 MB     00:01    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [                  ===                                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [                     ===                                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [                        ===                                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             59 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ==========================================================================================================================================================================
  Package                                            Architecture                  Version                                  Repository                                Size
@@ -168,13 +170,13 @@ Start: rpmbuild python-docutils-0.21.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.SwxmDL
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.HIU7dw
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
 + rm -rf docutils-0.21.2
-+ /usr/bin/tar -xof -
 + /usr/bin/gzip -dc /builddir/build/SOURCES/docutils-0.21.2.tar.gz
++ /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
 + cd docutils-0.21.2
@@ -182,7 +184,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.SwxmDL
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.3VZzsU
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.UPP0QF
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -217,10 +219,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       22 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         25 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             72 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          22 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       26 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         27 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             60 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -260,7 +262,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LClbPS
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QeyGFk
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -297,10 +299,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          21 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       26 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          22 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       24 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         27 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             75 kB/s |  36 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                    44% [============================-                                    ]  47 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             52 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -339,7 +341,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.g1U13K
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1d57CL
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -380,10 +382,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                100% [=================================================================] 9.5 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                         9.5 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                             100% [=================================================================]  13 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                                                                       13 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                 17% [===========                                                      ] 2.3 kB/s | 719  B     00:01 ETARed Hat Enterprise Linux - BaseOS                                                                                                          13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       19 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         17 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             68 kB/s |  36 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             75 kB/s |  36 kB     00:00    
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -396,7 +398,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Si8sqG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.EcHVpv
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -428,7 +430,7 @@ removed directory 'docutils-0.21.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.6TXU7T
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Pl6OI2
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -451,7 +453,7 @@ Successfully built docutils
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.XV8jjP
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.6JAwzn
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64 '!=' / ']'
@@ -460,9 +462,9 @@ Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.XV8jjP
 + mkdir -p /builddir/build/BUILDROOT
 + mkdir /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64
 + cd docutils-0.21.2
-++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-++ xargs basename --multiple
 ++ ls /builddir/build/BUILD/docutils-0.21.2/pyproject-wheeldir-3.11/docutils-0.21.2-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
 + specifier=docutils==0.21.2
 + '[' -z docutils==0.21.2 ']'
 + TMPDIR=/builddir/build/BUILD/docutils-0.21.2/.pyproject-builddir-3.11
@@ -607,20 +609,20 @@ Renaming rst2xml to rst2xml3.11
 + cd /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/
 ++ cat /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/listfiles
 + for i in `cat $RPM_BUILD_ROOT/listfiles`
-Renaming: docutils to docutils3.11
 ++ echo docutils
+Renaming: docutils to docutils3.11
 + echo 'Renaming: docutils to docutils3.11'
 ++ echo docutils
 + sed -i 's|/usr/bin/docutils$|/usr/bin/docutils3.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
 + for i in `cat $RPM_BUILD_ROOT/listfiles`
-Renaming: rst2html to rst2html3.11
 ++ echo rst2html
+Renaming: rst2html to rst2html3.11
 + echo 'Renaming: rst2html to rst2html3.11'
 ++ echo rst2html
 + sed -i 's|/usr/bin/rst2html$|/usr/bin/rst2html3.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
 + for i in `cat $RPM_BUILD_ROOT/listfiles`
-Renaming: rst2html4 to rst2html43.11
 ++ echo rst2html4
+Renaming: rst2html4 to rst2html43.11
 + echo 'Renaming: rst2html4 to rst2html43.11'
 ++ echo rst2html4
 + sed -i 's|/usr/bin/rst2html4$|/usr/bin/rst2html43.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
@@ -655,8 +657,8 @@ Renaming: rst2pseudoxml to rst2pseudoxml3.11
 ++ echo rst2pseudoxml
 + sed -i 's|/usr/bin/rst2pseudoxml$|/usr/bin/rst2pseudoxml3.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
 + for i in `cat $RPM_BUILD_ROOT/listfiles`
-Renaming: rst2s5 to rst2s53.11
 ++ echo rst2s5
+Renaming: rst2s5 to rst2s53.11
 + echo 'Renaming: rst2s5 to rst2s53.11'
 ++ echo rst2s5
 + sed -i 's|/usr/bin/rst2s5$|/usr/bin/rst2s53.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
@@ -673,399 +675,6 @@ Renaming: rst2xml to rst2xml3.11
 ++ echo rst2xml
 + sed -i 's|/usr/bin/rst2xml$|/usr/bin/rst2xml3.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
 + rm -f /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/listfiles
-+ cat /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
-%dir /usr/lib/python3.11/site-packages/docutils
-%dir /usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info
-%dir /usr/lib/python3.11/site-packages/docutils/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/languages
-%dir /usr/lib/python3.11/site-packages/docutils/languages/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/parsers
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/directives
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/include
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/languages
-%dir /usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/readers
-%dir /usr/lib/python3.11/site-packages/docutils/readers/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/transforms
-%dir /usr/lib/python3.11/site-packages/docutils/transforms/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/utils
-%dir /usr/lib/python3.11/site-packages/docutils/utils/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/utils/math
-%dir /usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers
-%dir /usr/lib/python3.11/site-packages/docutils/writers/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/html4css1
-%dir /usr/lib/python3.11/site-packages/docutils/writers/html4css1/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot
-%dir /usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/latex2e
-%dir /usr/lib/python3.11/site-packages/docutils/writers/latex2e/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/odf_odt
-%dir /usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/pep_html
-%dir /usr/lib/python3.11/site-packages/docutils/writers/pep_html/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/__pycache__
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-white
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-black
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-white
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-black
-%dir /usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-white
-%dir /usr/lib/python3.11/site-packages/docutils/writers/xetex
-%dir /usr/lib/python3.11/site-packages/docutils/writers/xetex/__pycache__
-/usr/bin/docutils3.11
-/usr/bin/rst2html3.11
-/usr/bin/rst2html43.11
-/usr/bin/rst2html53.11
-/usr/bin/rst2latex3.11
-/usr/bin/rst2man3.11
-/usr/bin/rst2odt3.11
-/usr/bin/rst2pseudoxml3.11
-/usr/bin/rst2s53.11
-/usr/bin/rst2xetex3.11
-/usr/bin/rst2xml3.11
-/usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info/COPYING.txt
-/usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info/INSTALLER
-/usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info/METADATA
-/usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info/WHEEL
-/usr/lib/python3.11/site-packages/docutils-0.21.2.dist-info/entry_points.txt
-/usr/lib/python3.11/site-packages/docutils/__init__.py
-/usr/lib/python3.11/site-packages/docutils/__main__.py
-/usr/lib/python3.11/site-packages/docutils/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/__main__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/core.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/examples.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/frontend.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/io.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/nodes.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/__pycache__/statemachine.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/core.py
-/usr/lib/python3.11/site-packages/docutils/docutils.conf
-/usr/lib/python3.11/site-packages/docutils/examples.py
-/usr/lib/python3.11/site-packages/docutils/frontend.py
-/usr/lib/python3.11/site-packages/docutils/io.py
-/usr/lib/python3.11/site-packages/docutils/languages/__init__.py
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/af.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ar.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ca.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/cs.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/da.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/de.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/en.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/eo.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/es.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/fa.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/fi.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/fr.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/gl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/he.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/it.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ja.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ka.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ko.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/lt.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/lv.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/nl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/pl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/pt_br.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/ru.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/sk.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/sv.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/uk.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/zh_cn.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/__pycache__/zh_tw.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/languages/af.py
-/usr/lib/python3.11/site-packages/docutils/languages/ar.py
-/usr/lib/python3.11/site-packages/docutils/languages/ca.py
-/usr/lib/python3.11/site-packages/docutils/languages/cs.py
-/usr/lib/python3.11/site-packages/docutils/languages/da.py
-/usr/lib/python3.11/site-packages/docutils/languages/de.py
-/usr/lib/python3.11/site-packages/docutils/languages/en.py
-/usr/lib/python3.11/site-packages/docutils/languages/eo.py
-/usr/lib/python3.11/site-packages/docutils/languages/es.py
-/usr/lib/python3.11/site-packages/docutils/languages/fa.py
-/usr/lib/python3.11/site-packages/docutils/languages/fi.py
-/usr/lib/python3.11/site-packages/docutils/languages/fr.py
-/usr/lib/python3.11/site-packages/docutils/languages/gl.py
-/usr/lib/python3.11/site-packages/docutils/languages/he.py
-/usr/lib/python3.11/site-packages/docutils/languages/it.py
-/usr/lib/python3.11/site-packages/docutils/languages/ja.py
-/usr/lib/python3.11/site-packages/docutils/languages/ka.py
-/usr/lib/python3.11/site-packages/docutils/languages/ko.py
-/usr/lib/python3.11/site-packages/docutils/languages/lt.py
-/usr/lib/python3.11/site-packages/docutils/languages/lv.py
-/usr/lib/python3.11/site-packages/docutils/languages/nl.py
-/usr/lib/python3.11/site-packages/docutils/languages/pl.py
-/usr/lib/python3.11/site-packages/docutils/languages/pt_br.py
-/usr/lib/python3.11/site-packages/docutils/languages/ru.py
-/usr/lib/python3.11/site-packages/docutils/languages/sk.py
-/usr/lib/python3.11/site-packages/docutils/languages/sv.py
-/usr/lib/python3.11/site-packages/docutils/languages/uk.py
-/usr/lib/python3.11/site-packages/docutils/languages/zh_cn.py
-/usr/lib/python3.11/site-packages/docutils/languages/zh_tw.py
-/usr/lib/python3.11/site-packages/docutils/nodes.py
-/usr/lib/python3.11/site-packages/docutils/parsers/__init__.py
-/usr/lib/python3.11/site-packages/docutils/parsers/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/__pycache__/commonmark_wrapper.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/__pycache__/null.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/__pycache__/recommonmark_wrapper.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/commonmark_wrapper.py
-/usr/lib/python3.11/site-packages/docutils/parsers/null.py
-/usr/lib/python3.11/site-packages/docutils/parsers/recommonmark_wrapper.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/__init__.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/__pycache__/roles.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/__pycache__/states.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/__pycache__/tableparser.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__init__.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/admonitions.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/body.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/html.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/images.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/misc.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/parts.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/references.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/__pycache__/tables.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/admonitions.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/body.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/html.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/images.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/misc.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/parts.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/references.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/directives/tables.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/README.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsa.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsb.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsc.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsn.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamso.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isoamsr.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isobox.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isocyr1.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isocyr2.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isodia.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk1.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk2.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk3.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk4-wide.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isogrk4.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isolat1.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isolat2.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomfrk-wide.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomfrk.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomopf-wide.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomopf.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomscr-wide.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isomscr.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isonum.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isopub.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/isotech.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlalias.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlextra-wide.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/mmlextra.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/s5defs.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-lat1.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-special.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/include/xhtml1-symbol.txt
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__init__.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/af.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ar.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ca.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/cs.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/da.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/de.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/en.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/eo.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/es.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/fa.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/fi.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/fr.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/gl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/he.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/it.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ja.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ka.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ko.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/lt.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/lv.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/nl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/pl.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/pt_br.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/ru.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/sk.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/sv.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/uk.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/zh_cn.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/zh_tw.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/af.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ar.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ca.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/cs.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/da.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/de.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/en.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/eo.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/es.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/fa.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/fi.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/fr.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/gl.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/he.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/it.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ja.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ka.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ko.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/lt.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/lv.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/nl.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/pl.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/pt_br.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ru.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/sk.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/sv.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/uk.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_cn.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_tw.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/roles.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/states.py
-/usr/lib/python3.11/site-packages/docutils/parsers/rst/tableparser.py
-/usr/lib/python3.11/site-packages/docutils/readers/__init__.py
-/usr/lib/python3.11/site-packages/docutils/readers/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/readers/__pycache__/doctree.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/readers/__pycache__/pep.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/readers/__pycache__/standalone.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/readers/doctree.py
-/usr/lib/python3.11/site-packages/docutils/readers/pep.py
-/usr/lib/python3.11/site-packages/docutils/readers/standalone.py
-/usr/lib/python3.11/site-packages/docutils/statemachine.py
-/usr/lib/python3.11/site-packages/docutils/transforms/__init__.py
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/components.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/frontmatter.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/misc.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/parts.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/peps.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/references.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/universal.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/__pycache__/writer_aux.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/transforms/components.py
-/usr/lib/python3.11/site-packages/docutils/transforms/frontmatter.py
-/usr/lib/python3.11/site-packages/docutils/transforms/misc.py
-/usr/lib/python3.11/site-packages/docutils/transforms/parts.py
-/usr/lib/python3.11/site-packages/docutils/transforms/peps.py
-/usr/lib/python3.11/site-packages/docutils/transforms/references.py
-/usr/lib/python3.11/site-packages/docutils/transforms/universal.py
-/usr/lib/python3.11/site-packages/docutils/transforms/writer_aux.py
-/usr/lib/python3.11/site-packages/docutils/utils/__init__.py
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/code_analyzer.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/error_reporting.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/punctuation_chars.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/roman.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/smartquotes.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/__pycache__/urischemes.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/code_analyzer.py
-/usr/lib/python3.11/site-packages/docutils/utils/error_reporting.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/__init__.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/latex2mathml.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/math2html.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/mathalphabet2unichar.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/mathml_elements.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/tex2mathml_extern.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/tex2unichar.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/__pycache__/unichar2tex.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/utils/math/latex2mathml.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/math2html.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/mathalphabet2unichar.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/mathml_elements.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/tex2mathml_extern.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/tex2unichar.py
-/usr/lib/python3.11/site-packages/docutils/utils/math/unichar2tex.py
-/usr/lib/python3.11/site-packages/docutils/utils/punctuation_chars.py
-/usr/lib/python3.11/site-packages/docutils/utils/roman.py
-/usr/lib/python3.11/site-packages/docutils/utils/smartquotes.py
-/usr/lib/python3.11/site-packages/docutils/utils/urischemes.py
-/usr/lib/python3.11/site-packages/docutils/writers/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/_html_base.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/docutils_xml.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/manpage.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/null.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/__pycache__/pseudoxml.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/_html_base.py
-/usr/lib/python3.11/site-packages/docutils/writers/docutils_xml.py
-/usr/lib/python3.11/site-packages/docutils/writers/html4css1/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/html4css1/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/html4css1/html4css1.css
-/usr/lib/python3.11/site-packages/docutils/writers/html4css1/template.txt
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/italic-field-names.css
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/math.css
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/minimal.css
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/plain.css
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/responsive.css
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/template.txt
-/usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/tuftig.css
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/default.tex
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/docutils.sty
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/titlepage.tex
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/titlingpage.tex
-/usr/lib/python3.11/site-packages/docutils/writers/latex2e/xelatex.tex
-/usr/lib/python3.11/site-packages/docutils/writers/manpage.py
-/usr/lib/python3.11/site-packages/docutils/writers/null.py
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/prepstyles.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/pygmentsformatter.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/prepstyles.py
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/pygmentsformatter.py
-/usr/lib/python3.11/site-packages/docutils/writers/odf_odt/styles.odt
-/usr/lib/python3.11/site-packages/docutils/writers/pep_html/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/pep_html/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/pep_html/pep.css
-/usr/lib/python3.11/site-packages/docutils/writers/pep_html/template.txt
-/usr/lib/python3.11/site-packages/docutils/writers/pseudoxml.py
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/__pycache__/__init__.cpython-311{,.opt-?}.pyc
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/README.txt
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/__base__
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/framing.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-black/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-white/framing.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/big-white/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/framing.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/opera.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/outline.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/print.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/s5-core.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/slides.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/default/slides.js
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-black/__base__
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-black/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-white/framing.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/medium-white/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-black/__base__
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-black/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-white/framing.css
-/usr/lib/python3.11/site-packages/docutils/writers/s5_html/themes/small-white/pretty.css
-/usr/lib/python3.11/site-packages/docutils/writers/xetex/__init__.py
-/usr/lib/python3.11/site-packages/docutils/writers/xetex/__pycache__/__init__.cpython-311{,.opt-?}.pyc
 + /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.21.2-1.el9 --unique-debug-suffix -0.21.2-1.el9.x86_64 --unique-debug-src-base python-docutils-0.21.2-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/docutils-0.21.2
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
@@ -1089,6 +698,6 @@ Wrote: /builddir/build/SRPMS/python-docutils-0.21.2-1.el9.src.rpm
 Wrote: /builddir/build/RPMS/python3.11-docutils-0.21.2-1.el9.noarch.rpm
 Finish: rpmbuild python-docutils-0.21.2-1.el9.src.rpm
 Finish: build phase for python-docutils-0.21.2-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-docutils-0.21.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 26 seconds
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-docutils-0.21.2-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 42 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
