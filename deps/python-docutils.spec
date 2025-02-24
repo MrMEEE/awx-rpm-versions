@@ -63,7 +63,7 @@ fi
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
 ls | tee $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
-sed -i "/\/usr\/bin\/%{name}-binfiles/d" $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
+sed -i "/%{name}-binfiles/d" $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
 for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
 echo "Renaming $i to $(echo $i)%{python3_pkgversion}"
 mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$(echo $i)%{python3_pkgversion}
