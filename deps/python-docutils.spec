@@ -49,7 +49,8 @@ Summary:        %{summary}
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
-for i in `ls`;do
+ls \> $RPM_BUILD_ROOT/listfiles
+for i in `cat $RPM_BUILD_ROOT/listfiles`;do
 echo "Renaming $i to $(echo $i)%{python3_pkgversion}"
 mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$(echo $i)%{python3_pkgversion}
 done
@@ -60,7 +61,8 @@ done
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
-for i in `ls |sed "s/%{python3_pkgversion}//g"`;do
+#for i in `ls |sed "s/%{python3_pkgversion}//g"`;do
+for i in `cat $RPM_BUILD_ROOT/listfiles`;do
 echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
 sed -i "s|/usr/bin/$i|/usr/bin/$(echo $i)%{python3_pkgversion}|g" %{pyproject_files}
 done
