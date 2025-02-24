@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-async-timeout-5.0.1-1.el9.src.rpm
+The lastest package built was python-channels-redis-4.2.1-1.el9.src.rpm
 
-The build completed at Mon Feb 24 10:19:15 AM CET 2025
+The build completed at Mon Feb 24 10:20:01 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-async-timeout-5.0.1-1.el9.src.rpm.log)
+[Build Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -50,7 +50,7 @@ python3.11-calver-2022.6.26-1.el9 | python-calver-2022.6.26-1.el9.src.rpm | Buil
 python3.11-certifi-2025.1.31-1.el9 | python-certifi-2025.1.31-1.el9.src.rpm | Built | [Log](logs/python-certifi-2025.1.31-1.el9.src.rpm.log)
 python3.11-cffi-1.17.1-1.el9 | python-cffi-1.17.1-1.el9.src.rpm | Built | [Log](logs/python-cffi-1.17.1-1.el9.src.rpm.log)
 python3.11-channels-4.2.0-1.el9 | python-channels-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-channels-4.2.0-1.el9.src.rpm.log)
-python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | **Missing** | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
+python3.11-channels-redis-4.2.1-1.el9 | python-channels-redis-4.2.1-1.el9.src.rpm | Built | [Log](logs/python-channels-redis-4.2.1-1.el9.src.rpm.log)
 python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
@@ -249,4 +249,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-239 total packages, 228 packages built successfully, 11 packages left to fix
+239 total packages, 229 packages built successfully, 10 packages left to fix
