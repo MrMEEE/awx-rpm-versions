@@ -50,7 +50,7 @@ Summary:        %{summary}
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
 for i in `ls`;do
-echo "Renaming $i to $i3%{python3_pkgversion}"
+echo "Renaming $i to $($i)3%{python3_pkgversion}"
 mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$i3%{python3_pkgversion}
 done
 %endif
