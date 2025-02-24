@@ -73,6 +73,7 @@ done
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
+ls -la $RPM_BUILD_ROOT/usr/bin/
 cd $RPM_BUILD_ROOT/usr/bin/
 for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
 echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
