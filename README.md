@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-twine-6.1.0-1.el9.src.rpm
+The lastest package built was python-uv-0.2.30-1.el9.src.rpm
 
-The build completed at Mon Feb 24 10:08:02 AM CET 2025
+The build completed at Mon Feb 24 10:09:22 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
+[Build Log](logs/python-uv-0.2.30-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
