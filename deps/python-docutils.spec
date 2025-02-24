@@ -60,7 +60,7 @@ done
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
-for i in `ls |sed "s/3%{python3_pkgversion}//g"`;do
+for i in `ls |sed "s/%{python3_pkgversion}//g"`;do
 echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
 sed -i "s|/usr/bin/$i|/usr/bin/$(echo $i)%{python3_pkgversion}|g" %{pyproject_files}
 done
