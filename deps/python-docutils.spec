@@ -51,6 +51,7 @@ Summary:        %{summary}
 cd $RPM_BUILD_ROOT/usr/bin/
 for i in `ls`;do
 mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$i%{python3_pkgversion}
+done
 %endif
 # END RENAMING OF BINARIES 1
 
