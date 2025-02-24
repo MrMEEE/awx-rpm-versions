@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                   42 MB/s | 331 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                   46 MB/s | 331 kB     00:00    
 Red Hat Enterprise Linux - BaseOS            [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream    100% [========================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                     15 kB/s | 4.5 kB     00:00    
 Red Hat Enterprise Linux - CodeReady Lin     [         ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       20 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           68 kB/s |  40 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [               ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           67 kB/s |  40 kB     00:00    
 Dependencies resolved.
 ========================================================================================================================
  Package                               Architecture     Version                       Repository                   Size
@@ -171,7 +171,7 @@ Start: rpmbuild python-asciichartpy-1.5.25-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Gc2b7M
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.mrzv0u
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -185,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Gc2b7M
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZsW85a
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GeuMOb
 + umask 022
 + cd /builddir/build/BUILD
 + cd asciichartpy-1.5.25
@@ -222,10 +222,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/       [===                                     ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                  2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS       100% [========================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                        13 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       23 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           84 kB/s |  40 kB     00:00    
+Red Hat Enterprise Linux - BaseOS            [===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                        17 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream         [   ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                     20 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Lin     [      ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                       16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 -      [         ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 -      [            ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                           63 kB/s |  40 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -272,7 +272,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.08NHil
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.gY31Br
 + umask 022
 + cd /builddir/build/BUILD
 + cd asciichartpy-1.5.25
@@ -323,11 +323,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/builddir/build/BUILD/a
 
 
 RPM build errors:
-error: Bad exit status from /var/tmp/rpm-tmp.08NHil (%generate_buildrequires)
-    Bad exit status from /var/tmp/rpm-tmp.08NHil (%generate_buildrequires)
+error: Bad exit status from /var/tmp/rpm-tmp.gY31Br (%generate_buildrequires)
+    Bad exit status from /var/tmp/rpm-tmp.gY31Br (%generate_buildrequires)
 Finish: rpmbuild python-asciichartpy-1.5.25-1.el9.src.rpm
 Finish: build phase for python-asciichartpy-1.5.25-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-asciichartpy-1.5.25-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 17 seconds
+ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-asciichartpy-1.5.25-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 15 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
  # ['bash', '--login', '-c', '/usr/bin/rpmbuild -br --noprep --noclean --target x86_64 --nodeps /builddir/build/SPECS/python-asciichartpy.spec --nocheck']
