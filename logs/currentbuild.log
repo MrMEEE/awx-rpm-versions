@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                     44 MB/s | 332 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          14 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [         ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [               ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [                  ===                                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             39 kB/s |  36 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                     46 MB/s | 332 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [         ===                                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [               ===                                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             60 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ==========================================================================================================================================================================
  Package                                            Architecture                  Version                                  Repository                                Size
@@ -168,7 +168,7 @@ Start: rpmbuild python-docutils-0.21.2-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.VUuTEr
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.LBSNw2
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -182,7 +182,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.VUuTEr
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.TtUVWZ
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Wpwhmu
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -218,9 +218,9 @@ This system is not registered with an entitlement server. You can use subscripti
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
 Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder               100% [=================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             75 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         20 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             74 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -260,7 +260,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ZYyvwj
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WlAZad
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -297,9 +297,9 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                100% [=================================================================]  10 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                          10 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         21 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       23 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         23 kB/s | 4.5 kB     00:00    
 Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             63 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -339,7 +339,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.WL5zRK
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LBSENX
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -380,10 +380,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                [===                                                              ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                    2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          19 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                     [===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                          21 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                  [   ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                       23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         22 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             68 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                    [      ===                                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                         23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                        [         ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                        [            ===                                                  ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                    44% [============================-                                    ]  45 kB/s |  16 kB     00:00 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                             50 kB/s |  36 kB     00:00    
 Package python3.11-flit-core-3.9.0-4.el9.noarch is already installed.
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -396,7 +396,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740355200
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.LJbol6
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.oXsb4i
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -428,7 +428,7 @@ removed directory 'docutils-0.21.2.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.bGetko
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.5XG9je
 + umask 022
 + cd /builddir/build/BUILD
 + cd docutils-0.21.2
@@ -451,7 +451,7 @@ Successfully built docutils
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.8Dd1Rp
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.hkyFxM
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64 '!=' / ']'
@@ -524,76 +524,142 @@ removed '/builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/lib/p
 + cd /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/
 ++ ls
 + for i in `ls`
-++ docutils
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: docutils: command not found
-Renaming docutils to 33.11
-+ echo 'Renaming docutils to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/docutils /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo docutils
+Renaming docutils to docutils3.11
++ echo 'Renaming docutils to docutils3.11'
+++ echo docutils
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/docutils /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/docutils3.11
 + for i in `ls`
-++ rst2html
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2html: command not found
-Renaming rst2html to 33.11
-+ echo 'Renaming rst2html to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2html
+Renaming rst2html to rst2html3.11
++ echo 'Renaming rst2html to rst2html3.11'
+++ echo rst2html
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html3.11
 + for i in `ls`
-++ rst2html4
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2html4: command not found
-Renaming rst2html4 to 33.11
-+ echo 'Renaming rst2html4 to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html4 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2html4
+Renaming rst2html4 to rst2html43.11
++ echo 'Renaming rst2html4 to rst2html43.11'
+++ echo rst2html4
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html4 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html43.11
 + for i in `ls`
-++ rst2html5
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2html5: command not found
-Renaming rst2html5 to 33.11
-+ echo 'Renaming rst2html5 to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html5 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2html5
+Renaming rst2html5 to rst2html53.11
++ echo 'Renaming rst2html5 to rst2html53.11'
+++ echo rst2html5
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html5 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2html53.11
 + for i in `ls`
-++ rst2latex
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2latex: command not found
-Renaming rst2latex to 33.11
-+ echo 'Renaming rst2latex to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2latex /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2latex
+Renaming rst2latex to rst2latex3.11
++ echo 'Renaming rst2latex to rst2latex3.11'
+++ echo rst2latex
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2latex /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2latex3.11
 + for i in `ls`
-++ rst2man
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2man: command not found
-Renaming rst2man to 33.11
-+ echo 'Renaming rst2man to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2man /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2man
+Renaming rst2man to rst2man3.11
++ echo 'Renaming rst2man to rst2man3.11'
+++ echo rst2man
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2man /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2man3.11
 + for i in `ls`
-++ rst2odt
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2odt: command not found
-Renaming rst2odt to 33.11
-+ echo 'Renaming rst2odt to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2odt /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2odt
+Renaming rst2odt to rst2odt3.11
++ echo 'Renaming rst2odt to rst2odt3.11'
+++ echo rst2odt
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2odt /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2odt3.11
 + for i in `ls`
-++ rst2pseudoxml
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2pseudoxml: command not found
-Renaming rst2pseudoxml to 33.11
-+ echo 'Renaming rst2pseudoxml to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2pseudoxml /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2pseudoxml
+Renaming rst2pseudoxml to rst2pseudoxml3.11
++ echo 'Renaming rst2pseudoxml to rst2pseudoxml3.11'
+++ echo rst2pseudoxml
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2pseudoxml /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2pseudoxml3.11
 + for i in `ls`
-++ rst2s5
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2s5: command not found
-Renaming rst2s5 to 33.11
-+ echo 'Renaming rst2s5 to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2s5 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2s5
+Renaming rst2s5 to rst2s53.11
++ echo 'Renaming rst2s5 to rst2s53.11'
+++ echo rst2s5
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2s5 /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2s53.11
 + for i in `ls`
-++ rst2xetex
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2xetex: command not found
-Renaming rst2xetex to 33.11
-+ echo 'Renaming rst2xetex to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xetex /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2xetex
+Renaming rst2xetex to rst2xetex3.11
++ echo 'Renaming rst2xetex to rst2xetex3.11'
+++ echo rst2xetex
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xetex /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xetex3.11
 + for i in `ls`
-++ rst2xml
-/var/tmp/rpm-tmp.8Dd1Rp: line 88: rst2xml: command not found
-Renaming rst2xml to 33.11
-+ echo 'Renaming rst2xml to 33.11'
-+ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xml /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/.11
+++ echo rst2xml
+Renaming rst2xml to rst2xml3.11
++ echo 'Renaming rst2xml to rst2xml3.11'
+++ echo rst2xml
++ mv /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xml /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/rst2xml3.11
 + RPM_PERCENTAGES_COUNT=8
 + /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
 + cd /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/usr/bin/
-++ sed s/33.11//g
 ++ ls
+++ sed s/33.11//g
++ for i in `ls |sed "s/33.11//g"`
+++ echo docutils3.11
+Renaming: docutils3.11 to docutils3.113.11
++ echo 'Renaming: docutils3.11 to docutils3.113.11'
+++ echo docutils3.11
++ sed -i 's|/usr/bin/docutils3.11|/usr/bin/docutils3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2html3.11
+Renaming: rst2html3.11 to rst2html3.113.11
++ echo 'Renaming: rst2html3.11 to rst2html3.113.11'
+++ echo rst2html3.11
++ sed -i 's|/usr/bin/rst2html3.11|/usr/bin/rst2html3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2html43.11
+Renaming: rst2html43.11 to rst2html43.113.11
++ echo 'Renaming: rst2html43.11 to rst2html43.113.11'
+++ echo rst2html43.11
++ sed -i 's|/usr/bin/rst2html43.11|/usr/bin/rst2html43.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2html53.11
+Renaming: rst2html53.11 to rst2html53.113.11
++ echo 'Renaming: rst2html53.11 to rst2html53.113.11'
+++ echo rst2html53.11
++ sed -i 's|/usr/bin/rst2html53.11|/usr/bin/rst2html53.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2latex3.11
+Renaming: rst2latex3.11 to rst2latex3.113.11
++ echo 'Renaming: rst2latex3.11 to rst2latex3.113.11'
+++ echo rst2latex3.11
++ sed -i 's|/usr/bin/rst2latex3.11|/usr/bin/rst2latex3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2man3.11
+Renaming: rst2man3.11 to rst2man3.113.11
++ echo 'Renaming: rst2man3.11 to rst2man3.113.11'
+++ echo rst2man3.11
++ sed -i 's|/usr/bin/rst2man3.11|/usr/bin/rst2man3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2odt3.11
+Renaming: rst2odt3.11 to rst2odt3.113.11
++ echo 'Renaming: rst2odt3.11 to rst2odt3.113.11'
+++ echo rst2odt3.11
++ sed -i 's|/usr/bin/rst2odt3.11|/usr/bin/rst2odt3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2pseudoxml3.11
+Renaming: rst2pseudoxml3.11 to rst2pseudoxml3.113.11
++ echo 'Renaming: rst2pseudoxml3.11 to rst2pseudoxml3.113.11'
+++ echo rst2pseudoxml3.11
++ sed -i 's|/usr/bin/rst2pseudoxml3.11|/usr/bin/rst2pseudoxml3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2s53.11
+Renaming: rst2s53.11 to rst2s53.113.11
++ echo 'Renaming: rst2s53.11 to rst2s53.113.11'
+++ echo rst2s53.11
++ sed -i 's|/usr/bin/rst2s53.11|/usr/bin/rst2s53.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2xetex3.11
+Renaming: rst2xetex3.11 to rst2xetex3.113.11
++ echo 'Renaming: rst2xetex3.11 to rst2xetex3.113.11'
+++ echo rst2xetex3.11
++ sed -i 's|/usr/bin/rst2xetex3.11|/usr/bin/rst2xetex3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
++ for i in `ls |sed "s/33.11//g"`
+++ echo rst2xml3.11
+Renaming: rst2xml3.11 to rst2xml3.113.11
++ echo 'Renaming: rst2xml3.11 to rst2xml3.113.11'
+++ echo rst2xml3.11
++ sed -i 's|/usr/bin/rst2xml3.11|/usr/bin/rst2xml3.113.11|g' /builddir/build/BUILD/python-docutils-0.21.2-1.el9.x86_64-3.11-pyproject-files
 + rm -f /builddir/build/BUILDROOT/python-docutils-0.21.2-1.el9.x86_64/binfiles
 + /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.21.2-1.el9 --unique-debug-suffix -0.21.2-1.el9.x86_64 --unique-debug-src-base python-docutils-0.21.2-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/docutils-0.21.2
 find: 'debug': No such file or directory
@@ -640,5 +706,5 @@ Finish: build phase for python-docutils-0.21.2-1.el9.src.rpm
 ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-docutils-0.21.2-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 23 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M fa221ad50b0f44b09bef6796c8326ada -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.t2e8sjx8:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-docutils.spec --nocheck'
+ # /usr/bin/systemd-nspawn -q -M 8b31e6fc6acc4a548945eb8f60f60ac5 -D /var/lib/mock/rhel+epel-9-x86_64/root -a -u mockbuild --capability=cap_ipc_lock --bind=/tmp/mock-resolv.jvgytf3p:/etc/resolv.conf --bind=/dev/mapper/control --bind=/dev/fuse --bind=/dev/loop-control --bind=/dev/loop0 --bind=/dev/loop1 --bind=/dev/loop2 --bind=/dev/loop3 --bind=/dev/loop4 --bind=/dev/loop5 --bind=/dev/loop6 --bind=/dev/loop7 --bind=/dev/loop8 --bind=/dev/loop9 --bind=/dev/loop10 --bind=/dev/loop11 --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off bash --login -c '/usr/bin/rpmbuild -ba --noprep --noclean --target x86_64 /builddir/build/SPECS/python-docutils.spec --nocheck'
 
