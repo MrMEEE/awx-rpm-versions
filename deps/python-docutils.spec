@@ -48,6 +48,7 @@ Summary:        %{summary}
 
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
+ls -la $RPM_BUILD_ROOT/usr/bin/
 mv $RPM_BUILD_ROOT/usr/bin/docutils $RPM_BUILD_ROOT/usr/bin/docutils%{python3_pkgversion}
 #mv $RPM_BUILD_ROOT/usr/bin/rst2html.py $RPM_BUILD_ROOT/usr/bin/rst2html.py%{python3_pkgversion}
 mv $RPM_BUILD_ROOT/usr/bin/rst2html4.py $RPM_BUILD_ROOT/usr/bin/rst2html4.py%{python3_pkgversion}
