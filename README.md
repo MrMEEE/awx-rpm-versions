@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-hatch-1.14.0-1.el9.src.rpm
+The lastest package built was python-ninja-1.11.1.3-1.el9.src.rpm
 
-The build completed at Mon Feb 24 05:24:36 AM CET 2025
+The build completed at Mon Feb 24 05:25:12 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-hatch-1.14.0-1.el9.src.rpm.log)
+[Build Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
