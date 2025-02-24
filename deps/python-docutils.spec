@@ -27,20 +27,22 @@ This is package 'docutils' generated automatically by pyp2spec.}
 Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-docutils %_description
-
+# START ALTERNATIVES
 %post -n python%{python3_pkgversion}-docutils
-if [[ "$1" ==  "1" ]]; then
+if [[   "docutils" ==  "1" ]]; then
 for i in `cat /usr/bin/%{name}-binfiles`;do
-	alternatives --install /usr/bin/$i $i /usr/bin/${i}3.11 10
+        alternatives --install /usr/bin/$i $i /usr/bin/${i}3.11 10
 done
 fi
 
 %preun -n python%{python3_pkgversion}-docutils
-if [[ "$1" ==  "0" ]]; then
+if [[ "docutils" ==  "0" ]]; then
 for i in `cat /usr/bin/%{name}-binfiles`;do
-	alternatives --remove $i /usr/bin/${i}3.11
+        alternatives --remove $i /usr/bin/${i}3.11
 done
 fi
+# END ALTERNATIVES
+
 
 %prep
 %autosetup -p1 -n docutils-%{version}
@@ -59,6 +61,7 @@ fi
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
 
+
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
@@ -74,7 +77,6 @@ done
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
-ls -la $RPM_BUILD_ROOT/usr/bin/
 cd $RPM_BUILD_ROOT/usr/bin/
 for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
 echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
@@ -83,6 +85,7 @@ done
 echo /usr/bin/%{name}-binfiles >> %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
+
 
 
 %check
