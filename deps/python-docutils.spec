@@ -48,21 +48,20 @@ Summary:        %{summary}
 
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
-ls -la $RPM_BUILD_ROOT/usr/bin/
-mv $RPM_BUILD_ROOT/usr/bin/docutils $RPM_BUILD_ROOT/usr/bin/docutils%{python3_pkgversion}
-#mv $RPM_BUILD_ROOT/usr/bin/rst2html.py $RPM_BUILD_ROOT/usr/bin/rst2html.py%{python3_pkgversion}
-mv $RPM_BUILD_ROOT/usr/bin/rst2html4.py $RPM_BUILD_ROOT/usr/bin/rst2html4.py%{python3_pkgversion}
-mv $RPM_BUILD_ROOT/usr/bin/rst2html5.py $RPM_BUILD_ROOT/usr/bin/rst2html5.py%{python3_pkgversion}
+cd $RPM_BUILD_ROOT/usr/bin/
+ls > $RPM_BUILD_ROOT/binfiles
+for i in `cat $RPM_BUILD_ROOT/binfiles`;do
+mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$i%{python3_pkgversion}
 %endif
 # END RENAMING OF BINARIES 1
 
 %pyproject_save_files '*' +auto
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
-sed -i "s|/usr/bin/docutils$|/usr/bin/docutils%{python3_pkgversion}|g" %{pyproject_files}
-#sed -i "s|/usr/bin/rst2html.py$|/usr/bin/rst2html.py%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/rst2html4.py$|/usr/bin/rst2html4.py%{python3_pkgversion}|g" %{pyproject_files}
-sed -i "s|/usr/bin/rst2html5.py$|/usr/bin/rst2html5.py%{python3_pkgversion}|g" %{pyproject_files}
+for i in `cat $RPM_BUILD_ROOT/binfiles`;do
+sed -i "s|/usr/bin/$i|/usr/bin/$i%{python3_pkgversion}|g" %{pyproject_files}
+done
+rm -f $RPM_BUILD_ROOT/binfiles
 %endif
 # END RENAMING OF BINARIES 2
 
