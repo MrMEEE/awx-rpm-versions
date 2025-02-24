@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-docutils-0.21.2-1.el9.src.rpm
 
-The build completed at Mon Feb 24 12:58:19 PM CET 2025
+The build completed at Mon Feb 24 01:09:47 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
 [Build Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0

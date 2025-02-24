@@ -28,6 +28,19 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-docutils %_description
 
+%post -n python%{python3_pkgversion}-docutils
+if [[ "$1" ==  "1" ]]; then
+for i in `cat /usr/bin/%{name}-binfiles`;do
+	alternatives --install /usr/bin/$i $i /usr/bin/${i}3.11 10
+done
+fi
+
+%preun -n python%{python3_pkgversion}-docutils
+if [[ "$1" ==  "0" ]]; then
+for i in `cat /usr/bin/%{name}-binfiles`;do
+	alternatives --remove $i /usr/bin/${i}3.11
+done
+fi
 
 %prep
 %autosetup -p1 -n docutils-%{version}
@@ -49,8 +62,8 @@ Summary:        %{summary}
 # START RENAMING OF BINARIES 1
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
-ls | tee $RPM_BUILD_ROOT/listfiles
-for i in `cat $RPM_BUILD_ROOT/listfiles`;do
+ls | tee $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
+for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
 echo "Renaming $i to $(echo $i)%{python3_pkgversion}"
 mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$(echo $i)%{python3_pkgversion}
 done
@@ -61,15 +74,13 @@ done
 # START RENAMING OF BINARIES 2
 %if "%{python3_pkgversion}" != "3"
 cd $RPM_BUILD_ROOT/usr/bin/
-for i in `cat $RPM_BUILD_ROOT/listfiles`;do
+for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
 echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
 sed -i "s|/usr/bin/$i$|/usr/bin/$(echo $i)%{python3_pkgversion}|g" %{pyproject_files}
 done
-rm -f $RPM_BUILD_ROOT/listfiles
+echo /usr/bin/%{name}-binfiles >> %{pyproject_files}
 %endif
 # END RENAMING OF BINARIES 2
-
-
 
 
 %check
