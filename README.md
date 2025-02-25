@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-30.0.0-9.el9.src.rpm
+The lastest package built was python-setuptools_scm-8.1.0-1.el9.src.rpm
 
-The build completed at Tue Feb 25 01:40:15 PM CET 2025
+The build completed at Tue Feb 25 01:43:00 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/awx-rpm-30.0.0-9.el9.src.rpm.log)
+[Build Log](logs/python-setuptools_scm-8.1.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
