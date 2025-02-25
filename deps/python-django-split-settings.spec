@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-django-split-settings
-Version:        1.3.0
+Version:        1.0.0
 Release:        %autorelease
 Summary:        Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
 
@@ -10,7 +10,7 @@ Summary:        Organize Django settings into multiple files and directories. Ea
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
 URL:            https://django-split-settings.readthedocs.io
-Source:         %{pypi_source django_split_settings}
+Source:         %{pypi_source django-split-settings}
 
 BuildArch:      noarch
 
@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n django_split_settings-%{version}
+%autosetup -p1 -n django-split-settings-%{version}
 
 
 %generate_buildrequires
