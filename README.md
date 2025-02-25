@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-changelog-chug-0.0.3-1.el9.src.rpm
+The lastest package built was python-daemon-3.1.2-1.el9.src.rpm
 
-The build completed at Tue Feb 25 09:30:02 AM CET 2025
+The build completed at Tue Feb 25 09:33:27 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-changelog-chug-0.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -61,7 +61,7 @@ python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | 
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
 python3.11-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | Built | [Log](logs/python-cython-3.0.11-1.el9.src.rpm.log)
-python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | **Missing** | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
+python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
 python3.11-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
@@ -251,4 +251,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-241 total packages, 232 packages built successfully, 9 packages left to fix
+241 total packages, 233 packages built successfully, 8 packages left to fix
