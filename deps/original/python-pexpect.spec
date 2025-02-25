@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-pexpect
-Version:        4.7.0
+Version:        4.9.0
 Release:        %autorelease
 Summary:        Pexpect allows easy control of interactive console applications.
 
