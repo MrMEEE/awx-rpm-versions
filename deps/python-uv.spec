@@ -14,6 +14,7 @@ Source:         %{pypi_source uv}
 
 BuildArch:      noarch
 
+BuildRequires: cmake
 BuildRequires: cargo
 BuildRequires: rust
 BuildRequires:  python%{python3_pkgversion}-devel
