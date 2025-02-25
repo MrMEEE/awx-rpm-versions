@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -230,8 +230,6 @@ BuildRequires: python3.11-pbs-installer+all = 2025.2.12
 BuildRequires: python3.11-pbs-installer+download = 2025.2.12
 BuildRequires: python3.11-pbs-installer+install = 2025.2.12
 BuildRequires: python3.11-pdm-backend = 2.4.3
-BuildRequires: python3.11-pexpect = 4.7.0
-BuildRequires: python3.11-pexpect = 4.9.0
 BuildRequires: python3.11-pkgconfig = 1.5.5
 BuildRequires: python3.11-pkginfo = 1.12.1.2
 BuildRequires: python3.11-platformdirs = 4.3.6
@@ -330,7 +328,7 @@ BuildRequires: python3.11-yarl = 1.18.3
 BuildRequires: python3.11-zipp = 3.21.0
 BuildRequires: python3.11-zope-interface = 7.2
 BuildRequires: python3.11-zstandard = 0.23.0
-BuildRequires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 
+BuildRequires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 python3.11-pexpect 
 
 Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
@@ -519,8 +517,6 @@ Requires: python3.11-pbs-installer+all = 2025.2.12
 Requires: python3.11-pbs-installer+download = 2025.2.12
 Requires: python3.11-pbs-installer+install = 2025.2.12
 Requires: python3.11-pdm-backend = 2.4.3
-Requires: python3.11-pexpect = 4.7.0
-Requires: python3.11-pexpect = 4.9.0
 Requires: python3.11-pkgconfig = 1.5.5
 Requires: python3.11-pkginfo = 1.12.1.2
 Requires: python3.11-platformdirs = 4.3.6
@@ -619,7 +615,7 @@ Requires: python3.11-yarl = 1.18.3
 Requires: python3.11-zipp = 3.21.0
 Requires: python3.11-zope-interface = 7.2
 Requires: python3.11-zstandard = 0.23.0
-Requires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 
+Requires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 python3.11-pexpect 
 
 %{?systemd_requires}
 
@@ -772,6 +768,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 01:23:42 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Feb 25 2025 01:26:20 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
