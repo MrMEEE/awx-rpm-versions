@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-split-settings-1.3.2-1.el9.src.rpm
+The lastest package built was python-poetry-core-1.9.0-1.el9.src.rpm
 
-The build completed at Tue Feb 25 11:37:30 AM CET 2025
+The build completed at Tue Feb 25 12:09:40 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
+[Build Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -78,7 +78,6 @@ python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
-python3.11-django-split-settings-1.3.0-1.el9 | python-django-split-settings-1.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
@@ -174,6 +173,7 @@ python3.11-pkgconfig-1.5.5-1.el9 | python-pkgconfig-1.5.5-1.el9.src.rpm | Built 
 python3.11-pkginfo-1.12.1.2-1.el9 | python-pkginfo-1.12.1.2-1.el9.src.rpm | Built | [Log](logs/python-pkginfo-1.12.1.2-1.el9.src.rpm.log)
 python3.11-platformdirs-4.3.6-1.el9 | python-platformdirs-4.3.6-1.el9.src.rpm | Built | [Log](logs/python-platformdirs-4.3.6-1.el9.src.rpm.log)
 python3.11-poetry-2.1.1-1.el9 | python-poetry-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-2.1.1-1.el9.src.rpm.log)
+python3.11-poetry-core-1.9.0-1.el9 | python-poetry-core-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-1.9.0-1.el9.src.rpm.log)
 python3.11-poetry-core-2.1.1-1.el9 | python-poetry-core-2.1.1-1.el9.src.rpm | Built | [Log](logs/python-poetry-core-2.1.1-1.el9.src.rpm.log)
 python3.11-portalocker-2.10.1-1.el9 | python-portalocker-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-portalocker-2.10.1-1.el9.src.rpm.log)
 python3.11-priority-1.3.0-1.el9 | python-priority-1.3.0-1.el9.src.rpm | Built | [Log](logs/python-priority-1.3.0-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-243 total packages, 240 packages built successfully, 3 packages left to fix
+243 total packages, 241 packages built successfully, 2 packages left to fix

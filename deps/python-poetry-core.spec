@@ -2,7 +2,7 @@
 %global python3_pkgversion 3.11
 
 Name:           python-poetry-core
-Version:        2.1.1
+Version:        1.9.0
 Release:        %autorelease
 Summary:        Poetry PEP 517 Build Backend
 
