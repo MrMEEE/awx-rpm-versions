@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 3%{dist}
+Release: 4%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -119,7 +119,6 @@ BuildRequires: python3.11-django-polymorphic = 3.1.0
 BuildRequires: python3.11-djangorestframework = 3.15.2
 BuildRequires: python3.11-djangorestframework-yaml = 2.0.0
 BuildRequires: python3.11-django-solo = 2.4.0
-BuildRequires: python3.11-django-split-settings = 1.0.0
 BuildRequires: python3.11-django-split-settings = 1.3.2
 BuildRequires: python3.11-docutils = 0.21.2
 BuildRequires: python3.11-dulwich = 0.22.7
@@ -410,7 +409,6 @@ Requires: python3.11-django-polymorphic = 3.1.0
 Requires: python3.11-djangorestframework = 3.15.2
 Requires: python3.11-djangorestframework-yaml = 2.0.0
 Requires: python3.11-django-solo = 2.4.0
-Requires: python3.11-django-split-settings = 1.0.0
 Requires: python3.11-django-split-settings = 1.3.2
 Requires: python3.11-docutils = 0.21.2
 Requires: python3.11-dulwich = 0.22.7
@@ -776,6 +774,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 01:18:44 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Feb 25 2025 01:21:51 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
