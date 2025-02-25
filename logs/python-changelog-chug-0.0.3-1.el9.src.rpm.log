@@ -47,12 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                          18 MB/s | 335 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            18 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B     [            ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              13 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  59 kB/s |  36 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [                     ===                   ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                        ===                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 10% [====                                       ] 7.9 MB/s | 2.4 MB     00:02 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  20 MB/s |  23 MB     00:01    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                          48 MB/s | 336 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               18 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            24 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  74 kB/s |  36 kB     00:00    
 Dependencies resolved.
 ===============================================================================================================================
  Package                                 Architecture       Version                        Repository                     Size
@@ -172,7 +171,7 @@ Start: rpmbuild python-changelog-chug-0.0.3-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740441600
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.iOSgPU
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eaz0wx
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -186,7 +185,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.iOSgPU
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Ycsr6A
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.1piY8h
 + umask 022
 + cd /builddir/build/BUILD
 + cd changelog_chug-0.0.3
@@ -221,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               15 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B100% [===========================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  63 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               16 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  75 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -264,7 +263,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740441600
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.ylNwKd
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.NaNsUx
 + umask 022
 + cd /builddir/build/BUILD
 + cd changelog_chug-0.0.3
@@ -305,46 +304,435 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  63 kB/s |  36 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            18 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              17 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  68 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(semver) >= 3'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-Finish: rpmbuild python-changelog-chug-0.0.3-1.el9.src.rpm
-Finish: build phase for python-changelog-chug-0.0.3-1.el9.src.rpm
-ERROR: Exception(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-changelog-chug-0.0.3-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 26 seconds
-INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
-ERROR: Command failed: 
- # /usr/bin/systemd-nspawn -q -M 0e63dc44ca7b480094fb1c32311d0e3f -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --capability=cap_ipc_lock --bind=/tmp/mock-resolv.vw6xs85m:/etc/resolv.conf --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/var/lib/mock/rhel+epel-9-x86_64/root/installation-homedir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --setenv=LC_MESSAGES=C.UTF-8 --resolv-conf=off /usr/bin/dnf-3 builddep --installroot /var/lib/mock/rhel+epel-9-x86_64/root/ --releasever 9 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock /var/lib/mock/rhel+epel-9-x86_64/root/builddir/build/SRPMS/python-changelog-chug-0.0.3-1.el9.buildreqs.nosrc.rpm --setopt=tsflags=nocontexts
+Dependencies resolved.
+===============================================================================================================================
+ Package                         Architecture     Version                   Repository                                    Size
+===============================================================================================================================
+Installing:
+ [1mpython3.11-docutils            [m noarch           0.21.2-1.el9              _opt_awxrpmng_rpmbuilds_3000_RPMS_           966 k
+ [1mpython3.11-semver              [m noarch           3.0.4-1.el9               _opt_awxrpmng_rpmbuilds_3000_RPMS_            39 k
+ [1mpython3.11-setuptools          [m noarch           75.8.0-1.el9              _opt_awxrpmng_rpmbuilds_3000_RPMS_           2.2 M
+
+Transaction Summary
+===============================================================================================================================
+Install  3 Packages
+
+Total size: 3.1 M
+Installed size: 16 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [================================                                                                  ] 1/1  Preparing        :  [================================================================                                  ] 1/1  Preparing        :                                                                                                       1/1 
+  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [                                                         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=                                                        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==                                                       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===                                                      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====                                                     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====                                                    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======                                                   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======                                                  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========                                                 ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========                                                ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========                                               ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========                                              ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============                                             ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============                                            ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============                                           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============                                          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================                                         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================                                        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================                                       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================                                      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================                                     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================                                    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================                                   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================                                  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================                                 ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================                                ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================                               ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================                              ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================                             ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================                            ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================                           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================                          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================                         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================                        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================                       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================                      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================                     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================                    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================                   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================                  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [========================================                 ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=========================================                ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==========================================               ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===========================================              ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [============================================             ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=============================================            ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==============================================           ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===============================================          ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [================================================         ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=================================================        ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [==================================================       ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [===================================================      ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [====================================================     ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=====================================================    ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================================   ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [=======================================================  ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch [======================================================== ] 1/3  Installing       : python3.11-setuptools-75.8.0-1.el9.noarch                                                             1/3 
+  Installing       : python3.11-semver-3.0.4-1.el9.noarch [                                                              ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [=                                                             ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [====                                                          ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [=====                                                         ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [======                                                        ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [=============                                                 ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [================                                              ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [============================                                  ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [=============================                                 ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [==============================                                ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [===============================                               ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [=======================================                       ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [============================================                  ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch [============================================================= ] 2/3  Installing       : python3.11-semver-3.0.4-1.el9.noarch                                                                  2/3 
+  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [                                                           ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=                                                          ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==                                                         ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===                                                        ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [====                                                       ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=====                                                      ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [======                                                     ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=======                                                    ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [========                                                   ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=========                                                  ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==========                                                 ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===========                                                ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [============                                               ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=============                                              ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==============                                             ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===============                                            ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [================                                           ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=================                                          ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==================                                         ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===================                                        ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [====================                                       ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=====================                                      ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [======================                                     ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=======================                                    ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [========================                                   ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=========================                                  ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==========================                                 ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===========================                                ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [============================                               ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=============================                              ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==============================                             ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===============================                            ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [================================                           ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=================================                          ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==================================                         ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===================================                        ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [====================================                       ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=====================================                      ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [======================================                     ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=======================================                    ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [========================================                   ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=========================================                  ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==========================================                 ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===========================================                ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [============================================               ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=============================================              ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==============================================             ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===============================================            ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [================================================           ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=================================================          ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [==================================================         ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [===================================================        ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [====================================================       ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=====================================================      ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [======================================================     ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=======================================================    ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [========================================================   ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [=========================================================  ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch [========================================================== ] 3/3  Installing       : python3.11-docutils-0.21.2-1.el9.noarch                                                               3/3 
+  Running scriptlet: python3.11-docutils-0.21.2-1.el9.noarch                                                               3/3 
+  Verifying        : python3.11-docutils-0.21.2-1.el9.noarch                                                               1/3 
+  Verifying        : python3.11-semver-3.0.4-1.el9.noarch                                                                  2/3 
+  Verifying        : python3.11-setuptools-75.8.0-1.el9.noarch                                                             3/3 
+Installed products updated.
+
+Installed:
+  python3.11-docutils-0.21.2-1.el9.noarch   python3.11-semver-3.0.4-1.el9.noarch   python3.11-setuptools-75.8.0-1.el9.noarch  
+
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1740441600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.km0nHL
++ umask 022
++ cd /builddir/build/BUILD
++ cd changelog_chug-0.0.3
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 62.4.0 from build-system.requires
+Requirement satisfied: setuptools >= 62.4.0
+   (installed: setuptools 75.8.0)
+Handling semver >= 3.0.0 from build-system.requires
+Requirement satisfied: semver >= 3.0.0
+   (installed: semver 3.0.4)
+Handling docutils >= 0.21.0 from build-system.requires
+Requirement satisfied: docutils >= 0.21.0
+   (installed: docutils 0.21.2)
+running egg_info
+writing src/changelog_chug.egg-info/PKG-INFO
+writing dependency_links to src/changelog_chug.egg-info/dependency_links.txt
+writing requirements to src/changelog_chug.egg-info/requires.txt
+writing top-level names to src/changelog_chug.egg-info/top_level.txt
+reading manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.AGPL-3'
+adding license file 'COPYING'
+writing manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+running dist_info
+creating changelog_chug.egg-info
+writing changelog_chug.egg-info/PKG-INFO
+writing dependency_links to changelog_chug.egg-info/dependency_links.txt
+writing requirements to changelog_chug.egg-info/requires.txt
+writing top-level names to changelog_chug.egg-info/top_level.txt
+writing manifest file 'changelog_chug.egg-info/SOURCES.txt'
+reading manifest file 'changelog_chug.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.AGPL-3'
+adding license file 'COPYING'
+writing manifest file 'changelog_chug.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/changelog_chug-0.0.3/changelog_chug-0.0.3.dist-info'
+Handling semver>=3.0.0 from hook generated metadata: Requires-Dist (changelog-chug)
+Requirement satisfied: semver>=3.0.0
+   (installed: semver 3.0.4)
+Handling docutils>=0.21.0 from hook generated metadata: Requires-Dist (changelog-chug)
+Requirement satisfied: docutils>=0.21.0
+   (installed: docutils 0.21.2)
+Handling pip-check; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pip-check; extra == "static-analysis"
+Handling mccabe~=0.7; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: mccabe~=0.7; extra == "static-analysis"
+Handling pycodestyle~=2.12; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pycodestyle~=2.12; extra == "static-analysis"
+Handling ruff~=0.6; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: ruff~=0.6; extra == "static-analysis"
+Handling changelog-chug[static-analysis]; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[static-analysis]; extra == "test"
+Handling testtools; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: testtools; extra == "test"
+Handling testscenarios>=0.4; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: testscenarios>=0.4; extra == "test"
+Handling coverage; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: coverage; extra == "test"
+Handling changelog-chug[test]; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[test]; extra == "devel"
+Handling pyupgrade~=3.17; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pyupgrade~=3.17; extra == "devel"
+Handling isort~=5.13; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: isort~=5.13; extra == "devel"
+Handling changelog-chug[devel]; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[devel]; extra == "build"
+Handling wheel; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: wheel; extra == "build"
+Handling build; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: build; extra == "build"
+Handling changelog-chug[build]; extra == "publish" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[build]; extra == "publish"
+Handling twine; extra == "publish" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: twine; extra == "publish"
++ cat /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv changelog_chug-0.0.3.dist-info/
+removed 'changelog_chug-0.0.3.dist-info/top_level.txt'
+removed 'changelog_chug-0.0.3.dist-info/METADATA'
+removed 'changelog_chug-0.0.3.dist-info/LICENSE.AGPL-3'
+removed 'changelog_chug-0.0.3.dist-info/COPYING'
+removed directory 'changelog_chug-0.0.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Wrote: /builddir/build/SRPMS/python-changelog-chug-0.0.3-1.el9.buildreqs.nosrc.rpm
+INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
 
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                                            17 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                              19 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                                  63 kB/s |  36 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         2.9 MB/s | 3.0 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                [            ===                            ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                [               ===                         ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                              1.5 kB/s | 4.1 kB     00:02    
+Red Hat Enterprise Linux - AppStream             [                  ===                      ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [                     ===                   ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              19 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [                        ===                ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                           ===             ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                              ===          ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  51 kB/s |  36 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
+Package python3.11-docutils-0.21.2-1.el9.noarch is already installed.
 Package python3.11-packaging-24.2-1.el9.noarch is already installed.
 Package python3.11-pip-22.3.1-5.el9.noarch is already installed.
-No matching package to install: 'python3.11dist(semver) >= 3'
-Not all dependencies satisfied
-Error: Some packages could not be found.
-
+Package python3.11-semver-3.0.4-1.el9.noarch is already installed.
+Package python3.11-setuptools-75.8.0-1.el9.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1740441600
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.sZsgeq
++ umask 022
++ cd /builddir/build/BUILD
++ cd changelog_chug-0.0.3
++ echo pyproject-rpm-macros
++ echo python3.11-devel
++ echo 'python3.11dist(pip) >= 19'
++ echo 'python3.11dist(packaging)'
++ '[' -f pyproject.toml ']'
++ true
++ rm -rfv '*.dist-info/'
++ '[' -f /usr/bin/python3.11 ']'
++ mkdir -p /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ echo -n
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ RPM_TOXENV=py311
++ HOSTNAME=rpmbuild
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-buildrequires
+Handling setuptools >= 62.4.0 from build-system.requires
+Requirement satisfied: setuptools >= 62.4.0
+   (installed: setuptools 75.8.0)
+Handling semver >= 3.0.0 from build-system.requires
+Requirement satisfied: semver >= 3.0.0
+   (installed: semver 3.0.4)
+Handling docutils >= 0.21.0 from build-system.requires
+Requirement satisfied: docutils >= 0.21.0
+   (installed: docutils 0.21.2)
+running egg_info
+writing src/changelog_chug.egg-info/PKG-INFO
+writing dependency_links to src/changelog_chug.egg-info/dependency_links.txt
+writing requirements to src/changelog_chug.egg-info/requires.txt
+writing top-level names to src/changelog_chug.egg-info/top_level.txt
+reading manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.AGPL-3'
+adding license file 'COPYING'
+writing manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+running dist_info
+writing changelog_chug.egg-info/PKG-INFO
+writing dependency_links to changelog_chug.egg-info/dependency_links.txt
+writing requirements to changelog_chug.egg-info/requires.txt
+writing top-level names to changelog_chug.egg-info/top_level.txt
+reading manifest file 'changelog_chug.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.AGPL-3'
+adding license file 'COPYING'
+writing manifest file 'changelog_chug.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/changelog_chug-0.0.3/changelog_chug-0.0.3.dist-info'
+Handling semver>=3.0.0 from hook generated metadata: Requires-Dist (changelog-chug)
+Requirement satisfied: semver>=3.0.0
+   (installed: semver 3.0.4)
+Handling docutils>=0.21.0 from hook generated metadata: Requires-Dist (changelog-chug)
+Requirement satisfied: docutils>=0.21.0
+   (installed: docutils 0.21.2)
+Handling pip-check; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pip-check; extra == "static-analysis"
+Handling mccabe~=0.7; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: mccabe~=0.7; extra == "static-analysis"
+Handling pycodestyle~=2.12; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pycodestyle~=2.12; extra == "static-analysis"
+Handling ruff~=0.6; extra == "static-analysis" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: ruff~=0.6; extra == "static-analysis"
+Handling changelog-chug[static-analysis]; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[static-analysis]; extra == "test"
+Handling testtools; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: testtools; extra == "test"
+Handling testscenarios>=0.4; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: testscenarios>=0.4; extra == "test"
+Handling coverage; extra == "test" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: coverage; extra == "test"
+Handling changelog-chug[test]; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[test]; extra == "devel"
+Handling pyupgrade~=3.17; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: pyupgrade~=3.17; extra == "devel"
+Handling isort~=5.13; extra == "devel" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: isort~=5.13; extra == "devel"
+Handling changelog-chug[devel]; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[devel]; extra == "build"
+Handling wheel; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: wheel; extra == "build"
+Handling build; extra == "build" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: build; extra == "build"
+Handling changelog-chug[build]; extra == "publish" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: changelog-chug[build]; extra == "publish"
+Handling twine; extra == "publish" from hook generated metadata: Requires-Dist (changelog-chug)
+Ignoring alien requirement: twine; extra == "publish"
++ cat /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv changelog_chug-0.0.3.dist-info/
+removed 'changelog_chug-0.0.3.dist-info/top_level.txt'
+removed 'changelog_chug-0.0.3.dist-info/METADATA'
+removed 'changelog_chug-0.0.3.dist-info/LICENSE.AGPL-3'
+removed 'changelog_chug-0.0.3.dist-info/COPYING'
+removed directory 'changelog_chug-0.0.3.dist-info/'
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.vcBibL
++ umask 022
++ cd /builddir/build/BUILD
++ cd changelog_chug-0.0.3
++ mkdir -p /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
++ TMPDIR=/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/changelog_chug-0.0.3
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info
+  writing /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/dependency_links.txt
+  writing requirements to /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/requires.txt
+  writing top-level names to /builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.AGPL-3'
+  adding license file 'COPYING'
+  writing manifest file '/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-modern-metadata-khrr1t_d/changelog_chug-0.0.3.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: changelog-chug
+  Building wheel for changelog-chug (pyproject.toml): started
+  Running command Building wheel for changelog-chug (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/chug
+  copying src/chug/__init__.py -> build/lib/chug
+  copying src/chug/model.py -> build/lib/chug
+  copying src/chug/writers.py -> build/lib/chug
+  creating build/lib/chug/parsers
+  copying src/chug/parsers/__init__.py -> build/lib/chug/parsers
+  copying src/chug/parsers/core.py -> build/lib/chug/parsers
+  copying src/chug/parsers/rest.py -> build/lib/chug/parsers
+  running egg_info
+  writing src/changelog_chug.egg-info/PKG-INFO
+  writing dependency_links to src/changelog_chug.egg-info/dependency_links.txt
+  writing requirements to src/changelog_chug.egg-info/requires.txt
+  writing top-level names to src/changelog_chug.egg-info/top_level.txt
+  reading manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.AGPL-3'
+  adding license file 'COPYING'
+  writing manifest file 'src/changelog_chug.egg-info/SOURCES.txt'
+  installing to build/bdist.linux-x86_64/wheel
+  running install
+  running install_lib
+  creating build/bdist.linux-x86_64/wheel
+  creating build/bdist.linux-x86_64/wheel/chug
+  copying build/lib/chug/__init__.py -> build/bdist.linux-x86_64/wheel/./chug
+  copying build/lib/chug/model.py -> build/bdist.linux-x86_64/wheel/./chug
+  copying build/lib/chug/writers.py -> build/bdist.linux-x86_64/wheel/./chug
+  creating build/bdist.linux-x86_64/wheel/chug/parsers
+  copying build/lib/chug/parsers/__init__.py -> build/bdist.linux-x86_64/wheel/./chug/parsers
+  copying build/lib/chug/parsers/core.py -> build/bdist.linux-x86_64/wheel/./chug/parsers
+  copying build/lib/chug/parsers/rest.py -> build/bdist.linux-x86_64/wheel/./chug/parsers
+  running install_egg_info
+  Copying src/changelog_chug.egg-info to build/bdist.linux-x86_64/wheel/./changelog_chug-0.0.3-py3.11.egg-info
+  running install_scripts
+  creating build/bdist.linux-x86_64/wheel/changelog_chug-0.0.3.dist-info/WHEEL
+  creating '/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11/pip-wheel-pnqaez9t/.tmp-ngiqt7kk/changelog_chug-0.0.3-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'chug/__init__.py'
+  adding 'chug/model.py'
+  adding 'chug/writers.py'
+  adding 'chug/parsers/__init__.py'
+  adding 'chug/parsers/core.py'
+  adding 'chug/parsers/rest.py'
+  adding 'changelog_chug-0.0.3.dist-info/COPYING'
+  adding 'changelog_chug-0.0.3.dist-info/LICENSE.AGPL-3'
+  adding 'changelog_chug-0.0.3.dist-info/METADATA'
+  adding 'changelog_chug-0.0.3.dist-info/WHEEL'
+  adding 'changelog_chug-0.0.3.dist-info/top_level.txt'
+  adding 'changelog_chug-0.0.3.dist-info/RECORD'
+  removing build/bdist.linux-x86_64/wheel
+  Building wheel for changelog-chug (pyproject.toml): finished with status 'done'
+  Created wheel for changelog-chug: filename=changelog_chug-0.0.3-py3-none-any.whl size=25453 sha256=0dbac8a6ba69d84db566fa8a8be6ebe54566462069e4e6a991c4622d5edb735e
+  Stored in directory: /builddir/.cache/pip/wheels/bc/e1/93/453a992f70a83b682690d1954273a5b2ff42ef6522c994c5bd
+Successfully built changelog-chug
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Aa9SPx
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64
++ cd changelog_chug-0.0.3
+++ ls /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11/changelog_chug-0.0.3-py3-none-any.whl
+++ xargs basename --multiple
+++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
++ specifier=changelog_chug==0.0.3
++ '[' -z changelog_chug==0.0.3 ']'
++ TMPDIR=/builddir/build/BUILD/changelog_chug-0.0.3/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11 changelog_chug==0.0.3
+Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
+Looking in links: /builddir/build/BUILD/changelog_chug-0.0.3/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/changelog_chug-0.0.3-py3-none-any.whl
+Installing collected packages: changelog_chug
+Successfully installed changelog_chug-0.0.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ '[' -d /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/bin ']'
++ rm -f /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ site_dirs=()
++ '[' -d /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ site_dirs+=("/usr/lib/python3.11/site-packages")
++ '[' /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ for site_dir in ${site_dirs[@]}
++ for distinfo in /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/INSTALLER
++ PYTHONPATH=/usr/lib/rpm/redhat
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/RECORD --output /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11/site-packages/changelog_chug-0.0.3.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-ghost-distinfo
+++ cut -f1 '-d '
++ lines=1
++ '[' 1 -ne 1 ']'
++ RPM_PERCENTAGES_COUNT=8
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-changelog-chug-0.0.3-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 0.0.3-1.el9 --unique-debug-suffix -0.0.3-1.el9.x86_64 --unique-debug-src-base python-changelog-chug-0.0.3-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/changelog_chug-0.0.3
+find: 'debug': No such file or directory
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64/usr/lib/python3.11 using python3.11
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: python3.11-changelog-chug-0.0.3-1.el9.noarch
+Provides: python3.11-changelog-chug = 0.0.3-1.el9 python3.11dist(changelog-chug) = 0.0.3
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: python(abi) = 3.11 python3.11dist(docutils) >= 0.21 python3.11dist(semver) >= 3
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-changelog-chug-0.0.3-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-changelog-chug-0.0.3-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-changelog-chug-0.0.3-1.el9.noarch.rpm
+Finish: rpmbuild python-changelog-chug-0.0.3-1.el9.src.rpm
+Finish: build phase for python-changelog-chug-0.0.3-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-changelog-chug-0.0.3-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 26 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
+Finish: run
 Directory walk started
-Directory walk done - 321 packages
+Directory walk done - 323 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
