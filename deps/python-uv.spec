@@ -12,8 +12,6 @@ License:        gpl
 URL:            https://pypi.org/project/uv/
 Source:         %{pypi_source uv}
 
-BuildArch:      noarch
-
 BuildRequires: cmake
 BuildRequires: cargo
 BuildRequires: rust
