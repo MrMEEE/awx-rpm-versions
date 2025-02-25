@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-uwsgi-2.0.26-1.el9.src.rpm
+The lastest package built was python-django-split-settings-1.3.2-1.el9.src.rpm
 
-The build completed at Tue Feb 25 10:45:26 AM CET 2025
+The build completed at Tue Feb 25 10:48:57 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-uwsgi-2.0.26-1.el9.src.rpm.log)
+[Build Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -56,7 +56,6 @@ python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [L
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
-python3.11-cmake-3.31.4-1.el9 | python-cmake-3.31.4-1.el9.src.rpm | **Missing** | [Log](logs/python-cmake-3.31.4-1.el9.src.rpm.log)
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
@@ -148,7 +147,6 @@ python3.11-multidict-6.1.0-1.el9 | python-multidict-6.1.0-1.el9.src.rpm | Built 
 python3.11-mypy-1.14.1-1.el9 | python-mypy-1.14.1-1.el9.src.rpm | Built | [Log](logs/python-mypy-1.14.1-1.el9.src.rpm.log)
 python3.11-mypy-extensions-1.0.0-1.el9 | python-mypy-extensions-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-mypy-extensions-1.0.0-1.el9.src.rpm.log)
 python3.11-nh3-0.2.20-1.el9 | python-nh3-0.2.20-1.el9.src.rpm | Built | [Log](logs/python-nh3-0.2.20-1.el9.src.rpm.log)
-python3.11-ninja-1.11.1.3-1.el9 | python-ninja-1.11.1.3-1.el9.src.rpm | **Missing** | [Log](logs/python-ninja-1.11.1.3-1.el9.src.rpm.log)
 python3.11-oauthlib-3.2.2-1.el9 | python-oauthlib-3.2.2-1.el9.src.rpm | Built | [Log](logs/python-oauthlib-3.2.2-1.el9.src.rpm.log)
 python3.11-openshift-0.13.2-1.el9 | python-openshift-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-openshift-0.13.2-1.el9.src.rpm.log)
 python3.11-opentelemetry-api-1.29.0-1.el9 | python-opentelemetry-api-1.29.0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-api-1.29.0-1.el9.src.rpm.log)
@@ -242,7 +240,6 @@ python3.11-urllib3-2.3.0-1.el9 | python-urllib3-2.3.0-1.el9.src.rpm | Built | [L
 python3.11-userpath-1.9.2-1.el9 | python-userpath-1.9.2-1.el9.src.rpm | Built | [Log](logs/python-userpath-1.9.2-1.el9.src.rpm.log)
 python3.11-uv-0.2.30-1.el9 | python-uv-0.2.30-1.el9.src.rpm | Built | [Log](logs/python-uv-0.2.30-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.26-1.el9 | python-uwsgi-2.0.26-1.el9.src.rpm | Built | [Log](logs/python-uwsgi-2.0.26-1.el9.src.rpm.log)
-python3.11-uwsgi-2.0.28-1.el9 | python-uwsgi-2.0.28-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.12-1.el9 | python-uwsgitop-0.12-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.12-1.el9.src.rpm.log)
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built | [Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
 python3.11-virtualenv-20.29.2-1.el9 | python-virtualenv-20.29.2-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.29.2-1.el9.src.rpm.log)
@@ -254,4 +251,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-244 total packages, 239 packages built successfully, 5 packages left to fix
+241 total packages, 239 packages built successfully, 2 packages left to fix
