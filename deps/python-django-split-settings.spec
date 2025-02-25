@@ -13,7 +13,7 @@ URL:            https://django-split-settings.readthedocs.io
 Source:         %{pypi_source django_split_settings}
 
 BuildArch:      noarch
-
+BuildRequires:	python%{python3_pkgversion}-poetry
 BuildRequires:  python%{python3_pkgversion}-devel
 
 
