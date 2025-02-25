@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 13%{dist}
+Release: 14%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -631,7 +631,7 @@ git checkout -f %{version}
 %install
 mkdir translations/
 mv awx/locale/en-us/LC_MESSAGES/django.po translations/
-mv awx/ui/src/locales/en/messages.po translations/
+#mv awx/ui/src/locales/en/messages.po translations/
 
 echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
 GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
@@ -764,6 +764,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 01:52:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Feb 25 2025 02:01:56 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
