@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-changelog-chug-0.0.3-1.el9.src.rpm
+The lastest package built was python-semver-3.0.4-1.el9.src.rpm
 
-The build completed at Tue Feb 25 09:28:29 AM CET 2025
+The build completed at Tue Feb 25 09:29:23 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-changelog-chug-0.0.3-1.el9.src.rpm.log)
+[Build Log](logs/python-semver-3.0.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -211,6 +211,7 @@ python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | Bu
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
 python3.11-semantic-version-2.10.0-1.el9 | python-semantic-version-2.10.0-1.el9.src.rpm | Built | [Log](logs/python-semantic-version-2.10.0-1.el9.src.rpm.log)
+python3.11-semver-3.0.4-1.el9 | python-semver-3.0.4-1.el9.src.rpm | Built | [Log](logs/python-semver-3.0.4-1.el9.src.rpm.log)
 python3.11-service-identity-24.2.0-1.el9 | python-service-identity-24.2.0-1.el9.src.rpm | Built | [Log](logs/python-service-identity-24.2.0-1.el9.src.rpm.log)
 python3.11-setuptools-75.8.0-1.el9 | python-setuptools-75.8.0-1.el9.src.rpm | Built | [Log](logs/python-setuptools-75.8.0-1.el9.src.rpm.log)
 python3.11-setuptools-rust-1.10.2-1.el9 | python-setuptools-rust-1.10.2-1.el9.src.rpm | Built | [Log](logs/python-setuptools-rust-1.10.2-1.el9.src.rpm.log)
@@ -250,4 +251,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-240 total packages, 230 packages built successfully, 10 packages left to fix
+241 total packages, 231 packages built successfully, 10 packages left to fix
