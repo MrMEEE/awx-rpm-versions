@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pexpect-4.9.0-1.el9.src.rpm
+The lastest package built was python-userpath-1.9.2-1.el9.src.rpm
 
-The build completed at Tue Feb 25 10:37:05 AM CET 2025
+The build completed at Tue Feb 25 10:37:39 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pexpect-4.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-userpath-1.9.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -239,7 +239,7 @@ python3.11-types-psutil-7.0.0.20250218-1.el9 | python-types-psutil-7.0.0.2025021
 python3.11-types-setuptools-75.8.0.20250210-1.el9 | python-types-setuptools-75.8.0.20250210-1.el9.src.rpm | Built | [Log](logs/python-types-setuptools-75.8.0.20250210-1.el9.src.rpm.log)
 python3.11-typing-extensions-4.12.2-1.el9 | python-typing-extensions-4.12.2-1.el9.src.rpm | Built | [Log](logs/python-typing-extensions-4.12.2-1.el9.src.rpm.log)
 python3.11-urllib3-2.3.0-1.el9 | python-urllib3-2.3.0-1.el9.src.rpm | Built | [Log](logs/python-urllib3-2.3.0-1.el9.src.rpm.log)
-python3.11-userpath-1.9.2-1.el9 | python-userpath-1.9.2-1.el9.src.rpm | **Missing** |
+python3.11-userpath-1.9.2-1.el9 | python-userpath-1.9.2-1.el9.src.rpm | Built | [Log](logs/python-userpath-1.9.2-1.el9.src.rpm.log)
 python3.11-uv-0.2.30-1.el9 | python-uv-0.2.30-1.el9.src.rpm | Built | [Log](logs/python-uv-0.2.30-1.el9.src.rpm.log)
 python3.11-uwsgi-2.0.28-1.el9 | python-uwsgi-2.0.28-1.el9.src.rpm | **Missing** | [Log](logs/python-uwsgi-2.0.28-1.el9.src.rpm.log)
 python3.11-uwsgitop-0.12-1.el9 | python-uwsgitop-0.12-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.12-1.el9.src.rpm.log)
@@ -253,4 +253,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-243 total packages, 235 packages built successfully, 8 packages left to fix
+243 total packages, 236 packages built successfully, 7 packages left to fix
