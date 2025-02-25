@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 14%{dist}
+Release: 16%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -328,7 +328,8 @@ BuildRequires: python3.11-zope-interface = 7.2
 BuildRequires: python3.11-zstandard = 0.23.0
 BuildRequires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 python3.11-pexpect 
 
-Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
+#Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
+Requires: python%{python3_pkgversion} gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq
 Requires: python3.11-adal = 1.2.7
 Requires: python3.11-aiodns = 3.2.0
 Requires: python3.11-aiohappyeyeballs = 2.4.4
@@ -633,12 +634,12 @@ mkdir translations/
 mv awx/locale/en-us/LC_MESSAGES/django.po translations/
 #mv awx/ui/src/locales/en/messages.po translations/
 
-echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
-GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
+#echo 'node-options="--openssl-legacy-provider"' >> awx/ui/.npmrc
+#GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
 #make ui-next/src
-cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/src/frontend/awx/main/awx-rpm-logo.svg
-sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/main/AwxMasthead.tsx
-make ui
+#cp %{_sourcedir}/awx-rpm-logo.svg-%{version} awx/ui_next/src/frontend/awx/main/awx-rpm-logo.svg
+#sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/main/AwxMasthead.tsx
+#make ui
 
 mkdir -p /var/log/tower
 
@@ -764,6 +765,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 02:01:56 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Feb 25 2025 02:09:41 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
