@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 8%{dist}
+Release: 9%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -287,10 +287,8 @@ BuildRequires: python3.11-semver = 3.0.4
 BuildRequires: python3.11-service-identity = 24.2.0
 BuildRequires: python3.11-setuptools = 75.8.0
 BuildRequires: python3.11-setuptools-rust = 1.10.2
-BuildRequires: python3.11-setuptools-scm = 8.1.0
 BuildRequires: python3.11-setuptools_scm = 8.1.0
 BuildRequires: python3.11-setuptools-scm+toml = 8.1.0
-BuildRequires: python3.11-setuptools_scm+toml = 8.1.0
 BuildRequires: python3.11-setuptools-twine = 0.1.3
 BuildRequires: python3.11-shellingham = 1.5.4
 BuildRequires: python3.11-six = 1.17.0
@@ -575,10 +573,8 @@ Requires: python3.11-semver = 3.0.4
 Requires: python3.11-service-identity = 24.2.0
 Requires: python3.11-setuptools = 75.8.0
 Requires: python3.11-setuptools-rust = 1.10.2
-Requires: python3.11-setuptools-scm = 8.1.0
 Requires: python3.11-setuptools_scm = 8.1.0
 Requires: python3.11-setuptools-scm+toml = 8.1.0
-Requires: python3.11-setuptools_scm+toml = 8.1.0
 Requires: python3.11-setuptools-twine = 0.1.3
 Requires: python3.11-shellingham = 1.5.4
 Requires: python3.11-six = 1.17.0
@@ -770,6 +766,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 01:31:26 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Feb 25 2025 01:39:20 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
