@@ -23,10 +23,10 @@ This is package 'setuptools-scm' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-setuptools-scm
+%package -n     python%{python3_pkgversion}-setuptools_scm
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-setuptools-scm %_description
+%description -n python%{python3_pkgversion}-setuptools_scm %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
@@ -34,7 +34,7 @@ Summary:        %{summary}
 
 
 %prep
-%autosetup -p1 -n setuptools-scm-%{version}
+%autosetup -p1 -n setuptools_scm-%{version}
 
 
 %generate_buildrequires
@@ -57,7 +57,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-setuptools-scm -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-setuptools_scm -f %{pyproject_files}
 
 
 %changelog
