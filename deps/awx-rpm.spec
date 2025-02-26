@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 19%{dist}
+Release: 20%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -107,6 +107,7 @@ BuildRequires: python3.11-deprecated = 1.2.15
 BuildRequires: python3.11-distlib = 0.3.9
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.16
+BuildRequires: python3.11-django-ansible-base = 20250131
 BuildRequires: python3.11-django+argon2 = 4.2.16
 BuildRequires: python3.11-django+bcrypt = 4.2.16
 BuildRequires: python3.11-django-cors-headers = 4.6.0
@@ -393,6 +394,7 @@ Requires: python3.11-deprecated = 1.2.15
 Requires: python3.11-distlib = 0.3.9
 Requires: python3.11-distro = 1.9.0
 Requires: python3.11-django = 4.2.16
+Requires: python3.11-django-ansible-base = 20250131
 Requires: python3.11-django+argon2 = 4.2.16
 Requires: python3.11-django+bcrypt = 4.2.16
 Requires: python3.11-django-cors-headers = 4.6.0
@@ -767,6 +769,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Wed Feb 26 2025 01:25:01 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Wed Feb 26 2025 01:38:42 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
