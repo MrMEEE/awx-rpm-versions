@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 18%{dist}
+Release: 19%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -645,9 +645,9 @@ mkdir -p /var/log/tower
 
 make sdist && pip%{python3_pkgversion} install --root=%{buildroot}/ dist/awx.tar.gz
 
-find %{buildroot}/
+#find %{buildroot}/
 
-pushd %{buildroot}/var/lib/awx 
+#pushd %{buildroot}/var/lib/awx 
 
 AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
 
@@ -662,7 +662,7 @@ for i in `find -type f |grep mappings.wasm`; do
 	rm -f $i
 done
 
-popd
+#popd
 
 #cp dist/awx-*.tar.gz %{buildroot}%{_prefix}/
 #pushd %{buildroot}%{_prefix}
@@ -767,6 +767,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Feb 25 2025 02:17:16 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Wed Feb 26 2025 01:25:01 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
