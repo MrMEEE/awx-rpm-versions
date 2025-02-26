@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 2%{dist}
+Release: 3%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -617,6 +617,13 @@ git checkout -f %{version}
 mkdir -p /var/log/tower
 make sdist && pip%{python3_pkgversion} install --root=%{buildroot}/ dist/awx.tar.gz
 
+sed -i "s|/builddir.*.x86_64||g" $RPM_BUILD_ROOT/usr/bin/awx-manage
+pushd %{buildroot}/usr/lib/python%{python3_pkgversion}/site-packages/
+for i in `find -type f`; do
+       sed -i "s|/builddir.*.x86_64||g" $i
+done
+popd
+
 mkdir -p $RPM_BUILD_ROOT/var/lib/awx/rsyslog
 mkdir -p $RPM_BUILD_ROOT/var/lib/awx/projects
 mkdir -p $RPM_BUILD_ROOT/var/lib/awx/job_status
@@ -655,6 +662,6 @@ sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')/
 #/var/lib/awx/job_status
 
 %changelog
-* Wed Feb 26 2025 02:26:16 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Thu Feb 27 2025 12:49:19 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
