@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 20%{dist}
+Release: 22%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -651,18 +651,18 @@ make sdist && pip%{python3_pkgversion} install --root=%{buildroot}/ dist/awx.tar
 
 #pushd %{buildroot}/var/lib/awx 
 
-AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
+#AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
 
-chmod +x tools/scripts/l18n/post_translation.sh
-./tools/scripts/l18n/post_translation.sh
+#chmod +x tools/scripts/l18n/post_translation.sh
+#./tools/scripts/l18n/post_translation.sh
 
 
 
-mkdir -p %{buildroot}%{_prefix}
-for i in `find -type f |grep mappings.wasm`; do
-	echo "Removing $i"
-	rm -f $i
-done
+#mkdir -p %{buildroot}%{_prefix}
+#for i in `find -type f |grep mappings.wasm`; do
+#	echo "Removing $i"
+#	rm -f $i
+#done
 
 #popd
 
@@ -698,30 +698,31 @@ echo %{version} > %{buildroot}%{service_homedir}/.tower_version
 
 cp %{_sourcedir}/settings.py-%{version} %{buildroot}%{service_configdir}/settings.py
 mkdir -p %{buildroot}%{_prefix}/public
-rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
+#rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
 
 mkdir -p %{buildroot}/usr/lib/systemd/system
 # awx-channels-worker awx
-for service in awx-web awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
+for service in awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
+#for service in awx-web awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
     cp %{_sourcedir}/${service}.service-%{version} %{buildroot}/usr/lib/systemd/system/${service}.service
 done
 
 cp %{_sourcedir}/awx.target-%{version} %{buildroot}/usr/lib/systemd/system/awx.target
 
-mkdir -p %{buildroot}/etc/receptor
+#mkdir -p %{buildroot}/etc/receptor
 
-for receptor in receptor receptor-hop receptor-worker; do
-	cp %{_sourcedir}/$receptor.conf-%{version} %{buildroot}/etc/receptor/$receptor.conf
-done
+#for receptor in receptor receptor-hop receptor-worker; do
+#	cp %{_sourcedir}/$receptor.conf-%{version} %{buildroot}/etc/receptor/$receptor.conf
+#done
 
-mkdir -p %{buildroot}/etc/nginx/conf.d
+#mkdir -p %{buildroot}/etc/nginx/conf.d
 
-cp %{_sourcedir}/awx-rpm-nginx.conf-%{version} %{buildroot}/etc/nginx/conf.d/awx-rpm.conf
+#cp %{_sourcedir}/awx-rpm-nginx.conf-%{version} %{buildroot}/etc/nginx/conf.d/awx-rpm.conf
 
 # Create Virtualenv folder
-mkdir -p %{buildroot}%{service_homedir}/venv
+#mkdir -p %{buildroot}%{service_homedir}/venv
 
-mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
+#mkdir -p $RPM_BUILD_ROOT/etc/nginx/conf.d/
 
 sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/main/utils/external_logging.py
 
@@ -732,9 +733,9 @@ sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')/
 /usr/bin/gpasswd -a awx redis
 
 %post
-if [ ! -f /etc/nginx/nginx.crt ];then
-sscg -q --cert-file /etc/nginx/nginx.crt --cert-key-file /etc/nginx/nginx.key --ca-file /etc/nginx/ca.crt --lifetime 3650 --hostname $HOSTNAME --email root@$HOSTNAME
-fi
+#if [ ! -f /etc/nginx/nginx.crt ];then
+#sscg -q --cert-file /etc/nginx/nginx.crt --cert-key-file /etc/nginx/nginx.key --ca-file /etc/nginx/ca.crt --lifetime 3650 --hostname $HOSTNAME --email root@$HOSTNAME
+#fi
 
 %preun
 
@@ -753,7 +754,7 @@ fi
 %{service_homedir}/.tower_version
 %dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
 %config(noreplace) %{service_configdir}/settings.py
-%config /etc/nginx/conf.d/awx-rpm.conf
+#%config /etc/nginx/conf.d/awx-rpm.conf
 /usr/lib/systemd/system/awx.target
 /etc/receptor
 #/usr/bin/ansible-tower-service
@@ -769,6 +770,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Wed Feb 26 2025 01:38:42 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Wed Feb 26 2025 01:51:46 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
