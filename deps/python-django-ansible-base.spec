@@ -29,14 +29,13 @@ Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-django-ansible-base %_description
 
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base rest_filters,jwt_consumer
 
 %prep
 %autosetup -p1 -n django_ansible_base-2025.1.31
 
 
 %generate_buildrequires
-%pyproject_buildrequires -x rest_filters,jwt_consumer
+%pyproject_buildrequires
 
 
 %build
