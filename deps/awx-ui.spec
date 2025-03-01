@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 1%{dist}
+Release: 5%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -40,6 +40,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
+BuildRequires: awx-core
 BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
 BuildRequires: python3.11-adal = 1.2.7
 BuildRequires: python3.11-aiodns = 3.2.0
@@ -637,15 +638,17 @@ GIT_BRANCH=%{version} VERSION=%{version} python%{python3_pkgversion} -m build -s
 #sed -i "s/awx-logo.svg/awx-rpm-logo.svg/g" awx/ui_next/src/frontend/awx/main/AwxMasthead.tsx
 make ui
 
-mkdir -p /var/log/tower
+mkdir -p %{buildroot}/var/log/tower
 
 mkdir -p %{buildroot}/opt/awx-rpm
 
-pushd %{buildroot}/opt/awx-rpm
+cp -a awx/ui/build %{buildroot}/opt/awx-rpm/awx-ui
 
-AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes python%{python3_pkgversion} manage.py collectstatic --noinput --clear
+#pushd %{buildroot}/opt/awx-rpm
 
-popd
+AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes awx-manage collectstatic --noinput --clear
+
+#popd
 
 #chmod +x tools/scripts/l18n/post_translation.sh
 #./tools/scripts/l18n/post_translation.sh
@@ -661,7 +664,7 @@ popd
 #popd
 
 #rsync -avr awx/ $RPM_BUILD_ROOT/opt/awx-rpm/awx/
-#cp -a /var/lib/awx/public/static /opt/awx-rpm/
+cp -a public %{buildroot}/opt/awx-rpm/
 
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/rsyslog
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/projects
@@ -687,6 +690,6 @@ popd
 %{service_homedir}/.tower_version
 
 %changelog
-* Thu Feb 27 2025 12:41:53 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Sat Mar 01 2025 01:53:44 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
