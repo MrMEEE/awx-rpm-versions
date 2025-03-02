@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 5%{dist}
+Release: 6%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -40,7 +40,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: awx-core
+BuildRequires: awx-core vim
 BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
 BuildRequires: python3.11-adal = 1.2.7
 BuildRequires: python3.11-aiodns = 3.2.0
@@ -646,7 +646,7 @@ cp -a awx/ui/build %{buildroot}/opt/awx-rpm/awx-ui
 
 #pushd %{buildroot}/opt/awx-rpm
 
-AWX_SETTINGS_FILE=awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes awx-manage collectstatic --noinput --clear
+AWX_SETTINGS_FILE=/usr/lib/python%{python3_pkgversion}/site-packages/awx/settings/production.py SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes awx-manage collectstatic --noinput --clear
 
 #popd
 
@@ -690,6 +690,6 @@ cp -a public %{buildroot}/opt/awx-rpm/
 %{service_homedir}/.tower_version
 
 %changelog
-* Sat Mar 01 2025 01:53:44 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 12:16:15 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
