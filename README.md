@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pygithub-2.6.1-1.el9.src.rpm
+The lastest package built was python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:53:10 AM CET 2025
+The build completed at Mon Mar  3 12:53:39 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
+[Build Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
