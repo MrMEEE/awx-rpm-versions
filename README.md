@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-core-30.0.0-4.el9.src.rpm
+The lastest package built was awx-ui-30.0.0-5.el9.src.rpm
 
-The build completed at Mon Mar  3 12:01:16 AM CET 2025
+The build completed at Mon Mar  3 12:06:07 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-core-30.0.0-4.el9.src.rpm.log)
+[Build Log](logs/awx-ui-30.0.0-5.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
