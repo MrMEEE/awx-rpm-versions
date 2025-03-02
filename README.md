@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm
+The lastest package built was python-dsv-sdk-1.0.4-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:53:39 AM CET 2025
+The build completed at Mon Mar  3 12:55:58 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
+[Build Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -114,6 +114,7 @@ python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Bu
 python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
+python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.7-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
@@ -285,4 +286,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-275 total packages, 245 packages built successfully, 30 packages left to fix
+276 total packages, 246 packages built successfully, 30 packages left to fix
