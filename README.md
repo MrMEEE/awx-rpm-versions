@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pygithub-2.6.1-1.el9.src.rpm
+The lastest package built was python-pynacl-1.5.0-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:48:35 AM CET 2025
+The build completed at Mon Mar  3 12:52:29 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
+[Build Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -221,6 +221,7 @@ python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Buil
 python3.11-pygithub-2.6.1-1.el9 | python-pygithub-2.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
 python3.11-pygments-2.19.1-1.el9 | python-pygments-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-pygments-2.19.1-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
+python3.11-pynacl-1.5.0-1.el9 | python-pynacl-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
 python3.11-pyparsing-2.4.6-1.el9 | python-pyparsing-2.4.6-1.el9.src.rpm | Built | [Log](logs/python-pyparsing-2.4.6-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.2.0-1.el9.src.rpm.log)
@@ -284,4 +285,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-274 total packages, 243 packages built successfully, 31 packages left to fix
+275 total packages, 244 packages built successfully, 31 packages left to fix
