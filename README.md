@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tss-sdk-1.2.3-1.el9.src.rpm
+The lastest package built was python-pygithub-2.6.1-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:48:04 AM CET 2025
+The build completed at Mon Mar  3 12:48:35 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
+[Build Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -218,7 +218,7 @@ python3.11-pyasn1-modules-0.5.1-1.el9 | python-pyasn1-modules-0.5.1-1.el9.src.rp
 python3.11-pycares-4.5.0-1.el9 | python-pycares-4.5.0-1.el9.src.rpm | Built | [Log](logs/python-pycares-4.5.0-1.el9.src.rpm.log)
 python3.11-pycparser-2.22-1.el9 | python-pycparser-2.22-1.el9.src.rpm | Built | [Log](logs/python-pycparser-2.22-1.el9.src.rpm.log)
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
-python3.11-pygithub-2.6.1-1.el9 | python-pygithub-2.6.1-1.el9.src.rpm | **Missing** |
+python3.11-pygithub-2.6.1-1.el9 | python-pygithub-2.6.1-1.el9.src.rpm | **Missing** | [Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
 python3.11-pygments-2.19.1-1.el9 | python-pygments-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-pygments-2.19.1-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
