@@ -1,17 +1,18 @@
 ## Latest build
-The lastest package built was awx-ui-30.0.0-6.el9.src.rpm
+The lastest package built was awx-core-30.0.0-5.el9.src.rpm
 
-The build completed at Mon Mar  3 12:21:55 AM CET 2025
+The build completed at Mon Mar  3 12:43:13 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/awx-ui-30.0.0-6.el9.src.rpm.log)
+[Build Log](logs/awx-core-30.0.0-5.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-core-30.0.0-2.el9 | awx-core-30.0.0-2.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-2.el9.src.rpm.log)
 awx-core-30.0.0-3.el9 | awx-core-30.0.0-3.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-3.el9.src.rpm.log)
 awx-core-30.0.0-4.el9 | awx-core-30.0.0-4.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-4.el9.src.rpm.log)
+awx-core-30.0.0-5.el9 | awx-core-30.0.0-5.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-5.el9.src.rpm.log)
 awx-rpm-30.0.0-10.el9 | awx-rpm-30.0.0-10.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-10.el9.src.rpm.log)
 awx-rpm-30.0.0-11.el9 | awx-rpm-30.0.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-11.el9.src.rpm.log)
 awx-rpm-30.0.0-12.el9 | awx-rpm-30.0.0-12.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-12.el9.src.rpm.log)
@@ -59,6 +60,8 @@ python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built 
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | Built | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 python3.11-awscrt-0.22.4-1.el9 | python-awscrt-0.22.4-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.22.4-1.el9.src.rpm.log)
+python3.11-awx-plugins-core-0.0.1~a9-1.el9 | python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm | **Missing** | [Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
+python3.11-awx-plugins-interfaces-0.0.1~a4-1.el9 | python-awx-plugins-interfaces-0.0.1~a4-1.el9.src.rpm | **Missing** |
 python3.11-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
 python3.11-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm | Built | [Log](logs/python-azure-identity-1.19.0-1.el9.src.rpm.log)
 python3.11-azure-keyvault-4.2.0-1.el9 | python-azure-keyvault-4.2.0-1.el9.src.rpm | Built | [Log](logs/python-azure-keyvault-4.2.0-1.el9.src.rpm.log)
@@ -280,4 +283,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-270 total packages, 241 packages built successfully, 29 packages left to fix
+273 total packages, 242 packages built successfully, 31 packages left to fix

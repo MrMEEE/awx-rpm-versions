@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 4%{dist}
+Release: 5%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -614,7 +614,7 @@ git checkout -f %{version}
 %build
 
 %install
-mkdir -p /var/log/tower
+mkdir -p %{buildroot}/var/log/tower
 make sdist && pip%{python3_pkgversion} install --root=%{buildroot}/ dist/awx.tar.gz
 
 sed -i "s|/builddir.*.x86_64||g" $RPM_BUILD_ROOT/usr/bin/awx-manage
@@ -643,6 +643,7 @@ sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')/
 %defattr(0644, awx, awx, 0755)
 %attr(0755, root, root) /usr/bin/awx-manage
 %attr(0755, root, root) /usr/lib/python%{python3_pkgversion}/site-packages/awx*
+%attr(0755, awx, awx) /var/log/tower
 #%attr(0755, awx, awx) %{_prefix}
 #%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}
 #%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
@@ -665,6 +666,6 @@ sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')/
 #/var/lib/awx/job_status
 
 %changelog
-* Sun Mar 02 2025 11:58:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 12:40:52 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
