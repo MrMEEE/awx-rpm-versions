@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-fabric-3.2.2-1.el9.src.rpm
+The lastest package built was python-prettytable-3.15.1-1.el9.src.rpm
 
-The build completed at Mon Mar  3 10:37:02 PM CET 2025
+The build completed at Mon Mar  3 10:37:31 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-fabric-3.2.2-1.el9.src.rpm.log)
+[Build Log](logs/python-prettytable-3.15.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
