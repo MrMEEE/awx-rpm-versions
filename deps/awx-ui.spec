@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -51,6 +51,7 @@ BuildRequires: python3.11-aiohttp+speedups = 3.11.11
 BuildRequires: python3.11-aiosignal = 1.3.2
 BuildRequires: python3.11-ansi2html = 1.9.2
 BuildRequires: python3.11-ansible-builder = 3.1.0
+BuildRequires: python3.11-ansible-runner = 2.4.0
 BuildRequires: python3.11-anyio = 4.8.0
 BuildRequires: python3.11-argon2-cffi = 23.1.0
 BuildRequires: python3.11-argon2-cffi-bindings = 21.2.0
@@ -363,6 +364,7 @@ Requires: python3.11-aiohttp+speedups = 3.11.11
 Requires: python3.11-aiosignal = 1.3.2
 Requires: python3.11-ansi2html = 1.9.2
 Requires: python3.11-ansible-builder = 3.1.0
+Requires: python3.11-ansible-runner = 2.4.0
 Requires: python3.11-anyio = 4.8.0
 Requires: python3.11-argon2-cffi = 23.1.0
 Requires: python3.11-argon2-cffi-bindings = 21.2.0
@@ -740,6 +742,6 @@ cp -a public %{buildroot}/opt/awx-rpm/
 %{service_homedir}/.tower_version
 
 %changelog
-* Mon Mar 03 2025 01:03:45 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 01:15:18 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
