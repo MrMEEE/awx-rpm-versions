@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 6%{dist}
+Release: 7%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -262,7 +262,6 @@ BuildRequires: python3.11-pyjwt = 2.10.1
 BuildRequires: python3.11-pyjwt+crypto = 2.10.1
 BuildRequires: python3.11-pynacl = 1.5.0
 BuildRequires: python3.11-pyopenssl = 24.3.0
-BuildRequires: python3.11-pyparsing = 2.4.6
 BuildRequires: python3.11-pyproject-hooks = 1.2.0
 BuildRequires: python3.11-python-daemon = 3.1.2
 BuildRequires: python3.11-python-dateutil = 2.9.0^post0
@@ -574,7 +573,6 @@ Requires: python3.11-pyjwt = 2.10.1
 Requires: python3.11-pyjwt+crypto = 2.10.1
 Requires: python3.11-pynacl = 1.5.0
 Requires: python3.11-pyopenssl = 24.3.0
-Requires: python3.11-pyparsing = 2.4.6
 Requires: python3.11-pyproject-hooks = 1.2.0
 Requires: python3.11-python-daemon = 3.1.2
 Requires: python3.11-python-dateutil = 2.9.0^post0
@@ -721,6 +719,6 @@ ln -s /opt/awx-rpm/awx-ui/awx/ $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversio
 #/var/lib/awx/job_status
 
 %changelog
-* Mon Mar 03 2025 09:23:10 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 09:54:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
