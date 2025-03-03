@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-prettytable-3.15.1-1.el9.src.rpm
+The lastest package built was python-paramiko-3.5.1-1.el9.src.rpm
 
-The build completed at Mon Mar  3 10:31:38 PM CET 2025
+The build completed at Mon Mar  3 10:34:48 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-prettytable-3.15.1-1.el9.src.rpm.log)
+[Build Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -118,6 +118,7 @@ python3.11-cython-3.0.11-1.el9 | python-cython-3.0.11-1.el9.src.rpm | Built | [L
 python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | Built | [Log](logs/python-daemon-3.1.2-1.el9.src.rpm.log)
 python3.11-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
+python3.11-decorator-5.2.1-1.el9 | python-decorator-5.2.1-1.el9.src.rpm | **Missing** |
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
 python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | Built | [Log](logs/python-distlib-0.3.9-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
@@ -171,6 +172,7 @@ python3.11-importlib-resources-6.5.2-1.el9 | python-importlib-resources-6.5.2-1.
 python3.11-incremental-24.7.2-1.el9 | python-incremental-24.7.2-1.el9.src.rpm | Built | [Log](logs/python-incremental-24.7.2-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
+python3.11-invoke-2.2.0-1.el9 | python-invoke-2.2.0-1.el9.src.rpm | **Missing** |
 python3.11-irc-20.5.0-1.el9 | python-irc-20.5.0-1.el9.src.rpm | Built | [Log](logs/python-irc-20.5.0-1.el9.src.rpm.log)
 python3.11-isodate-0.7.2-1.el9 | python-isodate-0.7.2-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.7.2-1.el9.src.rpm.log)
 python3.11-jaraco-classes-3.4.0-1.el9 | python-jaraco-classes-3.4.0-1.el9.src.rpm | Built | [Log](logs/python-jaraco-classes-3.4.0-1.el9.src.rpm.log)
@@ -219,6 +221,7 @@ python3.11-opentelemetry-sdk-1.29.0-1.el9 | python-opentelemetry-sdk-1.29.0-1.el
 python3.11-opentelemetry-semantic-conventions-0.50~b0-1.el9 | python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm | Built | [Log](logs/python-opentelemetry-semantic-conventions-0.50~b0-1.el9.src.rpm.log)
 python3.11-orjson-3.10.13-1.el9 | python-orjson-3.10.13-1.el9.src.rpm | Built | [Log](logs/python-orjson-3.10.13-1.el9.src.rpm.log)
 python3.11-packaging-24.2-1.el9 | python-packaging-24.2-1.el9.src.rpm | Built | [Log](logs/python-packaging-24.2-1.el9.src.rpm.log)
+python3.11-paramiko-3.5.1-1.el9 | python-paramiko-3.5.1-1.el9.src.rpm | Built | [Log](logs/python-paramiko-3.5.1-1.el9.src.rpm.log)
 python3.11-parsley-1.3-1.el9 | python-parsley-1.3-1.el9.src.rpm | Built | [Log](logs/python-parsley-1.3-1.el9.src.rpm.log)
 python3.11-pathspec-0.12.1-1.el9 | python-pathspec-0.12.1-1.el9.src.rpm | Built | [Log](logs/python-pathspec-0.12.1-1.el9.src.rpm.log)
 python3.11-pbr-6.1.0-1.el9 | python-pbr-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-pbr-6.1.0-1.el9.src.rpm.log)
@@ -300,6 +303,7 @@ python3.11-uwsgi-2.0.26-1.el9 | python-uwsgi-2.0.26-1.el9.src.rpm | Built | [Log
 python3.11-uwsgitop-0.12-1.el9 | python-uwsgitop-0.12-1.el9.src.rpm | Built | [Log](logs/python-uwsgitop-0.12-1.el9.src.rpm.log)
 python3.11-versioneer-0.29-1.el9 | python-versioneer-0.29-1.el9.src.rpm | Built | [Log](logs/python-versioneer-0.29-1.el9.src.rpm.log)
 python3.11-virtualenv-20.29.2-1.el9 | python-virtualenv-20.29.2-1.el9.src.rpm | Built | [Log](logs/python-virtualenv-20.29.2-1.el9.src.rpm.log)
+python3.11-wcwidth-0.2.13-1.el9 | python-wcwidth-0.2.13-1.el9.src.rpm | **Missing** |
 python3.11-websocket-client-1.8.0-1.el9 | python-websocket-client-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.8.0-1.el9.src.rpm.log)
 python3.11-wheel-0.45.1-1.el9 | python-wheel-0.45.1-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.45.1-1.el9.src.rpm.log)
 python3.11-wrapt-1.17.0-1.el9 | python-wrapt-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-wrapt-1.17.0-1.el9.src.rpm.log)
@@ -308,4 +312,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-298 total packages, 257 packages built successfully, 41 packages left to fix
+302 total packages, 258 packages built successfully, 44 packages left to fix
