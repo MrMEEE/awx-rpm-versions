@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-receptor-1.5.3-1.el9.src.rpm
+The lastest package built was python-chardet-5.2.0-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:28:23 PM CET 2025
+The build completed at Mon Mar  3 12:47:45 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/awx-receptor-1.5.3-1.el9.src.rpm.log)
+[Build Log](logs/python-chardet-5.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

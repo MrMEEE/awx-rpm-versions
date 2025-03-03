@@ -27,6 +27,22 @@ This is package 'distro' generated automatically by pyp2spec.}
 Summary:        %{summary}
 
 %description -n python%{python3_pkgversion}-distro %_description
+# START ALTERNATIVES
+%post -n python%{python3_pkgversion}-distro
+if [[   "distro" ==  "1" ]]; then
+for i in `cat /usr/bin/%{name}-binfiles`;do
+        alternatives --install /usr/bin/$i $i /usr/bin/${i}3.11 10
+done
+fi
+
+%preun -n python%{python3_pkgversion}-distro
+if [[ "distro" ==  "0" ]]; then
+for i in `cat /usr/bin/%{name}-binfiles`;do
+        alternatives --remove $i /usr/bin/${i}3.11
+done
+fi
+# END ALTERNATIVES
+
 
 
 %prep
@@ -45,7 +61,30 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+# START RENAMING OF BINARIES 1
+%if "%{python3_pkgversion}" != "3"
+cd $RPM_BUILD_ROOT/usr/bin/
+ls | tee $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
+sed -i "/%{name}-binfiles/d" $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles
+for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
+echo "Renaming $i to $(echo $i)%{python3_pkgversion}"
+mv $RPM_BUILD_ROOT/usr/bin/$i $RPM_BUILD_ROOT/usr/bin/$(echo $i)%{python3_pkgversion}
+done
+%endif
+# END RENAMING OF BINARIES 1
+
 %pyproject_save_files '*' +auto
+# START RENAMING OF BINARIES 2
+%if "%{python3_pkgversion}" != "3"
+cd $RPM_BUILD_ROOT/usr/bin/
+for i in `cat $RPM_BUILD_ROOT/usr/bin/%{name}-binfiles`;do
+echo "Renaming: $i to $(echo $i)%{python3_pkgversion}"
+sed -i "s|/usr/bin/$i$|/usr/bin/$(echo $i)%{python3_pkgversion}|g" %{pyproject_files}
+done
+echo /usr/bin/%{name}-binfiles >> %{pyproject_files}
+%endif
+# END RENAMING OF BINARIES 2
+
 
 
 %check
