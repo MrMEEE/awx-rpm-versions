@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm
+The lastest package built was awx-ui-30.0.0-17.el9.src.rpm
 
-The build completed at Tue Mar  4 12:38:27 AM CET 2025
+The build completed at Tue Mar  4 12:39:59 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
+[Build Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -51,6 +51,7 @@ awx-ui-30.0.0-13.el9 | awx-ui-30.0.0-13.el9.src.rpm | **Missing** | [Log](logs/a
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
 awx-ui-30.0.0-15.el9 | awx-ui-30.0.0-15.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-15.el9.src.rpm.log)
 awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-16.el9.src.rpm.log)
+awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-1.el9 | awx-ui-30.0.0-1.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-1.el9.src.rpm.log)
 awx-ui-30.0.0-2.el9 | awx-ui-30.0.0-2.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-2.el9.src.rpm.log)
 awx-ui-30.0.0-3.el9 | awx-ui-30.0.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-3.el9.src.rpm.log)
@@ -313,4 +314,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-303 total packages, 264 packages built successfully, 39 packages left to fix
+304 total packages, 264 packages built successfully, 40 packages left to fix
