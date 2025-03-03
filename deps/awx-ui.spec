@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 6%{dist}
+Release: 7%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -63,6 +63,29 @@ BuildRequires: python3.11-autobahn = 24.4.2
 BuildRequires: python3.11-autocommand = 2.2.2
 BuildRequires: python3.11-automat = 24.8.1
 BuildRequires: python3.11-awscrt = 0.22.4
+BuildRequires: python3.11-awx-plugins-core = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-github-app = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-hashivault-kv = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-hashivault-ssh = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-thycotic-dsv = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-azure-rm = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-constructed = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-controller = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-ec2 = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-gce = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-insights = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-openshift-virtualization = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-openstack = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-rhv = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-satellite6 = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-terraform = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+inventory-vmware = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-interfaces = 0.0.1~a4
 BuildRequires: python3.11-azure-core = 1.32.0
 BuildRequires: python3.11-azure-core+aio = 1.32.0
 BuildRequires: python3.11-azure-identity = 1.19.0
@@ -247,9 +270,11 @@ BuildRequires: python3.11-pycares = 4.5.0
 BuildRequires: python3.11-pycares+idna = 4.5.0
 BuildRequires: python3.11-pycparser = 2.22
 BuildRequires: python3.11-pygerduty = 0.38.3
+BuildRequires: python3.11-pygithub = 2.6.1
 BuildRequires: python3.11-pygments = 2.19.1
 BuildRequires: python3.11-pyjwt = 2.10.1
 BuildRequires: python3.11-pyjwt+crypto = 2.10.1
+BuildRequires: python3.11-pynacl = 1.5.0
 BuildRequires: python3.11-pyopenssl = 24.3.0
 BuildRequires: python3.11-pyparsing = 2.4.6
 BuildRequires: python3.11-pyproject-hooks = 1.2.0
@@ -350,6 +375,29 @@ Requires: python3.11-autobahn = 24.4.2
 Requires: python3.11-autocommand = 2.2.2
 Requires: python3.11-automat = 24.8.1
 Requires: python3.11-awscrt = 0.22.4
+Requires: python3.11-awx-plugins-core = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-github-app = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-hashivault-kv = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-hashivault-ssh = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-thycotic-dsv = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-azure-rm = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-constructed = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-controller = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-ec2 = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-gce = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-insights = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-openshift-virtualization = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-openstack = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-rhv = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-satellite6 = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-terraform = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+inventory-vmware = 0.0.1~a9
+Requires: python3.11-awx-plugins-interfaces = 0.0.1~a4
 Requires: python3.11-azure-core = 1.32.0
 Requires: python3.11-azure-core+aio = 1.32.0
 Requires: python3.11-azure-identity = 1.19.0
@@ -534,9 +582,11 @@ Requires: python3.11-pycares = 4.5.0
 Requires: python3.11-pycares+idna = 4.5.0
 Requires: python3.11-pycparser = 2.22
 Requires: python3.11-pygerduty = 0.38.3
+Requires: python3.11-pygithub = 2.6.1
 Requires: python3.11-pygments = 2.19.1
 Requires: python3.11-pyjwt = 2.10.1
 Requires: python3.11-pyjwt+crypto = 2.10.1
+Requires: python3.11-pynacl = 1.5.0
 Requires: python3.11-pyopenssl = 24.3.0
 Requires: python3.11-pyparsing = 2.4.6
 Requires: python3.11-pyproject-hooks = 1.2.0
@@ -690,6 +740,6 @@ cp -a public %{buildroot}/opt/awx-rpm/
 %{service_homedir}/.tower_version
 
 %changelog
-* Mon Mar 03 2025 12:16:15 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 01:03:45 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
