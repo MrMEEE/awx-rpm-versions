@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 23%{dist}
+Release: 24%{dist}
 #Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -62,7 +62,7 @@ mkdir -p $RPM_BUILD_ROOT/var/lib/awx/job_status
 
 cp %{_sourcedir}/settings.py-%{version} %{buildroot}%{service_configdir}/settings.py
 mkdir -p %{buildroot}%{_prefix}/public
-
+mkdir -p %{buildroot}/etc/tower
 mkdir -p %{buildroot}/usr/lib/systemd/system
 # awx-channels-worker awx
 #for service in awx-wsrelay awx-ws-heartbeat awx-daphne awx-dispatcher awx-receiver awx-receptor awx-receptor-hop awx-receptor-worker; do
@@ -130,6 +130,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Mon Mar 03 2025 01:01:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 01:04:02 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
