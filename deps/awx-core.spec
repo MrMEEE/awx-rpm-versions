@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 7%{dist}
+Release: 8%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -687,8 +687,8 @@ mkdir -p %{buildroot}/usr/lib/systemd/system
 
 sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')//g" $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/main/utils/external_logging.py
 
-rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/public
-ln -s /opt/awx-rpm/awx-ui/awx/ $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/public
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/public
+ln -s /opt/awx-rpm/awx-ui/awx/ $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/public
 
 %clean
 
@@ -719,6 +719,6 @@ ln -s /opt/awx-rpm/awx-ui/awx/ $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversio
 #/var/lib/awx/job_status
 
 %changelog
-* Mon Mar 03 2025 09:54:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 10:08:57 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
