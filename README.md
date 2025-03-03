@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-dsv-sdk-1.0.4-1.el9.src.rpm
+The lastest package built was python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm
 
-The build completed at Mon Mar  3 12:55:58 AM CET 2025
+The build completed at Mon Mar  3 01:03:19 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
+[Build Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -60,7 +60,7 @@ python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built 
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | Built | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
 python3.11-awscrt-0.22.4-1.el9 | python-awscrt-0.22.4-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.22.4-1.el9.src.rpm.log)
-python3.11-awx-plugins-core-0.0.1~a9-1.el9 | python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm | **Missing** | [Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
+python3.11-awx-plugins-core-0.0.1~a9-1.el9 | python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm | Built | [Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
 python3.11-awx-plugins-interfaces-0.0.1~a4-1.el9 | python-awx-plugins-interfaces-0.0.1~a4-1.el9.src.rpm | Built | [Log](logs/python-awx-plugins-interfaces-0.0.1~a4-1.el9.src.rpm.log)
 python3.11-azure-core-1.32.0-1.el9 | python-azure-core-1.32.0-1.el9.src.rpm | Built | [Log](logs/python-azure-core-1.32.0-1.el9.src.rpm.log)
 python3.11-azure-identity-1.19.0-1.el9 | python-azure-identity-1.19.0-1.el9.src.rpm | Built | [Log](logs/python-azure-identity-1.19.0-1.el9.src.rpm.log)
@@ -263,7 +263,6 @@ python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [L
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.1.15.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
-python3.11-tss-sdk-1.2.3-1.el9 | python-tss-sdk-1.2.3-1.el9.src.rpm | Built | [Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
 python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | Built | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 python3.11-twine-6.1.0-1.el9 | python-twine-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
 python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
@@ -286,4 +285,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-276 total packages, 246 packages built successfully, 30 packages left to fix
+275 total packages, 246 packages built successfully, 29 packages left to fix
