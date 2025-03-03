@@ -8,9 +8,9 @@ Environment=AWX_SETTINGS_FILE=/etc/tower/settings.py
 Environment=PATH=/opt/awx/bin:/bin:/sbin:/usr/bin:/usr/sbin
 ExecStart=/usr/bin/uwsgi3.11 -b 32768 \
              --socket 127.0.0.1:8050 \
-             --module=awx.wsgi:application \
+             --mount="/=awx.wsgi:application" \
              --home=/ \
-             --chdir=/opt/awx-rpm \
+             --chdir=/usr/lib/python3.11/site-packages/awx \
              --vacuum \
              --processes=5 \
              --harakiri=120 \

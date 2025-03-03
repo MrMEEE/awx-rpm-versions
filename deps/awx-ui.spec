@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 13%{dist}
+Release: 14%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -694,8 +694,6 @@ mkdir -p %{buildroot}/var/log/tower
 
 mkdir -p %{buildroot}/opt/awx-rpm
 
-cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
-
 #pushd %{buildroot}/opt/awx-rpm
 
 DJANGO_SETTINGS_MODULE=awx.settings.defaults SKIP_SECRET_KEY_CHECK=yes SKIP_PG_VERSION_CHECK=yes awx-manage collectstatic --noinput --clear
@@ -717,7 +715,9 @@ DJANGO_SETTINGS_MODULE=awx.settings.defaults SKIP_SECRET_KEY_CHECK=yes SKIP_PG_V
 
 #rsync -avr awx/ $RPM_BUILD_ROOT/opt/awx-rpm/awx/
 cp -a /var/lib/awx/public %{buildroot}/opt/awx-rpm/
+mkdir -p %{buildroot}/opt/awx-rpm/public/static/
 cp -a awx/ui/public/static/media %{buildroot}/opt/awx-rpm/public/static/
+cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/rsyslog
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/projects
@@ -745,6 +745,6 @@ cp -a awx/ui/public/static/media %{buildroot}/opt/awx-rpm/public/static/
 #%{service_homedir}/.tower_version
 
 %changelog
-* Mon Mar 03 2025 09:23:29 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 09:34:27 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
