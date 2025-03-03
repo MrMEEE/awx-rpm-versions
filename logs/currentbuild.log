@@ -1,4 +1,4 @@
-INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-chardet-5.2.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/ --resultdir /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/ --no-clean /opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-distro-1.9.0-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
 Start(bootstrap): init plugins
 INFO: selinux enabled
 Finish(bootstrap): init plugins
@@ -7,7 +7,7 @@ INFO: selinux enabled
 Finish: init plugins
 INFO: Signal handler active
 Start: run
-INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-chardet-5.2.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+INFO: Start(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-distro-1.9.0-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
 Mock Version: 5.5
 INFO: Mock Version: 5.5
 Start(bootstrap): chroot init
@@ -34,12 +34,12 @@ INFO: Buildroot is handled by package management downloaded with a bootstrap ima
   python3-dnf-plugins-core-4.3.0-16.el9.noarch
   yum-4.14.0-17.el9.noarch
 Finish: chroot init
-Start: build phase for python-chardet-5.2.0-1.el9.src.rpm
-Start: build setup for python-chardet-5.2.0-1.el9.src.rpm
+Start: build phase for python-distro-1.9.0-1.el9.src.rpm
+Start: build setup for python-distro-1.9.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Wrote: /builddir/build/SRPMS/python-chardet-5.2.0-1.el9.src.rpm
+Wrote: /builddir/build/SRPMS/python-distro-1.9.0-1.el9.src.rpm
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
 Unable to read consumer identity
@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         3.0 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                          35 MB/s | 395 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            21 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [                  ===                      ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  49 kB/s |  44 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                          44 MB/s | 395 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [         ===                               ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux B100% [===========================================]  10 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              10 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [               ===                         ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_ 18% [=======-                                   ]  25 kB/s | 8.0 kB     00:01 ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  64 kB/s |  44 kB     00:00    
 Dependencies resolved.
 ===============================================================================================================================
  Package                                 Architecture       Version                        Repository                     Size
@@ -164,31 +164,31 @@ Installed:
   python3.11-setuptools-wheel-65.5.1-3.el9.noarch                
 
 Complete!
-Finish: build setup for python-chardet-5.2.0-1.el9.src.rpm
+Finish: build setup for python-distro-1.9.0-1.el9.src.rpm
 Start: Outputting list of installed packages
 Finish: Outputting list of installed packages
-Start: rpmbuild python-chardet-5.2.0-1.el9.src.rpm
+Start: rpmbuild python-distro-1.9.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.4Snl88
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.UBnKQ7
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
-+ rm -rf chardet-5.2.0
-+ /usr/bin/gzip -dc /builddir/build/SOURCES/chardet-5.2.0.tar.gz
++ rm -rf distro-1.9.0
++ /usr/bin/gzip -dc /builddir/build/SOURCES/distro-1.9.0.tar.gz
 + /usr/bin/tar -xof -
 + STATUS=0
 + '[' 0 -ne 0 ']'
-+ cd chardet-5.2.0
++ cd distro-1.9.0
 + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vPq8fJ
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.62eN1C
 + umask 022
 + cd /builddir/build/BUILD
-+ cd chardet-5.2.0
++ cd distro-1.9.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -197,21 +197,21 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.vPq8fJ
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Import error: No module named 'packaging'
-+ cat /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-chardet-5.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-distro-1.9.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -220,10 +220,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         3.0 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               17 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              21 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  88 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  79 kB/s |  44 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -263,10 +263,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.25WBD6
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.GQ4EWV
 + umask 022
 + cd /builddir/build/BUILD
-+ cd chardet-5.2.0
++ cd distro-1.9.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -275,23 +275,23 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.25WBD6
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools from build-system.requires
 Requirement not satisfied: setuptools
 Exiting dependency generation pass: build backend
-+ cat /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ cat /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 + rm -rfv '*.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-chardet-5.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-distro-1.9.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -300,10 +300,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         3.0 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               16 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            24 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              24 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  97 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  12 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               12 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            16 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              18 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  72 kB/s |  44 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -341,10 +341,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JOZglk
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.Ivwhw7
 + umask 022
 + cd /builddir/build/BUILD
-+ cd chardet-5.2.0
++ cd distro-1.9.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -353,53 +353,53 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JOZglk
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools from build-system.requires
 Requirement satisfied: setuptools
    (installed: setuptools 75.8.0)
 running egg_info
-writing chardet.egg-info/PKG-INFO
-writing dependency_links to chardet.egg-info/dependency_links.txt
-writing entry points to chardet.egg-info/entry_points.txt
-writing top-level names to chardet.egg-info/top_level.txt
-reading manifest file 'chardet.egg-info/SOURCES.txt'
+writing src/distro.egg-info/PKG-INFO
+writing dependency_links to src/distro.egg-info/dependency_links.txt
+writing entry points to src/distro.egg-info/entry_points.txt
+writing top-level names to src/distro.egg-info/top_level.txt
+reading manifest file 'src/distro.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'requirements.txt'
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no files found matching 'CHANGES'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
 adding license file 'LICENSE'
-writing manifest file 'chardet.egg-info/SOURCES.txt'
+writing manifest file 'src/distro.egg-info/SOURCES.txt'
 running dist_info
-writing chardet.egg-info/PKG-INFO
-writing dependency_links to chardet.egg-info/dependency_links.txt
-writing entry points to chardet.egg-info/entry_points.txt
-writing top-level names to chardet.egg-info/top_level.txt
-reading manifest file 'chardet.egg-info/SOURCES.txt'
+creating distro.egg-info
+writing distro.egg-info/PKG-INFO
+writing dependency_links to distro.egg-info/dependency_links.txt
+writing entry points to distro.egg-info/entry_points.txt
+writing top-level names to distro.egg-info/top_level.txt
+writing manifest file 'distro.egg-info/SOURCES.txt'
+reading manifest file 'distro.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'requirements.txt'
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no files found matching 'CHANGES'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
 adding license file 'LICENSE'
-writing manifest file 'chardet.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/chardet-5.2.0/chardet-5.2.0.dist-info'
-+ cat /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv chardet-5.2.0.dist-info/
-removed 'chardet-5.2.0.dist-info/entry_points.txt'
-removed 'chardet-5.2.0.dist-info/top_level.txt'
-removed 'chardet-5.2.0.dist-info/METADATA'
-removed 'chardet-5.2.0.dist-info/LICENSE'
-removed directory 'chardet-5.2.0.dist-info/'
+writing manifest file 'distro.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/distro-1.9.0/distro-1.9.0.dist-info'
++ cat /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv distro-1.9.0.dist-info/
+removed 'distro-1.9.0.dist-info/entry_points.txt'
+removed 'distro-1.9.0.dist-info/top_level.txt'
+removed 'distro-1.9.0.dist-info/METADATA'
+removed 'distro-1.9.0.dist-info/LICENSE'
+removed directory 'distro-1.9.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Wrote: /builddir/build/SRPMS/python-chardet-5.2.0-1.el9.buildreqs.nosrc.rpm
+Wrote: /builddir/build/SRPMS/python-distro-1.9.0-1.el9.buildreqs.nosrc.rpm
 INFO: Going to install missing dynamic buildrequires
 No matches found for the following disable plugin patterns: local, spacewalk, versionlock
 Updating Subscription Management repositories.
@@ -408,10 +408,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/           [===                                        ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                         3.0 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                               20 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                            23 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              18 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  69 kB/s |  44 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                [===                                        ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS           100% [===========================================]  13 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                               13 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream             [   ===                                     ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream        100% [===========================================] 8.4 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - AppStream                                                           8.4 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux B     [      ===                                  ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                              16 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_     [         ===                               ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_     [            ===                            ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                  82 kB/s |  44 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -424,10 +424,10 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YzGvON
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.JbpKWc
 + umask 022
 + cd /builddir/build/BUILD
-+ cd chardet-5.2.0
++ cd distro-1.9.0
 + echo pyproject-rpm-macros
 + echo python3.11-devel
 + echo 'python3.11dist(pip) >= 19'
@@ -436,352 +436,206 @@ Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.YzGvON
 + true
 + rm -rfv '*.dist-info/'
 + '[' -f /usr/bin/python3.11 ']'
-+ mkdir -p /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ mkdir -p /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + echo -n
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + RPM_TOXENV=py311
 + HOSTNAME=rpmbuild
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_buildrequires.py --generate-extras --python3_pkgversion 3.11 --wheeldir /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11 --output /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
 Handling setuptools from build-system.requires
 Requirement satisfied: setuptools
    (installed: setuptools 75.8.0)
 running egg_info
-writing chardet.egg-info/PKG-INFO
-writing dependency_links to chardet.egg-info/dependency_links.txt
-writing entry points to chardet.egg-info/entry_points.txt
-writing top-level names to chardet.egg-info/top_level.txt
-reading manifest file 'chardet.egg-info/SOURCES.txt'
+writing src/distro.egg-info/PKG-INFO
+writing dependency_links to src/distro.egg-info/dependency_links.txt
+writing entry points to src/distro.egg-info/entry_points.txt
+writing top-level names to src/distro.egg-info/top_level.txt
+reading manifest file 'src/distro.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'requirements.txt'
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no files found matching 'CHANGES'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
 adding license file 'LICENSE'
-writing manifest file 'chardet.egg-info/SOURCES.txt'
+writing manifest file 'src/distro.egg-info/SOURCES.txt'
 running dist_info
-writing chardet.egg-info/PKG-INFO
-writing dependency_links to chardet.egg-info/dependency_links.txt
-writing entry points to chardet.egg-info/entry_points.txt
-writing top-level names to chardet.egg-info/top_level.txt
-reading manifest file 'chardet.egg-info/SOURCES.txt'
+writing distro.egg-info/PKG-INFO
+writing dependency_links to distro.egg-info/dependency_links.txt
+writing entry points to distro.egg-info/entry_points.txt
+writing top-level names to distro.egg-info/top_level.txt
+reading manifest file 'distro.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-warning: no files found matching 'requirements.txt'
-warning: no previously-included files matching '*.pyc' found anywhere in distribution
-warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no files found matching 'CHANGES'
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
 adding license file 'LICENSE'
-writing manifest file 'chardet.egg-info/SOURCES.txt'
-creating '/builddir/build/BUILD/chardet-5.2.0/chardet-5.2.0.dist-info'
-+ cat /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-buildrequires
-+ rm -rfv chardet-5.2.0.dist-info/
-removed 'chardet-5.2.0.dist-info/entry_points.txt'
-removed 'chardet-5.2.0.dist-info/top_level.txt'
-removed 'chardet-5.2.0.dist-info/METADATA'
-removed 'chardet-5.2.0.dist-info/LICENSE'
-removed directory 'chardet-5.2.0.dist-info/'
+writing manifest file 'distro.egg-info/SOURCES.txt'
+creating '/builddir/build/BUILD/distro-1.9.0/distro-1.9.0.dist-info'
++ cat /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-buildrequires
++ rm -rfv distro-1.9.0.dist-info/
+removed 'distro-1.9.0.dist-info/entry_points.txt'
+removed 'distro-1.9.0.dist-info/top_level.txt'
+removed 'distro-1.9.0.dist-info/METADATA'
+removed 'distro-1.9.0.dist-info/LICENSE'
+removed directory 'distro-1.9.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.vXrhIK
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.Aw79gI
 + umask 022
 + cd /builddir/build/BUILD
-+ cd chardet-5.2.0
-+ mkdir -p /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
++ cd distro-1.9.0
++ mkdir -p /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
 + CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
 + LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11
-Processing /builddir/build/BUILD/chardet-5.2.0
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -Bs /usr/lib/rpm/redhat/pyproject_wheel.py /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11
+Processing /builddir/build/BUILD/distro-1.9.0
   Preparing metadata (pyproject.toml): started
   Running command Preparing metadata (pyproject.toml)
   running dist_info
-  creating /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info
-  writing /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/dependency_links.txt
-  writing entry points to /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/entry_points.txt
-  writing top-level names to /builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info
+  writing /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/dependency_links.txt
+  writing entry points to /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/entry_points.txt
+  writing top-level names to /builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'requirements.txt'
-  warning: no previously-included files matching '*.pyc' found anywhere in distribution
-  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no files found matching 'CHANGES'
+  warning: no previously-included files matching '*.py[co]' found anywhere in distribution
   adding license file 'LICENSE'
-  writing manifest file '/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-modern-metadata-phf31352/chardet-5.2.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-modern-metadata-6tefmj8u/distro-1.9.0.dist-info'
   Preparing metadata (pyproject.toml): finished with status 'done'
-Building wheels for collected packages: chardet
-  Building wheel for chardet (pyproject.toml): started
-  Running command Building wheel for chardet (pyproject.toml)
+Building wheels for collected packages: distro
+  Building wheel for distro (pyproject.toml): started
+  Running command Building wheel for distro (pyproject.toml)
   running bdist_wheel
   running build
   running build_py
-  creating build/lib/chardet
-  copying chardet/__init__.py -> build/lib/chardet
-  copying chardet/__main__.py -> build/lib/chardet
-  copying chardet/big5freq.py -> build/lib/chardet
-  copying chardet/big5prober.py -> build/lib/chardet
-  copying chardet/chardistribution.py -> build/lib/chardet
-  copying chardet/charsetgroupprober.py -> build/lib/chardet
-  copying chardet/charsetprober.py -> build/lib/chardet
-  copying chardet/codingstatemachine.py -> build/lib/chardet
-  copying chardet/codingstatemachinedict.py -> build/lib/chardet
-  copying chardet/cp949prober.py -> build/lib/chardet
-  copying chardet/enums.py -> build/lib/chardet
-  copying chardet/escprober.py -> build/lib/chardet
-  copying chardet/escsm.py -> build/lib/chardet
-  copying chardet/eucjpprober.py -> build/lib/chardet
-  copying chardet/euckrfreq.py -> build/lib/chardet
-  copying chardet/euckrprober.py -> build/lib/chardet
-  copying chardet/euctwfreq.py -> build/lib/chardet
-  copying chardet/euctwprober.py -> build/lib/chardet
-  copying chardet/gb2312freq.py -> build/lib/chardet
-  copying chardet/gb2312prober.py -> build/lib/chardet
-  copying chardet/hebrewprober.py -> build/lib/chardet
-  copying chardet/jisfreq.py -> build/lib/chardet
-  copying chardet/johabfreq.py -> build/lib/chardet
-  copying chardet/johabprober.py -> build/lib/chardet
-  copying chardet/jpcntx.py -> build/lib/chardet
-  copying chardet/langbulgarianmodel.py -> build/lib/chardet
-  copying chardet/langgreekmodel.py -> build/lib/chardet
-  copying chardet/langhebrewmodel.py -> build/lib/chardet
-  copying chardet/langhungarianmodel.py -> build/lib/chardet
-  copying chardet/langrussianmodel.py -> build/lib/chardet
-  copying chardet/langthaimodel.py -> build/lib/chardet
-  copying chardet/langturkishmodel.py -> build/lib/chardet
-  copying chardet/latin1prober.py -> build/lib/chardet
-  copying chardet/macromanprober.py -> build/lib/chardet
-  copying chardet/mbcharsetprober.py -> build/lib/chardet
-  copying chardet/mbcsgroupprober.py -> build/lib/chardet
-  copying chardet/mbcssm.py -> build/lib/chardet
-  copying chardet/resultdict.py -> build/lib/chardet
-  copying chardet/sbcharsetprober.py -> build/lib/chardet
-  copying chardet/sbcsgroupprober.py -> build/lib/chardet
-  copying chardet/sjisprober.py -> build/lib/chardet
-  copying chardet/universaldetector.py -> build/lib/chardet
-  copying chardet/utf1632prober.py -> build/lib/chardet
-  copying chardet/utf8prober.py -> build/lib/chardet
-  copying chardet/version.py -> build/lib/chardet
-  creating build/lib/chardet/cli
-  copying chardet/cli/__init__.py -> build/lib/chardet/cli
-  copying chardet/cli/chardetect.py -> build/lib/chardet/cli
-  creating build/lib/chardet/metadata
-  copying chardet/metadata/__init__.py -> build/lib/chardet/metadata
-  copying chardet/metadata/languages.py -> build/lib/chardet/metadata
-  running egg_info
-  writing chardet.egg-info/PKG-INFO
-  writing dependency_links to chardet.egg-info/dependency_links.txt
-  writing entry points to chardet.egg-info/entry_points.txt
-  writing top-level names to chardet.egg-info/top_level.txt
-  reading manifest file 'chardet.egg-info/SOURCES.txt'
-  reading manifest template 'MANIFEST.in'
-  warning: no files found matching 'requirements.txt'
-  warning: no previously-included files matching '*.pyc' found anywhere in distribution
-  warning: no previously-included files matching '__pycache__' found anywhere in distribution
-  adding license file 'LICENSE'
-  writing manifest file 'chardet.egg-info/SOURCES.txt'
-  copying chardet/py.typed -> build/lib/chardet
+  creating build/lib/distro
+  copying src/distro/__init__.py -> build/lib/distro
+  copying src/distro/__main__.py -> build/lib/distro
+  copying src/distro/distro.py -> build/lib/distro
+  copying src/distro/py.typed -> build/lib/distro
   installing to build/bdist.linux-x86_64/wheel
   running install
   running install_lib
   creating build/bdist.linux-x86_64/wheel
-  creating build/bdist.linux-x86_64/wheel/chardet
-  copying build/lib/chardet/__init__.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/__main__.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/big5freq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/big5prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/chardistribution.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/charsetgroupprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/charsetprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/codingstatemachine.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/codingstatemachinedict.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/cp949prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/enums.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/escprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/escsm.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/eucjpprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/euckrfreq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/euckrprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/euctwfreq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/euctwprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/gb2312freq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/gb2312prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/hebrewprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/jisfreq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/johabfreq.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/johabprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/jpcntx.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langbulgarianmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langgreekmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langhebrewmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langhungarianmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langrussianmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langthaimodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/langturkishmodel.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/latin1prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/macromanprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/mbcharsetprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/mbcsgroupprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/mbcssm.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/resultdict.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/sbcharsetprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/sbcsgroupprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/sjisprober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/universaldetector.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/utf1632prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/utf8prober.py -> build/bdist.linux-x86_64/wheel/./chardet
-  copying build/lib/chardet/version.py -> build/bdist.linux-x86_64/wheel/./chardet
-  creating build/bdist.linux-x86_64/wheel/chardet/cli
-  copying build/lib/chardet/cli/__init__.py -> build/bdist.linux-x86_64/wheel/./chardet/cli
-  copying build/lib/chardet/cli/chardetect.py -> build/bdist.linux-x86_64/wheel/./chardet/cli
-  creating build/bdist.linux-x86_64/wheel/chardet/metadata
-  copying build/lib/chardet/metadata/__init__.py -> build/bdist.linux-x86_64/wheel/./chardet/metadata
-  copying build/lib/chardet/metadata/languages.py -> build/bdist.linux-x86_64/wheel/./chardet/metadata
-  copying build/lib/chardet/py.typed -> build/bdist.linux-x86_64/wheel/./chardet
+  creating build/bdist.linux-x86_64/wheel/distro
+  copying build/lib/distro/__init__.py -> build/bdist.linux-x86_64/wheel/./distro
+  copying build/lib/distro/__main__.py -> build/bdist.linux-x86_64/wheel/./distro
+  copying build/lib/distro/distro.py -> build/bdist.linux-x86_64/wheel/./distro
+  copying build/lib/distro/py.typed -> build/bdist.linux-x86_64/wheel/./distro
   running install_egg_info
-  Copying chardet.egg-info to build/bdist.linux-x86_64/wheel/./chardet-5.2.0-py3.11.egg-info
+  running egg_info
+  writing src/distro.egg-info/PKG-INFO
+  writing dependency_links to src/distro.egg-info/dependency_links.txt
+  writing entry points to src/distro.egg-info/entry_points.txt
+  writing top-level names to src/distro.egg-info/top_level.txt
+  reading manifest file 'src/distro.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching 'CHANGES'
+  warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file 'src/distro.egg-info/SOURCES.txt'
+  Copying src/distro.egg-info to build/bdist.linux-x86_64/wheel/./distro-1.9.0-py3.11.egg-info
   running install_scripts
-  creating build/bdist.linux-x86_64/wheel/chardet-5.2.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11/pip-wheel-fttnxt0v/.tmp-pgbctr5g/chardet-5.2.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-  adding 'chardet/__init__.py'
-  adding 'chardet/__main__.py'
-  adding 'chardet/big5freq.py'
-  adding 'chardet/big5prober.py'
-  adding 'chardet/chardistribution.py'
-  adding 'chardet/charsetgroupprober.py'
-  adding 'chardet/charsetprober.py'
-  adding 'chardet/codingstatemachine.py'
-  adding 'chardet/codingstatemachinedict.py'
-  adding 'chardet/cp949prober.py'
-  adding 'chardet/enums.py'
-  adding 'chardet/escprober.py'
-  adding 'chardet/escsm.py'
-  adding 'chardet/eucjpprober.py'
-  adding 'chardet/euckrfreq.py'
-  adding 'chardet/euckrprober.py'
-  adding 'chardet/euctwfreq.py'
-  adding 'chardet/euctwprober.py'
-  adding 'chardet/gb2312freq.py'
-  adding 'chardet/gb2312prober.py'
-  adding 'chardet/hebrewprober.py'
-  adding 'chardet/jisfreq.py'
-  adding 'chardet/johabfreq.py'
-  adding 'chardet/johabprober.py'
-  adding 'chardet/jpcntx.py'
-  adding 'chardet/langbulgarianmodel.py'
-  adding 'chardet/langgreekmodel.py'
-  adding 'chardet/langhebrewmodel.py'
-  adding 'chardet/langhungarianmodel.py'
-  adding 'chardet/langrussianmodel.py'
-  adding 'chardet/langthaimodel.py'
-  adding 'chardet/langturkishmodel.py'
-  adding 'chardet/latin1prober.py'
-  adding 'chardet/macromanprober.py'
-  adding 'chardet/mbcharsetprober.py'
-  adding 'chardet/mbcsgroupprober.py'
-  adding 'chardet/mbcssm.py'
-  adding 'chardet/py.typed'
-  adding 'chardet/resultdict.py'
-  adding 'chardet/sbcharsetprober.py'
-  adding 'chardet/sbcsgroupprober.py'
-  adding 'chardet/sjisprober.py'
-  adding 'chardet/universaldetector.py'
-  adding 'chardet/utf1632prober.py'
-  adding 'chardet/utf8prober.py'
-  adding 'chardet/version.py'
-  adding 'chardet/cli/__init__.py'
-  adding 'chardet/cli/chardetect.py'
-  adding 'chardet/metadata/__init__.py'
-  adding 'chardet/metadata/languages.py'
-  adding 'chardet-5.2.0.dist-info/LICENSE'
-  adding 'chardet-5.2.0.dist-info/METADATA'
-  adding 'chardet-5.2.0.dist-info/WHEEL'
-  adding 'chardet-5.2.0.dist-info/entry_points.txt'
-  adding 'chardet-5.2.0.dist-info/top_level.txt'
-  adding 'chardet-5.2.0.dist-info/RECORD'
+  creating build/bdist.linux-x86_64/wheel/distro-1.9.0.dist-info/WHEEL
+  creating '/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11/pip-wheel-phub040p/.tmp-2wcmj05n/distro-1.9.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  adding 'distro/__init__.py'
+  adding 'distro/__main__.py'
+  adding 'distro/distro.py'
+  adding 'distro/py.typed'
+  adding 'distro-1.9.0.dist-info/LICENSE'
+  adding 'distro-1.9.0.dist-info/METADATA'
+  adding 'distro-1.9.0.dist-info/WHEEL'
+  adding 'distro-1.9.0.dist-info/entry_points.txt'
+  adding 'distro-1.9.0.dist-info/top_level.txt'
+  adding 'distro-1.9.0.dist-info/RECORD'
   removing build/bdist.linux-x86_64/wheel
-  Building wheel for chardet (pyproject.toml): finished with status 'done'
-  Created wheel for chardet: filename=chardet-5.2.0-py3-none-any.whl size=199385 sha256=31a31f51ae2b65dad01a80230fa7ecd6839254adbaa3270467569ed9961b8cfd
-  Stored in directory: /builddir/.cache/pip/wheels/ed/48/fa/f925b4a71a0e5e200650caa3741be83dfdf34b6dce5e697b0f
-Successfully built chardet
+  Building wheel for distro (pyproject.toml): finished with status 'done'
+  Created wheel for distro: filename=distro-1.9.0-py3-none-any.whl size=20277 sha256=f7b5d6043a3d7e3c77f60c23fb9f37848d3e954532ed3d6e68cf304a52b6a8e4
+  Stored in directory: /builddir/.cache/pip/wheels/95/36/d3/d5f8031c20162a1055a4af1877ae609158bbcfb1834cdaf29d
+Successfully built distro
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.JjV7O0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.np5Ame
 + umask 022
 + cd /builddir/build/BUILD
-+ '[' /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64 '!=' / ']'
-+ rm -rf /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64
-++ dirname /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64
++ '[' /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64
 + mkdir -p /builddir/build/BUILDROOT
-+ mkdir /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64
-+ cd chardet-5.2.0
-++ ls /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11/chardet-5.2.0-py3-none-any.whl
++ mkdir /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64
++ cd distro-1.9.0
 ++ xargs basename --multiple
+++ ls /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11/distro-1.9.0-py3-none-any.whl
 ++ sed -E 's/([^-]+)-([^-]+)-.+\.whl/\1==\2/'
-+ specifier=chardet==5.2.0
-+ '[' -z chardet==5.2.0 ']'
-+ TMPDIR=/builddir/build/BUILD/chardet-5.2.0/.pyproject-builddir-3.11
-+ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11 chardet==5.2.0
++ specifier=distro==1.9.0
++ '[' -z distro==1.9.0 ']'
++ TMPDIR=/builddir/build/BUILD/distro-1.9.0/.pyproject-builddir-3.11
++ /usr/bin/python3.11 -m pip install --root /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64 --prefix /usr --no-deps --disable-pip-version-check --progress-bar off --verbose --ignore-installed --no-warn-script-location --no-index --no-cache-dir --find-links /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11 distro==1.9.0
 Using pip 22.3.1 from /usr/lib/python3.11/site-packages/pip (python 3.11)
-Looking in links: /builddir/build/BUILD/chardet-5.2.0/pyproject-wheeldir-3.11
-Processing ./pyproject-wheeldir-3.11/chardet-5.2.0-py3-none-any.whl
-Installing collected packages: chardet
-  Creating /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin
-  changing mode of /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/chardetect to 755
-Successfully installed chardet-5.2.0
+Looking in links: /builddir/build/BUILD/distro-1.9.0/pyproject-wheeldir-3.11
+Processing ./pyproject-wheeldir-3.11/distro-1.9.0-py3-none-any.whl
+Installing collected packages: distro
+  Creating /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin
+  changing mode of /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/distro to 755
+Successfully installed distro-1.9.0
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-+ '[' -d /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin ']'
++ '[' -d /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin ']'
 + '[' -z sP ']'
 + shebang_flags=-kasP
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/chardetect
-/builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/chardetect: updating
-+ rm -rfv /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/__pycache__
-+ rm -f /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pathfix.py -pni /usr/bin/python3.11 -kasP /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/distro
+/builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/distro: updating
++ rm -rfv /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/__pycache__
++ rm -f /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 + site_dirs=()
-+ '[' -d /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
 + site_dirs+=("/usr/lib/python3.11/site-packages")
-+ '[' /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
-+ '[' -d /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
++ '[' /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib64/python3.11/site-packages '!=' /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages ']'
++ '[' -d /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib64/python3.11/site-packages ']'
 + for site_dir in ${site_dirs[@]}
-+ for distinfo in /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64$site_dir/*.dist-info
-+ echo '%ghost /usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info'
-+ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/INSTALLER
++ for distinfo in /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64$site_dir/*.dist-info
++ echo '%ghost /usr/lib/python3.11/site-packages/distro-1.9.0.dist-info'
++ sed -i s/pip/rpm/ /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/INSTALLER
 + PYTHONPATH=/usr/lib/rpm/redhat
-+ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/RECORD --output /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-record
-+ rm -fv /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/RECORD
-removed '/builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/RECORD'
-+ rm -fv /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/REQUESTED
-removed '/builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11/site-packages/chardet-5.2.0.dist-info/REQUESTED'
-++ wc -l /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
++ /usr/bin/python3.11 -B /usr/lib/rpm/redhat/pyproject_preprocess_record.py --buildroot /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64 --record /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/RECORD --output /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-record
++ rm -fv /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/RECORD
+removed '/builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/RECORD'
++ rm -fv /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/REQUESTED
+removed '/builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11/site-packages/distro-1.9.0.dist-info/REQUESTED'
+++ wc -l /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-ghost-distinfo
 ++ cut -f1 '-d '
 + lines=1
 + '[' 1 -ne 1 ']'
-+ cd /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/
++ cd /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/
 + ls
-+ tee /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/python-chardet-binfiles
-chardetect
-python-chardet-binfiles
-+ sed -i /python-chardet-binfiles/d /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/python-chardet-binfiles
-++ cat /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/python-chardet-binfiles
-+ for i in `cat $RPM_BUILD_ROOT/usr/bin/python-chardet-binfiles`
-++ echo chardetect
-Renaming chardetect to chardetect3.11
-+ echo 'Renaming chardetect to chardetect3.11'
-++ echo chardetect
-+ mv /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/chardetect /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/chardetect3.11
++ tee /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/python-distro-binfiles
+distro
+python-distro-binfiles
++ sed -i /python-distro-binfiles/d /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/python-distro-binfiles
+++ cat /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/python-distro-binfiles
++ for i in `cat $RPM_BUILD_ROOT/usr/bin/python-distro-binfiles`
+Renaming distro to distro3.11
+++ echo distro
++ echo 'Renaming distro to distro3.11'
+++ echo distro
++ mv /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/distro /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/distro3.11
 + RPM_PERCENTAGES_COUNT=8
-+ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
-+ cd /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/
-++ cat /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/bin/python-chardet-binfiles
-+ for i in `cat $RPM_BUILD_ROOT/usr/bin/python-chardet-binfiles`
-++ echo chardetect
-Renaming: chardetect to chardetect3.11
-+ echo 'Renaming: chardetect to chardetect3.11'
-++ echo chardetect
-+ sed -i 's|/usr/bin/chardetect$|/usr/bin/chardetect3.11|g' /builddir/build/BUILD/python-chardet-5.2.0-1.el9.x86_64-3.11-pyproject-files
-+ echo /usr/bin/python-chardet-binfiles
-+ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 5.2.0-1.el9 --unique-debug-suffix -5.2.0-1.el9.x86_64 --unique-debug-src-base python-chardet-5.2.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/chardet-5.2.0
++ /usr/bin/python3.11 /usr/lib/rpm/redhat/pyproject_save_files.py --output-files /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-files --output-modules /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-modules --buildroot /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64 --sitelib /usr/lib/python3.11/site-packages --sitearch /usr/lib64/python3.11/site-packages --python-version 3.11 --pyproject-record /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-record --prefix /usr '*' +auto
++ cd /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/
+++ cat /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/bin/python-distro-binfiles
++ for i in `cat $RPM_BUILD_ROOT/usr/bin/python-distro-binfiles`
+++ echo distro
+Renaming: distro to distro3.11
++ echo 'Renaming: distro to distro3.11'
+++ echo distro
++ sed -i 's|/usr/bin/distro$|/usr/bin/distro3.11|g' /builddir/build/BUILD/python-distro-1.9.0-1.el9.x86_64-3.11-pyproject-files
++ echo /usr/bin/python-distro-binfiles
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 1.9.0-1.el9 --unique-debug-suffix -1.9.0-1.el9.x86_64 --unique-debug-src-base python-distro-1.9.0-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/distro-1.9.0
 find: 'debug': No such file or directory
 + /usr/lib/rpm/check-buildroot
 + /usr/lib/rpm/redhat/brp-ldconfig
@@ -789,21 +643,21 @@ find: 'debug': No such file or directory
 + /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
 + /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
-Bytecompiling .py files below /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
+Bytecompiling .py files below /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64/usr/lib/python3.11 using python3.11
 + /usr/lib/rpm/brp-python-hardlink
 + /usr/lib/rpm/redhat/brp-mangle-shebangs
-Processing files: python3.11-chardet-5.2.0-1.el9.noarch
-Provides: python3.11-chardet = 5.2.0-1.el9 python3.11dist(chardet) = 5.2
+Processing files: python3.11-distro-1.9.0-1.el9.noarch
+Provides: python3.11-distro = 1.9.0-1.el9 python3.11dist(distro) = 1.9
 Requires(interp): /bin/sh /bin/sh
 Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PartialHardlinkSets) <= 4.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
 Requires(post): /bin/sh
 Requires(preun): /bin/sh
 Requires: /usr/bin/python3.11 python(abi) = 3.11
-Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-chardet-5.2.0-1.el9.x86_64
-Wrote: /builddir/build/SRPMS/python-chardet-5.2.0-1.el9.src.rpm
-Wrote: /builddir/build/RPMS/python3.11-chardet-5.2.0-1.el9.noarch.rpm
-Finish: rpmbuild python-chardet-5.2.0-1.el9.src.rpm
-Finish: build phase for python-chardet-5.2.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-chardet-5.2.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 28 seconds
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/python-distro-1.9.0-1.el9.x86_64
+Wrote: /builddir/build/SRPMS/python-distro-1.9.0-1.el9.src.rpm
+Wrote: /builddir/build/RPMS/python3.11-distro-1.9.0-1.el9.noarch.rpm
+Finish: rpmbuild python-distro-1.9.0-1.el9.src.rpm
+Finish: build phase for python-distro-1.9.0-1.el9.src.rpm
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-distro-1.9.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 24 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
