@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-distro-1.9.0-1.el9.src.rpm
+The lastest package built was awx-rpm-30.0.0-23.el9.src.rpm
 
-The build completed at Mon Mar  3 12:48:18 PM CET 2025
+The build completed at Mon Mar  3 01:01:46 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-30.0.0-23.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,6 +28,7 @@ awx-rpm-30.0.0-1.el9 | awx-rpm-30.0.0-1.el9.src.rpm | **Missing** |
 awx-rpm-30.0.0-20.el9 | awx-rpm-30.0.0-20.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-20.el9.src.rpm.log)
 awx-rpm-30.0.0-21.el9 | awx-rpm-30.0.0-21.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-21.el9.src.rpm.log)
 awx-rpm-30.0.0-22.el9 | awx-rpm-30.0.0-22.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-22.el9.src.rpm.log)
+awx-rpm-30.0.0-23.el9 | awx-rpm-30.0.0-23.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-23.el9.src.rpm.log)
 awx-rpm-30.0.0-3.el9 | awx-rpm-30.0.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-3.el9.src.rpm.log)
 awx-rpm-30.0.0-4.el9 | awx-rpm-30.0.0-4.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-4.el9.src.rpm.log)
 awx-rpm-30.0.0-5.el9 | awx-rpm-30.0.0-5.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-5.el9.src.rpm.log)
@@ -293,4 +294,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-283 total packages, 249 packages built successfully, 34 packages left to fix
+284 total packages, 249 packages built successfully, 35 packages left to fix
