@@ -11,7 +11,7 @@ Summary:        "Consistent Ansible Python API and CLI with container and proces
 License:        gpl
 URL:            https://ansible-runner.readthedocs.io
 Source:         %{pypi_source ansible-runner}
-
+Patch:		ansible-runner-deps.patch
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
