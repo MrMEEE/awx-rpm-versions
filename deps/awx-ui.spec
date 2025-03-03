@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 14%{dist}
+Release: 15%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -40,7 +40,7 @@ Vendor: AWX
 Prefix: %{_prefix}
 AutoReqProv: false
 
-BuildRequires: awx-core vim
+BuildRequires: awx-core vim python%{python3_pkgversion}-pyparsing
 BuildRequires: make python%{python3_pkgversion} python%{python3_pkgversion}-devel nodejs npm gettext git python%{python3_pkgversion}-build rsync libpq libpq-devel 
 BuildRequires: python3.11-adal = 1.2.7
 BuildRequires: python3.11-aiodns = 3.2.0
@@ -277,7 +277,6 @@ BuildRequires: python3.11-pyjwt = 2.10.1
 BuildRequires: python3.11-pyjwt+crypto = 2.10.1
 BuildRequires: python3.11-pynacl = 1.5.0
 BuildRequires: python3.11-pyopenssl = 24.3.0
-BuildRequires: python3.11-pyparsing = 2.4.6
 BuildRequires: python3.11-pyproject-hooks = 1.2.0
 BuildRequires: python3.11-python-daemon = 3.1.2
 BuildRequires: python3.11-python-dateutil = 2.9.0^post0
@@ -353,8 +352,7 @@ BuildRequires: python3.11-zope-interface = 7.2
 BuildRequires: python3.11-zstandard = 0.23.0
 BuildRequires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 python3.11-pexpect 
 
-#Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
-Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
+Requires: python%{python3_pkgversion} python%{python3_pkgversion}-pyparsing nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
 Requires: python3.11-aiodns = 3.2.0
 Requires: python3.11-aiohappyeyeballs = 2.4.4
@@ -590,7 +588,6 @@ Requires: python3.11-pyjwt = 2.10.1
 Requires: python3.11-pyjwt+crypto = 2.10.1
 Requires: python3.11-pynacl = 1.5.0
 Requires: python3.11-pyopenssl = 24.3.0
-Requires: python3.11-pyparsing = 2.4.6
 Requires: python3.11-pyproject-hooks = 1.2.0
 Requires: python3.11-python-daemon = 3.1.2
 Requires: python3.11-python-dateutil = 2.9.0^post0
@@ -745,6 +742,6 @@ cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 #%{service_homedir}/.tower_version
 
 %changelog
-* Mon Mar 03 2025 09:34:27 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 09:52:34 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
