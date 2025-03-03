@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-boto-2.49.0-1.el9.src.rpm
+The lastest package built was python-fabric-3.2.2-1.el9.src.rpm
 
-The build completed at Mon Mar  3 10:30:41 PM CET 2025
+The build completed at Mon Mar  3 10:31:08 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-boto-2.49.0-1.el9.src.rpm.log)
+[Build Log](logs/python-fabric-3.2.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -141,7 +141,7 @@ python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | Built | 
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
-python3.11-fabric-3.2.2-1.el9 | python-fabric-3.2.2-1.el9.src.rpm | **Missing** |
+python3.11-fabric-3.2.2-1.el9 | python-fabric-3.2.2-1.el9.src.rpm | **Missing** | [Log](logs/python-fabric-3.2.2-1.el9.src.rpm.log)
 python3.11-fastjsonschema-2.21.1-1.el9 | python-fastjsonschema-2.21.1-1.el9.src.rpm | Built | [Log](logs/python-fastjsonschema-2.21.1-1.el9.src.rpm.log)
 python3.11-filelock-3.16.1-1.el9 | python-filelock-3.16.1-1.el9.src.rpm | Built | [Log](logs/python-filelock-3.16.1-1.el9.src.rpm.log)
 python3.11-findpython3.11-0.6.2-1.el9 | python-findpython-0.6.2-1.el9.src.rpm | **Missing** | [Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
