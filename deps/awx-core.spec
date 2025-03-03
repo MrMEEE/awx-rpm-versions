@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 8%{dist}
+Release: 9%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -50,8 +50,6 @@ BuildRequires: python3.11-autocommand = 2.2.2
 BuildRequires: python3.11-automat = 24.8.1
 BuildRequires: python3.11-awscrt = 0.22.4
 BuildRequires: python3.11-awx-plugins-core = 0.0.1~a9
-BuildRequires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
-BuildRequires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
@@ -86,6 +84,7 @@ BuildRequires: python3.11-bcrypt+tests = 4.2.1
 BuildRequires: python3.11-bcrypt+typecheck = 4.2.1
 BuildRequires: python3.11-bindep = 2.12.0
 BuildRequires: python3.11-blinker = 1.9.0
+BuildRequires: python3.11-boto = 2.49.0
 BuildRequires: python3.11-boto3 = 1.35.96
 BuildRequires: python3.11-boto3+crt = 1.35.96
 BuildRequires: python3.11-botocore = 1.35.96
@@ -110,6 +109,7 @@ BuildRequires: python3.11-crashtest = 0.4.1
 BuildRequires: python3.11-cryptography = 41.0.7
 BuildRequires: python3.11-cython = 3.0.11
 BuildRequires: python3.11-daphne = 4.1.2
+BuildRequires: python3.11-decorator = 5.2.1
 BuildRequires: python3.11-deprecated = 1.2.15
 BuildRequires: python3.11-distlib = 0.3.9
 BuildRequires: python3.11-distro = 1.9.0
@@ -133,6 +133,7 @@ BuildRequires: python3.11-dulwich = 0.22.7
 BuildRequires: python3.11-durationpy = 0.9
 BuildRequires: python3.11-enum-compat = 0.0.3
 BuildRequires: python3.11-expandvars = 0.12.0
+BuildRequires: python3.11-fabric = 3.2.2
 BuildRequires: python3.11-fastjsonschema = 2.21.1
 BuildRequires: python3.11-filelock = 3.16.1
 BuildRequires: python3.11-findpython = 0.6.2
@@ -170,6 +171,7 @@ BuildRequires: python3.11-incremental = 24.7.2
 BuildRequires: python3.11-incremental+scripts = 24.7.2
 BuildRequires: python3.11-inflection = 0.5.1
 BuildRequires: python3.11-installer = 0.7.0
+BuildRequires: python3.11-invoke = 2.2.0
 BuildRequires: python3.11-irc = 20.5.0
 BuildRequires: python3.11-isodate = 0.7.2
 BuildRequires: python3.11-jaraco-classes = 3.4.0
@@ -230,6 +232,7 @@ BuildRequires: python3.11-opentelemetry-sdk = 1.29.0
 BuildRequires: python3.11-opentelemetry-semantic-conventions = 0.50~b0
 BuildRequires: python3.11-orjson = 3.10.13
 BuildRequires: python3.11-packaging = 24.2
+BuildRequires: python3.11-paramiko = 3.5.1
 BuildRequires: python3.11-parsley = 1.3
 BuildRequires: python3.11-pathspec = 0.12.1
 BuildRequires: python3.11-pbr = 6.1.0
@@ -243,6 +246,7 @@ BuildRequires: python3.11-pkgconfig = 1.5.5
 BuildRequires: python3.11-pkginfo = 1.12.1.2
 BuildRequires: python3.11-platformdirs = 4.3.6
 BuildRequires: python3.11-portalocker = 2.10.1
+BuildRequires: python3.11-prettytable = 3.15.1
 BuildRequires: python3.11-priority = 1.3.0
 BuildRequires: python3.11-prometheus-client = 0.21.1
 BuildRequires: python3.11-prometheus-client+twisted = 0.21.1
@@ -329,6 +333,7 @@ BuildRequires: python3.11-uwsgitop = 0.12
 BuildRequires: python3.11-versioneer = 0.29
 BuildRequires: python3.11-versioneer+toml = 0.29
 BuildRequires: python3.11-virtualenv = 20.29.2
+BuildRequires: python3.11-wcwidth = 0.2.13
 BuildRequires: python3.11-websocket-client = 1.8.0
 BuildRequires: python3.11-wrapt = 1.17.0
 BuildRequires: python3.11-yarl = 1.18.3
@@ -361,8 +366,6 @@ Requires: python3.11-autocommand = 2.2.2
 Requires: python3.11-automat = 24.8.1
 Requires: python3.11-awscrt = 0.22.4
 Requires: python3.11-awx-plugins-core = 0.0.1~a9
-Requires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
-Requires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
@@ -397,6 +400,7 @@ Requires: python3.11-bcrypt+tests = 4.2.1
 Requires: python3.11-bcrypt+typecheck = 4.2.1
 Requires: python3.11-bindep = 2.12.0
 Requires: python3.11-blinker = 1.9.0
+Requires: python3.11-boto = 2.49.0
 Requires: python3.11-boto3 = 1.35.96
 Requires: python3.11-boto3+crt = 1.35.96
 Requires: python3.11-botocore = 1.35.96
@@ -421,6 +425,7 @@ Requires: python3.11-crashtest = 0.4.1
 Requires: python3.11-cryptography = 41.0.7
 Requires: python3.11-cython = 3.0.11
 Requires: python3.11-daphne = 4.1.2
+Requires: python3.11-decorator = 5.2.1
 Requires: python3.11-deprecated = 1.2.15
 Requires: python3.11-distlib = 0.3.9
 Requires: python3.11-distro = 1.9.0
@@ -444,6 +449,7 @@ Requires: python3.11-dulwich = 0.22.7
 Requires: python3.11-durationpy = 0.9
 Requires: python3.11-enum-compat = 0.0.3
 Requires: python3.11-expandvars = 0.12.0
+Requires: python3.11-fabric = 3.2.2
 Requires: python3.11-fastjsonschema = 2.21.1
 Requires: python3.11-filelock = 3.16.1
 Requires: python3.11-findpython = 0.6.2
@@ -481,6 +487,7 @@ Requires: python3.11-incremental = 24.7.2
 Requires: python3.11-incremental+scripts = 24.7.2
 Requires: python3.11-inflection = 0.5.1
 Requires: python3.11-installer = 0.7.0
+Requires: python3.11-invoke = 2.2.0
 Requires: python3.11-irc = 20.5.0
 Requires: python3.11-isodate = 0.7.2
 Requires: python3.11-jaraco-classes = 3.4.0
@@ -541,6 +548,7 @@ Requires: python3.11-opentelemetry-sdk = 1.29.0
 Requires: python3.11-opentelemetry-semantic-conventions = 0.50~b0
 Requires: python3.11-orjson = 3.10.13
 Requires: python3.11-packaging = 24.2
+Requires: python3.11-paramiko = 3.5.1
 Requires: python3.11-parsley = 1.3
 Requires: python3.11-pathspec = 0.12.1
 Requires: python3.11-pbr = 6.1.0
@@ -554,6 +562,7 @@ Requires: python3.11-pkgconfig = 1.5.5
 Requires: python3.11-pkginfo = 1.12.1.2
 Requires: python3.11-platformdirs = 4.3.6
 Requires: python3.11-portalocker = 2.10.1
+Requires: python3.11-prettytable = 3.15.1
 Requires: python3.11-priority = 1.3.0
 Requires: python3.11-prometheus-client = 0.21.1
 Requires: python3.11-prometheus-client+twisted = 0.21.1
@@ -640,6 +649,7 @@ Requires: python3.11-uwsgitop = 0.12
 Requires: python3.11-versioneer = 0.29
 Requires: python3.11-versioneer+toml = 0.29
 Requires: python3.11-virtualenv = 20.29.2
+Requires: python3.11-wcwidth = 0.2.13
 Requires: python3.11-websocket-client = 1.8.0
 Requires: python3.11-wrapt = 1.17.0
 Requires: python3.11-yarl = 1.18.3
@@ -719,6 +729,6 @@ ln -s /opt/awx-rpm/awx-ui/awx/ $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversio
 #/var/lib/awx/job_status
 
 %changelog
-* Mon Mar 03 2025 10:08:57 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 04 2025 12:40:41 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
