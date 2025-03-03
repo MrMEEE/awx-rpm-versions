@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 12%{dist}
+Release: 13%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -354,7 +354,7 @@ BuildRequires: python3.11-zstandard = 0.23.0
 BuildRequires: python3.11-pyasn1 python3.11-pip python3.11-urllib3 python3.11-pexpect 
 
 #Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
-Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq
+Requires: python%{python3_pkgversion} nodejs >= 18 npm gettext git nginx redis xmlsec1-openssl xmlsec1 podman sscg awx-receptor libpq 
 Requires: python3.11-adal = 1.2.7
 Requires: python3.11-aiodns = 3.2.0
 Requires: python3.11-aiohappyeyeballs = 2.4.4
@@ -694,7 +694,7 @@ mkdir -p %{buildroot}/var/log/tower
 
 mkdir -p %{buildroot}/opt/awx-rpm
 
-cp -a awx/ui/build %{buildroot}/opt/awx-rpm/awx-ui
+cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 
 #pushd %{buildroot}/opt/awx-rpm
 
@@ -717,6 +717,7 @@ DJANGO_SETTINGS_MODULE=awx.settings.defaults SKIP_SECRET_KEY_CHECK=yes SKIP_PG_V
 
 #rsync -avr awx/ $RPM_BUILD_ROOT/opt/awx-rpm/awx/
 cp -a /var/lib/awx/public %{buildroot}/opt/awx-rpm/
+cp -a awx/ui/public/static/media %{buildroot}/opt/awx-rpm/public/static/
 
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/rsyslog
 #mkdir -p $RPM_BUILD_ROOT/var/lib/awx/projects
@@ -734,6 +735,7 @@ cp -a /var/lib/awx/public %{buildroot}/opt/awx-rpm/
 #mkdir -p %{buildroot}%{_prefix}/public
 #rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
 
+
 %clean
 
 %files
@@ -743,6 +745,6 @@ cp -a /var/lib/awx/public %{buildroot}/opt/awx-rpm/
 #%{service_homedir}/.tower_version
 
 %changelog
-* Mon Mar 03 2025 12:14:57 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 09:23:29 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
