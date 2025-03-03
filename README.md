@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-ui-30.0.0-7.el9.src.rpm
+The lastest package built was python-ansible-runner-2.4.0-1.el9.src.rpm
 
-The build completed at Mon Mar  3 01:08:16 AM CET 2025
+The build completed at Mon Mar  3 01:09:32 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/awx-ui-30.0.0-7.el9.src.rpm.log)
+[Build Log](logs/python-ansible-runner-2.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -49,6 +49,7 @@ python3.11-aiohttp-retry-2.8.3-1.el9 | python-aiohttp-retry-2.8.3-1.el9.src.rpm 
 python3.11-aiosignal-1.3.2-1.el9 | python-aiosignal-1.3.2-1.el9.src.rpm | Built | [Log](logs/python-aiosignal-1.3.2-1.el9.src.rpm.log)
 python3.11-ansi2html-1.9.2-1.el9 | python-ansi2html-1.9.2-1.el9.src.rpm | Built | [Log](logs/python-ansi2html-1.9.2-1.el9.src.rpm.log)
 python3.11-ansible-builder-3.1.0-1.el9 | python-ansible-builder-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-ansible-builder-3.1.0-1.el9.src.rpm.log)
+python3.11-ansible-runner-2.4.0-1.el9 | python-ansible-runner-2.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-ansible-runner-2.4.0-1.el9.src.rpm.log)
 python3.11-anyio-4.8.0-1.el9 | python-anyio-4.8.0-1.el9.src.rpm | Built | [Log](logs/python-anyio-4.8.0-1.el9.src.rpm.log)
 python3.11-argon2-cffi-23.1.0-1.el9 | python-argon2-cffi-23.1.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-23.1.0-1.el9.src.rpm.log)
 python3.11-argon2-cffi-bindings-21.2.0-1.el9 | python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm | Built | [Log](logs/python-argon2-cffi-bindings-21.2.0-1.el9.src.rpm.log)
@@ -286,4 +287,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-276 total packages, 246 packages built successfully, 30 packages left to fix
+277 total packages, 246 packages built successfully, 31 packages left to fix
