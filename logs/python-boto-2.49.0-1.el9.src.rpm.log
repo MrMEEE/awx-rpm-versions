@@ -47,11 +47,11 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            [===                                                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                                            3.0 MB/s | 3.0 kB     00:00    
-/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            [===                                                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                                             46 MB/s | 429 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 [   ===                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                  18 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              [         ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                               12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                [            ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                           100% [=============================================================================]  14 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                 14 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    [               ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                    254 kB/s |  46 kB     00:00    
+/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            [===                                                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                                             48 MB/s | 438 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 [   ===                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                  15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                               19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                [         ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                 22 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    [            ===                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    [               ===                                                           ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                     74 kB/s |  46 kB     00:00    
 Dependencies resolved.
 ==================================================================================================================================================================================================
  Package                                                  Architecture                        Version                                        Repository                                      Size
@@ -166,7 +166,7 @@ Start: rpmbuild python-boto-2.49.0-1.el9.src.rpm
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eEpfQG
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.KQkv7i
 + umask 022
 + cd /builddir/build/BUILD
 + cd /builddir/build/BUILD
@@ -180,7 +180,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.eEpfQG
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.QkrrFP
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.rZzCNX
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto-2.49.0
@@ -217,10 +217,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            [===                                                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                                            3.0 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 [===                                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 [   ===                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                 [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                 4.8 kB/s | 4.1 kB     00:00    
-Red Hat Enterprise Linux - AppStream                                              [         ===                                                                 ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                              [            ===                                                              ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                               12 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                [               ===                                                           ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                           100% [=============================================================================]  12 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                 12 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    [                  ===                                                        ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    [                     ===                                                     ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                     76 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 [===                                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                            100% [=============================================================================]  10 kB/s | 4.1 kB     00:00 ETARed Hat Enterprise Linux - BaseOS                                                                                                                                  10 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - AppStream                                              [   ===                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                               19 kB/s | 4.5 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                           100% [=============================================================================]  15 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                 15 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    [         ===                                                                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                    [            ===                                                              ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                    100 kB/s |  46 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -266,7 +266,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.UqCdQW
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.jw3lM7
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto-2.49.0
@@ -348,10 +348,10 @@ Unable to read consumer identity
 This system is not registered with an entitlement server. You can use subscription-manager to register.
 
 /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                            [===                                                                          ] ---  B/s |   0  B     --:-- ETA/opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/                                                                                                                            3.0 MB/s | 3.0 kB     00:00    
-Red Hat Enterprise Linux - BaseOS                                                 [===                                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                  15 kB/s | 4.1 kB     00:00    
+Red Hat Enterprise Linux - BaseOS                                                 [===                                                                          ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - BaseOS                                                                                                                                  20 kB/s | 4.1 kB     00:00    
 Red Hat Enterprise Linux - AppStream                                              [   ===                                                                       ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - AppStream                                                                                                                               20 kB/s | 4.5 kB     00:00    
-Red Hat Enterprise Linux - CodeReady Linux Builder                                [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                           100% [=============================================================================] 8.7 kB/s | 4.5 kB     00:00 ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                8.7 kB/s | 4.5 kB     00:00    
-Extra Packages for Enterprise Linux 9 - x86_64                                    [         ===                                                                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                    521 kB/s |  46 kB     00:00    
+Red Hat Enterprise Linux - CodeReady Linux Builder                                [      ===                                                                    ] ---  B/s |   0  B     --:-- ETARed Hat Enterprise Linux - CodeReady Linux Builder                                                                                                                 23 kB/s | 4.5 kB     00:00    
+Extra Packages for Enterprise Linux 9 - x86_64                                    [         ===                                                                 ] ---  B/s |   0  B     --:-- ETAExtra Packages for Enterprise Linux 9 - x86_64                                                                                                                    511 kB/s |  46 kB     00:00    
 Package pyproject-rpm-macros-1.12.0-1.el9.noarch is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
 Package python3.11-devel-3.11.9-7.el9_5.2.x86_64 is already installed.
@@ -365,7 +365,7 @@ Complete!
 Building target platforms: x86_64
 Building for target x86_64
 setting SOURCE_DATE_EPOCH=1740960000
-Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.tFatAG
+Executing(%generate_buildrequires): /bin/sh -e /var/tmp/rpm-tmp.978Vke
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto-2.49.0
@@ -438,7 +438,7 @@ removed directory 'boto-2.49.0.dist-info/'
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.NTx773
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.TcxARw
 + umask 022
 + cd /builddir/build/BUILD
 + cd boto-2.49.0
@@ -453,17 +453,17 @@ Processing /builddir/build/BUILD/boto-2.49.0
   /usr/lib/python3.11/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'test_suite'
     warnings.warn(msg)
   running dist_info
-  creating /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info
-  writing /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/PKG-INFO
-  writing dependency_links to /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/dependency_links.txt
-  writing top-level names to /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/top_level.txt
-  writing manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/SOURCES.txt'
-  reading manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/SOURCES.txt'
+  creating /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info
+  writing /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/PKG-INFO
+  writing dependency_links to /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/dependency_links.txt
+  writing top-level names to /builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/top_level.txt
+  writing manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/SOURCES.txt'
+  reading manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/SOURCES.txt'
   reading manifest template 'MANIFEST.in'
   warning: no files found matching 'boto/mturk/test/*.doctest'
   warning: no files found matching 'boto/mturk/test/.gitignore'
-  writing manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto.egg-info/SOURCES.txt'
-  creating '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-1wg602ko/boto-2.49.0.dist-info'
+  writing manifest file '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto.egg-info/SOURCES.txt'
+  creating '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-modern-metadata-dpnwdh2r/boto-2.49.0.dist-info'
   /usr/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:124: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
   !!
 
@@ -1507,7 +1507,7 @@ Building wheels for collected packages: boto
   changing mode of build/bdist.linux-x86_64/wheel/boto-2.49.0.data/scripts/dynamodb_dump to 755
   changing mode of build/bdist.linux-x86_64/wheel/boto-2.49.0.data/scripts/dynamodb_load to 755
   creating build/bdist.linux-x86_64/wheel/boto-2.49.0.dist-info/WHEEL
-  creating '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-wheel-8rfjxlb3/.tmp-39c4wg6j/boto-2.49.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+  creating '/builddir/build/BUILD/boto-2.49.0/.pyproject-builddir-3.11/pip-wheel-yso_1g2m/.tmp-l1sal70h/boto-2.49.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
   adding 'boto/__init__.py'
   adding 'boto/auth.py'
   adding 'boto/auth_handler.py'
@@ -1923,7 +1923,7 @@ Successfully built boto
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.K3j6wx
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.L5E3Qf
 + umask 022
 + cd /builddir/build/BUILD
 + '[' /builddir/build/BUILDROOT/python-boto-2.49.0-1.el9.x86_64 '!=' / ']'
@@ -2015,11 +2015,11 @@ Wrote: /builddir/build/SRPMS/python-boto-2.49.0-1.el9.src.rpm
 Wrote: /builddir/build/RPMS/python3.11-boto-2.49.0-1.el9.noarch.rpm
 Finish: rpmbuild python-boto-2.49.0-1.el9.src.rpm
 Finish: build phase for python-boto-2.49.0-1.el9.src.rpm
-INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-boto-2.49.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 27 seconds
+INFO: Done(/opt/awx-rpm-ng/rpmbuilds/30.0.0/SRPMS/python-boto-2.49.0-1.el9.src.rpm) Config(epel-9-x86_64) 0 minutes 25 seconds
 INFO: Results and/or logs in: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS-TMP/
 Finish: run
 Directory walk started
-Directory walk done - 371 packages
+Directory walk done - 374 packages
 Temporary output repo path: /opt/awx-rpm-ng/rpmbuilds/30.0.0/RPMS/.repodata/
 Preparing sqlite DBs
 Pool started (with 5 workers)
