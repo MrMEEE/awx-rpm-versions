@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 25%{dist}
+Release: 26%{dist}
 #Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -113,8 +113,8 @@ fi
 #%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
 #%{service_homedir}/.tower_version
 #%dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
-#%config(noreplace) %{service_configdir}/settings.py
-#%config /etc/nginx/conf.d/awx-rpm.conf
+%config(noreplace) %{service_configdir}/settings.py
+%config /etc/nginx/conf.d/awx-rpm.conf
 /usr/lib/systemd/system/awx.target
 /etc/receptor
 #/usr/bin/ansible-tower-service
@@ -130,6 +130,6 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Mon Mar 03 2025 01:05:00 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Mon Mar 03 2025 01:10:14 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
