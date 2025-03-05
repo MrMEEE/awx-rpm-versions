@@ -12,16 +12,6 @@
 # MISC PROJECT SETTINGS
 ###############################################################################
 
-BASE_DIR = '/opt/awx-rpm/awx'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'ui', 'build', 'static'),
-    os.path.join(BASE_DIR, 'ui_next', 'build'),
-    os.path.join(BASE_DIR, 'static'),
-]
-
-UI_NEXT = True
-
 # Enable the following lines and install the browser extension to use Django debug toolbar
 # if your deployment method is not VMWare of Docker-for-Mac you may
 # need a different IP address from request.META['REMOTE_ADDR']
@@ -62,10 +52,9 @@ DATABASES = {
         'ATOMIC_REQUESTS': True,
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'awx',
-        # 'USER': os.getenv("DATABASE_USER", None),
-        # 'PASSWORD': os.getenv("DATABASE_PASSWORD", None),
-        # 'HOST': os.getenv("DATABASE_HOST", None),
-        # 'PORT': os.getenv("DATABASE_PORT", None),
+        'HOST': '127.0.0.1',
+        'USER': 'awx',
+        'PASSWORD': 'awx'
     }
 }
 
@@ -81,7 +70,7 @@ HOSTNAME = platform.node()
 
 ADMINS = ()
 
-STATIC_ROOT = '/opt/awx-rpm/static'
+STATIC_ROOT = '/opt/awx-rpm/public/static'
 
 SECRET_KEY = get_secret()
 
