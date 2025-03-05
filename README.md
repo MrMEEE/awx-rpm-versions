@@ -1,15 +1,14 @@
 ## Latest build
-The lastest package built was awx-rpm-30.0.0-29.el9.src.rpm
+The lastest package built was 
 
-The build completed at Thu Mar  6 12:38:00 AM CET 2025
+The build completed at Thu Mar  6 12:43:44 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-30.0.0-29.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
-awx-core-30.0.0-10.el9 | awx-core-30.0.0-10.el9.src.rpm | **Missing** |
 awx-core-30.0.0-2.el9 | awx-core-30.0.0-2.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-2.el9.src.rpm.log)
 awx-core-30.0.0-3.el9 | awx-core-30.0.0-3.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-3.el9.src.rpm.log)
 awx-core-30.0.0-4.el9 | awx-core-30.0.0-4.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-4.el9.src.rpm.log)
@@ -19,52 +18,16 @@ awx-core-30.0.0-7.el9 | awx-core-30.0.0-7.el9.src.rpm | Built | [Log](logs/awx-c
 awx-core-30.0.0-8.el9 | awx-core-30.0.0-8.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-8.el9.src.rpm.log)
 awx-core-30.0.0-9.el9 | awx-core-30.0.0-9.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-9.el9.src.rpm.log)
 awx-receptor-1.5.3-1.el9 | awx-receptor-1.5.3-1.el9.src.rpm | Built | [Log](logs/awx-receptor-1.5.3-1.el9.src.rpm.log)
-awx-rpm-30.0.0-10.el9 | awx-rpm-30.0.0-10.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-10.el9.src.rpm.log)
-awx-rpm-30.0.0-11.el9 | awx-rpm-30.0.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-11.el9.src.rpm.log)
-awx-rpm-30.0.0-12.el9 | awx-rpm-30.0.0-12.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-12.el9.src.rpm.log)
-awx-rpm-30.0.0-13.el9 | awx-rpm-30.0.0-13.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-13.el9.src.rpm.log)
-awx-rpm-30.0.0-14.el9 | awx-rpm-30.0.0-14.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-14.el9.src.rpm.log)
-awx-rpm-30.0.0-15.el9 | awx-rpm-30.0.0-15.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-16.el9 | awx-rpm-30.0.0-16.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-16.el9.src.rpm.log)
-awx-rpm-30.0.0-17.el9 | awx-rpm-30.0.0-17.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-17.el9.src.rpm.log)
-awx-rpm-30.0.0-18.el9 | awx-rpm-30.0.0-18.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-18.el9.src.rpm.log)
-awx-rpm-30.0.0-19.el9 | awx-rpm-30.0.0-19.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-19.el9.src.rpm.log)
-awx-rpm-30.0.0-1.el9 | awx-rpm-30.0.0-1.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-20.el9 | awx-rpm-30.0.0-20.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-20.el9.src.rpm.log)
-awx-rpm-30.0.0-21.el9 | awx-rpm-30.0.0-21.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-21.el9.src.rpm.log)
-awx-rpm-30.0.0-22.el9 | awx-rpm-30.0.0-22.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-22.el9.src.rpm.log)
-awx-rpm-30.0.0-23.el9 | awx-rpm-30.0.0-23.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-23.el9.src.rpm.log)
-awx-rpm-30.0.0-24.el9 | awx-rpm-30.0.0-24.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-24.el9.src.rpm.log)
-awx-rpm-30.0.0-25.el9 | awx-rpm-30.0.0-25.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-25.el9.src.rpm.log)
 awx-rpm-30.0.0-26.el9 | awx-rpm-30.0.0-26.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-26.el9.src.rpm.log)
 awx-rpm-30.0.0-27.el9 | awx-rpm-30.0.0-27.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-27.el9.src.rpm.log)
 awx-rpm-30.0.0-28.el9 | awx-rpm-30.0.0-28.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-28.el9.src.rpm.log)
 awx-rpm-30.0.0-29.el9 | awx-rpm-30.0.0-29.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-29.el9.src.rpm.log)
-awx-rpm-30.0.0-3.el9 | awx-rpm-30.0.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-3.el9.src.rpm.log)
-awx-rpm-30.0.0-4.el9 | awx-rpm-30.0.0-4.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-4.el9.src.rpm.log)
-awx-rpm-30.0.0-5.el9 | awx-rpm-30.0.0-5.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-5.el9.src.rpm.log)
-awx-rpm-30.0.0-6.el9 | awx-rpm-30.0.0-6.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-6.el9.src.rpm.log)
-awx-rpm-30.0.0-7.el9 | awx-rpm-30.0.0-7.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-7.el9.src.rpm.log)
-awx-rpm-30.0.0-8.el9 | awx-rpm-30.0.0-8.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-8.el9.src.rpm.log)
-awx-rpm-30.0.0-9.el9 | awx-rpm-30.0.0-9.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-9.el9.src.rpm.log)
-awx-ui-30.0.0-10.el9 | awx-ui-30.0.0-10.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-10.el9.src.rpm.log)
-awx-ui-30.0.0-11.el9 | awx-ui-30.0.0-11.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-11.el9.src.rpm.log)
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
-awx-ui-30.0.0-13.el9 | awx-ui-30.0.0-13.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-13.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
 awx-ui-30.0.0-15.el9 | awx-ui-30.0.0-15.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-15.el9.src.rpm.log)
 awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-16.el9.src.rpm.log)
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
-awx-ui-30.0.0-1.el9 | awx-ui-30.0.0-1.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-1.el9.src.rpm.log)
-awx-ui-30.0.0-2.el9 | awx-ui-30.0.0-2.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-2.el9.src.rpm.log)
-awx-ui-30.0.0-3.el9 | awx-ui-30.0.0-3.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-3.el9.src.rpm.log)
-awx-ui-30.0.0-4.el9 | awx-ui-30.0.0-4.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-4.el9.src.rpm.log)
-awx-ui-30.0.0-5.el9 | awx-ui-30.0.0-5.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-5.el9.src.rpm.log)
-awx-ui-30.0.0-6.el9 | awx-ui-30.0.0-6.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-6.el9.src.rpm.log)
-awx-ui-30.0.0-7.el9 | awx-ui-30.0.0-7.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-7.el9.src.rpm.log)
-awx-ui-30.0.0-8.el9 | awx-ui-30.0.0-8.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-8.el9.src.rpm.log)
-awx-ui-30.0.0-9.el9 | awx-ui-30.0.0-9.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-9.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
@@ -85,7 +48,6 @@ python3.11-attrs-24.3.0-1.el9 | python-attrs-24.3.0-1.el9.src.rpm | Built | [Log
 python3.11-autobahn-24.4.2-1.el9 | python-autobahn-24.4.2-1.el9.src.rpm | Built | [Log](logs/python-autobahn-24.4.2-1.el9.src.rpm.log)
 python3.11-autocommand-2.2.2-1.el9 | python-autocommand-2.2.2-1.el9.src.rpm | Built | [Log](logs/python-autocommand-2.2.2-1.el9.src.rpm.log)
 python3.11-automat-24.8.1-1.el9 | python-automat-24.8.1-1.el9.src.rpm | Built | [Log](logs/python-automat-24.8.1-1.el9.src.rpm.log)
-python3.11-aws-0.2.5-1.el9 | python-aws-0.2.5-1.el9.src.rpm | **Missing** | [Log](logs/python-aws-0.2.5-1.el9.src.rpm.log)
 python3.11-awscrt-0.22.4-1.el9 | python-awscrt-0.22.4-1.el9.src.rpm | Built | [Log](logs/python-awscrt-0.22.4-1.el9.src.rpm.log)
 python3.11-awx-plugins-core-0.0.1~a9-1.el9 | python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm | Built | [Log](logs/python-awx-plugins-core-0.0.1~a9-1.el9.src.rpm.log)
 python3.11-awx-plugins-interfaces-0.0.1~a4-1.el9 | python-awx-plugins-interfaces-0.0.1~a4-1.el9.src.rpm | Built | [Log](logs/python-awx-plugins-interfaces-0.0.1~a4-1.el9.src.rpm.log)
@@ -318,4 +280,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-308 total packages, 268 packages built successfully, 40 packages left to fix
+270 total packages, 268 packages built successfully, 2 packages left to fix
