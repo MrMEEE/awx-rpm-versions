@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pkginfo-1.11.1-1.el9.src.rpm
+The lastest package built was 
 
-The build completed at Thu Oct 17 11:07:30 PM CEST 2024
+The build completed at Thu Mar  6 12:47:32 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pkginfo-1.11.1-1.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
