@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 17%{dist}
+Release: 18%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -65,6 +65,8 @@ BuildRequires: python3.11-autocommand = 2.2.2
 BuildRequires: python3.11-automat = 24.8.1
 BuildRequires: python3.11-awscrt = 0.22.4
 BuildRequires: python3.11-awx-plugins-core = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
+BuildRequires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
 BuildRequires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
@@ -381,6 +383,8 @@ Requires: python3.11-autocommand = 2.2.2
 Requires: python3.11-automat = 24.8.1
 Requires: python3.11-awscrt = 0.22.4
 Requires: python3.11-awx-plugins-core = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-aim = 0.0.1~a9
+Requires: python3.11-awx-plugins-core+credentials-aws-secretsmanager-credential = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-azure-kv = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-centrify-vault-kv = 0.0.1~a9
 Requires: python3.11-awx-plugins-core+credentials-conjur = 0.0.1~a9
@@ -752,6 +756,6 @@ cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 #%{service_homedir}/.tower_version
 
 %changelog
-* Tue Mar 04 2025 12:38:48 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Thu Mar 06 2025 12:30:48 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 
