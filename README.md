@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-30.0.0-38.el9.src.rpm
+The lastest package built was 
 
-The build completed at Thu Mar  6 01:59:47 AM CET 2025
+The build completed at Fri Mar  7 12:17:31 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-rpm-30.0.0-38.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
