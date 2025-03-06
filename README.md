@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was 
+The lastest package built was awx-ui-30.0.0-19.el9.src.rpm
 
-The build completed at Thu Mar  6 01:04:27 AM CET 2025
+The build completed at Thu Mar  6 01:34:34 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/.log)
+[Build Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -22,12 +22,20 @@ awx-rpm-30.0.0-26.el9 | awx-rpm-30.0.0-26.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-30.0.0-27.el9 | awx-rpm-30.0.0-27.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-27.el9.src.rpm.log)
 awx-rpm-30.0.0-28.el9 | awx-rpm-30.0.0-28.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-28.el9.src.rpm.log)
 awx-rpm-30.0.0-29.el9 | awx-rpm-30.0.0-29.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-29.el9.src.rpm.log)
+awx-rpm-30.0.0-30.el9 | awx-rpm-30.0.0-30.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-31.el9 | awx-rpm-30.0.0-31.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-31.el9.src.rpm.log)
+awx-rpm-30.0.0-32.el9 | awx-rpm-30.0.0-32.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-33.el9 | awx-rpm-30.0.0-33.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-35.el9 | awx-rpm-30.0.0-35.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-36.el9 | awx-rpm-30.0.0-36.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-37.el9 | awx-rpm-30.0.0-37.el9.src.rpm | **Missing** |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
 awx-ui-30.0.0-15.el9 | awx-ui-30.0.0-15.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-15.el9.src.rpm.log)
 awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-16.el9.src.rpm.log)
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
+awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
@@ -280,4 +288,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-270 total packages, 268 packages built successfully, 2 packages left to fix
+278 total packages, 269 packages built successfully, 9 packages left to fix
