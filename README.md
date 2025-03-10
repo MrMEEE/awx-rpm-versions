@@ -1,15 +1,16 @@
 ## Latest build
-The lastest package built was awx-rpm-30.0.0-39.el9.src.rpm
+The lastest package built was awx-core-30.0.0-12.el9.src.rpm
 
-The build completed at Mon Mar 10 01:59:46 AM CET 2025
+The build completed at Mon Mar 10 02:03:34 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/awx-rpm-30.0.0-39.el9.src.rpm.log)
+[Build Log](logs/awx-core-30.0.0-12.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-core-30.0.0-11.el9 | awx-core-30.0.0-11.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-11.el9.src.rpm.log)
+awx-core-30.0.0-12.el9 | awx-core-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-12.el9.src.rpm.log)
 awx-core-30.0.0-2.el9 | awx-core-30.0.0-2.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-2.el9.src.rpm.log)
 awx-core-30.0.0-3.el9 | awx-core-30.0.0-3.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-3.el9.src.rpm.log)
 awx-core-30.0.0-4.el9 | awx-core-30.0.0-4.el9.src.rpm | Built | [Log](logs/awx-core-30.0.0-4.el9.src.rpm.log)
@@ -32,6 +33,7 @@ awx-rpm-30.0.0-36.el9 | awx-rpm-30.0.0-36.el9.src.rpm | **Missing** |
 awx-rpm-30.0.0-37.el9 | awx-rpm-30.0.0-37.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-37.el9.src.rpm.log)
 awx-rpm-30.0.0-38.el9 | awx-rpm-30.0.0-38.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-38.el9.src.rpm.log)
 awx-rpm-30.0.0-39.el9 | awx-rpm-30.0.0-39.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-39.el9.src.rpm.log)
+awx-rpm-30.0.0-40.el9 | awx-rpm-30.0.0-40.el9.src.rpm | **Missing** |
 awx-rpm-manage-1.2.2-1.el9 | awx-rpm-manage-1.2.2-1.el9.src.rpm | Built |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
@@ -292,4 +294,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-282 total packages, 273 packages built successfully, 9 packages left to fix
+284 total packages, 274 packages built successfully, 10 packages left to fix
