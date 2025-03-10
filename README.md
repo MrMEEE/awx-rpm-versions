@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-rpm-30.0.0-41.el9.src.rpm
+The lastest package built was awx-rpm-30.0.0-42.el9.src.rpm
 
-The build completed at Tue Mar 11 12:08:43 AM CET 2025
+The build completed at Tue Mar 11 12:14:16 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/awx-rpm-30.0.0-41.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-30.0.0-42.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -28,6 +28,7 @@ awx-rpm-30.0.0-37.el9 | awx-rpm-30.0.0-37.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-30.0.0-38.el9 | awx-rpm-30.0.0-38.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-38.el9.src.rpm.log)
 awx-rpm-30.0.0-40.el9 | awx-rpm-30.0.0-40.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-40.el9.src.rpm.log)
 awx-rpm-30.0.0-41.el9 | awx-rpm-30.0.0-41.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-41.el9.src.rpm.log)
+awx-rpm-30.0.0-42.el9 | awx-rpm-30.0.0-42.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-42.el9.src.rpm.log)
 awx-rpm-manage-1.2.2-1.el9 | awx-rpm-manage-1.2.2-1.el9.src.rpm | Built |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
@@ -116,7 +117,7 @@ python3.11-django-redis-5.4.0-1.el9 | python-django-redis-5.4.0-1.el9.src.rpm | 
 python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
-python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
+python3.11-django-split-settings-1.0.0-1.el9 | python-django-split-settings-1.0.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-split-settings-1.0.0-1.el9.src.rpm.log)
 python3.11-django-split-settings-1.3.2-1.el9 | python-django-split-settings-1.3.2-1.el9.src.rpm | Built | [Log](logs/python-django-split-settings-1.3.2-1.el9.src.rpm.log)
 python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | Built | [Log](logs/python-docutils-0.21.2-1.el9.src.rpm.log)
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
@@ -310,4 +311,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-300 total packages, 299 packages built successfully, 1 packages left to fix
+301 total packages, 299 packages built successfully, 2 packages left to fix
