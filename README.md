@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-redis-5.2.1-1.el9.src.rpm
+The lastest package built was python-tacacs-plus-2.6-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:38:47 PM CET 2025
+The build completed at Mon Mar 10 11:39:02 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
