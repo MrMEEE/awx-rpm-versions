@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was awx-rpm-30.0.0-41.el9.src.rpm
 
-The build completed at Tue Mar 11 12:06:52 AM CET 2025
+The build completed at Tue Mar 11 12:08:43 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-30.0.0-41.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -27,6 +27,7 @@ awx-rpm-30.0.0-29.el9 | awx-rpm-30.0.0-29.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-30.0.0-37.el9 | awx-rpm-30.0.0-37.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-37.el9.src.rpm.log)
 awx-rpm-30.0.0-38.el9 | awx-rpm-30.0.0-38.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-38.el9.src.rpm.log)
 awx-rpm-30.0.0-40.el9 | awx-rpm-30.0.0-40.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-40.el9.src.rpm.log)
+awx-rpm-30.0.0-41.el9 | awx-rpm-30.0.0-41.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-41.el9.src.rpm.log)
 awx-rpm-manage-1.2.2-1.el9 | awx-rpm-manage-1.2.2-1.el9.src.rpm | Built |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
@@ -309,4 +310,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-299 total packages, 298 packages built successfully, 1 packages left to fix
+300 total packages, 299 packages built successfully, 1 packages left to fix
