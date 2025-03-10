@@ -1,9 +1,9 @@
 ## Latest build
 The lastest package built was python-tacacs-plus-2.6-1.el9.src.rpm
 
-The build completed at Tue Mar 11 12:20:52 AM CET 2025
+The build completed at Tue Mar 11 12:22:56 AM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
 [Build Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0

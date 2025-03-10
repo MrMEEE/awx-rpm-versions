@@ -42,10 +42,10 @@ Summary:        %{summary}
 
 
 %install
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/tests
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
-rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/tests
 %pyproject_save_files '*' +auto
 
 
