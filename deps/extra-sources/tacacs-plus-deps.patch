@@ -1,0 +1,24 @@
+diff -uNr tacacs_plus-2.6/setup.cfg tacacs_plus-2.6-new/setup.cfg
+--- tacacs_plus-2.6/setup.cfg	2018-08-20 19:09:41.000000000 +0200
++++ tacacs_plus-2.6-new/setup.cfg	2025-03-10 23:44:43.862842189 +0100
+@@ -1,9 +1,6 @@
+ [bdist_wheel]
+ universal = 1
+ 
+-[aliases]
+-test = pytest
+-
+ [tool:pytest]
+ addopts = --cov-report term-missing --cov=tacacs_plus tests/
+ 
+diff -uNr tacacs_plus-2.6/setup.py tacacs_plus-2.6-new/setup.py
+--- tacacs_plus-2.6/setup.py	2018-08-20 19:07:01.000000000 +0200
++++ tacacs_plus-2.6-new/setup.py	2025-03-10 23:43:09.030098647 +0100
+@@ -32,7 +32,6 @@
+     license='BSD',
+     packages=find_packages(exclude=['examples']),
+     install_requires=['six'],
+-    setup_requires=['pytest-runner'],
+     tests_require=['pytest', 'pytest-cov'],
+     include_package_data=True,
+     scripts=['bin/tacacs_client'],
