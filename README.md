@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tacacs-plus-2.6-1.el9.src.rpm
+The lastest package built was python-tabulate-0.9.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:54:10 PM CET 2025
+The build completed at Mon Mar 10 10:54:45 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
+[Build Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -272,7 +272,7 @@ python3.11-sniffio-1.3.1-1.el9 | python-sniffio-1.3.1-1.el9.src.rpm | Built | [L
 python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.4.1-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
-python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** |
+python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
@@ -302,4 +302,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-292 total packages, 274 packages built successfully, 18 packages left to fix
+292 total packages, 275 packages built successfully, 17 packages left to fix
