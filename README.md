@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
+The lastest package built was python-jose-3.4.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:04:12 PM CET 2025
+The build completed at Mon Mar 10 11:04:27 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -165,7 +165,7 @@ python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | Bu
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
-python3.11-jose-3.4.0-1.el9 | python-jose-3.4.0-1.el9.src.rpm | **Missing** |
+python3.11-jose-3.4.0-1.el9 | python-jose-3.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-jose-3.4.0-1.el9.src.rpm.log)
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-1.1-1.el9.src.rpm.log)
 python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-4.23.0-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
