@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:41:55 PM CET 2025
+The build completed at Mon Mar 10 10:51:37 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -42,6 +42,7 @@ awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
+python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** |
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
@@ -106,6 +107,7 @@ python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | Built | [L
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
 python3.11-django-4.2.16-1.el9 | python-django-4.2.16-1.el9.src.rpm | Built | [Log](logs/python-django-4.2.16-1.el9.src.rpm.log)
 python3.11-django-ansible-base-2025.3.7-1.el9 | python-django-ansible-base-2025.3.7-1.el9.src.rpm | **Missing** | [Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+python3.11-django-auth-ldap-5.1.0-1.el9 | python-django-auth-ldap-5.1.0-1.el9.src.rpm | **Missing** |
 python3.11-django-cors-headers-4.6.0-1.el9 | python-django-cors-headers-4.6.0-1.el9.src.rpm | Built | [Log](logs/python-django-cors-headers-4.6.0-1.el9.src.rpm.log)
 python3.11-django-crum-0.7.9-1.el9 | python-django-crum-0.7.9-1.el9.src.rpm | Built | [Log](logs/python-django-crum-0.7.9-1.el9.src.rpm.log)
 python3.11-django-extensions-3.2.3-1.el9 | python-django-extensions-3.2.3-1.el9.src.rpm | Built | [Log](logs/python-django-extensions-3.2.3-1.el9.src.rpm.log)
@@ -113,6 +115,7 @@ python3.11-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm 
 python3.11-django-guid-3.5.0-1.el9 | python-django-guid-3.5.0-1.el9.src.rpm | Built | [Log](logs/python-django-guid-3.5.0-1.el9.src.rpm.log)
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
+python3.11-django-redis-5.4.0-1.el9 | python-django-redis-5.4.0-1.el9.src.rpm | **Missing** |
 python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
@@ -234,6 +237,7 @@ python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log
 python3.11-pynacl-1.5.0-1.el9 | python-pynacl-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.2.0-1.el9.src.rpm.log)
+python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.2-1.el9.src.rpm.log)
 python3.11-pyu2f-0.1.5-1.el9 | python-pyu2f-0.1.5-1.el9.src.rpm | Built | [Log](logs/python-pyu2f-0.1.5-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
@@ -265,8 +269,11 @@ python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](lo
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | Built | [Log](logs/python-slack-sdk-3.34.0-1.el9.src.rpm.log)
 python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.2-1.el9.src.rpm.log)
 python3.11-sniffio-1.3.1-1.el9 | python-sniffio-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
+python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.4.1-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
+python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** |
+python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | **Missing** |
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)
@@ -289,9 +296,10 @@ python3.11-wcwidth-0.2.13-1.el9 | python-wcwidth-0.2.13-1.el9.src.rpm | Built | 
 python3.11-websocket-client-1.8.0-1.el9 | python-websocket-client-1.8.0-1.el9.src.rpm | Built | [Log](logs/python-websocket-client-1.8.0-1.el9.src.rpm.log)
 python3.11-wheel-0.45.1-1.el9 | python-wheel-0.45.1-1.el9.src.rpm | Built | [Log](logs/python-wheel-0.45.1-1.el9.src.rpm.log)
 python3.11-wrapt-1.17.0-1.el9 | python-wrapt-1.17.0-1.el9.src.rpm | Built | [Log](logs/python-wrapt-1.17.0-1.el9.src.rpm.log)
+python3.11-xmlsec-1.3.13-1.el9 | python-xmlsec-1.3.13-1.el9.src.rpm | **Missing** | [Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
 python3.11-yarl-1.18.3-1.el9 | python-yarl-1.18.3-1.el9.src.rpm | Built | [Log](logs/python-yarl-1.18.3-1.el9.src.rpm.log)
 python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.21.0-1.el9.src.rpm.log)
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-284 total packages, 274 packages built successfully, 10 packages left to fix
+292 total packages, 274 packages built successfully, 18 packages left to fix
