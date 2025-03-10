@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-tabulate-0.9.0-1.el9.src.rpm
+The lastest package built was python-social-auth-app-django-5.4.1-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:54:45 PM CET 2025
+The build completed at Mon Mar 10 10:55:14 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
+[Build Log](logs/python-social-auth-app-django-5.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -269,7 +269,7 @@ python3.11-six-1.17.0-1.el9 | python-six-1.17.0-1.el9.src.rpm | Built | [Log](lo
 python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | Built | [Log](logs/python-slack-sdk-3.34.0-1.el9.src.rpm.log)
 python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.2-1.el9.src.rpm.log)
 python3.11-sniffio-1.3.1-1.el9 | python-sniffio-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
-python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.4.1-1.el9.src.rpm | **Missing** |
+python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.1-1.el9.src.rpm.log)
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
