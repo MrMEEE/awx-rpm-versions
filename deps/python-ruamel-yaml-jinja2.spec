@@ -11,7 +11,7 @@ Summary:        jinja2 pre and post-processor to update with YAML
 License:        gpl
 URL:            https://sourceforge.net/p/ruamel-yaml-jinja2/code/ci/default/tree
 Source:         %{pypi_source ruamel.yaml.jinja2}
-
+Patch:		ruamel-yaml-jinja2-circular-deps.patch
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
