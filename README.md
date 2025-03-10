@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:10:38 PM CET 2025
+The build completed at Mon Mar 10 11:10:58 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -36,7 +36,7 @@ awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
-python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
+python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
@@ -299,4 +299,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-289 total packages, 281 packages built successfully, 8 packages left to fix
+289 total packages, 282 packages built successfully, 7 packages left to fix
