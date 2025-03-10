@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
+The lastest package built was python-tacacs-plus-2.6-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:46:18 PM CET 2025
+The build completed at Mon Mar 10 11:46:36 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -272,7 +272,7 @@ python3.11-social-auth-core-4.4.1-1.el9 | python-social-auth-core-4.4.1-1.el9.sr
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
-python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
+python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)
@@ -301,4 +301,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-291 total packages, 288 packages built successfully, 3 packages left to fix
+291 total packages, 289 packages built successfully, 2 packages left to fix
