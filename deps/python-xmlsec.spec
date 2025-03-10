@@ -13,7 +13,7 @@ URL:            https://github.com/mehcode/python-xmlsec
 Source:         %{pypi_source xmlsec}
 
 
-BuildRequires:  python%{python3_pkgversion}-devel xmlsec1-devel
+BuildRequires:  python%{python3_pkgversion}-devel xmlsec1-devel libtool-ltdl-devel
 BuildRequires:  gcc
 
 
