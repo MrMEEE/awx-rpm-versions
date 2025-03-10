@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
+The lastest package built was python-jose-3.4.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:31:11 PM CET 2025
+The build completed at Mon Mar 10 11:31:26 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-jose-3.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
