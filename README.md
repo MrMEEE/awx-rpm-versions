@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
+The lastest package built was python-pyhcl-0.4.5-1.el9.src.rpm
 
-The build completed at Tue Mar 11 12:02:59 AM CET 2025
+The build completed at Tue Mar 11 12:04:10 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
+[Build Log](logs/python-pyhcl-0.4.5-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -234,6 +234,7 @@ python3.11-pycryptodome-3.21.0-1.el9 | python-pycryptodome-3.21.0-1.el9.src.rpm 
 python3.11-pygerduty-0.38.3-1.el9 | python-pygerduty-0.38.3-1.el9.src.rpm | Built | [Log](logs/python-pygerduty-0.38.3-1.el9.src.rpm.log)
 python3.11-pygithub-2.6.1-1.el9 | python-pygithub-2.6.1-1.el9.src.rpm | Built | [Log](logs/python-pygithub-2.6.1-1.el9.src.rpm.log)
 python3.11-pygments-2.19.1-1.el9 | python-pygments-2.19.1-1.el9.src.rpm | Built | [Log](logs/python-pygments-2.19.1-1.el9.src.rpm.log)
+python3.11-pyhcl-0.4.5-1.el9 | python-pyhcl-0.4.5-1.el9.src.rpm | Built | [Log](logs/python-pyhcl-0.4.5-1.el9.src.rpm.log)
 python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log](logs/python-pyjwt-2.10.1-1.el9.src.rpm.log)
 python3.11-pynacl-1.5.0-1.el9 | python-pynacl-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
@@ -308,4 +309,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-298 total packages, 294 packages built successfully, 4 packages left to fix
+299 total packages, 295 packages built successfully, 4 packages left to fix
