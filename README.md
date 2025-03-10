@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyhcl-0.4.5-1.el9.src.rpm
+The lastest package built was python-hvac-2.3.0-1.el9.src.rpm
 
-The build completed at Tue Mar 11 12:04:10 AM CET 2025
+The build completed at Tue Mar 11 12:04:51 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-pyhcl-0.4.5-1.el9.src.rpm.log)
+[Build Log](logs/python-hvac-2.3.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -146,7 +146,7 @@ python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [L
 python3.11-hpack-4.1.0-1.el9 | python-hpack-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-hpack-4.1.0-1.el9.src.rpm.log)
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | Built | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
-python3.11-hvac-2.3.0-1.el9 | python-hvac-2.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hvac-2.3.0-1.el9.src.rpm.log)
+python3.11-hvac-2.3.0-1.el9 | python-hvac-2.3.0-1.el9.src.rpm | Built | [Log](logs/python-hvac-2.3.0-1.el9.src.rpm.log)
 python3.11-hyperframe-6.1.0-1.el9 | python-hyperframe-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.1.0-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-id-1.5.0-1.el9.src.rpm.log)
@@ -309,4 +309,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-299 total packages, 295 packages built successfully, 4 packages left to fix
+299 total packages, 296 packages built successfully, 3 packages left to fix
