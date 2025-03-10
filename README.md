@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-app-django-5.4.1-1.el9.src.rpm
+The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:55:14 PM CET 2025
+The build completed at Mon Mar 10 10:55:48 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-social-auth-app-django-5.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -42,7 +42,7 @@ awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
-python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** |
+python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
 python3.11-aiohappyeyeballs-2.4.4-1.el9 | python-aiohappyeyeballs-2.4.4-1.el9.src.rpm | Built | [Log](logs/python-aiohappyeyeballs-2.4.4-1.el9.src.rpm.log)
