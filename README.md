@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-configobj-5.0.9-1.el9.src.rpm
+The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
 
-The build completed at Tue Mar 11 12:02:02 AM CET 2025
+The build completed at Tue Mar 11 12:02:21 AM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-configobj-5.0.9-1.el9.src.rpm.log)
+[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
