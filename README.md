@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-dynaconf-3.2.10-1.el9.src.rpm
+The lastest package built was python-toml-0.10.2-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:48:35 PM CET 2025
+The build completed at Mon Mar 10 11:50:19 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-dynaconf-3.2.10-1.el9.src.rpm.log)
+[Build Log](logs/python-toml-0.10.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -88,6 +88,7 @@ python3.11-chardet-5.2.0-1.el9 | python-chardet-5.2.0-1.el9.src.rpm | Built | [L
 python3.11-charset-normalizer-3.4.1-1.el9 | python-charset-normalizer-3.4.1-1.el9.src.rpm | Built | [Log](logs/python-charset-normalizer-3.4.1-1.el9.src.rpm.log)
 python3.11-cleo-2.1.0-1.el9 | python-cleo-2.1.0-1.el9.src.rpm | Built | [Log](logs/python-cleo-2.1.0-1.el9.src.rpm.log)
 python3.11-click-8.1.8-1.el9 | python-click-8.1.8-1.el9.src.rpm | Built | [Log](logs/python-click-8.1.8-1.el9.src.rpm.log)
+python3.11-configobj-5.0.9-1.el9 | python-configobj-5.0.9-1.el9.src.rpm | **Missing** |
 python3.11-constantly-23.10.4-1.el9 | python-constantly-23.10.4-1.el9.src.rpm | Built | [Log](logs/python-constantly-23.10.4-1.el9.src.rpm.log)
 python3.11-crashtest-0.4.1-1.el9 | python-crashtest-0.4.1-1.el9.src.rpm | Built | [Log](logs/python-crashtest-0.4.1-1.el9.src.rpm.log)
 python3.11-cryptography-41.0.7-1.el9 | python-cryptography-41.0.7-1.el9.src.rpm | Built | [Log](logs/python-cryptography-41.0.7-1.el9.src.rpm.log)
@@ -145,6 +146,7 @@ python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [L
 python3.11-hpack-4.1.0-1.el9 | python-hpack-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-hpack-4.1.0-1.el9.src.rpm.log)
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | Built | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
+python3.11-hvac-2.3.0-1.el9 | python-hvac-2.3.0-1.el9.src.rpm | **Missing** |
 python3.11-hyperframe-6.1.0-1.el9 | python-hyperframe-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.1.0-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-id-1.5.0-1.el9.src.rpm.log)
@@ -253,6 +255,7 @@ python3.11-rfc3986-2.0.0-1.el9 | python-rfc3986-2.0.0-1.el9.src.rpm | Built | [L
 python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | Built | [Log](logs/python-rich-13.9.4-1.el9.src.rpm.log)
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
+python3.11-ruamel-yaml-0.18.10-1.el9 | python-ruamel-yaml-0.18.10-1.el9.src.rpm | **Missing** |
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
@@ -275,6 +278,7 @@ python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | 
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
 python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | Built | [Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
+python3.11-toml-0.10.2-1.el9 | python-toml-0.10.2-1.el9.src.rpm | Built | [Log](logs/python-toml-0.10.2-1.el9.src.rpm.log)
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.1.15.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
@@ -302,4 +306,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-292 total packages, 289 packages built successfully, 3 packages left to fix
+296 total packages, 290 packages built successfully, 6 packages left to fix
