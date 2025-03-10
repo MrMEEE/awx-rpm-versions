@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-redis-5.2.1-1.el9.src.rpm
+The lastest package built was python-social-auth-app-django-5.4.1-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:33:53 PM CET 2025
+The build completed at Mon Mar 10 11:34:08 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-redis-5.2.1-1.el9.src.rpm.log)
+[Build Log](logs/python-social-auth-app-django-5.4.1-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
