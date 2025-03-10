@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was python-django-redis-5.4.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:12:56 PM CET 2025
+The build completed at Mon Mar 10 11:13:10 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-django-redis-5.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
