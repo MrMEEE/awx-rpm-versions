@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-xmlsec-1.3.13-1.el9.src.rpm
+The lastest package built was python-tacacs-plus-2.6-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:53:43 PM CET 2025
+The build completed at Mon Mar 10 10:54:10 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-xmlsec-1.3.13-1.el9.src.rpm.log)
+[Build Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -273,7 +273,7 @@ python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | **Missing** |
-python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | **Missing** |
+python3.11-tacacs-plus-2.6-1.el9 | python-tacacs-plus-2.6-1.el9.src.rpm | **Missing** | [Log](logs/python-tacacs-plus-2.6-1.el9.src.rpm.log)
 python3.11-tempora-5.8.0-1.el9 | python-tempora-5.8.0-1.el9.src.rpm | Built | [Log](logs/python-tempora-5.8.0-1.el9.src.rpm.log)
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)

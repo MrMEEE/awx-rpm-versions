@@ -12,7 +12,7 @@ License:        gpl
 URL:            https://github.com/SAML-Toolkits/python3-saml
 Source:         %{pypi_source python3-saml}
 
-BuildRequires:  xmlsec1-devel
+BuildRequires:  xmlsec1 xmlsec1-devel
 BuildRequires:  python%{python3_pkgversion}-devel
 
 
