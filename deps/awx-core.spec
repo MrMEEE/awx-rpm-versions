@@ -13,7 +13,7 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 13%{dist}
+Release: 14%{dist}
 Source0: awx-30.0.0.tar.gz
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
@@ -436,8 +436,8 @@ sed -i "s/supervisor_service_command(command='restart', service='awx-rsyslogd')/
 
 rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/public
 ln -s /opt/awx-rpm/public/static/awx $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/public
-#cd $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/
-#ln -s public build
+cd $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/awx/ui/
+ln -s public build
 
 %clean
 
@@ -473,7 +473,7 @@ ln -s /opt/awx-rpm/public/static/awx $RPM_BUILD_ROOT/usr/lib/python%{python3_pkg
 #/var/lib/awx/job_status
 
 %changelog
-* Tue Mar 11 2025 12:16:28 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 11 2025 12:40:25 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 - (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml
