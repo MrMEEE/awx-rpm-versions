@@ -12,9 +12,7 @@ License:        gpl
 URL:            http://www.pycrypto.org/
 Source:         %{pypi_source pycrypto}
 
-BuildArch:      noarch
-
-BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-devel gcc
 
 
 # Fill in the actual package description to submit package to Fedora
