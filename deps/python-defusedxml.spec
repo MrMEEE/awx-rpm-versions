@@ -1,16 +1,16 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python3-saml
-Version:        1.16.0
+Name:           python-defusedxml
+Version:        0.7.1
 Release:        %autorelease
-Summary:        Saml Python Toolkit. Add SAML support to your Python software using this library
+Summary:        XML bomb protection for Python stdlib modules
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            https://github.com/SAML-Toolkits/python3-saml
-Source:         %{pypi_source python3-saml}
+URL:            https://github.com/tiran/defusedxml
+Source:         %{pypi_source defusedxml}
 
 BuildArch:      noarch
 
@@ -19,18 +19,18 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'python3-saml' generated automatically by pyp2spec.}
+This is package 'defusedxml' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-python3-saml
+%package -n     python%{python3_pkgversion}-defusedxml
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-python3-saml %_description
+%description -n python%{python3_pkgversion}-defusedxml %_description
 
 
 %prep
-%autosetup -p1 -n python3-saml-%{version}
+%autosetup -p1 -n defusedxml-%{version}
 
 
 %generate_buildrequires
@@ -52,7 +52,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-python3-saml -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-defusedxml -f %{pyproject_files}
 
 
 %changelog

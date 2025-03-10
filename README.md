@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-social-auth-core-4.4.1-1.el9.src.rpm
+The lastest package built was python3-openid-3.2.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:58:49 PM CET 2025
+The build completed at Mon Mar 10 11:02:19 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-social-auth-core-4.4.1-1.el9.src.rpm.log)
+[Build Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -24,15 +24,8 @@ awx-rpm-30.0.0-26.el9 | awx-rpm-30.0.0-26.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-30.0.0-27.el9 | awx-rpm-30.0.0-27.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-27.el9.src.rpm.log)
 awx-rpm-30.0.0-28.el9 | awx-rpm-30.0.0-28.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-28.el9.src.rpm.log)
 awx-rpm-30.0.0-29.el9 | awx-rpm-30.0.0-29.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-29.el9.src.rpm.log)
-awx-rpm-30.0.0-30.el9 | awx-rpm-30.0.0-30.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-31.el9 | awx-rpm-30.0.0-31.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-31.el9.src.rpm.log)
-awx-rpm-30.0.0-32.el9 | awx-rpm-30.0.0-32.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-33.el9 | awx-rpm-30.0.0-33.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-35.el9 | awx-rpm-30.0.0-35.el9.src.rpm | **Missing** |
-awx-rpm-30.0.0-36.el9 | awx-rpm-30.0.0-36.el9.src.rpm | **Missing** |
 awx-rpm-30.0.0-37.el9 | awx-rpm-30.0.0-37.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-37.el9.src.rpm.log)
 awx-rpm-30.0.0-38.el9 | awx-rpm-30.0.0-38.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-38.el9.src.rpm.log)
-awx-rpm-30.0.0-39.el9 | awx-rpm-30.0.0-39.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-39.el9.src.rpm.log)
 awx-rpm-30.0.0-40.el9 | awx-rpm-30.0.0-40.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-40.el9.src.rpm.log)
 awx-rpm-manage-1.2.2-1.el9 | awx-rpm-manage-1.2.2-1.el9.src.rpm | Built |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
@@ -42,6 +35,7 @@ awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
+python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | **Missing** | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
 python3.11-aiodns-3.2.0-1.el9 | python-aiodns-3.2.0-1.el9.src.rpm | Built | [Log](logs/python-aiodns-3.2.0-1.el9.src.rpm.log)
@@ -102,6 +96,7 @@ python3.11-daemon-3.1.2-1.el9 | python-daemon-3.1.2-1.el9.src.rpm | Built | [Log
 python3.11-daphne-4.1.2-1.el9 | python-daphne-4.1.2-1.el9.src.rpm | Built | [Log](logs/python-daphne-4.1.2-1.el9.src.rpm.log)
 python3.11-dateutil-2.9.0^post0-1.el9 | python-dateutil-2.9.0^post0-1.el9.src.rpm | Built | [Log](logs/python-dateutil-2.9.0^post0-1.el9.src.rpm.log)
 python3.11-decorator-5.2.1-1.el9 | python-decorator-5.2.1-1.el9.src.rpm | Built | [Log](logs/python-decorator-5.2.1-1.el9.src.rpm.log)
+python3.11-defusedxml-0.7.1-1.el9 | python-defusedxml-0.7.1-1.el9.src.rpm | **Missing** |
 python3.11-deprecated-1.2.15-1.el9 | python-deprecated-1.2.15-1.el9.src.rpm | Built | [Log](logs/python-deprecated-1.2.15-1.el9.src.rpm.log)
 python3.11-distlib-0.3.9-1.el9 | python-distlib-0.3.9-1.el9.src.rpm | Built | [Log](logs/python-distlib-0.3.9-1.el9.src.rpm.log)
 python3.11-distro-1.9.0-1.el9 | python-distro-1.9.0-1.el9.src.rpm | Built | [Log](logs/python-distro-1.9.0-1.el9.src.rpm.log)
@@ -170,6 +165,7 @@ python3.11-jaraco-text-4.0.0-1.el9 | python-jaraco-text-4.0.0-1.el9.src.rpm | Bu
 python3.11-jeepney-0.8.0-1.el9 | python-jeepney-0.8.0-1.el9.src.rpm | Built | [Log](logs/python-jeepney-0.8.0-1.el9.src.rpm.log)
 python3.11-jinja2-3.1.5-1.el9 | python-jinja2-3.1.5-1.el9.src.rpm | Built | [Log](logs/python-jinja2-3.1.5-1.el9.src.rpm.log)
 python3.11-jmespath-1.0.1-1.el9 | python-jmespath-1.0.1-1.el9.src.rpm | Built | [Log](logs/python-jmespath-1.0.1-1.el9.src.rpm.log)
+python3.11-jose-3.4.0-1.el9 | python-jose-3.4.0-1.el9.src.rpm | **Missing** |
 python3.11-json-log-formatter-1.1-1.el9 | python-json-log-formatter-1.1-1.el9.src.rpm | Built | [Log](logs/python-json-log-formatter-1.1-1.el9.src.rpm.log)
 python3.11-jsonschema-4.23.0-1.el9 | python-jsonschema-4.23.0-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-4.23.0-1.el9.src.rpm.log)
 python3.11-jsonschema-specifications-2024.10.1-1.el9 | python-jsonschema-specifications-2024.10.1-1.el9.src.rpm | Built | [Log](logs/python-jsonschema-specifications-2024.10.1-1.el9.src.rpm.log)
@@ -303,4 +299,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-293 total packages, 277 packages built successfully, 16 packages left to fix
+289 total packages, 277 packages built successfully, 12 packages left to fix
