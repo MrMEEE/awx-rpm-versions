@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ruamel-yaml-clib-0.2.12-1.el9.src.rpm
+The lastest package built was python-ruamel-yaml-0.18.10-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:54:38 PM CET 2025
+The build completed at Mon Mar 10 11:55:43 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-ruamel-yaml-clib-0.2.12-1.el9.src.rpm.log)
+[Build Log](logs/python-ruamel-yaml-0.18.10-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
