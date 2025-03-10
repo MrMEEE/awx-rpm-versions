@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python3-saml-1.16.0-1.el9.src.rpm
+The lastest package built was python-pyrad-2.4-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:55:48 PM CET 2025
+The build completed at Mon Mar 10 10:56:25 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
+[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -237,7 +237,7 @@ python3.11-pyjwt-2.10.1-1.el9 | python-pyjwt-2.10.1-1.el9.src.rpm | Built | [Log
 python3.11-pynacl-1.5.0-1.el9 | python-pynacl-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-pynacl-1.5.0-1.el9.src.rpm.log)
 python3.11-pyopenssl-24.3.0-1.el9 | python-pyopenssl-24.3.0-1.el9.src.rpm | Built | [Log](logs/python-pyopenssl-24.3.0-1.el9.src.rpm.log)
 python3.11-pyproject-hooks-1.2.0-1.el9 | python-pyproject-hooks-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-pyproject-hooks-1.2.0-1.el9.src.rpm.log)
-python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | **Missing** |
+python3.11-pyrad-2.4-1.el9 | python-pyrad-2.4-1.el9.src.rpm | Built | [Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
 python3.11-pytz-2024.2-1.el9 | python-pytz-2024.2-1.el9.src.rpm | Built | [Log](logs/python-pytz-2024.2-1.el9.src.rpm.log)
 python3.11-pyu2f-0.1.5-1.el9 | python-pyu2f-0.1.5-1.el9.src.rpm | Built | [Log](logs/python-pyu2f-0.1.5-1.el9.src.rpm.log)
 python3.11-pyyaml-6.0.2-1.el9 | python-pyyaml-6.0.2-1.el9.src.rpm | Built | [Log](logs/python-pyyaml-6.0.2-1.el9.src.rpm.log)
@@ -302,4 +302,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-292 total packages, 275 packages built successfully, 17 packages left to fix
+292 total packages, 276 packages built successfully, 16 packages left to fix
