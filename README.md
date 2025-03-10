@@ -1,20 +1,25 @@
 ## Latest build
-The lastest package built was 
+The lastest package built was awx-core-24.6.1-10.el9.src.rpm
 
-The build completed at Thu Mar  6 01:04:14 AM CET 2025
+The build completed at Mon Mar 10 01:53:53 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/.log)
+[Build Log](logs/awx-core-24.6.1-10.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
+awx-core-24.6.1-10.el9 | awx-core-24.6.1-10.el9.src.rpm | **Missing** | [Log](logs/awx-core-24.6.1-10.el9.src.rpm.log)
+awx-core-24.6.1-1.el9 | awx-core-24.6.1-1.el9.src.rpm | **Missing** |
 awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
 awx-rpm-24.6.1-1.el9 | awx-rpm-24.6.1-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-1.el9.src.rpm.log)
 awx-rpm-24.6.1-2.el9 | awx-rpm-24.6.1-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
+awx-rpm-24.6.1-39.el9 | awx-rpm-24.6.1-39.el9.src.rpm | **Missing** |
 awx-rpm-24.6.1-3.el9 | awx-rpm-24.6.1-3.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-3.el9.src.rpm.log)
 awx-rpm-24.6.1-4.el9 | awx-rpm-24.6.1-4.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-4.el9.src.rpm.log)
+awx-rpm-24.6.1-5.el9 | awx-rpm-24.6.1-5.el9.src.rpm | **Missing** |
 awx-rpm-manage-1.2.0-4.el9 | awx-rpm-manage-1.2.0-4.el9.src.rpm | Built |
+awx-ui-24.6.1-1.el9 | awx-ui-24.6.1-1.el9.src.rpm | **Missing** |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -272,4 +277,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-262 total packages, 262 packages built successfully, 0 packages left to fix
+267 total packages, 262 packages built successfully, 5 packages left to fix
