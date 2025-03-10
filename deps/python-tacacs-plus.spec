@@ -11,7 +11,7 @@ Summary:        A client for TACACS+ authentication
 License:        gpl
 URL:            http://github.com/ansible/tacacs_plus
 Source:         %{pypi_source tacacs_plus}
-
+Patch:		tacacs-plus-deps.patch
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
