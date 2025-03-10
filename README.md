@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-core-24.6.1-10.el9.src.rpm
+The lastest package built was 
 
-The build completed at Mon Mar 10 01:53:53 AM CET 2025
+The build completed at Mon Mar 10 01:55:33 AM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/awx-core-24.6.1-10.el9.src.rpm.log)
+[Build Log](logs/.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -14,7 +14,7 @@ awx-core-24.6.1-1.el9 | awx-core-24.6.1-1.el9.src.rpm | **Missing** |
 awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
 awx-rpm-24.6.1-1.el9 | awx-rpm-24.6.1-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-1.el9.src.rpm.log)
 awx-rpm-24.6.1-2.el9 | awx-rpm-24.6.1-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
-awx-rpm-24.6.1-39.el9 | awx-rpm-24.6.1-39.el9.src.rpm | **Missing** |
+awx-rpm-24.6.1-39.el9 | awx-rpm-24.6.1-39.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-24.6.1-39.el9.src.rpm.log)
 awx-rpm-24.6.1-3.el9 | awx-rpm-24.6.1-3.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-3.el9.src.rpm.log)
 awx-rpm-24.6.1-4.el9 | awx-rpm-24.6.1-4.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-4.el9.src.rpm.log)
 awx-rpm-24.6.1-5.el9 | awx-rpm-24.6.1-5.el9.src.rpm | **Missing** |
