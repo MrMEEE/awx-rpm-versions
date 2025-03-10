@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-ruamel-yaml-0.18.10-1.el9.src.rpm
+The lastest package built was python-ruamel-yaml-jinja2-0.2.7-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:52:03 PM CET 2025
+The build completed at Mon Mar 10 11:53:49 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-ruamel-yaml-0.18.10-1.el9.src.rpm.log)
+[Build Log](logs/python-ruamel-yaml-jinja2-0.2.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -256,6 +256,8 @@ python3.11-rich-13.9.4-1.el9 | python-rich-13.9.4-1.el9.src.rpm | Built | [Log](
 python3.11-rpds-py-0.22.3-1.el9 | python-rpds-py-0.22.3-1.el9.src.rpm | Built | [Log](logs/python-rpds-py-0.22.3-1.el9.src.rpm.log)
 python3.11-rsa-4.9-1.el9 | python-rsa-4.9-1.el9.src.rpm | Built | [Log](logs/python-rsa-4.9-1.el9.src.rpm.log)
 python3.11-ruamel-yaml-0.18.10-1.el9 | python-ruamel-yaml-0.18.10-1.el9.src.rpm | **Missing** | [Log](logs/python-ruamel-yaml-0.18.10-1.el9.src.rpm.log)
+python3.11-ruamel-yaml-clib-0.2.12-1.el9 | python-ruamel-yaml-clib-0.2.12-1.el9.src.rpm | **Missing** |
+python3.11-ruamel-yaml-jinja2-0.2.7-1.el9 | python-ruamel-yaml-jinja2-0.2.7-1.el9.src.rpm | **Missing** | [Log](logs/python-ruamel-yaml-jinja2-0.2.7-1.el9.src.rpm.log)
 python3.11-s3transfer-0.10.4-1.el9 | python-s3transfer-0.10.4-1.el9.src.rpm | Built | [Log](logs/python-s3transfer-0.10.4-1.el9.src.rpm.log)
 python3.11-scikit-build-0.17.6-1.el9 | python-scikit-build-0.17.6-1.el9.src.rpm | Built | [Log](logs/python-scikit-build-0.17.6-1.el9.src.rpm.log)
 python3.11-secretstorage-3.3.3-1.el9 | python-secretstorage-3.3.3-1.el9.src.rpm | Built | [Log](logs/python-secretstorage-3.3.3-1.el9.src.rpm.log)
@@ -306,4 +308,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-296 total packages, 290 packages built successfully, 6 packages left to fix
+298 total packages, 290 packages built successfully, 8 packages left to fix
