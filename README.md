@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was python-findpython-0.6.2-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:43:36 PM CET 2025
+The build completed at Mon Mar 10 11:43:53 PM CET 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-findpython-0.6.2-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
