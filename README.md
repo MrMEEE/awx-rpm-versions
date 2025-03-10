@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was python-dynaconf-3.2.10-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:46:51 PM CET 2025
+The build completed at Mon Mar 10 11:48:35 PM CET 2025
 
 The build was unsuccessful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-dynaconf-3.2.10-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -120,6 +120,7 @@ python3.11-docutils-0.21.2-1.el9 | python-docutils-0.21.2-1.el9.src.rpm | Built 
 python3.11-dsv-sdk-1.0.4-1.el9 | python-dsv-sdk-1.0.4-1.el9.src.rpm | Built | [Log](logs/python-dsv-sdk-1.0.4-1.el9.src.rpm.log)
 python3.11-dulwich-0.22.7-1.el9 | python-dulwich-0.22.7-1.el9.src.rpm | Built | [Log](logs/python-dulwich-0.22.7-1.el9.src.rpm.log)
 python3.11-durationpy-0.9-1.el9 | python-durationpy-0.9-1.el9.src.rpm | Built | [Log](logs/python-durationpy-0.9-1.el9.src.rpm.log)
+python3.11-dynaconf-3.2.10-1.el9 | python-dynaconf-3.2.10-1.el9.src.rpm | **Missing** | [Log](logs/python-dynaconf-3.2.10-1.el9.src.rpm.log)
 python3.11-ecdsa-0.19.0-1.el9 | python-ecdsa-0.19.0-1.el9.src.rpm | Built | [Log](logs/python-ecdsa-0.19.0-1.el9.src.rpm.log)
 python3.11-enum-compat-0.0.3-1.el9 | python-enum-compat-0.0.3-1.el9.src.rpm | Built | [Log](logs/python-enum-compat-0.0.3-1.el9.src.rpm.log)
 python3.11-expandvars-0.12.0-1.el9 | python-expandvars-0.12.0-1.el9.src.rpm | Built | [Log](logs/python-expandvars-0.12.0-1.el9.src.rpm.log)
@@ -301,4 +302,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-291 total packages, 289 packages built successfully, 2 packages left to fix
+292 total packages, 289 packages built successfully, 3 packages left to fix
