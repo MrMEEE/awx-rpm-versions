@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-pyrad-2.4-1.el9.src.rpm
+The lastest package built was python-django-redis-5.4.0-1.el9.src.rpm
 
-The build completed at Mon Mar 10 10:56:25 PM CET 2025
+The build completed at Mon Mar 10 10:56:55 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/python-pyrad-2.4-1.el9.src.rpm.log)
+[Build Log](logs/python-django-redis-5.4.0-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -115,7 +115,7 @@ python3.11-django-flags-5.0.13-1.el9 | python-django-flags-5.0.13-1.el9.src.rpm 
 python3.11-django-guid-3.5.0-1.el9 | python-django-guid-3.5.0-1.el9.src.rpm | Built | [Log](logs/python-django-guid-3.5.0-1.el9.src.rpm.log)
 python3.11-django-oauth-toolkit-1.7.1-1.el9 | python-django-oauth-toolkit-1.7.1-1.el9.src.rpm | Built | [Log](logs/python-django-oauth-toolkit-1.7.1-1.el9.src.rpm.log)
 python3.11-django-polymorphic-3.1.0-1.el9 | python-django-polymorphic-3.1.0-1.el9.src.rpm | Built | [Log](logs/python-django-polymorphic-3.1.0-1.el9.src.rpm.log)
-python3.11-django-redis-5.4.0-1.el9 | python-django-redis-5.4.0-1.el9.src.rpm | **Missing** |
+python3.11-django-redis-5.4.0-1.el9 | python-django-redis-5.4.0-1.el9.src.rpm | **Missing** | [Log](logs/python-django-redis-5.4.0-1.el9.src.rpm.log)
 python3.11-djangorestframework-3.15.2-1.el9 | python-djangorestframework-3.15.2-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-3.15.2-1.el9.src.rpm.log)
 python3.11-djangorestframework-yaml-2.0.0-1.el9 | python-djangorestframework-yaml-2.0.0-1.el9.src.rpm | Built | [Log](logs/python-djangorestframework-yaml-2.0.0-1.el9.src.rpm.log)
 python3.11-django-solo-2.4.0-1.el9 | python-django-solo-2.4.0-1.el9.src.rpm | Built | [Log](logs/python-django-solo-2.4.0-1.el9.src.rpm.log)
@@ -270,6 +270,7 @@ python3.11-slack-sdk-3.34.0-1.el9 | python-slack-sdk-3.34.0-1.el9.src.rpm | Buil
 python3.11-smmap-5.0.2-1.el9 | python-smmap-5.0.2-1.el9.src.rpm | Built | [Log](logs/python-smmap-5.0.2-1.el9.src.rpm.log)
 python3.11-sniffio-1.3.1-1.el9 | python-sniffio-1.3.1-1.el9.src.rpm | Built | [Log](logs/python-sniffio-1.3.1-1.el9.src.rpm.log)
 python3.11-social-auth-app-django-5.4.1-1.el9 | python-social-auth-app-django-5.4.1-1.el9.src.rpm | **Missing** | [Log](logs/python-social-auth-app-django-5.4.1-1.el9.src.rpm.log)
+python3.11-social-auth-core-4.4.1-1.el9 | python-social-auth-core-4.4.1-1.el9.src.rpm | **Missing** |
 python3.11-sqlparse-0.5.3-1.el9 | python-sqlparse-0.5.3-1.el9.src.rpm | Built | [Log](logs/python-sqlparse-0.5.3-1.el9.src.rpm.log)
 python3.11-string-utils-1.0.0-1.el9 | python-string-utils-1.0.0-1.el9.src.rpm | Built | [Log](logs/python-string-utils-1.0.0-1.el9.src.rpm.log)
 python3.11-tabulate-0.9.0-1.el9 | python-tabulate-0.9.0-1.el9.src.rpm | Built | [Log](logs/python-tabulate-0.9.0-1.el9.src.rpm.log)
@@ -302,4 +303,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-292 total packages, 276 packages built successfully, 16 packages left to fix
+293 total packages, 276 packages built successfully, 17 packages left to fix
