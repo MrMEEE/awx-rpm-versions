@@ -11,7 +11,7 @@ Summary:        Python client for Redis database and key-value store
 License:        gpl
 URL:            https://github.com/redis/redis-py
 Source:         %{pypi_source redis}
-
+Patch:		redis-deps.patch
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
