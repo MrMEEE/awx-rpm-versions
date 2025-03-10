@@ -1,0 +1,12 @@
+diff -uNr python-jose-3.4.0/setup.cfg python-jose-3.4.0-new/setup.cfg
+--- python-jose-3.4.0/setup.cfg	2025-02-14 19:05:26.954636000 +0100
++++ python-jose-3.4.0-new/setup.cfg	2025-03-10 23:18:37.384228957 +0100
+@@ -34,7 +34,7 @@
+ install_requires = 
+ 	ecdsa != 0.15
+ 	rsa >=4.0, <5.0, !=4.4, !=4.1.1
+-	pyasn1 >=0.4.1, <0.5.0
++	pyasn1 >=0.4.1, <0.5.2
+ 
+ [options.extras_require]
+ test = 

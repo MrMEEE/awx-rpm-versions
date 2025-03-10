@@ -1,17 +1,17 @@
 
 %global python3_pkgversion 3.11
 
-Name:           python-jose
-Version:        3.4.0
+Name:           python-ecdsa
+Version:        0.19.0
 Release:        %autorelease
-Summary:        JOSE implementation in Python
+Summary:        ECDSA cryptographic signature library (pure python)
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            http://github.com/mpdavis/python-jose
-Source:         %{pypi_source python-jose}
-Patch:		jose-deps.patch
+URL:            http://github.com/tlsfuzzer/python-ecdsa
+Source:         %{pypi_source ecdsa}
+
 BuildArch:      noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
@@ -19,27 +19,27 @@ BuildRequires:  python%{python3_pkgversion}-devel
 
 # Fill in the actual package description to submit package to Fedora
 %global _description %{expand:
-This is package 'python-jose' generated automatically by pyp2spec.}
+This is package 'ecdsa' generated automatically by pyp2spec.}
 
 %description %_description
 
-%package -n     python%{python3_pkgversion}-python-jose
+%package -n     python%{python3_pkgversion}-ecdsa
 Summary:        %{summary}
 
-%description -n python%{python3_pkgversion}-python-jose %_description
+%description -n python%{python3_pkgversion}-ecdsa %_description
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-python-jose cryptography,pycrypto,pycryptodome
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-ecdsa gmpy,gmpy2
 
 
 %prep
-%autosetup -p1 -n python-jose-%{version}
+%autosetup -p1 -n ecdsa-%{version}
 
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x cryptography,pycrypto,pycryptodome
+%pyproject_buildrequires -x gmpy,gmpy2
 
 
 %build
@@ -57,7 +57,7 @@ Summary:        %{summary}
 %pyproject_check_import
 
 
-%files -n python%{python3_pkgversion}-python-jose -f %{pyproject_files}
+%files -n python%{python3_pkgversion}-ecdsa -f %{pyproject_files}
 
 
 %changelog
