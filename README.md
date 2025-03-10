@@ -1,7 +1,7 @@
 ## Latest build
 The lastest package built was python-ruamel-yaml-0.18.10-1.el9.src.rpm
 
-The build completed at Mon Mar 10 11:50:48 PM CET 2025
+The build completed at Mon Mar 10 11:52:03 PM CET 2025
 
 The build was unsuccessful.
 
@@ -146,7 +146,7 @@ python3.11-hiredis-3.1.0-1.el9 | python-hiredis-3.1.0-1.el9.src.rpm | Built | [L
 python3.11-hpack-4.1.0-1.el9 | python-hpack-4.1.0-1.el9.src.rpm | Built | [Log](logs/python-hpack-4.1.0-1.el9.src.rpm.log)
 python3.11-httpcore-1.0.7-1.el9 | python-httpcore-1.0.7-1.el9.src.rpm | Built | [Log](logs/python-httpcore-1.0.7-1.el9.src.rpm.log)
 python3.11-httpx-0.28.1-1.el9 | python-httpx-0.28.1-1.el9.src.rpm | Built | [Log](logs/python-httpx-0.28.1-1.el9.src.rpm.log)
-python3.11-hvac-2.3.0-1.el9 | python-hvac-2.3.0-1.el9.src.rpm | **Missing** |
+python3.11-hvac-2.3.0-1.el9 | python-hvac-2.3.0-1.el9.src.rpm | **Missing** | [Log](logs/python-hvac-2.3.0-1.el9.src.rpm.log)
 python3.11-hyperframe-6.1.0-1.el9 | python-hyperframe-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-hyperframe-6.1.0-1.el9.src.rpm.log)
 python3.11-hyperlink-21.0.0-1.el9 | python-hyperlink-21.0.0-1.el9.src.rpm | Built | [Log](logs/python-hyperlink-21.0.0-1.el9.src.rpm.log)
 python3.11-id-1.5.0-1.el9 | python-id-1.5.0-1.el9.src.rpm | Built | [Log](logs/python-id-1.5.0-1.el9.src.rpm.log)
