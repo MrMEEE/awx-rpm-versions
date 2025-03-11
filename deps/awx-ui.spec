@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 20%{dist}
+Release: 21%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -321,6 +321,7 @@ BuildRequires: python3.11-python-jose = 3.4.0
 BuildRequires: python3.11-python-jose+cryptography = 3.4.0
 BuildRequires: python3.11-python-jose+pycryptodome = 3.4.0
 BuildRequires: python3.11-python-string-utils = 1.0.0
+BuildRequires: python3.11-python-tss-sdk = 1.2.3
 BuildRequires: python3.11-pytz = 2024.2
 BuildRequires: python3.11-pyu2f = 0.1.5
 BuildRequires: python3.11-pyyaml = 6.0.2
@@ -492,7 +493,7 @@ cp awx-rpm-logo.svg-%{version} %{buildroot}/opt/awx-rpm/public/static/awx/assets
 #%{service_homedir}/.tower_version
 
 %changelog
-* Tue Mar 11 2025 11:58:16 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 11 2025 10:37:17 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 - (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml

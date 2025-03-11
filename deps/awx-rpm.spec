@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 42%{dist}
+Release: 43%{dist}
 #Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -141,8 +141,10 @@ Requires: python3.11-django-ansible-base+channel-auth = 2025.3.7
 Requires: python3.11-django-ansible-base+feature-flags = 2025.3.7
 Requires: python3.11-django-ansible-base+jwt-consumer = 2025.3.7
 Requires: python3.11-django-ansible-base+oauth2-provider = 2025.3.7
+Requires: python3.11-django-ansible-base+rbac = 2025.3.7
 Requires: python3.11-django-ansible-base+redis-client = 2025.3.7
 Requires: python3.11-django-ansible-base+resource-registry = 2025.3.7
+Requires: python3.11-django-ansible-base+rest-filters = 2025.3.7
 Requires: python3.11-django+argon2 = 4.2.16
 Requires: python3.11-django-auth-ldap = 5.1.0
 Requires: python3.11-django+bcrypt = 4.2.16
@@ -321,6 +323,7 @@ Requires: python3.11-python-jose = 3.4.0
 Requires: python3.11-python-jose+cryptography = 3.4.0
 Requires: python3.11-python-jose+pycryptodome = 3.4.0
 Requires: python3.11-python-string-utils = 1.0.0
+Requires: python3.11-python-tss-sdk = 1.2.3
 Requires: python3.11-pytz = 2024.2
 Requires: python3.11-pyu2f = 0.1.5
 Requires: python3.11-pyyaml = 6.0.2
@@ -495,7 +498,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Mar 11 2025 12:13:59 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 11 2025 10:37:38 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 - (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml
