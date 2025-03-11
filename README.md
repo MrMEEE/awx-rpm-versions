@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-ui-30.0.0-22.el9.src.rpm
+The lastest package built was awx-rpm-30.0.0-44.el9.src.rpm
 
-The build completed at Tue Mar 11 11:00:10 PM CET 2025
+The build completed at Tue Mar 11 11:01:20 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-ui-30.0.0-22.el9.src.rpm.log)
+[Build Log](logs/awx-rpm-30.0.0-44.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -33,7 +33,7 @@ awx-rpm-30.0.0-40.el9 | awx-rpm-30.0.0-40.el9.src.rpm | Built | [Log](logs/awx-r
 awx-rpm-30.0.0-41.el9 | awx-rpm-30.0.0-41.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-41.el9.src.rpm.log)
 awx-rpm-30.0.0-42.el9 | awx-rpm-30.0.0-42.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-42.el9.src.rpm.log)
 awx-rpm-30.0.0-43.el9 | awx-rpm-30.0.0-43.el9.src.rpm | Built | [Log](logs/awx-rpm-30.0.0-43.el9.src.rpm.log)
-awx-rpm-30.0.0-44.el9 | awx-rpm-30.0.0-44.el9.src.rpm | **Missing** |
+awx-rpm-30.0.0-44.el9 | awx-rpm-30.0.0-44.el9.src.rpm | **Missing** | [Log](logs/awx-rpm-30.0.0-44.el9.src.rpm.log)
 awx-rpm-manage-1.2.2-1.el9 | awx-rpm-manage-1.2.2-1.el9.src.rpm | Built |
 awx-ui-30.0.0-12.el9 | awx-ui-30.0.0-12.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-12.el9.src.rpm.log)
 awx-ui-30.0.0-14.el9 | awx-ui-30.0.0-14.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-14.el9.src.rpm.log)
