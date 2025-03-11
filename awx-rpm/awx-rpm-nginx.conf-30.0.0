@@ -17,6 +17,14 @@ server {
         alias /opt/awx-rpm/public/static/;
     }
 
+    location /assets {
+        alias /opt/awx-rpm/public/static/awx/assets/;
+    }
+
+    location /locales {
+        alias /opt/awx-rpm/public/static/awx/assets/locales;
+    }
+
     location /favicon.ico { alias /awx_devel/awx/public/static/favicon.ico; }
 
     location ~ ^/websocket {
@@ -77,6 +85,14 @@ server {
         alias /opt/awx-rpm/public/static/;
         access_log off;
         sendfile off;
+    }
+
+    location /assets {
+        alias /opt/awx-rpm/public/static/awx/assets/;
+    }
+
+    location /locales {
+        alias /opt/awx-rpm/public/static/awx/assets/locales;
     }
 
     location /favicon.ico { alias /awx_devel/awx/public/static/favicon.ico; }

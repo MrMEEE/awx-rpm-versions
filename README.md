@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
+The lastest package built was python-tss-sdk-1.2.3-1.el9.src.rpm
 
-The build completed at Tue Mar 11 10:44:37 AM CET 2025
+The build completed at Tue Mar 11 10:27:57 PM CET 2025
 
 The build was successful.
 
-[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
+[Build Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -39,6 +39,7 @@ awx-ui-30.0.0-16.el9 | awx-ui-30.0.0-16.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-17.el9.src.rpm.log)
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
+awx-ui-30.0.0-20.el9 | awx-ui-30.0.0-20.el9.src.rpm | **Missing** |
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
@@ -289,6 +290,7 @@ python3.11-toml-0.10.2-1.el9 | python-toml-0.10.2-1.el9.src.rpm | Built | [Log](
 python3.11-tomli-w-1.2.0-1.el9 | python-tomli-w-1.2.0-1.el9.src.rpm | Built | [Log](logs/python-tomli-w-1.2.0-1.el9.src.rpm.log)
 python3.11-tomlkit-0.13.2-1.el9 | python-tomlkit-0.13.2-1.el9.src.rpm | Built | [Log](logs/python-tomlkit-0.13.2-1.el9.src.rpm.log)
 python3.11-trove-classifiers-2025.1.15.22-1.el9 | python-trove-classifiers-2025.1.15.22-1.el9.src.rpm | Built | [Log](logs/python-trove-classifiers-2025.1.15.22-1.el9.src.rpm.log)
+python3.11-tss-sdk-1.2.3-1.el9 | python-tss-sdk-1.2.3-1.el9.src.rpm | Built | [Log](logs/python-tss-sdk-1.2.3-1.el9.src.rpm.log)
 python3.11-twilio-9.4.2-1.el9 | python-twilio-9.4.2-1.el9.src.rpm | Built | [Log](logs/python-twilio-9.4.2-1.el9.src.rpm.log)
 python3.11-twine-6.1.0-1.el9 | python-twine-6.1.0-1.el9.src.rpm | Built | [Log](logs/python-twine-6.1.0-1.el9.src.rpm.log)
 python3.11-twisted-24.11.0-1.el9 | python-twisted-24.11.0-1.el9.src.rpm | Built | [Log](logs/python-twisted-24.11.0-1.el9.src.rpm.log)
@@ -313,4 +315,4 @@ python3.11-zipp-3.21.0-1.el9 | python-zipp-3.21.0-1.el9.src.rpm | Built | [Log](
 python3.11-zope-interface-7.2-1.el9 | python-zope-interface-7.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-7.2-1.el9.src.rpm.log)
 python3.11-zstandard-0.23.0-1.el9 | python-zstandard-0.23.0-1.el9.src.rpm | Built | [Log](logs/python-zstandard-0.23.0-1.el9.src.rpm.log)
 
-303 total packages, 301 packages built successfully, 2 packages left to fix
+305 total packages, 302 packages built successfully, 3 packages left to fix

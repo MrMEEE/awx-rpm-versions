@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM Web UI
 Name: awx-ui
 Version: 30.0.0
-Release: 19%{dist}
+Release: 20%{dist}
 Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -121,18 +121,30 @@ BuildRequires: python3.11-chardet = 5.2.0
 BuildRequires: python3.11-charset-normalizer = 3.4.1
 BuildRequires: python3.11-cleo = 2.1.0
 BuildRequires: python3.11-click = 8.1.8
+BuildRequires: python3.11-configobj = 5.0.9
 BuildRequires: python3.11-constantly = 23.10.4
 BuildRequires: python3.11-crashtest = 0.4.1
 BuildRequires: python3.11-cryptography = 41.0.7
 BuildRequires: python3.11-cython = 3.0.11
 BuildRequires: python3.11-daphne = 4.1.2
 BuildRequires: python3.11-decorator = 5.2.1
+BuildRequires: python3.11-defusedxml = 0.7.1
 BuildRequires: python3.11-deprecated = 1.2.15
 BuildRequires: python3.11-distlib = 0.3.9
 BuildRequires: python3.11-distro = 1.9.0
 BuildRequires: python3.11-django = 4.2.16
-BuildRequires: python3.11-django-ansible-base = 20250131
+BuildRequires: python3.11-django-ansible-base = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+authentication = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+channel-auth = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+feature-flags = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+jwt-consumer = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+oauth2-provider = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+rbac = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+redis-client = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+resource-registry = 2025.3.7
+BuildRequires: python3.11-django-ansible-base+rest-filters = 2025.3.7
 BuildRequires: python3.11-django+argon2 = 4.2.16
+BuildRequires: python3.11-django-auth-ldap = 5.1.0
 BuildRequires: python3.11-django+bcrypt = 4.2.16
 BuildRequires: python3.11-django-cors-headers = 4.6.0
 BuildRequires: python3.11-django-crum = 0.7.9
@@ -141,6 +153,8 @@ BuildRequires: python3.11-django-flags = 5.0.13
 BuildRequires: python3.11-django-guid = 3.5.0
 BuildRequires: python3.11-django-oauth-toolkit = 1.7.1
 BuildRequires: python3.11-django-polymorphic = 3.1.0
+BuildRequires: python3.11-django-redis = 5.4.0
+BuildRequires: python3.11-django-redis+hiredis = 5.4.0
 BuildRequires: python3.11-djangorestframework = 3.15.2
 BuildRequires: python3.11-djangorestframework-yaml = 2.0.0
 BuildRequires: python3.11-django-solo = 2.4.0
@@ -148,6 +162,14 @@ BuildRequires: python3.11-django-split-settings = 1.3.2
 BuildRequires: python3.11-docutils = 0.21.2
 BuildRequires: python3.11-dulwich = 0.22.7
 BuildRequires: python3.11-durationpy = 0.9
+BuildRequires: python3.11-dynaconf = 3.2.10
+BuildRequires: python3.11-dynaconf+configobj = 3.2.10
+BuildRequires: python3.11-dynaconf+ini = 3.2.10
+BuildRequires: python3.11-dynaconf+redis = 3.2.10
+BuildRequires: python3.11-dynaconf+toml = 3.2.10
+BuildRequires: python3.11-dynaconf+vault = 3.2.10
+BuildRequires: python3.11-dynaconf+yaml = 3.2.10
+BuildRequires: python3.11-ecdsa = 0.19.0
 BuildRequires: python3.11-enum-compat = 0.0.3
 BuildRequires: python3.11-expandvars = 0.12.0
 BuildRequires: python3.11-fabric = 3.2.2
@@ -178,6 +200,8 @@ BuildRequires: python3.11-hiredis = 3.1.0
 BuildRequires: python3.11-hpack = 4.1.0
 BuildRequires: python3.11-httpcore = 1.0.7
 BuildRequires: python3.11-httpx = 0.28.1
+BuildRequires: python3.11-hvac = 2.3.0
+BuildRequires: python3.11-hvac+parser = 2.3.0
 BuildRequires: python3.11-hyperframe = 6.1.0
 BuildRequires: python3.11-hyperlink = 21.0.0
 BuildRequires: python3.11-id = 1.5.0
@@ -276,17 +300,26 @@ BuildRequires: python3.11-pyasn1-modules = 0.5.1
 BuildRequires: python3.11-pycares = 4.5.0
 BuildRequires: python3.11-pycares+idna = 4.5.0
 BuildRequires: python3.11-pycparser = 2.22
+BuildRequires: python3.11-pycryptodome = 3.21.0
 BuildRequires: python3.11-pygerduty = 0.38.3
 BuildRequires: python3.11-pygithub = 2.6.1
 BuildRequires: python3.11-pygments = 2.19.1
+BuildRequires: python3.11-pyhcl = 0.4.5
 BuildRequires: python3.11-pyjwt = 2.10.1
 BuildRequires: python3.11-pyjwt+crypto = 2.10.1
 BuildRequires: python3.11-pynacl = 1.5.0
 BuildRequires: python3.11-pyopenssl = 24.3.0
 BuildRequires: python3.11-pyproject-hooks = 1.2.0
+BuildRequires: python3.11-pyrad = 2.4
+BuildRequires: python3.11-python3-openid = 3.2.0
+BuildRequires: python3.11-python3-openid+postgresql = 3.2.0
+BuildRequires: python3.11-python3-saml = 1.16.0
 BuildRequires: python3.11-python-daemon = 3.1.2
 BuildRequires: python3.11-python-dateutil = 2.9.0^post0
 BuildRequires: python3.11-python-dsv-sdk = 1.0.4
+BuildRequires: python3.11-python-jose = 3.4.0
+BuildRequires: python3.11-python-jose+cryptography = 3.4.0
+BuildRequires: python3.11-python-jose+pycryptodome = 3.4.0
 BuildRequires: python3.11-python-string-utils = 1.0.0
 BuildRequires: python3.11-pytz = 2024.2
 BuildRequires: python3.11-pyu2f = 0.1.5
@@ -296,6 +329,8 @@ BuildRequires: python3.11-rapidfuzz = 3.9.3
 BuildRequires: python3.11-readme-renderer = 44.0
 BuildRequires: python3.11-receptorctl = 1.5.2
 BuildRequires: python3.11-redis = 5.2.1
+BuildRequires: python3.11-redis+hiredis = 5.2.1
+BuildRequires: python3.11-redis+ocsp = 5.2.1
 BuildRequires: python3.11-referencing = 0.35.1
 BuildRequires: python3.11-requests = 2.32.3
 BuildRequires: python3.11-requests-oauthlib = 2.0.0
@@ -307,6 +342,10 @@ BuildRequires: python3.11-rfc3986 = 2.0.0
 BuildRequires: python3.11-rich = 13.9.4
 BuildRequires: python3.11-rpds-py = 0.22.3
 BuildRequires: python3.11-rsa = 4.9
+BuildRequires: python3.11-ruamel-yaml = 0.18.10
+BuildRequires: python3.11-ruamel-yaml-clib = 0.2.12
+BuildRequires: python3.11-ruamel-yaml+jinja2 = 0.18.10
+BuildRequires: python3.11-ruamel-yaml-jinja2 = 0.2.7
 BuildRequires: python3.11-s3transfer = 0.10.4
 BuildRequires: python3.11-s3transfer+crt = 0.10.4
 BuildRequires: python3.11-scikit-build = 0.17.6
@@ -324,8 +363,19 @@ BuildRequires: python3.11-six = 1.17.0
 BuildRequires: python3.11-slack-sdk = 3.34.0
 BuildRequires: python3.11-smmap = 5.0.2
 BuildRequires: python3.11-sniffio = 1.3.1
+BuildRequires: python3.11-social-auth-app-django = 5.4.1
+BuildRequires: python3.11-social-auth-core = 4.4.1
+BuildRequires: python3.11-social-auth-core+all = 4.4.1
+BuildRequires: python3.11-social-auth-core+allpy3 = 4.4.1
+BuildRequires: python3.11-social-auth-core+azuread = 4.4.1
+BuildRequires: python3.11-social-auth-core+openidconnect = 4.4.1
+BuildRequires: python3.11-social-auth-core+saml = 4.4.1
 BuildRequires: python3.11-sqlparse = 0.5.3
+BuildRequires: python3.11-tabulate = 0.9.0
+BuildRequires: python3.11-tabulate+widechars = 0.9.0
+BuildRequires: python3.11-tacacs-plus = 2.6
 BuildRequires: python3.11-tempora = 5.8.0
+BuildRequires: python3.11-toml = 0.10.2
 BuildRequires: python3.11-tomli-w = 1.2.0
 BuildRequires: python3.11-tomlkit = 0.13.2
 BuildRequires: python3.11-trove-classifiers = 2025.1.15.22
@@ -353,6 +403,7 @@ BuildRequires: python3.11-virtualenv = 20.29.2
 BuildRequires: python3.11-wcwidth = 0.2.13
 BuildRequires: python3.11-websocket-client = 1.8.0
 BuildRequires: python3.11-wrapt = 1.17.0
+BuildRequires: python3.11-xmlsec = 1.3.13
 BuildRequires: python3.11-yarl = 1.18.3
 BuildRequires: python3.11-zipp = 3.21.0
 BuildRequires: python3.11-zope-interface = 7.2
@@ -429,7 +480,8 @@ cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 #cp %{_sourcedir}/settings.py-%{version} %{buildroot}%{service_configdir}/settings.py
 #mkdir -p %{buildroot}%{_prefix}/public
 #rsync -avr /var/lib/awx/public/ %{buildroot}%{_prefix}/public/
-
+rm -f %{buildroot}/opt/awx-rpm/public/static/awx/assets/awx-logo.svg
+cp awx-rpm-logo.svg-%{version} %{buildroot}/opt/awx-rpm/public/static/awx/assets/awx-logo.svg
 
 %clean
 
@@ -440,9 +492,9 @@ cp -a awx/ui/build/awx %{buildroot}/opt/awx-rpm/public/static/
 #%{service_homedir}/.tower_version
 
 %changelog
-* Thu Mar 06 2025 01:29:20 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 11 2025 11:58:16 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
-- (HEAD -> devel, tag: 30.0.0, origin/devel, origin/HEAD) Test
+- (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml
 - Update calver.yml
 - Token
