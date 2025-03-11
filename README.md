@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-core-30.0.0-14.el9.src.rpm
+The lastest package built was python-django-ansible-base-2025.3.7-1.el9.src.rpm
 
-The build completed at Tue Mar 11 12:42:24 AM CET 2025
+The build completed at Tue Mar 11 10:44:37 AM CET 2025
 
 The build was successful.
 
-[Build Log](logs/awx-core-30.0.0-14.el9.src.rpm.log)
+[Build Log](logs/python-django-ansible-base-2025.3.7-1.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---

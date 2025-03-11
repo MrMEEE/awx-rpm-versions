@@ -30,7 +30,7 @@ Summary:        %{summary}
 
 # For official Fedora packages, review which extras should be actually packaged
 # See: https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#Extras
-%pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base authentication,channel-auth,feature-flags,jwt-consumer,oauth2-provider,redis-client,resource-registry
+%pyproject_extras_subpkg -n python%{python3_pkgversion}-django-ansible-base authentication,channel-auth,feature-flags,jwt-consumer,oauth2-provider,redis-client,resource-registry,rest-filters,rbac
 
 
 %prep
@@ -39,7 +39,7 @@ Summary:        %{summary}
 
 %generate_buildrequires
 # Keep only those extras which you actually want to package or use during tests
-%pyproject_buildrequires -x authentication,channel-auth,feature-flags,jwt-consumer,oauth2-provider,redis-client,resource-registry
+%pyproject_buildrequires -x authentication,channel-auth,feature-flags,jwt-consumer,oauth2-provider,redis-client,resource-registry,rest-filters,rbac
 
 
 %build
