@@ -45,8 +45,14 @@ Summary:        %{summary}
 %pyproject_install
 # For official Fedora packages, including files with '*' +auto is not allowed
 # Replace it with a list of relevant Python modules/globs and list extra files in %%files
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/delinea/__init__.py
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/delinea/__pycache__
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/delinea/secrets/__init__.py
+rm -rf $RPM_BUILD_ROOT/usr/lib/python%{python3_pkgversion}/site-packages/delinea/secrets/__pycache__/__init__*
 %pyproject_save_files '*' +auto
-
+sed -i "/__init__.py/d" %{pyproject_files}
+sed -i "/delinea\/__pycache__/d" %{pyproject_files}
+sed -i "/__pycache__\/__init__/d" %{pyproject_files}
 
 %check
 %pyproject_check_import
