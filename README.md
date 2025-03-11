@@ -1,11 +1,11 @@
 ## Latest build
-The lastest package built was awx-core-30.0.0-15.el9.src.rpm
+The lastest package built was awx-ui-30.0.0-21.el9.src.rpm
 
-The build completed at Tue Mar 11 10:39:30 PM CET 2025
+The build completed at Tue Mar 11 10:45:29 PM CET 2025
 
-The build was successful.
+The build was unsuccessful.
 
-[Build Log](logs/awx-core-30.0.0-15.el9.src.rpm.log)
+[Build Log](logs/awx-ui-30.0.0-21.el9.src.rpm.log)
 ## Package build status for version: 30.0.0
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
@@ -42,7 +42,7 @@ awx-ui-30.0.0-17.el9 | awx-ui-30.0.0-17.el9.src.rpm | Built | [Log](logs/awx-ui-
 awx-ui-30.0.0-18.el9 | awx-ui-30.0.0-18.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-18.el9.src.rpm.log)
 awx-ui-30.0.0-19.el9 | awx-ui-30.0.0-19.el9.src.rpm | Built | [Log](logs/awx-ui-30.0.0-19.el9.src.rpm.log)
 awx-ui-30.0.0-20.el9 | awx-ui-30.0.0-20.el9.src.rpm | **Missing** |
-awx-ui-30.0.0-21.el9 | awx-ui-30.0.0-21.el9.src.rpm | **Missing** |
+awx-ui-30.0.0-21.el9 | awx-ui-30.0.0-21.el9.src.rpm | **Missing** | [Log](logs/awx-ui-30.0.0-21.el9.src.rpm.log)
 python3.11-openid-3.2.0-1.el9 | python3-openid-3.2.0-1.el9.src.rpm | Built | [Log](logs/python3-openid-3.2.0-1.el9.src.rpm.log)
 python3.11-saml-1.16.0-1.el9 | python3-saml-1.16.0-1.el9.src.rpm | Built | [Log](logs/python3-saml-1.16.0-1.el9.src.rpm.log)
 python3.11-adal-1.2.7-1.el9 | python-adal-1.2.7-1.el9.src.rpm | Built | [Log](logs/python-adal-1.2.7-1.el9.src.rpm.log)
