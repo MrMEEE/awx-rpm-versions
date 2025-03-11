@@ -14,7 +14,7 @@
 Summary: Ansible AWX-RPM
 Name: awx-rpm
 Version: 30.0.0
-Release: 44%{dist}
+Release: 45%{dist}
 #Source0: awx-30.0.0.tar.gz
 Source1: settings.py-%{version}
 Source2: awx-receiver.service-%{version}
@@ -480,7 +480,7 @@ fi
 #%attr(0755, awx, awx) %{_prefix}
 #%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}
 #%dir %attr(0750, %{service_user}, %{service_group}) %{service_homedir}/venv
-#%{service_homedir}/.tower_version
+/var/lib/awx/.tower_version
 #%dir %attr(0770, %{service_user}, %{service_group}) %{service_logdir}
 %config(noreplace) %{service_configdir}/settings.py
 %config /etc/nginx/conf.d/awx-rpm.conf
@@ -499,7 +499,7 @@ fi
 /var/lib/awx/job_status
 
 %changelog
-* Tue Mar 11 2025 10:53:28 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Tue Mar 11 2025 11:02:12 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 - (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml
