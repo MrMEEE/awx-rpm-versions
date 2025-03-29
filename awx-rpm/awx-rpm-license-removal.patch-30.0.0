@@ -1,6 +1,6 @@
-diff -uNr awx/awx/main/access.py awx-license/awx/main/access.py
---- awx/awx/main/access.py	2025-03-29 09:37:50.928568191 +0100
-+++ awx-license/awx/main/access.py	2025-03-29 09:39:02.075304478 +0100
+diff -uNr awx/main/access.py awx/main/access.py
+--- awx/main/access.py	2025-03-29 09:37:50.928568191 +0100
++++ awx/main/access.py	2025-03-29 09:39:02.075304478 +0100
 @@ -357,10 +357,9 @@
          if validation_info.get('license_type', 'UNLICENSED') == 'open':
              return
