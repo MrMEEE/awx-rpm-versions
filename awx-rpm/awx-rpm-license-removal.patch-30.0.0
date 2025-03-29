@@ -1,0 +1,17 @@
+diff -uNr awx/awx/main/access.py awx-license/awx/main/access.py
+--- awx/awx/main/access.py	2025-03-29 09:37:50.928568191 +0100
++++ awx-license/awx/main/access.py	2025-03-29 09:39:02.075304478 +0100
+@@ -357,10 +357,9 @@
+         if validation_info.get('license_type', 'UNLICENSED') == 'open':
+             return
+ 
+-        if ('test' in sys.argv or 'py.test' in sys.argv[0] or 'jenkins' in sys.argv) and not os.environ.get('SKIP_LICENSE_FIXUP_FOR_TEST', ''):
+-            validation_info['free_instances'] = 99999999
+-            validation_info['time_remaining'] = 99999999
+-            validation_info['grace_period_remaining'] = 99999999
++        validation_info['free_instances'] = 99999999
++        validation_info['time_remaining'] = 99999999
++        validation_info['grace_period_remaining'] = 99999999
+ 
+         if quiet:
+             report_violation = lambda message: None

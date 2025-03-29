@@ -13,8 +13,9 @@
 Summary: Ansible AWX core libraries
 Name: awx-core
 Version: 30.0.0
-Release: 15%{dist}
+Release: 17%{dist}
 Source0: awx-30.0.0.tar.gz
+Patch0: awx-rpm-license-removal.patch
 #Patch0: awx-patch.patch-%{version}
 #Patch1: awx-rpm-extract-strings.patch-%{version}
 #Patch2: awx-rpm-branding.patch-%{version}
@@ -407,7 +408,7 @@ Requires: python%{python3_pkgversion} gettext xmlsec1-openssl xmlsec1 libpq
 %setup -q -n awx
 git checkout -f devel
 git checkout -f %{version}
-#%patch0 -p0
+%patch0 -p0
 #%patch1 -p0
 #%patch2 -p0
 
@@ -476,7 +477,7 @@ ln -s public build
 #/var/lib/awx/job_status
 
 %changelog
-* Tue Mar 11 2025 10:36:58 PM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
+* Sat Mar 29 2025 09:42:11 AM CET +0100 Martin Juhl <m@rtinjuhl.dk> 30.0.0
 - New version build: 30.0.0
 - (HEAD, tag: 30.0.0, origin/devel, origin/HEAD, devel) Test
 - Update calver.yml
