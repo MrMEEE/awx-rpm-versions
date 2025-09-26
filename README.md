@@ -1,16 +1,16 @@
 ## Latest build
-The lastest package built was awx-core-24.6.1-10.el9.src.rpm
+The lastest package built was python-iniconfig-1.1.1-1.el9.src.rpm
 
-The build completed at Fri Sep 26 01:23:27 PM CEST 2025
+The build completed at Fri Sep 26 01:30:32 PM CEST 2025
 
-The build was unsuccessful.
+The build was successful.
 
-[Build Log](logs/awx-core-24.6.1-10.el9.src.rpm.log)
+[Build Log](logs/python-iniconfig-1.1.1-1.el9.src.rpm.log)
 ## Package build status for version: 24.6.1
 Package | Source RPM | Status | Log
 :--- | :--- | :--- | :---
 awx-core-24.6.1-10.el9 | awx-core-24.6.1-10.el9.src.rpm | **Missing** | [Log](logs/awx-core-24.6.1-10.el9.src.rpm.log)
-awx-core-24.6.1-1.el9 | awx-core-24.6.1-1.el9.src.rpm | **Missing** |
+awx-core-24.6.1-1.el9 | awx-core-24.6.1-1.el9.src.rpm | **Missing** | [Log](logs/awx-core-24.6.1-1.el9.src.rpm.log)
 awx-receptor-1.4.7-1.el9 | awx-receptor-1.4.7-1.el9.src.rpm | Built |
 awx-rpm-24.6.1-1.el9 | awx-rpm-24.6.1-1.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-1.el9.src.rpm.log)
 awx-rpm-24.6.1-2.el9 | awx-rpm-24.6.1-2.el9.src.rpm | Built | [Log](logs/awx-rpm-24.6.1-2.el9.src.rpm.log)
@@ -128,7 +128,7 @@ python3.11-importlib-resources-6.4.0-1.el9 | python-importlib-resources-6.4.0-1.
 python3.11-incremental-22.10.0-1.el9 | python-incremental-22.10.0-1.el9.src.rpm | Built | [Log](logs/python-incremental-22.10.0-1.el9.src.rpm.log)
 python3.11-inflect-7.0.0-1.el9 | python-inflect-7.0.0-1.el9.src.rpm | Built | [Log](logs/python-inflect-7.0.0-1.el9.src.rpm.log)
 python3.11-inflection-0.5.1-1.el9 | python-inflection-0.5.1-1.el9.src.rpm | Built | [Log](logs/python-inflection-0.5.1-1.el9.src.rpm.log)
-python3.11-iniconfig-2.1.0-1.el9 | python-iniconfig-2.1.0-1.el9.src.rpm | **Missing** | [Log](logs/python-iniconfig-2.1.0-1.el9.src.rpm.log)
+python3.11-iniconfig-1.1.1-1.el9 | python-iniconfig-1.1.1-1.el9.src.rpm | Built | [Log](logs/python-iniconfig-1.1.1-1.el9.src.rpm.log)
 python3.11-installer-0.7.0-1.el9 | python-installer-0.7.0-1.el9.src.rpm | Built | [Log](logs/python-installer-0.7.0-1.el9.src.rpm.log)
 python3.11-irc-20.3.1-1.el9 | python-irc-20.3.1-1.el9.src.rpm | Built | [Log](logs/python-irc-20.3.1-1.el9.src.rpm.log)
 python3.11-isodate-0.6.1-1.el9 | python-isodate-0.6.1-1.el9.src.rpm | Built | [Log](logs/python-isodate-0.6.1-1.el9.src.rpm.log)
@@ -278,4 +278,4 @@ python3.11-yarl-1.9.4-1.el9 | python-yarl-1.9.4-1.el9.src.rpm | Built | [Log](lo
 python3.11-zipp-3.17.0-1.el9 | python-zipp-3.17.0-1.el9.src.rpm | Built | [Log](logs/python-zipp-3.17.0-1.el9.src.rpm.log)
 python3.11-zope-interface-6.2-1.el9 | python-zope-interface-6.2-1.el9.src.rpm | Built | [Log](logs/python-zope-interface-6.2-1.el9.src.rpm.log)
 
-268 total packages, 262 packages built successfully, 6 packages left to fix
+268 total packages, 263 packages built successfully, 5 packages left to fix

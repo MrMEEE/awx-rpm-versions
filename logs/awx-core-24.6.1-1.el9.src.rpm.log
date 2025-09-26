@@ -1,0 +1,26 @@
+INFO: mock.py version 5.5 starting (python version = 3.9.21, NVR = mock-5.5-1.el9), args: /usr/libexec/mock/mock -r epel-9-x86_64 --enable-network --addrepo /opt/awx-rpm-v2/rpmbuilds/24.6.1/RPMS/ --resultdir /opt/awx-rpm-v2/rpmbuilds/24.6.1/RPMS-TMP/ --no-clean /opt/awx-rpm-v2/rpmbuilds/24.6.1/SRPMS/awx-core-24.6.1-1.el9.src.rpm --rpmbuild-opts=--nocheck --no-cleanup-after
+Start(bootstrap): init plugins
+INFO: selinux enabled
+Finish(bootstrap): init plugins
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/opt/awx-rpm-v2/rpmbuilds/24.6.1/SRPMS/awx-core-24.6.1-1.el9.src.rpm)  Config(rhel+epel-9-x86_64)
+Mock Version: 5.5
+INFO: Mock Version: 5.5
+INFO: Package manager dnf detected and used (fallback)
+INFO: Package manager dnf detected and used (direct choice)
+ERROR: Exception(/opt/awx-rpm-v2/rpmbuilds/24.6.1/SRPMS/awx-core-24.6.1-1.el9.src.rpm) Config(rhel+epel-9-x86_64) 0 minutes 0 seconds
+INFO: Results and/or logs in: /opt/awx-rpm-v2/rpmbuilds/24.6.1/RPMS-TMP/
+ERROR: Command failed: 
+ # /usr/bin/systemd-nspawn -q -M d5663e3b42ca4efe8e0385c42c1dbe83 -D /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root -a --console=pipe --setenv=TERM=vt100 --setenv=SHELL=/bin/bash --setenv=HOME=/builddir --setenv=HOSTNAME=mock --setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin '--setenv=PROMPT_COMMAND=printf "\033]0;<mock-chroot>\007"' '--setenv=PS1=<mock-chroot> \s-\v\$ ' --setenv=LANG=C.UTF-8 --resolv-conf=off /bin/rpm -qa --root /var/lib/mock/rhel+epel-9-x86_64/root
+Directory tree /var/lib/mock/rhel+epel-9-x86_64-bootstrap/root is currently busy.
+
+Directory walk started
+Directory walk done - 340 packages
+Temporary output repo path: /opt/awx-rpm-v2/rpmbuilds/24.6.1/RPMS/.repodata/
+Preparing sqlite DBs
+Pool started (with 5 workers)
+Interrupt caught: Terminating...
