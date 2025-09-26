@@ -2,14 +2,14 @@
 %global python3_pkgversion 3.11
 
 Name:           python-iniconfig
-Version:        1.1.1
+Version:        2.1.0
 Release:        %autorelease
-Summary:        iniconfig: brain-dead simple config-ini parsing
+Summary:        brain-dead simple config-ini parsing
 
 # Check if the automatically generated License and its spelling is correct for Fedora
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/LicensingGuidelines/
 License:        gpl
-URL:            http://github.com/RonnyPfannschmidt/iniconfig
+URL:            https://github.com/pytest-dev/iniconfig
 Source:         %{pypi_source iniconfig}
 
 BuildArch:      noarch
